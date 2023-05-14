@@ -3,7 +3,7 @@ package com.ciphertext.medicalinformationbackend.model;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 /**
  * @author Sadman
@@ -11,13 +11,13 @@ import javax.persistence.*;
 @Getter
 @Setter
 @Entity
-@Table(name="districts")
+@Table(name="district")
 public class District {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @OneToOne(cascade = CascadeType.MERGE)
+    @ManyToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "division_id")
     private Division division;
 

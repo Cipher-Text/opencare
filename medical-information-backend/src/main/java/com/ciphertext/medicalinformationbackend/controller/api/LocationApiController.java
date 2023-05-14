@@ -4,6 +4,7 @@ import com.ciphertext.medicalinformationbackend.exception.RecordNotFoundExceptio
 import com.ciphertext.medicalinformationbackend.iservice.LocationService;
 import com.ciphertext.medicalinformationbackend.model.District;
 import com.ciphertext.medicalinformationbackend.model.Division;
+import com.ciphertext.medicalinformationbackend.model.Upazila;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.ui.Model;
@@ -18,7 +19,7 @@ import java.util.List;
  * @author Sadman
  */
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/v1")
 public class LocationApiController {
     @Autowired
     LocationService service;
@@ -50,5 +51,22 @@ public class LocationApiController {
             throws RecordNotFoundException {
         District district = service.getDistrictById(districtId);
         return ResponseEntity.ok().body(district);
+    }
+
+    @GetMapping("/districts/{id}/upazilas")
+    public List<Upazila> getAllUpazilasByDistrictId(@PathVariable(value = "id") int districtId) throws RecordNotFoundException {
+        return service.getAllUpazilasByDistrictId(districtId);
+    }
+
+    @GetMapping("/upazilas")
+    public List<Upazila> getAllUpazilas(Model model) {
+        return service.getAllUpazilas();
+    }
+
+    @GetMapping("/upazilas/{id}")
+    public ResponseEntity<Upazila> getUpazilaById(@PathVariable(value = "id") int upazilaId)
+            throws RecordNotFoundException {
+        Upazila upazila = service.getUpazilaById(upazilaId);
+        return ResponseEntity.ok().body(upazila);
     }
 }

@@ -1,0 +1,38 @@
+id,name,abbreviation,degree_type
+1,Associate of Science in Medical Assisting,ASMA,Undergraduate
+2,Associate of Applied Science in Medical Assisting,AASMA,Undergraduate
+3,Associate of Science in Medical Laboratory Technology,ASMlt,Undergraduate
+4,Associate of Applied Science in Medical Laboratory Technology,AASMLT,Undergraduate
+5,Bachelor of Science in Nursing,BSN,Undergraduate
+6,Bachelor of Medicine, Bachelor of Surgery,MBBS,Undergraduate
+7,Bachelor of Dental Surgery,BDS,Undergraduate
+8,Master of Science in Nursing,MSN,Graduate
+9,Doctor of Nursing Practice,DNP,Graduate
+10,Doctor of Veterinary Medicine,DVM,Graduate
+11,Doctor of Chiropractic,DC,Graduate
+12,Doctor of Optometry,OD,Graduate
+13,Doctor of Pharmacy,PharmD,Graduate
+14,Doctor of Physical Therapy,DPT,Graduate
+15,Master of Occupational Therapy,MOT,Graduate
+16,Doctor of Occupational Therapy,OTD,Graduate
+17,Doctor of Podiatric Medicine,DPM,Graduate
+18,Master of Social Work,MSW,Graduate
+19,Master of Public Health,MPH,Graduate
+20,Master of Science in Health Informatics,MSHI,Graduate
+21,Master of Science in Health Administration,MSHA,Graduate
+22,Master of Health Science,MHS,Graduate
+23,Master of Medical Science,MMS,Graduate
+24,Master of Science in Physician Assistant Studies,MSPAS,Graduate
+25,Doctor of Medicine,MD,Postgraduate
+26,Doctor of Osteopathic Medicine,DO,Postgraduate
+27,Doctor of Dental Medicine,DMD,Postgraduate
+28,Doctor of Dental Surgery,DDS,Postgraduate
+29,Doctor of Clinical Psychology,DClinPsy,Postgraduate
+30,Doctor of Psychology,PsyD,Postgraduate
+31,Doctor of Social Work,DSW,Postgraduate
+32,Doctor of Public Health,DrPH,Postgraduate
+33,Doctor of Medical Science,DMS,Postgraduate
+34,Doctor of Health Science,DHS,Postgraduate
+35,Doctor of Science in Medicine,ScD,Postgraduate
+36,Doctor of Medical Physics,DMP,Postgraduate
+37,Doctor of Medical Science in Physician Assistant Studies,DMScPA,Postgraduate

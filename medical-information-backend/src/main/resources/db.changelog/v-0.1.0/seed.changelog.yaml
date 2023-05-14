@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - changeSet:
+      id: a9294090-5637-45a3-933e-dfc037ba0b16
+      author: sadman
+      changes:
+        - loadData:
+            file: seeds/degree.csv
+            relativeToChangelogFile: true
+            tableName: degree
+            quotchar: '"'
+        - loadData:
+            file: seeds/district.csv
+            relativeToChangelogFile: true
+            tableName: district
+            quotchar: '"'
+        - loadData:
+            file: seeds/division.csv
+            relativeToChangelogFile: true
+            tableName: division
+            quotchar: '"'
+        - loadData:
+            file: seeds/upazila.csv
+            relativeToChangelogFile: true
+            tableName: upazila
+            quotchar: '"'

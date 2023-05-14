@@ -1,0 +1,55 @@
+databaseChangeLog:
+  - changeSet:
+      id: 51b4847d-619b-4c2b-9a73-234f7a2f3082
+      author: sadman
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: district_id_pk
+                  name: id
+                  type: serial
+              - column:
+                  constraints:
+                    nullable: false
+                  name: division_id
+                  type: int4
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: bn_name
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: lat
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: lon
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: url
+                  type: varchar(100)
+            tableName: district
+        - addForeignKeyConstraint:
+            baseColumnNames: division_id
+            baseTableName: district
+            constraintName: district_fk_division
+            deferrable: false
+            initiallyDeferred: false
+            onUpdate: CASCADE
+            referencedColumnNames: id
+            referencedTableName: division
+            validate: true

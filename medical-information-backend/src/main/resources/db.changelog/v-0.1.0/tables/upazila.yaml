@@ -1,0 +1,45 @@
+databaseChangeLog:
+  - changeSet:
+      id: d5cdc246-c203-4285-9dbe-eeb61ddccaf5
+      author: sadman
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: upazila_id_pk
+                  name: id
+                  type: serial
+              - column:
+                  constraints:
+                    nullable: false
+                  name: district_id
+                  type: int4
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: bn_name
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: url
+                  type: varchar(100)
+            tableName: upazila
+        - addForeignKeyConstraint:
+            baseColumnNames: district_id
+            baseTableName: upazila
+            constraintName: upazila_fk_district
+            deferrable: false
+            initiallyDeferred: false
+            onUpdate: CASCADE
+            referencedColumnNames: id
+            referencedTableName: district
+            validate: true

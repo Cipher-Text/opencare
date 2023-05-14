@@ -24,6 +24,10 @@ public class Institution {
     @JoinColumn(name = "district_id")
     private District district;
 
+    @ManyToOne(cascade = CascadeType.MERGE)
+    @JoinColumn(name = "type_id")
+    private Type type;
+
     @Column(name="acronym")
     private String acronym;
 

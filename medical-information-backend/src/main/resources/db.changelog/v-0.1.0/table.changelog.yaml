@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - include:
+      file: tables/degree.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: tables/district.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: tables/division.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: tables/upazila.yaml
+      relativeToChangelogFile: true

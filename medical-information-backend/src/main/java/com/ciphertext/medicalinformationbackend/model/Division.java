@@ -2,7 +2,7 @@ package com.ciphertext.medicalinformationbackend.model;
 
 import lombok.*;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 /**
  * @author Sadman
@@ -10,7 +10,7 @@ import javax.persistence.*;
 @Getter
 @Setter
 @Entity
-@Table(name="divisions")
+@Table(name="division")
 public class Division {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

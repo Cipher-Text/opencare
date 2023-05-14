@@ -1,0 +1,30 @@
+databaseChangeLog:
+  - changeSet:
+      id: 90008ad5-a47b-4a38-a6d6-118e2833f02c
+      author: sadman
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: degree_id_pk
+                  name: id
+                  type: serial
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: abbreviation
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: degree_type
+                  type: varchar(100)
+            tableName: degree

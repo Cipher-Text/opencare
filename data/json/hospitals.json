@@ -1,0 +1,4139 @@
+[
+    {
+        "id": 1,
+        "name": "National Center For Control Of Rheumatic Fever & Heart Disease",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 2,
+        "name": "National Asthma Center",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 85
+    },
+    {
+        "id": 3,
+        "name": "Sheikh Rasel Gastroliver Institute & Hospital",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 4,
+        "name": "Sheikh Hasina National Institute of Burn and Plastic Surgery",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 500
+    },
+    {
+        "id": 5,
+        "name": "100 bed Burn Unit at DMCH",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 6,
+        "name": "Sheikh Fazilatunnessa Mujib Eye Hospital And Training Institute",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 7,
+        "name": "Shaheed Sheikh Abu Naser Specialized Hospital",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 8,
+        "name": "Pabna Mental Hospital",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 500
+    },
+    {
+        "id": 9,
+        "name": "Bangladesh Institute of Tropical and Infectious Disease",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 10,
+        "name": "National Institute Of Cancer Research And Hospital",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 300
+    },
+    {
+        "id": 11,
+        "name": "National Institute of Diseases of the Chest & Hospital",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 170
+    },
+    {
+        "id": 12,
+        "name": "Institute of Child and Mother Health, Matuail",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 300
+    },
+    {
+        "id": 13,
+        "name": "National Institute Of Cardiovascular Disease",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 1200
+    },
+    {
+        "id": 14,
+        "name": "National Institute of Kidney Disease and Urology",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 150
+    },
+    {
+        "id": 15,
+        "name": "National Institute Of Mental Health",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 200
+    },
+    {
+        "id": 16,
+        "name": "National Institute Of Ophthalmology",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 17,
+        "name": "National Institute of Traumatology and Orthopaedic Rehabilitation",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 400
+    },
+    {
+        "id": 18,
+        "name": "Bangladesh Institute of Child Health",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 19,
+        "name": "National Institute of Neurosciences & Hospital",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 450
+    },
+    {
+        "id": 20,
+        "name": "National Institute of Ear, Nose and Throat",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 21,
+        "name": "Central Skin And Social Health Care, Agrabad, Chittagong",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 22,
+        "name": "Maternal and Child Health Training Institute",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 173
+    },
+    {
+        "id": 23,
+        "name": "Dhaka Shishu Hospital",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 650
+    },
+    {
+        "id": 24,
+        "name": "BIRDEM General Hospital",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 600
+    },
+    {
+        "id": 25,
+        "name": "Barisal Chest Disease Clinic",
+        "district": "Barisal",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 26,
+        "name": "Bhola Chest Disease Clinic",
+        "district": "Bhola",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 27,
+        "name": "Patuakhali Chest Disease Clinic",
+        "district": "Patuakhali",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 28,
+        "name": "Pirojpur Chest Disease Clinic",
+        "district": "Pirojpur",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 29,
+        "name": "Brahmanbaria Chest Disease Clinic",
+        "district": "Brahmanbaria",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 30,
+        "name": "Chandpur Chest Disease Clinic",
+        "district": "Chandpur",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 31,
+        "name": "Chattogram Chest Disease Clinic",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 32,
+        "name": "Coxs Bazar Chest Disease Clinic",
+        "district": "Coxsbazar",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 33,
+        "name": "Kumilla Chest Disease Clinic",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 34,
+        "name": "Feni Chest Disease Clinic",
+        "district": "Feni",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 35,
+        "name": "Noakhali Chest Disease Clinic",
+        "district": "Noakhali",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 36,
+        "name": "Rangamati Chest Disease Clinic",
+        "district": "Rangamati",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 37,
+        "name": "Faridpur Chest Disease Clinic",
+        "district": "Faridpur",
+        "type": "Government",
+        "numberOfBed": 4
+    },
+    {
+        "id": 38,
+        "name": "Gopalganj Chest Disease Clinic",
+        "district": "Gopalganj",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 39,
+        "name": "Kishoreganj Chest Disease Clinic",
+        "district": "Kishoreganj",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 40,
+        "name": "Madaripur Chest Disease Clinic",
+        "district": "Madaripur",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 41,
+        "name": "Munshiganj Chest Disease Clinic",
+        "district": "Munshiganj",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 42,
+        "name": "Tangail Chest Disease Clinic",
+        "district": "Tangail",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 43,
+        "name": "Bagerhat Chest Disease Clinic",
+        "district": "Bagerhat",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 44,
+        "name": "Chuadanga Chest Disease Clinic",
+        "district": "Chuadanga",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 45,
+        "name": "Jashore Chest Disease Clinic",
+        "district": "Jashore",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 46,
+        "name": "Khulna Chest Disease Clinic",
+        "district": "Khulna",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 47,
+        "name": "Kushtia Chest Disease Clinic",
+        "district": "Kushtia",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 48,
+        "name": "Magura Chest Disease Clinic",
+        "district": "Magura",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 49,
+        "name": "Meherpur Chest Disease Clinic",
+        "district": "Meherpur",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 50,
+        "name": "Satkhira Chest Disease Clinic",
+        "district": "Satkhira",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 51,
+        "name": "Jamalpur Chest Disease Clinic",
+        "district": "Jamalpur",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 52,
+        "name": "Mymensingh Chest Disease Clinic",
+        "district": "Mymensingh",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 53,
+        "name": "Bogura Chest Disease Clinic",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 54,
+        "name": "Chapai Nawabganj Chest Disease Clinic",
+        "district": "Chapainawabganj",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 55,
+        "name": "Natore Chest Disease Clinic",
+        "district": "Natore",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 56,
+        "name": "Pabna Chest Disease Clinic",
+        "district": "Pabna",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 57,
+        "name": "Rajshahi Chest Disease Clinic",
+        "district": "Rajshahi",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 58,
+        "name": "Sirajganj Chest Disease Clinic",
+        "district": "Sirajganj",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 59,
+        "name": "Dinajpur Chest Disease Clinic",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 60,
+        "name": "Gaibandha Chest Disease Clinic",
+        "district": "Gaibandha",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 61,
+        "name": "Kurigram Chest Disease Clinic",
+        "district": "Kurigram",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 62,
+        "name": "Rangpur Chest Disease Clinic",
+        "district": "Rangpur",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 63,
+        "name": "Thakurgaon Chest Disease Clinic",
+        "district": "Thakurgaon",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 64,
+        "name": "Moulvibazar Chest Disease Clinic",
+        "district": "Moulvibazar",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 65,
+        "name": "Sunamganj Chest Disease Clinic",
+        "district": "Sunamganj",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 66,
+        "name": "Sylhet Chest Disease Clinic",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 67,
+        "name": "Barisal Chest Disease Hospital",
+        "district": "Barisal",
+        "type": "Government",
+        "numberOfBed": 20
+    },
+    {
+        "id": 68,
+        "name": "Brahmanbaria Chest Disease Hospital",
+        "district": "Brahmanbaria",
+        "type": "Government",
+        "numberOfBed": 20
+    },
+    {
+        "id": 69,
+        "name": "Faujderhat Chest Disease Hospital",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 70,
+        "name": "Feni Chest Disease Hospital",
+        "district": "Feni",
+        "type": "Government",
+        "numberOfBed": 20
+    },
+    {
+        "id": 71,
+        "name": "Tb Control And Training Institute",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 72,
+        "name": "250 bed TB Hospital (National TB Control Project),\r\nShaymoly",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 73,
+        "name": "Faridpur Tb Segregation Hospital",
+        "district": "Faridpur",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 74,
+        "name": "Jashore Chest Disease Hospital",
+        "district": "Jashore",
+        "type": "Government",
+        "numberOfBed": 20
+    },
+    {
+        "id": 75,
+        "name": "Khulna Chest Disease Hospital",
+        "district": "Khulna",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 76,
+        "name": "Bogura Chest Disease Hospital",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 20
+    },
+    {
+        "id": 77,
+        "name": "Pabna Chest Disease Hospital",
+        "district": "Pabna",
+        "type": "Government",
+        "numberOfBed": 20
+    },
+    {
+        "id": 78,
+        "name": "Rajshahi Chest Disease Hospital",
+        "district": "Rajshahi",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 79,
+        "name": "Rangpur Chest Disease Hospital",
+        "district": "Rangpur",
+        "type": "Government",
+        "numberOfBed": 20
+    },
+    {
+        "id": 80,
+        "name": "Sylhet Chest Disease Hospital",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 56
+    },
+    {
+        "id": 81,
+        "name": "Chattogram Infectious Disease Hospital",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 20
+    },
+    {
+        "id": 82,
+        "name": "Dhaka Infectious Disease Hospital",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 83,
+        "name": "Khulna Infectious Diseases Hospital",
+        "district": "Khulna",
+        "type": "Government",
+        "numberOfBed": 20
+    },
+    {
+        "id": 84,
+        "name": "Rajshahi Infectious Disease Hospital",
+        "district": "Rajshahi",
+        "type": "Government",
+        "numberOfBed": 20
+    },
+    {
+        "id": 85,
+        "name": "Sylhet Infectious Disease Hospital",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 20
+    },
+    {
+        "id": 86,
+        "name": "Dhaka Leprosy Hospital",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 30
+    },
+    {
+        "id": 87,
+        "name": "Nilphamari Leprosy Hospital",
+        "district": "Nilphamari",
+        "type": "Government",
+        "numberOfBed": 20
+    },
+    {
+        "id": 88,
+        "name": "Sylhet Leprosy Hospital",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 80
+    },
+    {
+        "id": 89,
+        "name": "Sahidnagar 20 bed Truma Center",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 20
+    },
+    {
+        "id": 90,
+        "name": "Feni Trauma Center",
+        "district": "Feni",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 91,
+        "name": "Sahidnagar Trauma Center",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 92,
+        "name": "Faridpur Trauma Center",
+        "district": "Faridpur",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 93,
+        "name": "Bhaluka Trauma Center",
+        "district": "Mymensingh",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 94,
+        "name": "Sirajganj Trauma Center",
+        "district": "Sirajganj",
+        "type": "Government",
+        "numberOfBed": 0
+    },
+    {
+        "id": 95,
+        "name": "Dhaka Medical College Hospital",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 1700
+    },
+    {
+        "id": 96,
+        "name": "Chittagong Medical College Hospital",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 1010
+    },
+    {
+        "id": 97,
+        "name": "MAG Osmani Medical College Hospital",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 900
+    },
+    {
+        "id": 98,
+        "name": "Mymensingh Medical College Hospital",
+        "district": "Mymensingh",
+        "type": "Government",
+        "numberOfBed": 800
+    },
+    {
+        "id": 99,
+        "name": "Sher-e-Bangla Medical College Hospital",
+        "district": "Barisal",
+        "type": "Government",
+        "numberOfBed": 600
+    },
+    {
+        "id": 100,
+        "name": "Sir Salimullh Medical College Hospital",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 600
+    },
+    {
+        "id": 101,
+        "name": "Rajshahi Medical College Hospital",
+        "district": "Rajshahi",
+        "type": "Government",
+        "numberOfBed": 550
+    },
+    {
+        "id": 102,
+        "name": "Rangpur Medical College Hospital",
+        "district": "Rangpur",
+        "type": "Government",
+        "numberOfBed": 1000
+    },
+    {
+        "id": 103,
+        "name": "Bogra Medical College Hospital",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 500
+    },
+    {
+        "id": 104,
+        "name": "Shahid Sohorawardi medical college & hospital",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 375
+    },
+    {
+        "id": 105,
+        "name": "Comilla Medical College Hospital",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 500
+    },
+    {
+        "id": 106,
+        "name": "Faridpur Medical College Hospital",
+        "district": "Faridpur",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 107,
+        "name": "Khulna Medical College Hospital",
+        "district": "Khulna",
+        "type": "Government",
+        "numberOfBed": 500
+    },
+    {
+        "id": 108,
+        "name": "Dinajpur Medical College Hospital",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 109,
+        "name": "Bagerhat Sadar hospital",
+        "district": "Bagerhat",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 110,
+        "name": "Bandarban Sadar hospital",
+        "district": "Bandarban",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 111,
+        "name": "Barguna Sadar hospital",
+        "district": "Barguna",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 112,
+        "name": "General Hospital",
+        "district": "Barisal",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 113,
+        "name": "Bhola Sadar hospital",
+        "district": "Bhola",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 114,
+        "name": "250 bed Mohammad Ali Hospital, Bogra",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 115,
+        "name": "Brahmanbaria Sadar Hospital",
+        "district": "Brahmanbaria",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 116,
+        "name": "Chandpur Sadar hospital",
+        "district": "Chandpur",
+        "type": "Government",
+        "numberOfBed": 200
+    },
+    {
+        "id": 117,
+        "name": "Chapai Nowabganj Sadar hospital",
+        "district": "Chapainawabganj",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 118,
+        "name": "Chittagong General Hospital",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 150
+    },
+    {
+        "id": 119,
+        "name": "Chuadanga Sadar hospital",
+        "district": "Chuadanga",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 120,
+        "name": "General Hospital",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 121,
+        "name": "Adhunic Sadar Hospital, Coxs Bazar",
+        "district": "Coxsbazar",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 122,
+        "name": "Dinajpur Sadar Hospital",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 123,
+        "name": "General Hospital",
+        "district": "Faridpur",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 124,
+        "name": "Feni Sadar Hospital",
+        "district": "Feni",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 125,
+        "name": "Gaibanda Sadar hospital",
+        "district": "Gaibandha",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 126,
+        "name": "Gazipur Sadar Hospital",
+        "district": "Gazipur",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 127,
+        "name": "Gopalganj Sadar Hospital",
+        "district": "Gopalganj",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 128,
+        "name": "Hobiganj Sadar hospital",
+        "district": "Habiganj",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 129,
+        "name": "Jamalpur Sadar Hospital",
+        "district": "Jamalpur",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 130,
+        "name": "Jessore Sadar hospital",
+        "district": "Jashore",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 131,
+        "name": "Jhalokhati Sadar hospital",
+        "district": "Jhalakathi",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 132,
+        "name": "Jhenaidah Sadar hospital",
+        "district": "Jhenaidah",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 133,
+        "name": "Joypurhat Sadar hospital",
+        "district": "Joypurhat",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 134,
+        "name": "Adhunic Zilla Sadar hospital, Khagrachari",
+        "district": "Khagrachhari",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 135,
+        "name": "Khulna General Hospital",
+        "district": "Khulna",
+        "type": "Government",
+        "numberOfBed": 150
+    },
+    {
+        "id": 136,
+        "name": "Kishoreganj Sadar Hospital",
+        "district": "Kishoreganj",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 137,
+        "name": "Kurigram Sadar hospital",
+        "district": "Kurigram",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 138,
+        "name": "Kushtia Sadar hospital",
+        "district": "Kushtia",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 139,
+        "name": "Lalmonirhat Sadar hospital",
+        "district": "Lalmonirhat",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 140,
+        "name": "Laxmipur Sadar Hospital",
+        "district": "Lakshmipur",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 141,
+        "name": "Madaripur Sadar Hospital",
+        "district": "Madaripur",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 142,
+        "name": "Magura Sadar hospital",
+        "district": "Magura",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 143,
+        "name": "Manikganj Sadar Hospital",
+        "district": "Manikganj",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 144,
+        "name": "Meherpur Sadar hospital",
+        "district": "Meherpur",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 145,
+        "name": "Moulovi Bazar Sadar hospital",
+        "district": "Moulvibazar",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 146,
+        "name": "Munshiganj Sadar Hospital",
+        "district": "Munshiganj",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 147,
+        "name": "Naogaon Sadar hospital",
+        "district": "Naogaon",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 148,
+        "name": "Narail Sadar hospital",
+        "district": "Narail",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 149,
+        "name": "Narayanganj General Hospital",
+        "district": "Narayanganj",
+        "type": "Government",
+        "numberOfBed": 200
+    },
+    {
+        "id": 150,
+        "name": "Narayanganj Sadar Hospitall",
+        "district": "Narayanganj",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 151,
+        "name": "Narshindi Zilla Hospital",
+        "district": "Narsingdi",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 152,
+        "name": "Narshindi Sadar Hospital",
+        "district": "Narsingdi",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 153,
+        "name": "Natore Sadar hospital",
+        "district": "Natore",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 154,
+        "name": "Netrokona Sadar Hospital",
+        "district": "Netrokona",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 155,
+        "name": "Nilphamari Sadar hospital",
+        "district": "Nilphamari",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 156,
+        "name": "Noakhali General Hospital",
+        "district": "Noakhali",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 157,
+        "name": "Pabna Sadar hospital",
+        "district": "Pabna",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 158,
+        "name": "Panchagar Sadar hospital",
+        "district": "Panchagarh",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 159,
+        "name": "Patuakhali Sadar hospital",
+        "district": "Patuakhali",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 160,
+        "name": "Pirojpur Sadar hospital",
+        "district": "Pirojpur",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 161,
+        "name": "Rajbari Sadar Hospital",
+        "district": "Rajbari",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 162,
+        "name": "Rangamati General Hospital",
+        "district": "Rangamati",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 163,
+        "name": "Satkhira Sadar hospital",
+        "district": "Satkhira",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 164,
+        "name": "Shariatpur Sadar Hospital",
+        "district": "Shariatpur",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 165,
+        "name": "Sherpur Sadar Hospital",
+        "district": "Sherpur",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 166,
+        "name": "Serajgonj General Hospital",
+        "district": "Sirajganj",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 167,
+        "name": "Sunamganj Sadar hospital",
+        "district": "Sunamganj",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 168,
+        "name": "Sylhet Sadar Hospital",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 169,
+        "name": "Tangail Sadar Hospital",
+        "district": "Tangail",
+        "type": "Government",
+        "numberOfBed": 250
+    },
+    {
+        "id": 170,
+        "name": "Thakorgaon Sadar Hospital",
+        "district": "Thakurgaon",
+        "type": "Government",
+        "numberOfBed": 100
+    },
+    {
+        "id": 171,
+        "name": "Upazila Health Complex",
+        "district": "Bagerhat",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 172,
+        "name": "Upazila Health Complex",
+        "district": "Bagerhat",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 173,
+        "name": "Upazila Health Complex",
+        "district": "Bagerhat",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 174,
+        "name": "Upazila Health Complex",
+        "district": "Bagerhat",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 175,
+        "name": "Upazila Health Complex",
+        "district": "Bagerhat",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 176,
+        "name": "Upazila Health Complex",
+        "district": "Bagerhat",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 177,
+        "name": "Upazila Health Complex",
+        "district": "Bagerhat",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 178,
+        "name": "Upazila Health Complex",
+        "district": "Bagerhat",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 179,
+        "name": "Upazila Health Complex",
+        "district": "Bandarban",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 180,
+        "name": "Upazila Health Complex",
+        "district": "Bandarban",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 181,
+        "name": "Upazila Health Complex",
+        "district": "Bandarban",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 182,
+        "name": "Upazila Health Complex",
+        "district": "Bandarban",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 183,
+        "name": "Upazila Health Complex",
+        "district": "Bandarban",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 184,
+        "name": "Upazila Health Complex",
+        "district": "Bandarban",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 185,
+        "name": "Upazila Health Complex",
+        "district": "Barguna",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 186,
+        "name": "Upazila Health Complex",
+        "district": "Barguna",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 187,
+        "name": "Upazila Health Complex",
+        "district": "Barguna",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 188,
+        "name": "Upazila Health Complex",
+        "district": "Barguna",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 189,
+        "name": "Upazila Health Complex",
+        "district": "Barisal",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 190,
+        "name": "Upazila Health Complex",
+        "district": "Barisal",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 191,
+        "name": "Upazila Health Complex",
+        "district": "Barisal",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 192,
+        "name": "Upazila Health Complex",
+        "district": "Barisal",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 193,
+        "name": "Upazila Health Complex",
+        "district": "Barisal",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 194,
+        "name": "Upazila Health Complex",
+        "district": "Barisal",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 195,
+        "name": "Upazila Health Complex",
+        "district": "Barisal",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 196,
+        "name": "Upazila Health Complex",
+        "district": "Barisal",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 197,
+        "name": "Upazila Health Complex",
+        "district": "Barisal",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 198,
+        "name": "Upazila Health Complex",
+        "district": "Bhola",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 199,
+        "name": "Upazila Health Complex",
+        "district": "Bhola",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 200,
+        "name": "Upazila Health Complex",
+        "district": "Bhola",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 201,
+        "name": "Upazila Health Complex",
+        "district": "Bhola",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 202,
+        "name": "Upazila Health Complex",
+        "district": "Bhola",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 203,
+        "name": "Upazila Health Complex",
+        "district": "Bhola",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 204,
+        "name": "Upazila Health Complex",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 205,
+        "name": "Upazila Health Complex",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 206,
+        "name": "Upazila Health Complex",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 207,
+        "name": "Upazila Health Complex",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 208,
+        "name": "Upazila Health Complex",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 209,
+        "name": "Upazila Health Complex",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 210,
+        "name": "Upazila Health Complex",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 211,
+        "name": "Upazila Health Complex",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 212,
+        "name": "Upazila Health Complex",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 213,
+        "name": "Upazila Health Complex",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 214,
+        "name": "Upazila Health Complex",
+        "district": "Bogura",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 215,
+        "name": "Upazila Health Complex",
+        "district": "Brahmanbaria",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 216,
+        "name": "Upazila Health Complex",
+        "district": "Brahmanbaria",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 217,
+        "name": "Upazila Health Complex",
+        "district": "Brahmanbaria",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 218,
+        "name": "Upazila Health Complex",
+        "district": "Brahmanbaria",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 219,
+        "name": "Upazila Health Complex",
+        "district": "Brahmanbaria",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 220,
+        "name": "Upazila Health Complex",
+        "district": "Brahmanbaria",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 221,
+        "name": "Upazila Health Complex",
+        "district": "Brahmanbaria",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 222,
+        "name": "Upazila Health Complex",
+        "district": "Chandpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 223,
+        "name": "Upazila Health Complex",
+        "district": "Chandpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 224,
+        "name": "Upazila Health Complex",
+        "district": "Chandpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 225,
+        "name": "Upazila Health Complex",
+        "district": "Chandpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 226,
+        "name": "Upazila Health Complex",
+        "district": "Chandpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 227,
+        "name": "Upazila Health Complex",
+        "district": "Chandpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 228,
+        "name": "Upazila Health Complex",
+        "district": "Chandpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 229,
+        "name": "Upazila Health Complex",
+        "district": "Chapainawabganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 230,
+        "name": "Upazila Health Complex",
+        "district": "Chapainawabganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 231,
+        "name": "Upazila Health Complex",
+        "district": "Chapainawabganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 232,
+        "name": "Upazila Health Complex",
+        "district": "Chapainawabganj",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 233,
+        "name": "Upazila Health Complex",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 234,
+        "name": "Upazila Health Complex",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 235,
+        "name": "Upazila Health Complex",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 236,
+        "name": "Upazila Health Complex",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 237,
+        "name": "Upazila Health Complex",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 238,
+        "name": "Upazila Health Complex",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 239,
+        "name": "Upazila Health Complex",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 240,
+        "name": "Upazila Health Complex",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 241,
+        "name": "Upazila Health Complex",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 242,
+        "name": "Upazila Health Complex",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 243,
+        "name": "Upazila Health Complex",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 244,
+        "name": "Upazila Health Complex",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 245,
+        "name": "Upazila Health Complex",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 246,
+        "name": "Upazila Health Complex",
+        "district": "Chattogram",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 247,
+        "name": "Upazila Health Complex",
+        "district": "Chuadanga",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 248,
+        "name": "Upazila Health Complex",
+        "district": "Chuadanga",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 249,
+        "name": "Upazila Health Complex",
+        "district": "Chuadanga",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 250,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 251,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 252,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 253,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 254,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 255,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 256,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 257,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 258,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 259,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 260,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 261,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 262,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 263,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 264,
+        "name": "Upazila Health Complex",
+        "district": "Comilla",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 265,
+        "name": "Upazila Health Complex",
+        "district": "Coxsbazar",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 266,
+        "name": "Upazila Health Complex",
+        "district": "Coxsbazar",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 267,
+        "name": "Upazila Health Complex",
+        "district": "Coxsbazar",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 268,
+        "name": "Upazila Health Complex",
+        "district": "Coxsbazar",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 269,
+        "name": "Upazila Health Complex",
+        "district": "Coxsbazar",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 270,
+        "name": "Upazila Health Complex",
+        "district": "Coxsbazar",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 271,
+        "name": "Upazila Health Complex",
+        "district": "Coxsbazar",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 272,
+        "name": "Upazila Health Complex",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 273,
+        "name": "Upazila Health Complex",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 274,
+        "name": "Upazila Health Complex",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 275,
+        "name": "Upazila Health Complex",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 276,
+        "name": "Upazila Health Complex",
+        "district": "Dhaka",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 277,
+        "name": "Upazila Health Complex",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 278,
+        "name": "Upazila Health Complex",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 279,
+        "name": "Upazila Health Complex",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 280,
+        "name": "Upazila Health Complex",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 281,
+        "name": "Upazila Health Complex",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 282,
+        "name": "Upazila Health Complex",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 283,
+        "name": "Upazila Health Complex",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 284,
+        "name": "Upazila Health Complex",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 285,
+        "name": "Upazila Health Complex",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 286,
+        "name": "Upazila Health Complex",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 287,
+        "name": "Upazila Health Complex",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 288,
+        "name": "Upazila Health Complex",
+        "district": "Dinajpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 289,
+        "name": "Upazila Health Complex",
+        "district": "Faridpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 290,
+        "name": "Upazila Health Complex",
+        "district": "Faridpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 291,
+        "name": "Upazila Health Complex",
+        "district": "Faridpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 292,
+        "name": "Upazila Health Complex",
+        "district": "Faridpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 293,
+        "name": "Upazila Health Complex",
+        "district": "Faridpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 294,
+        "name": "Upazila Health Complex",
+        "district": "Faridpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 295,
+        "name": "Upazila Health Complex",
+        "district": "Faridpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 296,
+        "name": "Upazila Health Complex",
+        "district": "Feni",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 297,
+        "name": "Upazila Health Complex",
+        "district": "Feni",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 298,
+        "name": "Upazila Health Complex",
+        "district": "Feni",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 299,
+        "name": "Upazila Health Complex",
+        "district": "Feni",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 300,
+        "name": "Upazila Health Complex",
+        "district": "Feni",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 301,
+        "name": "Upazila Health Complex",
+        "district": "Gaibandha",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 302,
+        "name": "Upazila Health Complex",
+        "district": "Gaibandha",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 303,
+        "name": "Upazila Health Complex",
+        "district": "Gaibandha",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 304,
+        "name": "Upazila Health Complex",
+        "district": "Gaibandha",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 305,
+        "name": "Upazila Health Complex",
+        "district": "Gaibandha",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 306,
+        "name": "Upazila Health Complex",
+        "district": "Gaibandha",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 307,
+        "name": "Upazila Health Complex",
+        "district": "Gazipur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 308,
+        "name": "Upazila Health Complex",
+        "district": "Gazipur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 309,
+        "name": "Upazila Health Complex",
+        "district": "Gazipur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 310,
+        "name": "Upazila Health Complex",
+        "district": "Gazipur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 311,
+        "name": "Upazila Health Complex",
+        "district": "Gopalganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 312,
+        "name": "Upazila Health Complex",
+        "district": "Gopalganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 313,
+        "name": "Upazila Health Complex",
+        "district": "Gopalganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 314,
+        "name": "Upazila Health Complex",
+        "district": "Gopalganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 315,
+        "name": "Upazila Health Complex",
+        "district": "Habiganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 316,
+        "name": "Upazila Health Complex",
+        "district": "Habiganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 317,
+        "name": "Upazila Health Complex",
+        "district": "Habiganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 318,
+        "name": "Upazila Health Complex",
+        "district": "Habiganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 319,
+        "name": "Upazila Health Complex",
+        "district": "Habiganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 320,
+        "name": "Upazila Health Complex",
+        "district": "Habiganj",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 321,
+        "name": "Upazila Health Complex",
+        "district": "Habiganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 322,
+        "name": "Upazila Health Complex",
+        "district": "Jamalpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 323,
+        "name": "Upazila Health Complex",
+        "district": "Jamalpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 324,
+        "name": "Upazila Health Complex",
+        "district": "Jamalpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 325,
+        "name": "Upazila Health Complex",
+        "district": "Jamalpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 326,
+        "name": "Upazila Health Complex",
+        "district": "Jamalpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 327,
+        "name": "Upazila Health Complex",
+        "district": "Jamalpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 328,
+        "name": "Upazila Health Complex",
+        "district": "Jashore",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 329,
+        "name": "Upazila Health Complex",
+        "district": "Jashore",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 330,
+        "name": "Upazila Health Complex",
+        "district": "Jashore",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 331,
+        "name": "Upazila Health Complex",
+        "district": "Jashore",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 332,
+        "name": "Upazila Health Complex",
+        "district": "Jashore",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 333,
+        "name": "Upazila Health Complex",
+        "district": "Jashore",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 334,
+        "name": "Upazila Health Complex",
+        "district": "Jashore",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 335,
+        "name": "Upazila Health Complex",
+        "district": "Jhalakathi",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 336,
+        "name": "Upazila Health Complex",
+        "district": "Jhalakathi",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 337,
+        "name": "Upazila Health Complex",
+        "district": "Jhalakathi",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 338,
+        "name": "Upazila Health Complex",
+        "district": "Jhenaidah",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 339,
+        "name": "Upazila Health Complex",
+        "district": "Jhenaidah",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 340,
+        "name": "Upazila Health Complex",
+        "district": "Jhenaidah",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 341,
+        "name": "Upazila Health Complex",
+        "district": "Jhenaidah",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 342,
+        "name": "Upazila Health Complex",
+        "district": "Jhenaidah",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 343,
+        "name": "Upazila Health Complex",
+        "district": "Joypurhat",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 344,
+        "name": "Upazila Health Complex",
+        "district": "Joypurhat",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 345,
+        "name": "Upazila Health Complex",
+        "district": "Joypurhat",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 346,
+        "name": "Upazila Health Complex",
+        "district": "Joypurhat",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 347,
+        "name": "Upazila Health Complex",
+        "district": "Khagrachhari",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 348,
+        "name": "Upazila Health Complex",
+        "district": "Khagrachhari",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 349,
+        "name": "Upazila Health Complex",
+        "district": "Khagrachhari",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 350,
+        "name": "Upazila Health Complex",
+        "district": "Khagrachhari",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 351,
+        "name": "Upazila Health Complex",
+        "district": "Khagrachhari",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 352,
+        "name": "Upazila Health Complex",
+        "district": "Khagrachhari",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 353,
+        "name": "Upazila Health Complex",
+        "district": "Khagrachhari",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 354,
+        "name": "Upazila Health Complex",
+        "district": "Khulna",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 355,
+        "name": "Upazila Health Complex",
+        "district": "Khulna",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 356,
+        "name": "Upazila Health Complex",
+        "district": "Khulna",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 357,
+        "name": "Upazila Health Complex",
+        "district": "Khulna",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 358,
+        "name": "Upazila Health Complex",
+        "district": "Khulna",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 359,
+        "name": "Upazila Health Complex",
+        "district": "Khulna",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 360,
+        "name": "Upazila Health Complex",
+        "district": "Khulna",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 361,
+        "name": "Upazila Health Complex",
+        "district": "Khulna",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 362,
+        "name": "Upazila Health Complex",
+        "district": "Khulna",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 363,
+        "name": "Upazila Health Complex",
+        "district": "Kishoreganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 364,
+        "name": "Upazila Health Complex",
+        "district": "Kishoreganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 365,
+        "name": "Upazila Health Complex",
+        "district": "Kishoreganj",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 366,
+        "name": "Upazila Health Complex",
+        "district": "Kishoreganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 367,
+        "name": "Upazila Health Complex",
+        "district": "Kishoreganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 368,
+        "name": "Upazila Health Complex",
+        "district": "Kishoreganj",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 369,
+        "name": "Upazila Health Complex",
+        "district": "Kishoreganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 370,
+        "name": "Upazila Health Complex",
+        "district": "Kishoreganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 371,
+        "name": "Upazila Health Complex",
+        "district": "Kishoreganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 372,
+        "name": "Upazila Health Complex",
+        "district": "Kishoreganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 373,
+        "name": "Upazila Health Complex",
+        "district": "Kishoreganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 374,
+        "name": "Upazila Health Complex",
+        "district": "Kishoreganj",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 375,
+        "name": "Upazila Health Complex",
+        "district": "Kurigram",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 376,
+        "name": "Upazila Health Complex",
+        "district": "Kurigram",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 377,
+        "name": "Upazila Health Complex",
+        "district": "Kurigram",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 378,
+        "name": "Upazila Health Complex",
+        "district": "Kurigram",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 379,
+        "name": "Upazila Health Complex",
+        "district": "Kurigram",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 380,
+        "name": "Upazila Health Complex",
+        "district": "Kurigram",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 381,
+        "name": "Upazila Health Complex",
+        "district": "Kurigram",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 382,
+        "name": "Upazila Health Complex",
+        "district": "Kurigram",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 383,
+        "name": "Upazila Health Complex",
+        "district": "Kushtia",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 384,
+        "name": "Upazila Health Complex",
+        "district": "Kushtia",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 385,
+        "name": "Upazila Health Complex",
+        "district": "Kushtia",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 386,
+        "name": "Upazila Health Complex",
+        "district": "Kushtia",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 387,
+        "name": "Upazila Health Complex",
+        "district": "Kushtia",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 388,
+        "name": "Upazila Health Complex",
+        "district": "Lalmonirhat",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 389,
+        "name": "Upazila Health Complex",
+        "district": "Lalmonirhat",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 390,
+        "name": "Upazila Health Complex",
+        "district": "Lalmonirhat",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 391,
+        "name": "Upazila Health Complex",
+        "district": "Lalmonirhat",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 392,
+        "name": "Upazila Health Complex",
+        "district": "Lakshmipur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 393,
+        "name": "Upazila Health Complex",
+        "district": "Lakshmipur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 394,
+        "name": "Upazila Health Complex",
+        "district": "Lakshmipur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 395,
+        "name": "Upazila Health Complex",
+        "district": "Lakshmipur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 396,
+        "name": "Upazila Health Complex",
+        "district": "Madaripur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 397,
+        "name": "Upazila Health Complex",
+        "district": "Madaripur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 398,
+        "name": "Upazila Health Complex",
+        "district": "Madaripur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 399,
+        "name": "Upazila Health Complex",
+        "district": "Magura",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 400,
+        "name": "Upazila Health Complex",
+        "district": "Magura",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 401,
+        "name": "Upazila Health Complex",
+        "district": "Magura",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 402,
+        "name": "Upazila Health Complex",
+        "district": "Manikganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 403,
+        "name": "Upazila Health Complex",
+        "district": "Manikganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 404,
+        "name": "Upazila Health Complex",
+        "district": "Manikganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 405,
+        "name": "Upazila Health Complex",
+        "district": "Manikganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 406,
+        "name": "Upazila Health Complex",
+        "district": "Manikganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 407,
+        "name": "Upazila Health Complex",
+        "district": "Manikganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 408,
+        "name": "Upazila Health Complex",
+        "district": "Meherpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 409,
+        "name": "Upazila Health Complex",
+        "district": "Meherpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 410,
+        "name": "Upazila Health Complex",
+        "district": "Moulvibazar",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 411,
+        "name": "Upazila Health Complex",
+        "district": "Moulvibazar",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 412,
+        "name": "Upazila Health Complex",
+        "district": "Moulvibazar",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 413,
+        "name": "Upazila Health Complex",
+        "district": "Moulvibazar",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 414,
+        "name": "Upazila Health Complex",
+        "district": "Moulvibazar",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 415,
+        "name": "Upazila Health Complex",
+        "district": "Moulvibazar",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 416,
+        "name": "Upazila Health Complex",
+        "district": "Munshiganj",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 417,
+        "name": "Upazila Health Complex",
+        "district": "Munshiganj",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 418,
+        "name": "Upazila Health Complex",
+        "district": "Munshiganj",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 419,
+        "name": "Upazila Health Complex",
+        "district": "Munshiganj",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 420,
+        "name": "Upazila Health Complex",
+        "district": "Munshiganj",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 421,
+        "name": "Upazila Health Complex",
+        "district": "Mymensingh",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 422,
+        "name": "Upazila Health Complex",
+        "district": "Mymensingh",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 423,
+        "name": "Upazila Health Complex",
+        "district": "Mymensingh",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 424,
+        "name": "Upazila Health Complex",
+        "district": "Mymensingh",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 425,
+        "name": "Upazila Health Complex",
+        "district": "Mymensingh",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 426,
+        "name": "Upazila Health Complex",
+        "district": "Mymensingh",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 427,
+        "name": "Upazila Health Complex",
+        "district": "Mymensingh",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 428,
+        "name": "Upazila Health Complex",
+        "district": "Mymensingh",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 429,
+        "name": "Upazila Health Complex",
+        "district": "Mymensingh",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 430,
+        "name": "Upazila Health Complex",
+        "district": "Mymensingh",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 431,
+        "name": "Upazila Health Complex",
+        "district": "Mymensingh",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 432,
+        "name": "Upazila Health Complex",
+        "district": "Naogaon",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 433,
+        "name": "Upazila Health Complex",
+        "district": "Naogaon",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 434,
+        "name": "Upazila Health Complex",
+        "district": "Naogaon",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 435,
+        "name": "Upazila Health Complex",
+        "district": "Naogaon",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 436,
+        "name": "Upazila Health Complex",
+        "district": "Naogaon",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 437,
+        "name": "Upazila Health Complex",
+        "district": "Naogaon",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 438,
+        "name": "Upazila Health Complex",
+        "district": "Naogaon",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 439,
+        "name": "Upazila Health Complex",
+        "district": "Naogaon",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 440,
+        "name": "Upazila Health Complex",
+        "district": "Naogaon",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 441,
+        "name": "Upazila Health Complex",
+        "district": "Naogaon",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 442,
+        "name": "Upazila Health Complex",
+        "district": "Narail",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 443,
+        "name": "Upazila Health Complex",
+        "district": "Narail",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 444,
+        "name": "Upazila Health Complex",
+        "district": "Narayanganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 445,
+        "name": "Upazila Health Complex",
+        "district": "Narayanganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 446,
+        "name": "Upazila Health Complex",
+        "district": "Narayanganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 447,
+        "name": "Upazila Health Complex",
+        "district": "Narayanganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 448,
+        "name": "Upazila Health Complex",
+        "district": "Narsingdi",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 449,
+        "name": "Upazila Health Complex",
+        "district": "Narsingdi",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 450,
+        "name": "Upazila Health Complex",
+        "district": "Narsingdi",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 451,
+        "name": "Upazila Health Complex",
+        "district": "Narsingdi",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 452,
+        "name": "Upazila Health Complex",
+        "district": "Narsingdi",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 453,
+        "name": "Upazila Health Complex",
+        "district": "Natore",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 454,
+        "name": "Upazila Health Complex",
+        "district": "Natore",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 455,
+        "name": "Upazila Health Complex",
+        "district": "Natore",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 456,
+        "name": "Upazila Health Complex",
+        "district": "Natore",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 457,
+        "name": "Upazila Health Complex",
+        "district": "Natore",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 458,
+        "name": "Upazila Health Complex",
+        "district": "Netrokona",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 459,
+        "name": "Upazila Health Complex",
+        "district": "Netrokona",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 460,
+        "name": "Upazila Health Complex",
+        "district": "Netrokona",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 461,
+        "name": "Upazila Health Complex",
+        "district": "Netrokona",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 462,
+        "name": "Upazila Health Complex",
+        "district": "Netrokona",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 463,
+        "name": "Upazila Health Complex",
+        "district": "Netrokona",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 464,
+        "name": "Upazila Health Complex",
+        "district": "Netrokona",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 465,
+        "name": "Upazila Health Complex",
+        "district": "Netrokona",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 466,
+        "name": "Upazila Health Complex",
+        "district": "Netrokona",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 467,
+        "name": "Upazila Health Complex",
+        "district": "Nilphamari",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 468,
+        "name": "Upazila Health Complex",
+        "district": "Nilphamari",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 469,
+        "name": "Upazila Health Complex",
+        "district": "Nilphamari",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 470,
+        "name": "Upazila Health Complex",
+        "district": "Nilphamari",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 471,
+        "name": "Upazila Health Complex",
+        "district": "Nilphamari",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 472,
+        "name": "Upazila Health Complex",
+        "district": "Noakhali",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 473,
+        "name": "Upazila Health Complex",
+        "district": "Noakhali",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 474,
+        "name": "Upazila Health Complex",
+        "district": "Noakhali",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 475,
+        "name": "Upazila Health Complex",
+        "district": "Noakhali",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 476,
+        "name": "Upazila Health Complex",
+        "district": "Noakhali",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 477,
+        "name": "Upazila Health Complex",
+        "district": "Noakhali",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 478,
+        "name": "Upazila Health Complex",
+        "district": "Noakhali",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 479,
+        "name": "Upazila Health Complex",
+        "district": "Noakhali",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 480,
+        "name": "Upazila Health Complex",
+        "district": "Pabna",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 481,
+        "name": "Upazila Health Complex",
+        "district": "Pabna",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 482,
+        "name": "Upazila Health Complex",
+        "district": "Pabna",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 483,
+        "name": "Upazila Health Complex",
+        "district": "Pabna",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 484,
+        "name": "Upazila Health Complex",
+        "district": "Pabna",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 485,
+        "name": "Upazila Health Complex",
+        "district": "Pabna",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 486,
+        "name": "Upazila Health Complex",
+        "district": "Pabna",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 487,
+        "name": "Upazila Health Complex",
+        "district": "Pabna",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 488,
+        "name": "Upazila Health Complex",
+        "district": "Panchagarh",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 489,
+        "name": "Upazila Health Complex",
+        "district": "Panchagarh",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 490,
+        "name": "Upazila Health Complex",
+        "district": "Panchagarh",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 491,
+        "name": "Upazila Health Complex",
+        "district": "Panchagarh",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 492,
+        "name": "Upazila Health Complex",
+        "district": "Patuakhali",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 493,
+        "name": "Upazila Health Complex",
+        "district": "Patuakhali",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 494,
+        "name": "Upazila Health Complex",
+        "district": "Patuakhali",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 495,
+        "name": "Upazila Health Complex",
+        "district": "Patuakhali",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 496,
+        "name": "Upazila Health Complex",
+        "district": "Patuakhali",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 497,
+        "name": "Upazila Health Complex",
+        "district": "Patuakhali",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 498,
+        "name": "Upazila Health Complex",
+        "district": "Pirojpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 499,
+        "name": "Upazila Health Complex",
+        "district": "Pirojpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 500,
+        "name": "Upazila Health Complex",
+        "district": "Pirojpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 501,
+        "name": "Upazila Health Complex",
+        "district": "Pirojpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 502,
+        "name": "Upazila Health Complex",
+        "district": "Pirojpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 503,
+        "name": "Upazila Health Complex",
+        "district": "Pirojpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 504,
+        "name": "Upazila Health Complex",
+        "district": "Rajbari",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 505,
+        "name": "Upazila Health Complex",
+        "district": "Rajbari",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 506,
+        "name": "Upazila Health Complex",
+        "district": "Rajbari",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 507,
+        "name": "Upazila Health Complex",
+        "district": "Rajbari",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 508,
+        "name": "Upazila Health Complex",
+        "district": "Rajshahi",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 509,
+        "name": "Upazila Health Complex",
+        "district": "Rajshahi",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 510,
+        "name": "Upazila Health Complex",
+        "district": "Rajshahi",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 511,
+        "name": "Upazila Health Complex",
+        "district": "Rajshahi",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 512,
+        "name": "Upazila Health Complex",
+        "district": "Rajshahi",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 513,
+        "name": "Upazila Health Complex",
+        "district": "Rajshahi",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 514,
+        "name": "Upazila Health Complex",
+        "district": "Rajshahi",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 515,
+        "name": "Upazila Health Complex",
+        "district": "Rajshahi",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 516,
+        "name": "Upazila Health Complex",
+        "district": "Rajshahi",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 517,
+        "name": "Upazila Health Complex",
+        "district": "Rangamati",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 518,
+        "name": "Upazila Health Complex",
+        "district": "Rangamati",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 519,
+        "name": "Upazila Health Complex",
+        "district": "Rangamati",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 520,
+        "name": "Upazila Health Complex",
+        "district": "Rangamati",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 521,
+        "name": "Upazila Health Complex",
+        "district": "Rangamati",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 522,
+        "name": "Upazila Health Complex",
+        "district": "Rangamati",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 523,
+        "name": "Upazila Health Complex",
+        "district": "Rangamati",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 524,
+        "name": "Upazila Health Complex",
+        "district": "Rangamati",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 525,
+        "name": "Upazila Health Complex",
+        "district": "Rangamati",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 526,
+        "name": "Upazila Health Complex",
+        "district": "Rangpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 527,
+        "name": "Upazila Health Complex",
+        "district": "Rangpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 528,
+        "name": "Upazila Health Complex",
+        "district": "Rangpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 529,
+        "name": "Upazila Health Complex",
+        "district": "Rangpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 530,
+        "name": "Upazila Health Complex",
+        "district": "Rangpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 531,
+        "name": "Upazila Health Complex",
+        "district": "Rangpur",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 532,
+        "name": "Upazila Health Complex",
+        "district": "Rangpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 533,
+        "name": "Upazila Health Complex",
+        "district": "Satkhira",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 534,
+        "name": "Upazila Health Complex",
+        "district": "Satkhira",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 535,
+        "name": "Upazila Health Complex",
+        "district": "Satkhira",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 536,
+        "name": "Upazila Health Complex",
+        "district": "Satkhira",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 537,
+        "name": "Upazila Health Complex",
+        "district": "Satkhira",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 538,
+        "name": "Upazila Health Complex",
+        "district": "Satkhira",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 539,
+        "name": "Upazila Health Complex",
+        "district": "Shariatpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 540,
+        "name": "Upazila Health Complex",
+        "district": "Shariatpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 541,
+        "name": "Upazila Health Complex",
+        "district": "Shariatpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 542,
+        "name": "Upazila Health Complex",
+        "district": "Shariatpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 543,
+        "name": "Upazila Health Complex",
+        "district": "Shariatpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 544,
+        "name": "Upazila Health Complex",
+        "district": "Sherpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 545,
+        "name": "Upazila Health Complex",
+        "district": "Sherpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 546,
+        "name": "Upazila Health Complex",
+        "district": "Sherpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 547,
+        "name": "Upazila Health Complex",
+        "district": "Sherpur",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 548,
+        "name": "Upazila Health Complex",
+        "district": "Sirajganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 549,
+        "name": "Upazila Health Complex",
+        "district": "Sirajganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 550,
+        "name": "Upazila Health Complex",
+        "district": "Sirajganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 551,
+        "name": "Upazila Health Complex",
+        "district": "Sirajganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 552,
+        "name": "Upazila Health Complex",
+        "district": "Sirajganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 553,
+        "name": "Upazila Health Complex",
+        "district": "Sirajganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 554,
+        "name": "Upazila Health Complex",
+        "district": "Sirajganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 555,
+        "name": "Upazila Health Complex",
+        "district": "Sirajganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 556,
+        "name": "Upazila Health Complex",
+        "district": "Sunamganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 557,
+        "name": "Upazila Health Complex",
+        "district": "Sunamganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 558,
+        "name": "Upazila Health Complex",
+        "district": "Sunamganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 559,
+        "name": "Upazila Health Complex",
+        "district": "Sunamganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 560,
+        "name": "Upazila Health Complex",
+        "district": "Sunamganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 561,
+        "name": "Upazila Health Complex",
+        "district": "Sunamganj",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 562,
+        "name": "Upazila Health Complex",
+        "district": "Sunamganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 563,
+        "name": "Upazila Health Complex",
+        "district": "Sunamganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 564,
+        "name": "Upazila Health Complex",
+        "district": "Sunamganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 565,
+        "name": "Upazila Health Complex",
+        "district": "Sunamganj",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 566,
+        "name": "Upazila Health Complex",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 567,
+        "name": "Upazila Health Complex",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 568,
+        "name": "Upazila Health Complex",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 569,
+        "name": "Upazila Health Complex",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 570,
+        "name": "Upazila Health Complex",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 571,
+        "name": "Upazila Health Complex",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 572,
+        "name": "Upazila Health Complex",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 573,
+        "name": "Upazila Health Complex",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 574,
+        "name": "Upazila Health Complex",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 575,
+        "name": "Upazila Health Complex",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 576,
+        "name": "Upazila Health Complex",
+        "district": "Sylhet",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 577,
+        "name": "Upazila Health Complex",
+        "district": "Tangail",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 578,
+        "name": "Upazila Health Complex",
+        "district": "Tangail",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 579,
+        "name": "Upazila Health Complex",
+        "district": "Tangail",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 580,
+        "name": "Upazila Health Complex",
+        "district": "Tangail",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 581,
+        "name": "Upazila Health Complex",
+        "district": "Tangail",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 582,
+        "name": "Upazila Health Complex",
+        "district": "Tangail",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 583,
+        "name": "Upazila Health Complex",
+        "district": "Tangail",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 584,
+        "name": "Upazila Health Complex",
+        "district": "Tangail",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 585,
+        "name": "Upazila Health Complex",
+        "district": "Tangail",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 586,
+        "name": "Upazila Health Complex",
+        "district": "Tangail",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 587,
+        "name": "Upazila Health Complex",
+        "district": "Tangail",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 588,
+        "name": "Upazila Health Complex",
+        "district": "Thakurgaon",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 589,
+        "name": "Upazila Health Complex",
+        "district": "Thakurgaon",
+        "type": "Government",
+        "numberOfBed": 50
+    },
+    {
+        "id": 590,
+        "name": "Upazila Health Complex",
+        "district": "Thakurgaon",
+        "type": "Government",
+        "numberOfBed": 31
+    },
+    {
+        "id": 591,
+        "name": "Upazila Health Complex",
+        "district": "Thakurgaon",
+        "type": "Government",
+        "numberOfBed": 50
+    }
+]
