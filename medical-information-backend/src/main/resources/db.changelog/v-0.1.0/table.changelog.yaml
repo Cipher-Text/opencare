@@ -9,5 +9,8 @@ databaseChangeLog:
       file: tables/division.yaml
       relativeToChangelogFile: true
   - include:
+      file: tables/medical_specialty.yaml
+      relativeToChangelogFile: true
+  - include:
       file: tables/upazila.yaml
       relativeToChangelogFile: true

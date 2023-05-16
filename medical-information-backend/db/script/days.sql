@@ -40,13 +40,9 @@ CREATE TABLE `days` (
 --
 
 INSERT INTO `days` (`id`, `name`, `bn_name`, `st_name`) VALUES
-(1, 'Sunday', 'রবিবার', 'sun'),
-(2, 'Monday', 'সোমবার', 'mon'),
-(3, 'Tuesday', 'মঙ্গলবার', 'tue'),
-(4, 'Wednesday', 'বুধবার', 'wed'),
-(5, 'Thursday', 'বৃহস্পতিবার', 'thu'),
-(6, 'Friday', 'শুক্রবার', 'fri'),
-(7, 'Saturday', 'শনিবার', 'sat');
+
+
+
 
 --
 -- Indexes for dumped tables

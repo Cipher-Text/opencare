@@ -19,6 +19,11 @@ databaseChangeLog:
             tableName: division
             quotchar: '"'
         - loadData:
+            file: seeds/medical_speciality.csv
+            relativeToChangelogFile: true
+            tableName: medical_speciality
+            quotchar: '"'
+        - loadData:
             file: seeds/upazila.csv
             relativeToChangelogFile: true
             tableName: upazila

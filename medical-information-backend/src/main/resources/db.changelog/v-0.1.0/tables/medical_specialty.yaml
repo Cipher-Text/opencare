@@ -1,0 +1,31 @@
+databaseChangeLog:
+  - changeSet:
+      id: 9e0a2008-6445-4f9f-ac5f-02b8e637aa55
+      author: sadman
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: medical_speciality_id_pk
+                  name: id
+                  type: serial
+              - column:
+                  name: parent_id
+                  type: int4
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: bn_name
+                  type: varchar(100)
+              - column:
+                  name: description
+                  type: varchar(200)
+            tableName: medical_speciality
