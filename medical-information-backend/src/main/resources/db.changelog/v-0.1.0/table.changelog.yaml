@@ -12,5 +12,8 @@ databaseChangeLog:
       file: tables/medical_specialty.yaml
       relativeToChangelogFile: true
   - include:
+      file: tables/union.yaml
+      relativeToChangelogFile: true
+  - include:
       file: tables/upazila.yaml
       relativeToChangelogFile: true

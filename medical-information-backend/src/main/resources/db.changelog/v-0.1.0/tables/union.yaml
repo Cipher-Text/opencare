@@ -1,0 +1,45 @@
+databaseChangeLog:
+  - changeSet:
+      id: 07ce5401-f314-473b-988d-c511e4469632
+      author: sadman
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: union_id_pk
+                  name: id
+                  type: serial
+              - column:
+                  constraints:
+                    nullable: false
+                  name: upazila_id
+                  type: int4
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: bn_name
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: url
+                  type: varchar(100)
+            tableName: union
+        - addForeignKeyConstraint:
+            baseColumnNames: upazila_id
+            baseTableName: union
+            constraintName: union_fk_upazila
+            deferrable: false
+            initiallyDeferred: false
+            onUpdate: CASCADE
+            referencedColumnNames: id
+            referencedTableName: upazila
+            validate: true

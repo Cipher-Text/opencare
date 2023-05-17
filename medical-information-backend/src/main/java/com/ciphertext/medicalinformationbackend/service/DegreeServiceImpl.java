@@ -2,7 +2,6 @@ package com.ciphertext.medicalinformationbackend.service;
 
 import com.ciphertext.medicalinformationbackend.exception.RecordNotFoundException;
 import com.ciphertext.medicalinformationbackend.iservice.DegreeService;
-import com.ciphertext.medicalinformationbackend.model.Degree;
 import com.ciphertext.medicalinformationbackend.repository.DegreeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

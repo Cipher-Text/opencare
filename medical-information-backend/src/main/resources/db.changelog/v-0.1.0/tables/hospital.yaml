@@ -1,0 +1,74 @@
+databaseChangeLog:
+  - changeSet:
+      id: d8a25469-d3c1-4e61-9508-2be323e485fe
+      author: sadman
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: hospital_id_pk
+                  name: id
+                  type: serial
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: bn_name
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: number_of_bed
+                  type: int4
+              - column:
+                  constraints:
+                    nullable: false
+                  name: district_id
+                  type: int4
+              - column:
+                  name: upazila_id
+                  type: int4
+              - column:
+                  name: union_id
+                  type: int4
+              - column:
+                  constraints:
+                    nullable: false
+                  name: hospital_type
+                  type: varchar(50)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: organization_type
+                  type: varchar(50)
+              - column:
+                  name: url
+                  type: varchar(500)
+            tableName: hospital
+        - addForeignKeyConstraint:
+            baseColumnNames: district_id
+            baseTableName: hospital
+            constraintName: hospital_fk_district
+            deferrable: false
+            initiallyDeferred: false
+            onUpdate: CASCADE
+            referencedColumnNames: id
+            referencedTableName: district
+            validate: true
+        - addForeignKeyConstraint:
+            baseColumnNames: upazila_id
+            baseTableName: hospital
+            constraintName: hospital_fk_upazila
+            deferrable: false
+            initiallyDeferred: false
+            onUpdate: CASCADE
+            referencedColumnNames: id
+            referencedTableName: upazila
+            validate: true

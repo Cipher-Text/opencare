@@ -24,6 +24,11 @@ databaseChangeLog:
             tableName: medical_speciality
             quotchar: '"'
         - loadData:
+            file: seeds/union.csv
+            relativeToChangelogFile: true
+            tableName: union
+            quotchar: '"'
+        - loadData:
             file: seeds/upazila.csv
             relativeToChangelogFile: true
             tableName: upazila
