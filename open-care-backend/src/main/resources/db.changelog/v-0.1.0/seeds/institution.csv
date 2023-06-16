@@ -142,10 +142,10 @@ id,acronym,name,bn_name,established_year,enroll,district_id,hospital_type,organi
 141,GSVMCDU,Gonoshasthaya Samajvittik Samaj Vittik Dental College,গণসমাজবিত্তিক সমাজবিত্তিক ডেন্টাল কলেজ,1998,0,47,COLLEGE,PRIVATE
 142,IMCDU,"Ibrahim Medical College, Dental Unit","ইব্রাহিম মেডিকেল কলেজ, ডেন্টাল ইউনিট",2015,0,47,COLLEGE,PRIVATE
 143,DCMCDU,Dhaka Community Medical College Hospital And Dental Unit,ঢাকা কমিউনিটি মেডিকেল কলেজ হাসপাতাল এবং ডেন্টাল ইউনিট,2015,0,47,COLLEGE,PRIVATE
-144,DLMCDU,Delta Medical College & Hospital Dental Unit,ডেল্টা মেডিকেল কলেজ এবং হাসপাতাল ডেন্টাল ইউনিট,2015,0,47,COLLEGE,PRIVATE
+144,DLMCDU,Delta Medical College & Hospital Dental Unit,ডেল্টা মেডিকেল কলেজ এবং হাসপাতাল ডেন্টাল ইউনিট,2015,25,47,COLLEGE,PRIVATE
 145,CBMCDU,"Community Based Medical College, Bangladesh Dental Unit","কমিউনিটি বেসড মেডিকেল কলেজ, বাংলাদেশ ডেন্টাল ইউনিট",2015,0,47,COLLEGE,PRIVATE
 146,DNMCDU,Dhaka National Medical College Dental Unit,ঢাকা ন্যাশনাল মেডিকেল কলেজ ডেন্টাল ইউনিট,2015,0,47,COLLEGE,PRIVATE
-147,IBMCDU,Islami Bank Medical College Dental Unit,ইসলামী ব্যাংক মেডিকেল কলেজ ডেন্টাল ইউনিট,2015,0,47,COLLEGE,PRIVATE
+147,IBMCDU,Islami Bank Medical College Dental Unit,ইসলামী ব্যাংক মেডিকেল কলেজ ডেন্টাল ইউনিট,2015,85,47,COLLEGE,PRIVATE
 148,SCDC,Sylhet Central Dental College & General Hospital,সিলেট সেন্ট্রাল ডেন্টাল কলেজ এবং জেনারেল হাসপাতাল,2015,0,37,COLLEGE,PRIVATE
 149,KEAMCDU,Khawja Eunus Ali Medical College Dental Unit,খাজা ইউনুস আলী মেডিকেল কলেজ ডেন্টাল ইউনিট,2015,50,47,COLLEGE,PRIVATE
 150,NEMCDU,North East Medical College Dental Unit,নর্থ ইস্ট মেডিকেল কলেজ ডেন্টাল ইউনিট,2015,0,47,COLLEGE,PRIVATE
