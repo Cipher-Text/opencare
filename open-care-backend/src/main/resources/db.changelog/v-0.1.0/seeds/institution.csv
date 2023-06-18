@@ -1,6 +1,6 @@
 id,acronym,name,bn_name,established_year,enroll,district_id,hospital_type,organization_type,lat,lon,url
-1,DMC,Dhaka Medical College,ঢাকা মেডিকেল কলেজ,1946,230,47,COLLEGE,GOVERNMENT,null,null,null
-2,SSMC,Sir Salimullah Medical College,স্যার সালিমুল্লাহ মেডিকেল কলেজ,1875,230,47,COLLEGE,GOVERNMENT,null,null,null
+1,DMC,Dhaka Medical College,ঢাকা মেডিকেল কলেজ,1946,230,47,COLLEGE,GOVERNMENT,null,null,http://dmc.edu.bd
+2,SSMC,Sir Salimullah Medical College,স্যার সালিমুল্লাহ মেডিকেল কলেজ,1875,230,47,COLLEGE,GOVERNMENT,null,null,https://ssmcmh.gov.bd/
 3,ShSMC,Shaheed Suhrawardy Medical College,শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ,2006,200,47,COLLEGE,GOVERNMENT,null,null,null
 4,MMC,Mymensingh Medical College,ময়মনসিংহ মেডিকেল কলেজ,1924,230,62,COLLEGE,GOVERNMENT,null,null,null
 5,CMC,Chattogram Medical College,চট্টগ্রাম মেডিকেল কলেজ,1927,230,8,COLLEGE,GOVERNMENT,null,null,null
