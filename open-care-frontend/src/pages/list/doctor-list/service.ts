@@ -37,7 +37,7 @@ export async function updateRule(data: { [key: string]: any }, options?: { [key:
   });
 }
 
-/** 新建规则 POST /api/rule */
+/** New rule POST /api/rule */
 export async function addRule(data: { [key: string]: any }, options?: { [key: string]: any }) {
   return request<TableListItem>('/api/rule', {
     data,

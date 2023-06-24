@@ -16,7 +16,7 @@
     "/api/currentUser": {
       "get": {
         "tags": ["api"],
-        "description": "获取当前的用户",
+        "description": "Get the current user",
         "operationId": "currentUser",
         "responses": {
           "200": {
@@ -45,14 +45,14 @@
     },
     "/api/login/captcha": {
       "post": {
-        "description": "发送验证码",
+        "description": "Send the verification code",
         "operationId": "getFakeCaptcha",
         "tags": ["login"],
         "parameters": [
           {
             "name": "phone",
             "in": "query",
-            "description": "手机号",
+            "description": "Phone number",
             "schema": {
               "type": "string"
             }
@@ -74,7 +74,7 @@
     },
     "/api/login/outLogin": {
       "post": {
-        "description": "登录接口",
+        "description": "Login interface",
         "operationId": "outLogin",
         "tags": ["login"],
         "responses": {
@@ -105,10 +105,10 @@
     "/api/login/account": {
       "post": {
         "tags": ["login"],
-        "description": "登录接口",
+        "description": "Login interface",
         "operationId": "login",
         "requestBody": {
-          "description": "登录系统",
+          "description": "Log in system",
           "content": {
             "application/json": {
               "schema": {
@@ -167,13 +167,13 @@
     "/api/rule": {
       "get": {
         "tags": ["rule"],
-        "description": "获取规则列表",
+        "description": "Get list of rules",
         "operationId": "rule",
         "parameters": [
           {
             "name": "current",
             "in": "query",
-            "description": "当前的页码",
+            "description": "Current page number",
             "schema": {
               "type": "number"
             }
@@ -181,7 +181,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "页面的容量",
+            "description": "Page capacity",
             "schema": {
               "type": "number"
             }
@@ -212,7 +212,7 @@
       },
       "post": {
         "tags": ["rule"],
-        "description": "新建规则",
+        "description": "New rule",
         "operationId": "addRule",
         "responses": {
           "200": {
@@ -239,7 +239,7 @@
       },
       "put": {
         "tags": ["rule"],
-        "description": "新建规则",
+        "description": "New rule",
         "operationId": "updateRule",
         "responses": {
           "200": {
@@ -266,7 +266,7 @@
       },
       "delete": {
         "tags": ["rule"],
-        "description": "删除规则",
+        "description": "Delete rule",
         "operationId": "removeRule",
         "responses": {
           "200": {
@@ -469,7 +469,7 @@
           },
           "total": {
             "type": "integer",
-            "description": "列表的内容总数",
+            "description": "Total number of items in the list",
             "format": "int32"
           },
           "success": {
@@ -512,15 +512,15 @@
         "properties": {
           "errorCode": {
             "type": "string",
-            "description": "业务约定的错误码"
+            "description": "The error code of the business agreement"
           },
           "errorMessage": {
             "type": "string",
-            "description": "业务上的错误信息"
+            "description": "Business misinformation"
           },
           "success": {
             "type": "boolean",
-            "description": "业务上的请求是否成功"
+            "description": "Whether the business request is successful"
           }
         }
       },
@@ -535,7 +535,7 @@
           },
           "total": {
             "type": "integer",
-            "description": "列表的内容总数",
+            "description": "Total number of items in the list",
             "format": "int32"
           },
           "success": {
@@ -545,7 +545,7 @@
       },
       "NoticeIconItemType": {
         "title": "NoticeIconItemType",
-        "description": "已读未读列表的枚举",
+        "description": "Enumeration of read and unread lists",
         "type": "string",
         "properties": {},
         "enum": ["notification", "message", "event"]

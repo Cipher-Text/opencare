@@ -51,7 +51,7 @@ const ListContent = ({
       <p>{owner}</p>
     </div>
     <div className={styles.listContentItem}>
-      <span>开始时间</span>
+      <span>Starting time</span>
       <p>{moment(createdAt).format('YYYY-MM-DD HH:mm')}</p>
     </div>
     <div className={styles.listContentItem}>
@@ -114,10 +114,10 @@ export const BasicList: FC = () => {
     if (key === 'edit') showEditModal(currentItem);
     else if (key === 'delete') {
       Modal.confirm({
-        title: '删除任务',
-        content: '确定删除该任务吗？',
-        okText: '确认',
-        cancelText: '取消',
+        title: 'Delete task',
+        content: 'Are you sure to delete this task?',
+        okText: 'Confirm',
+        cancelText: 'Cancel',
         onOk: () => deleteItem(currentItem.id),
       });
     }
@@ -126,11 +126,11 @@ export const BasicList: FC = () => {
   const extraContent = (
     <div className={styles.extraContent}>
       <RadioGroup defaultValue="all">
-        <RadioButton value="all">全部</RadioButton>
-        <RadioButton value="progress">进行中</RadioButton>
-        <RadioButton value="waiting">等待中</RadioButton>
+        <RadioButton value="all">All</RadioButton>
+        <RadioButton value="progress">In progress</RadioButton>
+        <RadioButton value="waiting">Waiting</RadioButton>
       </RadioGroup>
-      <Search className={styles.extraContentSearch} placeholder="请输入" onSearch={() => ({})} />
+      <Search className={styles.extraContentSearch} placeholder="Please enter" onSearch={() => ({})} />
     </div>
   );
 
@@ -140,13 +140,13 @@ export const BasicList: FC = () => {
     <Dropdown
       overlay={
         <Menu onClick={({ key }) => editAndDelete(key, item)}>
-          <Menu.Item key="edit">编辑</Menu.Item>
-          <Menu.Item key="delete">删除</Menu.Item>
+          <Menu.Item key="edit">Edit</Menu.Item>
+          <Menu.Item key="delete">Delete</Menu.Item>
         </Menu>
       }
     >
       <a>
-        更多 <DownOutlined />
+        More <DownOutlined />
       </a>
     </Dropdown>
   );
@@ -170,13 +170,13 @@ export const BasicList: FC = () => {
           <Card bordered={false}>
             <Row>
               <Col sm={8} xs={24}>
-                <Info title="我的待办" value="8个任务" bordered />
+                <Info title="My to do" value="8 missions" bordered />
               </Col>
               <Col sm={8} xs={24}>
-                <Info title="本周任务平均处理时间" value="32分钟" bordered />
+                <Info title="Average task processing time for this week" value="32 minutes" bordered />
               </Col>
               <Col sm={8} xs={24}>
-                <Info title="本周完成任务数" value="24个任务" />
+                <Info title="Number of tasks completed this week" value="24 missions" />
               </Col>
             </Row>
           </Card>
@@ -184,7 +184,7 @@ export const BasicList: FC = () => {
           <Card
             className={styles.listCard}
             bordered={false}
-            title="基本列表"
+            title="Basic list"
             style={{ marginTop: 24 }}
             bodyStyle={{ padding: '0 32px 40px 32px' }}
             extra={extraContent}
@@ -205,7 +205,7 @@ export const BasicList: FC = () => {
                         showEditModal(item);
                       }}
                     >
-                      编辑
+                      Edit
                     </a>,
                     <MoreBtn key="more" item={item} />,
                   ]}
@@ -230,7 +230,7 @@ export const BasicList: FC = () => {
         style={{ width: '100%', marginBottom: 8 }}
       >
         <PlusOutlined />
-        添加
+        Add
       </Button>
       <OperationModal
         done={done}
