@@ -18,7 +18,7 @@ const BasicForm: FC<Record<string, any>> = () => {
   const { run } = useRequest(fakeSubmitForm, {
     manual: true,
     onSuccess: () => {
-      message.success('提交成功');
+      message.success('Submitted successfully');
     },
   });
 
@@ -27,7 +27,7 @@ const BasicForm: FC<Record<string, any>> = () => {
   };
 
   return (
-    <PageContainer content="表单页用于向用户收集或验证信息，基础表单常见于数据项较少的表单场景。">
+    <PageContainer content="Form pages are used to collect or verify information from users, and basic forms are often used in form scenarios with fewer data items.">
       <Card bordered={false}>
         <ProForm
           hideRequiredMark
@@ -39,88 +39,88 @@ const BasicForm: FC<Record<string, any>> = () => {
         >
           <ProFormText
             width="md"
-            label="标题"
+            label="Title"
             name="title"
             rules={[
               {
                 required: true,
-                message: '请输入标题',
+                message: 'Please enter a title',
               },
             ]}
-            placeholder="给目标起个名字"
+            placeholder="Name the target"
           />
           <ProFormDateRangePicker
-            label="起止日期"
+            label="Start date"
             width="md"
             name="date"
             rules={[
               {
                 required: true,
-                message: '请选择起止日期',
+                message: 'Please select a start and end date',
               },
             ]}
-            placeholder={['开始日期', '结束日期']}
+            placeholder={['Start date', 'End date']}
           />
           <ProFormTextArea
-            label="目标描述"
+            label="Target description"
             width="xl"
             name="goal"
             rules={[
               {
                 required: true,
-                message: '请输入目标描述',
+                message: 'Please enter a goal description',
               },
             ]}
-            placeholder="请输入你的阶段性工作目标"
+            placeholder="Please enter your staged work goals"
           />
 
           <ProFormTextArea
-            label="衡量标准"
+            label="Metrics"
             name="standard"
             width="xl"
             rules={[
               {
                 required: true,
-                message: '请输入衡量标准',
+                message: 'Please enter a metric',
               },
             ]}
-            placeholder="请输入衡量标准"
+            placeholder="Please enter a metric"
           />
 
           <ProFormText
             width="md"
             label={
               <span>
-                客户
-                <em className={styles.optional}>（选填）</em>
+                Client
+                <em className={styles.optional}>（optional）</em>
               </span>
             }
-            tooltip="目标的服务对象"
+            tooltip="Target audience"
             name="client"
-            placeholder="请描述你服务的客户，内部客户直接 @姓名／工号"
+            placeholder="Please describe the customers you serve, internal customers directly"
           />
 
           <ProFormText
             width="md"
             label={
               <span>
-                邀评人
-                <em className={styles.optional}>（选填）</em>
+                Critic
+                <em className={styles.optional}>（optional）</em>
               </span>
             }
             name="invites"
-            placeholder="请直接 @姓名／工号，最多可邀请 5 人"
+            placeholder="Please directly @name/job number, up to 5 people can be invited"
           />
 
           <ProFormDigit
             label={
               <span>
-                权重
-                <em className={styles.optional}>（选填）</em>
+                Weights
+                <em className={styles.optional}>（optional）</em>
               </span>
             }
             name="weight"
-            placeholder="请输入"
+            placeholder="Please enter"
             min={0}
             max={100}
             width="xs"
@@ -134,19 +134,19 @@ const BasicForm: FC<Record<string, any>> = () => {
             options={[
               {
                 value: '1',
-                label: '公开',
+                label: 'Public',
               },
               {
                 value: '2',
-                label: '部分公开',
+                label: 'Partially public',
               },
               {
                 value: '3',
-                label: '不公开',
+                label: 'Private',
               },
             ]}
-            label="目标公开"
-            help="客户、邀评人默认被分享"
+            label="Open target"
+            help="Customers and reviewers are shared by default"
             name="publicType"
           />
           <ProFormDependency name={['publicType']}>
@@ -164,15 +164,15 @@ const BasicForm: FC<Record<string, any>> = () => {
                   options={[
                     {
                       value: '1',
-                      label: '同事甲',
+                      label: 'Colleague A',
                     },
                     {
                       value: '2',
-                      label: '同事乙',
+                      label: 'Colleague B',
                     },
                     {
                       value: '3',
-                      label: '同事丙',
+                      label: 'Colleague C',
                     },
                   ]}
                 />
