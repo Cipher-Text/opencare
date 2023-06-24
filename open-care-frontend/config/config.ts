@@ -345,8 +345,8 @@ export default defineConfig({
     {
       requestLibPath: "import { request } from 'umi'",
       // or use the online version
-      schemaPath: 'https://gw.alipayobjects.com/os/antfincdn/M%24jrzTTYJN/oneapi.json',
-      // schemaPath: join(__dirname, 'oneapi.json'),
+      // schemaPath: 'https://gw.alipayobjects.com/os/antfincdn/M%24jrzTTYJN/oneapi.json',
+      schemaPath: join(__dirname, 'oneapi.json'),
       mock: false,
     },
     {

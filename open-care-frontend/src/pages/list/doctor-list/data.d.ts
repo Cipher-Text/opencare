@@ -13,6 +13,20 @@ export type TableListItem = {
   progress: number;
 };
 
+export type TableListItem1 = {
+  id: number;
+  acronym: string;
+  name: string;
+  bnName: string;
+  establishedYear: number;
+  enroll: number;
+  hospitalType: string;
+  organizationType: number;
+  lat: string;
+  lon: string;
+  url: string;
+};
+
 export type TableListPagination = {
   total: number;
   pageSize: number;
