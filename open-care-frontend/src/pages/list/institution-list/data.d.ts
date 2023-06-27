@@ -1,19 +1,4 @@
 export type TableListItem = {
-  key: number;
-  disabled?: boolean;
-  href: string;
-  avatar: string;
-  name: string;
-  owner: string;
-  desc: string;
-  callNo: number;
-  status: string;
-  updatedAt: Date;
-  createdAt: Date;
-  progress: number;
-};
-
-export type TableListItem1 = {
   id: number;
   acronym: string;
   name: string;
@@ -22,7 +7,7 @@ export type TableListItem1 = {
   enroll: number;
   districtName: string;
   hospitalType: string;
-  organizationType: number;
+  organizationType: string;
   lat: string;
   lon: string;
   url: string;

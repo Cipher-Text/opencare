@@ -10,21 +10,18 @@ const genList = (current: number, pageSize: number) => {
   for (let i = 0; i < pageSize; i += 1) {
     const index = (current - 1) * 10 + i;
     tableListDataSource.push({
-      key: index,
-      disabled: i % 6 === 0,
-      href: 'https://ant.design',
-      avatar: [
-        'https://gw.alipayobjects.com/zos/rmsportal/eeHMaZBwmTvLdIwMfBpg.png',
-        'https://gw.alipayobjects.com/zos/rmsportal/udxAbMEhpwthVVcjLXik.png',
-      ][i % 2],
-      name: `TradeCode ${index}`,
-      owner: '曲丽丽',
-      desc: 'This is a description',
-      callNo: Math.floor(Math.random() * 1000),
-      status: (Math.floor(Math.random() * 10) % 4).toString(),
-      updatedAt: new Date(),
-      createdAt: new Date(),
-      progress: Math.ceil(Math.random() * 100),
+      id: index,
+      acronym: 'DMC',
+      name: 'Dhaka Medical College',
+      bnName: 'ঢাকা মেডিকেল কলেজ',
+      establishedYear: 1990,
+      enroll: 200,
+      districtName: 'Dhaka',
+      hospitalType: 'Government',
+      organizationType: 'College',
+      lat: '4646',
+      lon: '3888',
+      url: 'http://www.dmc.gov.bd',
     });
   }
   tableListDataSource.reverse();
@@ -33,7 +30,7 @@ const genList = (current: number, pageSize: number) => {
 
 let tableListDataSource = genList(1, 100);
 
-function getRule(req: Request, res: Response, u: string) {
+function getInstitution(req: Request, res: Response, u: string) {
   let realUrl = u;
   if (!realUrl || Object.prototype.toString.call(realUrl) !== '[object String]') {
     realUrl = req.url;
@@ -104,7 +101,7 @@ function getRule(req: Request, res: Response, u: string) {
   return res.json(result);
 }
 
-function postRule(req: Request, res: Response, u: string, b: Request) {
+function postInstitution(req: Request, res: Response, u: string, b: Request) {
   let realUrl = u;
   if (!realUrl || Object.prototype.toString.call(realUrl) !== '[object String]') {
     realUrl = req.url;
@@ -116,43 +113,41 @@ function postRule(req: Request, res: Response, u: string, b: Request) {
   switch (req.method) {
     /* eslint no-case-declarations:0 */
     case 'DELETE':
-      tableListDataSource = tableListDataSource.filter((item) => key.indexOf(item.key) === -1);
+      tableListDataSource = tableListDataSource.filter((item) => key.indexOf(item.id) === -1);
       break;
     case 'POST':
       (() => {
         const i = Math.ceil(Math.random() * 10000);
-        const newRule = {
-          key: tableListDataSource.length,
-          href: 'https://ant.design',
-          avatar: [
-            'https://gw.alipayobjects.com/zos/rmsportal/eeHMaZBwmTvLdIwMfBpg.png',
-            'https://gw.alipayobjects.com/zos/rmsportal/udxAbMEhpwthVVcjLXik.png',
-          ][i % 2],
-          name,
-          owner: '曲丽丽',
-          desc,
-          callNo: Math.floor(Math.random() * 1000),
-          status: (Math.floor(Math.random() * 10) % 2).toString(),
-          updatedAt: new Date(),
-          createdAt: new Date(),
-          progress: Math.ceil(Math.random() * 100),
+        const newInstitution = {
+          id: tableListDataSource.length,
+          acronym: 'DMC',
+          name: 'Dhaka Medical College',
+          bnName: 'ঢাকা মেডিকেল কলেজ',
+          establishedYear: 1990,
+          enroll: 200,
+          districtName: 'Dhaka',
+          hospitalType: 'Government',
+          organizationType: 'College',
+          lat: '4646',
+          lon: '3888',
+          url: 'http://www.dmc.gov.bd',
         };
-        tableListDataSource.unshift(newRule);
-        return res.json(newRule);
+        tableListDataSource.unshift(newInstitution);
+        return res.json(newInstitution);
       })();
       return;
 
     case 'PUT':
       (() => {
-        let newRule = {};
+        let newInstitution = {};
         tableListDataSource = tableListDataSource.map((item) => {
-          if (item.key === key) {
-            newRule = { ...item, desc, name };
+          if (item.id === key) {
+            newInstitution = { ...item, desc, name };
             return { ...item, desc, name };
           }
           return item;
         });
-        return res.json(newRule);
+        return res.json(newInstitution);
       })();
       return;
     default:
@@ -170,8 +165,8 @@ function postRule(req: Request, res: Response, u: string, b: Request) {
 }
 
 export default {
-  'GET /api/rule': getRule,
-  'POST /api/rule': postRule,
-  'DELETE /api/rule': postRule,
-  'PUT /api/rule': postRule,
+  'GET /api/institutions': getInstitution,
+  'POST /api/institutions': postInstitution,
+  'DELETE /api/institutions': postInstitution,
+  'PUT /api/institutions': postInstitution,
 };

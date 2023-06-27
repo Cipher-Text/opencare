@@ -66,7 +66,7 @@ const handleRemove = async (selectedRows: TableListItem[]) => {
 
   try {
     await removeInstitution({
-      key: selectedRows.map((row) => row.key),
+      key: selectedRows.map((row) => row.id),
     });
     hide();
     message.success('Deleted successfully, will be refreshed soon');
