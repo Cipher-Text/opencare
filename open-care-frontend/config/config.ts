@@ -174,6 +174,12 @@ export default defineConfig({
           component: './list/doctor-list',
         },
         {
+          name: 'institution-list',
+          icon: 'smile',
+          path: '/list/institution-list',
+          component: './list/institution-list',
+        },
+        {
           name: 'basic-list',
           icon: 'smile',
           path: '/list/basic-list',

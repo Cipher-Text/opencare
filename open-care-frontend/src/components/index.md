@@ -1,17 +1,17 @@
 ﻿---
-title: 业务组件
+title: Business Component
 sidemenu: false
 ---
 
 > 此功能由[dumi](https://d.umijs.org/zh-CN/guide/advanced#umi-%E9%A1%B9%E7%9B%AE%E9%9B%86%E6%88%90%E6%A8%A1%E5%BC%8F)提供，dumi 是一个 📖 为组件开发场景而生的文档工具，用过的都说好。
 
-# 业务组件
+# Business Component
 
-这里列举了 Pro 中所有用到的组件，这些组件不适合作为组件库，但是在业务中却真实需要。所以我们准备了这个文档，来指导大家是否需要使用这个组件。
+Here is a list of all the components used in Pro. These components are not suitable as a component library, but they are really needed in business. So we have prepared this document to guide you whether you need to use this component.
 
-## Footer 页脚组件
+## Footer Component
 
-这个组件自带了一些 Pro 的配置，你一般都需要改掉它的信息。
+This component comes with some Pro configurations, and you generally need to change its information.
 
 ```tsx
 /**
@@ -23,9 +23,9 @@ import Footer from '@/components/Footer';
 export default () => <Footer />;
 ```
 
-## HeaderDropdown 头部下拉列表
+## HeaderDropdown List
 
-HeaderDropdown 是 antd Dropdown 的封装，但是增加了移动端的特殊处理，用法也是相同的。
+HeaderDropdown is an encapsulation of antd Dropdown, but it adds special processing on the mobile side, and the usage is the same.
 
 ```tsx
 /**
@@ -52,9 +52,9 @@ export default () => {
 };
 ```
 
-## HeaderSearch 头部搜索框
+## HeaderSearch Box
 
-一个带补全数据的输入框，支持收起和展开 Input
+An input box with complete data, supports collapsing and expanding Input
 
 ```tsx
 /**

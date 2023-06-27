@@ -70,11 +70,11 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
       ? [
           <Link key="openapi" to="/umi/plugin/openapi" target="_blank">
             <LinkOutlined />
-            <span>OpenAPI 文档</span>
+            <span>OpenAPI Document</span>
           </Link>,
           <Link to="/~docs" key="docs">
             <BookOutlined />
-            <span>业务组件文档</span>
+            <span>Business Component Documentation</span>
           </Link>,
         ]
       : [],
