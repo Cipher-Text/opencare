@@ -27,7 +27,7 @@ import java.util.Map;
  * @author Sadman
  */
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api")
 public class HospitalApiController {
     @Autowired
     HospitalService service;

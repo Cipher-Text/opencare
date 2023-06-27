@@ -20,7 +20,7 @@ import java.util.List;
  * @author Sadman
  */
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api")
 public class LocationApiController {
     @Autowired
     LocationService service;

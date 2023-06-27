@@ -4,8 +4,10 @@ import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.iservice.InstitutionService;
 import com.ciphertext.opencarebackend.model.Institution;
 import com.ciphertext.opencarebackend.repository.InstitutionRepository;
+import org.mapstruct.factory.Mappers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import com.ciphertext.opencarebackend.mappers.InstitutionMapper;
 
 import java.util.List;
 
@@ -14,6 +16,8 @@ import java.util.List;
  */
 @Service
 public class InstitutionServiceImpl implements InstitutionService {
+
+    InstitutionMapper mapper = Mappers.getMapper(InstitutionMapper.class);
 
     @Autowired
     InstitutionRepository institutionRepository;
