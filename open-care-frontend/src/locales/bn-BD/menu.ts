@@ -24,6 +24,7 @@ export default {
   'menu.list': 'তালিকা',
   'menu.list.table-list': 'অনুসন্ধানের টেবিল',
   'menu.list.doctor-list': 'ডাক্তার তালিকা',
+  'menu.list.institution-list': 'মেডিকেল কলেজ তালিকা',
   'menu.list.basic-list': 'বেসিক তালিকা',
   'menu.list.card-list': 'কার্ডের তালিকা',
   'menu.list.search-list': 'অনুসন্ধানের তালিকা',
