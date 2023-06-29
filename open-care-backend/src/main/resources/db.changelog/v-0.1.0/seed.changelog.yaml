@@ -38,3 +38,8 @@ databaseChangeLog:
             relativeToChangelogFile: true
             tableName: institution
             quotchar: '"'
+        - loadData:
+            file: seeds/hospital.csv
+            relativeToChangelogFile: true
+            tableName: hospital
+            quotchar: '"'

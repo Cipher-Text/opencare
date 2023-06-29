@@ -1,0 +1,1905 @@
+name,bn_name,number_of_bed,union_id,upazila_id,district_id,organization_type,hospital_type,url,lat,lon
+Dhaka Medical College Hospital,ঢাকা মেডিকেল কলেজ হাসপাতাল,1700,null,null,47,GOVERNMENT,COLLEGE,null,null,null
+Chittagong Medical College Hospital,চট্টগ্রাম মেডিকেল কলেজ হাসপাতাল,1010,null,null,8,GOVERNMENT,COLLEGE,null,null,null
+MAG Osmani Medical College Hospital,মাজ ওসমানী মেডিকেল কলেজ হাসপাতাল,900,null,null,36,GOVERNMENT,COLLEGE,null,null,null
+Mymensingh Medical College Hospital,ময়মনসিংহ মেডিকেল কলেজ হাসপাতাল,800,null,null,62,GOVERNMENT,COLLEGE,null,null,null
+Sher-e-Bangla Medical College Hospital,শেরে বাংলা মেডিকেল কলেজ হাসপাতাল,600,null,null,33,GOVERNMENT,COLLEGE,null,null,null
+Sir Salimullh Medical College Hospital,সীর সালিমুল্লা মেডিকেল কলেজ হাসপাতাল,600,null,null,47,GOVERNMENT,COLLEGE,null,null,null
+Rajshahi Medical College Hospital,রাজশাহী মেডিকেল কলেজ হাসপাতাল,550,null,null,15,GOVERNMENT,COLLEGE,null,null,null
+Rangpur Medical College Hospital,রংপুর মেডিকেল কলেজ হাসপাতাল,1000,null,null,59,GOVERNMENT,COLLEGE,null,null,null
+Bogra Medical College Hospital,বগুড়া মেডিকেল কলেজ হাসপাতাল,500,null,null,14,GOVERNMENT,COLLEGE,null,null,null
+Shahid Sohorawardi medical college & hospital,শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ এবং হাসপাতাল,375,null,null,47,GOVERNMENT,COLLEGE,null,null,null
+Comilla Medical College Hospital,কুমিল্লা মেডিকেল কলেজ হাসপাতাল,500,null,null,1,GOVERNMENT,COLLEGE,null,null,null
+Faridpur Medical College Hospital,ফরিদপুর মেডিকেল কলেজ হাসপাতাল,250,null,null,52,GOVERNMENT,COLLEGE,null,null,null
+Khulna Medical College Hospital,খুলনা মেডিকেল কলেজ হাসপাতাল,500,null,null,27,GOVERNMENT,COLLEGE,null,null,null
+Dinajpur Medical College Hospital,দিনাজপুর মেডিকেল কলেজ হাসপাতাল,250,null,null,54,GOVERNMENT,COLLEGE,null,null,null
+Bagerhat Sadar hospital,বাগেরহাট সদর হাসপাতাল,100,null,null,28,GOVERNMENT,DISTRICT,null,null,null
+Bandarban Sadar hospital,বান্দরবান সদর হাসপাতাল,100,null,null,11,GOVERNMENT,DISTRICT,null,null,null
+Barguna Sadar hospital,বরগুনা সদর হাসপাতাল,100,null,null,35,GOVERNMENT,DISTRICT,null,null,null
+General Hospital,জেনারেল হাসপাতাল,100,null,null,33,GOVERNMENT,DISTRICT,null,null,null
+Bhola Sadar hospital,ভোলা সদর হাসপাতাল,100,null,null,34,GOVERNMENT,DISTRICT,null,null,null
+"250 bed Mohammad Ali Hospital, Bogra","২৫০ বেড মোহাম্মদ আলী হাসপাতাল, বগুড়া",250,null,null,14,GOVERNMENT,DISTRICT,null,null,null
+Brahmanbaria Sadar Hospital,ব্রাহ্মণবাড়িয়া সদর হাসপাতাল,250,null,null,3,GOVERNMENT,DISTRICT,null,null,null
+Chandpur Sadar hospital,চাঁদপুর সদর হাসপাতাল,200,null,null,6,GOVERNMENT,DISTRICT,null,null,null
+Chapai Nowabganj Sadar hospital,চাঁপাইনবাবগঞ্জ সদর হাসপাতাল,100,null,null,18,GOVERNMENT,DISTRICT,null,null,null
+Chittagong General Hospital,চট্টগ্রাম জেনারেল হাসপাতাল,150,null,null,8,GOVERNMENT,DISTRICT,null,null,null
+Chuadanga Sadar hospital,চুয়াডাঙ্গা সদর হাসপাতাল,100,null,null,24,GOVERNMENT,DISTRICT,null,null,null
+General Hospital,জেনারেল হাসপাতাল,100,null,null,1,GOVERNMENT,DISTRICT,null,null,null
+"Adhunic Sadar Hospital, Coxs Bazar","আধুনিক সদর হাসপাতাল, কক্সবাজার",250,null,null,9,GOVERNMENT,DISTRICT,null,null,null
+Dinajpur Sadar Hospital,দিনাজপুর সদর হাসপাতাল,250,null,null,54,GOVERNMENT,DISTRICT,null,null,null
+General Hospital,জেনারেল হাসপাতাল,100,null,null,52,GOVERNMENT,DISTRICT,null,null,null
+Feni Sadar Hospital,ফেনী সদর হাসপাতাল,250,null,null,2,GOVERNMENT,DISTRICT,null,null,null
+Gaibanda Sadar hospital,গাইবান্দা সদর হাসপাতাল,100,null,null,57,GOVERNMENT,DISTRICT,null,null,null
+Gazipur Sadar Hospital,গাজীপুর সদর হাসপাতাল,100,null,null,41,GOVERNMENT,DISTRICT,null,null,null
+Gopalganj Sadar Hospital,গোপালগঞ্জ সদর হাসপাতাল,250,null,null,51,GOVERNMENT,DISTRICT,null,null,null
+Hobiganj Sadar hospital,হবিগঞ্জ সদর হাসপাতাল,100,null,null,35,GOVERNMENT,DISTRICT,null,null,null
+Jamalpur Sadar Hospital,জামালপুর সদর হাসপাতাল,250,null,null,63,GOVERNMENT,DISTRICT,null,null,null
+Jessore Sadar hospital,জেসোরে সদর হাসপাতাল,250,null,null,20,GOVERNMENT,DISTRICT,null,null,null
+Jhalokhati Sadar hospital,ঝালকাঠি সদর হাসপাতাল,100,null,null,30,GOVERNMENT,DISTRICT,null,null,null
+Jhenaidah Sadar hospital,ঝিনাইদহ সদর হাসপাতাল,100,null,null,29,GOVERNMENT,DISTRICT,null,null,null
+Joypurhat Sadar hospital,জয়পুরহাট সদর হাসপাতাল,100,null,null,17,GOVERNMENT,DISTRICT,null,null,null
+"Adhunic Zilla Sadar hospital, Khagrachari","আধুনিক জিলা সদর হাসপাতাল, খাগড়াছড়ি",100,null,null,10,GOVERNMENT,DISTRICT,null,null,null
+Khulna General Hospital,খুলনা জেনারেল হাসপাতাল,150,null,null,27,GOVERNMENT,DISTRICT,null,null,null
+Kishoreganj Sadar Hospital,কিশোরগঞ্জ সদর হাসপাতাল,250,null,null,45,GOVERNMENT,DISTRICT,null,null,null
+Kurigram Sadar hospital,কুড়িগ্রাম সদর হাসপাতাল,100,null,null,60,GOVERNMENT,DISTRICT,null,null,null
+Kushtia Sadar hospital,কুষ্টিয়া সদর হাসপাতাল,250,null,null,25,GOVERNMENT,DISTRICT,null,null,null
+Lalmonirhat Sadar hospital,লালমনিরহাট সদর হাসপাতাল,100,null,null,55,GOVERNMENT,DISTRICT,null,null,null
+Laxmipur Sadar Hospital,লক্ষ্মীপুর সদর হাসপাতাল,100,null,null,7,GOVERNMENT,DISTRICT,null,null,null
+Madaripur Sadar Hospital,মাদারিপুর সদর হাসপাতাল,100,null,null,50,GOVERNMENT,DISTRICT,null,null,null
+Magura Sadar hospital,মাগুরা সদর হাসপাতাল,100,null,null,26,GOVERNMENT,DISTRICT,null,null,null
+Manikganj Sadar Hospital,মানিকগঞ্জ সদর হাসপাতাল,100,null,null,46,GOVERNMENT,DISTRICT,null,null,null
+Meherpur Sadar hospital,মেহেরপুর সদর হাসপাতাল,100,null,null,22,GOVERNMENT,DISTRICT,null,null,null
+Moulovi Bazar Sadar hospital,মৌলভীবাজার সদর হাসপাতাল,250,null,null,37,GOVERNMENT,DISTRICT,null,null,null
+Munshiganj Sadar Hospital,মুন্সীগঞ্জ সদর হাসপাতাল,100,null,null,48,GOVERNMENT,DISTRICT,null,null,null
+Naogaon Sadar hospital,নওগাঁ সদর হাসপাতাল,100,null,null,19,GOVERNMENT,DISTRICT,null,null,null
+Narail Sadar hospital,নড়াইল সদর হাসপাতাল,100,null,null,23,GOVERNMENT,DISTRICT,null,null,null
+Narayanganj General Hospital,নারায়ণগঞ্জ জেনারেল হাসপাতাল,200,null,null,43,GOVERNMENT,DISTRICT,null,null,null
+Narayanganj Sadar Hospitall,নারায়ণগঞ্জ সদর হাসপাতাল,100,null,null,43,GOVERNMENT,DISTRICT,null,null,null
+Narshindi Zilla Hospital,নরসিংদী জেলা হাসপাতাল,100,null,null,40,GOVERNMENT,DISTRICT,null,null,null
+Narshindi Sadar Hospital,নরসিংদী সদর হাসপাতাল,100,null,null,40,GOVERNMENT,DISTRICT,null,null,null
+Natore Sadar hospital,নাটোর সদর হাসপাতাল,100,null,null,16,GOVERNMENT,DISTRICT,null,null,null
+Netrokona Sadar Hospital,নেত্রকোনা সদর হাসপাতাল,100,null,null,64,GOVERNMENT,DISTRICT,null,null,null
+Nilphamari Sadar hospital,নীলফামারী সদর হাসপাতাল,100,null,null,56,GOVERNMENT,DISTRICT,null,null,null
+Noakhali General Hospital,নোয়াখালী জেনারেল হাসপাতাল,250,null,null,5,GOVERNMENT,DISTRICT,null,null,null
+Pabna Sadar hospital,পাবনা সদর হাসপাতাল,250,null,null,13,GOVERNMENT,DISTRICT,null,null,null
+Panchagar Sadar hospital,পঞ্চগড় সদর হাসপাতাল,100,null,null,53,GOVERNMENT,DISTRICT,null,null,null
+Patuakhali Sadar hospital,পটুয়াখালী সদর হাসপাতাল,250,null,null,31,GOVERNMENT,DISTRICT,null,null,null
+Pirojpur Sadar hospital,পিরোজপুর সদর হাসপাতাল,100,null,null,32,GOVERNMENT,DISTRICT,null,null,null
+Rajbari Sadar Hospital,রাজবাড়ি সদর হাসপাতাল,100,null,null,49,GOVERNMENT,DISTRICT,null,null,null
+Rangamati General Hospital,রাঙ্গামাটি জেনারেল হাসপাতাল,100,null,null,4,GOVERNMENT,DISTRICT,null,null,null
+Satkhira Sadar hospital,সাতক্ষীরা সদর হাসপাতাল,100,null,null,21,GOVERNMENT,DISTRICT,null,null,null
+Shariatpur Sadar Hospital,শরিয়তপুর সদর হাসপাতাল,100,null,null,42,GOVERNMENT,DISTRICT,null,null,null
+Sherpur Sadar Hospital,শেরপুর সদর হাসপাতাল,100,null,null,61,GOVERNMENT,DISTRICT,null,null,null
+Serajgonj General Hospital,সিরাজগঞ্জ জেনারেল হাসপাতাল,100,null,null,12,GOVERNMENT,DISTRICT,null,null,null
+Sunamganj Sadar hospital,সুনামগঞ্জ সদর হাসপাতাল,250,null,null,39,GOVERNMENT,DISTRICT,null,null,null
+Sylhet Sadar Hospital,সিলেট সদর হাসপাতাল,100,null,null,36,GOVERNMENT,DISTRICT,null,null,null
+Tangail Sadar Hospital,টাঙ্গাইল সদর হাসপাতাল,250,null,null,44,GOVERNMENT,DISTRICT,null,null,null
+Thakorgaon Sadar hospital,ঠাকুরগাঁও সদর হাসপাতাল,100,null,null,58,GOVERNMENT,DISTRICT,null,null,null
+Chitalmari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,223,28,GOVERNMENT,UPAZILA,null,null,null
+Fakirhat Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,215,28,GOVERNMENT,UPAZILA,null,null,null
+Kachua Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,221,28,GOVERNMENT,UPAZILA,null,null,null
+Mollahat Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,217,28,GOVERNMENT,UPAZILA,null,null,null
+Mongla Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,222,28,GOVERNMENT,UPAZILA,null,null,null
+Morrelganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,220,28,GOVERNMENT,UPAZILA,null,null,null
+Rampal Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,219,28,GOVERNMENT,UPAZILA,null,null,null
+Sarankhola Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,218,28,GOVERNMENT,UPAZILA,null,null,null
+Alikadam Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,98,11,GOVERNMENT,UPAZILA,null,null,null
+Lama Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,101,11,GOVERNMENT,UPAZILA,null,null,null
+Naikhongchhari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,99,11,GOVERNMENT,UPAZILA,null,null,null
+Rowangchhari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,100,11,GOVERNMENT,UPAZILA,null,null,null
+Ruma Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,102,11,GOVERNMENT,UPAZILA,null,null,null
+Thanchi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,103,11,GOVERNMENT,UPAZILA,null,null,null
+Amtali Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,266,35,GOVERNMENT,UPAZILA,null,null,null
+Bamna Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,269,35,GOVERNMENT,UPAZILA,null,null,null
+Betagi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,268,35,GOVERNMENT,UPAZILA,null,null,null
+Patharghata Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,270,35,GOVERNMENT,UPAZILA,null,null,null
+Agailjhara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,255,33,GOVERNMENT,UPAZILA,null,null,null
+Babuganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,251,33,GOVERNMENT,UPAZILA,null,null,null
+Bakerganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,250,33,GOVERNMENT,UPAZILA,null,null,null
+Banaripara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,253,33,GOVERNMENT,UPAZILA,null,null,null
+Gaurnadi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,254,33,GOVERNMENT,UPAZILA,null,null,null
+Hizla Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,258,33,GOVERNMENT,UPAZILA,null,null,null
+Mehendiganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,256,33,GOVERNMENT,UPAZILA,null,null,null
+Muladi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,257,33,GOVERNMENT,UPAZILA,null,null,null
+Wazirpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,252,33,GOVERNMENT,UPAZILA,null,null,null
+Burhanuddin Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,260,34,GOVERNMENT,UPAZILA,null,null,null
+Charfasson Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,261,34,GOVERNMENT,UPAZILA,null,null,null
+Daulatkhan Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,262,34,GOVERNMENT,UPAZILA,null,null,null
+Lalmohan Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,265,34,GOVERNMENT,UPAZILA,null,null,null
+Manpura Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,263,34,GOVERNMENT,UPAZILA,null,null,null
+Tazumuddin Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,264,34,GOVERNMENT,UPAZILA,null,null,null
+Adamdighi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,127,14,GOVERNMENT,UPAZILA,null,null,null
+Dhunat Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,130,14,GOVERNMENT,UPAZILA,null,null,null
+Dhupchanchia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,126,14,GOVERNMENT,UPAZILA,null,null,null
+Gabtali Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,131,14,GOVERNMENT,UPAZILA,null,null,null
+Kahaloo Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,122,14,GOVERNMENT,UPAZILA,null,null,null
+Nandigram Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,128,14,GOVERNMENT,UPAZILA,null,null,null
+Sariakandi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,124,14,GOVERNMENT,UPAZILA,null,null,null
+Shajahanpur(Majhira) Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,125,14,GOVERNMENT,UPAZILA,null,null,null
+Sherpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,132,14,GOVERNMENT,UPAZILA,null,null,null
+Shibganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,159,14,GOVERNMENT,UPAZILA,null,null,null
+Sonatola Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,129,14,GOVERNMENT,UPAZILA,null,null,null
+Akhaura Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,29,3,GOVERNMENT,UPAZILA,null,null,null
+Ashuganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,28,3,GOVERNMENT,UPAZILA,null,null,null
+Banchharampur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,31,3,GOVERNMENT,UPAZILA,null,null,null
+Kasba Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,25,3,GOVERNMENT,UPAZILA,null,null,null
+Nabinagar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,30,3,GOVERNMENT,UPAZILA,null,null,null
+Nasirnagar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,26,3,GOVERNMENT,UPAZILA,null,null,null
+Sarail Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,27,3,GOVERNMENT,UPAZILA,null,null,null
+Faridganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,59,6,GOVERNMENT,UPAZILA,null,null,null
+Haim Char Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,52,6,GOVERNMENT,UPAZILA,null,null,null
+Hajiganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,57,6,GOVERNMENT,UPAZILA,null,null,null
+Kachua Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,221,6,GOVERNMENT,UPAZILA,null,null,null
+Matlab North Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,58,6,GOVERNMENT,UPAZILA,null,null,null
+Matlab South Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,56,6,GOVERNMENT,UPAZILA,null,null,null
+Shahrasti Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,54,6,GOVERNMENT,UPAZILA,null,null,null
+Bholahat Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,158,18,GOVERNMENT,UPAZILA,null,null,null
+Gomastapur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,156,18,GOVERNMENT,UPAZILA,null,null,null
+Nachole Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,157,18,GOVERNMENT,UPAZILA,null,null,null
+Shibganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,159,18,GOVERNMENT,UPAZILA,null,null,null
+Anowara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,72,8,GOVERNMENT,UPAZILA,null,null,null
+Banshkhali Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,70,8,GOVERNMENT,UPAZILA,null,null,null
+Boalkhali Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,71,8,GOVERNMENT,UPAZILA,null,null,null
+Chandanaish Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,73,8,GOVERNMENT,UPAZILA,null,null,null
+Fatikchhari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,77,8,GOVERNMENT,UPAZILA,null,null,null
+Hathazari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,76,8,GOVERNMENT,UPAZILA,null,null,null
+Lohagara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,190,8,GOVERNMENT,UPAZILA,null,null,null
+Mirsharai Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,67,8,GOVERNMENT,UPAZILA,null,null,null
+Patiya Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,68,8,GOVERNMENT,UPAZILA,null,null,null
+Rangunia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,65,8,GOVERNMENT,UPAZILA,null,null,null
+Raozan Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,78,8,GOVERNMENT,UPAZILA,null,null,null
+Sandwip Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,69,8,GOVERNMENT,UPAZILA,null,null,null
+Satkania Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,74,8,GOVERNMENT,UPAZILA,null,null,null
+Sitakunda Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,66,8,GOVERNMENT,UPAZILA,null,null,null
+Alamdanga Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,193,24,GOVERNMENT,UPAZILA,null,null,null
+Damurhuda Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,194,24,GOVERNMENT,UPAZILA,null,null,null
+Jiban Nagar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,195,24,GOVERNMENT,UPAZILA,null,null,null
+Barura Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,2,1,GOVERNMENT,UPAZILA,null,null,null
+Brahmanpara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,3,1,GOVERNMENT,UPAZILA,null,null,null
+Burichang Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,16,1,GOVERNMENT,UPAZILA,null,null,null
+Chandina Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,4,1,GOVERNMENT,UPAZILA,null,null,null
+Chauddagram Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,5,1,GOVERNMENT,UPAZILA,null,null,null
+Daudkandi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,6,1,GOVERNMENT,UPAZILA,null,null,null
+Debidwar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,1,1,GOVERNMENT,UPAZILA,null,null,null
+Homna Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,7,1,GOVERNMENT,UPAZILA,null,null,null
+Laksam Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,8,1,GOVERNMENT,UPAZILA,null,null,null
+Meghna Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,12,1,GOVERNMENT,UPAZILA,null,null,null
+Monoharganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,13,1,GOVERNMENT,UPAZILA,null,null,null
+Muradnagar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,9,1,GOVERNMENT,UPAZILA,null,null,null
+Nangalkot Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,10,1,GOVERNMENT,UPAZILA,null,null,null
+Sadar South Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,14,1,GOVERNMENT,UPAZILA,null,null,null
+Titas Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,15,1,GOVERNMENT,UPAZILA,null,null,null
+Chakaria Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,81,9,GOVERNMENT,UPAZILA,null,null,null
+Kutubdia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,82,9,GOVERNMENT,UPAZILA,null,null,null
+Maheshkhali Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,84,9,GOVERNMENT,UPAZILA,null,null,null
+Pekua Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,85,9,GOVERNMENT,UPAZILA,null,null,null
+Ramu Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,86,9,GOVERNMENT,UPAZILA,null,null,null
+Teknaf Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,87,9,GOVERNMENT,UPAZILA,null,null,null
+Ukhia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,83,9,GOVERNMENT,UPAZILA,null,null,null
+Dhamrai Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,366,47,GOVERNMENT,UPAZILA,null,null,null
+Dohar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,369,47,GOVERNMENT,UPAZILA,null,null,null
+Keraniganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,367,47,GOVERNMENT,UPAZILA,null,null,null
+Nawabganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,404,47,GOVERNMENT,UPAZILA,null,null,null
+Savar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,365,47,GOVERNMENT,UPAZILA,null,null,null
+Biral Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,415,54,GOVERNMENT,UPAZILA,null,null,null
+Birampur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,407,54,GOVERNMENT,UPAZILA,null,null,null
+Birganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,405,54,GOVERNMENT,UPAZILA,null,null,null
+Bochaganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,409,54,GOVERNMENT,UPAZILA,null,null,null
+Chirirbandar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,416,54,GOVERNMENT,UPAZILA,null,null,null
+Ghoraghat Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,406,54,GOVERNMENT,UPAZILA,null,null,null
+Hakimpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,413,54,GOVERNMENT,UPAZILA,null,null,null
+Kaharole Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,410,54,GOVERNMENT,UPAZILA,null,null,null
+Khansama Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,414,54,GOVERNMENT,UPAZILA,null,null,null
+Nawabganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,404,54,GOVERNMENT,UPAZILA,null,null,null
+Parbatipur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,408,54,GOVERNMENT,UPAZILA,null,null,null
+Phulbari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,451,54,GOVERNMENT,UPAZILA,null,null,null
+Alfadanga Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,391,52,GOVERNMENT,UPAZILA,null,null,null
+Bhanga Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,395,52,GOVERNMENT,UPAZILA,null,null,null
+Boalmari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,392,52,GOVERNMENT,UPAZILA,null,null,null
+Charbhadrasan Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,396,52,GOVERNMENT,UPAZILA,null,null,null
+Madhukhali Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,397,52,GOVERNMENT,UPAZILA,null,null,null
+Nagarkanda Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,394,52,GOVERNMENT,UPAZILA,null,null,null
+Sadarpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,393,52,GOVERNMENT,UPAZILA,null,null,null
+Chhagalnaiya Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,18,2,GOVERNMENT,UPAZILA,null,null,null
+Daganbhuiyan Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,23,2,GOVERNMENT,UPAZILA,null,null,null
+Fulgazi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,21,2,GOVERNMENT,UPAZILA,null,null,null
+Parshuram Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,22,2,GOVERNMENT,UPAZILA,null,null,null
+Sonagazi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,20,2,GOVERNMENT,UPAZILA,null,null,null
+Fulchhari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,434,57,GOVERNMENT,UPAZILA,null,null,null
+Gobindaganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,432,57,GOVERNMENT,UPAZILA,null,null,null
+Palashbari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,430,57,GOVERNMENT,UPAZILA,null,null,null
+Sadullapur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,428,57,GOVERNMENT,UPAZILA,null,null,null
+Saghatta Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,431,57,GOVERNMENT,UPAZILA,null,null,null
+Sundarganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,433,57,GOVERNMENT,UPAZILA,null,null,null
+Kaliakair Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,318,41,GOVERNMENT,UPAZILA,null,null,null
+Kaliganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,418,41,GOVERNMENT,UPAZILA,null,null,null
+Kapasia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,319,41,GOVERNMENT,UPAZILA,null,null,null
+Sreepur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,321,41,GOVERNMENT,UPAZILA,null,null,null
+Kashiani Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,386,51,GOVERNMENT,UPAZILA,null,null,null
+Kotalipara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,388,51,GOVERNMENT,UPAZILA,null,null,null
+Muksudpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,389,51,GOVERNMENT,UPAZILA,null,null,null
+Tungipara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,387,51,GOVERNMENT,UPAZILA,null,null,null
+Ajmiriganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,294,38,GOVERNMENT,UPAZILA,null,null,null
+Bahubal Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,293,38,GOVERNMENT,UPAZILA,null,null,null
+Baniachong Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,295,38,GOVERNMENT,UPAZILA,null,null,null
+Chunarughat Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,297,38,GOVERNMENT,UPAZILA,null,null,null
+Lakhai Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,296,38,GOVERNMENT,UPAZILA,null,null,null
+Madhabpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,299,38,GOVERNMENT,UPAZILA,null,null,null
+Nabiganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,292,38,GOVERNMENT,UPAZILA,null,null,null
+Bakshiganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,481,63,GOVERNMENT,UPAZILA,null,null,null
+Dewanganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,478,63,GOVERNMENT,UPAZILA,null,null,null
+Islampur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,477,63,GOVERNMENT,UPAZILA,null,null,null
+Madarganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,480,63,GOVERNMENT,UPAZILA,null,null,null
+Melandaha Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,476,63,GOVERNMENT,UPAZILA,null,null,null
+Sarishabari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,479,63,GOVERNMENT,UPAZILA,null,null,null
+Abhaynagar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,172,20,GOVERNMENT,UPAZILA,null,null,null
+Bagherpara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,173,20,GOVERNMENT,UPAZILA,null,null,null
+Chaugachha Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,174,20,GOVERNMENT,UPAZILA,null,null,null
+Jhikargachha Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,175,20,GOVERNMENT,UPAZILA,null,null,null
+Keshabpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,176,20,GOVERNMENT,UPAZILA,null,null,null
+Manirampur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,171,20,GOVERNMENT,UPAZILA,null,null,null
+Sharsha Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,178,20,GOVERNMENT,UPAZILA,null,null,null
+Kanthalia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,231,30,GOVERNMENT,UPAZILA,null,null,null
+Nalchity Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,232,30,GOVERNMENT,UPAZILA,null,null,null
+Rajapur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,233,30,GOVERNMENT,UPAZILA,null,null,null
+Harinakunda Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,226,29,GOVERNMENT,UPAZILA,null,null,null
+Kaliganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,418,29,GOVERNMENT,UPAZILA,null,null,null
+Kotchandpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,228,29,GOVERNMENT,UPAZILA,null,null,null
+Maheshpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,229,29,GOVERNMENT,UPAZILA,null,null,null
+Shailkupa Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,225,29,GOVERNMENT,UPAZILA,null,null,null
+Akkelpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,150,17,GOVERNMENT,UPAZILA,null,null,null
+Kalai Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,151,17,GOVERNMENT,UPAZILA,null,null,null
+Khetlal Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,152,17,GOVERNMENT,UPAZILA,null,null,null
+Panchbibi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,153,17,GOVERNMENT,UPAZILA,null,null,null
+Dighinala Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,89,10,GOVERNMENT,UPAZILA,null,null,null
+Lakshmichhari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,91,10,GOVERNMENT,UPAZILA,null,null,null
+Mahalchhari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,92,10,GOVERNMENT,UPAZILA,null,null,null
+Manikchhari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,93,10,GOVERNMENT,UPAZILA,null,null,null
+Matiranga Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,95,10,GOVERNMENT,UPAZILA,null,null,null
+Panchhari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,90,10,GOVERNMENT,UPAZILA,null,null,null
+Ramgarh Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,94,10,GOVERNMENT,UPAZILA,null,null,null
+Batiaghata Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,212,27,GOVERNMENT,UPAZILA,null,null,null
+Dacope Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,213,27,GOVERNMENT,UPAZILA,null,null,null
+Dighalia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,208,27,GOVERNMENT,UPAZILA,null,null,null
+Dumuria Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,211,27,GOVERNMENT,UPAZILA,null,null,null
+Koyra Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,214,27,GOVERNMENT,UPAZILA,null,null,null
+Paikgachha Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,206,27,GOVERNMENT,UPAZILA,null,null,null
+Phultala Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,207,27,GOVERNMENT,UPAZILA,null,null,null
+Rupsa Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,209,27,GOVERNMENT,UPAZILA,null,null,null
+Terokhada Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,210,27,GOVERNMENT,UPAZILA,null,null,null
+Austagram Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,355,45,GOVERNMENT,UPAZILA,null,null,null
+Bajitpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,354,45,GOVERNMENT,UPAZILA,null,null,null
+Bhairab Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,347,45,GOVERNMENT,UPAZILA,null,null,null
+Hossainpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,349,45,GOVERNMENT,UPAZILA,null,null,null
+Itna Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,345,45,GOVERNMENT,UPAZILA,null,null,null
+Karimganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,353,45,GOVERNMENT,UPAZILA,null,null,null
+Katiadi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,346,45,GOVERNMENT,UPAZILA,null,null,null
+Kuliarchar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,351,45,GOVERNMENT,UPAZILA,null,null,null
+Mithamain Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,356,45,GOVERNMENT,UPAZILA,null,null,null
+Nikli Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,357,45,GOVERNMENT,UPAZILA,null,null,null
+Pakundia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,350,45,GOVERNMENT,UPAZILA,null,null,null
+Tarail Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,348,45,GOVERNMENT,UPAZILA,null,null,null
+Bhurungamari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,450,60,GOVERNMENT,UPAZILA,null,null,null
+Chilmari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,454,60,GOVERNMENT,UPAZILA,null,null,null
+Fulbari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,411,60,GOVERNMENT,UPAZILA,null,null,null
+Nageshwari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,449,60,GOVERNMENT,UPAZILA,null,null,null
+Rajarhat Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,452,60,GOVERNMENT,UPAZILA,null,null,null
+Rajibpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,456,60,GOVERNMENT,UPAZILA,null,null,null
+Raumari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,455,60,GOVERNMENT,UPAZILA,null,null,null
+Ulipur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,453,60,GOVERNMENT,UPAZILA,null,null,null
+Bheramara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,201,25,GOVERNMENT,UPAZILA,null,null,null
+Daulatpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,200,25,GOVERNMENT,UPAZILA,null,null,null
+Khoksa Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,198,25,GOVERNMENT,UPAZILA,null,null,null
+Kumarkhali Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,197,25,GOVERNMENT,UPAZILA,null,null,null
+Mirpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,199,25,GOVERNMENT,UPAZILA,null,null,null
+Aditmari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,421,55,GOVERNMENT,UPAZILA,null,null,null
+Hatibandha Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,419,55,GOVERNMENT,UPAZILA,null,null,null
+Kaliganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,418,55,GOVERNMENT,UPAZILA,null,null,null
+Patgram Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,420,55,GOVERNMENT,UPAZILA,null,null,null
+Kamalnagar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,61,7,GOVERNMENT,UPAZILA,null,null,null
+Raipur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,62,7,GOVERNMENT,UPAZILA,null,null,null
+Ramganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,64,7,GOVERNMENT,UPAZILA,null,null,null
+Ramgati Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,63,7,GOVERNMENT,UPAZILA,null,null,null
+Kalkini Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,383,50,GOVERNMENT,UPAZILA,null,null,null
+Rajoir Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,384,50,GOVERNMENT,UPAZILA,null,null,null
+Shibchar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,382,50,GOVERNMENT,UPAZILA,null,null,null
+Mohammadpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,205,26,GOVERNMENT,UPAZILA,null,null,null
+Shalikha Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,202,26,GOVERNMENT,UPAZILA,null,null,null
+Sreepur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,321,26,GOVERNMENT,UPAZILA,null,null,null
+Daulatpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,200,46,GOVERNMENT,UPAZILA,null,null,null
+Ghior Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,361,46,GOVERNMENT,UPAZILA,null,null,null
+Harirampur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,358,46,GOVERNMENT,UPAZILA,null,null,null
+Saturia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,359,46,GOVERNMENT,UPAZILA,null,null,null
+Shibalaya Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,362,46,GOVERNMENT,UPAZILA,null,null,null
+Singair Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,364,46,GOVERNMENT,UPAZILA,null,null,null
+Gangni Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,188,22,GOVERNMENT,UPAZILA,null,null,null
+Mujib Nagar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,186,22,GOVERNMENT,UPAZILA,null,null,null
+Barlekha Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,285,37,GOVERNMENT,UPAZILA,null,null,null
+Juri Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,291,37,GOVERNMENT,UPAZILA,null,null,null
+Kamalganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,286,37,GOVERNMENT,UPAZILA,null,null,null
+Kulaura Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,287,37,GOVERNMENT,UPAZILA,null,null,null
+Rajnagar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,289,37,GOVERNMENT,UPAZILA,null,null,null
+Sreemangal Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,290,37,GOVERNMENT,UPAZILA,null,null,null
+Gazaria Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,374,48,GOVERNMENT,UPAZILA,null,null,null
+Lohajang Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,373,48,GOVERNMENT,UPAZILA,null,null,null
+Serajdikhan Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,372,48,GOVERNMENT,UPAZILA,null,null,null
+Sreenagar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,371,48,GOVERNMENT,UPAZILA,null,null,null
+Tongibari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,375,48,GOVERNMENT,UPAZILA,null,null,null
+Bhaluka Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,464,62,GOVERNMENT,UPAZILA,null,null,null
+Dhobaura Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,467,62,GOVERNMENT,UPAZILA,null,null,null
+Fulbaria Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,462,62,GOVERNMENT,UPAZILA,null,null,null
+Gaffargaon Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,471,62,GOVERNMENT,UPAZILA,null,null,null
+Gauripur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,470,62,GOVERNMENT,UPAZILA,null,null,null
+Haluaghat Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,469,62,GOVERNMENT,UPAZILA,null,null,null
+Ishwarganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,472,62,GOVERNMENT,UPAZILA,null,null,null
+Muktagachha Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,465,62,GOVERNMENT,UPAZILA,null,null,null
+Nandail Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,473,62,GOVERNMENT,UPAZILA,null,null,null
+Phulpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,468,62,GOVERNMENT,UPAZILA,null,null,null
+Trishal Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,463,62,GOVERNMENT,UPAZILA,null,null,null
+Atrai Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,166,19,GOVERNMENT,UPAZILA,null,null,null
+Badalgachhi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,161,19,GOVERNMENT,UPAZILA,null,null,null
+Dhamoirhat Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,163,19,GOVERNMENT,UPAZILA,null,null,null
+Mahadebpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,160,19,GOVERNMENT,UPAZILA,null,null,null
+Manda Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,165,19,GOVERNMENT,UPAZILA,null,null,null
+Niamatpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,164,19,GOVERNMENT,UPAZILA,null,null,null
+Patnitala Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,162,19,GOVERNMENT,UPAZILA,null,null,null
+Porsha Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,169,19,GOVERNMENT,UPAZILA,null,null,null
+Raninagar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,167,19,GOVERNMENT,UPAZILA,null,null,null
+Sapahar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,170,19,GOVERNMENT,UPAZILA,null,null,null
+Kalia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,191,23,GOVERNMENT,UPAZILA,null,null,null
+Lohagara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,190,23,GOVERNMENT,UPAZILA,null,null,null
+Araihazar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,328,43,GOVERNMENT,UPAZILA,null,null,null
+Bandar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,329,43,GOVERNMENT,UPAZILA,null,null,null
+Rupganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,331,43,GOVERNMENT,UPAZILA,null,null,null
+Sonargaon Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,332,43,GOVERNMENT,UPAZILA,null,null,null
+Belabo Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,311,40,GOVERNMENT,UPAZILA,null,null,null
+Manohardi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,312,40,GOVERNMENT,UPAZILA,null,null,null
+Palash Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,314,40,GOVERNMENT,UPAZILA,null,null,null
+Roypura Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,315,40,GOVERNMENT,UPAZILA,null,null,null
+Shibpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,316,40,GOVERNMENT,UPAZILA,null,null,null
+Bagatipara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,146,16,GOVERNMENT,UPAZILA,null,null,null
+Baraigram Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,145,16,GOVERNMENT,UPAZILA,null,null,null
+Gurudaspur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,148,16,GOVERNMENT,UPAZILA,null,null,null
+Lalpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,147,16,GOVERNMENT,UPAZILA,null,null,null
+Singra Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,144,16,GOVERNMENT,UPAZILA,null,null,null
+Atpara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,485,64,GOVERNMENT,UPAZILA,null,null,null
+Barhatta Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,482,64,GOVERNMENT,UPAZILA,null,null,null
+Durgapur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,483,64,GOVERNMENT,UPAZILA,null,null,null
+Kalmakanda Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,488,64,GOVERNMENT,UPAZILA,null,null,null
+Kendua Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,484,64,GOVERNMENT,UPAZILA,null,null,null
+Khaliajuri Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,487,64,GOVERNMENT,UPAZILA,null,null,null
+Madan Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,486,64,GOVERNMENT,UPAZILA,null,null,null
+Mohanganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,489,64,GOVERNMENT,UPAZILA,null,null,null
+Purbadhala Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,490,64,GOVERNMENT,UPAZILA,null,null,null
+Dimla Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,424,56,GOVERNMENT,UPAZILA,null,null,null
+Domar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,423,56,GOVERNMENT,UPAZILA,null,null,null
+Jaldhaka Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,425,56,GOVERNMENT,UPAZILA,null,null,null
+Kishoreganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,426,56,GOVERNMENT,UPAZILA,null,null,null
+Saidpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,422,56,GOVERNMENT,UPAZILA,null,null,null
+Begumganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,45,5,GOVERNMENT,UPAZILA,null,null,null
+Chatkhil Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,50,5,GOVERNMENT,UPAZILA,null,null,null
+Companiganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,44,5,GOVERNMENT,UPAZILA,null,null,null
+Hatiya Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,46,5,GOVERNMENT,UPAZILA,null,null,null
+Kabirhat Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,48,5,GOVERNMENT,UPAZILA,null,null,null
+Senbagh Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,49,5,GOVERNMENT,UPAZILA,null,null,null
+Sonaimuri Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,51,5,GOVERNMENT,UPAZILA,null,null,null
+Subarnachar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,47,5,GOVERNMENT,UPAZILA,null,null,null
+Atgharia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,118,13,GOVERNMENT,UPAZILA,null,null,null
+Bera Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,117,13,GOVERNMENT,UPAZILA,null,null,null
+Bhangura Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,115,13,GOVERNMENT,UPAZILA,null,null,null
+Chatmohar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,119,13,GOVERNMENT,UPAZILA,null,null,null
+Faridpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,121,13,GOVERNMENT,UPAZILA,null,null,null
+Ishwardi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,114,13,GOVERNMENT,UPAZILA,null,null,null
+Santhia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,120,13,GOVERNMENT,UPAZILA,null,null,null
+Sujanagar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,113,13,GOVERNMENT,UPAZILA,null,null,null
+Atwari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,402,53,GOVERNMENT,UPAZILA,null,null,null
+Boda Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,401,53,GOVERNMENT,UPAZILA,null,null,null
+Debiganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,400,53,GOVERNMENT,UPAZILA,null,null,null
+Tentulia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,403,53,GOVERNMENT,UPAZILA,null,null,null
+Bauphal Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,234,31,GOVERNMENT,UPAZILA,null,null,null
+Dashmina Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,237,31,GOVERNMENT,UPAZILA,null,null,null
+Dumki Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,236,31,GOVERNMENT,UPAZILA,null,null,null
+Galachipa Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,240,31,GOVERNMENT,UPAZILA,null,null,null
+Kala Para Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,238,31,GOVERNMENT,UPAZILA,null,null,null
+Mirzaganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,239,31,GOVERNMENT,UPAZILA,null,null,null
+Bhandaria Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,246,32,GOVERNMENT,UPAZILA,null,null,null
+Kawkhali Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,35,32,GOVERNMENT,UPAZILA,null,null,null
+Mathbaria Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,247,32,GOVERNMENT,UPAZILA,null,null,null
+Nazirpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,243,32,GOVERNMENT,UPAZILA,null,null,null
+Nesarabad (Swarupkati) Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,248,32,GOVERNMENT,UPAZILA,null,null,null
+Zianagar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,245,32,GOVERNMENT,UPAZILA,null,null,null
+Baliakandi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,379,49,GOVERNMENT,UPAZILA,null,null,null
+Goalunda Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,377,49,GOVERNMENT,UPAZILA,null,null,null
+Kalukhale Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,380,49,GOVERNMENT,UPAZILA,null,null,null
+Pangsha Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,378,49,GOVERNMENT,UPAZILA,null,null,null
+Bagha Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,139,15,GOVERNMENT,UPAZILA,null,null,null
+Baghmara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,142,15,GOVERNMENT,UPAZILA,null,null,null
+Charghat Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,137,15,GOVERNMENT,UPAZILA,null,null,null
+Durgapur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,483,15,GOVERNMENT,UPAZILA,null,null,null
+Godagari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,140,15,GOVERNMENT,UPAZILA,null,null,null
+Mohanpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,136,15,GOVERNMENT,UPAZILA,null,null,null
+Paba Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,134,15,GOVERNMENT,UPAZILA,null,null,null
+Putia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,138,15,GOVERNMENT,UPAZILA,null,null,null
+Tanore Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,141,15,GOVERNMENT,UPAZILA,null,null,null
+Baghaichhari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,36,4,GOVERNMENT,UPAZILA,null,null,null
+Barkal Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,37,4,GOVERNMENT,UPAZILA,null,null,null
+Belaichhari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,40,4,GOVERNMENT,UPAZILA,null,null,null
+Juraichhari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,41,4,GOVERNMENT,UPAZILA,null,null,null
+Kaptai Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,34,4,GOVERNMENT,UPAZILA,null,null,null
+Kawkhali (Betbunia) Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,35,4,GOVERNMENT,UPAZILA,null,null,null
+Langadu Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,38,4,GOVERNMENT,UPAZILA,null,null,null
+Nannerchar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,42,4,GOVERNMENT,UPAZILA,null,null,null
+Rajasthali Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,39,4,GOVERNMENT,UPAZILA,null,null,null
+Badarganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,443,59,GOVERNMENT,UPAZILA,null,null,null
+Gangachara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,441,59,GOVERNMENT,UPAZILA,null,null,null
+Kaunia Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,446,59,GOVERNMENT,UPAZILA,null,null,null
+Mithapukur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,444,59,GOVERNMENT,UPAZILA,null,null,null
+Pirgachha Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,447,59,GOVERNMENT,UPAZILA,null,null,null
+Pirganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,436,59,GOVERNMENT,UPAZILA,null,null,null
+Taraganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,442,59,GOVERNMENT,UPAZILA,null,null,null
+Assasuni Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,179,21,GOVERNMENT,UPAZILA,null,null,null
+Debhata Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,180,21,GOVERNMENT,UPAZILA,null,null,null
+Kalaroa Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,181,21,GOVERNMENT,UPAZILA,null,null,null
+Kaliganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,418,21,GOVERNMENT,UPAZILA,null,null,null
+Shyamnagar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,183,21,GOVERNMENT,UPAZILA,null,null,null
+Tala Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,184,21,GOVERNMENT,UPAZILA,null,null,null
+Bhedarganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,326,42,GOVERNMENT,UPAZILA,null,null,null
+Damudya Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,327,42,GOVERNMENT,UPAZILA,null,null,null
+Gosairhat Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,325,42,GOVERNMENT,UPAZILA,null,null,null
+Naria Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,323,42,GOVERNMENT,UPAZILA,null,null,null
+Zanjira Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,324,42,GOVERNMENT,UPAZILA,null,null,null
+Jhenaigati Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,461,61,GOVERNMENT,UPAZILA,null,null,null
+Nakla Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,460,61,GOVERNMENT,UPAZILA,null,null,null
+Nalitabari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,458,61,GOVERNMENT,UPAZILA,null,null,null
+Sreebardi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,459,61,GOVERNMENT,UPAZILA,null,null,null
+Belkuchi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,104,12,GOVERNMENT,UPAZILA,null,null,null
+Chauhali Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,105,12,GOVERNMENT,UPAZILA,null,null,null
+Kamarkhanda Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,106,12,GOVERNMENT,UPAZILA,null,null,null
+Kazipur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,107,12,GOVERNMENT,UPAZILA,null,null,null
+Royganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,108,12,GOVERNMENT,UPAZILA,null,null,null
+Shahjadpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,109,12,GOVERNMENT,UPAZILA,null,null,null
+Tarash Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,111,12,GOVERNMENT,UPAZILA,null,null,null
+Ullahpara Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,112,12,GOVERNMENT,UPAZILA,null,null,null
+Bishwambarpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,302,39,GOVERNMENT,UPAZILA,null,null,null
+Chhatak Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,303,39,GOVERNMENT,UPAZILA,null,null,null
+Derai Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,310,39,GOVERNMENT,UPAZILA,null,null,null
+Dharampasha Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,307,39,GOVERNMENT,UPAZILA,null,null,null
+Dowarabazar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,305,39,GOVERNMENT,UPAZILA,null,null,null
+Jagannathpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,304,39,GOVERNMENT,UPAZILA,null,null,null
+Jamalganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,308,39,GOVERNMENT,UPAZILA,null,null,null
+South Sunamganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,301,39,GOVERNMENT,UPAZILA,null,null,null
+Sulla Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,309,39,GOVERNMENT,UPAZILA,null,null,null
+Tahirpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,306,39,GOVERNMENT,UPAZILA,null,null,null
+Balaganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,272,36,GOVERNMENT,UPAZILA,null,null,null
+Beanibazar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,273,36,GOVERNMENT,UPAZILA,null,null,null
+Bishwanath Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,274,36,GOVERNMENT,UPAZILA,null,null,null
+Companiganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,44,36,GOVERNMENT,UPAZILA,null,null,null
+Fenchuganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,276,36,GOVERNMENT,UPAZILA,null,null,null
+Golabganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,277,36,GOVERNMENT,UPAZILA,null,null,null
+Gowainghat Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,278,36,GOVERNMENT,UPAZILA,null,null,null
+Jaintiapur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,279,36,GOVERNMENT,UPAZILA,null,null,null
+Kanaighat Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,280,36,GOVERNMENT,UPAZILA,null,null,null
+South Surma Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,283,36,GOVERNMENT,UPAZILA,null,null,null
+Zakiganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,282,36,GOVERNMENT,UPAZILA,null,null,null
+Basail Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,333,44,GOVERNMENT,UPAZILA,null,null,null
+Bhuapur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,334,44,GOVERNMENT,UPAZILA,null,null,null
+Delduar Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,335,44,GOVERNMENT,UPAZILA,null,null,null
+Dhanbari Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,344,44,GOVERNMENT,UPAZILA,null,null,null
+Ghatail Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,336,44,GOVERNMENT,UPAZILA,null,null,null
+Gopalpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,337,44,GOVERNMENT,UPAZILA,null,null,null
+Kalihati Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,343,44,GOVERNMENT,UPAZILA,null,null,null
+Madhupur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,338,44,GOVERNMENT,UPAZILA,null,null,null
+Mirzapur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,339,44,GOVERNMENT,UPAZILA,null,null,null
+Nagarpur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,340,44,GOVERNMENT,UPAZILA,null,null,null
+Sakhipur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,341,44,GOVERNMENT,UPAZILA,null,null,null
+Baliadangi Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,439,58,GOVERNMENT,UPAZILA,null,null,null
+Haripur Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,438,58,GOVERNMENT,UPAZILA,null,null,null
+Pirganj Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,31,null,436,58,GOVERNMENT,UPAZILA,null,null,null
+Ranisankail Upazila Health Complex,উপজেলা স্বাস্থ্য কমপ্লেক্স,50,null,437,58,GOVERNMENT,UPAZILA,null,null,null
+Taltali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,266,35,GOVERNMENT,UNION,null,null,null
+Gulishakhali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,266,35,GOVERNMENT,UNION,null,null,null
+Gazipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,266,35,GOVERNMENT,UNION,null,null,null
+Fuljhuri Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,267,35,GOVERNMENT,UNION,null,null,null
+Nalihat(Dhula) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,267,35,GOVERNMENT,UNION,null,null,null
+Aylapatakata Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,267,35,GOVERNMENT,UNION,null,null,null
+Kownia(Bibechini) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,268,35,GOVERNMENT,UNION,null,null,null
+Kalmegha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,270,35,GOVERNMENT,UNION,null,null,null
+Paisarhat(Bakal) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,255,33,GOVERNMENT,UNION,null,null,null
+Ratnapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,255,33,GOVERNMENT,UNION,null,null,null
+Dehergati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,251,33,GOVERNMENT,UNION,null,null,null
+Madhabpasha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,251,33,GOVERNMENT,UNION,null,null,null
+Mohanganj(Chandpasha) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,251,33,GOVERNMENT,UNION,null,null,null
+Agarpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,251,33,GOVERNMENT,UNION,null,null,null
+Jahapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,251,33,GOVERNMENT,UNION,null,null,null
+Padrishibpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,250,33,GOVERNMENT,UNION,null,null,null
+chamta(Neamati) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,250,33,GOVERNMENT,UNION,null,null,null
+Laxmipasha(Kabai) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,250,33,GOVERNMENT,UNION,null,null,null
+Kalaskati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,250,33,GOVERNMENT,UNION,null,null,null
+Faridpur(Durgpasha) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,250,33,GOVERNMENT,UNION,null,null,null
+Khariabad(Gururia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,250,33,GOVERNMENT,UNION,null,null,null
+Charramudi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,250,33,GOVERNMENT,UNION,null,null,null
+Awar(Baisari) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,253,33,GOVERNMENT,UNION,null,null,null
+Sayestabad Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,249,33,GOVERNMENT,UNION,null,null,null
+Batazore Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,254,33,GOVERNMENT,UNION,null,null,null
+Nalchira Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,254,33,GOVERNMENT,UNION,null,null,null
+Khanjapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,254,33,GOVERNMENT,UNION,null,null,null
+Dhanusikdarhat(Harinathpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,258,33,GOVERNMENT,UNION,null,null,null
+Ulania Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,256,33,GOVERNMENT,UNION,null,null,null
+Bhasanchar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,256,33,GOVERNMENT,UNION,null,null,null
+Langutia(Jangalia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,256,33,GOVERNMENT,UNION,null,null,null
+Lata Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,256,33,GOVERNMENT,UNION,null,null,null
+Paikha(Gachua)) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,257,33,GOVERNMENT,UNION,null,null,null
+Padarhat(Kazirchar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,257,33,GOVERNMENT,UNION,null,null,null
+Alimabad(Batamara) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,257,33,GOVERNMENT,UNION,null,null,null
+Atipara(Bamrail) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,252,33,GOVERNMENT,UNION,null,null,null
+Moshang(Otra) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,252,33,GOVERNMENT,UNION,null,null,null
+Satla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,252,33,GOVERNMENT,UNION,null,null,null
+Shikerpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,252,33,GOVERNMENT,UNION,null,null,null
+Chathalbari(Barakoth) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,252,33,GOVERNMENT,UNION,null,null,null
+Dularhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,261,34,GOVERNMENT,UNION,null,null,null
+Sarajganj(Syedpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,262,34,GOVERNMENT,UNION,null,null,null
+Lordhardingue Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,265,34,GOVERNMENT,UNION,null,null,null
+Mongalsikdar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,265,34,GOVERNMENT,UNION,null,null,null
+Karterhat(Ramaganj) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,265,34,GOVERNMENT,UNION,null,null,null
+Charponkirhat(Kalma) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,265,34,GOVERNMENT,UNION,null,null,null
+Monpura Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,263,34,GOVERNMENT,UNION,null,null,null
+Gabkhan Dhansiri Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,230,30,GOVERNMENT,UNION,null,null,null
+Binoykathi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,230,30,GOVERNMENT,UNION,null,null,null
+Gavaramchandrapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,230,30,GOVERNMENT,UNION,null,null,null
+Kathali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,231,30,GOVERNMENT,UNION,null,null,null
+Aourabunia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,231,30,GOVERNMENT,UNION,null,null,null
+Kalisuri Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,234,31,GOVERNMENT,UNION,null,null,null
+Boga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,234,31,GOVERNMENT,UNION,null,null,null
+Bauphal(Kanakdia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,234,31,GOVERNMENT,UNION,null,null,null
+Chalti Bunia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,240,31,GOVERNMENT,UNION,null,null,null
+Char Biswas Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,240,31,GOVERNMENT,UNION,null,null,null
+Ratandi Taltali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,240,31,GOVERNMENT,UNION,null,null,null
+Kalwan Kalash(Kharijama) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,240,31,GOVERNMENT,UNION,null,null,null
+Mohipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,238,31,GOVERNMENT,UNION,null,null,null
+Chaltaibunia(Majidbaria) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,239,31,GOVERNMENT,UNION,null,null,null
+Mohiskata(Amragasia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,239,31,GOVERNMENT,UNION,null,null,null
+Chita(Madabkhali) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,239,31,GOVERNMENT,UNION,null,null,null
+Lebukhali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,235,31,GOVERNMENT,UNION,null,null,null
+Bhandaria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,246,32,GOVERNMENT,UNION,null,null,null
+Mirukhali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,247,32,GOVERNMENT,UNION,null,null,null
+Tushkhali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,247,32,GOVERNMENT,UNION,null,null,null
+Matibanga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,243,32,GOVERNMENT,UNION,null,null,null
+Sarsina(Swarupkati) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,248,32,GOVERNMENT,UNION,null,null,null
+Atghar Kuriana Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,248,32,GOVERNMENT,UNION,null,null,null
+Baishari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,99,11,GOVERNMENT,UNION,null,null,null
+Mogra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,29,3,GOVERNMENT,UNION,null,null,null
+Ranighar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,29,3,GOVERNMENT,UNION,null,null,null
+Rupasdi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,31,3,GOVERNMENT,UNION,null,null,null
+Darikandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,31,3,GOVERNMENT,UNION,null,null,null
+Patton Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,24,3,GOVERNMENT,UNION,null,null,null
+Ashugong Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,24,3,GOVERNMENT,UNION,null,null,null
+Bayek Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,25,3,GOVERNMENT,UNION,null,null,null
+Chargach Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,25,3,GOVERNMENT,UNION,null,null,null
+Ratanpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,30,3,GOVERNMENT,UNION,null,null,null
+Bidyakot Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,30,3,GOVERNMENT,UNION,null,null,null
+Sadekpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,30,3,GOVERNMENT,UNION,null,null,null
+Salimgonj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,30,3,GOVERNMENT,UNION,null,null,null
+Rasullabad Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,30,3,GOVERNMENT,UNION,null,null,null
+Sreeghar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,30,3,GOVERNMENT,UNION,null,null,null
+Kaitala Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,30,3,GOVERNMENT,UNION,null,null,null
+Jinnatpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,30,3,GOVERNMENT,UNION,null,null,null
+Haripur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,26,3,GOVERNMENT,UNION,null,null,null
+Fandauk Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,26,3,GOVERNMENT,UNION,null,null,null
+Gokarna Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,26,3,GOVERNMENT,UNION,null,null,null
+Shahajadapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,27,3,GOVERNMENT,UNION,null,null,null
+Chunta Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,27,3,GOVERNMENT,UNION,null,null,null
+Joydharkandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,27,3,GOVERNMENT,UNION,null,null,null
+Shahbajpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,27,3,GOVERNMENT,UNION,null,null,null
+Paniswar South Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,27,3,GOVERNMENT,UNION,null,null,null
+Hanarchar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,55,6,GOVERNMENT,UNION,null,null,null
+Asta Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,59,6,GOVERNMENT,UNION,null,null,null
+Ferozpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,59,6,GOVERNMENT,UNION,null,null,null
+Karaitali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,59,6,GOVERNMENT,UNION,null,null,null
+Rupsa Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,59,6,GOVERNMENT,UNION,null,null,null
+Sreepur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,57,6,GOVERNMENT,UNION,null,null,null
+Hajiganj Sadar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,57,6,GOVERNMENT,UNION,null,null,null
+Ramchandrapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,57,6,GOVERNMENT,UNION,null,null,null
+Pathair Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,221,6,GOVERNMENT,UNION,null,null,null
+Asrafpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,221,6,GOVERNMENT,UNION,null,null,null
+Ragunathpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,221,6,GOVERNMENT,UNION,null,null,null
+Kachua Sadar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,221,6,GOVERNMENT,UNION,null,null,null
+Mandartali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,56,6,GOVERNMENT,UNION,null,null,null
+Sangarchar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,56,6,GOVERNMENT,UNION,null,null,null
+Satnal Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,56,6,GOVERNMENT,UNION,null,null,null
+Durgapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,56,6,GOVERNMENT,UNION,null,null,null
+Turki Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,56,6,GOVERNMENT,UNION,null,null,null
+Mohonpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,56,6,GOVERNMENT,UNION,null,null,null
+Tampta Meher Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,54,6,GOVERNMENT,UNION,null,null,null
+Nawra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,54,6,GOVERNMENT,UNION,null,null,null
+Paraikora Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,72,8,GOVERNMENT,UNION,null,null,null
+Tailardip Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,72,8,GOVERNMENT,UNION,null,null,null
+Puichari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,70,8,GOVERNMENT,UNION,null,null,null
+Bailchari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,70,8,GOVERNMENT,UNION,null,null,null
+Banigram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,70,8,GOVERNMENT,UNION,null,null,null
+Charandwip Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,71,8,GOVERNMENT,UNION,null,null,null
+Shakpura Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,71,8,GOVERNMENT,UNION,null,null,null
+Karaldanga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,71,8,GOVERNMENT,UNION,null,null,null
+Dhorla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,71,8,GOVERNMENT,UNION,null,null,null
+Popadia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,71,8,GOVERNMENT,UNION,null,null,null
+Boalkhali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,71,8,GOVERNMENT,UNION,null,null,null
+Hashimpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,73,8,GOVERNMENT,UNION,null,null,null
+Mohammadpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,73,8,GOVERNMENT,UNION,null,null,null
+Harala Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,73,8,GOVERNMENT,UNION,null,null,null
+Barama Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,73,8,GOVERNMENT,UNION,null,null,null
+Bailtali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,73,8,GOVERNMENT,UNION,null,null,null
+Dantmara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,77,8,GOVERNMENT,UNION,null,null,null
+Paindong Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,77,8,GOVERNMENT,UNION,null,null,null
+Kanchan Nagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,77,8,GOVERNMENT,UNION,null,null,null
+Fatikchhari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,77,8,GOVERNMENT,UNION,null,null,null
+Lelang Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,77,8,GOVERNMENT,UNION,null,null,null
+Bhujpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,77,8,GOVERNMENT,UNION,null,null,null
+Fatehpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,77,8,GOVERNMENT,UNION,null,null,null
+Nanupur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,77,8,GOVERNMENT,UNION,null,null,null
+Narayanhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,77,8,GOVERNMENT,UNION,null,null,null
+Harwalchhari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,77,8,GOVERNMENT,UNION,null,null,null
+Stuward Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,76,8,GOVERNMENT,UNION,null,null,null
+Uttar Madrasha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,76,8,GOVERNMENT,UNION,null,null,null
+Nangalmora Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,76,8,GOVERNMENT,UNION,null,null,null
+Bathua Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,76,8,GOVERNMENT,UNION,null,null,null
+Katirhat(hathhazari) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,76,8,GOVERNMENT,UNION,null,null,null
+Adhunagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,190,8,GOVERNMENT,UNION,null,null,null
+Barahatia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,190,8,GOVERNMENT,UNION,null,null,null
+Padua Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,190,8,GOVERNMENT,UNION,null,null,null
+Charamba Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,190,8,GOVERNMENT,UNION,null,null,null
+Mirsarai Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,67,8,GOVERNMENT,UNION,null,null,null
+Abu Torab Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,67,8,GOVERNMENT,UNION,null,null,null
+Wahedpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,67,8,GOVERNMENT,UNION,null,null,null
+Mohayanhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,67,8,GOVERNMENT,UNION,null,null,null
+Kamaralirhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,67,8,GOVERNMENT,UNION,null,null,null
+Temuhani Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,67,8,GOVERNMENT,UNION,null,null,null
+Chinki Astana Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,67,8,GOVERNMENT,UNION,null,null,null
+Barauthan Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,68,8,GOVERNMENT,UNION,null,null,null
+Dhalghat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,68,8,GOVERNMENT,UNION,null,null,null
+Panchuria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,68,8,GOVERNMENT,UNION,null,null,null
+Budpura Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,68,8,GOVERNMENT,UNION,null,null,null
+Potiya Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,68,8,GOVERNMENT,UNION,null,null,null
+Gurudasdatta Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,68,8,GOVERNMENT,UNION,null,null,null
+Kelishahar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,68,8,GOVERNMENT,UNION,null,null,null
+Sharafbhata Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,65,8,GOVERNMENT,UNION,null,null,null
+Pomra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,65,8,GOVERNMENT,UNION,null,null,null
+Padua Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,65,8,GOVERNMENT,UNION,null,null,null
+Dhamairhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,65,8,GOVERNMENT,UNION,null,null,null
+Betagi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,65,8,GOVERNMENT,UNION,null,null,null
+Shilak Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,65,8,GOVERNMENT,UNION,null,null,null
+Hosnabad Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,65,8,GOVERNMENT,UNION,null,null,null
+Mohamoni Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,78,8,GOVERNMENT,UNION,null,null,null
+Rowzan Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,78,8,GOVERNMENT,UNION,null,null,null
+Gohera Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,78,8,GOVERNMENT,UNION,null,null,null
+Noapara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,78,8,GOVERNMENT,UNION,null,null,null
+Noajishpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,78,8,GOVERNMENT,UNION,null,null,null
+Andarmaink Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,78,8,GOVERNMENT,UNION,null,null,null
+Kadalpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,78,8,GOVERNMENT,UNION,null,null,null
+Binajuri Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,78,8,GOVERNMENT,UNION,null,null,null
+Batajora Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,69,8,GOVERNMENT,UNION,null,null,null
+South Sandwip(Maithbanga) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,69,8,GOVERNMENT,UNION,null,null,null
+Musapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,69,8,GOVERNMENT,UNION,null,null,null
+Bardona Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,74,8,GOVERNMENT,UNION,null,null,null
+Bomanhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,74,8,GOVERNMENT,UNION,null,null,null
+Kanchana Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,74,8,GOVERNMENT,UNION,null,null,null
+Khagaria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,74,8,GOVERNMENT,UNION,null,null,null
+Satkania Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,74,8,GOVERNMENT,UNION,null,null,null
+Kumira Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,66,8,GOVERNMENT,UNION,null,null,null
+Jhalam Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,2,1,GOVERNMENT,UNION,null,null,null
+Shilmuri Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,2,1,GOVERNMENT,UNION,null,null,null
+Payalgacha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,2,1,GOVERNMENT,UNION,null,null,null
+Galimpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,2,1,GOVERNMENT,UNION,null,null,null
+Aganagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,2,1,GOVERNMENT,UNION,null,null,null
+Batisha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,5,1,GOVERNMENT,UNION,null,null,null
+Kashinagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,5,1,GOVERNMENT,UNION,null,null,null
+Chiora Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,5,1,GOVERNMENT,UNION,null,null,null
+Rajar Bazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,5,1,GOVERNMENT,UNION,null,null,null
+Alkora Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,5,1,GOVERNMENT,UNION,null,null,null
+Dollainawabpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,4,1,GOVERNMENT,UNION,null,null,null
+Mahichail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,4,1,GOVERNMENT,UNION,null,null,null
+Daulatpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,11,1,GOVERNMENT,UNION,null,null,null
+Asmania Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,6,1,GOVERNMENT,UNION,null,null,null
+Mazidpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,6,1,GOVERNMENT,UNION,null,null,null
+Panchgachia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,6,1,GOVERNMENT,UNION,null,null,null
+Batakandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,6,1,GOVERNMENT,UNION,null,null,null
+Daudkandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,6,1,GOVERNMENT,UNION,null,null,null
+Elliotgonj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,6,1,GOVERNMENT,UNION,null,null,null
+Mohammedpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,6,1,GOVERNMENT,UNION,null,null,null
+Gouripur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,6,1,GOVERNMENT,UNION,null,null,null
+Swapara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,6,1,GOVERNMENT,UNION,null,null,null
+Subil Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,1,1,GOVERNMENT,UNION,null,null,null
+Dhamti Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,1,1,GOVERNMENT,UNION,null,null,null
+Alahabad Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,1,1,GOVERNMENT,UNION,null,null,null
+Jafargonj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,1,1,GOVERNMENT,UNION,null,null,null
+Gopalnagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,1,1,GOVERNMENT,UNION,null,null,null
+Chanderchar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,7,1,GOVERNMENT,UNION,null,null,null
+Nilakhi Vasania Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,7,1,GOVERNMENT,UNION,null,null,null
+Laksam Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,8,1,GOVERNMENT,UNION,null,null,null
+Natherpetua Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,8,1,GOVERNMENT,UNION,null,null,null
+Bipulasar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,8,1,GOVERNMENT,UNION,null,null,null
+Monoharganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,8,1,GOVERNMENT,UNION,null,null,null
+Bagmara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,8,1,GOVERNMENT,UNION,null,null,null
+Haidarbad Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,9,1,GOVERNMENT,UNION,null,null,null
+Ramchandrapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,9,1,GOVERNMENT,UNION,null,null,null
+Nagarpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,9,1,GOVERNMENT,UNION,null,null,null
+Gandra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,9,1,GOVERNMENT,UNION,null,null,null
+Jahapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,9,1,GOVERNMENT,UNION,null,null,null
+Bangora Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,9,1,GOVERNMENT,UNION,null,null,null
+Srekail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,9,1,GOVERNMENT,UNION,null,null,null
+Bokhganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,10,1,GOVERNMENT,UNION,null,null,null
+Dolkhar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,10,1,GOVERNMENT,UNION,null,null,null
+Bangodda Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,10,1,GOVERNMENT,UNION,null,null,null
+Jodda Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,10,1,GOVERNMENT,UNION,null,null,null
+Badarkhali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,81,9,GOVERNMENT,UNION,null,null,null
+Harbhang Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,81,9,GOVERNMENT,UNION,null,null,null
+Bara Bakia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,81,9,GOVERNMENT,UNION,null,null,null
+Eidgaon Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,80,9,GOVERNMENT,UNION,null,null,null
+Kalarmarchara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,84,9,GOVERNMENT,UNION,null,null,null
+Garjania Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,86,9,GOVERNMENT,UNION,null,null,null
+Fatekarkul Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,86,9,GOVERNMENT,UNION,null,null,null
+Hinlla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,87,9,GOVERNMENT,UNION,null,null,null
+St. Martin Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,87,9,GOVERNMENT,UNION,null,null,null
+Haladia Palong Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,83,9,GOVERNMENT,UNION,null,null,null
+Inani(jaliapalong) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,83,9,GOVERNMENT,UNION,null,null,null
+Balukhali(palogkhal) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,83,9,GOVERNMENT,UNION,null,null,null
+Ukhyia T.D. Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,83,9,GOVERNMENT,UNION,null,null,null
+Subapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,18,2,GOVERNMENT,UNION,null,null,null
+Pathan Nagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,18,2,GOVERNMENT,UNION,null,null,null
+Gopal Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,18,2,GOVERNMENT,UNION,null,null,null
+Sujatpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,23,2,GOVERNMENT,UNION,null,null,null
+Daganbhuiyan Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,23,2,GOVERNMENT,UNION,null,null,null
+Sharshadi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,19,2,GOVERNMENT,UNION,null,null,null
+Khaiara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,19,2,GOVERNMENT,UNION,null,null,null
+Fazilpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,19,2,GOVERNMENT,UNION,null,null,null
+Kalidah Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,19,2,GOVERNMENT,UNION,null,null,null
+Nowabazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,22,2,GOVERNMENT,UNION,null,null,null
+Subarbazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,22,2,GOVERNMENT,UNION,null,null,null
+Amzadhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,22,2,GOVERNMENT,UNION,null,null,null
+Munshirhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,22,2,GOVERNMENT,UNION,null,null,null
+Fulgazi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,22,2,GOVERNMENT,UNION,null,null,null
+Char Chandina Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,20,2,GOVERNMENT,UNION,null,null,null
+Amirabad Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,20,2,GOVERNMENT,UNION,null,null,null
+Motiganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,20,2,GOVERNMENT,UNION,null,null,null
+Mangalkandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,20,2,GOVERNMENT,UNION,null,null,null
+Kutirhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,20,2,GOVERNMENT,UNION,null,null,null
+Chotto Merung Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,89,10,GOVERNMENT,UNION,null,null,null
+Jarul Chari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,89,10,GOVERNMENT,UNION,null,null,null
+Babuchara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,89,10,GOVERNMENT,UNION,null,null,null
+Mayor Khil(Lakshmichhari) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,91,10,GOVERNMENT,UNION,null,null,null
+Sindukchari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,92,10,GOVERNMENT,UNION,null,null,null
+Maischhari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,92,10,GOVERNMENT,UNION,null,null,null
+Gowrangapara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,95,10,GOVERNMENT,UNION,null,null,null
+Alutila Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,95,10,GOVERNMENT,UNION,null,null,null
+Guimara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,95,10,GOVERNMENT,UNION,null,null,null
+Ultachari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,90,10,GOVERNMENT,UNION,null,null,null
+Nakapa(guimara) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,94,10,GOVERNMENT,UNION,null,null,null
+Dattapara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,60,7,GOVERNMENT,UNION,null,null,null
+Hajirpara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,60,7,GOVERNMENT,UNION,null,null,null
+Bhabaniganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,60,7,GOVERNMENT,UNION,null,null,null
+AmaniLakshmipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,60,7,GOVERNMENT,UNION,null,null,null
+Rupchhara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,60,7,GOVERNMENT,UNION,null,null,null
+Bijoy Nagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,60,7,GOVERNMENT,UNION,null,null,null
+Rasulgonj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,60,7,GOVERNMENT,UNION,null,null,null
+Haiderganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,62,7,GOVERNMENT,UNION,null,null,null
+Saicha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,62,7,GOVERNMENT,UNION,null,null,null
+Lamchar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,64,7,GOVERNMENT,UNION,null,null,null
+Dalta Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,64,7,GOVERNMENT,UNION,null,null,null
+Bigha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,64,7,GOVERNMENT,UNION,null,null,null
+Shah Shaheb Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,64,7,GOVERNMENT,UNION,null,null,null
+Ramgati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,63,7,GOVERNMENT,UNION,null,null,null
+Char Alexander Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,63,7,GOVERNMENT,UNION,null,null,null
+Kashipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,45,5,GOVERNMENT,UNION,null,null,null
+Jamidarhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,45,5,GOVERNMENT,UNION,null,null,null
+Jirtali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,45,5,GOVERNMENT,UNION,null,null,null
+Sonaimuri Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,45,5,GOVERNMENT,UNION,null,null,null
+Begumganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,45,5,GOVERNMENT,UNION,null,null,null
+Siddiquenagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,45,5,GOVERNMENT,UNION,null,null,null
+Gopalpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,45,5,GOVERNMENT,UNION,null,null,null
+Chandraganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,45,5,GOVERNMENT,UNION,null,null,null
+Amishapara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,45,5,GOVERNMENT,UNION,null,null,null
+Joyag Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,45,5,GOVERNMENT,UNION,null,null,null
+Nazibunnesa Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,50,5,GOVERNMENT,UNION,null,null,null
+Bamni Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,44,5,GOVERNMENT,UNION,null,null,null
+Oskhali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,46,5,GOVERNMENT,UNION,null,null,null
+Afizia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,46,5,GOVERNMENT,UNION,null,null,null
+Sonadi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,46,5,GOVERNMENT,UNION,null,null,null
+Mofizia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,46,5,GOVERNMENT,UNION,null,null,null
+Tamaruddin Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,46,5,GOVERNMENT,UNION,null,null,null
+Burirchar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,46,5,GOVERNMENT,UNION,null,null,null
+Charvata Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,43,5,GOVERNMENT,UNION,null,null,null
+Kabirhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,43,5,GOVERNMENT,UNION,null,null,null
+Khaliferhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,43,5,GOVERNMENT,UNION,null,null,null
+Sonapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,43,5,GOVERNMENT,UNION,null,null,null
+South Sarifpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,43,5,GOVERNMENT,UNION,null,null,null
+Harihar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,49,5,GOVERNMENT,UNION,null,null,null
+Kankirhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,49,5,GOVERNMENT,UNION,null,null,null
+Kachalong Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,36,4,GOVERNMENT,UNION,null,null,null
+Machalong Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,36,4,GOVERNMENT,UNION,null,null,null
+Kalabunia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,37,4,GOVERNMENT,UNION,null,null,null
+Barunachari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,37,4,GOVERNMENT,UNION,null,null,null
+Kangrachhari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,40,4,GOVERNMENT,UNION,null,null,null
+Subalang Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,41,4,GOVERNMENT,UNION,null,null,null
+Shial Bukkha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,244,4,GOVERNMENT,UNION,null,null,null
+Yearing Chari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,38,4,GOVERNMENT,UNION,null,null,null
+Bhaibon Chari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,38,4,GOVERNMENT,UNION,null,null,null
+Bogachari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,42,4,GOVERNMENT,UNION,null,null,null
+Bangal Halia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,39,4,GOVERNMENT,UNION,null,null,null
+Mohishashi(sanora) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,366,47,GOVERNMENT,UNION,null,null,null
+Simulia(Bhararia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,366,47,GOVERNMENT,UNION,null,null,null
+Baleswar(sutipara) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,366,47,GOVERNMENT,UNION,null,null,null
+Suapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,366,47,GOVERNMENT,UNION,null,null,null
+Gangutia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,366,47,GOVERNMENT,UNION,null,null,null
+Amta Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,366,47,GOVERNMENT,UNION,null,null,null
+Balia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,366,47,GOVERNMENT,UNION,null,null,null
+Malikanda(narisha) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,369,47,GOVERNMENT,UNION,null,null,null
+Muksudpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,369,47,GOVERNMENT,UNION,null,null,null
+Hazratpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,367,47,GOVERNMENT,UNION,null,null,null
+Talepur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,367,47,GOVERNMENT,UNION,null,null,null
+Teguria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,367,47,GOVERNMENT,UNION,null,null,null
+Nawabganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,404,47,GOVERNMENT,UNION,null,null,null
+Barua Khali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,404,47,GOVERNMENT,UNION,null,null,null
+Churain Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,404,47,GOVERNMENT,UNION,null,null,null
+Birulia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,365,47,GOVERNMENT,UNION,null,null,null
+Aminbazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,365,47,GOVERNMENT,UNION,null,null,null
+Kamargram(gopalpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,391,52,GOVERNMENT,UNION,null,null,null
+Khamarpara(hoshpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,392,52,GOVERNMENT,UNION,null,null,null
+Kadirdi(satair) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,392,52,GOVERNMENT,UNION,null,null,null
+Rupapath Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,392,52,GOVERNMENT,UNION,null,null,null
+Bangaswari(chandpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,392,52,GOVERNMENT,UNION,null,null,null
+Khorsuti(moyna) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,392,52,GOVERNMENT,UNION,null,null,null
+Char Haziganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,396,52,GOVERNMENT,UNION,null,null,null
+Krishnanagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,390,52,GOVERNMENT,UNION,null,null,null
+Ishangopalpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,390,52,GOVERNMENT,UNION,null,null,null
+Kanaipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,390,52,GOVERNMENT,UNION,null,null,null
+Bilmamudpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,390,52,GOVERNMENT,UNION,null,null,null
+Mathurapur(gozna) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,397,52,GOVERNMENT,UNION,null,null,null
+Nowpara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,397,52,GOVERNMENT,UNION,null,null,null
+Gopaldi(raipur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,397,52,GOVERNMENT,UNION,null,null,null
+Talma Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,394,52,GOVERNMENT,UNION,null,null,null
+Laskardia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,394,52,GOVERNMENT,UNION,null,null,null
+Chandhat(charjesordi) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,394,52,GOVERNMENT,UNION,null,null,null
+Rahutpara(gatti) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,394,52,GOVERNMENT,UNION,null,null,null
+Ramkantapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,394,52,GOVERNMENT,UNION,null,null,null
+Char Bishnapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,393,52,GOVERNMENT,UNION,null,null,null
+Akoterchar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,393,52,GOVERNMENT,UNION,null,null,null
+Mirzapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,320,41,GOVERNMENT,UNION,null,null,null
+Azampur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,320,41,GOVERNMENT,UNION,null,null,null
+Salna(Kawaltia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,320,41,GOVERNMENT,UNION,null,null,null
+Datta Para Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,320,41,GOVERNMENT,UNION,null,null,null
+Kadda(Bashan) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,320,41,GOVERNMENT,UNION,null,null,null
+Benupur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,318,41,GOVERNMENT,UNION,null,null,null
+Chabagan Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,318,41,GOVERNMENT,UNION,null,null,null
+Shakershar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,318,41,GOVERNMENT,UNION,null,null,null
+Kaliakair Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,318,41,GOVERNMENT,UNION,null,null,null
+Kaliganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,418,41,GOVERNMENT,UNION,null,null,null
+Kapasia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,319,41,GOVERNMENT,UNION,null,null,null
+Toke Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,319,41,GOVERNMENT,UNION,null,null,null
+Barmi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,321,41,GOVERNMENT,UNION,null,null,null
+Rajendrapur(Rajabari) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,321,41,GOVERNMENT,UNION,null,null,null
+Kaoraid Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,321,41,GOVERNMENT,UNION,null,null,null
+Sreepur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,321,41,GOVERNMENT,UNION,null,null,null
+Mawna Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,321,41,GOVERNMENT,UNION,null,null,null
+Ulpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,385,51,GOVERNMENT,UNION,null,null,null
+Kajulia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,385,51,GOVERNMENT,UNION,null,null,null
+Satpar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,385,51,GOVERNMENT,UNION,null,null,null
+Paikkandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,385,51,GOVERNMENT,UNION,null,null,null
+Joynagar(moheshpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,386,51,GOVERNMENT,UNION,null,null,null
+Sajail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,386,51,GOVERNMENT,UNION,null,null,null
+Rahuthar(Hatiara) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,386,51,GOVERNMENT,UNION,null,null,null
+Nizamkandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,386,51,GOVERNMENT,UNION,null,null,null
+Ramdia(bethuri) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,386,51,GOVERNMENT,UNION,null,null,null
+Fukra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,386,51,GOVERNMENT,UNION,null,null,null
+Rajpat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,386,51,GOVERNMENT,UNION,null,null,null
+Ghonapara(ratail) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,386,51,GOVERNMENT,UNION,null,null,null
+Ramshil Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,388,51,GOVERNMENT,UNION,null,null,null
+Kushla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,388,51,GOVERNMENT,UNION,null,null,null
+Khanpura Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,389,51,GOVERNMENT,UNION,null,null,null
+Gohala Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,389,51,GOVERNMENT,UNION,null,null,null
+Kalinagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,389,51,GOVERNMENT,UNION,null,null,null
+Jalirpar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,389,51,GOVERNMENT,UNION,null,null,null
+Dignagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,389,51,GOVERNMENT,UNION,null,null,null
+Machna Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,389,51,GOVERNMENT,UNION,null,null,null
+Pakutia(dumaria) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,387,51,GOVERNMENT,UNION,null,null,null
+Patgati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,387,51,GOVERNMENT,UNION,null,null,null
+Nilakhia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,481,63,GOVERNMENT,UNION,null,null,null
+Ghashirpara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,481,63,GOVERNMENT,UNION,null,null,null
+Marurchar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,481,63,GOVERNMENT,UNION,null,null,null
+Sharmara(bogarchar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,481,63,GOVERNMENT,UNION,null,null,null
+Shadhurpara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,481,63,GOVERNMENT,UNION,null,null,null
+Parramrampur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,478,63,GOVERNMENT,UNION,null,null,null
+Sanandabari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,478,63,GOVERNMENT,UNION,null,null,null
+Chinaduli Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,477,63,GOVERNMENT,UNION,null,null,null
+Kulkandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,477,63,GOVERNMENT,UNION,null,null,null
+Shyampur(chargoalini) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,477,63,GOVERNMENT,UNION,null,null,null
+Itail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,475,63,GOVERNMENT,UNION,null,null,null
+Shahbapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,475,63,GOVERNMENT,UNION,null,null,null
+Digpati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,475,63,GOVERNMENT,UNION,null,null,null
+Kendua Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,475,63,GOVERNMENT,UNION,null,null,null
+Mesta Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,475,63,GOVERNMENT,UNION,null,null,null
+Shailerkanda Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,475,63,GOVERNMENT,UNION,null,null,null
+Narundi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,475,63,GOVERNMENT,UNION,null,null,null
+Nandina Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,475,63,GOVERNMENT,UNION,null,null,null
+Chandra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,475,63,GOVERNMENT,UNION,null,null,null
+Shiduli Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,480,63,GOVERNMENT,UNION,null,null,null
+Tegoria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,480,63,GOVERNMENT,UNION,null,null,null
+Patadaha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,480,63,GOVERNMENT,UNION,null,null,null
+Muslimabad(gunaritala) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,480,63,GOVERNMENT,UNION,null,null,null
+Mohiramkul(fulkocha) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,482,63,GOVERNMENT,UNION,null,null,null
+Mahamudpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,482,63,GOVERNMENT,UNION,null,null,null
+Pogoldigha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,479,63,GOVERNMENT,UNION,null,null,null
+Pingna Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,479,63,GOVERNMENT,UNION,null,null,null
+Bawshi(bhatara) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,479,63,GOVERNMENT,UNION,null,null,null
+Halimpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,354,45,GOVERNMENT,UNION,null,null,null
+Humainpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,354,45,GOVERNMENT,UNION,null,null,null
+Hilachia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,354,45,GOVERNMENT,UNION,null,null,null
+Sararchar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,354,45,GOVERNMENT,UNION,null,null,null
+Bhairab Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,347,45,GOVERNMENT,UNION,null,null,null
+Shimul Kandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,347,45,GOVERNMENT,UNION,null,null,null
+Badla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,345,45,GOVERNMENT,UNION,null,null,null
+Guzadia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,353,45,GOVERNMENT,UNION,null,null,null
+Banagram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,346,45,GOVERNMENT,UNION,null,null,null
+Masua Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,346,45,GOVERNMENT,UNION,null,null,null
+Bangabandhu(doldia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,346,45,GOVERNMENT,UNION,null,null,null
+Kargoan Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,346,45,GOVERNMENT,UNION,null,null,null
+Salua Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,351,45,GOVERNMENT,UNION,null,null,null
+Gopedighi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,356,45,GOVERNMENT,UNION,null,null,null
+Matkhala(egarasindur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,350,45,GOVERNMENT,UNION,null,null,null
+Kalichapr(patuabanga) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,350,45,GOVERNMENT,UNION,null,null,null
+Taljanga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,348,45,GOVERNMENT,UNION,null,null,null
+Gopalpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,383,50,GOVERNMENT,UNION,null,null,null
+Khaserhat(bansgari) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,383,50,GOVERNMENT,UNION,null,null,null
+Shahebrampur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,383,50,GOVERNMENT,UNION,null,null,null
+Dasher Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,383,50,GOVERNMENT,UNION,null,null,null
+Chargobindapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,381,50,GOVERNMENT,UNION,null,null,null
+Bajitpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,384,50,GOVERNMENT,UNION,null,null,null
+Kabirajpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,384,50,GOVERNMENT,UNION,null,null,null
+Khalia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,384,50,GOVERNMENT,UNION,null,null,null
+Amgram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,384,50,GOVERNMENT,UNION,null,null,null
+Ishibpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,384,50,GOVERNMENT,UNION,null,null,null
+Dattapara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,382,50,GOVERNMENT,UNION,null,null,null
+Bandarkhola(matbarrcha) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,382,50,GOVERNMENT,UNION,null,null,null
+Nilokhi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,382,50,GOVERNMENT,UNION,null,null,null
+Daulatpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,200,46,GOVERNMENT,UNION,null,null,null
+Samgonj Hat(jeonpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,200,46,GOVERNMENT,UNION,null,null,null
+Bachamara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,200,46,GOVERNMENT,UNION,null,null,null
+Baikantapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,361,46,GOVERNMENT,UNION,null,null,null
+Payla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,361,46,GOVERNMENT,UNION,null,null,null
+Zabra(baliakhura) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,361,46,GOVERNMENT,UNION,null,null,null
+Ghior Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,361,46,GOVERNMENT,UNION,null,null,null
+Balora Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,358,46,GOVERNMENT,UNION,null,null,null
+Azimnagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,358,46,GOVERNMENT,UNION,null,null,null
+Lesragonj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,358,46,GOVERNMENT,UNION,null,null,null
+Zitka(gala) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,358,46,GOVERNMENT,UNION,null,null,null
+Kanchanpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,358,46,GOVERNMENT,UNION,null,null,null
+Garpara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,360,46,GOVERNMENT,UNION,null,null,null
+Krishnapur(Katigram) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,360,46,GOVERNMENT,UNION,null,null,null
+Nabogram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,360,46,GOVERNMENT,UNION,null,null,null
+Bankhuri(Hatipara) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,360,46,GOVERNMENT,UNION,null,null,null
+Betila Mitra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,360,46,GOVERNMENT,UNION,null,null,null
+Dhankora Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,359,46,GOVERNMENT,UNION,null,null,null
+Tilli Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,359,46,GOVERNMENT,UNION,null,null,null
+Baliati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,359,46,GOVERNMENT,UNION,null,null,null
+Dimukhi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,359,46,GOVERNMENT,UNION,null,null,null
+Daragram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,359,46,GOVERNMENT,UNION,null,null,null
+Char Tilli Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,359,46,GOVERNMENT,UNION,null,null,null
+Maluchi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,362,46,GOVERNMENT,UNION,null,null,null
+Teota Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,362,46,GOVERNMENT,UNION,null,null,null
+Mohadebpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,362,46,GOVERNMENT,UNION,null,null,null
+Shibalaya Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,362,46,GOVERNMENT,UNION,null,null,null
+Singair Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,364,46,GOVERNMENT,UNION,null,null,null
+Baldhara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,364,46,GOVERNMENT,UNION,null,null,null
+Baira Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,364,46,GOVERNMENT,UNION,null,null,null
+Rasulpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,374,48,GOVERNMENT,UNION,null,null,null
+Bhaberchar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,374,48,GOVERNMENT,UNION,null,null,null
+Hossaindi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,374,48,GOVERNMENT,UNION,null,null,null
+Gazaria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,374,48,GOVERNMENT,UNION,null,null,null
+Kanakshar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,373,48,GOVERNMENT,UNION,null,null,null
+Haldia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,373,48,GOVERNMENT,UNION,null,null,null
+Kazirpagla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,373,48,GOVERNMENT,UNION,null,null,null
+Dugachi(kumarbhog) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,373,48,GOVERNMENT,UNION,null,null,null
+Char Dumoria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,370,48,GOVERNMENT,UNION,null,null,null
+Bajrajogini Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,370,48,GOVERNMENT,UNION,null,null,null
+Raja Nagar(3) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,372,48,GOVERNMENT,UNION,null,null,null
+Serajdikhan(rasunia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,372,48,GOVERNMENT,UNION,null,null,null
+Basail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,372,48,GOVERNMENT,UNION,null,null,null
+Madhyapara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,372,48,GOVERNMENT,UNION,null,null,null
+Kola Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,372,48,GOVERNMENT,UNION,null,null,null
+Pauldia(bayragadi) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,372,48,GOVERNMENT,UNION,null,null,null
+Raja Nagar(2) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,372,48,GOVERNMENT,UNION,null,null,null
+Sekhar Nagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,372,48,GOVERNMENT,UNION,null,null,null
+Hasara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,371,48,GOVERNMENT,UNION,null,null,null
+Sreenagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,371,48,GOVERNMENT,UNION,null,null,null
+Bhagyakul Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,371,48,GOVERNMENT,UNION,null,null,null
+Mulchar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,375,48,GOVERNMENT,UNION,null,null,null
+Hat Baligaon Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,375,48,GOVERNMENT,UNION,null,null,null
+Dhipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,375,48,GOVERNMENT,UNION,null,null,null
+Tungibari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,375,48,GOVERNMENT,UNION,null,null,null
+Jashalong Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,375,48,GOVERNMENT,UNION,null,null,null
+Dakatia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,464,62,GOVERNMENT,UNION,null,null,null
+Uthura Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,464,62,GOVERNMENT,UNION,null,null,null
+Dhitpur(Dhalia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,464,62,GOVERNMENT,UNION,null,null,null
+Munshirhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,467,62,GOVERNMENT,UNION,null,null,null
+Fulbaria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,462,62,GOVERNMENT,UNION,null,null,null
+Asim Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,462,62,GOVERNMENT,UNION,null,null,null
+Putijana Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,462,62,GOVERNMENT,UNION,null,null,null
+Rangamatia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,462,62,GOVERNMENT,UNION,null,null,null
+Kashiganj(biska) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,468,62,GOVERNMENT,UNION,null,null,null
+Rahimganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,468,62,GOVERNMENT,UNION,null,null,null
+Tarakanda Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,468,62,GOVERNMENT,UNION,null,null,null
+Halimabad(Panchbag) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,471,62,GOVERNMENT,UNION,null,null,null
+Moshakhali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,471,62,GOVERNMENT,UNION,null,null,null
+Mukhi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,471,62,GOVERNMENT,UNION,null,null,null
+Shibganj(rouna) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,471,62,GOVERNMENT,UNION,null,null,null
+Shahgonj(acintapur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,470,62,GOVERNMENT,UNION,null,null,null
+Dhuwakhala Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,470,62,GOVERNMENT,UNION,null,null,null
+Ramgopalpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,470,62,GOVERNMENT,UNION,null,null,null
+Shahanati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,470,62,GOVERNMENT,UNION,null,null,null
+Balijuri Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,470,62,GOVERNMENT,UNION,null,null,null
+Nagla(amtali) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,469,62,GOVERNMENT,UNION,null,null,null
+Shakula Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,469,62,GOVERNMENT,UNION,null,null,null
+Dhurali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,469,62,GOVERNMENT,UNION,null,null,null
+Athara Bari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,472,62,GOVERNMENT,UNION,null,null,null
+Laxmiganj(maizbag) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,472,62,GOVERNMENT,UNION,null,null,null
+Rajibpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,472,62,GOVERNMENT,UNION,null,null,null
+Rasulpur(ghoga) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,465,62,GOVERNMENT,UNION,null,null,null
+Padurbari(mankon) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,465,62,GOVERNMENT,UNION,null,null,null
+Battola(daogaon) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,465,62,GOVERNMENT,UNION,null,null,null
+Haripur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,465,62,GOVERNMENT,UNION,null,null,null
+Dapunia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,466,62,GOVERNMENT,UNION,null,null,null
+Anandipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,466,62,GOVERNMENT,UNION,null,null,null
+Biddagonj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,466,62,GOVERNMENT,UNION,null,null,null
+Gangail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,473,62,GOVERNMENT,UNION,null,null,null
+Kharua Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,473,62,GOVERNMENT,UNION,null,null,null
+Muazzempur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,473,62,GOVERNMENT,UNION,null,null,null
+Darilla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,473,62,GOVERNMENT,UNION,null,null,null
+Panchrukhi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,473,62,GOVERNMENT,UNION,null,null,null
+Dani Khola Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,463,62,GOVERNMENT,UNION,null,null,null
+Kanihari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,463,62,GOVERNMENT,UNION,null,null,null
+Sankibanga(mukhpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,463,62,GOVERNMENT,UNION,null,null,null
+Dhala Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,463,62,GOVERNMENT,UNION,null,null,null
+Kalapaharia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,328,43,GOVERNMENT,UNION,null,null,null
+Satgram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,328,43,GOVERNMENT,UNION,null,null,null
+Brahmandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,328,43,GOVERNMENT,UNION,null,null,null
+Chaitankanda Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,328,43,GOVERNMENT,UNION,null,null,null
+Haizadi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,328,43,GOVERNMENT,UNION,null,null,null
+Madanpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,329,43,GOVERNMENT,UNION,null,null,null
+Sharifunnesa Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,330,43,GOVERNMENT,UNION,null,null,null
+Rupgonj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,331,43,GOVERNMENT,UNION,null,null,null
+Bhulta Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,331,43,GOVERNMENT,UNION,null,null,null
+Baradi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,332,43,GOVERNMENT,UNION,null,null,null
+Hosainpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,332,43,GOVERNMENT,UNION,null,null,null
+Bhattapur(aminpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,332,43,GOVERNMENT,UNION,null,null,null
+Poradia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,311,40,GOVERNMENT,UNION,null,null,null
+Monahardi(shukundi) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,312,40,GOVERNMENT,UNION,null,null,null
+Barachapa Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,312,40,GOVERNMENT,UNION,null,null,null
+Gotashia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,312,40,GOVERNMENT,UNION,null,null,null
+Kanchikata Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,312,40,GOVERNMENT,UNION,null,null,null
+Labutala Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,312,40,GOVERNMENT,UNION,null,null,null
+Algi(madhabdi) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,313,40,GOVERNMENT,UNION,null,null,null
+Bhatpara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,313,40,GOVERNMENT,UNION,null,null,null
+Bhagirathpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,313,40,GOVERNMENT,UNION,null,null,null
+Narsingdi Sadar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,313,40,GOVERNMENT,UNION,null,null,null
+Karimpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,313,40,GOVERNMENT,UNION,null,null,null
+Amdia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,313,40,GOVERNMENT,UNION,null,null,null
+Ghorasal Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,314,40,GOVERNMENT,UNION,null,null,null
+Charsindur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,314,40,GOVERNMENT,UNION,null,null,null
+Maddya Nagar(paratali) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,315,40,GOVERNMENT,UNION,null,null,null
+Raipura Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,315,40,GOVERNMENT,UNION,null,null,null
+Shibpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,316,40,GOVERNMENT,UNION,null,null,null
+Kumardi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,316,40,GOVERNMENT,UNION,null,null,null
+Putia(Saidnagar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,316,40,GOVERNMENT,UNION,null,null,null
+Deara(baniajan) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,485,64,GOVERNMENT,UNION,null,null,null
+Nazirganj(luniswar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,485,64,GOVERNMENT,UNION,null,null,null
+Dashdhar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,482,64,GOVERNMENT,UNION,null,null,null
+Gugirkona Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,483,64,GOVERNMENT,UNION,null,null,null
+Sidli(Koylati) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,488,64,GOVERNMENT,UNION,null,null,null
+Lengura Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,488,64,GOVERNMENT,UNION,null,null,null
+Biddyaballav(Goradoba) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,484,64,GOVERNMENT,UNION,null,null,null
+Ashujia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,484,64,GOVERNMENT,UNION,null,null,null
+Sandikona Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,484,64,GOVERNMENT,UNION,null,null,null
+Balaishimul Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,484,64,GOVERNMENT,UNION,null,null,null
+Nowapara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,484,64,GOVERNMENT,UNION,null,null,null
+Maska Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,484,64,GOVERNMENT,UNION,null,null,null
+Gogda(Mozaffarpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,484,64,GOVERNMENT,UNION,null,null,null
+Chirang Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,484,64,GOVERNMENT,UNION,null,null,null
+Roailbari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,484,64,GOVERNMENT,UNION,null,null,null
+Majlishpur(Paikura) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,484,64,GOVERNMENT,UNION,null,null,null
+Baikherhati(Dalpa) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,484,64,GOVERNMENT,UNION,null,null,null
+Nurpur Boali(Mendipur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,487,64,GOVERNMENT,UNION,null,null,null
+Sahildaha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,489,64,GOVERNMENT,UNION,null,null,null
+Tetulia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,489,64,GOVERNMENT,UNION,null,null,null
+Rouha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,491,64,GOVERNMENT,UNION,null,null,null
+Thakurkona Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,491,64,GOVERNMENT,UNION,null,null,null
+Madanpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,491,64,GOVERNMENT,UNION,null,null,null
+Jaria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,490,64,GOVERNMENT,UNION,null,null,null
+Shyamgong(Gohalakanda) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,490,64,GOVERNMENT,UNION,null,null,null
+Agaia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,490,64,GOVERNMENT,UNION,null,null,null
+Alampur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,490,64,GOVERNMENT,UNION,null,null,null
+Baharpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,379,49,GOVERNMENT,UNION,null,null,null
+Ariakandi(baharpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,379,49,GOVERNMENT,UNION,null,null,null
+Rajdhapur(islampur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,379,49,GOVERNMENT,UNION,null,null,null
+Naliagram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,379,49,GOVERNMENT,UNION,null,null,null
+Uzanchar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,406,49,GOVERNMENT,UNION,null,null,null
+Daulatdia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,406,49,GOVERNMENT,UNION,null,null,null
+Charsajuria(kalimohar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,378,49,GOVERNMENT,UNION,null,null,null
+Habashpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,378,49,GOVERNMENT,UNION,null,null,null
+Mrigi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,378,49,GOVERNMENT,UNION,null,null,null
+Patta Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,378,49,GOVERNMENT,UNION,null,null,null
+Sengram(bahadurpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,378,49,GOVERNMENT,UNION,null,null,null
+Khagjana Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,378,49,GOVERNMENT,UNION,null,null,null
+Kashbamazail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,378,49,GOVERNMENT,UNION,null,null,null
+Ratandia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,378,49,GOVERNMENT,UNION,null,null,null
+Joshai Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,378,49,GOVERNMENT,UNION,null,null,null
+Barat A Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,376,49,GOVERNMENT,UNION,null,null,null
+Mukandia(Panchuria) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,376,49,GOVERNMENT,UNION,null,null,null
+Barat B Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,376,49,GOVERNMENT,UNION,null,null,null
+Banibaha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,376,49,GOVERNMENT,UNION,null,null,null
+Shyamnagar(Sultanpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,376,49,GOVERNMENT,UNION,null,null,null
+Chondoni Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,376,49,GOVERNMENT,UNION,null,null,null
+Bashantapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,376,49,GOVERNMENT,UNION,null,null,null
+Khangonj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,376,49,GOVERNMENT,UNION,null,null,null
+Mulghar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,376,49,GOVERNMENT,UNION,null,null,null
+Sakhipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,326,42,GOVERNMENT,UNION,null,null,null
+Lakarta(chhaygaon() Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,326,42,GOVERNMENT,UNION,null,null,null
+Gazipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,326,42,GOVERNMENT,UNION,null,null,null
+Mahisar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,326,42,GOVERNMENT,UNION,null,null,null
+Kartickpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,326,42,GOVERNMENT,UNION,null,null,null
+Kaneswar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,327,42,GOVERNMENT,UNION,null,null,null
+Haturia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,325,42,GOVERNMENT,UNION,null,null,null
+Nasason Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,323,42,GOVERNMENT,UNION,null,null,null
+Naria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,323,42,GOVERNMENT,UNION,null,null,null
+Bhogeswar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,323,42,GOVERNMENT,UNION,null,null,null
+Panditsar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,323,42,GOVERNMENT,UNION,null,null,null
+Domshar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,322,42,GOVERNMENT,UNION,null,null,null
+Angaria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,322,42,GOVERNMENT,UNION,null,null,null
+Palong Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,322,42,GOVERNMENT,UNION,null,null,null
+Chikonda Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,322,42,GOVERNMENT,UNION,null,null,null
+Bara krishnagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,324,42,GOVERNMENT,UNION,null,null,null
+Lawkhola(mulna) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,324,42,GOVERNMENT,UNION,null,null,null
+Bilaspur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,324,42,GOVERNMENT,UNION,null,null,null
+Jhenaigati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,461,61,GOVERNMENT,UNION,null,null,null
+Chandrokona Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,460,61,GOVERNMENT,UNION,null,null,null
+Rupnarayankura(Marichpuran) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,458,61,GOVERNMENT,UNION,null,null,null
+Nuni Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,458,61,GOVERNMENT,UNION,null,null,null
+Gazir Khamer Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,457,61,GOVERNMENT,UNION,null,null,null
+Andharia(Kamaria) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,457,61,GOVERNMENT,UNION,null,null,null
+Nandi Bazar(Charmonaria) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,457,61,GOVERNMENT,UNION,null,null,null
+Horo Chandra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,457,61,GOVERNMENT,UNION,null,null,null
+Ranishimul Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,459,61,GOVERNMENT,UNION,null,null,null
+Basail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,333,44,GOVERNMENT,UNION,null,null,null
+Moytha(Fulki) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,333,44,GOVERNMENT,UNION,null,null,null
+Shialkol Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,334,44,GOVERNMENT,UNION,null,null,null
+Bhuapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,334,44,GOVERNMENT,UNION,null,null,null
+Arjuna Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,334,44,GOVERNMENT,UNION,null,null,null
+Nikrail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,334,44,GOVERNMENT,UNION,null,null,null
+Gobindashi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,334,44,GOVERNMENT,UNION,null,null,null
+Daojan(pathrail) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,335,44,GOVERNMENT,UNION,null,null,null
+Delduar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,335,44,GOVERNMENT,UNION,null,null,null
+Lauhati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,335,44,GOVERNMENT,UNION,null,null,null
+Bramansasan Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,336,44,GOVERNMENT,UNION,null,null,null
+Deopara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,336,44,GOVERNMENT,UNION,null,null,null
+Dhalapara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,336,44,GOVERNMENT,UNION,null,null,null
+Raghunathpur(rasulpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,336,44,GOVERNMENT,UNION,null,null,null
+Pakutia(deolabari) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,336,44,GOVERNMENT,UNION,null,null,null
+Anehala Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,336,44,GOVERNMENT,UNION,null,null,null
+Gopalpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,337,44,GOVERNMENT,UNION,null,null,null
+Jhawail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,337,44,GOVERNMENT,UNION,null,null,null
+Nagdashimla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,337,44,GOVERNMENT,UNION,null,null,null
+Hemnagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,337,44,GOVERNMENT,UNION,null,null,null
+Nagbari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,343,44,GOVERNMENT,UNION,null,null,null
+Ellenga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,343,44,GOVERNMENT,UNION,null,null,null
+Salla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,343,44,GOVERNMENT,UNION,null,null,null
+Kalihati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,343,44,GOVERNMENT,UNION,null,null,null
+Bangra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,343,44,GOVERNMENT,UNION,null,null,null
+Shahadebpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,343,44,GOVERNMENT,UNION,null,null,null
+Daulatpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,343,44,GOVERNMENT,UNION,null,null,null
+Kokdohora Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,343,44,GOVERNMENT,UNION,null,null,null
+Chowalibazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,339,44,GOVERNMENT,UNION,null,null,null
+Anaitara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,339,44,GOVERNMENT,UNION,null,null,null
+Fatepur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,339,44,GOVERNMENT,UNION,null,null,null
+Gollachara(bahuria) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,339,44,GOVERNMENT,UNION,null,null,null
+Jamurki Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,339,44,GOVERNMENT,UNION,null,null,null
+Ambaria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,338,44,GOVERNMENT,UNION,null,null,null
+Modhupur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,338,44,GOVERNMENT,UNION,null,null,null
+Dhanbari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,338,44,GOVERNMENT,UNION,null,null,null
+Kenduabazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,338,44,GOVERNMENT,UNION,null,null,null
+Kuralia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,338,44,GOVERNMENT,UNION,null,null,null
+Alokdia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,338,44,GOVERNMENT,UNION,null,null,null
+Katchpai Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,340,44,GOVERNMENT,UNION,null,null,null
+Kedarpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,340,44,GOVERNMENT,UNION,null,null,null
+Gayhata Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,340,44,GOVERNMENT,UNION,null,null,null
+Shahajadi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,340,44,GOVERNMENT,UNION,null,null,null
+Pakutia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,340,44,GOVERNMENT,UNION,null,null,null
+Bhadra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,340,44,GOVERNMENT,UNION,null,null,null
+Bagerbari(kakrajan) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,341,44,GOVERNMENT,UNION,null,null,null
+Sakhipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,341,44,GOVERNMENT,UNION,null,null,null
+Baheratail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,341,44,GOVERNMENT,UNION,null,null,null
+Barachana Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,341,44,GOVERNMENT,UNION,null,null,null
+Sontosh Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,342,44,GOVERNMENT,UNION,null,null,null
+Barabasalia(Mogra) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,342,44,GOVERNMENT,UNION,null,null,null
+Anehola(Hugra) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,342,44,GOVERNMENT,UNION,null,null,null
+Dharerbari(Baghil) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,342,44,GOVERNMENT,UNION,null,null,null
+Karatia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,342,44,GOVERNMENT,UNION,null,null,null
+Bishnupur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,216,28,GOVERNMENT,UNION,null,null,null
+Jatrapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,216,28,GOVERNMENT,UNION,null,null,null
+Nawapara(Piljonga) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,215,28,GOVERNMENT,UNION,null,null,null
+Maghia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,221,28,GOVERNMENT,UNION,null,null,null
+Goalmath(Raipara) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,221,28,GOVERNMENT,UNION,null,null,null
+Dai Bajnahati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,220,28,GOVERNMENT,UNION,null,null,null
+Rampal Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,219,28,GOVERNMENT,UNION,null,null,null
+Tafalbari(Southkhal) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,218,28,GOVERNMENT,UNION,null,null,null
+Munsigonj(Hardi) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,193,24,GOVERNMENT,UNION,null,null,null
+Hatboalia(Khadimpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,193,24,GOVERNMENT,UNION,null,null,null
+Alamdanga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,193,24,GOVERNMENT,UNION,null,null,null
+Khaskara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,193,24,GOVERNMENT,UNION,null,null,null
+Baragangni(Gangni) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,193,24,GOVERNMENT,UNION,null,null,null
+Begumpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,192,24,GOVERNMENT,UNION,null,null,null
+Jahogpata(Damurhuda) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,194,24,GOVERNMENT,UNION,null,null,null
+Zuranpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,194,24,GOVERNMENT,UNION,null,null,null
+Natipota Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,194,24,GOVERNMENT,UNION,null,null,null
+Chandrahas Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,194,24,GOVERNMENT,UNION,null,null,null
+Joyrampur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,194,24,GOVERNMENT,UNION,null,null,null
+Mem Nagar(Kapasdanga) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,194,24,GOVERNMENT,UNION,null,null,null
+Kurulgachhi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,194,24,GOVERNMENT,UNION,null,null,null
+Andulbaria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,195,24,GOVERNMENT,UNION,null,null,null
+Uthali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,195,24,GOVERNMENT,UNION,null,null,null
+Baghutia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,172,20,GOVERNMENT,UNION,null,null,null
+Siddipasha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,172,20,GOVERNMENT,UNION,null,null,null
+Sreedharpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,172,20,GOVERNMENT,UNION,null,null,null
+Bhitabilla(Jamdia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,173,20,GOVERNMENT,UNION,null,null,null
+Jagadishpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,174,20,GOVERNMENT,UNION,null,null,null
+Sukpukuria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,174,20,GOVERNMENT,UNION,null,null,null
+Pashapole Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,174,20,GOVERNMENT,UNION,null,null,null
+Narayanpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,174,20,GOVERNMENT,UNION,null,null,null
+Shakhargati(Narendrapur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,177,20,GOVERNMENT,UNION,null,null,null
+Lebutala Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,177,20,GOVERNMENT,UNION,null,null,null
+Jangal Bandhal(Basundia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,177,20,GOVERNMENT,UNION,null,null,null
+Bankra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,175,20,GOVERNMENT,UNION,null,null,null
+Ganganandanpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,175,20,GOVERNMENT,UNION,null,null,null
+Amrita Bazar(Magura) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,175,20,GOVERNMENT,UNION,null,null,null
+Panjia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,176,20,GOVERNMENT,UNION,null,null,null
+Rajgonj(Jhanpa) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,171,20,GOVERNMENT,UNION,null,null,null
+Nehalpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,171,20,GOVERNMENT,UNION,null,null,null
+Chalitabaria(Keyba) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,178,20,GOVERNMENT,UNION,null,null,null
+Samta(Ulashi) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,178,20,GOVERNMENT,UNION,null,null,null
+Bagachra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,178,20,GOVERNMENT,UNION,null,null,null
+Lakxmanpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,178,20,GOVERNMENT,UNION,null,null,null
+Sharsha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,178,20,GOVERNMENT,UNION,null,null,null
+Harishankarpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,224,29,GOVERNMENT,UNION,null,null,null
+Sadhuhati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,224,29,GOVERNMENT,UNION,null,null,null
+Barobazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,418,29,GOVERNMENT,UNION,null,null,null
+Balarampur(Niamotpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,418,29,GOVERNMENT,UNION,null,null,null
+Talshar(Kushna) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,228,29,GOVERNMENT,UNION,null,null,null
+Panchlia(Dora) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,228,29,GOVERNMENT,UNION,null,null,null
+Jaydia(Sabdalpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,228,29,GOVERNMENT,UNION,null,null,null
+Jadabpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,229,29,GOVERNMENT,UNION,null,null,null
+Talshar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,229,29,GOVERNMENT,UNION,null,null,null
+Mandarbaria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,229,29,GOVERNMENT,UNION,null,null,null
+Shyamkur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,229,29,GOVERNMENT,UNION,null,null,null
+Kachua Bazar(Dudsar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,225,29,GOVERNMENT,UNION,null,null,null
+Hat Fazilpur(Abaipur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,225,29,GOVERNMENT,UNION,null,null,null
+Shialdanga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,212,27,GOVERNMENT,UNION,null,null,null
+Gowghara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,212,27,GOVERNMENT,UNION,null,null,null
+Gazirhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,208,27,GOVERNMENT,UNION,null,null,null
+Senhati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,208,27,GOVERNMENT,UNION,null,null,null
+Daulatpur(Barakpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,208,27,GOVERNMENT,UNION,null,null,null
+Dakhindihi(Atra Gilatala) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,207,27,GOVERNMENT,UNION,null,null,null
+Koyra Bedkashi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,214,27,GOVERNMENT,UNION,null,null,null
+Chandkhali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,206,27,GOVERNMENT,UNION,null,null,null
+Agarhata Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,206,27,GOVERNMENT,UNION,null,null,null
+Bankabhabanipur(Laskar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,206,27,GOVERNMENT,UNION,null,null,null
+Garuikhali Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,206,27,GOVERNMENT,UNION,null,null,null
+Katipara(Raruli) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,206,27,GOVERNMENT,UNION,null,null,null
+Paikgacha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,206,27,GOVERNMENT,UNION,null,null,null
+Ajogara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,210,27,GOVERNMENT,UNION,null,null,null
+Satbaria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,201,25,GOVERNMENT,UNION,null,null,null
+Bahadurpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,201,25,GOVERNMENT,UNION,null,null,null
+Mathurapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,200,25,GOVERNMENT,UNION,null,null,null
+Insafnagar(Ramkrishnapur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,200,25,GOVERNMENT,UNION,null,null,null
+Baragangdia(Aria) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,200,25,GOVERNMENT,UNION,null,null,null
+Refayetpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,200,25,GOVERNMENT,UNION,null,null,null
+Sonaikundi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,200,25,GOVERNMENT,UNION,null,null,null
+Khalishakundi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,200,25,GOVERNMENT,UNION,null,null,null
+Kanthagajra(Nandalalpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,197,25,GOVERNMENT,UNION,null,null,null
+Shilaidaha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,197,25,GOVERNMENT,UNION,null,null,null
+Saita(Chapra) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,197,25,GOVERNMENT,UNION,null,null,null
+Jaganathpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,197,25,GOVERNMENT,UNION,null,null,null
+Sadaki Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,197,25,GOVERNMENT,UNION,null,null,null
+Chapra(Jaduboyra) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,197,25,GOVERNMENT,UNION,null,null,null
+Dhalnagar(Bagulat) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,197,25,GOVERNMENT,UNION,null,null,null
+Ujangram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,196,25,GOVERNMENT,UNION,null,null,null
+Harinarayanpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,196,25,GOVERNMENT,UNION,null,null,null
+Madhupur(Mazampur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,196,25,GOVERNMENT,UNION,null,null,null
+Manohardia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,196,25,GOVERNMENT,UNION,null,null,null
+Hatash Haripur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,196,25,GOVERNMENT,UNION,null,null,null
+Jhaudia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,196,25,GOVERNMENT,UNION,null,null,null
+Ziarakhi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,196,25,GOVERNMENT,UNION,null,null,null
+Goshwami Durgapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,196,25,GOVERNMENT,UNION,null,null,null
+Amla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,199,25,GOVERNMENT,UNION,null,null,null
+Chitalia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,199,25,GOVERNMENT,UNION,null,null,null
+Hazipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,204,26,GOVERNMENT,UNION,null,null,null
+Alokdia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,204,26,GOVERNMENT,UNION,null,null,null
+Chandpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,204,26,GOVERNMENT,UNION,null,null,null
+Digha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,205,26,GOVERNMENT,UNION,null,null,null
+Nohata Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,205,26,GOVERNMENT,UNION,null,null,null
+Binodepur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,205,26,GOVERNMENT,UNION,null,null,null
+Bunaghati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,202,26,GOVERNMENT,UNION,null,null,null
+Arpara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,202,26,GOVERNMENT,UNION,null,null,null
+Sreepur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,321,26,GOVERNMENT,UNION,null,null,null
+Mohammadpur(Matmura) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,188,22,GOVERNMENT,UNION,null,null,null
+Tentulbaria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,188,22,GOVERNMENT,UNION,null,null,null
+Bamandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,188,22,GOVERNMENT,UNION,null,null,null
+Kedargonj(Bagoan) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,187,22,GOVERNMENT,UNION,null,null,null
+Dariapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,187,22,GOVERNMENT,UNION,null,null,null
+Zadukhali(Sonakhali) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,187,22,GOVERNMENT,UNION,null,null,null
+Kutubpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,187,22,GOVERNMENT,UNION,null,null,null
+Amjhupi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,187,22,GOVERNMENT,UNION,null,null,null
+Amritanagar(Joynagar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,191,23,GOVERNMENT,UNION,null,null,null
+Joypur(noagram) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,190,23,GOVERNMENT,UNION,null,null,null
+Itna Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,190,23,GOVERNMENT,UNION,null,null,null
+Lahuria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,190,23,GOVERNMENT,UNION,null,null,null
+Mirjapur(Bichhali) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,189,23,GOVERNMENT,UNION,null,null,null
+Gobra(Kalora) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,189,23,GOVERNMENT,UNION,null,null,null
+Singasolpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,189,23,GOVERNMENT,UNION,null,null,null
+Debhata Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,180,21,GOVERNMENT,UNION,null,null,null
+Bohera(Kulia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,180,21,GOVERNMENT,UNION,null,null,null
+Dhalbaria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,418,21,GOVERNMENT,UNION,null,null,null
+Banshtala Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,418,21,GOVERNMENT,UNION,null,null,null
+kaliganj(Kushlia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,418,21,GOVERNMENT,UNION,null,null,null
+Nalta Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,418,21,GOVERNMENT,UNION,null,null,null
+Labsa Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,182,21,GOVERNMENT,UNION,null,null,null
+Parkumira(Sarulia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,184,21,GOVERNMENT,UNION,null,null,null
+Islamkati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,184,21,GOVERNMENT,UNION,null,null,null
+Chatingram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,127,14,GOVERNMENT,UNION,null,null,null
+Santahar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,127,14,GOVERNMENT,UNION,null,null,null
+Kundagram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,127,14,GOVERNMENT,UNION,null,null,null
+Murail(nasaratpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,127,14,GOVERNMENT,UNION,null,null,null
+Champapur(Kanchanpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,127,14,GOVERNMENT,UNION,null,null,null
+Nawdapara(Nashindara) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,123,14,GOVERNMENT,UNION,null,null,null
+Gokul Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,123,14,GOVERNMENT,UNION,null,null,null
+Hazardighi(Nungola) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,123,14,GOVERNMENT,UNION,null,null,null
+Burigonj(Namuza) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,123,14,GOVERNMENT,UNION,null,null,null
+Mothergonj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,123,14,GOVERNMENT,UNION,null,null,null
+Kalerpara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,130,14,GOVERNMENT,UNION,null,null,null
+Gopalnagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,130,14,GOVERNMENT,UNION,null,null,null
+Gossainbari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,130,14,GOVERNMENT,UNION,null,null,null
+Bhandarbari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,130,14,GOVERNMENT,UNION,null,null,null
+Gunahar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,126,14,GOVERNMENT,UNION,null,null,null
+Kolakopa(baliadighi) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,131,14,GOVERNMENT,UNION,null,null,null
+Rameshwarpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,131,14,GOVERNMENT,UNION,null,null,null
+Sonarai Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,131,14,GOVERNMENT,UNION,null,null,null
+Durgahata Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,131,14,GOVERNMENT,UNION,null,null,null
+Nashipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,131,14,GOVERNMENT,UNION,null,null,null
+Narhatta Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,122,14,GOVERNMENT,UNION,null,null,null
+Malancha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,122,14,GOVERNMENT,UNION,null,null,null
+Pilkunja Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,122,14,GOVERNMENT,UNION,null,null,null
+Durgapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,122,14,GOVERNMENT,UNION,null,null,null
+Nandigram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,128,14,GOVERNMENT,UNION,null,null,null
+Kumira(Bhatra) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,128,14,GOVERNMENT,UNION,null,null,null
+Kuhuli(burail) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,128,14,GOVERNMENT,UNION,null,null,null
+Basho(thalta Majgram) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,128,14,GOVERNMENT,UNION,null,null,null
+Hatsherpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,124,14,GOVERNMENT,UNION,null,null,null
+Nawkhila Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,124,14,GOVERNMENT,UNION,null,null,null
+Jorgacha(Bhalabari) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,124,14,GOVERNMENT,UNION,null,null,null
+HatFulbari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,124,14,GOVERNMENT,UNION,null,null,null
+Damajani(Amrul) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,125,14,GOVERNMENT,UNION,null,null,null
+Madla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,125,14,GOVERNMENT,UNION,null,null,null
+Bhabanipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,132,14,GOVERNMENT,UNION,null,null,null
+Shimabari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,132,14,GOVERNMENT,UNION,null,null,null
+Bhagkhola Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,159,14,GOVERNMENT,UNION,null,null,null
+Balua Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,129,14,GOVERNMENT,UNION,null,null,null
+Bholahat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,158,18,GOVERNMENT,UNION,null,null,null
+Gomostapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,156,18,GOVERNMENT,UNION,null,null,null
+Choudala Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,156,18,GOVERNMENT,UNION,null,null,null
+Baliadanga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,155,18,GOVERNMENT,UNION,null,null,null
+Debinagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,155,18,GOVERNMENT,UNION,null,null,null
+Moharajpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,155,18,GOVERNMENT,UNION,null,null,null
+Gobratola Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,155,18,GOVERNMENT,UNION,null,null,null
+Sundarpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,155,18,GOVERNMENT,UNION,null,null,null
+Namosankarbati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,155,18,GOVERNMENT,UNION,null,null,null
+Trimohoni Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,159,18,GOVERNMENT,UNION,null,null,null
+Kansat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,159,18,GOVERNMENT,UNION,null,null,null
+Chakkirti Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,159,18,GOVERNMENT,UNION,null,null,null
+Manakasha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,159,18,GOVERNMENT,UNION,null,null,null
+Namotikoir Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,159,18,GOVERNMENT,UNION,null,null,null
+Dhainagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,159,18,GOVERNMENT,UNION,null,null,null
+Sahabajpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,159,18,GOVERNMENT,UNION,null,null,null
+Ranihati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,159,18,GOVERNMENT,UNION,null,null,null
+Paltapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,405,54,GOVERNMENT,UNION,null,null,null
+Nowapara(mohammadpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,405,54,GOVERNMENT,UNION,null,null,null
+Monglapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,415,54,GOVERNMENT,UNION,null,null,null
+Keshoriganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,415,54,GOVERNMENT,UNION,null,null,null
+Ranirbandar(fatejonpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,416,54,GOVERNMENT,UNION,null,null,null
+Dangarhat(nasratpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,416,54,GOVERNMENT,UNION,null,null,null
+Chandgonj(Checeigazi) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,412,54,GOVERNMENT,UNION,null,null,null
+Ramdubi(Sundorpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,412,54,GOVERNMENT,UNION,null,null,null
+Ranigonj(Fazilpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,412,54,GOVERNMENT,UNION,null,null,null
+Jalalpur(Shankarpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,412,54,GOVERNMENT,UNION,null,null,null
+Cheradangi(Aullapur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,412,54,GOVERNMENT,UNION,null,null,null
+Rajbati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,412,54,GOVERNMENT,UNION,null,null,null
+Ghughudanga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,412,54,GOVERNMENT,UNION,null,null,null
+Rudranikazihowla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,411,54,GOVERNMENT,UNION,null,null,null
+Chintamon(betdighi) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,411,54,GOVERNMENT,UNION,null,null,null
+Ghoraghat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,406,54,GOVERNMENT,UNION,null,null,null
+Raniganj(singra) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,406,54,GOVERNMENT,UNION,null,null,null
+Gopalpur(palsa) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,406,54,GOVERNMENT,UNION,null,null,null
+Khachania(bhabake) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,414,54,GOVERNMENT,UNION,null,null,null
+Khansama Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,414,54,GOVERNMENT,UNION,null,null,null
+Aftabganj(kushdaha) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,404,54,GOVERNMENT,UNION,null,null,null
+Daudpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,404,54,GOVERNMENT,UNION,null,null,null
+Bhaduria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,404,54,GOVERNMENT,UNION,null,null,null
+Rajarampur(Shibganj) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,408,54,GOVERNMENT,UNION,null,null,null
+Parbathipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,408,54,GOVERNMENT,UNION,null,null,null
+Nurul Huda(Palashbari) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,408,54,GOVERNMENT,UNION,null,null,null
+Habra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,408,54,GOVERNMENT,UNION,null,null,null
+Ambari(Moshtafapur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,408,54,GOVERNMENT,UNION,null,null,null
+Joshaihat(Mominpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,408,54,GOVERNMENT,UNION,null,null,null
+Deglaganj(Monmathpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,408,54,GOVERNMENT,UNION,null,null,null
+Sherpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,408,54,GOVERNMENT,UNION,null,null,null
+Kanchanpara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,434,57,GOVERNMENT,UNION,null,null,null
+Bollomjar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,429,57,GOVERNMENT,UNION,null,null,null
+Badiakhali-2 Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,429,57,GOVERNMENT,UNION,null,null,null
+Dariapur(Ghagoa) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,429,57,GOVERNMENT,UNION,null,null,null
+Kamarjani Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,429,57,GOVERNMENT,UNION,null,null,null
+Mollarchar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,429,57,GOVERNMENT,UNION,null,null,null
+Badiakhali-1 Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,429,57,GOVERNMENT,UNION,null,null,null
+Lakshmipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,429,57,GOVERNMENT,UNION,null,null,null
+Panaullah Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,432,57,GOVERNMENT,UNION,null,null,null
+Kamdia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,432,57,GOVERNMENT,UNION,null,null,null
+Birat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,432,57,GOVERNMENT,UNION,null,null,null
+Nakaihat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,432,57,GOVERNMENT,UNION,null,null,null
+Sakahar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,432,57,GOVERNMENT,UNION,null,null,null
+Debpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,432,57,GOVERNMENT,UNION,null,null,null
+Mahimaganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,432,57,GOVERNMENT,UNION,null,null,null
+Kochasahar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,432,57,GOVERNMENT,UNION,null,null,null
+Gumaniganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,432,57,GOVERNMENT,UNION,null,null,null
+Darbasta Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,432,57,GOVERNMENT,UNION,null,null,null
+Merirhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,430,57,GOVERNMENT,UNION,null,null,null
+Kishoregari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,430,57,GOVERNMENT,UNION,null,null,null
+Fakirhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,430,57,GOVERNMENT,UNION,null,null,null
+Thalukgamira Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,430,57,GOVERNMENT,UNION,null,null,null
+Amlagachi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,430,57,GOVERNMENT,UNION,null,null,null
+Molongbazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,428,57,GOVERNMENT,UNION,null,null,null
+Khorda Kamarpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,428,57,GOVERNMENT,UNION,null,null,null
+Dahaperhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,428,57,GOVERNMENT,UNION,null,null,null
+Rasulpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,428,57,GOVERNMENT,UNION,null,null,null
+Naldanga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,428,57,GOVERNMENT,UNION,null,null,null
+Bhatgram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,428,57,GOVERNMENT,UNION,null,null,null
+Belka Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,433,57,GOVERNMENT,UNION,null,null,null
+Chandipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,433,57,GOVERNMENT,UNION,null,null,null
+Kanchibari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,433,57,GOVERNMENT,UNION,null,null,null
+Bamandanga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,433,57,GOVERNMENT,UNION,null,null,null
+Sovaganj(santiram) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,433,57,GOVERNMENT,UNION,null,null,null
+Haripur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,433,57,GOVERNMENT,UNION,null,null,null
+Dharmapur(sreepur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,433,57,GOVERNMENT,UNION,null,null,null
+Jamalganj(rukindipur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,150,17,GOVERNMENT,UNION,null,null,null
+Sonamukhi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,150,17,GOVERNMENT,UNION,null,null,null
+Gopalpur(Badsha) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,154,17,GOVERNMENT,UNION,null,null,null
+Ramnagar(dhalahar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,154,17,GOVERNMENT,UNION,null,null,null
+Khanjanpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,154,17,GOVERNMENT,UNION,null,null,null
+Amdi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,154,17,GOVERNMENT,UNION,null,null,null
+Chakbarkat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,154,17,GOVERNMENT,UNION,null,null,null
+Matrai Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,151,17,GOVERNMENT,UNION,null,null,null
+Punat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,151,17,GOVERNMENT,UNION,null,null,null
+Molamgari(zindarpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,151,17,GOVERNMENT,UNION,null,null,null
+Panchbibi(Balighata) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,153,17,GOVERNMENT,UNION,null,null,null
+Aolai Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,153,17,GOVERNMENT,UNION,null,null,null
+Sonahat Uinon Sub Center Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,450,60,GOVERNMENT,UNION,null,null,null
+Char Bhurungamari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,450,60,GOVERNMENT,UNION,null,null,null
+Shilkuri Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,450,60,GOVERNMENT,UNION,null,null,null
+Shahi Bazar(Boldia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,450,60,GOVERNMENT,UNION,null,null,null
+Jourgach Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,454,60,GOVERNMENT,UNION,null,null,null
+Bhitarband Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,449,60,GOVERNMENT,UNION,null,null,null
+S.P. Mandargonj(Ballaver Khash) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,449,60,GOVERNMENT,UNION,null,null,null
+Gagla(Santoshpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,449,60,GOVERNMENT,UNION,null,null,null
+Kachakata(Kedar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,449,60,GOVERNMENT,UNION,null,null,null
+Nazimkhan Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,452,60,GOVERNMENT,UNION,null,null,null
+Panga(Chinai) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,452,60,GOVERNMENT,UNION,null,null,null
+Jaduchar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,455,60,GOVERNMENT,UNION,null,null,null
+Dantbhanga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,455,60,GOVERNMENT,UNION,null,null,null
+Bozra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,453,60,GOVERNMENT,UNION,null,null,null
+Durgapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,421,55,GOVERNMENT,UNION,null,null,null
+Barakhata Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,419,55,GOVERNMENT,UNION,null,null,null
+Daikawaya Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,419,55,GOVERNMENT,UNION,null,null,null
+Kakina Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,418,55,GOVERNMENT,UNION,null,null,null
+Dalagram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,418,55,GOVERNMENT,UNION,null,null,null
+Bhetmari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,418,55,GOVERNMENT,UNION,null,null,null
+Sundarmoti(Panchagram) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,417,55,GOVERNMENT,UNION,null,null,null
+Gokunda(Tista) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,417,55,GOVERNMENT,UNION,null,null,null
+Moghalhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,417,55,GOVERNMENT,UNION,null,null,null
+Saptana Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,417,55,GOVERNMENT,UNION,null,null,null
+Srirampuri Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,420,55,GOVERNMENT,UNION,null,null,null
+Baura Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,420,55,GOVERNMENT,UNION,null,null,null
+Bisha(Islamgathi) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,166,19,GOVERNMENT,UNION,null,null,null
+Nandanail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,166,19,GOVERNMENT,UNION,null,null,null
+Panchupur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,166,19,GOVERNMENT,UNION,null,null,null
+Bhangzangal Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,166,19,GOVERNMENT,UNION,null,null,null
+Patishor(moniary) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,166,19,GOVERNMENT,UNION,null,null,null
+Chakrail(Badalgachhi) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,161,19,GOVERNMENT,UNION,null,null,null
+Bhandarpur(kola) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,161,19,GOVERNMENT,UNION,null,null,null
+Jabaripur(mathurapur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,161,19,GOVERNMENT,UNION,null,null,null
+Agradigun Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,163,19,GOVERNMENT,UNION,null,null,null
+Khelna Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,163,19,GOVERNMENT,UNION,null,null,null
+Laxmanpara(Aranagar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,163,19,GOVERNMENT,UNION,null,null,null
+Bhalain Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,165,19,GOVERNMENT,UNION,null,null,null
+Kashab Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,165,19,GOVERNMENT,UNION,null,null,null
+Khasmanda(bharso) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,165,19,GOVERNMENT,UNION,null,null,null
+Kanchan(ganeshpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,165,19,GOVERNMENT,UNION,null,null,null
+Manda Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,165,19,GOVERNMENT,UNION,null,null,null
+Nurullabad(Jotbazar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,165,19,GOVERNMENT,UNION,null,null,null
+Paranpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,165,19,GOVERNMENT,UNION,null,null,null
+Moynom Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,165,19,GOVERNMENT,UNION,null,null,null
+Kaligram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,165,19,GOVERNMENT,UNION,null,null,null
+Khajur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,160,19,GOVERNMENT,UNION,null,null,null
+Raigaon Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,160,19,GOVERNMENT,UNION,null,null,null
+Enayetpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,160,19,GOVERNMENT,UNION,null,null,null
+Safapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,160,19,GOVERNMENT,UNION,null,null,null
+Chandash Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,160,19,GOVERNMENT,UNION,null,null,null
+Barshail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,168,19,GOVERNMENT,UNION,null,null,null
+Parail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,164,19,GOVERNMENT,UNION,null,null,null
+Madhuil Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,162,19,GOVERNMENT,UNION,null,null,null
+Katabari(patnitola) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,162,19,GOVERNMENT,UNION,null,null,null
+Subarajpur(krishnapur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,162,19,GOVERNMENT,UNION,null,null,null
+Amanta(shihara) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,162,19,GOVERNMENT,UNION,null,null,null
+Mandail(Akbarpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,162,19,GOVERNMENT,UNION,null,null,null
+Gaganpur(ghoshnagar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,162,19,GOVERNMENT,UNION,null,null,null
+Shah Porsha(Tetulia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,169,19,GOVERNMENT,UNION,null,null,null
+Nonahar(Chattar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,169,19,GOVERNMENT,UNION,null,null,null
+Kashimpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,167,19,GOVERNMENT,UNION,null,null,null
+Parail(Bhandargram) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,167,19,GOVERNMENT,UNION,null,null,null
+Ekdala Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,167,19,GOVERNMENT,UNION,null,null,null
+Narayanpara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,167,19,GOVERNMENT,UNION,null,null,null
+Aihai Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,170,19,GOVERNMENT,UNION,null,null,null
+Zamnagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,146,16,GOVERNMENT,UNION,null,null,null
+Madhnagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,146,16,GOVERNMENT,UNION,null,null,null
+Dhanaidah Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,145,16,GOVERNMENT,UNION,null,null,null
+Joari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,145,16,GOVERNMENT,UNION,null,null,null
+Nazirpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,148,16,GOVERNMENT,UNION,null,null,null
+Kachikata Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,148,16,GOVERNMENT,UNION,null,null,null
+Walia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,147,16,GOVERNMENT,UNION,null,null,null
+Bilmaria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,147,16,GOVERNMENT,UNION,null,null,null
+Nasratpur(Bipra Belgharia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,143,16,GOVERNMENT,UNION,null,null,null
+Khajuria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,143,16,GOVERNMENT,UNION,null,null,null
+Rani Brajasundary Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,143,16,GOVERNMENT,UNION,null,null,null
+Dangapara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,144,16,GOVERNMENT,UNION,null,null,null
+Hulhulia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,144,16,GOVERNMENT,UNION,null,null,null
+Kaliganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,144,16,GOVERNMENT,UNION,null,null,null
+Chowgram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,144,16,GOVERNMENT,UNION,null,null,null
+West Shatnai Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,424,56,GOVERNMENT,UNION,null,null,null
+Nawtara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,424,56,GOVERNMENT,UNION,null,null,null
+Khoga Karibari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,424,56,GOVERNMENT,UNION,null,null,null
+Balapara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,424,56,GOVERNMENT,UNION,null,null,null
+Harinchara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,423,56,GOVERNMENT,UNION,null,null,null
+Panga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,423,56,GOVERNMENT,UNION,null,null,null
+Bamunia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,423,56,GOVERNMENT,UNION,null,null,null
+Domar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,423,56,GOVERNMENT,UNION,null,null,null
+Mirjagang(Jorabari) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,423,56,GOVERNMENT,UNION,null,null,null
+Gomnati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,423,56,GOVERNMENT,UNION,null,null,null
+Sonarai Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,423,56,GOVERNMENT,UNION,null,null,null
+Chilahati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,423,56,GOVERNMENT,UNION,null,null,null
+Golna Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,425,56,GOVERNMENT,UNION,null,null,null
+Mirganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,425,56,GOVERNMENT,UNION,null,null,null
+Jaldhaka Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,425,56,GOVERNMENT,UNION,null,null,null
+Tangonmari(khutamara) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,425,56,GOVERNMENT,UNION,null,null,null
+Musrat Panialpukur(natai) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,426,56,GOVERNMENT,UNION,null,null,null
+Magura Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,426,56,GOVERNMENT,UNION,null,null,null
+Goragram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,427,56,GOVERNMENT,UNION,null,null,null
+Babrighar(Chaprasargani) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,427,56,GOVERNMENT,UNION,null,null,null
+Hazzari Hat(Khata Madhupur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,422,56,GOVERNMENT,UNION,null,null,null
+Ekdanta Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,118,13,GOVERNMENT,UNION,null,null,null
+Natun Bharenga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,117,13,GOVERNMENT,UNION,null,null,null
+Rajnarayanpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,117,13,GOVERNMENT,UNION,null,null,null
+Haturiankalia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,117,13,GOVERNMENT,UNION,null,null,null
+Shitlai Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,119,13,GOVERNMENT,UNION,null,null,null
+Chaikhola Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,119,13,GOVERNMENT,UNION,null,null,null
+Dapunia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,116,13,GOVERNMENT,UNION,null,null,null
+Haludgar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,120,13,GOVERNMENT,UNION,null,null,null
+Ketupara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,120,13,GOVERNMENT,UNION,null,null,null
+Kashinatpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,120,13,GOVERNMENT,UNION,null,null,null
+Tatiband Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,113,13,GOVERNMENT,UNION,null,null,null
+Talimnagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,113,13,GOVERNMENT,UNION,null,null,null
+Kathali(taira) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,402,53,GOVERNMENT,UNION,null,null,null
+Mirzapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,402,53,GOVERNMENT,UNION,null,null,null
+Rosia(radhanagar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,402,53,GOVERNMENT,UNION,null,null,null
+Balia(alowakhowa) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,402,53,GOVERNMENT,UNION,null,null,null
+Sakowa Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,401,53,GOVERNMENT,UNION,null,null,null
+Panchpir Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,401,53,GOVERNMENT,UNION,null,null,null
+Chengtihazradanga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,400,53,GOVERNMENT,UNION,null,null,null
+Pamuli Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,400,53,GOVERNMENT,UNION,null,null,null
+Saldanga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,400,53,GOVERNMENT,UNION,null,null,null
+Sundardighi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,400,53,GOVERNMENT,UNION,null,null,null
+Amarkhana Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,399,53,GOVERNMENT,UNION,null,null,null
+Chaklahat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,399,53,GOVERNMENT,UNION,null,null,null
+Pirmamud Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,399,53,GOVERNMENT,UNION,null,null,null
+Kalandiganj(debnagar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,403,53,GOVERNMENT,UNION,null,null,null
+Bhojanpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,403,53,GOVERNMENT,UNION,null,null,null
+Tirnaihat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,403,53,GOVERNMENT,UNION,null,null,null
+Sadhupara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,142,15,GOVERNMENT,UNION,null,null,null
+Hatmadhnagore(naodas) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,142,15,GOVERNMENT,UNION,null,null,null
+Mohanganj(gonipur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,142,15,GOVERNMENT,UNION,null,null,null
+Goalkandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,142,15,GOVERNMENT,UNION,null,null,null
+Bhabaniganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,142,15,GOVERNMENT,UNION,null,null,null
+Tahirpur(sreepur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,142,15,GOVERNMENT,UNION,null,null,null
+Arani Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,139,15,GOVERNMENT,UNION,null,null,null
+Sardah Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,137,15,GOVERNMENT,UNION,null,null,null
+Pananagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,483,15,GOVERNMENT,UNION,null,null,null
+Baktierpur(deluabar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,483,15,GOVERNMENT,UNION,null,null,null
+Nazirpur(deopara) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,140,15,GOVERNMENT,UNION,null,null,null
+Godagari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,140,15,GOVERNMENT,UNION,null,null,null
+Gogram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,140,15,GOVERNMENT,UNION,null,null,null
+Rishikul Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,140,15,GOVERNMENT,UNION,null,null,null
+Bashudebpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,140,15,GOVERNMENT,UNION,null,null,null
+Pakri Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,140,15,GOVERNMENT,UNION,null,null,null
+Baliaghat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,140,15,GOVERNMENT,UNION,null,null,null
+Morail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,140,15,GOVERNMENT,UNION,null,null,null
+Hatra(Raighati) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,136,15,GOVERNMENT,UNION,null,null,null
+Noahata Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,134,15,GOVERNMENT,UNION,null,null,null
+Bilnapalpara(darsanpara) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,134,15,GOVERNMENT,UNION,null,null,null
+Baragachi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,134,15,GOVERNMENT,UNION,null,null,null
+Dasmaria Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,138,15,GOVERNMENT,UNION,null,null,null
+Pachamari(silmaria) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,138,15,GOVERNMENT,UNION,null,null,null
+Shibpur(beneswar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,138,15,GOVERNMENT,UNION,null,null,null
+Bhalukgachi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,138,15,GOVERNMENT,UNION,null,null,null
+Gopalpara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,138,15,GOVERNMENT,UNION,null,null,null
+Talanda Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,141,15,GOVERNMENT,UNION,null,null,null
+Mondu Mala(badhair) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,141,15,GOVERNMENT,UNION,null,null,null
+Kamargaon Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,141,15,GOVERNMENT,UNION,null,null,null
+Choirkhoir(kalma) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,141,15,GOVERNMENT,UNION,null,null,null
+Madaripur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,141,15,GOVERNMENT,UNION,null,null,null
+Gopalpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,443,59,GOVERNMENT,UNION,null,null,null
+Kutubpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,443,59,GOVERNMENT,UNION,null,null,null
+Baderganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,443,59,GOVERNMENT,UNION,null,null,null
+Raddha Nagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,443,59,GOVERNMENT,UNION,null,null,null
+Betgari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,441,59,GOVERNMENT,UNION,null,null,null
+Gajaghanta Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,441,59,GOVERNMENT,UNION,null,null,null
+Tapa Madhupur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,446,59,GOVERNMENT,UNION,null,null,null
+Kursha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,446,59,GOVERNMENT,UNION,null,null,null
+Bara Hajratpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,444,59,GOVERNMENT,UNION,null,null,null
+Durgapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,444,59,GOVERNMENT,UNION,null,null,null
+Emdadpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,444,59,GOVERNMENT,UNION,null,null,null
+Chanmari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,444,59,GOVERNMENT,UNION,null,null,null
+Moyenpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,444,59,GOVERNMENT,UNION,null,null,null
+Milanpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,444,59,GOVERNMENT,UNION,null,null,null
+Gopalpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,444,59,GOVERNMENT,UNION,null,null,null
+Balua Masumpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,444,59,GOVERNMENT,UNION,null,null,null
+Khoragach Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,444,59,GOVERNMENT,UNION,null,null,null
+Barabala Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,444,59,GOVERNMENT,UNION,null,null,null
+Mirzapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,444,59,GOVERNMENT,UNION,null,null,null
+Parul Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,447,59,GOVERNMENT,UNION,null,null,null
+Kaikuri Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,447,59,GOVERNMENT,UNION,null,null,null
+Tambulpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,447,59,GOVERNMENT,UNION,null,null,null
+Itakumari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,447,59,GOVERNMENT,UNION,null,null,null
+Khalaspir(gadarkali) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,436,59,GOVERNMENT,UNION,null,null,null
+Tuknipara(baradargah) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,436,59,GOVERNMENT,UNION,null,null,null
+Zaforerpara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,436,59,GOVERNMENT,UNION,null,null,null
+Chattra Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,436,59,GOVERNMENT,UNION,null,null,null
+Chittro Kole Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,436,59,GOVERNMENT,UNION,null,null,null
+Bhenda Bari Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,436,59,GOVERNMENT,UNION,null,null,null
+Shanerhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,436,59,GOVERNMENT,UNION,null,null,null
+Kezmatpur(ramanathpur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,436,59,GOVERNMENT,UNION,null,null,null
+Madarganj(mithipur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,436,59,GOVERNMENT,UNION,null,null,null
+Satgora Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,440,59,GOVERNMENT,UNION,null,null,null
+Dorshona Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,440,59,GOVERNMENT,UNION,null,null,null
+Haridevpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,440,59,GOVERNMENT,UNION,null,null,null
+Kundi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,440,59,GOVERNMENT,UNION,null,null,null
+Topadhan Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,440,59,GOVERNMENT,UNION,null,null,null
+Tamphat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,440,59,GOVERNMENT,UNION,null,null,null
+Tajhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,440,59,GOVERNMENT,UNION,null,null,null
+Taraganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,442,59,GOVERNMENT,UNION,null,null,null
+Sohagpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,104,12,GOVERNMENT,UNION,null,null,null
+Mirkutia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,105,12,GOVERNMENT,UNION,null,null,null
+Khamargram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,105,12,GOVERNMENT,UNION,null,null,null
+Chaliatadanga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,107,12,GOVERNMENT,UNION,null,null,null
+Gandhail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,107,12,GOVERNMENT,UNION,null,null,null
+Tanglahata Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,107,12,GOVERNMENT,UNION,null,null,null
+Sonamukhi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,107,12,GOVERNMENT,UNION,null,null,null
+Salanga(ghurka) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,108,12,GOVERNMENT,UNION,null,null,null
+Dhubil Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,108,12,GOVERNMENT,UNION,null,null,null
+Ratonkandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,110,12,GOVERNMENT,UNION,null,null,null
+Songacha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,110,12,GOVERNMENT,UNION,null,null,null
+Bagbati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,110,12,GOVERNMENT,UNION,null,null,null
+Hut Pang Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,110,12,GOVERNMENT,UNION,null,null,null
+Koyel Gati Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,110,12,GOVERNMENT,UNION,null,null,null
+Shahazadpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,109,12,GOVERNMENT,UNION,null,null,null
+Khukni Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,109,12,GOVERNMENT,UNION,null,null,null
+Porjona Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,109,12,GOVERNMENT,UNION,null,null,null
+Kaizuri Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,109,12,GOVERNMENT,UNION,null,null,null
+Sonatoni Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,109,12,GOVERNMENT,UNION,null,null,null
+Putia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,109,12,GOVERNMENT,UNION,null,null,null
+Gala(Brihatkoyra) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,109,12,GOVERNMENT,UNION,null,null,null
+Dubila(magurabindu) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,111,12,GOVERNMENT,UNION,null,null,null
+Amdanga(harikumpul) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,112,12,GOVERNMENT,UNION,null,null,null
+Ullapara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,112,12,GOVERNMENT,UNION,null,null,null
+Barapangasi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,112,12,GOVERNMENT,UNION,null,null,null
+Dabirganj(ramkirnapur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,112,12,GOVERNMENT,UNION,null,null,null
+Udhunia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,112,12,GOVERNMENT,UNION,null,null,null
+Lahiri(dhantola) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,439,58,GOVERNMENT,UNION,null,null,null
+Kathaldangi(Bhaturia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,438,58,GOVERNMENT,UNION,null,null,null
+Bhomradaha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,436,58,GOVERNMENT,UNION,null,null,null
+Jabarhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,436,58,GOVERNMENT,UNION,null,null,null
+Monishgaon(hossaingaon) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,437,58,GOVERNMENT,UNION,null,null,null
+Nekmard Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,437,58,GOVERNMENT,UNION,null,null,nullUNION
+Salandar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,435,58,GOVERNMENT,UNION,null,null,null
+Gorea Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,435,58,GOVERNMENT,UNION,null,null,null
+Ruhia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,435,58,GOVERNMENT,UNION,null,null,null
+Balia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,435,58,GOVERNMENT,UNION,null,null,null
+Bhelajan Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,435,58,GOVERNMENT,UNION,null,null,null
+Shibganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,435,58,GOVERNMENT,UNION,null,null,null
+danarhat Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,435,58,GOVERNMENT,UNION,null,null,null
+Jalsuka Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,294,38,GOVERNMENT,UNION,null,null,null
+Kakailsed Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,294,38,GOVERNMENT,UNION,null,null,null
+Baniachong Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,295,38,GOVERNMENT,UNION,null,null,null
+Sujatpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,295,38,GOVERNMENT,UNION,null,null,null
+Razarbazar(Ahammadabad) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,297,38,GOVERNMENT,UNION,null,null,null
+Rajiura Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,298,38,GOVERNMENT,UNION,null,null,null
+Shaistagonj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,298,38,GOVERNMENT,UNION,null,null,null
+Lakhai Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,296,38,GOVERNMENT,UNION,null,null,null
+Bamai Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,296,38,GOVERNMENT,UNION,null,null,null
+Jagadishpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,299,38,GOVERNMENT,UNION,null,null,null
+Chhatian Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,299,38,GOVERNMENT,UNION,null,null,null
+Mantola Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,299,38,GOVERNMENT,UNION,null,null,null
+Noyapara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,299,38,GOVERNMENT,UNION,null,null,null
+Goplarbazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,292,38,GOVERNMENT,UNION,null,null,null
+Mandarkandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,292,38,GOVERNMENT,UNION,null,null,null
+Aushkandi Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,292,38,GOVERNMENT,UNION,null,null,null
+Deopara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,292,38,GOVERNMENT,UNION,null,null,null
+Inathganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,292,38,GOVERNMENT,UNION,null,null,null
+Hakaluki Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,285,37,GOVERNMENT,UNION,null,null,null
+Munshibazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,286,37,GOVERNMENT,UNION,null,null,null
+Kamalganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,286,37,GOVERNMENT,UNION,null,null,null
+Adampur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,286,37,GOVERNMENT,UNION,null,null,null
+Prithimpasha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,287,37,GOVERNMENT,UNION,null,null,null
+Baramchal Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,287,37,GOVERNMENT,UNION,null,null,null
+Karmodha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,287,37,GOVERNMENT,UNION,null,null,null
+Monu(Hazipur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,287,37,GOVERNMENT,UNION,null,null,null
+Braman Bazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,287,37,GOVERNMENT,UNION,null,null,null
+Agiun(Apar Kagabala) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,288,37,GOVERNMENT,UNION,null,null,null
+Shamshergonj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,288,37,GOVERNMENT,UNION,null,null,null
+Aurangapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,288,37,GOVERNMENT,UNION,null,null,null
+Munmukh Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,288,37,GOVERNMENT,UNION,null,null,null
+Buddhimontapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,288,37,GOVERNMENT,UNION,null,null,null
+Panchgoan Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,289,37,GOVERNMENT,UNION,null,null,null
+Indeswar(Uttar Bhagh) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,289,37,GOVERNMENT,UNION,null,null,null
+Bhunabir Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,290,37,GOVERNMENT,UNION,null,null,null
+Huglia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,290,37,GOVERNMENT,UNION,null,null,null
+Gobindanagar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,302,39,GOVERNMENT,UNION,null,null,null
+Saidergaon Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,303,39,GOVERNMENT,UNION,null,null,null
+Billai Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,303,39,GOVERNMENT,UNION,null,null,null
+Singchapair Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,303,39,GOVERNMENT,UNION,null,null,null
+Mohabbatpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,303,39,GOVERNMENT,UNION,null,null,null
+Perua(Chamar Char) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,310,39,GOVERNMENT,UNION,null,null,null
+Bhatipara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,310,39,GOVERNMENT,UNION,null,null,null
+Sukhair Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,307,39,GOVERNMENT,UNION,null,null,null
+Selborash Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,307,39,GOVERNMENT,UNION,null,null,null
+Dohalia Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,305,39,GOVERNMENT,UNION,null,null,null
+Bajitpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,305,39,GOVERNMENT,UNION,null,null,null
+Lakshmipur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,305,39,GOVERNMENT,UNION,null,null,null
+Jahirpur(Kalkalia) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,304,39,GOVERNMENT,UNION,null,null,null
+Banglabazar(Rainigan) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,304,39,GOVERNMENT,UNION,null,null,null
+Hasanfatemapur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,304,39,GOVERNMENT,UNION,null,null,null
+Kamarkal Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,304,39,GOVERNMENT,UNION,null,null,null
+Budhrail Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,304,39,GOVERNMENT,UNION,null,null,null
+Sonarbangla(Jamalganj) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,308,39,GOVERNMENT,UNION,null,null,null
+Sulla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,309,39,GOVERNMENT,UNION,null,null,null
+Pagla Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,300,39,GOVERNMENT,UNION,null,null,null
+Durgapasha Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,300,39,GOVERNMENT,UNION,null,null,null
+Sreepur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,306,39,GOVERNMENT,UNION,null,null,null
+Sikandarpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,272,36,GOVERNMENT,UNION,null,null,null
+Sultanpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,272,36,GOVERNMENT,UNION,null,null,null
+Tajpur Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,272,36,GOVERNMENT,UNION,null,null,null
+Burunga Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,272,36,GOVERNMENT,UNION,null,null,null
+Azizpur(Sadipur) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,272,36,GOVERNMENT,UNION,null,null,null
+Mandarbazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,272,36,GOVERNMENT,UNION,null,null,null
+Charkhai Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,273,36,GOVERNMENT,UNION,null,null,null
+Lauta Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,273,36,GOVERNMENT,UNION,null,null,null
+Chariabazar(Muria) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,273,36,GOVERNMENT,UNION,null,null,null
+Tilpara Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,273,36,GOVERNMENT,UNION,null,null,null
+Kurar Bazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,273,36,GOVERNMENT,UNION,null,null,null
+Dighli Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,274,36,GOVERNMENT,UNION,null,null,null
+Doshghar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,274,36,GOVERNMENT,UNION,null,null,null
+Biswanath Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,274,36,GOVERNMENT,UNION,null,null,null
+Bholaganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,44,36,GOVERNMENT,UNION,null,null,null
+Manikona Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,276,36,GOVERNMENT,UNION,null,null,null
+Golapganj Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,277,36,GOVERNMENT,UNION,null,null,null
+Bhadeswar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,277,36,GOVERNMENT,UNION,null,null,null
+Dhaka Dakhin Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,277,36,GOVERNMENT,UNION,null,null,null
+Towakulbazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,278,36,GOVERNMENT,UNION,null,null,null
+Moglabazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,281,36,GOVERNMENT,UNION,null,null,null
+Noorpur(Lalabazar) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,281,36,GOVERNMENT,UNION,null,null,null
+Birahimpur(Silam) Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,281,36,GOVERNMENT,UNION,null,null,null
+Atgram Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,282,36,GOVERNMENT,UNION,null,null,null
+Munshibazar Union Sub Center,ইউনিয়ন সাব সেন্টার,0,null,282,36,GOVERNMENT,UNION,null,null,null
+Barisal Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,33,GOVERNMENT,CHEST_DISEASE,null,null,null
+Bhola Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,34,GOVERNMENT,CHEST_DISEASE,null,null,null
+Patuakhali Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,31,GOVERNMENT,CHEST_DISEASE,null,null,null
+Pirojpur Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,32,GOVERNMENT,CHEST_DISEASE,null,null,null
+Brahmanbaria Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,3,GOVERNMENT,CHEST_DISEASE,null,null,null
+Chandpur Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,6,GOVERNMENT,CHEST_DISEASE,null,null,null
+Chattogram Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,8,GOVERNMENT,CHEST_DISEASE,null,null,null
+Coxs Bazar Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,9,GOVERNMENT,CHEST_DISEASE,null,null,null
+Kumilla Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,1,GOVERNMENT,CHEST_DISEASE,null,null,null
+Feni Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,2,GOVERNMENT,CHEST_DISEASE,null,null,null
+Noakhali Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,5,GOVERNMENT,CHEST_DISEASE,null,null,null
+Rangamati Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,4,GOVERNMENT,CHEST_DISEASE,null,null,null
+Faridpur Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,4,null,null,52,GOVERNMENT,CHEST_DISEASE,null,null,null
+Gopalganj Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,51,GOVERNMENT,CHEST_DISEASE,null,null,null
+Kishoreganj Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,45,GOVERNMENT,CHEST_DISEASE,null,null,null
+Madaripur Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,50,GOVERNMENT,CHEST_DISEASE,null,null,null
+Munshiganj Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,48,GOVERNMENT,CHEST_DISEASE,null,null,null
+Tangail Chest Disease Clinic ,বক্ষব্যাধি ক্লিনিক,0,null,null,44,GOVERNMENT,CHEST_DISEASE,null,null,null
+Bagerhat Chest Disease Clinic ,বক্ষব্যাধি ক্লিনিক,0,null,null,28,GOVERNMENT,CHEST_DISEASE,null,null,null
+Chuadanga Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,24,GOVERNMENT,CHEST_DISEASE,null,null,null
+Jashore Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,20,GOVERNMENT,CHEST_DISEASE,null,null,null
+Khulna Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,27,GOVERNMENT,CHEST_DISEASE,null,null,null
+Kushtia Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,25,GOVERNMENT,CHEST_DISEASE,null,null,null
+Magura Chest Disease Clinic ,বক্ষব্যাধি ক্লিনিক,0,null,null,26,GOVERNMENT,CHEST_DISEASE,null,null,null
+Meherpur Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,22,GOVERNMENT,CHEST_DISEASE,null,null,null
+Satkhira Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,21,GOVERNMENT,CHEST_DISEASE,null,null,null
+Jamalpur Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,63,GOVERNMENT,CHEST_DISEASE,null,null,null
+Mymensingh Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,62,GOVERNMENT,CHEST_DISEASE,null,null,null
+Bogura Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,14,GOVERNMENT,CHEST_DISEASE,null,null,null
+Chapai Nawabganj Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,18,GOVERNMENT,CHEST_DISEASE,null,null,null
+Natore Chest Disease Clinic ,বক্ষব্যাধি ক্লিনিক,0,null,null,16,GOVERNMENT,CHEST_DISEASE,null,null,null
+Pabna Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,13,GOVERNMENT,CHEST_DISEASE,null,null,null
+Rajshahi Chest Disease Clinic ,বক্ষব্যাধি ক্লিনিক,0,null,null,15,GOVERNMENT,CHEST_DISEASE,null,null,null
+Sirajganj Chest Disease Clinic ,বক্ষব্যাধি ক্লিনিক,0,null,null,12,GOVERNMENT,CHEST_DISEASE,null,null,null
+Dinajpur Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,54,GOVERNMENT,CHEST_DISEASE,null,null,null
+Gaibandha Chest Disease Clinic ,বক্ষব্যাধি ক্লিনিক,0,null,null,57,GOVERNMENT,CHEST_DISEASE,null,null,null
+Kurigram Chest Disease Clinic ,বক্ষব্যাধি ক্লিনিক,0,null,null,60,GOVERNMENT,CHEST_DISEASE,null,null,null
+Rangpur Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,59,GOVERNMENT,CHEST_DISEASE,null,null,null
+Thakurgaon Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,58,GOVERNMENT,CHEST_DISEASE,null,null,null
+Moulvibazar Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,37,GOVERNMENT,CHEST_DISEASE,null,null,null
+Sunamganj Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,39,GOVERNMENT,CHEST_DISEASE,null,null,null
+Sylhet Chest Disease Clinic,বক্ষব্যাধি ক্লিনিক,0,null,null,36,GOVERNMENT,CHEST_DISEASE,null,null,null
+Barisal Chest Disease Hospital,বক্ষব্যাধি ক্লিনিক,20,null,null,33,GOVERNMENT,CHEST_DISEASE,null,null,null
+Brahmanbaria Chest Disease Hospital,বক্ষব্যাধি ক্লিনিক,20,null,null,3,GOVERNMENT,CHEST_DISEASE,null,null,null
+Faujderhat Chest Disease Hospital,বক্ষব্যাধি ক্লিনিক,0,null,null,8,GOVERNMENT,CHEST_DISEASE,null,null,null
+Feni Chest Disease Hospital,বক্ষব্যাধি ক্লিনিক,20,null,null,2,GOVERNMENT,CHEST_DISEASE,null,null,null
+Jashore Chest Disease Hospital,বক্ষব্যাধি ক্লিনিক,20,null,null,20,GOVERNMENT,CHEST_DISEASE,null,null,null
+Khulna Chest Disease Hospital,বক্ষব্যাধি ক্লিনিক,100,null,null,27,GOVERNMENT,CHEST_DISEASE,null,null,null
+Bogura Chest Disease Hospital,বক্ষব্যাধি ক্লিনিক,20,null,null,14,GOVERNMENT,CHEST_DISEASE,null,null,null
+Pabna Chest Disease Hospital ,বক্ষব্যাধি ক্লিনিক,20,null,null,13,GOVERNMENT,CHEST_DISEASE,null,null,null
+Rajshahi Chest Disease Hospital,বক্ষব্যাধি ক্লিনিক,100,null,null,15,GOVERNMENT,CHEST_DISEASE,null,null,null
+Rangpur Chest Disease Hospital,বক্ষব্যাধি ক্লিনিক,20,null,null,59,GOVERNMENT,CHEST_DISEASE,null,null,null
+Sylhet Chest Disease Hospital,বক্ষব্যাধি ক্লিনিক,56,null,null,36,GOVERNMENT,CHEST_DISEASE,null,null,null
+Feni Trauma Center,ফেনী ট্রমা সেন্টার,0,null,null,2,GOVERNMENT,TRAUMA,null,null,null
+Sahidnagar Trauma Center,শহীদনগর ট্রমা সেন্টার ,0,null,null,1,GOVERNMENT,TRAUMA,null,null,null
+Faridpur Trauma Center,ফরিদপুর ট্রমা সেন্টার,0,null,null,52,GOVERNMENT,TRAUMA,null,null,null
+Bhaluka Trauma Center,ভালুকা ট্রমা সেন্টার ,0,null,null,62,GOVERNMENT,TRAUMA,null,null,null
+Sirajganj Trauma Center,সিরাজগঞ্জ ট্রমা সেন্টার,0,null,null,12,GOVERNMENT,TRAUMA,null,null,null
+Dhaka Leprosy Hospital,কুষ্ট হাসপাতাল,30,null,null,47,GOVERNMENT,LEPROSY,null,null,null
+Nilphamari Leprosy Hospital,কুষ্ট হাসপাতাল,20,null,null,56,GOVERNMENT,LEPROSY,null,null,null
+Sylhet Leprosy Hospital,কুষ্ট হাসপাতাল,80,null,null,36,GOVERNMENT,LEPROSY,null,null,null
+Chattogram Infectious Disease Hospital,সংক্রামক ব্যাধি হাসপাতাল,20,null,null,8,GOVERNMENT,INFECTIOUS_DISEASE,null,null,null
+Dhaka Infectious Disease Hospital,সংক্রামক ব্যাধি হাসপাতাল,100,null,null,47,GOVERNMENT,INFECTIOUS_DISEASE,null,null,null
+Khulna Infectious Diseases Hospital ,সংক্রামক ব্যাধি হাসপাতাল,20,null,null,27,GOVERNMENT,INFECTIOUS_DISEASE,null,null,null
+Rajshahi Infectious Disease Hospital,সংক্রামক ব্যাধি হাসপাতাল,20,null,null,15,GOVERNMENT,INFECTIOUS_DISEASE,null,null,null
+Sylhet Infectious Disease Hospital,সংক্রামক ব্যাধি হাসপাতাল,20,null,null,36,GOVERNMENT,INFECTIOUS_DISEASE,null,null,null
+Tb Control And Training Institute,টিবি কন্ট্রোল অ্যান্ড ট্রেনিং ইনস্টিটিউট,0,null,null,47,GOVERNMENT,TUBERCULOSIS,null,null,null
+"250 bed TB Hospital (National TB Control Project),
+ Shaymoly","250 শয্যার টিবি হাসপাতাল (জাতীয় যক্ষ্মা নিয়ন্ত্রণ প্রকল্প),
+  শ্যামলী",250,null,null,47,GOVERNMENT,TUBERCULOSIS,null,null,null
+Faridpur Tb Segregation Hospital,ফরিদপুর টিবি সেগ্রিগেশন হাসপাতাল,0,null,null,52,GOVERNMENT,TUBERCULOSIS,null,null,null
+National Center For Control Of Rheumatic Fever & Heart Disease,জাতীয় বাতজ্বর ও হৃদরোগ নিয়ন্ত্রণ কেন্দ্র,0,null,null,47,GOVERNMENT,SPECIALIZED,http://nccrfhd.org/,23.76861398,90.3705841
+National Asthma Center,ন্যাশনাল অ্যাজমা সেন্টার,85,null,null,47,GOVERNMENT,SPECIALIZED,http://asthmabd.net/,23.7764329,90.40943853
+Sheikh Rasel Gastroliver Institute & Hospital,শেখ রাসেল গ্যাস্ট্রোলিভার ইনস্টিটিউট এবং হাসপাতাল,100,null,null,47,GOVERNMENT,SPECIALIZED,null,23.77632834,90.41145912
+Sheikh Hasina National Institute of Burn and Plastic Surgery,শেখ হাসিনা জাতীয় বার্ন এবং প্লাস্টিক সার্জারি ইনস্টিটিউট,500,null,null,47,GOVERNMENT,SPECIALIZED,null,23.72422137,90.40121269
+100 bed Burn Unit at DMCH,১০০ শয্যাবিশিষ্ট বার্ন ইউনিট ঢামেক ,100,null,null,47,GOVERNMENT,SPECIALIZED,null,null,null
+Sheikh Fazilatunnessa Mujib Eye Hospital And Training Institute,শেখ ফাজিলাতুন্নেসা মুজিব চক্ষু হাসপাতাল এবং প্রশিক্ষণ ইনস্টিটিউট,0,null,null,47,GOVERNMENT,SPECIALIZED,https://sheikh-fazilatunesa-mujib-eye-hospital.business.site/,22.94943136,89.82071524
+Shaheed Sheikh Abu Naser Specialized Hospital,শহীদ শেখ আবু নাসের বিশেষজ্ঞ হাসপাতাল,250,null,null,47,GOVERNMENT,MENTAL,https://ssansh.gov.bd/,22.85295133,89.52940477
+Pabna Mental Hospital,পাবনা মানসিক হাসপাতাল,500,null,null,13,GOVERNMENT,SPECIALIZED,null,24.00220751,89.20612954
+Bangladesh Institute of Tropical and Infectious Disease,বাংলাদেশ ট্রপিকাল এবং সংক্রামণামূলক রোগ ইনস্টিটিউট,0,null,null,47,GOVERNMENT,SPECIALIZED,https://bitid.gov.bd/,22.39279462,91.7584549
+National Institute Of Cancer Research And Hospital,জাতীয় ক্যান্সার গবেষণা ইনস্টিটিউট ও হাসপাতাল,300,null,null,47,GOVERNMENT,SPECIALIZED,https://nicrh.gov.bd/,23.77848001,90.40965075
+National Institute of Diseases of the Chest & Hospital,জাতীয় বক্ষব্যাধি ইনস্টিটিউট ও হাসপাতাল,170,null,null,47,GOVERNMENT,SPECIALIZED,http://www.nidch.gov.bd/,23.77730114,90.41009488
+"Institute of Child and Mother Health, Matuail","শিশু ও মাতৃত্ব স্বাস্থ্য প্রতিষ্ঠান, মাটুয়াইল",300,null,null,47,GOVERNMENT,SPECIALIZED,https://icmh.org.bd/,23.69407772,90.46646583
+National Institute Of Cardiovascular Disease,জাতীয়  হৃদরোগ ইনস্টিটিউট ও হাসপাতাল,1200,null,null,47,GOVERNMENT,SPECIALIZED,http://www.nicvd.gov.bd/,23.77060591,90.36969563
+National Institute of Kidney Disease and Urology,ন্যাশনাল ইনস্টিটিউট অব কিডনি ডিজিজেস অ্যান্ড ইউরোলজি,150,null,null,47,GOVERNMENT,SPECIALIZED,https://www.nikdu.org.bd/,23.77179524,90.36865454
+National Institute Of Mental Health,জাতীয় মানসিক স্বাস্থ্য প্রতিষ্ঠান,200,null,null,47,GOVERNMENT,MENTAL,https://nimh.gov.bd/,23.77258966,90.3681505
+National Institute Of Ophthalmology,জাতীয় চক্ষু চিকিৎসা প্রতিষ্ঠান,0,null,null,47,GOVERNMENT,SPECIALIZED,null,23.77442082,90.36966043
+National Institute of Traumatology and Orthopaedic Rehabilitation,জাতীয় অর্থোপেডিক হাসপাতাল ও পুনর্বাসন প্রতিষ্ঠান,400,null,null,47,GOVERNMENT,SPECIALIZED,http://nitorbd.com/,23.77382941,90.37031487
+Bangladesh Institute of Child Health,বাংলাদেশ শিশু স্বাস্থ্য প্রতিষ্ঠান,0,null,null,47,GOVERNMENT,SPECIALIZED,http://dhakashishuhospital.org.bd/,null,null
+National Institute of Neurosciences & Hospital,ন্যাশনাল ইনস্টিটিউট অব নিউরোসায়েন্সেস ও হাসপাতাল,450,null,null,47,GOVERNMENT,SPECIALIZED,http://www.nins.gov.bd/nins/,23.77637994,90.37074668
+"National Institute of Ear, Nose and Throat",জাতীয় নাক কান গলা ইনস্টিটিউট,250,null,null,47,GOVERNMENT,SPECIALIZED,https://nationalinstituteofent.webs.com/,23.76355157,90.40550204
+"Central Skin And Social Health Care, Agrabad, Chittagong","কেন্দ্রীয় চর্ম ও সামাজিক স্বাস্থ্য কেন্দ্র, আগ্রাবাদ,চট্টগ্রাম",0,null,null,8,GOVERNMENT,SPECIALIZED,null,22.32159868,91.80926551
+Maternal and Child Health Training Institute,মাতৃসদন ও শিশু স্বাস্থ্য প্রশিক্ষণ প্রতিষ্ঠান,173,null,null,47,GOVERNMENT,MOTHER_AND_CHILD,https://mchti.gov.bd/,23.72463762,90.3878584
+Dhaka Shishu Hospital,ঢাকা শিশু হাসপাতাল,650,null,null,47,GOVERNMENT,MOTHER_AND_CHILD,http://dsh.org.bd/,23.77315117,90.37008805
+BIRDEM General Hospital,বারডেম জেনারেল হাসপাতাল,600,null,null,47,GOVERNMENT,SPECIALIZED,https://www.birdembd.org/,23.73891638,90.39648144
