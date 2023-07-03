@@ -52,6 +52,12 @@ export default [
     component: './DoctorList',
   },
   {
+    name: 'list.institution-list',
+    icon: 'table',
+    path: '/institutions',
+    component: './InstitutionList',
+  },
+  {
     name: 'list.table-list',
     icon: 'table',
     path: '/list',
