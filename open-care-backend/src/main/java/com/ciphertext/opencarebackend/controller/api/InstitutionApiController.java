@@ -46,10 +46,10 @@ public class InstitutionApiController {
             Page<Institution> pageInstitutions = institutionRepository.getFilteredInstitutions(name, bnName, enroll, districtId, pagingSort);
 
             Map<String, Object> response = new HashMap<>();
-            response.put("institutions", pageInstitutions.getContent());
-            response.put("currentPage", pageInstitutions.getNumber());
-            response.put("totalItems", pageInstitutions.getTotalElements());
-            response.put("totalPages", pageInstitutions.getTotalPages());
+            response.put("data", pageInstitutions.getContent());
+            response.put("current", pageInstitutions.getNumber());
+            response.put("total", pageInstitutions.getTotalElements());
+            response.put("success", "true");
 
             return new ResponseEntity<>(response, HttpStatus.OK);
         } catch (Exception e) {
