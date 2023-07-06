@@ -10,12 +10,11 @@ import {
   ProTable,
 } from '@ant-design/pro-components';
 import { FormattedMessage, useIntl } from '@umijs/max';
-import { Button, Drawer, message } from 'antd';
+import { Button, Drawer, Input, message } from 'antd';
 import React, { useRef, useState } from 'react';
 import type { FormValueType } from './components/UpdateForm';
 import UpdateForm from './components/UpdateForm';
-import { InstituteItem } from './data';
-import { addRule, getInstitutions, removeRule, updateRule } from './service';
+import { addRule, removeRule, rule, updateRule } from './service';
 
 /**
  * @en-US Add node
@@ -108,9 +107,14 @@ const InstitutionList: React.FC = () => {
    * */
   const intl = useIntl();
 
-  const columns: ProColumns<InstituteItem>[] = [
+  const columns: ProColumns<API.RuleListItem>[] = [
     {
-      title: <FormattedMessage id="pages.institutionTable.name" defaultMessage="Institute name" />,
+      title: (
+        <FormattedMessage
+          id="pages.searchTable.updateForm.ruleName.nameLabel"
+          defaultMessage="Rule name"
+        />
+      ),
       dataIndex: 'name',
       tip: 'The rule name is the unique key',
       render: (dom, entity) => {
@@ -127,42 +131,122 @@ const InstitutionList: React.FC = () => {
       },
     },
     {
-      title: <FormattedMessage id="pages.institutionTable.acronym" defaultMessage="Acronym" />,
-      dataIndex: 'acronym',
-      valueType: 'textarea',
-    },
-    {
-      title: (
-        <FormattedMessage id="pages.institutionTable.enroll" defaultMessage="Enrolled Students" />
-      ),
-      dataIndex: 'enroll',
-      sorter: true,
-    },
-    {
-      title: (
-        <FormattedMessage id="pages.institutionTable.hospitalType" defaultMessage="Hospital Type" />
-      ),
-      dataIndex: 'hospitalType',
+      title: <FormattedMessage id="pages.searchTable.titleDesc" defaultMessage="Description" />,
+      dataIndex: 'desc',
       valueType: 'textarea',
     },
     {
       title: (
         <FormattedMessage
-          id="pages.institutionTable.organizationType"
-          defaultMessage="Hospital Type"
+          id="pages.searchTable.titleCallNo"
+          defaultMessage="Number of service calls"
         />
       ),
-      dataIndex: 'organizationType',
-      valueType: 'textarea',
+      dataIndex: 'callNo',
+      sorter: true,
+      hideInForm: true,
+      renderText: (val: string) =>
+        `${val}${intl.formatMessage({
+          id: 'pages.searchTable.tenThousand',
+          defaultMessage: ' 万 ',
+        })}`,
+    },
+    {
+      title: <FormattedMessage id="pages.searchTable.titleStatus" defaultMessage="Status" />,
+      dataIndex: 'status',
+      hideInForm: true,
+      valueEnum: {
+        0: {
+          text: (
+            <FormattedMessage
+              id="pages.searchTable.nameStatus.default"
+              defaultMessage="Shut down"
+            />
+          ),
+          status: 'Default',
+        },
+        1: {
+          text: (
+            <FormattedMessage id="pages.searchTable.nameStatus.running" defaultMessage="Running" />
+          ),
+          status: 'Processing',
+        },
+        2: {
+          text: (
+            <FormattedMessage id="pages.searchTable.nameStatus.online" defaultMessage="Online" />
+          ),
+          status: 'Success',
+        },
+        3: {
+          text: (
+            <FormattedMessage
+              id="pages.searchTable.nameStatus.abnormal"
+              defaultMessage="Abnormal"
+            />
+          ),
+          status: 'Error',
+        },
+      },
+    },
+    {
+      title: (
+        <FormattedMessage
+          id="pages.searchTable.titleUpdatedAt"
+          defaultMessage="Last scheduled time"
+        />
+      ),
+      sorter: true,
+      dataIndex: 'updatedAt',
+      valueType: 'dateTime',
+      renderFormItem: (item, { defaultRender, ...rest }, form) => {
+        const status = form.getFieldValue('status');
+        if (`${status}` === '0') {
+          return false;
+        }
+        if (`${status}` === '3') {
+          return (
+            <Input
+              {...rest}
+              placeholder={intl.formatMessage({
+                id: 'pages.searchTable.exception',
+                defaultMessage: 'Please enter the reason for the exception!',
+              })}
+            />
+          );
+        }
+        return defaultRender(item);
+      },
+    },
+    {
+      title: <FormattedMessage id="pages.searchTable.titleOption" defaultMessage="Operating" />,
+      dataIndex: 'option',
+      valueType: 'option',
+      render: (_, record) => [
+        <a
+          key="config"
+          onClick={() => {
+            handleUpdateModalOpen(true);
+            setCurrentRow(record);
+          }}
+        >
+          <FormattedMessage id="pages.searchTable.config" defaultMessage="Configuration" />
+        </a>,
+        <a key="subscribeAlert" href="https://procomponents.ant.design/">
+          <FormattedMessage
+            id="pages.searchTable.subscribeAlert"
+            defaultMessage="Subscribe to alerts"
+          />
+        </a>,
+      ],
     },
   ];
 
   return (
     <PageContainer>
-      <ProTable<InstituteItem, API.PageParams>
+      <ProTable<API.RuleListItem, API.PageParams>
         headerTitle={intl.formatMessage({
-          id: 'pages.institutionTable.title',
-          defaultMessage: 'Institute form',
+          id: 'pages.searchTable.title',
+          defaultMessage: 'Enquiry form',
         })}
         actionRef={actionRef}
         rowKey="key"
@@ -177,11 +261,10 @@ const InstitutionList: React.FC = () => {
               handleModalOpen(true);
             }}
           >
-            <PlusOutlined />{' '}
-            <FormattedMessage id="pages.institutionTable.new" defaultMessage="New" />
+            <PlusOutlined /> <FormattedMessage id="pages.searchTable.new" defaultMessage="New" />
           </Button>,
         ]}
-        request={getInstitutions}
+        request={rule}
         columns={columns}
         rowSelection={{
           onChange: (_, selectedRows) => {
@@ -193,17 +276,17 @@ const InstitutionList: React.FC = () => {
         <FooterToolbar
           extra={
             <div>
-              <FormattedMessage id="pages.institutionTable.chosen" defaultMessage="Chosen" />{' '}
+              <FormattedMessage id="pages.searchTable.chosen" defaultMessage="Chosen" />{' '}
               <a style={{ fontWeight: 600 }}>{selectedRowsState.length}</a>{' '}
-              <FormattedMessage id="pages.institutionTable.item" defaultMessage="项" />
+              <FormattedMessage id="pages.searchTable.item" defaultMessage="项" />
               &nbsp;&nbsp;
               <span>
                 <FormattedMessage
-                  id="pages.institutionTable.totalServiceCalls"
+                  id="pages.searchTable.totalServiceCalls"
                   defaultMessage="Total number of service calls"
                 />{' '}
                 {selectedRowsState.reduce((pre, item) => pre + item.callNo!, 0)}{' '}
-                <FormattedMessage id="pages.institutionTable.tenThousand" defaultMessage="万" />
+                <FormattedMessage id="pages.searchTable.tenThousand" defaultMessage="万" />
               </span>
             </div>
           }
@@ -216,13 +299,13 @@ const InstitutionList: React.FC = () => {
             }}
           >
             <FormattedMessage
-              id="pages.institutionTable.batchDeletion"
+              id="pages.searchTable.batchDeletion"
               defaultMessage="Batch deletion"
             />
           </Button>
           <Button type="primary">
             <FormattedMessage
-              id="pages.institutionTable.batchApproval"
+              id="pages.searchTable.batchApproval"
               defaultMessage="Batch approval"
             />
           </Button>
@@ -230,7 +313,7 @@ const InstitutionList: React.FC = () => {
       )}
       <ModalForm
         title={intl.formatMessage({
-          id: 'pages.institutionTable.createForm.newRule',
+          id: 'pages.searchTable.createForm.newRule',
           defaultMessage: 'New rule',
         })}
         width="400px"
@@ -252,7 +335,7 @@ const InstitutionList: React.FC = () => {
               required: true,
               message: (
                 <FormattedMessage
-                  id="pages.institutionTable.ruleName"
+                  id="pages.searchTable.ruleName"
                   defaultMessage="Rule name is required"
                 />
               ),
