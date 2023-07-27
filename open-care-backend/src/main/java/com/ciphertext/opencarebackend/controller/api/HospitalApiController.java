@@ -1,9 +1,11 @@
 package com.ciphertext.opencarebackend.controller.api;
 
+import com.ciphertext.opencarebackend.dto.out.HospitalDTO;
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.iservice.HospitalService;
 import com.ciphertext.opencarebackend.model.Hospital;
 import com.ciphertext.opencarebackend.repository.HospitalRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -22,12 +24,10 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/api")
+@RequiredArgsConstructor
 public class HospitalApiController {
-    @Autowired
-    HospitalService hospitalService;
 
-    @Autowired
-    HospitalRepository hospitalRepository;
+    private final HospitalService hospitalService;
 
     @GetMapping("/hospitals")
     public ResponseEntity<Map<String, Object>> getAllHospitalsPage(
@@ -38,16 +38,16 @@ public class HospitalApiController {
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "5") int size) {
 
-            Pageable pagingSort = PageRequest.of(page, size);
-            Page<Hospital> pageHospitals = hospitalRepository.getFilteredHospitals(name, bnName, numberOfBed, districtId, pagingSort);
+        Pageable pagingSort = PageRequest.of(page, size);
+        Page<HospitalDTO> pageHospitals = hospitalService.getPaginatedDataWithFilters(name, bnName, numberOfBed, districtId, pagingSort);
 
-            Map<String, Object> response = new HashMap<>();
-            response.put("hospitals", pageHospitals.getContent());
-            response.put("currentPage", pageHospitals.getNumber());
-            response.put("totalItems", pageHospitals.getTotalElements());
-            response.put("totalPages", pageHospitals.getTotalPages());
+        Map<String, Object> response = new HashMap<>();
+        response.put("hospitals", pageHospitals.getContent());
+        response.put("currentPage", pageHospitals.getNumber());
+        response.put("totalItems", pageHospitals.getTotalElements());
+        response.put("totalPages", pageHospitals.getTotalPages());
 
-            return new ResponseEntity<>(response, HttpStatus.OK);
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
     @GetMapping("/hospitals/{id}")

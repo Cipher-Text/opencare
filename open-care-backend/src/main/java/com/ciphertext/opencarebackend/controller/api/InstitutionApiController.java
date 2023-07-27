@@ -1,9 +1,11 @@
 package com.ciphertext.opencarebackend.controller.api;
 
+import com.ciphertext.opencarebackend.dto.out.InstitutionDTO;
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.iservice.InstitutionService;
 import com.ciphertext.opencarebackend.model.Institution;
 import com.ciphertext.opencarebackend.repository.InstitutionRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -25,13 +27,11 @@ import java.util.Map;
  * @author Sadman
  */
 @RestController
+@RequiredArgsConstructor
 @RequestMapping("/api")
 public class InstitutionApiController {
-    @Autowired
-    InstitutionService service;
-    
-    @Autowired
-    InstitutionRepository institutionRepository;
+
+    private final InstitutionService institutionService;
 
     @GetMapping("/institutions")
     public ResponseEntity<Map<String, Object>> getAllInstitutionsPage(
@@ -41,26 +41,22 @@ public class InstitutionApiController {
             @RequestParam(required = false) Integer districtId,
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "5") int size) {
-        try {
-            Pageable pagingSort = PageRequest.of(page, size);
-            Page<Institution> pageInstitutions = institutionRepository.getFilteredInstitutions(name, bnName, enroll, districtId, pagingSort);
+        Pageable pagingSort = PageRequest.of(page, size);
+        Page<InstitutionDTO> pageInstitutions = institutionService.getPaginatedDataWithFilters(name, bnName, enroll, districtId, pagingSort);
 
-            Map<String, Object> response = new HashMap<>();
-            response.put("data", pageInstitutions.getContent());
-            response.put("current", pageInstitutions.getNumber());
-            response.put("total", pageInstitutions.getTotalElements());
-            response.put("success", "true");
+        Map<String, Object> response = new HashMap<>();
+        response.put("institutions", pageInstitutions.getContent());
+        response.put("currentPage", pageInstitutions.getNumber());
+        response.put("totalItems", pageInstitutions.getTotalElements());
+        response.put("totalPages", pageInstitutions.getTotalPages());
 
-            return new ResponseEntity<>(response, HttpStatus.OK);
-        } catch (Exception e) {
-            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
-        }
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
     @GetMapping("/institutions/{id}")
     public ResponseEntity<Institution> getDivisionById(@PathVariable(value = "id") int institutionId)
             throws ResourceNotFoundException {
-        Institution institution = service.getInstitutionById(institutionId);
+        Institution institution = institutionService.getInstitutionById(institutionId);
         return ResponseEntity.ok().body(institution);
     }
 }
