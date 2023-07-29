@@ -13,6 +13,7 @@ import org.mapstruct.factory.Mappers;
 public interface InstitutionMapper {
     InstitutionMapper INSTANCE = Mappers.getMapper( InstitutionMapper.class );
 
-//    @Mapping(source = "numberOfSeats", target = "seatCount")
     InstitutionDTO institutionToInstitutionDTO(Institution institution);
+
+    Institution institutionDTOToInstitution(InstitutionDTO institutionDTO);
 }

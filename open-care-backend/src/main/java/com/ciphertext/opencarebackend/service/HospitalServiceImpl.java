@@ -1,11 +1,17 @@
 package com.ciphertext.opencarebackend.service;
 
 import com.ciphertext.opencarebackend.dto.out.HospitalDTO;
+import com.ciphertext.opencarebackend.dto.out.HospitalDTO;
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.iservice.HospitalService;
+import com.ciphertext.opencarebackend.mappers.HospitalMapper;
 import com.ciphertext.opencarebackend.model.Hospital;
 import com.ciphertext.opencarebackend.repository.HospitalRepository;
+import lombok.RequiredArgsConstructor;
+import org.mapstruct.factory.Mappers;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
@@ -16,10 +22,12 @@ import java.util.List;
  * @author Sadman
  */
 @Service
+@RequiredArgsConstructor
 public class HospitalServiceImpl implements HospitalService {
 
-    @Autowired
-    HospitalRepository hospitalRepository;
+    private final HospitalMapper hospitalMapper = Mappers.getMapper(HospitalMapper.class);
+
+    private final HospitalRepository hospitalRepository;
 
     @Override
     public List<HospitalDTO> getAllHospitals() {
@@ -34,6 +42,13 @@ public class HospitalServiceImpl implements HospitalService {
             hospitalDTOS.add(hospitalDTO);
         }
         return hospitalDTOS;
+    }
+
+    @Override
+    public Page<HospitalDTO> getPaginatedDataWithFilters(String name, String bnName, Integer numberOfBed,
+                                                         Integer districtId, Pageable pagingSort) {
+        return hospitalRepository.getFilteredHospitals(name, bnName, numberOfBed, districtId, pagingSort)
+                .map(hospitalMapper::hospitalToHospitalDTO);
     }
 
     @Override
