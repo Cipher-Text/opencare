@@ -211,7 +211,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@sadmansobhan](https://www.linkedin.com/in/sadmansobhan/) - imran110219@gmail.com
+Sadman Sobhan - [@sadmansobhan](https://www.linkedin.com/in/sadmansobhan/) - imran110219@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
