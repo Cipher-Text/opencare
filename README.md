@@ -61,6 +61,7 @@
       <ul>
         <li><a href="#built-with">Built With</a></li>
         <li><a href="#features">Features</a></li>
+        <li><a href="#database">Database</a></li>
       </ul>
     </li>
     <li>
@@ -97,9 +98,13 @@ The field of medicine is constantly evolving, with new research, treatments, and
 
 **Information Search:** Utilize a powerful search functionality to find specific medical information, articles, research papers, or guidelines within the repository. The search feature enables users to quickly locate relevant resources based on keywords or specific topics of interest.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Database
 
 [![Database Diagram][db-screenshot]](https://dbdiagram.io/d/6488b6bf722eb77494e72192)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
