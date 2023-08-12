@@ -2,7 +2,7 @@ const SearchForm = () => {
     return (
 
         <form>
-            <div class="mb-6">
+            {/* <div class="mb-6">
                 <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">District</label>
                 <select id="dropdown" class="block w-full px-4 py-2 border rounded-md focus:ring focus:ring-blue-300 
                 focus:border-blue-300 outline-none" required>
@@ -11,7 +11,7 @@ const SearchForm = () => {
                     <option value="50" className="text-gray-600">50</option>
                     <option value="100" className="text-gray-600">100</option>
                 </select>
-            </div>
+            </div> */}
             <div class="mb-6">
                 <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Hospital Type</label>
                 <select id="dropdown" class="block w-full px-4 py-2 border rounded-md focus:ring focus:ring-blue-300 
