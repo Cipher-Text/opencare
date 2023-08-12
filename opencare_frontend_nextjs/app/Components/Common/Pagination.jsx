@@ -34,7 +34,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange, size, onSizeChange 
                         {index + 1}</button>
                       </li>
                     )}
-                    < li >.....</li>
+                    < li  className="text-indigo-600">......</li>
                     < li >
                       <button onClick={() => onPageChange(totalPages - 1)}
                         class="w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100">
@@ -52,7 +52,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange, size, onSizeChange 
                           class="w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100">
                           1</button>
                       </li>
-                      <li>......</li>
+                      <li className="text-indigo-600">......</li>
                       {[...Array(4)].map((_, index) =>
                         <li><button onClick={() => onPageChange(totalPages - 4 + index)}
                           class={currentPage == (totalPages - 4 + index) ? "w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline bg-indigo-300"
@@ -69,7 +69,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange, size, onSizeChange 
                           class="w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100">
                           1</button>
                       </li>
-                      <li>......</li>
+                      <li className="text-indigo-600">......</li>
                       {[...Array(3)].map((_, index) =>
                         <li><button onClick={() => onPageChange(currentPage - 1 + index)}
                           class={(currentPage - 1 + index) == currentPage ? "w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline bg-indigo-300"
@@ -77,7 +77,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange, size, onSizeChange 
                           {currentPage + index}</button>
                         </li>)
                       }
-                      <li>......</li>
+                      <li className="text-indigo-600">......</li>
                       < li >
                         <button onClick={() => onPageChange(totalPages - 1)}
                           class="w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100">

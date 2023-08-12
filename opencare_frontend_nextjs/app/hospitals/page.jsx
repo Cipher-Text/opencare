@@ -2,6 +2,7 @@
 "use client"
 import { useEffect, useState } from "react"
 import Pagination from "../Components/Common/Pagination";
+import SearchForm from "../Components/Common/SearchForm";
 
 
 export default function Hospitals() {
@@ -45,12 +46,13 @@ export default function Hospitals() {
             <div class="mx-auto grid grid-cols-12 gap-4 bg-zinc-50 p-1">
 
                 <div class="col-span-12 rounded-lg p-16 sm:col-span-3">
+                    <SearchForm/>
                 </div>
                 <div class="col-span-12 rounded-lg p-10 sm:col-span-9">
                     <table class="w-full border-collapse bg-white text-left text-sm text-gray-500">
                         <thead class="bg-gray-50">
                             <tr>
-                                <th scope="col" class="px-3 py-3 font-medium text-gray-900">Sl. No.</th>
+                                <th scope="col" class="px-3 py-3 font-medium text-gray-900">Sl.</th>
                                 <th scope="col" class="px-3 py-3 font-medium text-gray-900">Name</th>
                                 <th scope="col" class="px-3 py-3 font-medium text-gray-900">Address</th>
                                 <th scope="col" class="px-3 py-3 font-medium text-gray-900">Hospital Type</th>
