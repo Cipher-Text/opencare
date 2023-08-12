@@ -1,4 +1,8 @@
 const Pagination = ({ currentPage, totalPages, onPageChange, size, onSizeChange }) => {
+  const handleSizeChange = (e) => {
+    onSizeChange(e.target.value);
+    onPageChange(0);
+  }
 
   return (
     <nav aria-label="Page navigation" className="mt-3">
@@ -10,16 +14,88 @@ const Pagination = ({ currentPage, totalPages, onPageChange, size, onSizeChange 
               class="flex items-center justify-center w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100">
               <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" fill-rule="evenodd"></path></svg></button>
             </li>
-            {[...Array(currentPage < 3 ? currentPage : 3)].map((_, index) =>
+            {/* {[...Array(currentPage < 3 ? currentPage : 3)].map((_, index) =>
               <li><button onClick={() => onPageChange(currentPage > 3 ? currentPage - 3 + index : index)}
                 class="w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100">
                 {currentPage > 3 ? currentPage - 2 + index : index + 1}</button></li>
             )}
-            {[...Array(...Array(currentPage + 1 > totalPages ? 0 : (currentPage < 3 ? Math.min(7 - currentPage, totalPages - currentPage) :  Math.min(4, totalPages - currentPage))))].map((_, index) =>
+            {[...Array(...Array(currentPage + 1 > totalPages ? 0 : (currentPage < 3 ? Math.min(7 - currentPage, totalPages - currentPage) : Math.min(4, totalPages - currentPage))))].map((_, index) =>
               <li><button onClick={() => onPageChange(index + currentPage)}
                 class={currentPage == (index + currentPage) ? "w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline bg-indigo-300"
                   : "w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100"}>{index + currentPage + 1}</button></li>
-            )}
+            )} */}
+
+            {
+              totalPages < 7 ? (
+                // all buttons
+                [...Array(totalPages)].map((_, index) =>
+                  <li><button onClick={() => onPageChange(index)}
+                    class={currentPage == (index) ? "w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline bg-indigo-300"
+                      : "w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100"}>
+                    {index + 1}</button></li>
+                )
+              ) : ((totalPages > 6 && currentPage < 4) ? (
+                // When Current Page is in first half
+                (
+                  <ul class="inline-flex space-x-2">
+                    {[...Array(4)].map((_, index) =>
+                      <li><button onClick={() => onPageChange(index)}
+                        class={currentPage == (index) ? "w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline bg-indigo-300"
+                          : "w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100"}>
+                        {index + 1}</button>
+                      </li>
+                    )}
+                    < li >.....</li>
+                    < li >
+                      <button onClick={() => onPageChange(totalPages - 1)}
+                        class="w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100">
+                        {totalPages}</button>
+                    </li>
+                  </ul>
+                )
+              ) : (
+                (totalPages > 6 && currentPage > (totalPages - 3)) ?
+                  //  When Current Page is in last half
+                  (
+                    <ul class="inline-flex space-x-2">
+                      <li>
+                        <button onClick={() => onPageChange(0)}
+                          class="w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100">
+                          1</button>
+                      </li>
+                      <li>......</li>
+                      {[...Array(4)].map((_, index) =>
+                        <li><button onClick={() => onPageChange(totalPages - 4 + index)}
+                          class={currentPage == (totalPages - 4 + index) ? "w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline bg-indigo-300"
+                            : "w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100"}>
+                          {totalPages - 3 + index}</button>
+                        </li>)
+                      }
+                    </ul>
+                  ) : (
+                    // When Current Page is in middle half
+                    <ul class="inline-flex space-x-2">
+                      <li>
+                        <button onClick={() => onPageChange(0)}
+                          class="w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100">
+                          1</button>
+                      </li>
+                      <li>......</li>
+                      {[...Array(3)].map((_, index) =>
+                        <li><button onClick={() => onPageChange(currentPage - 1 + index)}
+                          class={(currentPage - 1 + index) == currentPage ? "w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline bg-indigo-300"
+                            : "w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100"}>
+                          {currentPage + index}</button>
+                        </li>)
+                      }
+                      <li>......</li>
+                      < li >
+                        <button onClick={() => onPageChange(totalPages - 1)}
+                          class="w-10 h-10 text-indigo-600 transition-colors duration-150 rounded-full focus:shadow-outline hover:bg-indigo-100">
+                          {totalPages}</button>
+                      </li>
+                    </ul>
+                  )))}
             <li><button disabled={currentPage === totalPages - 1}
               onClick={() => onPageChange(currentPage + 1)}
               class="flex items-center justify-center w-10 h-10 text-indigo-600 transition-colors duration-150 bg-white rounded-full focus:shadow-outline hover:bg-indigo-100">
@@ -30,7 +106,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange, size, onSizeChange 
         <div>
           <div class="p-4">
             <select id="dropdown" class="block w-full px-4 py-2 border rounded-md 
-            focus:ring focus:ring-blue-300 focus:border-blue-300 outline-none"  onChange={(event) => onSizeChange(event.target.value)} value={size}>
+            focus:ring focus:ring-blue-300 focus:border-blue-300 outline-none"  onChange={handleSizeChange} value={size}>
               <option value="5" className="text-gray-600">5</option>
               <option value="10" className="text-gray-600">10</option>
               <option value="50" className="text-gray-600">50</option>
@@ -40,7 +116,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange, size, onSizeChange 
         </div>
       </div>
 
-    </nav>
+    </nav >
   );
 }
 export default Pagination;
