@@ -43,20 +43,16 @@ public class HospitalApiController {
             @RequestParam(required = false) Integer districtId,
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "5") int size) {
-        try {
-            Pageable pagingSort = PageRequest.of(page, size);
-            Page<Hospital> pageHospitals = hospitalRepository.getFilteredHospitals(name, bnName, numberOfBed, districtId, pagingSort);
+        Pageable pagingSort = PageRequest.of(page, size);
+        Page<Hospital> pageHospitals = hospitalRepository.getFilteredHospitals(name, bnName, numberOfBed, districtId, pagingSort);
 
-            Map<String, Object> response = new HashMap<>();
-            response.put("hospitals", pageHospitals.getContent());
-            response.put("currentPage", pageHospitals.getNumber());
-            response.put("totalItems", pageHospitals.getTotalElements());
-            response.put("totalPages", pageHospitals.getTotalPages());
+        Map<String, Object> response = new HashMap<>();
+        response.put("hospitals", pageHospitals.getContent());
+        response.put("currentPage", pageHospitals.getNumber());
+        response.put("totalItems", pageHospitals.getTotalElements());
+        response.put("totalPages", pageHospitals.getTotalPages());
 
-            return new ResponseEntity<>(response, HttpStatus.OK);
-        } catch (Exception e) {
-            return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
-        }
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
     @GetMapping("/hospitals/{id}")
