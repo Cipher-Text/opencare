@@ -22,7 +22,7 @@ public class Hospital {
     @Column(name="name", nullable = false)
     private String name;
 
-    @Column(name="bn_name", nullable = false)
+    @Column(name="bn_name")
     private String bnName;
 
     @Column(name="number_of_bed", nullable = false)

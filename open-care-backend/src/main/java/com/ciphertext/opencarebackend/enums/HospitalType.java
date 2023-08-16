@@ -1,6 +1,7 @@
 package com.ciphertext.opencarebackend.enums;
 
 public enum HospitalType {
+    GENERAL("সাধারণ"),
     CANCER("ক্যান্সার"),
     CHEST_DISEASE("বক্ষব্যাধি"),
     COLLEGE("কলেজ"),

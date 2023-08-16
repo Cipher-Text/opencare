@@ -27,12 +27,12 @@ public class District {
     @Column(name="bn_name", nullable = false)
     private String bnName;
 
-    @Column(name="lat", nullable = false)
+    @Column(name="lat")
     private String lat;
 
-    @Column(name="lon", nullable = false)
+    @Column(name="lon")
     private String lon;
 
-    @Column(name="url", nullable = false)
+    @Column(name="url")
     private String url;
 }

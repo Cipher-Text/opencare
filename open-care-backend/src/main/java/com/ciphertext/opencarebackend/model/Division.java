@@ -22,6 +22,6 @@ public class Division {
     @Column(name="bn_name", nullable = false)
     private String bnName;
 
-    @Column(name="url", nullable = false)
+    @Column(name="url")
     private String url;
 }
