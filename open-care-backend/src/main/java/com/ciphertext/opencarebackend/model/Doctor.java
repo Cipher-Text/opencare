@@ -22,10 +22,10 @@ public class Doctor {
     @Column(name="name", nullable = false)
     private String name;
 
-    @Column(name="bn_name", nullable = false)
+    @Column(name="bn_name")
     private String bnName;
 
-    @Column(name="bmdc_no", nullable = false)
+    @Column(name="bmdc_no")
     private String bmdcNo;
 
     @Column(name="phone")
