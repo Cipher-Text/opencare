@@ -4,7 +4,7 @@ import com.ciphertext.opencarebackend.OpenCareBackendApplication;
 import com.ciphertext.opencarebackend.model.entity.District;
 import com.ciphertext.opencarebackend.model.entity.Hospital;
 import com.ciphertext.opencarebackend.repository.DistrictRepository;
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -45,7 +45,7 @@ class HospitalApiControllerTest {
         ResponseEntity<String> response = restTemplate.exchange(getRootUrl() + "/hospitals",
                 HttpMethod.GET, entity, String.class);
 
-        Assert.assertNotNull(response.getBody());
+        Assertions.assertNotNull(response.getBody());
     }
 
     /**
@@ -55,7 +55,7 @@ class HospitalApiControllerTest {
     void testGetHospitalById() {
         Hospital hospital = restTemplate.getForObject(getRootUrl() + "/hospitals/1", Hospital.class);
         System.out.println(hospital.getName());
-        Assert.assertNotNull(hospital);
+        Assertions.assertNotNull(hospital);
     }
 
     /**
@@ -66,12 +66,12 @@ class HospitalApiControllerTest {
         Hospital hospital = new Hospital();
         hospital.setName("Test");
         hospital.setNumberOfBed(100);
-        District district = districtRepository.getById(1);
+        District district = districtRepository.findById(1).orElse(null);
         hospital.setDistrict(district);
 
         ResponseEntity<Hospital> postResponse = restTemplate.postForEntity(getRootUrl() + "/hospitals", hospital, Hospital.class);
-        Assert.assertNotNull(postResponse);
-        Assert.assertNotNull(postResponse.getBody());
+        Assertions.assertNotNull(postResponse);
+        Assertions.assertNotNull(postResponse.getBody());
     }
 
     /**
@@ -82,14 +82,14 @@ class HospitalApiControllerTest {
         int id = 78;
         Hospital hospital = restTemplate.getForObject(getRootUrl() + "/hospitals/" + id, Hospital.class);
         hospital.setName("Tesla");
-        District district = districtRepository.getById(1);
+        District district = districtRepository.findById(1).orElse(null);
         hospital.setDistrict(district);
         hospital.setNumberOfBed(50);
 
         restTemplate.put(getRootUrl() + "/hospitals/edit/" + id, hospital);
 
         Hospital updatedHospital = restTemplate.getForObject(getRootUrl() + "/hospitals/" + id, Hospital.class);
-        Assert.assertNotNull(updatedHospital);
+        Assertions.assertNotNull(updatedHospital);
     }
 
     /**
@@ -100,7 +100,7 @@ class HospitalApiControllerTest {
     void testDeleteHospital() {
         int id = 77;
         Hospital hospital = restTemplate.getForObject(getRootUrl() + "/hospitals/" + id, Hospital.class);
-        Assert.assertNotNull(hospital);
+        Assertions.assertNotNull(hospital);
 
         restTemplate.delete(getRootUrl() + "/hospitals/delete/" + id);
 
@@ -108,7 +108,7 @@ class HospitalApiControllerTest {
             hospital = restTemplate.getForObject(getRootUrl() + "/hospitals/" + id, Hospital.class);
             System.out.println(hospital.getName());
         } catch (final HttpClientErrorException e) {
-            Assert.assertEquals(e.getStatusCode(), HttpStatus.NOT_FOUND);
+            Assertions.assertEquals(e.getStatusCode(), HttpStatus.NOT_FOUND);
         }
     }
 }
