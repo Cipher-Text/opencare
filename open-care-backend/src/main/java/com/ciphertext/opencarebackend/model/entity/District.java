@@ -1,6 +1,8 @@
 package com.ciphertext.opencarebackend.model.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import jakarta.persistence.*;
@@ -8,6 +10,8 @@ import jakarta.persistence.*;
 /**
  * @author Sadman
  */
+@AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
 @Entity

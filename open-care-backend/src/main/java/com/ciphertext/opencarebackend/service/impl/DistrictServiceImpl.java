@@ -4,7 +4,7 @@ import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.service.DistrictService;
 import com.ciphertext.opencarebackend.model.entity.District;
 import com.ciphertext.opencarebackend.repository.DistrictRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -14,18 +14,17 @@ import java.util.List;
  * @author Sadman
  */
 @Service
+@RequiredArgsConstructor
 public class DistrictServiceImpl implements DistrictService {
-
-    @Autowired
-    DistrictRepository DistrictRepository;
+    private final DistrictRepository districtRepository;
 
     @Override
     public List<District> getAllDistricts() {
-        return DistrictRepository.findAll();
+        return districtRepository.findAll();
     }
 
     @Override
     public District getDistrictById(int id) throws ResourceNotFoundException {
-        return DistrictRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Not found District with id = " + id));
+        return districtRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Not found District with id = " + id));
     }
 }

@@ -7,6 +7,8 @@ import jakarta.persistence.*;
 /**
  * @author Sadman
  */
+@AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
 @Entity
