@@ -1,7 +1,7 @@
 package com.ciphertext.opencarebackend.repository;
 
-import com.ciphertext.opencarebackend.model.Union;
-import com.ciphertext.opencarebackend.model.Upazila;
+import com.ciphertext.opencarebackend.model.entity.Union;
+import com.ciphertext.opencarebackend.model.entity.Upazila;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
