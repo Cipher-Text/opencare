@@ -18,7 +18,7 @@ import org.springframework.web.client.HttpClientErrorException;
  */
 @SpringBootTest(classes = OpenCareBackendApplication.class,
         webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class HospitalApiControllerTest {
+class HospitalApiControllerTest {
 
     @Autowired
     private TestRestTemplate restTemplate;
@@ -38,7 +38,7 @@ public class HospitalApiControllerTest {
      * using the GET method
      */
     @Test
-    public void testGetAllHospitals() {
+    void testGetAllHospitals() {
         HttpHeaders headers = new HttpHeaders();
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
 
@@ -52,7 +52,7 @@ public class HospitalApiControllerTest {
      * Here we test that we can fetch a single hospital using its id
      */
     @Test
-    public void testGetHospitalById() {
+    void testGetHospitalById() {
         Hospital hospital = restTemplate.getForObject(getRootUrl() + "/hospitals/1", Hospital.class);
         System.out.println(hospital.getName());
         Assert.assertNotNull(hospital);
@@ -62,7 +62,7 @@ public class HospitalApiControllerTest {
      * Here we test that we can create a hospital using the POST method
      */
     @Test
-    public void testCreateHospital() {
+    void testCreateHospital() {
         Hospital hospital = new Hospital();
         hospital.setName("Test");
         hospital.setNumberOfBed(100);

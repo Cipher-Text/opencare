@@ -2,9 +2,13 @@ package com.ciphertext.opencarebackend.model.entity;
 
 import com.ciphertext.opencarebackend.model.enums.DegreeType;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+@AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
 @Entity
