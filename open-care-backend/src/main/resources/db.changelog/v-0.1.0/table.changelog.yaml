@@ -6,6 +6,9 @@ databaseChangeLog:
       file: tables/medical_speciality.yaml
       relativeToChangelogFile: true
   - include:
+      file: tables/medical_test.yaml
+      relativeToChangelogFile: true
+  - include:
       file: tables/division.yaml
       relativeToChangelogFile: true
   - include:
