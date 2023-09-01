@@ -14,6 +14,7 @@ import java.util.List;
 @Entity
 @Table(name = "medical_test")
 public class MedicalTest {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
@@ -24,16 +25,15 @@ public class MedicalTest {
 
     @Size(max = 100)
     @NotNull
-    @Column(name = "name", nullable = false, length = 100)
+    @Column(name = "name", length = 100)
     private String name;
 
     @Size(max = 100)
-    @NotNull
     @Column(name = "bn_name", nullable = false, length = 100)
     private String bnName;
 
-    @NotNull
-    @Column(name = "alternative_names", nullable = false)
+
+    @Column(name = "alternative_names")
     @Type(value = com.ciphertext.opencarebackend.model.util.CustomStringArrayType.class)
     private List<String> alternativeNames;
 

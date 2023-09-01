@@ -14,7 +14,7 @@ import java.util.List;
  * @author Sadman
  */
 @Service
-public class MedicalMedicalSpecialityServiceImpl implements MedicalSpecialityService {
+public class MedicalSpecialityImpl implements MedicalSpecialityService {
 
     @Autowired
     MedicalSpecialityRepository medicalSpecialityRepository;
@@ -53,6 +53,6 @@ public class MedicalMedicalSpecialityServiceImpl implements MedicalSpecialitySer
         medicalSpecialityRepository.deleteById(specialityId);
         if (medicalSpecialityRepository.findById(specialityId).isPresent()) {
             return ResponseEntity.unprocessableEntity().body("Failed to delete the specified record");
-        } else return ResponseEntity.ok().body("Speciality is Deleted Successfully");
+        } else return ResponseEntity.ok().body("Speciality is deleted successfully");
     }
 }

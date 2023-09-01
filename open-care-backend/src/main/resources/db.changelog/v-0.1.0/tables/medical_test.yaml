@@ -21,13 +21,9 @@ databaseChangeLog:
                   name: name
                   type: varchar(100)
               - column:
-                  constraints:
-                    nullable: false
                   name: bn_name
                   type: varchar(100)
               - column:
-                  constraints:
-                    nullable: false
                   name: alternative_names
                   type: varchar[]
               - column:

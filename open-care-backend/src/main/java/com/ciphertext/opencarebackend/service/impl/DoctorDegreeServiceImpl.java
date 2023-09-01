@@ -4,6 +4,7 @@ import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.service.DegreeService;
 import com.ciphertext.opencarebackend.model.entity.Degree;
 import com.ciphertext.opencarebackend.repository.DegreeRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,10 +14,10 @@ import java.util.List;
  * @author Sadman
  */
 @Service
+@RequiredArgsConstructor
 public class DoctorDegreeServiceImpl implements DegreeService {
 
-    @Autowired
-    DegreeRepository degreeRepository;
+    private final DegreeRepository degreeRepository;
 
     @Override
     public List<Degree> getAllDegrees() {
