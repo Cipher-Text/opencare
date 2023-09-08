@@ -1,5 +1,14 @@
 databaseChangeLog:
   - include:
+      file: tables/role.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: tables/permission.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: tables/user.yaml
+      relativeToChangelogFile: true
+  - include:
       file: tables/degree.yaml
       relativeToChangelogFile: true
   - include:
@@ -28,6 +37,12 @@ databaseChangeLog:
       relativeToChangelogFile: true
   - include:
       file: tables/doctor.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: tables/user_role.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: tables/role_permission.yaml
       relativeToChangelogFile: true
   - include:
       file: tables/doctor_degree.yaml
