@@ -14,7 +14,7 @@ import java.util.List;
  * @author Sadman
  */
 @Service
-public class MedicalSpecialityImpl implements MedicalSpecialityService {
+public class MedicalSpecialityServiceImpl implements MedicalSpecialityService {
 
     @Autowired
     MedicalSpecialityRepository medicalSpecialityRepository;
