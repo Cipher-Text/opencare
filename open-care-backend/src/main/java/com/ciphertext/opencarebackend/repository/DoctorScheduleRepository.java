@@ -1,6 +1,6 @@
 package com.ciphertext.opencarebackend.repository;
 
-import com.ciphertext.opencarebackend.model.DoctorSchedule;
+import com.ciphertext.opencarebackend.model.entity.DoctorSchedule;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

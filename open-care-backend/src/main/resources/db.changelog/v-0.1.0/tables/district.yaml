@@ -28,18 +28,12 @@ databaseChangeLog:
                   name: bn_name
                   type: varchar(100)
               - column:
-                  constraints:
-                    nullable: false
                   name: lat
                   type: varchar(100)
               - column:
-                  constraints:
-                    nullable: false
                   name: lon
                   type: varchar(100)
               - column:
-                  constraints:
-                    nullable: false
                   name: url
                   type: varchar(100)
             tableName: district

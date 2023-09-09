@@ -9,6 +9,11 @@ databaseChangeLog:
             tableName: degree
             quotchar: '"'
         - loadData:
+            file: seeds/medical_test.csv
+            relativeToChangelogFile: true
+            tableName: medical_test
+            quotchar: '"'
+        - loadData:
             file: seeds/medical_speciality.csv
             relativeToChangelogFile: true
             tableName: medical_speciality
