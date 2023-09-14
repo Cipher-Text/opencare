@@ -20,18 +20,18 @@ import java.util.List;
  * @author Sadman
  */
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/doctors")
 public class DoctorApiController {
 
     @Autowired
     DoctorService service;
 
-    @GetMapping("/doctors")
+    @GetMapping("")
     public List<DoctorDTO> getAllDoctors(Model model) {
         return service.getAllDoctors();
     }
 
-    @GetMapping("/doctors/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Doctor> getDoctorById(@PathVariable(value = "id") Long doctorId)
             throws ResourceNotFoundException {
         Doctor doctor = service.getDoctorById(doctorId);

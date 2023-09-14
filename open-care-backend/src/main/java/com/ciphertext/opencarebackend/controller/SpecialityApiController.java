@@ -15,34 +15,34 @@ import java.util.List;
  * @author Sadman
  */
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/specialities")
 public class SpecialityApiController {
     @Autowired
     MedicalSpecialityService service;
 
-    @GetMapping("/specialities")
+    @GetMapping("")
     public List<MedicalSpeciality> getAllSpecialities(Model model) {
         return service.getAllSpecialities();
     }
 
-    @GetMapping("/specialities/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<MedicalSpeciality> getSpecialityById(@PathVariable(value = "id") int specialityId)
             throws ResourceNotFoundException {
         MedicalSpeciality medicalSpeciality = service.getSpecialityById(specialityId);
         return ResponseEntity.ok().body(medicalSpeciality);
     }
 
-    @PostMapping("/specialities")
+    @PostMapping("")
     public MedicalSpeciality createSpeciality(@Valid @RequestBody MedicalSpeciality hospital) {
         return service.createSpeciality(hospital);
     }
 
-    @PutMapping("/specialities/edit/{id}")
+    @PutMapping("/edit/{id}")
     public MedicalSpeciality editSpecialityById(@RequestBody MedicalSpeciality newMedicalSpeciality, @PathVariable(value = "id") int hospitalId) {
         return service.updateSpeciality(newMedicalSpeciality, hospitalId);
     }
 
-    @DeleteMapping("/specialities/delete/{id}")
+    @DeleteMapping("/delete/{id}")
     @ResponseBody
     public ResponseEntity<Object> deleteSpecialitiesById(@PathVariable(value = "id") int hospitalId){
         return service.deleteSpecialityById(hospitalId);
