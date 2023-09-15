@@ -24,12 +24,12 @@ import java.util.Map;
  */
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api")
+@RequestMapping("/api/institutions")
 public class InstitutionApiController {
 
     private final InstitutionService institutionService;
 
-    @GetMapping("/institutions")
+    @GetMapping("")
     public ResponseEntity<Map<String, Object>> getAllInstitutionsPage(
             @RequestParam(required = false) String name,
             @RequestParam(required = false) String bnName,
@@ -49,7 +49,7 @@ public class InstitutionApiController {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
-    @GetMapping("/institutions/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Institution> getDivisionById(@PathVariable(value = "id") int institutionId)
             throws ResourceNotFoundException {
         Institution institution = institutionService.getInstitutionById(institutionId);
