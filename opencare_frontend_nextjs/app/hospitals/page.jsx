@@ -23,7 +23,6 @@ export default function Hospitals() {
             if (!res.ok) {
                 throw new Error("Network response was not ok");
             }
-            console.log(currentPage + 1 >= totalPages ? 0 : (currentPage < 3 ? Math.min(7 - currentPage, totalPages - currentPage -1) :  Math.min(4, totalPages - currentPage -1)));
             return res.json();
         } catch (error) {
             console.error("Error fetching data:", error);
@@ -34,7 +33,6 @@ export default function Hospitals() {
     useEffect(() => {
         const fetchData = async () => {
             const data = await getHospitals();
-            console.log(data);
             setHospitals(data.hospitals);
             setTotalPages(data.totalPages);
         };
@@ -43,51 +41,51 @@ export default function Hospitals() {
     }, [currentPage, size]);
     return (
         <div>
-            <div class="mx-auto grid grid-cols-12 gap-4 bg-zinc-50 p-1">
+            <div className="mx-auto grid grid-cols-12 gap-4 bg-zinc-50 p-1">
 
-                <div class="col-span-12 rounded-lg p-16 sm:col-span-3">
+                <div className="col-span-12 rounded-lg p-16 sm:col-span-3">
                     <SearchForm/>
                 </div>
-                <div class="col-span-12 rounded-lg p-10 sm:col-span-9">
-                    <table class="w-full border-collapse bg-white text-left text-sm text-gray-500">
-                        <thead class="bg-gray-50">
+                <div className="col-span-12 rounded-lg p-10 sm:col-span-9">
+                    <table className="w-full border-collapse bg-white text-left text-sm text-gray-500">
+                        <thead className="bg-gray-50">
                             <tr>
-                                <th scope="col" class="px-3 py-3 font-medium text-gray-900">Sl.</th>
-                                <th scope="col" class="px-3 py-3 font-medium text-gray-900">Name</th>
-                                <th scope="col" class="px-3 py-3 font-medium text-gray-900">Address</th>
-                                <th scope="col" class="px-3 py-3 font-medium text-gray-900">Hospital Type</th>
-                                <th scope="col" class="px-3 py-3 font-medium text-gray-900">Organization Type</th>
-                                <th scope="col" class="px-3 py-3 font-medium text-gray-900">Capacity(bed)</th>
-                                {/* <th scope="col" class="px-3 py-3 font-medium text-gray-900"></th> */}
+                                <th scope="col" className="px-3 py-3 font-medium text-gray-900">Sl.</th>
+                                <th scope="col" className="px-3 py-3 font-medium text-gray-900">Name</th>
+                                <th scope="col" className="px-3 py-3 font-medium text-gray-900">Address</th>
+                                <th scope="col" className="px-3 py-3 font-medium text-gray-900">Hospital Type</th>
+                                <th scope="col" className="px-3 py-3 font-medium text-gray-900">Organization Type</th>
+                                <th scope="col" className="px-3 py-3 font-medium text-gray-900">Capacity(bed)</th>
+                                {/* <th scope="col" className="px-3 py-3 font-medium text-gray-900"></th> */}
                             </tr>
                         </thead>
-                        <tbody class="divide-y divide-gray-100 border-t border-gray-100">
+                        <tbody className="divide-y divide-gray-100 border-t border-gray-100">
                             {hospitals.map((hospital) =>
-                                <tr id={hospital.id} class="hover:bg-gray-50">
-                                    <td class="px-3 py-3">{hospital.id}</td>
-                                    <th class="flex gap-3 px-3 py-3 font-normal text-gray-900">
-                                        <div class="relative h-10 w-10">
+                                <tr id={hospital.id} className="hover:bg-gray-50">
+                                    <td className="px-3 py-3">{hospital.id}</td>
+                                    <th className="flex gap-3 px-3 py-3 font-normal text-gray-900">
+                                        <div className="relative h-10 w-10">
                                             <img
-                                                class="h-full w-full rounded-full object-cover object-center"
+                                                className="h-full w-full rounded-full object-cover object-center"
                                                 src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                                                 alt=""
                                             />
-                                            <span class="absolute right-0 bottom-0 h-2 w-2 rounded-full bg-green-400 ring ring-white"></span>
+                                            <span className="absolute right-0 bottom-0 h-2 w-2 rounded-full bg-green-400 ring ring-white"></span>
                                         </div>
-                                        <div class="text-sm">
-                                            <div class="font-medium text-gray-700">{hospital.name}</div>
-                                            <div class="text-gray-400">{hospital.bnName}</div>
+                                        <div className="text-sm">
+                                            <div className="font-medium text-gray-700">{hospital.name}</div>
+                                            <div className="text-gray-400">{hospital.bnName}</div>
                                         </div>
                                     </th>
-                                    <td class="px-3 py-3">
-                                        <div class="text-sm font-medium text-gray-700">{hospital.union?.bnName + ", " + hospital.upazila?.bnName + ", " +
+                                    <td className="px-3 py-3">
+                                        <div className="text-sm font-medium text-gray-700">{hospital.union?.bnName + ", " + hospital.upazila?.bnName + ", " +
                                             hospital.district?.bnName + ", " + hospital.district?.division?.bnName}</div>
                                     </td>
-                                    <td class="px-3 py-3">{hospital.hospitalType?.benglaName}</td>
-                                    <td class="px-3 py-3">
+                                    <td className="px-3 py-3">{hospital.hospitalType?.benglaName}</td>
+                                    <td className="px-3 py-3">
                                         {hospital.organizationType?.benglaName}
                                     </td>
-                                    <td class="px-3 py-3">{hospital.numberOfBed}</td>
+                                    <td className="px-3 py-3">{hospital.numberOfBed}</td>
                                 </tr>)}
                         </tbody>
                     </table>
