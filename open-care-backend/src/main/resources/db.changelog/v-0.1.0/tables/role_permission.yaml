@@ -1,0 +1,38 @@
+databaseChangeLog:
+  - changeSet:
+      id: ef1a74c6-1343-400c-9cfa-dbf94b560b0f
+      author: sadman
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                  name: role_id
+                  type: int4
+              - column:
+                  constraints:
+                    nullable: false
+                  name: permission_id
+                  type: int4
+            tableName: role_permission
+        - addForeignKeyConstraint:
+            baseColumnNames: role_id
+            baseTableName: role_permission
+            constraintName: role_permission_fk_role
+            deferrable: false
+            initiallyDeferred: false
+            onUpdate: CASCADE
+            referencedColumnNames: id
+            referencedTableName: role
+            validate: true
+        - addForeignKeyConstraint:
+            baseColumnNames: permission_id
+            baseTableName: role_permission
+            constraintName: role_permission_fk_permission
+            deferrable: false
+            initiallyDeferred: false
+            onUpdate: CASCADE
+            referencedColumnNames: id
+            referencedTableName: permission
+            validate: true

@@ -4,6 +4,11 @@ databaseChangeLog:
       author: sadman
       changes:
         - loadData:
+            file: seeds/role.csv
+            relativeToChangelogFile: true
+            tableName: role
+            quotchar: '"'
+        - loadData:
             file: seeds/degree.csv
             relativeToChangelogFile: true
             tableName: degree
