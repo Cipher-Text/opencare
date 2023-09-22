@@ -21,7 +21,7 @@ import java.util.Map;
  * @author Sadman
  */
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/hospitals")
 public class HospitalApiController {
     @Autowired
     HospitalService service;
@@ -29,7 +29,7 @@ public class HospitalApiController {
     @Autowired
     HospitalRepository hospitalRepository;
 
-    @GetMapping("/hospitals")
+    @GetMapping("")
     public ResponseEntity<Map<String, Object>> getAllHospitalsPage(
             @RequestParam(required = false) String name,
             @RequestParam(required = false) String bnName,
@@ -49,24 +49,24 @@ public class HospitalApiController {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
-    @GetMapping("/hospitals/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Hospital> getHospitalById(@PathVariable(value = "id") int hospitalId)
             throws ResourceNotFoundException {
         Hospital hospital = service.getHospitalById(hospitalId);
         return ResponseEntity.ok().body(hospital);
     }
 
-    @PostMapping("/hospitals")
+    @PostMapping("")
     public Hospital createHospital(@Valid @RequestBody Hospital hospital) {
         return service.createHospital(hospital);
     }
 
-    @PutMapping("/hospitals/edit/{id}")
+    @PutMapping("/edit/{id}")
     public Hospital editHospitalById(@RequestBody Hospital newHospital, @PathVariable(value = "id") int hospitalId) {
         return service.updateHospital(newHospital, hospitalId);
     }
 
-    @DeleteMapping("/hospitals/delete/{id}")
+    @DeleteMapping("/delete/{id}")
     @ResponseBody
     public ResponseEntity<Object> deleteHospitalsById(@PathVariable(value = "id") int hospitalId) {
         return service.deleteHospitalById(hospitalId);
