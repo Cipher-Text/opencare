@@ -7,6 +7,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.time.Instant;
+import java.util.HashSet;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -38,7 +40,7 @@ public class User {
 
     @NotNull
     @Column(name = "is_active", nullable = false)
-    private Boolean isActive = false;
+    private Boolean isActive;
 
     @Column(name = "created_by")
     private Long createdBy;
@@ -52,5 +54,35 @@ public class User {
 
     @Column(name = "updated_at")
     private Instant updatedAt;
+
+    @Getter
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(
+            name = "user_role",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "role_id")
+    )
+    private Set<Role> roles;
+
+    public void setRoles(Set<Role> roles) {
+        if(this.roles==null) {
+            this.roles = new HashSet<>();
+        }
+        this.roles.addAll(roles);
+    }
+
+    public void addRole(Role role) {
+        if(this.roles==null) {
+            this.roles = new HashSet<>();
+        }
+        this.roles.add(role);
+    }
+
+    public void removeRole(Role role) {
+        if(this.roles==null) {
+            this.roles = new HashSet<>();
+        }
+        this.roles.remove(role);
+    }
 
 }
