@@ -1,9 +1,11 @@
 package com.ciphertext.opencarebackend.controller;
 
+import com.ciphertext.opencarebackend.annotations.SecureAPI;
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.service.HospitalService;
 import com.ciphertext.opencarebackend.model.entity.Hospital;
 import com.ciphertext.opencarebackend.repository.HospitalRepository;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -13,7 +15,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.http.HttpStatus;
 
 
-import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -22,6 +23,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/api/hospitals")
+@SecureAPI
 public class HospitalApiController {
     @Autowired
     HospitalService service;

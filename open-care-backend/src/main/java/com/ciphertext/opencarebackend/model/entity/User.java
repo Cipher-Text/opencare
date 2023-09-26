@@ -4,17 +4,20 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.Instant;
 import java.util.HashSet;
 import java.util.Set;
 
+@NoArgsConstructor
 @Getter
 @Setter
 @Entity
-@Table(name = "user")
+@Table(name = "user", schema = "public")
 public class User {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
@@ -26,7 +29,6 @@ public class User {
     private String username;
 
     @Size(max = 100)
-    @NotNull
     @Column(name = "password", nullable = false, length = 100)
     private String password;
 
@@ -38,14 +40,12 @@ public class User {
     @Column(name = "email", length = 100)
     private String email;
 
-    @NotNull
     @Column(name = "is_active", nullable = false)
     private Boolean isActive;
 
     @Column(name = "created_by")
     private Long createdBy;
 
-    @NotNull
     @Column(name = "created_at", nullable = false)
     private Instant createdAt;
 

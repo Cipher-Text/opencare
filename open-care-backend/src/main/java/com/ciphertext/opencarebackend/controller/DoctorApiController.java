@@ -1,11 +1,10 @@
 package com.ciphertext.opencarebackend.controller;
 
+import com.ciphertext.opencarebackend.annotations.SecureAPI;
 import com.ciphertext.opencarebackend.model.dto.DoctorDTO;
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.service.DoctorService;
 import com.ciphertext.opencarebackend.model.entity.Doctor;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.ui.Model;
@@ -21,6 +20,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/api/doctors")
+@SecureAPI
 public class DoctorApiController {
 
     @Autowired
