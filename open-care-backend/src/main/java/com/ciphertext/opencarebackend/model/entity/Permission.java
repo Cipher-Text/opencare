@@ -7,6 +7,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.HashSet;
+import java.util.Set;
+
 @Getter
 @Setter
 @Entity
@@ -22,5 +25,12 @@ public class Permission {
     @NotNull
     @Column(name = "name", nullable = false, length = 100)
     private String name;
+
+    public Permission(String name) {
+        this.name = name;
+    }
+
+    @ManyToMany(mappedBy = "permissions")
+    private Set<Role> roles = new HashSet<>();
 
 }
