@@ -8,7 +8,8 @@ public interface AccessManageService {
      List<String> getRolePermission();
      void addPermissionToRole(String permissionName,String roleName);
 
-     void removePermissionFromRole(String permissionName,String roleName);
+     void revokePermissionFromRole(String permissionName, String roleName);
 
+     void deletePermission(String permissionName);
 
 }

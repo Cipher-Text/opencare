@@ -43,9 +43,9 @@ public class Doctor {
     @Column(name="description")
     private String description;
 
-    @Column(name="image")
+    @Column(name="photo")
     private byte[] image;
 
-    @Column(name = "active")
-    private Boolean active;
+    @Column(name = "is_active")
+    private Boolean isActive;
 }

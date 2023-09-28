@@ -10,6 +10,6 @@ import java.lang.annotation.Target;
 
 @Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
-@PreAuthorize("hasAuthority('ADMIN')")
+@PreAuthorize("hasAnyRole('ADMIN','MODERATOR')")
 public @interface ADMIN {
 }
