@@ -1,14 +1,14 @@
 package com.ciphertext.opencarebackend.model.enums;
 
 public enum RatingOption {
-    CLEAR_EXPLANATION("Doctor", "", ""),
-    TIME_FOR_PATIENTS("DOCTOR", "", ""),
-    ATTENTIVE_LISTEN("DOCTOR", "", ""),
-    FRIENDLY_BEHAVIOR("DOCTOR", "", ""),
-    CLEANLINESS("HOSPITAL", "", ""),
-    STUFF_BEHAVIOR("HOSPITAL", "", ""),
-    OTHER_FACILITIES("HOSPITAL", "", ""),
-    MEDICAL_TEST_FACILITIES("HOSPITAL", "", "");
+    CLEAR_EXPLANATION("Doctor", "Clear Explanation", "পরিষ্কার ব্যাখ্যা"),
+    TIME_FOR_PATIENTS("DOCTOR", "Time For Patients", "রোগীদের জন্য সময়"),
+    ATTENTIVE_LISTEN("DOCTOR", "Attentive Listen", "মনোযোগী শ্রোতা"),
+    FRIENDLY_BEHAVIOR("DOCTOR", "Friendly Behavior", "বন্ধুত্বপূর্ণ আচরণ"),
+    CLEANLINESS("HOSPITAL", "Cleanliness", "পরিচ্ছন্নতা"),
+    STUFF_BEHAVIOR("HOSPITAL", "Stuff Behavior", "স্টাফদের আচরণ"),
+    OTHER_FACILITIES("HOSPITAL", "Other Facilities", "অন্যান্য সুযোগ - সুবিধা"),
+    MEDICAL_TEST_FACILITIES("HOSPITAL", "Medical Test Facilities", "চিকিৎসা পরীক্ষার সুবিধা");
 
     RatingOption(String sourceName, String description, String banglaDescription) {
         this.sourceName = sourceName;
