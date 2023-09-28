@@ -6,7 +6,16 @@ databaseChangeLog:
       file: tables/permission.yaml
       relativeToChangelogFile: true
   - include:
-      file: tables/user.yaml
+      file: tables/division.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: tables/district.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: tables/upazila.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: tables/union.yaml
       relativeToChangelogFile: true
   - include:
       file: tables/degree.yaml
@@ -18,16 +27,10 @@ databaseChangeLog:
       file: tables/medical_test.yaml
       relativeToChangelogFile: true
   - include:
-      file: tables/division.yaml
+      file: tables/user.yaml
       relativeToChangelogFile: true
   - include:
-      file: tables/district.yaml
-      relativeToChangelogFile: true
-  - include:
-      file: tables/upazila.yaml
-      relativeToChangelogFile: true
-  - include:
-      file: tables/union.yaml
+      file: tables/profile.yaml
       relativeToChangelogFile: true
   - include:
       file: tables/hospital.yaml
