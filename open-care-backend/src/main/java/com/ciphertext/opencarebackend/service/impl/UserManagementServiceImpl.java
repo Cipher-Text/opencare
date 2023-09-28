@@ -1,5 +1,6 @@
 package com.ciphertext.opencarebackend.service.impl;
 
+import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.model.dto.RoleDTO;
 import com.ciphertext.opencarebackend.model.dto.UserInfoDTO;
 import com.ciphertext.opencarebackend.model.entity.Doctor;
@@ -20,6 +21,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -72,7 +74,37 @@ public class UserManagementServiceImpl implements UserManagementService {
     }
 
     @Override
-    public UserInfoDTO getUserInfo(String userId) {
-        return null;
+    public UserInfoDTO getUserInfo(Long userId) {
+        User user = userRepository.findById(userId)
+                .orElseThrow(()-> new ResourceNotFoundException(""));
+        UserInfoDTO userInfoDTO = new UserInfoDTO();
+        userInfoDTO.setFullName(user.getUsername());
+        userInfoDTO.setUserName(user.getUsername());
+        userInfoDTO.setPassword(null);
+        userInfoDTO.setEmail(user.getEmail());
+        userInfoDTO.setPhone(user.getPhone());
+        userInfoDTO.setRole(user.getRoles().stream().map(Role::getName).collect(Collectors.joining(",")));
+        return userInfoDTO;
+
+
+    }
+
+    @Override
+    public void addRoleToUser(Long userId, String roleName) {
+        User user = userRepository.findById(userId)
+                .orElseThrow(()-> new ResourceNotFoundException(""));
+        Role role = roleRepository.findByName(roleName)
+                        .orElseThrow(()-> new ResourceNotFoundException(""));
+        user.setIsActive(true);
+        user.addRole(role);
+        userRepository.save(user);
+    }
+
+    @Override
+    public void activateUser(Long userId) {
+        User user = userRepository.findById(userId)
+                .orElseThrow(()-> new ResourceNotFoundException(""));
+        user.setIsActive(true);
+        userRepository.save(user);
     }
 }

@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.*;
 public class AccessController {
     private final AccessManageService accessManageService;
     private final ApplicationMessageResolver messageResolver;
+
     @GetMapping("permission/{role}")
     @ADMIN
     public ResponseEntity<?> getRolePermission(@PathVariable("role") String roleName) {

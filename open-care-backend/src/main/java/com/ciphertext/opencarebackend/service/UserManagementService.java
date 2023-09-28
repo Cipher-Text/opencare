@@ -11,7 +11,9 @@ public interface UserManagementService {
 
     void createUser(UserInfoDTO userInfo);
 
-    UserInfoDTO getUserInfo(String userId);
+    UserInfoDTO getUserInfo(Long userId);
 
-    //void activateUser()
+    void addRoleToUser(Long userId, String roleName);
+
+    void activateUser(Long userId);
 }
