@@ -55,7 +55,7 @@ public class User {
     @Column(name = "updated_at")
     private Instant updatedAt;
 
-    @Getter
+
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(
             name = "user_role",
