@@ -1,8 +1,10 @@
 package com.ciphertext.opencarebackend.controller;
 
+import com.ciphertext.opencarebackend.annotations.SecureAPI;
 import com.ciphertext.opencarebackend.model.dto.DoctorDTO;
 import com.ciphertext.opencarebackend.model.dto.HospitalTypeDTO;
 import com.ciphertext.opencarebackend.model.enums.HospitalType;
+import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,6 +16,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api")
+@SecureAPI
 public class EnumApiController {
 
     @GetMapping("/hospital-types")

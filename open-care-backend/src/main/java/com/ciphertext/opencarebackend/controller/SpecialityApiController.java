@@ -1,14 +1,15 @@
 package com.ciphertext.opencarebackend.controller;
 
+import com.ciphertext.opencarebackend.annotations.SecureAPI;
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.service.MedicalSpecialityService;
 import com.ciphertext.opencarebackend.model.entity.MedicalSpeciality;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
 import java.util.List;
 
 /**
@@ -16,6 +17,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/api/specialities")
+@SecureAPI
 public class SpecialityApiController {
     @Autowired
     MedicalSpecialityService service;
