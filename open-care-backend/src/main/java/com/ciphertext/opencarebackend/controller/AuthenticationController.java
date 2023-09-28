@@ -11,6 +11,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.AccessDeniedException;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -34,7 +35,7 @@ public class AuthenticationController {
     public ResponseEntity<LoginResponse> refreshToken(@Valid @RequestBody String refreshToken, HttpServletRequest request) {
         String authHeader = request.getHeader("Authorization");
         if (authHeader == null) {
-            throw new SecurityException(messageResolver.getMessage("auth.unauthorized"));
+            throw new AccessDeniedException(messageResolver.getMessage("auth.unauthorized"));
         }
         String token = authHeader.substring(7);
         LoginResponse loginResponse = authenticationService.createRefreshToken(refreshToken, token);
@@ -58,7 +59,7 @@ public class AuthenticationController {
     public ResponseEntity<?> logout(HttpServletRequest servletRequest) {
         String authHeader = servletRequest.getHeader("Authorization");
         if (authHeader == null) {
-            throw new SecurityException(messageResolver.getMessage("auth.unauthorized"));
+            throw new AccessDeniedException(messageResolver.getMessage("auth.unauthorized"));
         }
         String token = authHeader.substring(7);
         authenticationService.logout(token);

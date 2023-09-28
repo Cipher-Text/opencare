@@ -54,12 +54,21 @@ public class AccessManageServiceImpl implements AccessManageService {
     }
 
     @Override
-    public void removePermissionFromRole(String permissionName, String roleName) {
+    public void revokePermissionFromRole(String permissionName, String roleName) {
+        Permission permission = permissionRepository.findByName(permissionName)
+                .orElseThrow(()-> new ResourceNotFoundException(messageResolver.getMessage("permission.not.found")));
+        Role role = roleRepository.findByName(roleName)
+                .orElseThrow(() -> new ResourceNotFoundException(messageResolver.getMessage("role.not.found")));
+        role.removePermission(permission);
+        roleRepository.save(role);
+    }
+
+    @Override
+    public void deletePermission(String permissionName) {
         Permission permission = permissionRepository.findByName(permissionName)
                 .orElseThrow(()-> new ResourceNotFoundException(messageResolver.getMessage("permission.not.found")));
         if(!permission.getRoles().isEmpty()){
             String usedPermission = permission.getRoles().stream()
-                    .filter(e->!e.getPermissions().contains(permission))
                     .map(Role::getName)
                     .collect(Collectors.joining(","));
             if(!usedPermission.isEmpty()){
@@ -67,10 +76,7 @@ public class AccessManageServiceImpl implements AccessManageService {
             }
 
         }
-        Role role = roleRepository.findByName(roleName)
-                .orElseThrow(() -> new ResourceNotFoundException(messageResolver.getMessage("role.not.found")));
-        role.removePermission(permission);
-        roleRepository.save(role);
+        permissionRepository.delete(permission);
     }
 
 }

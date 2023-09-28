@@ -9,6 +9,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -46,9 +47,9 @@ public class SecurityFilter extends OncePerRequestFilter {
 
     private void validateToken(String jwt) {
         AuthenticationToken authToken = authenticationTokenRepository.findByToken(jwt)
-                .orElseThrow(() -> new SecurityException("token not found"));
-        if(authToken.getTokenExpiredAt().isAfter(LocalDateTime.now())) {
-            throw new SecurityException("token expired");
+                .orElseThrow(() -> new AccessDeniedException("token not found"));
+        if(authToken.getTokenExpiredAt().isBefore(LocalDateTime.now())) {
+            throw new AccessDeniedException("token expired");
         }
     }
 

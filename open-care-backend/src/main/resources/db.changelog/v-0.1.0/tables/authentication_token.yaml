@@ -16,7 +16,7 @@ databaseChangeLog:
                   constraints:
                     nullable: false
                   name: token
-                  type: varchar(100)
+                  type: varchar(1024)
               - column:
                   constraints:
                     nullable: false
