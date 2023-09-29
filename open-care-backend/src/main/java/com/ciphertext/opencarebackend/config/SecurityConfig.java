@@ -68,6 +68,15 @@ public class SecurityConfig {
                         "/swagger-ui/**",
                         "/actuator/**"
                 )
+                .requestMatchers(HttpMethod.GET,
+                        "/api/specialities/**",
+                        "/api/institutions/**",
+                        "/api/hospitals/**",
+                        "/api/doctors/**",
+                        "/api/districts/**",
+                        "/api/divisions/**",
+                        "/api/upazilas/**",
+                        "/api/hospital-types/**")
                 .requestMatchers(HttpMethod.POST, "/api/user-management/user");
     }
 }
