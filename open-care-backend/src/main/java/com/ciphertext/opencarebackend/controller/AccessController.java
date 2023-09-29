@@ -34,7 +34,7 @@ public class AccessController {
     @SUPERADMIN
     public ResponseEntity<?> addRolePermission(@PathVariable("role") String role, @PathVariable("permission") String permission) {
         accessManageService.addPermissionToRole(permission,role);
-        return ResponseEntity.ok("");
+        return ResponseEntity.ok("permission.add");
     }
 
     @DeleteMapping("permission/delete/{permission}")

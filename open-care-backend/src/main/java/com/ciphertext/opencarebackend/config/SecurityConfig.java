@@ -68,6 +68,7 @@ public class SecurityConfig {
                         "/swagger-ui/**",
                         "/actuator/**"
                 )
-                .requestMatchers(HttpMethod.POST, "/api/user-management/user");
+                .requestMatchers(HttpMethod.POST, "/api/user-management/user")
+                .requestMatchers(HttpMethod.GET, "/api/**");
     }
 }

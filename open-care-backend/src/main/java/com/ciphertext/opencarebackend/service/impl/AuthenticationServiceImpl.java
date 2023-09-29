@@ -67,7 +67,7 @@ public class AuthenticationServiceImpl implements AuthenticationService {
     @Override
     public void resetPassword(ResetPasswordRequestDTO resetPasswordRequestDTO) {
         PasswordResetToken passwordReset = passwordResetTokenRepository.findByOtpCode(resetPasswordRequestDTO.getToken())
-                .orElseThrow(()-> new ResourceNotFoundException("invalid otp!"));
+                .orElseThrow(()-> new ResourceNotFoundException(messageResolver.getMessage("otp.not.found")));
         User user = passwordReset.getUser();
         user.setPassword(encoder.encode(resetPasswordRequestDTO.getPassword()));
         passwordReset.setChangedStatus(true);
@@ -82,7 +82,7 @@ public class AuthenticationServiceImpl implements AuthenticationService {
         jwtTokenService.validateToken(refreshToken);
         String email = jwtTokenService.extractEmail(jwt);
         User user = userRepository.findByEmail(email)
-                .orElseThrow(() -> new RuntimeException("invalid email!"));
+                .orElseThrow(() -> new ResourceNotFoundException(messageResolver.getMessage("user.not.found")));
         return createTokenResponse(user);
     }
 

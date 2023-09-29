@@ -5,6 +5,7 @@ import com.ciphertext.opencarebackend.annotations.SUPERADMIN;
 import com.ciphertext.opencarebackend.annotations.SecureAPI;
 import com.ciphertext.opencarebackend.model.dto.UserInfoDTO;
 import com.ciphertext.opencarebackend.service.UserManagementService;
+import com.ciphertext.opencarebackend.service.message.ApplicationMessageResolver;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -16,10 +17,11 @@ import org.springframework.web.bind.annotation.*;
 @Tag(name = "User Management Controller")
 public class UserManagementController {
     private final UserManagementService userManagementService;
+    private final ApplicationMessageResolver messageResolver;
     @PostMapping("user")
     public ResponseEntity<?> createUser(@RequestBody UserInfoDTO userInfoDTO){
         userManagementService.createUser(userInfoDTO);
-        return ResponseEntity.ok("user created successfully");
+        return ResponseEntity.ok(messageResolver.getMessage("user.create"));
     }
 
     @GetMapping("user/{userId}")
@@ -39,14 +41,14 @@ public class UserManagementController {
     @SUPERADMIN
     public ResponseEntity<?> addRoleToUser(@PathVariable("userid") Long userId,@PathVariable("role") String role){
         userManagementService.addRoleToUser(userId,role);
-        return ResponseEntity.ok("");
+        return ResponseEntity.ok(messageResolver.getMessage("user.role.add"));
     }
     @PostMapping("user/activate/{userid}")
     @SecureAPI
     @ADMIN
     public ResponseEntity<?> activateUser(@PathVariable("userid") Long userId){
         userManagementService.activateUser(userId);
-        return ResponseEntity.ok("");
+        return ResponseEntity.ok(messageResolver.getMessage("user.activate"));
     }
 
 }
