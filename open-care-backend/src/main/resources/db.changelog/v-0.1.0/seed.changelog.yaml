@@ -63,3 +63,13 @@ databaseChangeLog:
             relativeToChangelogFile: true
             tableName: user_role
             quotchar: '"'
+        - loadData:
+            file: seeds/permission.csv
+            relativeToChangelogFile: true
+            tableName: permission
+            quotchar: '"'
+        - loadData:
+            file: seeds/role_permission.csv
+            relativeToChangelogFile: true
+            tableName: role_permission
+            quotchar: '"'
