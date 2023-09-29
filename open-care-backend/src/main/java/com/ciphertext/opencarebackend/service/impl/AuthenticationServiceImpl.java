@@ -13,7 +13,7 @@ import com.ciphertext.opencarebackend.repository.UserRepository;
 import com.ciphertext.opencarebackend.security.jwt.JWTTokenService;
 import com.ciphertext.opencarebackend.service.AuthenticationService;
 import com.ciphertext.opencarebackend.service.event.ForgetPasswordEvent;
-import com.ciphertext.opencarebackend.service.event.ForgetPasswordEventListener;
+import com.ciphertext.opencarebackend.service.event.listener.ForgetPasswordEventListener;
 import com.ciphertext.opencarebackend.service.message.ApplicationMessageResolver;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;

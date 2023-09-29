@@ -1,8 +1,9 @@
-package com.ciphertext.opencarebackend.service.event;
+package com.ciphertext.opencarebackend.service.event.listener;
 
 import com.ciphertext.opencarebackend.model.entity.PasswordResetToken;
 import com.ciphertext.opencarebackend.repository.PasswordResetTokenRepository;
 import com.ciphertext.opencarebackend.service.EmailService;
+import com.ciphertext.opencarebackend.service.event.ForgetPasswordEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationListener;

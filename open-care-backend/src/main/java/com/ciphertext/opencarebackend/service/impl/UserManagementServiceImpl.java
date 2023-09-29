@@ -12,6 +12,9 @@ import com.ciphertext.opencarebackend.repository.RoleRepository;
 import com.ciphertext.opencarebackend.repository.UserRepository;
 import com.ciphertext.opencarebackend.security.jwt.JWTTokenService;
 import com.ciphertext.opencarebackend.service.UserManagementService;
+import com.ciphertext.opencarebackend.service.event.UserActivationEvent;
+import com.ciphertext.opencarebackend.service.event.listener.UserActivationListener;
+import com.ciphertext.opencarebackend.service.message.ApplicationMessageResolver;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -32,6 +35,8 @@ public class UserManagementServiceImpl implements UserManagementService {
     private final UserRepository userRepository;
     private final JWTTokenService jwtTokenService;
     private final HttpServletRequest servletRequest;
+    private final ApplicationMessageResolver messageResolver;
+    private final UserActivationListener eventListener;
 
     @Override
     public List<RoleDTO> getUserRole() {
@@ -76,7 +81,7 @@ public class UserManagementServiceImpl implements UserManagementService {
     @Override
     public UserInfoDTO getUserInfo(Long userId) {
         User user = userRepository.findById(userId)
-                .orElseThrow(()-> new ResourceNotFoundException(""));
+                .orElseThrow(()-> new ResourceNotFoundException(messageResolver.getMessage("user.not.found")));
         UserInfoDTO userInfoDTO = new UserInfoDTO();
         userInfoDTO.setFullName(user.getUsername());
         userInfoDTO.setUserName(user.getUsername());
@@ -92,9 +97,9 @@ public class UserManagementServiceImpl implements UserManagementService {
     @Override
     public void addRoleToUser(Long userId, String roleName) {
         User user = userRepository.findById(userId)
-                .orElseThrow(()-> new ResourceNotFoundException(""));
+                .orElseThrow(()-> new ResourceNotFoundException(messageResolver.getMessage("user.not.found")));
         Role role = roleRepository.findByName(roleName)
-                        .orElseThrow(()-> new ResourceNotFoundException(""));
+                        .orElseThrow(()-> new ResourceNotFoundException(messageResolver.getMessage("role.not.found")));
         user.setIsActive(true);
         user.addRole(role);
         userRepository.save(user);
@@ -103,8 +108,9 @@ public class UserManagementServiceImpl implements UserManagementService {
     @Override
     public void activateUser(Long userId) {
         User user = userRepository.findById(userId)
-                .orElseThrow(()-> new ResourceNotFoundException(""));
+                .orElseThrow(()-> new ResourceNotFoundException(messageResolver.getMessage("user.not.found")));
         user.setIsActive(true);
         userRepository.save(user);
+        eventListener.onApplicationEvent(new UserActivationEvent(user));
     }
 }
