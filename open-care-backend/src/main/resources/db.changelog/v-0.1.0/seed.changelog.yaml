@@ -53,3 +53,13 @@ databaseChangeLog:
             relativeToChangelogFile: true
             tableName: hospital
             quotchar: '"'
+        - loadData:
+            file: seeds/user.csv
+            relativeToChangelogFile: true
+            tableName: user
+            quotchar: '"'
+        - loadData:
+            file: seeds/user_role.csv
+            relativeToChangelogFile: true
+            tableName: user_role
+            quotchar: '"'

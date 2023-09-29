@@ -30,9 +30,6 @@ databaseChangeLog:
                   name: date_of_birth
                   type: date
               - column:
-                  name: gender
-                  type: varchar(20)
-              - column:
                   name: address
                   type: varchar(512)
               - column:
