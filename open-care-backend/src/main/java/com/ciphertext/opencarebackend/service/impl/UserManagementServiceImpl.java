@@ -3,11 +3,7 @@ package com.ciphertext.opencarebackend.service.impl;
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.model.dto.RoleDTO;
 import com.ciphertext.opencarebackend.model.dto.UserInfoDTO;
-import com.ciphertext.opencarebackend.model.entity.Doctor;
-import com.ciphertext.opencarebackend.model.entity.Permission;
-import com.ciphertext.opencarebackend.model.entity.Role;
-import com.ciphertext.opencarebackend.model.entity.User;
-import com.ciphertext.opencarebackend.repository.DoctorRepository;
+import com.ciphertext.opencarebackend.model.entity.*;
 import com.ciphertext.opencarebackend.repository.RoleRepository;
 import com.ciphertext.opencarebackend.repository.UserRepository;
 import com.ciphertext.opencarebackend.security.jwt.JWTTokenService;
@@ -30,7 +26,6 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class UserManagementServiceImpl implements UserManagementService {
     private final RoleRepository roleRepository;
-    private final DoctorRepository doctorRepository;
     private final PasswordEncoder encoder;
     private final UserRepository userRepository;
     private final JWTTokenService jwtTokenService;
@@ -71,10 +66,20 @@ public class UserManagementServiceImpl implements UserManagementService {
             doctor.setEmail(userInfo.getEmail());
             doctor.setPhone(userInfo.getPhone());
             doctor.setIsActive(false);
-            doctorRepository.save(doctor);
-            //super admin/admin will activate the doctor through verification
             user.setIsActive(false);
+            doctor.setUser(user);
+            user.setDoctor(doctor);
         }
+        else {
+            UserProfile userProfile = new UserProfile();
+            userProfile.setName(userInfo.getFullName());
+            userProfile.setCreatedAt(LocalDateTime.now());
+            userProfile.setCreatedBy(1);
+            user.setIsActive(role.getName().equalsIgnoreCase("USER"));
+            userProfile.setUser(user);
+            user.setProfile(userProfile);
+        }
+
         userRepository.save(user);
     }
 

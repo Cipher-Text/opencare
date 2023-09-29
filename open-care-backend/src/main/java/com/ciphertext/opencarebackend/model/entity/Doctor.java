@@ -15,6 +15,7 @@ import java.time.LocalDate;
 @Entity
 @Table(name="doctor")
 public class Doctor {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -48,4 +49,8 @@ public class Doctor {
 
     @Column(name = "is_active")
     private Boolean isActive;
+
+    @OneToOne(cascade = CascadeType.MERGE, fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id")
+    private User user;
 }

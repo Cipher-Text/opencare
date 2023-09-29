@@ -69,6 +69,14 @@ public class SecurityConfig {
                         "/actuator/**"
                 )
                 .requestMatchers(HttpMethod.POST, "/api/user-management/user")
-                .requestMatchers(HttpMethod.GET, "/api/**");
+                .requestMatchers(HttpMethod.GET,
+                        "/api/specialities/**",
+                        "/api/institutions/**",
+                        "/api/hospitals/**",
+                        "/api/doctors/**",
+                        "/api/districts/**",
+                        "/api/divisions/**",
+                        "/api/upazilas/**",
+                        "/api/hospital-types/**");
     }
 }

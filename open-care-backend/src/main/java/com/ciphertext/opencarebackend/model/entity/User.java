@@ -55,6 +55,12 @@ public class User {
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
 
+    @OneToOne(mappedBy = "user", cascade = {CascadeType.PERSIST,CascadeType.MERGE})
+    private UserProfile profile;
+
+    @OneToOne(mappedBy = "user", cascade = {CascadeType.PERSIST,CascadeType.MERGE})
+    private Doctor doctor;
+
 
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(
