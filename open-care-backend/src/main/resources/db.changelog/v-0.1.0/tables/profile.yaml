@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: dc669747-93ff-4429-8daf-b5111cbd8715
+      id: 4fcebad2-3cf1-4ba1-83c5-6d7fcc9b4979
       author: sadman
       changes:
         - createTable:
@@ -9,35 +9,29 @@ databaseChangeLog:
                   constraints:
                     nullable: false
                     primaryKey: true
-                    primaryKeyName: doctor_id_pk
+                    primaryKeyName: profile_id_pk
                   name: id
                   type: bigserial
               - column:
+                  constraints:
+                    nullable: false
                   name: user_id
                   type: int8
               - column:
-                  constraints:
-                    nullable: false
                   name: name
                   type: varchar(100)
               - column:
                   name: bn_name
                   type: varchar(100)
               - column:
-                  name: bmdc_no
-                  type: varchar(100)
+                  name: gender
+                  type: varchar(20)
               - column:
-                  name: phone
-                  type: varchar(100)
-              - column:
-                  name: email
-                  type: varchar(100)
+                  name: date_of_birth
+                  type: date
               - column:
                   name: address
                   type: varchar(512)
-              - column:
-                  name: start_date
-                  type: date
               - column:
                   name: district_id
                   type: int4
@@ -48,22 +42,24 @@ databaseChangeLog:
                   name: union_id
                   type: int4
               - column:
-                  name: photo
-                  type: bytea
-              - column:
-                  name: description
-                  type: varchar(1000)
+                  name: created_by
+                  type: int8
               - column:
                   constraints:
                     nullable: false
-                  name: is_active
-                  type: boolean
-                  defaultValueBoolean: true
-            tableName: doctor
+                  name: created_at
+                  type: timestamp
+              - column:
+                  name: updated_by
+                  type: int8
+              - column:
+                  name: updated_at
+                  type: timestamp
+            tableName: profile
         - addForeignKeyConstraint:
             baseColumnNames: user_id
-            baseTableName: doctor
-            constraintName: doctor_fk_user
+            baseTableName: profile
+            constraintName: profile_fk_user
             deferrable: false
             initiallyDeferred: false
             onUpdate: CASCADE
@@ -72,8 +68,8 @@ databaseChangeLog:
             validate: true
         - addForeignKeyConstraint:
             baseColumnNames: district_id
-            baseTableName: doctor
-            constraintName: doctor_fk_district
+            baseTableName: profile
+            constraintName: profile_fk_district
             deferrable: false
             initiallyDeferred: false
             onUpdate: CASCADE
@@ -82,8 +78,8 @@ databaseChangeLog:
             validate: true
         - addForeignKeyConstraint:
             baseColumnNames: upazila_id
-            baseTableName: doctor
-            constraintName: doctor_fk_upazila
+            baseTableName: profile
+            constraintName: profile_fk_upazila
             deferrable: false
             initiallyDeferred: false
             onUpdate: CASCADE
@@ -92,8 +88,8 @@ databaseChangeLog:
             validate: true
         - addForeignKeyConstraint:
             baseColumnNames: union_id
-            baseTableName: doctor
-            constraintName: doctor_fk_union
+            baseTableName: profile
+            constraintName: profile_fk_union
             deferrable: false
             initiallyDeferred: false
             onUpdate: CASCADE
