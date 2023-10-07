@@ -10,16 +10,19 @@ export default function Hospitals() {
     const [currentPage, setCurrentPage] = useState(0);
     const [size, setSize] = useState(5);
     const [totalPages, setTotalPages] = useState(0);
+    const [districts, setDistricts] = useState([]);
+    const [hospitalType, setHospitalType] = useState('');
+    const [district, setDistrict] = useState('');
 
     const getHospitals = async () => {
         try {
-            // const queryParams = new URLSearchParams({
-            //     page: currentPage,
-            //     size: 5, 
-            //   }).toString();
-            // console.log("here", queryParams, `http://localhost:8080/api/hospitals?${queryParams}`);
+            const queryParams = new URLSearchParams({
+                districtId: district, 
+                page: currentPage,
+                size: size
+              });
 
-            const res = await fetch("http://localhost:8080/api/hospitals" + `?page=${currentPage}&size=${size}`);
+            const res = await fetch(`http://localhost:8080/api/hospitals?${queryParams.toString()}`);
             if (!res.ok) {
                 throw new Error("Network response was not ok");
             }
@@ -27,6 +30,19 @@ export default function Hospitals() {
         } catch (error) {
             console.error("Error fetching data:", error);
             return { hospitals: [] };
+        }
+    };
+
+    const getDistricts = async () => {
+        try {
+            const res = await fetch("http://localhost:8080/api/districts");
+            if (!res.ok) {
+                throw new Error("Network response was not ok");
+            }
+            return res.json();
+        } catch (error) {
+            console.error("Error fetching data:", error);
+            return [];
         }
     };
 
@@ -38,13 +54,29 @@ export default function Hospitals() {
         };
 
         fetchData();
-    }, [currentPage, size]);
+    }, [district, currentPage, size]);
+
+    useEffect(() => {
+        const fetchDistricts = async () => {
+            const data = await getDistricts();
+            setDistricts(data);
+        };
+
+        fetchDistricts();
+    }, []);
+    
     return (
         <div>
             <div className="mx-auto grid grid-cols-12 gap-4 bg-zinc-50 p-1">
 
                 <div className="col-span-12 rounded-lg p-16 sm:col-span-3">
-                    <SearchForm/>
+                <SearchForm
+                    districts={districts}
+                    districtId={district}
+                    hospitalType={hospitalType}
+                    setDistrict={setDistrict}
+                    setHospitalType={setHospitalType}
+                    onPageChange={setCurrentPage}/>
                 </div>
                 <div className="col-span-12 rounded-lg p-10 sm:col-span-9">
                     <table className="w-full border-collapse bg-white text-left text-sm text-gray-500">
