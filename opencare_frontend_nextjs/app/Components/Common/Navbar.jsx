@@ -29,7 +29,7 @@ export default function Navbar () {
                 <Link href="/" className={`mr-5 font-medium hover:text-white hover:bg-gray-500 p-2 ${pathname === '/' ? 'bg-black text-white' : 'bg-red'}`}>Home</Link>
                 <Link href="/hospitals" className={`mr-5 font-medium hover:text-white hover:bg-gray-500 p-2 ${pathname === '/hospitals' ? 'bg-black text-white' : ''}`}>Hospitals</Link>
                 <Link href="/doctors" className={`mr-5 font-medium hover:text-white hover:bg-gray-500 p-2 ${pathname === '/doctors' ? 'bg-black text-white' : ''}`}>Doctors</Link>
-                <Link href="/institutes" className={`font-medium hover:text-white hover:bg-gray-500 p-2 ${pathname === '/institutes' ? 'bg-black text-white' : ''}`}>Institutes</Link>
+                <Link href="/institutions" className={`font-medium hover:text-white hover:bg-gray-500 p-2 ${pathname === '/institutions' ? 'bg-black text-white' : ''}`}>Institutions</Link>
             </nav>
             <div className="items-center h-full">
                 <a href="#_" className="mr-5 font-medium hover:text-gray-900">Login</a>
