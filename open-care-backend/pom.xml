@@ -14,10 +14,10 @@
     <name>open-care-backend</name>
     <description>Open Care Backend</description>
     <properties>
-        <maven.version>3.5.1</maven.version>
+        <maven.version>3.8.1</maven.version>
         <java.version>17</java.version>
         <postgres.version>42.6.0</postgres.version>
-        <lombok.version>1.18.26</lombok.version>
+        <lombok.version>1.18.30</lombok.version>
         <lombok.mapstruct.version>0.2.0</lombok.mapstruct.version>
         <mapstruct.version>1.5.5.Final</mapstruct.version>
         <liquibase.version>4.22.0</liquibase.version>
@@ -107,13 +107,12 @@
 
     <build>
         <plugins>
-
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${project.parent.version}</version>
                 <configuration>
-                    <mainClass>com.ciphertext.OpenCareBackendApplication</mainClass>
+                    <mainClass>com.ciphertext.opencarebackend.OpenCareBackendApplication</mainClass>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
