@@ -2,6 +2,10 @@ package com.ciphertext.opencarebackend.service.impl;
 
 import com.ciphertext.opencarebackend.model.dto.HospitalDTO;
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
+import com.ciphertext.opencarebackend.model.enums.HospitalType;
+import com.ciphertext.opencarebackend.model.enums.OrganizationType;
+import com.ciphertext.opencarebackend.model.filter.HospitalFilter;
+import com.ciphertext.opencarebackend.repository.specification.Filter;
 import com.ciphertext.opencarebackend.service.HospitalService;
 import com.ciphertext.opencarebackend.model.mappers.HospitalMapper;
 import com.ciphertext.opencarebackend.model.entity.Hospital;
@@ -9,12 +13,20 @@ import com.ciphertext.opencarebackend.repository.HospitalRepository;
 import lombok.RequiredArgsConstructor;
 import org.mapstruct.factory.Mappers;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.ciphertext.opencarebackend.repository.specification.QueryFilterUtils.generateIndividualFilter;
+import static com.ciphertext.opencarebackend.repository.specification.QueryFilterUtils.generateJoinTableFilter;
+import static com.ciphertext.opencarebackend.repository.specification.QueryOperator.*;
+import static com.ciphertext.opencarebackend.repository.specification.SpecificationBuilder.createSpecification;
+import static org.springframework.data.jpa.domain.Specification.where;
 
 /**
  * @author Sadman
@@ -43,10 +55,24 @@ public class HospitalServiceImpl implements HospitalService {
     }
 
     @Override
-    public Page<HospitalDTO> getPaginatedDataWithFilters(String name, String bnName, Integer numberOfBed,
-                                                         Integer districtId, Pageable pagingSort) {
-        return hospitalRepository.getFilteredHospitals(name, bnName, numberOfBed, districtId, pagingSort)
-                .map(hospitalMapper::hospitalToHospitalDTO);
+    public Page<HospitalDTO> getPaginatedDataWithFilters(HospitalFilter hospitalFilter, Pageable pagingSort) {
+
+
+        List<Filter> filterList = generateQueryFilters(hospitalFilter);
+
+        Specification<Hospital> specification = where(null);
+        if(!filterList.isEmpty()) {
+            specification = where(createSpecification(filterList.remove(0)));
+            for (Filter input : filterList) {
+                specification = specification.and(createSpecification(input));
+            }
+        }
+
+        Page<Hospital> hospitalPage = hospitalRepository.findAll(specification, pagingSort);
+
+
+
+        return hospitalPage.map(hospitalMapper::hospitalToHospitalDTO);
     }
 
     @Override
@@ -82,5 +108,34 @@ public class HospitalServiceImpl implements HospitalService {
         } else return ResponseEntity.ok().body("Hospital is Deleted Successfully");
     }
 
+    public List<Filter> generateQueryFilters(HospitalFilter hospitalFilter) {
 
+        List<Filter> filters = new ArrayList<>();
+
+        if (hospitalFilter.getName() != null)
+            filters.add(generateIndividualFilter("name", LIKE, hospitalFilter.getName()));
+
+        if (hospitalFilter.getBnName() != null)
+            filters.add(generateIndividualFilter("bnName", LIKE, hospitalFilter.getBnName()));
+
+        if (hospitalFilter.getBnName() != null)
+            filters.add(generateIndividualFilter("numberOfBed", EQUALS, hospitalFilter.getNumberOfBed()));
+
+        if (hospitalFilter.getDistrictId() != null)
+            filters.add(generateJoinTableFilter("id", "district", JOIN, hospitalFilter.getDistrictId()));
+
+        if (hospitalFilter.getUpazilaId() != null)
+            filters.add(generateJoinTableFilter("id", "upazila", JOIN, hospitalFilter.getUpazilaId()));
+
+        if (hospitalFilter.getUnionId() != null)
+            filters.add(generateJoinTableFilter("id", "union", JOIN, hospitalFilter.getUnionId()));
+
+        if (hospitalFilter.getHospitalType() != null)
+            filters.add(generateIndividualFilter("hospitalType", EQUALS, HospitalType.valueOf(hospitalFilter.getHospitalType())));
+
+        if (hospitalFilter.getOrganizationType() != null)
+            filters.add(generateIndividualFilter("organizationType", EQUALS, OrganizationType.valueOf(hospitalFilter.getOrganizationType())));
+
+        return filters;
+    }
 }

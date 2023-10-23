@@ -1,33 +1,39 @@
 package com.ciphertext.opencarebackend.model.enums;
 
 public enum HospitalType {
-    GENERAL("সাধারণ"),
-    CANCER("ক্যান্সার"),
-    CHEST_DISEASE("বক্ষব্যাধি"),
-    COLLEGE("কলেজ"),
-    COMMUNITY_CLINIC("ইউনিয়ন সাব সেন্টার"),
-    DENTAL("ডেন্টাল"),
-    DISTRICT("জেলা"),
-    EYE("চোখ"),
-    INFECTIOUS_DISEASE("সংক্রামক ব্যাধি"),
-    KIDNEY("কিডনি"),
-    LEPROSY("কুষ্ঠ"),
-    MENTAL("মানসিক"),
-    TUBERCULOSIS("যক্ষ্মা"),
-    MOTHER_AND_CHILD("মা ও শিশু"),
-    SPECIALIZED("বিশেষায়িত"),
-    TRAUMA("ট্রমা"),
-    UNIVERSITY("বিশ্ববিদ্যালয়"),
-    UPAZILA("উপজেলা"),
-    UNION_SUBCENTER("ইউনিয়ন সাব সেন্টার");
+    GENERAL("সাধারণ", "General"),
+    CANCER("ক্যান্সার", "Cancer"),
+    CHEST_DISEASE("বক্ষব্যাধি", "Chest Disease"),
+    COLLEGE("কলেজ", "College"),
+    COMMUNITY_CLINIC("ইউনিয়ন সাব সেন্টার", "Community Clinic"),
+    DENTAL("ডেন্টাল", "Dental"),
+    DISTRICT("জেলা", "District"),
+    EYE("চোখ", "Eye"),
+    INFECTIOUS_DISEASE("সংক্রামক ব্যাধি", "Infectious Disease"),
+    KIDNEY("কিডনি", "Kidney"),
+    LEPROSY("কুষ্ঠ", "Leprosy"),
+    MENTAL("মানসিক", "Mental"),
+    TUBERCULOSIS("যক্ষ্মা", "Tuberculosis"),
+    MOTHER_AND_CHILD("মা ও শিশু", "Mother And Child"),
+    SPECIALIZED("বিশেষায়িত", "Specialized"),
+    TRAUMA("ট্রমা", "Trauma"),
+    UNIVERSITY("বিশ্ববিদ্যালয়", "University"),
+    UPAZILA("উপজেলা", "Upazila"),
+    UNION_SUBCENTER("ইউনিয়ন সাব সেন্টার", "Union Subcenter");
 
     private final String benglaName;
+    private final String englishName;
 
-    HospitalType(String benglaName) {
+    HospitalType(String benglaName, String englishName) {
         this.benglaName = benglaName;
+        this.englishName = englishName;
     }
 
     public String getBenglaName() {
         return benglaName;
+    }
+
+    public String getEnglishName() {
+        return englishName;
     }
 }
