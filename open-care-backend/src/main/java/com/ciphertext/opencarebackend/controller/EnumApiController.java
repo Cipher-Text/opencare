@@ -3,7 +3,9 @@ package com.ciphertext.opencarebackend.controller;
 import com.ciphertext.opencarebackend.annotations.SecureAPI;
 import com.ciphertext.opencarebackend.model.dto.DoctorDTO;
 import com.ciphertext.opencarebackend.model.dto.HospitalTypeDTO;
+import com.ciphertext.opencarebackend.model.dto.OrganizationTypeDTO;
 import com.ciphertext.opencarebackend.model.enums.HospitalType;
+import com.ciphertext.opencarebackend.model.enums.OrganizationType;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,6 +27,16 @@ public class EnumApiController {
                 .map(hospitalType -> HospitalTypeDTO.builder()
                         .name(hospitalType.name())
                         .bnName(hospitalType.getBenglaName())
+                        .build())
+                .collect(Collectors.toList());
+    }
+
+    @GetMapping("/organization-types")
+    public List<OrganizationTypeDTO> getAllOrganizationTypes() {
+        return Arrays.stream(OrganizationType.values())
+                .map(organizationType -> OrganizationTypeDTO.builder()
+                        .name(organizationType.name())
+                        .bnName(organizationType.getBenglaName())
                         .build())
                 .collect(Collectors.toList());
     }
