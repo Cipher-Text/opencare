@@ -31,7 +31,7 @@ class DoctorWorkplaceServiceImplTest {
     @Test
     @DisplayName("Should throw a ResourceNotFoundException when the given id does not exist")
     void getDoctorWorkplaceByIdWhenIdDoesNotExistThenThrowException() {
-        int id = 1;
+        long id = 1;
         when(doctorWorkplaceRepository.findById(id)).thenReturn(Optional.empty());
 
         assertThrows(ResourceNotFoundException.class, () -> {
@@ -44,7 +44,7 @@ class DoctorWorkplaceServiceImplTest {
     @Test
     @DisplayName("Should return the doctor's workplace when the given id exists")
     void getDoctorWorkplaceByIdWhenIdExists() {
-        int id = 1;
+        long id = 1;
         DoctorWorkplace doctorWorkplace = new DoctorWorkplace();
         doctorWorkplace.setId(id);
         when(doctorWorkplaceRepository.findById(id)).thenReturn(Optional.of(doctorWorkplace));
