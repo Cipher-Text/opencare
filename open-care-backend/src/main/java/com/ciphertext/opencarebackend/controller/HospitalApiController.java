@@ -8,6 +8,7 @@ import com.ciphertext.opencarebackend.service.HospitalService;
 import com.ciphertext.opencarebackend.model.entity.Hospital;
 import com.ciphertext.opencarebackend.repository.HospitalRepository;
 import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -26,12 +27,10 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/hospitals")
 @SecureAPI
+@RequiredArgsConstructor
 public class HospitalApiController {
-    @Autowired
-    HospitalService service;
 
-    @Autowired
-    HospitalRepository hospitalRepository;
+    private final HospitalService service;
 
     @GetMapping("")
     public ResponseEntity<Map<String, Object>> getAllHospitalsPage(

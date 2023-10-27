@@ -42,21 +42,11 @@ public class HospitalServiceImpl implements HospitalService {
     @Override
     public List<HospitalDTO> getAllHospitals() {
         List<Hospital> hospitals = hospitalRepository.findAll();
-        List<HospitalDTO> hospitalDTOS= new ArrayList<>();
-        for(Hospital hospital: hospitals){
-            HospitalDTO hospitalDTO = new HospitalDTO();
-            hospitalDTO.setId(hospital.getId());
-            hospitalDTO.setName(hospital.getName());
-            hospitalDTO.setDistrict(hospital.getDistrict());
-            hospitalDTO.setNumberOfBed(hospital.getNumberOfBed());
-            hospitalDTOS.add(hospitalDTO);
-        }
-        return hospitalDTOS;
+        return hospitalMapper.entityToDto(hospitals);
     }
 
     @Override
     public Page<HospitalDTO> getPaginatedDataWithFilters(HospitalFilter hospitalFilter, Pageable pagingSort) {
-
 
         List<Filter> filterList = generateQueryFilters(hospitalFilter);
 
@@ -70,9 +60,7 @@ public class HospitalServiceImpl implements HospitalService {
 
         Page<Hospital> hospitalPage = hospitalRepository.findAll(specification, pagingSort);
 
-
-
-        return hospitalPage.map(hospitalMapper::hospitalToHospitalDTO);
+        return hospitalPage.map(hospitalMapper::entityToDto);
     }
 
     @Override
