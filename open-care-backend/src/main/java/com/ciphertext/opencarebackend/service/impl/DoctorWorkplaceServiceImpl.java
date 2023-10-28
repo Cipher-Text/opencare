@@ -24,7 +24,7 @@ public class DoctorWorkplaceServiceImpl implements DoctorWorkplaceService {
     }
 
     @Override
-    public DoctorWorkplace getDoctorWorkplaceById(int id) throws ResourceNotFoundException {
+    public DoctorWorkplace getDoctorWorkplaceById(Long id) throws ResourceNotFoundException {
         return doctorWorkplaceRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Not found DoctorWorkplace with id = " + id));
     }
 }

@@ -68,7 +68,6 @@ public class UserManagementServiceImpl implements UserManagementService {
             doctor.setIsActive(false);
             user.setIsActive(false);
             doctor.setUser(user);
-            user.setDoctor(doctor);
         }
         else {
             UserProfile userProfile = new UserProfile();

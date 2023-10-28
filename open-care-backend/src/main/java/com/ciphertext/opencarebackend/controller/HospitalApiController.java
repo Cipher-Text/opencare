@@ -2,10 +2,13 @@ package com.ciphertext.opencarebackend.controller;
 
 import com.ciphertext.opencarebackend.annotations.SecureAPI;
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
+import com.ciphertext.opencarebackend.model.dto.HospitalDTO;
+import com.ciphertext.opencarebackend.model.filter.HospitalFilter;
 import com.ciphertext.opencarebackend.service.HospitalService;
 import com.ciphertext.opencarebackend.model.entity.Hospital;
 import com.ciphertext.opencarebackend.repository.HospitalRepository;
 import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -24,12 +27,10 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/hospitals")
 @SecureAPI
+@RequiredArgsConstructor
 public class HospitalApiController {
-    @Autowired
-    HospitalService service;
 
-    @Autowired
-    HospitalRepository hospitalRepository;
+    private final HospitalService service;
 
     @GetMapping("")
     public ResponseEntity<Map<String, Object>> getAllHospitalsPage(
@@ -37,10 +38,24 @@ public class HospitalApiController {
             @RequestParam(required = false) String bnName,
             @RequestParam(required = false) Integer numberOfBed,
             @RequestParam(required = false) Integer districtId,
+            @RequestParam(required = false) Integer upazillaId,
+            @RequestParam(required = false) Integer unionId,
+            @RequestParam(required = false) String hospitalType,
+            @RequestParam(required = false) String organizationType,
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "5") int size) {
         Pageable pagingSort = PageRequest.of(page, size);
-        Page<Hospital> pageHospitals = hospitalRepository.getFilteredHospitals(name, bnName, numberOfBed, districtId, pagingSort);
+        HospitalFilter hospitalFilter = HospitalFilter.builder()
+                .name(name)
+                .bnName(bnName)
+                .numberOfBed(numberOfBed)
+                .districtId(districtId)
+                .upazilaId(upazillaId)
+                .unionId(unionId)
+                .hospitalType(hospitalType)
+                .organizationType(organizationType)
+                .build();
+        Page<HospitalDTO> pageHospitals = service.getPaginatedDataWithFilters(hospitalFilter, pagingSort);
 
         Map<String, Object> response = new HashMap<>();
         response.put("hospitals", pageHospitals.getContent());

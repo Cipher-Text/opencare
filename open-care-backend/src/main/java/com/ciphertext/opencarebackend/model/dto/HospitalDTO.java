@@ -14,7 +14,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class HospitalDTO {
-    private int id;
+    private Integer id;
     private String name;
     private String bnName;
     private Integer numberOfBed;

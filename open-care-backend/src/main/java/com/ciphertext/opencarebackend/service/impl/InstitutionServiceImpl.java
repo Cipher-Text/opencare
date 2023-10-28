@@ -39,7 +39,7 @@ public class InstitutionServiceImpl implements InstitutionService {
     public Page<InstitutionDTO> getPaginatedDataWithFilters(String name, String bnName, Integer enroll,
                                                             Integer districtId, Pageable pagingSort) {
         return institutionRepository.getFilteredInstitutions(name, bnName, enroll, districtId, pagingSort)
-                .map(institutionMapper::institutionToInstitutionDTO);
+                .map(institutionMapper::entityToDto);
     }
 
 }
