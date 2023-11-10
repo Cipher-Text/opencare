@@ -1,18 +1,18 @@
 name,bn_name,number_of_bed,union_id,upazila_id,district_id,organization_type,hospital_type,url,lat,lon
-Dhaka Medical College Hospital,ঢাকা মেডিকেল কলেজ হাসপাতাল,1700,null,null,47,GOVERNMENT,COLLEGE,null,null,null
-Chittagong Medical College Hospital,চট্টগ্রাম মেডিকেল কলেজ হাসপাতাল,1010,null,null,8,GOVERNMENT,COLLEGE,null,null,null
-MAG Osmani Medical College Hospital,মাজ ওসমানী মেডিকেল কলেজ হাসপাতাল,900,null,null,36,GOVERNMENT,COLLEGE,null,null,null
-Mymensingh Medical College Hospital,ময়মনসিংহ মেডিকেল কলেজ হাসপাতাল,800,null,null,62,GOVERNMENT,COLLEGE,null,null,null
-Sher-e-Bangla Medical College Hospital,শেরে বাংলা মেডিকেল কলেজ হাসপাতাল,600,null,null,33,GOVERNMENT,COLLEGE,null,null,null
-Sir Salimullh Medical College Hospital,সীর সালিমুল্লা মেডিকেল কলেজ হাসপাতাল,600,null,null,47,GOVERNMENT,COLLEGE,null,null,null
-Rajshahi Medical College Hospital,রাজশাহী মেডিকেল কলেজ হাসপাতাল,550,null,null,15,GOVERNMENT,COLLEGE,null,null,null
-Rangpur Medical College Hospital,রংপুর মেডিকেল কলেজ হাসপাতাল,1000,null,null,59,GOVERNMENT,COLLEGE,null,null,null
-Bogra Medical College Hospital,বগুড়া মেডিকেল কলেজ হাসপাতাল,500,null,null,14,GOVERNMENT,COLLEGE,null,null,null
-Shahid Sohorawardi medical college & hospital,শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ এবং হাসপাতাল,375,null,null,47,GOVERNMENT,COLLEGE,null,null,null
-Comilla Medical College Hospital,কুমিল্লা মেডিকেল কলেজ হাসপাতাল,500,null,null,1,GOVERNMENT,COLLEGE,null,null,null
-Faridpur Medical College Hospital,ফরিদপুর মেডিকেল কলেজ হাসপাতাল,250,null,null,52,GOVERNMENT,COLLEGE,null,null,null
-Khulna Medical College Hospital,খুলনা মেডিকেল কলেজ হাসপাতাল,500,null,null,27,GOVERNMENT,COLLEGE,null,null,null
-Dinajpur Medical College Hospital,দিনাজপুর মেডিকেল কলেজ হাসপাতাল,250,null,null,54,GOVERNMENT,COLLEGE,null,null,null
+Dhaka Medical College Hospital,ঢাকা মেডিকেল কলেজ হাসপাতাল,1700,null,null,47,GOVERNMENT,COLLEGE,https://dmch.gov.bd/,23.72611495235723,90.39758820237896
+Chittagong Medical College Hospital,চট্টগ্রাম মেডিকেল কলেজ হাসপাতাল,1313,null,null,8,GOVERNMENT,COLLEGE,https://cmch.gov.bd/,22.359314437003892,91.8308167818369
+MAG Osmani Medical College Hospital,এম.এ.জি ওসমানী মেডিকেল কলেজ হাসপাতাল,900,null,null,36,GOVERNMENT,COLLEGE,http://www.somch.gov.bd/hospital/index/bn/,24.905237236477394,91.85508358788452
+Mymensingh Medical College Hospital,ময়মনসিংহ মেডিকেল কলেজ হাসপাতাল,1000,null,null,62,GOVERNMENT,COLLEGE,https://medicalcollege.mymensingh.gov.bd/,24.743488485758423,90.4109981699105
+Sher-e-Bangla Medical College Hospital,শেরে বাংলা মেডিকেল কলেজ হাসপাতাল,600,null,null,33,GOVERNMENT,COLLEGE,https://sbmc.portal.gov.bd/,22.686579350381773,90.36150951067219
+Sir Salimullh Medical College Hospital,স্যার সলিমুল্লাহ মেডিকেল কলেজ হাসপাতাল,600,null,null,47,GOVERNMENT,COLLEGE,https://ssmcmh.gov.bd/,null,null
+Rajshahi Medical College Hospital,রাজশাহী মেডিকেল কলেজ হাসপাতাল,550,null,null,15,GOVERNMENT,COLLEGE,https://rmch.gov.bd/,null,null
+Rangpur Medical College Hospital,রংপুর মেডিকেল কলেজ হাসপাতাল,1000,null,null,59,GOVERNMENT,COLLEGE,https://mch.rangpur.gov.bd/,null,null
+Bogra Medical College Hospital,শহীদ জিয়াউর রহমান মেডিকেল কলেজ হাসপাতাল,500,null,null,14,GOVERNMENT,COLLEGE,https://szrmch.portal.gov.bd/,null,null
+Shahid Sohorawardi medical college & hospital,শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ হাসপাতাল,375,null,null,47,GOVERNMENT,COLLEGE,https://www.shsmc.gov.bd/,null,null
+Comilla Medical College Hospital,কুমিল্লা মেডিকেল কলেজ হাসপাতাল,500,null,null,1,GOVERNMENT,COLLEGE,https://comch.gov.bd/,null,null
+Faridpur Medical College Hospital,বঙ্গবন্ধু শেখ মুজিব মেডিকেল কলেজ হাসপাতাল,250,null,null,52,GOVERNMENT,COLLEGE,https://bsmmc.edu.bd/,null,null
+Khulna Medical College Hospital,খুলনা মেডিকেল কলেজ হাসপাতাল,500,null,null,27,GOVERNMENT,COLLEGE,https://kmc.gov.bd/,null,null
+Dinajpur Medical College Hospital,এম আব্দুর রহিম মেডিকেল কলেজ হাসপাতাল,250,null,null,54,GOVERNMENT,COLLEGE,https://www.marmch.gov.bd/,null,null
 Bagerhat Sadar hospital,বাগেরহাট সদর হাসপাতাল,100,null,null,28,GOVERNMENT,DISTRICT,null,null,null
 Bandarban Sadar hospital,বান্দরবান সদর হাসপাতাল,100,null,null,11,GOVERNMENT,DISTRICT,null,null,null
 Barguna Sadar hospital,বরগুনা সদর হাসপাতাল,100,null,null,35,GOVERNMENT,DISTRICT,null,null,null
@@ -1903,8 +1903,8 @@ National Institute of Neurosciences & Hospital,ন্যাশনাল ইন�
 Maternal and Child Health Training Institute,মাতৃসদন ও শিশু স্বাস্থ্য প্রশিক্ষণ প্রতিষ্ঠান,173,null,null,47,GOVERNMENT,MOTHER_AND_CHILD,https://mchti.gov.bd/,23.72463762,90.3878584
 Dhaka Shishu Hospital,ঢাকা শিশু হাসপাতাল,650,null,null,47,GOVERNMENT,MOTHER_AND_CHILD,http://dsh.org.bd/,23.77315117,90.37008805
 BIRDEM General Hospital,বারডেম জেনারেল হাসপাতাল,600,null,null,47,GOVERNMENT,SPECIALIZED,https://www.birdembd.org/,23.73891638,90.39648144
-1 Digital Diagnostic Center,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
-A H Memorial Hospital Limited,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
+Digital Diagnostic Center,ডিজিটাল ডায়াগনস্টিক সেন্টার,0,null,492,1,PRIVATE,GENERAL,null,null,null
+A H Memorial Hospital Limited,এ এইচ মেমোরিয়াল হাসপাতাল লিমিটেড,0,null,320,47,PRIVATE,GENERAL,null,null,null
 A R Clinic & Pathology,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
 A R DIAGNOSTIC CENTRE,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
 A. Gafur Memorial Hospital pathology Section(P.V.T),null,0,null,492,1,PRIVATE,GENERAL,null,null,null
@@ -1912,10 +1912,11 @@ A. HAMID MEMORIAL (PVT) HOSPITAL & DIAGNOSTIC,null,0,null,492,1,PRIVATE,GENERAL,
 A. Rob Diagnostic Center,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
 A.K.Al-Shefa Hospital & Diagnostic Centre,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
 A.Rahman Medical Center,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
-Aalok Healthcare Ltd,null,0,null,492,1,PRIVATE,GENERAL,https://www.aalokhealthcare.com/,null,null
-Aalok Healthcare Ltd (Mirpur-1),null,0,null,492,1,PRIVATE,GENERAL,https://www.aalokhealthcare.com/,null,null
-Aalok Healthcare Ltd (Pallabi),null,0,null,492,1,PRIVATE,GENERAL,https://www.aalokhealthcare.com/,null,null
-Aalok Healthcare Ltd. (Ghatail),null,0,null,492,1,PRIVATE,GENERAL,https://www.aalokhealthcare.com/,null,null
+Aalok Healthcare Ltd,আলোক হেলথকেয়ার লিমিটেড,0,null,492,1,PRIVATE,GENERAL,https://www.aalokhealthcare.com/,23.81006694322751,90.3676111679814
+Aalok Healthcare Ltd (Mirpur-1),আলোক হেলথকেয়ার লিমিটেড (মিরপুর-১),0,null,492,1,PRIVATE,GENERAL,https://www.aalokhealthcare.com/,23.794780360667286,90.35341526256161
+Aalok Healthcare Ltd (Pallabi),আলোক হেলথকেয়ার লিমিটেড (পল্লবী),0,null,492,1,PRIVATE,GENERAL,https://www.aalokhealthcare.com/,23.82364484270912,90.36407033861856
+Aalok Healthcare Ltd (Kochukhet),আলোক হেলথ কেয়ার লিমিটেড (কচুক্ষেত),0,null,492,1,PRIVATE,GENERAL,https://www.aalokhealthcare.com/,23.793279251944888,90.38825003861787
+Aalok Healthcare Ltd. (Ghatail),আলোক হেলথকেয়ার লিমিটেড (ঘাটাইল),0,null,492,1,PRIVATE,GENERAL,https://www.aalokhealthcare.com/,24.487478061832803,89.97399163384824
 AB SIDDIQUE DIAGNOSTIC CENTER & DOCTORS CHAMBER,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
 ABC Diagnostic Center,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
 ABC Digonostic Centre,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
@@ -2047,7 +2048,8 @@ AP Diagnostic Centre,null,0,null,492,6,PRIVATE,GENERAL,null,null,null
 Apex Diagnostic Service,null,0,null,492,6,PRIVATE,GENERAL,null,null,null
 Apollo Diagnostic & Consultation Center,null,0,null,492,6,PRIVATE,GENERAL,null,null,null
 APOLLO DIAGNOSTIC CENTRE,null,0,null,492,6,PRIVATE,GENERAL,null,null,null
-APOLLO HOSPITALS DHAKA,null,425,null,492,6,PRIVATE,GENERAL,https://www.evercarebd.com/dhaka/,23.81017161,90.43107905
+Evercare Hospital Dhaka,null,425,null,492,47,PRIVATE,GENERAL,https://www.evercarebd.com/dhaka/,23.810502354649486,90.43130043861824
+Evercare Hospital Chattogram,null,425,null,492,8,PRIVATE,GENERAL,https://www.evercarebd.com/chattogram/,23.810502354649486,90.43130043861824
 APOLLO PLUS HOSPITAL,null,0,null,492,6,PRIVATE,GENERAL,https://medicare24bd.com/,null,null
 Appolo Medical Servises,null,0,null,492,6,PRIVATE,GENERAL,null,null,null
 ARABIAN MEDICAL CENTRE,null,0,null,492,6,PRIVATE,GENERAL,null,null,null
