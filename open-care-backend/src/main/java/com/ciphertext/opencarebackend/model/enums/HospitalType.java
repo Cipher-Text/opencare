@@ -21,16 +21,16 @@ public enum HospitalType {
     UPAZILA("উপজেলা", "Upazila"),
     UNION_SUBCENTER("ইউনিয়ন সাব সেন্টার", "Union Subcenter");
 
-    private final String benglaName;
+    private final String banglaName;
     private final String englishName;
 
-    HospitalType(String benglaName, String englishName) {
-        this.benglaName = benglaName;
+    HospitalType(String banglaName, String englishName) {
+        this.banglaName = banglaName;
         this.englishName = englishName;
     }
 
-    public String getBenglaName() {
-        return benglaName;
+    public String getBanglaName() {
+        return banglaName;
     }
 
     public String getEnglishName() {

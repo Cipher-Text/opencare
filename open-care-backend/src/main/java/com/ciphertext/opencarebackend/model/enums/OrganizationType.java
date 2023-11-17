@@ -6,12 +6,12 @@ public enum OrganizationType {
     PRIVATE("Private", "বেসরকারি", "Private Description");
 
     private final String name;
-    private final String benglaName;
+    private final String banglaName;
     private final String description;
 
-    OrganizationType(String name, String benglaName, String description) {
+    OrganizationType(String name, String banglaName, String description) {
         this.name = name;
-        this.benglaName = benglaName;
+        this.banglaName = banglaName;
         this.description = description;
     }
 
@@ -19,8 +19,8 @@ public enum OrganizationType {
         return name;
     }
 
-    public String getBenglaName() {
-        return benglaName;
+    public String getBanglaName() {
+        return banglaName;
     }
 
     public String getDescription() {
