@@ -5,13 +5,13 @@ public enum Gender {
     FEMALE("মহিলা"),
     OTHERS("অন্যান্য");
 
-    private final String benglaName;
+    private final String banglaName;
 
-    Gender(String benglaName) {
-        this.benglaName = benglaName;
+    Gender(String banglaName) {
+        this.banglaName = banglaName;
     }
 
-    public String getBenglaName() {
-        return benglaName;
+    public String getBanglaName() {
+        return banglaName;
     }
 }

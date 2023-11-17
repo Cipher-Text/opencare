@@ -9,16 +9,16 @@ public enum DaysOfWeek {
     FRIDAY("শুক্রবার", "fri"),
     SATURDAY("শনিবার", "sat");
 
-    private final String benglaName;
+    private final String banglaName;
     private final String abbreviatedName;
 
-    private DaysOfWeek(String benglaName, String abbreviatedName) {
-        this.benglaName = benglaName;
+    private DaysOfWeek(String banglaName, String abbreviatedName) {
+        this.banglaName = banglaName;
         this.abbreviatedName = abbreviatedName;
     }
 
-    public String getBenglaName() {
-        return benglaName;
+    public String getBanglaName() {
+        return banglaName;
     }
 
     public String getAbbreviatedName() {
