@@ -1886,7 +1886,7 @@ Sheikh Hasina National Institute of Burn and Plastic Surgery,শেখ হাস
 100 bed Burn Unit at DMCH,১০০ শয্যাবিশিষ্ট বার্ন ইউনিট ঢামেক ,100,null,null,47,GOVERNMENT,SPECIALIZED,null,null,null
 Sheikh Fazilatunnessa Mujib Eye Hospital And Training Institute,শেখ ফাজিলাতুন্নেসা মুজিব চক্ষু হাসপাতাল এবং প্রশিক্ষণ ইনস্টিটিউট,0,null,null,47,GOVERNMENT,SPECIALIZED,https://sheikh-fazilatunesa-mujib-eye-hospital.business.site/,22.94943136,89.82071524
 Shaheed Sheikh Abu Naser Specialized Hospital,শহীদ শেখ আবু নাসের বিশেষজ্ঞ হাসপাতাল,250,null,null,47,GOVERNMENT,MENTAL,https://ssansh.gov.bd/,22.85295133,89.52940477
-Pabna Mental Hospital,পাবনা মানসিক হাসপাতাল,500,null,null,13,GOVERNMENT,SPECIALIZED,null,24.00220751,89.20612954
+Pabna Mental Hospital,পাবনা মানসিক হাসপাতাল,500,null,null,13,GOVERNMENT,SPECIALIZED,http://mentalhospital.pabna.gov.bd/,24.00220751,89.20612954
 Bangladesh Institute of Tropical and Infectious Disease,বাংলাদেশ ট্রপিকাল এবং সংক্রামণামূলক রোগ ইনস্টিটিউট,0,null,null,47,GOVERNMENT,SPECIALIZED,https://bitid.gov.bd/,22.39279462,91.7584549
 National Institute Of Cancer Research And Hospital,জাতীয় ক্যান্সার গবেষণা ইনস্টিটিউট ও হাসপাতাল,300,null,null,47,GOVERNMENT,SPECIALIZED,https://nicrh.gov.bd/,23.77848001,90.40965075
 National Institute of Diseases of the Chest & Hospital,জাতীয় বক্ষব্যাধি ইনস্টিটিউট ও হাসপাতাল,170,null,null,47,GOVERNMENT,SPECIALIZED,http://www.nidch.gov.bd/,23.77730114,90.41009488
@@ -1926,8 +1926,12 @@ Abdullah Diagnostic Centre,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
 ABDULLAH DIAGNOSTIC CENTRE.,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
 ABEDA MEMORIAL HOSPITAL(PVT.) LTD,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
 ABEER GENERAL HOSPITAL,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
-Ad-din Barrister Rafique-ul Huq Hospital,null,0,null,492,1,PRIVATE,GENERAL,https://ad-din.org/,null,null
-Ad-din Womens Medical College Hospital,null,0,null,492,1,PRIVATE,GENERAL,https://ad-din.org/,null,null
+Ad-din Akij Medical College Hospital (AAMCH),আদ্-দ্বীন আকিজ মেডিকেল কলেজ,500,null,492,27,PRIVATE,GENERAL,https://ad-din.org/,null,null
+Ad-din Barrister Rafique-ul Huq Hospital,আদ্-দ্বীন ব্যারিস্টার রফিক-উল হক হাসপাতাল,300,null,492,47,PRIVATE,GENERAL,https://abrh.addinhospital.org/,null,null
+Ad-din Hospital (ADH),আদ্-দ্বীন হাসপাতাল,300,null,492,25,PRIVATE,GENERAL,https://ad-din.org/,null,null
+Ad-din Womens Medical College Hospital,আদ্-দ্বীন উইমেন্স মেডিকেল কলেজ,500,null,492,47,PRIVATE,GENERAL,https://ad-din.org/,null,null
+Ad-din Sakina Medical College Hospital (ASMCH),আদ্-দ্বীন সকিনা মেডিকেল কলেজ,500,null,492,20,PRIVATE,GENERAL,https://ad-din.org/,null,null
+Bashundhara Ad-din Medical College Hospital,বসুন্ধরা আদ্-দ্বীন মেডিকেল কলেজ,0,null,492,47,PRIVATE,GENERAL,https://ad-din.org/,null,null
 Adarsha Diagnostic Centre,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
 Adda Tower Hospital & Digital Diagnostic Center,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
 ADHUNIK PATHOLOGYCAL LAB,null,0,null,492,1,PRIVATE,GENERAL,null,null,null
@@ -2124,7 +2128,6 @@ BARISAL CENTRAL HOSPITAL & DIAGNOSTIC CENTERE(MCC),null,0,null,492,14,PRIVATE,GE
 "Barlekha Diabetes, Heart Care, Diagnostic Center and Medical",null,0,null,492,14,PRIVATE,GENERAL,null,null,null
 BARURA MODERN HOSPITAL,null,0,null,492,14,PRIVATE,GENERAL,null,null,null
 Bashchara Seba Diagnostic Center,null,0,null,492,14,PRIVATE,GENERAL,null,null,null
-Bashundhara Ad-din Medical College Hospital,null,0,null,492,14,PRIVATE,GENERAL,https://ad-din.org/,null,null
 BASHUNDHARA MEDICAL & DIAGNOSTIC CENTRE,null,0,null,492,14,PRIVATE,GENERAL,null,null,null
 Bashuti Maa O Shishu Hospital Ltd. Diagnostic Centre,null,0,null,492,14,PRIVATE,GENERAL,null,null,null
 BDM Hospital and Diagnostic Centre,null,0,null,492,14,PRIVATE,GENERAL,null,null,null
