@@ -22,7 +22,7 @@ export default function Hospitals() {
                 size: size
               });
 
-            const res = await fetch(`http://localhost:8080/api/hospitals?${queryParams.toString()}`);
+            const res = await fetch(`http://localhost:6500/api/hospitals?${queryParams.toString()}`);
             if (!res.ok) {
                 throw new Error("Network response was not ok");
             }
@@ -35,7 +35,7 @@ export default function Hospitals() {
 
     const getDistricts = async () => {
         try {
-            const res = await fetch("http://localhost:8080/api/districts");
+            const res = await fetch("http://localhost:6500/api/districts");
             if (!res.ok) {
                 throw new Error("Network response was not ok");
             }

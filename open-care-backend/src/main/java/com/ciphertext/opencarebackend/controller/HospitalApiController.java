@@ -28,6 +28,7 @@ import java.util.Map;
 @RequestMapping("/api/hospitals")
 @SecureAPI
 @RequiredArgsConstructor
+@CrossOrigin(origins = "http://localhost:3000")
 public class HospitalApiController {
 
     private final HospitalService service;
