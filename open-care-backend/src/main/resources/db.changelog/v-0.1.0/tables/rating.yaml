@@ -27,29 +27,8 @@ databaseChangeLog:
                   name: comments
                   type: varchar(250)
               - column:
-                  name: clear_explanation
-                  type: int4
-              - column:
-                  name: time_for_patients
-                  type: int4
-              - column:
-                  name: attentive_listen
-                  type: int4
-              - column:
-                  name: friendly_behavior
-                  type: int4
-              - column:
-                  name: cleanliness
-                  type: int4
-              - column:
-                  name: stuff_behavior
-                  type: int4
-              - column:
-                  name: other_facilities
-                  type: int4
-              - column:
-                  name: medical_test_facilities
-                  type: int4
+                  name: rating_options
+                  type: json
             tableName: rating
         - addForeignKeyConstraint:
             baseColumnNames: user_id
