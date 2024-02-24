@@ -14,7 +14,7 @@ const CommonList = () => {
     )
       .then((res) => res.json())
       .then((body) => {
-        setData([...data, ...body.results]);
+        setData([...data, ...body.hospitals]);
         setLoading(false);
       })
       .catch(() => {

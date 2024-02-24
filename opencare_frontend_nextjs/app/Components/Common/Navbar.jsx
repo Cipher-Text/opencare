@@ -1,7 +1,7 @@
-"use client"
-import Link from 'next/link'
-import Image from 'next/image'
-import { usePathname } from 'next/navigation'
+"use client";
+import Link from "next/link";
+import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 // export default function Navbar () {
 //     const pathname = usePathname();
@@ -43,57 +43,71 @@ import { usePathname } from 'next/navigation'
 //     );
 // }
 
-import React from 'react';
-import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
-import { Checkbox, Layout, Menu, theme } from 'antd';
-import BreadCrumb from './BreadCrumb';
-import Filters from './Filters';
+import React from "react";
+import {
+  LaptopOutlined,
+  NotificationOutlined,
+  UserOutlined,
+} from "@ant-design/icons";
+import { Checkbox, Layout, Menu, theme } from "antd";
+import Filters from "./Filters";
 
 const { Header, Content, Footer, Sider } = Layout;
-const items = ['hospitals', 'doctors', 'institutes'].map((key) => ({
-    key,
-    menuName: `${key}`,
-    menuLink: `${key}`,
+const items = ["hospitals", "doctors", "institutes"].map((key) => ({
+  key,
+  menuName: `${key}`,
+  menuLink: `${key}`,
 }));
-const items1 = ['1', '2', '3'].map((key) => ({
-    key,
-    label: `nav ${key}`,
+const items1 = ["1", "2", "3"].map((key) => ({
+  key,
+  label: `nav ${key}`,
 }));
-const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, index) => {
+const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map(
+  (icon, index) => {
     const key = String(index + 1);
     return {
-        key: `sub${key}`,
-        icon: React.createElement(icon),
-        label: `subnav ${key}`,
-        children: new Array(4).fill(null).map((_, j) => {
-            const subKey = index * 4 + j + 1;
-            return {
-                key: subKey,
-                label: `option${subKey}`,
-            };
-        }),
+      key: `sub${key}`,
+      icon: React.createElement(icon),
+      label: `subnav ${key}`,
+      children: new Array(4).fill(null).map((_, j) => {
+        const subKey = index * 4 + j + 1;
+        return {
+          key: subKey,
+          label: `option${subKey}`,
+        };
+      }),
     };
-});
-const Checkboxitems = ['Checkbox 1', 'Checkbox 2', 'Checkbox 3', 'Checkbox 4', 'Checkbox 5'];
+  }
+);
+const Checkboxitems = [
+  "Checkbox 1",
+  "Checkbox 2",
+  "Checkbox 3",
+  "Checkbox 4",
+  "Checkbox 5",
+];
 const DefaultContent = () => (
-    <Content style={{ padding: '0 24px', minHeight: 280 }}>
-        Default Content
-    </Content>
+  <Content style={{ padding: "0 24px", minHeight: 280 }}>
+    Default Content
+  </Content>
 );
 const Navbar = ({ children }) => {
-    const {
-        token: { colorBgContainer, borderRadiusLG },
-    } = theme.useToken();
-    return (
-        <Layout>
-            <Header
-                style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                }}
-            >
-                <div className="demo-logo" />
-                {/* <Menu
+  const {
+    token: { colorBgContainer, borderRadiusLG },
+  } = theme.useToken();
+  return (
+    <Layout>
+      <Header
+        style={{
+          display: "flex",
+          alignItems: "center",
+          position: "sticky",
+          top: 0,
+          zIndex: 1,
+        }}
+      >
+        <div className="demo-logo" />
+        {/* <Menu
           theme="dark"
           mode="horizontal"
           defaultSelectedKeys={['2']}
@@ -103,50 +117,72 @@ const Navbar = ({ children }) => {
             minWidth: 0,
           }}
         /> */}
-                <Menu mode="horizontal" theme="dark">
-                    {items.map(item => (
-                        <Menu.Item key={item.menuName}>
-                            <Link href={item.menuLink}>
-                                {item.menuName}
-                            </Link>
-                        </Menu.Item>
-                    ))}
-                </Menu>
-            </Header>
-            <Content
-                style={{
-                    padding: '0 48px',
-                }}
-            >
-                <BreadCrumb />
-                <Layout
-                    style={{
-                        padding: '24px 0',
-                        background: colorBgContainer,
-                        borderRadius: borderRadiusLG,
-                    }}
-                >
-                    <Sider
-                        style={{
-                            background: colorBgContainer,
-                        }}
-                        width={200}
-                    >
-                       <Filters style={{
-                                height: '100%',
-                            }} title='Title' items={Checkboxitems} />
-                    </Sider>
-                    {children ? children : <DefaultContent />}
-                </Layout>
-            </Content>
-            <Footer
-                style={{
-                    textAlign: 'center',
-                }}
-            >
-                Ant Design ©{new Date().getFullYear()} Created by Ant UED
-            </Footer>
+        <Menu mode="horizontal" theme="dark">
+          {items.map((item) => (
+            <Menu.Item key={item.menuName}>
+              <Link href={item.menuLink}>{item.menuName}</Link>
+            </Menu.Item>
+          ))}
+        </Menu>
+      </Header>
+      <Layout
+        style={{
+          background: colorBgContainer,
+          borderRadius: borderRadiusLG,
+        }}
+      >
+        {/* <Sider
+            style={{
+              background: colorBgContainer,
+            }}
+            width={200}
+          >
+            <Filters
+              style={{
+                height: "100%",
+              }}
+              title="Title"
+              items={Checkboxitems}
+            />
+          </Sider> */}
+        <Sider
+          style={{
+            overflow: "auto",
+            height: "100vh",
+            position: "fixed",
+            left: 0,
+            top: 60,
+            bottom: 0,
+          }}
+        >
+          <div className="demo-logo-vertical" />
+          <Filters
+            style={{
+              height: "100%",
+            }}
+            title="Title"
+            items={Checkboxitems}
+          />
+        </Sider>
+        <Layout style={{ marginLeft: 200 }}>
+          <Content
+            style={{
+              padding: "0 48px",
+            }}
+          >
+            {children ? children : <DefaultContent />}
+          </Content>
         </Layout>
-    );
+      </Layout>
+
+      <Footer
+        style={{
+          textAlign: "center",
+        }}
+      >
+        Ant Design ©{new Date().getFullYear()} Created by Ant UED
+      </Footer>
+    </Layout>
+  );
 };
 export default Navbar;

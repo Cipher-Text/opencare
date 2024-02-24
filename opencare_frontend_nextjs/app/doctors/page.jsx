@@ -14,7 +14,9 @@ const onSearch = (value, _e, info) => console.log(info?.source, value);
 export default function Doctors() {
   return (
     <Navbar>
-      <Content style={{ padding: "0 24px", minHeight: 280 }}>
+      <Content
+        style={{ padding: "0 24px", minHeight: 280, position: "sticky" }}
+      >
         <Search
           placeholder="input search text"
           allowClear
