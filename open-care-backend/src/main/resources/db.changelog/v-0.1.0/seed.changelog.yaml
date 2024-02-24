@@ -73,3 +73,8 @@ databaseChangeLog:
             relativeToChangelogFile: true
             tableName: role_permission
             quotchar: '"'
+        - loadData:
+            file: seeds/doctor.csv
+            relativeToChangelogFile: true
+            tableName: doctor
+            quotchar: '"'
