@@ -84,14 +84,11 @@ public class SpecificationBuilder {
                 final Predicate[] equal = {null};
                 if (multiJoinIn.joinValues() != null) {
                     equal[0] = builder.in(join[0].get(multiJoinIn.inColumn())).value(multiJoinIn.joinValues());
-//          equal[0] = builder.in(join[0].get(input.getInJoin().inColumn())).value(input.getInJoin().values());
-//              builder.in(join[0].get(multiJoinIn.joinColumn()), multiJoinIn.joinValues());
                 }
                 iterator.forEachRemaining(mj -> {
                     join[0] = join[0].join(mj.joinTable());
                     if (mj.joinValues() != null) {
                         equal[0] = builder.in(join[0].get(mj.inColumn())).value(mj.joinValues());
-//            equal[0] = builder.equal(join[0].get(mj.joinColumn()), mj.joinValues());
                     }
                 });
                 return equal[0];
