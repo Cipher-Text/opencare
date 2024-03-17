@@ -5,15 +5,17 @@ import com.ciphertext.opencarebackend.model.enums.OrganizationType;
 import lombok.Builder;
 import lombok.Getter;
 
+import java.util.List;
+
 @Builder
 @Getter
 public class HospitalFilter {
     private String name;
     private String bnName;
     private Integer numberOfBed;
-    private Integer districtId;
+    private List<Integer> districtIds;
     private Integer upazilaId;
     private Integer unionId;
-    private String hospitalType;
+    private List<String> hospitalTypes;
     private String organizationType;
 }

@@ -19,6 +19,7 @@ import org.springframework.http.HttpStatus;
 
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -37,10 +38,10 @@ public class HospitalApiController {
             @RequestParam(required = false) String name,
             @RequestParam(required = false) String bnName,
             @RequestParam(required = false) Integer numberOfBed,
-            @RequestParam(required = false) Integer districtId,
+            @RequestParam(required = false) List<Integer> districtIds,
             @RequestParam(required = false) Integer upazillaId,
             @RequestParam(required = false) Integer unionId,
-            @RequestParam(required = false) String hospitalType,
+            @RequestParam(required = false) List<String> hospitalTypes,
             @RequestParam(required = false) String organizationType,
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "5") int size) {
@@ -49,10 +50,10 @@ public class HospitalApiController {
                 .name(name)
                 .bnName(bnName)
                 .numberOfBed(numberOfBed)
-                .districtId(districtId)
+                .districtIds(districtIds)
                 .upazilaId(upazillaId)
                 .unionId(unionId)
-                .hospitalType(hospitalType)
+                .hospitalTypes(hospitalTypes)
                 .organizationType(organizationType)
                 .build();
         Page<HospitalDTO> pageHospitals = service.getPaginatedDataWithFilters(hospitalFilter, pagingSort);
