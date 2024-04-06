@@ -85,8 +85,8 @@ export default function Hospitals() {
     const [data, setData] = useState([]);
     const [currentPage, setCurrentPage] = useState(0);
     const [size, setSize] = useState(5);
-    const [district, setDistrict] = useState("");
-    const [hospitalType, setHospitalType] = useState("");
+    const [selectedDistricts, setSelectedDistricts] = useState([]);
+    const [selectedHospitalTypes, setSelectedHospitalTypes] = useState([]);
     const [totalPages, setTotalPages] = useState(0);
     const [height, setHeight] = useState(398);
     const [dec, setDec] = useState(true);
@@ -100,11 +100,11 @@ export default function Hospitals() {
     const getHospitals = async () => {
         try {
             const queryParams = new URLSearchParams({
-                districtId: district,
+                districtIds: selectedDistricts,
                 page: currentPage,
                 size: size,
             });
-            if(hospitalType !== "") queryParams.append('hospitalType', hospitalType);
+            if(selectedHospitalTypes.length !== 0) queryParams.append('hospitalTypes', selectedHospitalTypes);
             const res = await fetch(
                 `http://localhost:6500/api/hospitals?${queryParams.toString()}`
             );
@@ -131,28 +131,7 @@ export default function Hospitals() {
             {loading && <Spin style={{marginLeft: 8}}/>}
         </div>
     );
-    //   const loadMoreData = () => {
-    //     if (loading) {
-    //       return;
-    //     }
-    //     setLoading(true);
-    //     const queryParams = new URLSearchParams({
-    //       districtId: district,
-    //       page: currentPage,
-    //       size: size,
-    //     });
-    //     fetch(`http://localhost:6500/api/hospitals?${queryParams.toString()}`)
-    //       .then((res) => res.json())
-    //       .then((body) => {
-    //         setData([...data, ...body.hospitals]);
-    //         setTotalPages(body.totalPages);
-    //         setCurrentPage(body.currentPage);
-    //         setLoading(false);
-    //       })
-    //       .catch(() => {
-    //         setLoading(false);
-    //       });
-    //   };
+
     useEffect(() => {
         const loadMoreData = async () => {
             const newData = await getHospitals();
@@ -171,46 +150,7 @@ export default function Hospitals() {
             setCurrentPage(newData.currentPage);
         };
         loadMoreData();
-    }, [district, hospitalType]);
-
-    //   const [hospitals, setHospitals] = useState([]);
-    //   const [currentPage, setCurrentPage] = useState(0);
-    //   const [size, setSize] = useState(5);
-    //   const [totalPages, setTotalPages] = useState(0);
-    //   const [districts, setDistricts] = useState([]);
-    //   const [hospitalType, setHospitalType] = useState("");
-    //   const [district, setDistrict] = useState("");
-
-    //   const getHospitals = async () => {
-    //     try {
-    //       const queryParams = new URLSearchParams({
-    //         districtId: district,
-    //         page: currentPage,
-    //         size: size,
-    //       });
-
-    //       const res = await fetch(
-    //         `http://localhost:6500/api/hospitals?${queryParams.toString()}`
-    //       );
-    //       if (!res.ok) {
-    //         throw new Error("Network response was not ok");
-    //       }
-    //       return res.json();
-    //     } catch (error) {
-    //       console.error("Error fetching data:", error);
-    //       return { hospitals: [] };
-    //     }
-    //   };
-
-    //   useEffect(() => {
-    //     const fetchData = async () => {
-    //       const data = await getHospitals();
-    //       setHospitals(data.hospitals);
-    //       setTotalPages(data.totalPages);
-    //     };
-
-    //     fetchData();
-    //   }, [district, currentPage, size]);
+    }, [selectedDistricts, selectedHospitalTypes]);
 
     const getDistricts = async () => {
         try {
@@ -283,7 +223,6 @@ export default function Hospitals() {
 
     return (
         <Layout>
-            {console.log("dist", hospitalType, district)}
            <TopHeader/>
             <Layout
                 style={{
@@ -312,7 +251,9 @@ export default function Hospitals() {
                             }}
                             title="District"
                             items={districts}
-                            handler={setDistrict}
+                            selectedItems={selectedDistricts}
+                            value="id"
+                            handler={setSelectedDistricts}
                         />
                         <Filters
                             style={{
@@ -320,7 +261,9 @@ export default function Hospitals() {
                             }}
                             title="Hospital Types"
                             items={hospitalTypes}
-                            handler={setHospitalType}
+                            selectedItems={selectedHospitalTypes}
+                            value="name"
+                            handler={setSelectedHospitalTypes}
                         />
                         {/*<Filters*/}
                         {/*    style={{*/}
@@ -366,19 +309,6 @@ export default function Hospitals() {
                                 {/* Filter Badges */}
                                 <FilterBadge/>
                             </div>
-
-                            {/* <div
-            id="scrollableDiv"
-            style={{
-              maxHeight: "400px",
-              overflowY: "auto",
-              border: "1px solid rgba(140, 140, 140, 0.35)",
-            }}
-            onScroll={handleScroll}
-          >
-            <Table columns={columns} dataSource={data} pagination={false} />
-          </div> */}
-
                             <div>
                                 <Table
                                     columns={columns}
@@ -403,62 +333,4 @@ export default function Hospitals() {
                 Ant Design ©{new Date().getFullYear()} Created by Ant UED
             </Footer>
         </Layout>);
-    // return (
-    //   <Navbar>
-    //     <Content
-    //       style={{
-    //         padding: "0 24px",
-    //         minHeight: 280,
-    //         backgroundColor: "#f8f4f4",
-    //       }}
-    //     >
-    //       <div
-    //         style={{
-    //           position: "sticky",
-    //           top: 67,
-    //           zIndex: 10,
-    //           backgroundColor: "#f8f4f4",
-    //         }}
-    //       >
-    //         <BreadCrumb />
-    //         <Search
-    //           placeholder="input search text"
-    //           allowClear
-    //           onSearch={onSearch}
-    //           style={{
-    //             width: "100%",
-    //             marginBottom: "16px",
-    //           }}
-    //         />
-    //
-    //         {/* Filter Badges */}
-    //         <FilterBadge />
-    //       </div>
-    //
-    //       {/* <div
-    //         id="scrollableDiv"
-    //         style={{
-    //           maxHeight: "400px",
-    //           overflowY: "auto",
-    //           border: "1px solid rgba(140, 140, 140, 0.35)",
-    //         }}
-    //         onScroll={handleScroll}
-    //       >
-    //         <Table columns={columns} dataSource={data} pagination={false} />
-    //       </div> */}
-    //
-    //       <div>
-    //         <Table
-    //           columns={columns}
-    //           dataSource={data}
-    //           pagination={false}
-    //           loading={loading}
-    //           rowKey={(record) => record.id}
-    //           showHeader
-    //           footer={footer}
-    //         />
-    //       </div>
-    //     </Content>
-    //   </Navbar>
-    // );
 }
