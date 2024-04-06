@@ -13,23 +13,23 @@ Comilla Medical College Hospital,কুমিল্লা মেডিকেল 
 Faridpur Medical College Hospital,বঙ্গবন্ধু শেখ মুজিব মেডিকেল কলেজ হাসপাতাল,250,null,null,52,GOVERNMENT,COLLEGE,https://bsmmc.edu.bd/,null,null
 Khulna Medical College Hospital,খুলনা মেডিকেল কলেজ হাসপাতাল,500,null,null,27,GOVERNMENT,COLLEGE,https://kmc.gov.bd/,null,null
 Dinajpur Medical College Hospital,এম আব্দুর রহিম মেডিকেল কলেজ হাসপাতাল,250,null,null,54,GOVERNMENT,COLLEGE,https://www.marmch.gov.bd/,null,null
-Bagerhat Sadar hospital,বাগেরহাট সদর হাসপাতাল,100,null,null,28,GOVERNMENT,DISTRICT,null,null,null
-Bandarban Sadar hospital,বান্দরবান সদর হাসপাতাল,100,null,null,11,GOVERNMENT,DISTRICT,null,null,null
-Barguna Sadar hospital,বরগুনা সদর হাসপাতাল,100,null,null,35,GOVERNMENT,DISTRICT,null,null,null
+Bagerhat Sadar hospital,বাগেরহাট সদর হাসপাতাল,100,null,null,28,GOVERNMENT,DISTRICT,null,22.667219341323893, 89.78865212218756
+Bandarban Sadar hospital,বান্দরবান সদর হাসপাতাল,100,null,null,11,GOVERNMENT,DISTRICT,null,22.189833938564377, 92.2265490242871
+Barguna Sadar hospital,বরগুনা সদর হাসপাতাল,100,null,null,35,GOVERNMENT,DISTRICT,null,22.15634690564797, 90.12747378618454
 General Hospital,জেনারেল হাসপাতাল,100,null,null,33,GOVERNMENT,DISTRICT,null,null,null
-Bhola Sadar hospital,ভোলা সদর হাসপাতাল,100,null,null,34,GOVERNMENT,DISTRICT,null,null,null
+Bhola Sadar hospital,ভোলা সদর হাসপাতাল,100,null,null,34,GOVERNMENT,DISTRICT,null,22.730690068715376, 90.51160232559995
 "250 bed Mohammad Ali Hospital, Bogra","২৫০ বেড মোহাম্মদ আলী হাসপাতাল, বগুড়া",250,null,null,14,GOVERNMENT,DISTRICT,null,null,null
-Brahmanbaria Sadar Hospital,ব্রাহ্মণবাড়িয়া সদর হাসপাতাল,250,null,null,3,GOVERNMENT,DISTRICT,null,null,null
-Chandpur Sadar hospital,চাঁদপুর সদর হাসপাতাল,200,null,null,6,GOVERNMENT,DISTRICT,null,null,null
-Chapai Nowabganj Sadar hospital,চাঁপাইনবাবগঞ্জ সদর হাসপাতাল,100,null,null,18,GOVERNMENT,DISTRICT,null,null,null
+Brahmanbaria Sadar Hospital,ব্রাহ্মণবাড়িয়া সদর হাসপাতাল,250,null,null,3,GOVERNMENT,DISTRICT,null,23.97644904938208, 91.1111610666671
+Chandpur Sadar hospital,চাঁদপুর সদর হাসপাতাল,200,null,null,6,GOVERNMENT,DISTRICT,null,23.223941591840177, 90.65253901822825
+Chapai Nowabganj Sadar hospital,চাঁপাইনবাবগঞ্জ সদর হাসপাতাল,100,null,null,18,GOVERNMENT,DISTRICT,null,24.598285526640577, 88.2655059666863
 Chittagong General Hospital,চট্টগ্রাম জেনারেল হাসপাতাল,150,null,null,8,GOVERNMENT,DISTRICT,null,null,null
-Chuadanga Sadar hospital,চুয়াডাঙ্গা সদর হাসপাতাল,100,null,null,24,GOVERNMENT,DISTRICT,null,null,null
+Chuadanga Sadar hospital,চুয়াডাঙ্গা সদর হাসপাতাল,100,null,null,24,GOVERNMENT,DISTRICT,null,23.635389274345926, 88.84731838519426
 General Hospital,জেনারেল হাসপাতাল,100,null,null,1,GOVERNMENT,DISTRICT,null,null,null
 "Adhunic Sadar Hospital, Coxs Bazar","আধুনিক সদর হাসপাতাল, কক্সবাজার",250,null,null,9,GOVERNMENT,DISTRICT,null,null,null
-Dinajpur Sadar Hospital,দিনাজপুর সদর হাসপাতাল,250,null,null,54,GOVERNMENT,DISTRICT,null,null,null
+Dinajpur Sadar Hospital,দিনাজপুর সদর হাসপাতাল,250,null,null,54,GOVERNMENT,DISTRICT,null,25.626108967250737, 88.63709358288702
 General Hospital,জেনারেল হাসপাতাল,100,null,null,52,GOVERNMENT,DISTRICT,null,null,null
-Feni Sadar Hospital,ফেনী সদর হাসপাতাল,250,null,null,2,GOVERNMENT,DISTRICT,null,null,null
-Gaibanda Sadar hospital,গাইবান্দা সদর হাসপাতাল,100,null,null,57,GOVERNMENT,DISTRICT,null,null,null
+Feni Sadar Hospital,ফেনী সদর হাসপাতাল,250,null,null,2,GOVERNMENT,DISTRICT,null,23.02981975012296, 91.40558121069513
+Gaibandha Sadar hospital,গাইবান্ধা সদর হাসপাতাল,100,null,null,57,GOVERNMENT,DISTRICT,null,25.32747890033318, 89.53758318474063
 Gazipur Sadar Hospital,গাজীপুর সদর হাসপাতাল,100,null,null,41,GOVERNMENT,DISTRICT,null,null,null
 Gopalganj Sadar Hospital,গোপালগঞ্জ সদর হাসপাতাল,250,null,null,51,GOVERNMENT,DISTRICT,null,null,null
 Hobiganj Sadar hospital,হবিগঞ্জ সদর হাসপাতাল,100,null,null,35,GOVERNMENT,DISTRICT,null,null,null
@@ -58,7 +58,7 @@ Narayanganj Sadar Hospitall,নারায়ণগঞ্জ সদর হা�
 Narshindi Zilla Hospital,নরসিংদী জেলা হাসপাতাল,100,null,null,40,GOVERNMENT,DISTRICT,null,null,null
 Narshindi Sadar Hospital,নরসিংদী সদর হাসপাতাল,100,null,null,40,GOVERNMENT,DISTRICT,null,null,null
 Natore Sadar hospital,নাটোর সদর হাসপাতাল,100,null,null,16,GOVERNMENT,DISTRICT,null,null,null
-Netrokona Sadar Hospital,নেত্রকোনা সদর হাসপাতাল,100,null,null,64,GOVERNMENT,DISTRICT,null,null,null
+Netrokona Sadar Hospital,নেত্রকোনা সদর হাসপাতাল,100,null,null,64,GOVERNMENT,DISTRICT,null,24.871808755631605, 90.73208520902263
 Nilphamari Sadar hospital,নীলফামারী সদর হাসপাতাল,100,null,null,56,GOVERNMENT,DISTRICT,null,null,null
 Noakhali General Hospital,নোয়াখালী জেনারেল হাসপাতাল,250,null,null,5,GOVERNMENT,DISTRICT,null,null,null
 Pabna Sadar hospital,পাবনা সদর হাসপাতাল,250,null,null,13,GOVERNMENT,DISTRICT,null,null,null

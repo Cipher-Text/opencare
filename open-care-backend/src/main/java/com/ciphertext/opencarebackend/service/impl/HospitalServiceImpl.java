@@ -6,6 +6,7 @@ import com.ciphertext.opencarebackend.model.enums.HospitalType;
 import com.ciphertext.opencarebackend.model.enums.OrganizationType;
 import com.ciphertext.opencarebackend.model.filter.HospitalFilter;
 import com.ciphertext.opencarebackend.repository.specification.Filter;
+import com.ciphertext.opencarebackend.repository.specification.InJoin;
 import com.ciphertext.opencarebackend.service.HospitalService;
 import com.ciphertext.opencarebackend.model.mappers.HospitalMapper;
 import com.ciphertext.opencarebackend.model.entity.Hospital;
@@ -22,8 +23,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.ciphertext.opencarebackend.repository.specification.QueryFilterUtils.generateIndividualFilter;
-import static com.ciphertext.opencarebackend.repository.specification.QueryFilterUtils.generateJoinTableFilter;
+import static com.ciphertext.opencarebackend.repository.specification.QueryFilterUtils.*;
 import static com.ciphertext.opencarebackend.repository.specification.QueryOperator.*;
 import static com.ciphertext.opencarebackend.repository.specification.SpecificationBuilder.createSpecification;
 import static org.springframework.data.jpa.domain.Specification.where;
@@ -109,8 +109,11 @@ public class HospitalServiceImpl implements HospitalService {
         if (hospitalFilter.getBnName() != null)
             filters.add(generateIndividualFilter("numberOfBed", EQUALS, hospitalFilter.getNumberOfBed()));
 
-        if (hospitalFilter.getDistrictId() != null)
-            filters.add(generateJoinTableFilter("id", "district", JOIN, hospitalFilter.getDistrictId()));
+        if (hospitalFilter.getDistrictIds() != null && !hospitalFilter.getDistrictIds().isEmpty()) {
+            InJoin<Integer> inJoin = new InJoin<>("id", "district", "id",
+                    hospitalFilter.getDistrictIds());
+            filters.add(generateJoinTableInFilter(inJoin, IN_JOIN));
+        }
 
         if (hospitalFilter.getUpazilaId() != null)
             filters.add(generateJoinTableFilter("id", "upazila", JOIN, hospitalFilter.getUpazilaId()));
@@ -118,8 +121,13 @@ public class HospitalServiceImpl implements HospitalService {
         if (hospitalFilter.getUnionId() != null)
             filters.add(generateJoinTableFilter("id", "union", JOIN, hospitalFilter.getUnionId()));
 
-        if (hospitalFilter.getHospitalType() != null)
-            filters.add(generateIndividualFilter("hospitalType", EQUALS, HospitalType.valueOf(hospitalFilter.getHospitalType())));
+        if (hospitalFilter.getHospitalTypes() != null && !hospitalFilter.getHospitalTypes().isEmpty()) {
+            List<HospitalType> hospitalTypes = new ArrayList<>();
+            for (String hospitalType : hospitalFilter.getHospitalTypes()) {
+                hospitalTypes.add(HospitalType.valueOf(hospitalType));
+            }
+            filters.add(generateInFilter("hospitalType", IN, hospitalTypes));
+        }
 
         if (hospitalFilter.getOrganizationType() != null)
             filters.add(generateIndividualFilter("organizationType", EQUALS, OrganizationType.valueOf(hospitalFilter.getOrganizationType())));

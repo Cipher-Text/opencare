@@ -5,6 +5,9 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.annotations.JdbcTypeCode;
+import org.hibernate.type.SqlTypes;
+
 
 @Getter
 @Setter
@@ -33,28 +36,8 @@ public class Rating {
     @Column(name = "comments", length = 250)
     private String comments;
 
-    @Column(name = "clear_explanation")
-    private Integer clearExplanation;
-
-    @Column(name = "time_for_patients")
-    private Integer timeForPatients;
-
-    @Column(name = "attentive_listen")
-    private Integer attentiveListen;
-
-    @Column(name = "friendly_behavior")
-    private Integer friendlyBehavior;
-
-    @Column(name = "cleanliness")
-    private Integer cleanliness;
-
-    @Column(name = "stuff_behavior")
-    private Integer stuffBehavior;
-
-    @Column(name = "other_facilities")
-    private Integer otherFacilities;
-
-    @Column(name = "medical_test_facilities")
-    private Integer medicalTestFacilities;
+    @JdbcTypeCode(SqlTypes.JSON)
+    @Column(name = "rating_options", columnDefinition = "jsonb")
+    private Hospital rating_options;
 
 }

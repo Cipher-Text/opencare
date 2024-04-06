@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -17,5 +18,7 @@ public class Filter {
     private Object value;
     private Object rangeSecondValue;
     private List<?> values;
-
+    private Set<MultiJoin> multiJoins;
+    private InJoin<?> inJoin;
+    private Set<MultiJoinIn> multiJoinIns;
 }
