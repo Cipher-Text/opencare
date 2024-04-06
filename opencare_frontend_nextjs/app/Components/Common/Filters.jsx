@@ -5,8 +5,12 @@ import { blue, gray } from "@ant-design/colors";
 
 const { Title, Text } = Typography;
 
-const Filters = ({ title, items }) => {
+const Filters = ({ title, items, handler }) => {
   const [showAll, setShowAll] = useState(false);
+  const onChangeHandler = (e) => {
+    console.log("called here", e.target.value)
+    handler(e.target.value)
+  }
 
   // Define the maximum number of checkboxes to display initially
   const maxDisplayCount = 3;
@@ -52,7 +56,7 @@ const Filters = ({ title, items }) => {
             .slice(0, showAll ? items.length : maxDisplayCount)
             .map((item, index) => (
               <Menu.Item key={index} style={{ backgroundColor: "transparent" }}>
-                <Checkbox style={{ color: gray.at(1) }}>{item}</Checkbox>
+                <Checkbox onChange={onChangeHandler} style={{ color: gray.at(1) }} value={item.id}>{item.name}</Checkbox>
               </Menu.Item>
             ))}
 

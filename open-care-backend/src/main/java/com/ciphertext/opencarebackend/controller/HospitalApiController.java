@@ -45,6 +45,7 @@ public class HospitalApiController {
             @RequestParam(required = false) String organizationType,
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "5") int size) {
+
         Pageable pagingSort = PageRequest.of(page, size);
         HospitalFilter hospitalFilter = HospitalFilter.builder()
                 .name(name)
