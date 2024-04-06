@@ -15,6 +15,11 @@ import {
     Tag,
     Menu,
     theme,
+    Modal,
+    Icon,
+    Image,
+    Flex,
+    Typography, Col, Row
 } from "antd";
 import Navbar from "../Components/Common/Navbar";
 import FilterBadge from "../Components/Common/FilterBadge";
@@ -23,26 +28,18 @@ import Link from "next/link";
 import Filters from "../Components/Common/Filters";
 import TopHeader from "../Components/Common/TopHeader";
 
-
 const {Search} = Input;
+const { Text, Title, Paragraph } = Typography;
 
 const onSearch = (value, _e, info) => console.log(info?.source, value);
 const {Header, Content, Footer, Sider,} = Layout;
-
-const Checkboxitems = [
-    "Checkbox 1",
-    "Checkbox 2",
-    "Checkbox 3",
-    "Checkbox 4",
-    "Checkbox 5",
-];
 
 const columns = [
     {title: "Index", dataIndex: "id", width: 150},
     {
         title: "Name",
         dataIndex: "name",
-        width: 250,
+        width: 350,
     },
     {
         title: "Address",
@@ -85,26 +82,40 @@ export default function Hospitals() {
     const [data, setData] = useState([]);
     const [currentPage, setCurrentPage] = useState(0);
     const [size, setSize] = useState(5);
-    const [district, setDistrict] = useState("");
-    const [hospitalType, setHospitalType] = useState("");
+    const [selectedDistricts, setSelectedDistricts] = useState([]);
+    const [selectedHospitalTypes, setSelectedHospitalTypes] = useState([]);
     const [totalPages, setTotalPages] = useState(0);
     const [height, setHeight] = useState(398);
     const [dec, setDec] = useState(true);
     const [districts, setDistricts] = useState([]);
     const [hospitalTypes, setHospitalTypes] = useState([]);
     const [organizationTypes, setOrganizationTypes] = useState([]);
+    const [open, setOpen] = useState(false);
+
+    const [selectedRow, setSelectedRow] = useState(null);
+    const [modalVisible, setModalVisible] = useState(false);
 
     const containerRef = useRef(null);
     const scrollThreshold = 50;
 
+    const handleRowClick = (record) => {
+        setSelectedRow(record);
+        setModalVisible(true);
+    };
+
+    const closeModal = () => {
+        setSelectedRow(null);
+        setModalVisible(false);
+    };
+
     const getHospitals = async () => {
         try {
             const queryParams = new URLSearchParams({
-                districtId: district,
+                districtIds: selectedDistricts,
                 page: currentPage,
                 size: size,
             });
-            if(hospitalType !== "") queryParams.append('hospitalType', hospitalType);
+            if(selectedHospitalTypes.length !== 0) queryParams.append('hospitalTypes', selectedHospitalTypes);
             const res = await fetch(
                 `http://localhost:6500/api/hospitals?${queryParams.toString()}`
             );
@@ -131,28 +142,7 @@ export default function Hospitals() {
             {loading && <Spin style={{marginLeft: 8}}/>}
         </div>
     );
-    //   const loadMoreData = () => {
-    //     if (loading) {
-    //       return;
-    //     }
-    //     setLoading(true);
-    //     const queryParams = new URLSearchParams({
-    //       districtId: district,
-    //       page: currentPage,
-    //       size: size,
-    //     });
-    //     fetch(`http://localhost:6500/api/hospitals?${queryParams.toString()}`)
-    //       .then((res) => res.json())
-    //       .then((body) => {
-    //         setData([...data, ...body.hospitals]);
-    //         setTotalPages(body.totalPages);
-    //         setCurrentPage(body.currentPage);
-    //         setLoading(false);
-    //       })
-    //       .catch(() => {
-    //         setLoading(false);
-    //       });
-    //   };
+
     useEffect(() => {
         const loadMoreData = async () => {
             const newData = await getHospitals();
@@ -171,46 +161,7 @@ export default function Hospitals() {
             setCurrentPage(newData.currentPage);
         };
         loadMoreData();
-    }, [district, hospitalType]);
-
-    //   const [hospitals, setHospitals] = useState([]);
-    //   const [currentPage, setCurrentPage] = useState(0);
-    //   const [size, setSize] = useState(5);
-    //   const [totalPages, setTotalPages] = useState(0);
-    //   const [districts, setDistricts] = useState([]);
-    //   const [hospitalType, setHospitalType] = useState("");
-    //   const [district, setDistrict] = useState("");
-
-    //   const getHospitals = async () => {
-    //     try {
-    //       const queryParams = new URLSearchParams({
-    //         districtId: district,
-    //         page: currentPage,
-    //         size: size,
-    //       });
-
-    //       const res = await fetch(
-    //         `http://localhost:6500/api/hospitals?${queryParams.toString()}`
-    //       );
-    //       if (!res.ok) {
-    //         throw new Error("Network response was not ok");
-    //       }
-    //       return res.json();
-    //     } catch (error) {
-    //       console.error("Error fetching data:", error);
-    //       return { hospitals: [] };
-    //     }
-    //   };
-
-    //   useEffect(() => {
-    //     const fetchData = async () => {
-    //       const data = await getHospitals();
-    //       setHospitals(data.hospitals);
-    //       setTotalPages(data.totalPages);
-    //     };
-
-    //     fetchData();
-    //   }, [district, currentPage, size]);
+    }, [selectedDistricts, selectedHospitalTypes]);
 
     const getDistricts = async () => {
         try {
@@ -283,7 +234,6 @@ export default function Hospitals() {
 
     return (
         <Layout>
-            {console.log("dist", hospitalType, district)}
            <TopHeader/>
             <Layout
                 style={{
@@ -312,7 +262,9 @@ export default function Hospitals() {
                             }}
                             title="District"
                             items={districts}
-                            handler={setDistrict}
+                            selectedItems={selectedDistricts}
+                            value="id"
+                            handler={setSelectedDistricts}
                         />
                         <Filters
                             style={{
@@ -320,7 +272,9 @@ export default function Hospitals() {
                             }}
                             title="Hospital Types"
                             items={hospitalTypes}
-                            handler={setHospitalType}
+                            selectedItems={selectedHospitalTypes}
+                            value="name"
+                            handler={setSelectedHospitalTypes}
                         />
                         {/*<Filters*/}
                         {/*    style={{*/}
@@ -364,21 +318,8 @@ export default function Hospitals() {
                                 />
 
                                 {/* Filter Badges */}
-                                <FilterBadge/>
+                                {/*<FilterBadge/>*/}
                             </div>
-
-                            {/* <div
-            id="scrollableDiv"
-            style={{
-              maxHeight: "400px",
-              overflowY: "auto",
-              border: "1px solid rgba(140, 140, 140, 0.35)",
-            }}
-            onScroll={handleScroll}
-          >
-            <Table columns={columns} dataSource={data} pagination={false} />
-          </div> */}
-
                             <div>
                                 <Table
                                     columns={columns}
@@ -388,9 +329,85 @@ export default function Hospitals() {
                                     rowKey={(record) => record.id}
                                     showHeader
                                     footer={footer}
+                                    onRow={(record, rowIndex) => ({
+                                        onClick: () => handleRowClick(record),
+                                    })}
                                 />
                             </div>
                         </Content>
+                        <Modal
+                            title=""
+                            centered
+                            visible={modalVisible}
+                            onCancel={closeModal}
+                            width={1000}
+                        >
+                            {selectedRow && (
+                                <div>
+                                    <Flex wrap="wrap" gap="large">
+                                        <Image
+                                            width={80}
+                                            height={80}
+                                            src="error"
+                                            style={{
+                                                borderRadius: "50%", // Make the image circular
+                                                objectFit: "cover", // Ensure the image fills the circular shape
+                                            }}
+                                            fallback="data:image/png;base64,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"
+                                        />
+                                        <Typography
+                                            style={{
+                                                width: "70%",
+                                            }}
+                                        >
+                                            <Title level={2}>{selectedRow.name}</Title>
+
+                                            <Paragraph>
+                                                Number of Beds: {selectedRow.numberOfBed}
+                                            </Paragraph>
+                                        </Typography>
+                                    </Flex>
+                                    <Title level={5}>Description</Title>
+                                    <Paragraph>
+                                        In the process of internal desktop applications development,
+                                        many different design specs and implementations would be
+                                        involved, which might cause designers and developers
+                                        difficulties and duplication and reduce the efficiency of
+                                        development.
+                                    </Paragraph>
+                                    <Row>
+                                        <Col span={12}>
+                                            <div>
+                                                <Typography.Title level={5}>
+                                                    Contact Info
+                                                </Typography.Title>
+                                                <p>
+                                                    Contact Number: 01887520120
+                                                </p>
+                                                <p>
+                                                    Email: test@gmail.com
+                                                </p>
+                                                <p>
+                                                    Website: www.test.com
+                                                </p>
+                                            </div>
+                                        </Col>
+                                        <Col span={12}>
+                                            <div>
+                                                <Typography.Title level={5}>
+                                                    Office Hours
+                                                </Typography.Title>
+                                                <p>Sunday : 8 AM - 9 PM</p>
+                                                <p>Monday : 8 AM - 9 PM</p>
+                                                <p>Tuesday : 8 AM - 9 PM</p>
+                                                <p>Wednesday : 8 AM - 9 PM</p>
+                                                <p>Thursday : 8 AM - 9 PM</p>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </div>
+                            )}
+                        </Modal>
                     </Content>
                 </Layout>
             </Layout>
@@ -403,62 +420,4 @@ export default function Hospitals() {
                 Ant Design ©{new Date().getFullYear()} Created by Ant UED
             </Footer>
         </Layout>);
-    // return (
-    //   <Navbar>
-    //     <Content
-    //       style={{
-    //         padding: "0 24px",
-    //         minHeight: 280,
-    //         backgroundColor: "#f8f4f4",
-    //       }}
-    //     >
-    //       <div
-    //         style={{
-    //           position: "sticky",
-    //           top: 67,
-    //           zIndex: 10,
-    //           backgroundColor: "#f8f4f4",
-    //         }}
-    //       >
-    //         <BreadCrumb />
-    //         <Search
-    //           placeholder="input search text"
-    //           allowClear
-    //           onSearch={onSearch}
-    //           style={{
-    //             width: "100%",
-    //             marginBottom: "16px",
-    //           }}
-    //         />
-    //
-    //         {/* Filter Badges */}
-    //         <FilterBadge />
-    //       </div>
-    //
-    //       {/* <div
-    //         id="scrollableDiv"
-    //         style={{
-    //           maxHeight: "400px",
-    //           overflowY: "auto",
-    //           border: "1px solid rgba(140, 140, 140, 0.35)",
-    //         }}
-    //         onScroll={handleScroll}
-    //       >
-    //         <Table columns={columns} dataSource={data} pagination={false} />
-    //       </div> */}
-    //
-    //       <div>
-    //         <Table
-    //           columns={columns}
-    //           dataSource={data}
-    //           pagination={false}
-    //           loading={loading}
-    //           rowKey={(record) => record.id}
-    //           showHeader
-    //           footer={footer}
-    //         />
-    //       </div>
-    //     </Content>
-    //   </Navbar>
-    // );
 }

@@ -5,11 +5,25 @@ import { blue, gray } from "@ant-design/colors";
 
 const { Title, Text } = Typography;
 
-const Filters = ({ title, items, handler }) => {
+const Filters = ({ title, items, selectedItems, value, handler }) => {
   const [showAll, setShowAll] = useState(false);
-  const onChangeHandler = (e) => {
-    console.log("called here", e.target.value)
-    handler(e.target.value)
+  const onChangeHandler = (e, item) => {
+    console.log("called here", e.target.value, e.target.checked)
+    let itemValue = '';
+    switch (value){
+      case "id":
+        itemValue = item.id;
+        break;
+      case "name":
+        itemValue = item.name;
+        break;
+    }
+
+    if(e.target.checked){
+      handler([...selectedItems, itemValue])
+    }else{
+      handler(selectedItems.filter((selectedItem) => selectedItem !== itemValue))
+    }
   }
 
   // Define the maximum number of checkboxes to display initially
@@ -56,7 +70,10 @@ const Filters = ({ title, items, handler }) => {
             .slice(0, showAll ? items.length : maxDisplayCount)
             .map((item, index) => (
               <Menu.Item key={index} style={{ backgroundColor: "transparent" }}>
-                <Checkbox onChange={onChangeHandler} style={{ color: gray.at(1) }} value={item.id}>{item.name}</Checkbox>
+                <Checkbox onChange={(e) => onChangeHandler(e, item)}
+                          style={{ color: gray.at(1) }}
+                          value={item.id}>{item.name}</Checkbox>
+                {/*<Checkbox onChange={onChangeHandler} style={{ color: gray.at(1) }} value={item.name}>{item.name}</Checkbox>*/}
               </Menu.Item>
             ))}
 
