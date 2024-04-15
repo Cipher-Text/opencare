@@ -1,0 +1,54 @@
+databaseChangeLog:
+  - changeSet:
+      id: 31ed54da-7238-45dc-b1d7-6eb5daefaecc
+      author: sadman
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: hospital_medical_test_id_pk
+                  name: id
+                  type: bigserial
+              - column:
+                  constraints:
+                    nullable: false
+                  name: hospital_id
+                  type: int4
+              - column:
+                  constraints:
+                    nullable: false
+                  name: medical_test_id
+                  type: int4
+              - column:
+                  name: price
+                  type: int4
+              - column:
+                  constraints:
+                    nullable: false
+                  name: is_active
+                  type: boolean
+                  defaultValueBoolean: true
+            tableName: hospital_medical_test
+        - addForeignKeyConstraint:
+            baseColumnNames: hospital_id
+            baseTableName: hospital_medical_test
+            constraintName: hospital_medical_test_fk_hospital
+            deferrable: false
+            initiallyDeferred: false
+            onUpdate: CASCADE
+            referencedColumnNames: id
+            referencedTableName: hospital
+            validate: true
+        - addForeignKeyConstraint:
+            baseColumnNames: medical_test_id
+            baseTableName: hospital_medical_test
+            constraintName: hospital_medical_test_fk_medical_test
+            deferrable: false
+            initiallyDeferred: false
+            onUpdate: CASCADE
+            referencedColumnNames: id
+            referencedTableName: medical_test
+            validate: true
