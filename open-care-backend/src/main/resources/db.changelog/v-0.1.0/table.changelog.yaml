@@ -57,6 +57,9 @@ databaseChangeLog:
       file: tables/doctor_schedule.yaml
       relativeToChangelogFile: true
   - include:
+      file: tables/hospital_medical_test.yaml
+      relativeToChangelogFile: true
+  - include:
       file: tables/authentication_token.yaml
       relativeToChangelogFile: true
   - include:
