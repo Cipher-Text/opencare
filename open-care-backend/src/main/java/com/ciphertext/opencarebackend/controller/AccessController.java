@@ -26,6 +26,7 @@ public class AccessController {
     }
 
     @GetMapping("permission")
+    @ADMIN
     public ResponseEntity<?> getRolePermission() {
         return ResponseEntity.ok(accessManageService.getRolePermission());
     }
