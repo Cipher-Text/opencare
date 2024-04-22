@@ -56,6 +56,12 @@ databaseChangeLog:
               - column:
                   constraints:
                     nullable: false
+                  name: is_verified
+                  type: boolean
+                  defaultValueBoolean: false
+              - column:
+                  constraints:
+                    nullable: false
                   name: is_active
                   type: boolean
                   defaultValueBoolean: true
