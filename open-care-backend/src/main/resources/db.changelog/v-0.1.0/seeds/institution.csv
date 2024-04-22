@@ -3,7 +3,7 @@ id,acronym,name,bn_name,established_year,enroll,district_id,hospital_type,organi
 2,SSMC,Sir Salimullah Medical College,স্যার সালিমুল্লাহ মেডিকেল কলেজ,1875,230,47,COLLEGE,GOVERNMENT,null,null,https://ssmcmh.gov.bd/
 3,ShSMC,Shaheed Suhrawardy Medical College,শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ,2006,200,47,COLLEGE,GOVERNMENT,23.7686077083286, 90.37158636269464,https://www.shsmc.gov.bd/
 4,MMC,Mymensingh Medical College,ময়মনসিংহ মেডিকেল কলেজ,1924,230,62,COLLEGE,GOVERNMENT,24.742042844940862, 90.40945835319933,http://www.mmc.gov.bd/
-5,CMC,Chattogram Medical College,চট্টগ্রাম মেডিকেল কলেজ,1927,230,8,COLLEGE,GOVERNMENT,null,null,null
+5,CMC,Chattogram Medical College,চট্টগ্রাম মেডিকেল কলেজ,1927,230,8,COLLEGE,GOVERNMENT,22.364171381826644, 91.83011369055644,https://cmc.gov.bd/
 6,RMC,Rajshahi Medical College,রাজশাহী মেডিকেল কলেজ,1954,230,15,COLLEGE,GOVERNMENT,null,null,null
 7,SOMC,Sylhet MAG Osmani Medical College,সিলেট মগ ওসমানী মেডিকেল কলেজ,1936,230,37,COLLEGE,GOVERNMENT,null,null,null
 8,SBMC,Sher-e-Bangla Medical College,শেরে-বাংলা মেডিকেল কলেজ,1964,230,34,COLLEGE,GOVERNMENT,null,null,null
