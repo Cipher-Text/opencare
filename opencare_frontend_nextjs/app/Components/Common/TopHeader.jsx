@@ -1,15 +1,22 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from 'next/navigation'
 import React from "react";
-import { Layout, Menu, theme } from "antd";
+import { Layout, Menu } from "antd";
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Header } = Layout;
 
-const items = ["hospitals", "doctors", "institutes"].map((key) => ({
-    key,
-    menuName: `${key}`,
-    menuLink: `${key}`,
+const items =  ["", "hospitals", "doctors", "institutes"].map((_, index) => ({
+    key: String(index + 1),
+    label: (<Link href={_ === "" ? "/" : _}>{_ === "" ? "Home" : _ }</Link>),
 }));
 const TopHeader = () => {
+    const pathname = usePathname();
+    const indexList = ["/", "/hospitals", "/doctors", "/institutes"]
+        .map((item, index) => item === pathname ? (index + 1).toString() : null)
+        .filter((item) => item !== null);
+
+    console.log(indexList)
     return(
         <Header
             style={{
@@ -21,13 +28,13 @@ const TopHeader = () => {
             }}
         >
             <div className="demo-logo"/>
-            <Menu mode="horizontal" theme="dark">
-                {items.map((item) => (
-                    <Menu.Item key={item.menuName}>
-                        <Link href={item.menuLink}>{item.menuName}</Link>
-                    </Menu.Item>
-                ))}
-            </Menu>
+            <Menu
+                theme="dark"
+                mode="horizontal"
+                selectedKeys={indexList}
+                items={items}
+                style={{ flex: 1, minWidth: 0 }}
+            />
         </Header>
     )
 }

@@ -20,7 +20,7 @@ const {Search} = Input;
 const { Title, Paragraph } = Typography;
 
 const onSearch = (value, _e, info) => console.log(info?.source, value);
-const {Content, Footer, Sider,} = Layout;
+const { Content, Footer, Sider,} = Layout;
 
 const columns = [
     {title: "Index", dataIndex: "id", width: 150},
@@ -34,9 +34,7 @@ const columns = [
         key: "address",
         render: (record) => (
             <span>
-        {(record?.union ? record?.union?.bnName + ", " : "") +
-            (record?.upazila ? record?.upazila?.bnName + ", " : "") +
-            (record?.district ? record?.district?.bnName + ", " : "") +
+        {(record?.district ? record?.district?.bnName + ", " : "") +
             record?.district?.division?.bnName}
       </span>
         ),
@@ -58,8 +56,8 @@ const columns = [
         ),
     },
     {
-        title: "Number Of Bed",
-        dataIndex: "numberOfBed",
+        title: "Enroll Count",
+        dataIndex: "enroll",
         width: 150,
     },
 ];
@@ -69,18 +67,15 @@ export default function Hospitals() {
     const [data, setData] = useState([]);
     const [currentPage, setCurrentPage] = useState(0);
     const [size, setSize] = useState(5);
-    const [selectedDistricts, setSelectedDistricts] = useState([]);
+    const [selectedDistricts, setSelectedDistricts] = useState([]); //TODO: update when backend is ready
     const [selectedHospitalTypes, setSelectedHospitalTypes] = useState([]);
-    const [totalPages, setTotalPages] = useState(0);
     const [districts, setDistricts] = useState([]);
     const [hospitalTypes, setHospitalTypes] = useState([]);
     const [organizationTypes, setOrganizationTypes] = useState([]);
+    const [totalPages, setTotalPages] = useState(0);
 
     const [selectedRow, setSelectedRow] = useState(null);
     const [modalVisible, setModalVisible] = useState(false);
-
-    const containerRef = useRef(null);
-    const scrollThreshold = 50;
 
     const handleRowClick = (record) => {
         setSelectedRow(record);
@@ -92,16 +87,17 @@ export default function Hospitals() {
         setModalVisible(false);
     };
 
-    const getHospitals = async () => {
+    const getInstitutes = async () => {
         try {
             const queryParams = new URLSearchParams({
-                districtIds: selectedDistricts,
+                // districtIds: selectedDistricts, TODO: update backend query and add this line again
                 page: currentPage,
                 size: size,
             });
-            if(selectedHospitalTypes.length !== 0) queryParams.append('hospitalTypes', selectedHospitalTypes);
+            // if(selectedHospitalTypes.length !== 0) queryParams.append('hospitalTypes', selectedHospitalTypes); TODO: for this line also backend needs to be updated
+
             const res = await fetch(
-                `http://localhost:6500/api/hospitals?${queryParams.toString()}`
+                `http://localhost:6500/api/institutions?${queryParams.toString()}`
             );
             if (!res.ok) {
                 throw new Error("Network response was not ok");
@@ -129,23 +125,24 @@ export default function Hospitals() {
 
     useEffect(() => {
         const loadMoreData = async () => {
-            const newData = await getHospitals();
-            setData([...data, ...newData.hospitals]);
+            const newData = await getInstitutes();
+            setData([...data, ...newData.institutions]);
             setTotalPages(newData.totalPages);
             setCurrentPage(newData.currentPage);
         };
         loadMoreData();
     }, [currentPage]);
-    
+
     useEffect(() => {
         const loadMoreData = async () => {
-            const newData = await getHospitals();
-            setData([...newData.hospitals]);
+            const newData = await getInstitutes();
+            setData([...newData.institutions]);
             setTotalPages(newData.totalPages);
             setCurrentPage(newData.currentPage);
         };
         loadMoreData();
-    }, [selectedDistricts, selectedHospitalTypes]);
+    }, []);
+    // [selectedDistricts, selectedHospitalTypes]);
 
     const getDistricts = async () => {
         try {
