@@ -5,3 +5,4 @@ id,name,bn_name
 4,OPERATOR,অপারেটর
 5,USER,ইউজার
 6,DOCTOR,ডাক্তার
+7,HOSPITAL_ADMIN,হসপিটাল এডমিন
