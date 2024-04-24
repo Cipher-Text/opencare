@@ -29,6 +29,7 @@ import java.util.Map;
 @RequestMapping("/api/hospitals")
 @SecureAPI
 @RequiredArgsConstructor
+@CrossOrigin(origins = "http://localhost:3000")
 public class HospitalApiController {
 
     private final HospitalService service;
@@ -45,6 +46,7 @@ public class HospitalApiController {
             @RequestParam(required = false) String organizationType,
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "5") int size) {
+
         Pageable pagingSort = PageRequest.of(page, size);
         HospitalFilter hospitalFilter = HospitalFilter.builder()
                 .name(name)

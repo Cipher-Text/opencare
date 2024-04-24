@@ -10,10 +10,7 @@ import com.ciphertext.opencarebackend.model.entity.Upazila;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -23,6 +20,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api")
 @SecureAPI
+@CrossOrigin(origins = "http://localhost:3000")
 public class LocationApiController {
     @Autowired
     LocationService service;

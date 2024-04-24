@@ -13,6 +13,7 @@ export default function Institutions(){
     const [hospitalType, setHospitalType] = useState('');
     const [district, setDistrict] = useState('');
 
+
     const getInstitutions = async () => {
         try {
             const queryParams = new URLSearchParams({
