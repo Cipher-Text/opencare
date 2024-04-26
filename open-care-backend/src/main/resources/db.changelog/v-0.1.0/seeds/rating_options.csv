@@ -1,0 +1,9 @@
+type_name,source,description,description_bn
+CLEAR_EXPLANATION,DOCTOR,Clear Explanation,পরিষ্কার ব্যাখ্যা
+TIME_FOR_PATIENTS,DOCTOR,Time For Patients,রোগীদের জন্য সময়
+ATTENTIVE_LISTEN,DOCTOR,Attentive Listen,মনোযোগী শ্রোতা
+FRIENDLY_BEHAVIOR,DOCTOR,Friendly Behavior,বন্ধুত্বপূর্ণ আচরণ
+CLEANLINESS,HOSPITAL,Cleanliness,পরিচ্ছন্নতা
+STUFF_BEHAVIOR,HOSPITAL,Stuff Behavior,স্টাফদের আচরণ
+OTHER_FACILITIES,HOSPITAL,Other Facilities,অন্যান্য সুযোগ - সুবিধা
+MEDICAL_TEST_FACILITIES,HOSPITAL,Medical Test Facilities,চিকিৎসা পরীক্ষার সুবিধা

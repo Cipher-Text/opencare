@@ -78,3 +78,8 @@ databaseChangeLog:
             relativeToChangelogFile: true
             tableName: doctor
             quotchar: '"'
+        - loadData:
+            file: seeds/rating_options.csv
+            relativeToChangelogFile: true
+            tableName: rating_options
+            quotchar: '"'
