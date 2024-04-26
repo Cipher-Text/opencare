@@ -62,18 +62,4 @@ public class RatingOptionHandler {
     }
 
 
-    public void addRatingOptions(RatingOptionDTO ratingOptionDTO) {
-        RatingOption ratingOption = new RatingOption();
-        ratingOption.setTypeName(ratingOptionDTO.getTypeName());
-        ratingOption.setSource(ratingOptionDTO.getSource());
-        ratingOption.setDescription(ratingOptionDTO.getDescription());
-        ratingOption.setDescriptionBn(ratingOptionDTO.getDescriptionBn());
-        ratingOptionsRepository.save(ratingOption);
-    }
-
-    public void removeRatingOptions(String typeName) {
-        ratingOptionsRepository.findByTypeName(typeName).ifPresent(ratingOptionsRepository::delete);
-    }
-
-
 }

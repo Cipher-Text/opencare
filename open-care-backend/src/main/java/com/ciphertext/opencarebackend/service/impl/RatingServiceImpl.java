@@ -2,14 +2,8 @@ package com.ciphertext.opencarebackend.service.impl;
 
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.model.dto.ratings.*;
-import com.ciphertext.opencarebackend.model.entity.Doctor;
-import com.ciphertext.opencarebackend.model.entity.Hospital;
-import com.ciphertext.opencarebackend.model.entity.Rating;
-import com.ciphertext.opencarebackend.model.entity.User;
-import com.ciphertext.opencarebackend.repository.DoctorRepository;
-import com.ciphertext.opencarebackend.repository.HospitalRepository;
-import com.ciphertext.opencarebackend.repository.RatingRepository;
-import com.ciphertext.opencarebackend.repository.UserRepository;
+import com.ciphertext.opencarebackend.model.entity.*;
+import com.ciphertext.opencarebackend.repository.*;
 import com.ciphertext.opencarebackend.service.RatingOptionHandler;
 import com.ciphertext.opencarebackend.service.RatingService;
 import com.ciphertext.opencarebackend.service.UserDetailsParser;
@@ -34,6 +28,7 @@ public class RatingServiceImpl implements RatingService {
     private final RatingOptionHandler ratingOptionHandler;
     private final UserDetailsParser userDetails;
     private final UserRepository userRepository;
+    private final RatingOptionsRepository ratingOptionsRepository;
 
     @Override
     @SneakyThrows
@@ -206,5 +201,18 @@ public class RatingServiceImpl implements RatingService {
                 .sum();
         if (totalNumberOfUser == 0) return 0;
         return totalRatingSum / totalNumberOfUser;
+    }
+
+    public void addRatingOptions(RatingOptionDTO ratingOptionDTO) {
+        RatingOption ratingOption = new RatingOption();
+        ratingOption.setTypeName(ratingOptionDTO.getTypeName());
+        ratingOption.setSource(ratingOptionDTO.getSource());
+        ratingOption.setDescription(ratingOptionDTO.getDescription());
+        ratingOption.setDescriptionBn(ratingOptionDTO.getDescriptionBn());
+        ratingOptionsRepository.save(ratingOption);
+    }
+
+    public void removeRatingOptions(String typeName) {
+        ratingOptionsRepository.findByTypeName(typeName).ifPresent(ratingOptionsRepository::delete);
     }
 }
