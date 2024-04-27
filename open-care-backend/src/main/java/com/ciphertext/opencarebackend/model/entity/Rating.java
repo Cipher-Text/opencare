@@ -36,8 +36,7 @@ public class Rating {
     @Column(name = "comments", length = 250)
     private String comments;
 
-    @JdbcTypeCode(SqlTypes.JSON)
-    @Column(name = "rating_options", columnDefinition = "jsonb")
-    private Hospital rating_options;
+    @Column(name = "rating_options")
+    private String rating_options = "[]";
 
 }

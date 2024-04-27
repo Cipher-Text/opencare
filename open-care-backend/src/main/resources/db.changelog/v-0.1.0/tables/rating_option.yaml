@@ -1,0 +1,28 @@
+databaseChangeLog:
+  - changeSet:
+      id: 7b137e38-b3fd-4efd-961b-c618f8d1534c
+      author: mazhar
+      changes:
+        - createTable:
+            tableName: rating_options
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: rating_option_id_pk
+                  name: id
+                  type: integer
+                  autoIncrement: true
+              - column:
+                  name: type_name
+                  type: varchar(255)
+              - column:
+                  name: source
+                  type: varchar(255)
+              - column:
+                  name: description
+                  type: varchar(255)
+              - column:
+                  name: description_bn
+                  type: varchar(255)
