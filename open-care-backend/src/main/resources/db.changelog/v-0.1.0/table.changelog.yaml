@@ -68,3 +68,9 @@ databaseChangeLog:
   - include:
       file: tables/rating.yaml
       relativeToChangelogFile: true
+  - include:
+      file: tables/rating_option.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: tables/rating_update.yaml
+      relativeToChangelogFile: true
