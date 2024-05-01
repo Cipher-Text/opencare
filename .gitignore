@@ -33,3 +33,7 @@ hs_err_pid*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# ignore all config
+.idea
+.jpb
