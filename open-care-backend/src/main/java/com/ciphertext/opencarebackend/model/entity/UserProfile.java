@@ -27,6 +27,7 @@ public class UserProfile {
     private String bnName;
 
     @Enumerated(EnumType.STRING)
+    @Column(name = "gender")
     private Gender gender;
 
     @Column(name = "date_of_birth")

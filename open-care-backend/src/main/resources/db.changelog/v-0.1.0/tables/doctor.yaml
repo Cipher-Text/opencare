@@ -24,6 +24,9 @@ databaseChangeLog:
                   name: bn_name
                   type: varchar(100)
               - column:
+                  name: gender
+                  type: varchar(20)
+              - column:
                   name: bmdc_no
                   type: varchar(100)
               - column:

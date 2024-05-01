@@ -1,5 +1,6 @@
 package com.ciphertext.opencarebackend.model.entity;
 
+import com.ciphertext.opencarebackend.model.enums.Gender;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -25,6 +26,10 @@ public class Doctor {
 
     @Column(name="bn_name")
     private String bnName;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "gender")
+    private Gender gender;
 
     @Column(name="bmdc_no")
     private String bmdcNo;
