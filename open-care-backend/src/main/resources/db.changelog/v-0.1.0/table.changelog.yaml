@@ -74,3 +74,6 @@ databaseChangeLog:
   - include:
       file: tables/rating_update.yaml
       relativeToChangelogFile: true
+  - include:
+      file: tables/social_organization.yaml
+      relativeToChangelogFile: true
