@@ -30,15 +30,27 @@ public class JWTTokenService {
     public String generateToken(User user) {
         Date expire = new Date(new Date().getTime() + (long) tokenExpireTime * 60 * 1000);
         List<String> authorities = user.getRoles().stream().map(Role::getName).toList();
+        List<String> permissions = getPersmissions(user);
         return Jwts.builder()
                 .claim("id", user.getId())
                 .claim("name", user.getUsername())
                 .claim("email", user.getEmail())
                 .claim("authorities", authorities)
+                .claim("permissions", permissions)
                 .setIssuedAt(new Date())
                 .setExpiration(expire)
                 .signWith(SignatureAlgorithm.HS512, secret)
                 .compact();
+    }
+
+    private List<String> getPersmissions(User user) {
+        List<String> permissions = new ArrayList<>();
+        user.getRoles().forEach(role -> {
+            role.getPermissions().forEach(permission -> {
+                permissions.add(permission.getName());
+            });
+        });
+        return permissions;
     }
 
     public boolean validateToken(String jwt) {
@@ -67,6 +79,11 @@ public class JWTTokenService {
     public List<String> extractAuthorities(String jwt) {
         if (jwt == null) return new ArrayList<>();
         return (List<String>) parseClaimsFromJWT(jwt).get("authorities");
+    }
+
+    public List<String> extractPermissions(String jwt) {
+        if (jwt == null) return new ArrayList<>();
+        return (List<String>) parseClaimsFromJWT(jwt).get("permissions");
     }
 
     private Claims parseClaimsFromJWT(String jwt) {

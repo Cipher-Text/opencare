@@ -12,6 +12,7 @@ databaseChangeLog:
                     primaryKeyName: medical_speciality_id_pk
                   name: id
                   type: serial
+                  startWith: 197
               - column:
                   name: parent_id
                   type: int4

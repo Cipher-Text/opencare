@@ -1,8 +1,8 @@
 id,name
-1,create
-2,read
-3,update
-4,delete
-5,profile-read
-6,profile-create
-7,profile-update
+1,CREATE
+2,READ
+3,UPDATE
+4,DELETE
+5,PROFILE-READ
+6,PROFILE-CREATE
+7,PROFILE-UPDATE

@@ -1,6 +1,8 @@
 package com.ciphertext.opencarebackend.service.impl;
 
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
+import com.ciphertext.opencarebackend.model.dto.MedicalSpecialityDTO;
+import com.ciphertext.opencarebackend.model.mappers.MedicalSpecialityMapper;
 import com.ciphertext.opencarebackend.service.MedicalSpecialityService;
 import com.ciphertext.opencarebackend.model.entity.MedicalSpeciality;
 import com.ciphertext.opencarebackend.repository.MedicalSpecialityRepository;
@@ -18,6 +20,8 @@ public class MedicalSpecialityServiceImpl implements MedicalSpecialityService {
 
     @Autowired
     MedicalSpecialityRepository medicalSpecialityRepository;
+    @Autowired
+    private MedicalSpecialityMapper medicalSpecialityMapper;
 
     @Override
     public List<MedicalSpeciality> getAllSpecialities() {
@@ -30,8 +34,8 @@ public class MedicalSpecialityServiceImpl implements MedicalSpecialityService {
     }
 
     @Override
-    public MedicalSpeciality createSpeciality(MedicalSpeciality medicalSpeciality) {
-        return medicalSpecialityRepository.save(medicalSpeciality);
+    public MedicalSpecialityDTO createSpeciality(MedicalSpecialityDTO medicalSpecialityDTO) {
+        return medicalSpecialityMapper.entityToDto(medicalSpecialityRepository.save(medicalSpecialityMapper.dtoToEntity(medicalSpecialityDTO)));
     }
 
     @Override

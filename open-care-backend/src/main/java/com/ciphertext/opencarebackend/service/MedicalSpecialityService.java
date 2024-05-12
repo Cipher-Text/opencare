@@ -1,6 +1,7 @@
 package com.ciphertext.opencarebackend.service;
 
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
+import com.ciphertext.opencarebackend.model.dto.MedicalSpecialityDTO;
 import com.ciphertext.opencarebackend.model.entity.MedicalSpeciality;
 import org.springframework.http.ResponseEntity;
 
@@ -12,7 +13,7 @@ import java.util.List;
 public interface MedicalSpecialityService {
     List<MedicalSpeciality> getAllSpecialities();
     MedicalSpeciality getSpecialityById(int id) throws ResourceNotFoundException;
-    MedicalSpeciality createSpeciality(MedicalSpeciality medicalSpeciality);
+    MedicalSpecialityDTO createSpeciality(MedicalSpecialityDTO medicalSpecialityDTO);
     MedicalSpeciality updateSpeciality(MedicalSpeciality newMedicalSpeciality, int specialityId);
     ResponseEntity<Object> deleteSpecialityById(int specialityId);
 }

@@ -2,6 +2,7 @@ package com.ciphertext.opencarebackend.controller;
 
 import com.ciphertext.opencarebackend.annotations.SecureAPI;
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
+import com.ciphertext.opencarebackend.model.dto.MedicalSpecialityDTO;
 import com.ciphertext.opencarebackend.service.MedicalSpecialityService;
 import com.ciphertext.opencarebackend.model.entity.MedicalSpeciality;
 import jakarta.validation.Valid;
@@ -17,7 +18,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/api/specialities")
-@SecureAPI
+//@SecureAPI
 public class SpecialityApiController {
     @Autowired
     MedicalSpecialityService service;
@@ -35,8 +36,8 @@ public class SpecialityApiController {
     }
 
     @PostMapping("")
-    public MedicalSpeciality createSpeciality(@Valid @RequestBody MedicalSpeciality hospital) {
-        return service.createSpeciality(hospital);
+    public MedicalSpecialityDTO createSpeciality(@Valid @RequestBody MedicalSpecialityDTO medicalSpecialityDTO) {
+        return service.createSpeciality(medicalSpecialityDTO);
     }
 
     @PutMapping("/edit/{id}")

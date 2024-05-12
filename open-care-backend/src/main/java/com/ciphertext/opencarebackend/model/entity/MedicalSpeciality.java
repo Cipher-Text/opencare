@@ -15,7 +15,7 @@ import jakarta.persistence.*;
 public class MedicalSpeciality {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
 
     @ManyToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "parent_id")

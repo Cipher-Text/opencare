@@ -37,7 +37,9 @@ public class SecurityConfig {
                 .csrf(AbstractHttpConfigurer::disable)
                 .cors(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(authorizer->
-                        authorizer.anyRequest().authenticated())
+                        authorizer
+                        .requestMatchers(HttpMethod.POST, "/api/**").hasAnyAuthority("CREATE")
+                        .anyRequest().authenticated())
                 .sessionManagement(e -> e.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
         .addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class);
         return http.build();
@@ -68,7 +70,6 @@ public class SecurityConfig {
                         "/swagger-ui/**",
                         "/actuator/**"
                 )
-                .requestMatchers(HttpMethod.POST, "/api/user-management/user")
                 .requestMatchers(HttpMethod.GET,
                         "/api/specialities/**",
                         "/api/institutions/**",
