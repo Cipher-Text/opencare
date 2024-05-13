@@ -12,6 +12,7 @@ databaseChangeLog:
                     primaryKeyName: division_id_pk
                   name: id
                   type: serial
+                  startWith: 10
               - column:
                   constraints:
                     nullable: false

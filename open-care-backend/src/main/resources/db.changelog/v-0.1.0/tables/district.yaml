@@ -12,6 +12,7 @@ databaseChangeLog:
                     primaryKeyName: district_id_pk
                   name: id
                   type: serial
+                  startWith: 66
               - column:
                   constraints:
                     nullable: false

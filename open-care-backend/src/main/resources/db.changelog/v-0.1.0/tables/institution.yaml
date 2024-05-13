@@ -12,6 +12,7 @@ databaseChangeLog:
                     primaryKeyName: institution_id_pk
                   name: id
                   type: serial
+                  startWith: 151
               - column:
                   name: acronym
                   type: varchar(10)

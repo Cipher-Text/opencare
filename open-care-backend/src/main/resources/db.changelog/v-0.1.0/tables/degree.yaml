@@ -12,6 +12,7 @@ databaseChangeLog:
                     primaryKeyName: degree_id_pk
                   name: id
                   type: serial
+                  startWith: 38
               - column:
                   constraints:
                     nullable: false
