@@ -12,6 +12,7 @@ databaseChangeLog:
                     primaryKeyName: union_id_pk
                   name: id
                   type: serial
+                  startWith: 4541
               - column:
                   constraints:
                     nullable: false
