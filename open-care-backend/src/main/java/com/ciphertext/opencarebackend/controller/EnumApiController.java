@@ -1,6 +1,5 @@
 package com.ciphertext.opencarebackend.controller;
 
-import com.ciphertext.opencarebackend.annotations.SecureAPI;
 import com.ciphertext.opencarebackend.model.dto.HospitalTypeDTO;
 import com.ciphertext.opencarebackend.model.dto.OrganizationTypeDTO;
 import com.ciphertext.opencarebackend.model.enums.HospitalType;
@@ -16,7 +15,6 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api")
-@SecureAPI
 @CrossOrigin(origins = "http://localhost:3000")
 public class EnumApiController {
 

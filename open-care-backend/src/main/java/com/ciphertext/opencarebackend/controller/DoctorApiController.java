@@ -1,28 +1,21 @@
 package com.ciphertext.opencarebackend.controller;
 
-import com.ciphertext.opencarebackend.annotations.SecureAPI;
-import com.ciphertext.opencarebackend.model.dto.DoctorDTO;
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.model.dto.DoctorDTO;
 import com.ciphertext.opencarebackend.model.entity.Doctor;
 import com.ciphertext.opencarebackend.model.filter.DoctorFilter;
 import com.ciphertext.opencarebackend.service.DoctorService;
-import com.ciphertext.opencarebackend.model.entity.Doctor;
-import com.ciphertext.opencarebackend.service.DoctorService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -30,7 +23,6 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/api/doctors")
-@SecureAPI
 @RequiredArgsConstructor
 public class DoctorApiController {
 

@@ -1,6 +1,5 @@
 package com.ciphertext.opencarebackend.controller;
 
-import com.ciphertext.opencarebackend.annotations.SecureAPI;
 import com.ciphertext.opencarebackend.model.dto.auth.LoginResponse;
 import com.ciphertext.opencarebackend.model.dto.auth.ResetPasswordRequestDTO;
 import com.ciphertext.opencarebackend.model.dto.auth.UserLogin;
@@ -31,7 +30,6 @@ public class AuthenticationController {
         return ResponseEntity.ok(loginResponse);
     }
     @PostMapping("refresh-token")
-    @SecureAPI
     public ResponseEntity<LoginResponse> refreshToken(@Valid @RequestBody String refreshToken, HttpServletRequest request) {
         String authHeader = request.getHeader("Authorization");
         if (authHeader == null) {
@@ -55,7 +53,6 @@ public class AuthenticationController {
     }
 
     @PostMapping("logout")
-    @SecureAPI
     public ResponseEntity<?> logout(HttpServletRequest servletRequest) {
         String authHeader = servletRequest.getHeader("Authorization");
         if (authHeader == null) {

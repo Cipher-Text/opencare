@@ -1,8 +1,5 @@
 package com.ciphertext.opencarebackend.controller;
 
-import com.ciphertext.opencarebackend.annotations.ADMIN;
-import com.ciphertext.opencarebackend.annotations.SUPERADMIN;
-import com.ciphertext.opencarebackend.annotations.SecureAPI;
 import com.ciphertext.opencarebackend.model.dto.UserInfoDTO;
 import com.ciphertext.opencarebackend.service.UserManagementService;
 import com.ciphertext.opencarebackend.service.message.ApplicationMessageResolver;
@@ -31,21 +28,16 @@ public class UserManagementController {
 
 
     @GetMapping("user/roles")
-    @SecureAPI
     public ResponseEntity<?> getUserRole(){
        return ResponseEntity.ok(userManagementService.getUserRole());
     }
 
     @PostMapping("user/roles/{userid}/{role}")
-    @SecureAPI
-    @SUPERADMIN
     public ResponseEntity<?> addRoleToUser(@PathVariable("userid") Long userId,@PathVariable("role") String role){
         userManagementService.addRoleToUser(userId,role);
         return ResponseEntity.ok(messageResolver.getMessage("user.role.add"));
     }
     @PostMapping("user/activate/{userid}")
-    @SecureAPI
-    @ADMIN
     public ResponseEntity<?> activateUser(@PathVariable("userid") Long userId){
         userManagementService.activateUser(userId);
         return ResponseEntity.ok(messageResolver.getMessage("user.activate"));

@@ -1,6 +1,5 @@
 package com.ciphertext.opencarebackend.controller;
 
-import com.ciphertext.opencarebackend.annotations.SecureAPI;
 import com.ciphertext.opencarebackend.model.dto.InstitutionDTO;
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.service.InstitutionService;
@@ -23,7 +22,6 @@ import java.util.Map;
 @RequiredArgsConstructor
 @RequestMapping("/api/institutions")
 @CrossOrigin(origins = "http://localhost:3000")
-@SecureAPI
 public class InstitutionApiController {
 
     private final InstitutionService institutionService;

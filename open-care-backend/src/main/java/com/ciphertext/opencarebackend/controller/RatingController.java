@@ -1,6 +1,5 @@
 package com.ciphertext.opencarebackend.controller;
 
-import com.ciphertext.opencarebackend.annotations.SecureAPI;
 import com.ciphertext.opencarebackend.model.dto.ratings.RatingDetailViewerDTO;
 import com.ciphertext.opencarebackend.model.dto.ratings.RatingViewerDTO;
 import com.ciphertext.opencarebackend.model.dto.ratings.UserRatingViewerDTO;
@@ -15,7 +14,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/ratings")
 @RequiredArgsConstructor
-@SecureAPI
 public class RatingController {
     private final RatingService ratingService;
 

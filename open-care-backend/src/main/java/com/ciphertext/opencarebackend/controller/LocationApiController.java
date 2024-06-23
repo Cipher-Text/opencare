@@ -1,6 +1,5 @@
 package com.ciphertext.opencarebackend.controller;
 
-import com.ciphertext.opencarebackend.annotations.SecureAPI;
 import com.ciphertext.opencarebackend.exception.ResourceNotFoundException;
 import com.ciphertext.opencarebackend.service.LocationService;
 import com.ciphertext.opencarebackend.model.entity.District;
@@ -19,7 +18,6 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/api")
-@SecureAPI
 @CrossOrigin(origins = "http://localhost:3000")
 public class LocationApiController {
     @Autowired
