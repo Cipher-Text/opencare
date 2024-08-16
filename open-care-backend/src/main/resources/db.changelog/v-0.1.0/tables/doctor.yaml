@@ -55,7 +55,7 @@ databaseChangeLog:
                   type: bytea
               - column:
                   name: description
-                  type: varchar(1000)
+                  type: text
               - column:
                   constraints:
                     nullable: false

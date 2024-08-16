@@ -83,3 +83,8 @@ databaseChangeLog:
             relativeToChangelogFile: true
             tableName: rating_options
             quotchar: '"'
+        - loadData:
+            file: seeds/social_organization.csv
+            relativeToChangelogFile: true
+            tableName: social_organization
+            quotchar: '"'
