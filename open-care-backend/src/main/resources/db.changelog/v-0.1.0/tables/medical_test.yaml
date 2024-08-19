@@ -1,0 +1,33 @@
+databaseChangeLog:
+  - changeSet:
+      id: e65af50f-37f2-4ea3-b0fd-f876cb8cf4a7
+      author: sadman
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: medical_test_id_pk
+                  name: id
+                  type: serial
+                  startWith: 633
+              - column:
+                  name: parent_id
+                  type: int4
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: varchar(100)
+              - column:
+                  name: bn_name
+                  type: varchar(100)
+              - column:
+                  name: alternative_names
+                  type: varchar[]
+              - column:
+                  name: description
+                  type: varchar(500)
+            tableName: medical_test

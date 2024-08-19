@@ -1,0 +1,70 @@
+databaseChangeLog:
+  - changeSet:
+      id: 7b137e38-b3fd-4efd-961b-c618f8d1534b
+      author: sadman
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: rating_id_pk
+                  name: id
+                  type: bigserial
+              - column:
+                  constraints:
+                    nullable: false
+                  name: user_id
+                  type: int8
+              - column:
+                  name: doctor_id
+                  type: int8
+              - column:
+                  name: hospital_id
+                  type: int4
+              - column:
+                  name: comments
+                  type: varchar(250)
+              - column:
+                  name: rating_options
+                  type: json
+            tableName: rating
+        - addForeignKeyConstraint:
+            baseColumnNames: user_id
+            baseTableName: rating
+            constraintName: rating_fk_user
+            deferrable: false
+            initiallyDeferred: false
+            onUpdate: CASCADE
+            referencedColumnNames: id
+            referencedTableName: user
+            validate: true
+        - addForeignKeyConstraint:
+            baseColumnNames: doctor_id
+            baseTableName: rating
+            constraintName: rating_fk_doctor
+            deferrable: false
+            initiallyDeferred: false
+            onUpdate: CASCADE
+            referencedColumnNames: id
+            referencedTableName: doctor
+            validate: true
+        - addForeignKeyConstraint:
+            baseColumnNames: hospital_id
+            baseTableName: rating
+            constraintName: rating_fk_hospital
+            deferrable: false
+            initiallyDeferred: false
+            onUpdate: CASCADE
+            referencedColumnNames: id
+            referencedTableName: hospital
+            validate: true
+
+
+
+
+
+
+
+

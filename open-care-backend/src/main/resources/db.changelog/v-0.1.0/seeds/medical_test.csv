@@ -1,0 +1,633 @@
+id,name,bn_name,alternative_names,parent_id
+1,A1C test,রক্তের গ্লূকোজ পরীক্ষা,null,null
+2,Abdominal CT scan,সিটি স্ক্যান,null,178
+3,Abdominal MRI scan,পেটের এমআরআই স্ক্যান,null,390
+4,Abdominal tap,পেটের টোকা,null,null
+5,Abdominal ultrasound,পেটের আল্ট্রাসাউন্ড,null,591
+6,Abdominal wall fat pad biopsy,পেটের প্রাচীর চর্বি প্যাড বায়োপসি,null,null
+7,Abdominal x-ray,পেটের এক্স-রে,null,631
+8,ACE blood test,ACE রক্ত পরীক্ষা,null,null
+9,Acetylcholine receptor antibody,অ্যাসিটাইলকোলিন রিসেপ্টর অ্যান্টিবডি,null,null
+10,Acid loading test (pH),অ্যাসিড লোডিং পরীক্ষা (পিএইচ),null,null
+11,Acid mucopolysaccharides,অ্যাসিড মিউকোপলিস্যাকারাইডস,null,null
+12,Acid-fast stain,অ্যাসিড দ্রুত দাগ,null,null
+13,ACTH blood test,ACTH রক্ত পরীক্ষা,null,null
+14,ACTH stimulation test,ACTH উদ্দীপনা পরীক্ষা,null,null
+15,Acute flaccid myelitis,তীব্র ফ্ল্যাসিড মাইলাইটিস,null,null
+16,Alanine transaminase (ALT) blood test,অ্যালানাইন ট্রান্সমিনেজ (ALT) রক্ত পরীক্ষা,null,null
+17,Albumin blood (serum) test,অ্যালবুমিন রক্ত (সিরাম) পরীক্ষা,null,null
+18,Aldolase blood test,অ্যালডোলেজ রক্ত পরীক্ষা,null,null
+19,Aldosterone blood test,অ্যালডোস্টেরন রক্ত পরীক্ষা,null,null
+20,Allergy testing - skin,অ্যালার্জি পরীক্ষা - ত্বক,null,null
+21,ALP - blood test,ALP - রক্ত পরীক্ষা,null,null
+22,ALP isoenzyme test,ALP আইসোএনজাইম পরীক্ষা,null,null
+23,Alpha fetoprotein,আলফা ফেটোপ্রোটিন,null,null
+24,Alpha-1 antitrypsin blood test,আলফা -1 অ্যান্টিট্রিপসিন রক্ত পরীক্ষা,null,null
+25,Aminoaciduria,অ্যামিনোঅ্যাসিডুরিয়া,null,null
+26,Ammonia blood test,অ্যামোনিয়া রক্ত পরীক্ষা,null,null
+27,Amniocentesis,অ্যামনিওসেন্টেসিস,null,null
+28,Amylase - blood,অ্যামাইলেস - রক্ত,null,null
+29,Amylase - urine,অ্যামাইলেজ - প্রস্রাব,null,null
+30,Anoscopy,অ্যানোস্কোপি,null,null
+31,Anthrax blood test,অ্যানথ্রাক্স রক্ত পরীক্ষা,null,null
+32,Antibody titer blood test,অ্যান্টিবডি টাইটার রক্ত পরীক্ষা,null,null
+33,Antidiuretic hormone blood test,অ্যান্টিডিউরেটিক হরমোন রক্ত পরীক্ষা,null,null
+34,Anti-DNase B blood test,অ্যান্টি-ডিনেস বি রক্ত পরীক্ষা,null,null
+35,Anti-glomerular basement membrane blood test,অ্যান্টি-গ্লোমেরুলার বেসমেন্ট মেমব্রেন রক্ত পরীক্ষা,null,null
+36,Anti-insulin antibody test,অ্যান্টি-ইনসুলিন অ্যান্টিবডি পরীক্ষা,null,null
+37,Antimitochondrial antibody,অ্যান্টিমাইটোকন্ড্রিয়াল অ্যান্টিবডি,null,null
+38,Antinuclear antibody panel,অ্যান্টিনিউক্লিয়ার অ্যান্টিবডি প্যানেল,null,null
+39,Antiparietal cell antibody test,অ্যান্টিপারিয়েটাল সেল অ্যান্টিবডি পরীক্ষা,null,null
+40,Anti-smooth muscle antibody,অ্যান্টি-মসৃণ পেশী অ্যান্টিবডি,null,null
+41,Antistreptolysin O titer,অ্যান্টিস্ট্রেপ্টোলাইসিন ও টাইটার,null,null
+42,Antithrombin III blood test,অ্যান্টিথ্রোমবিন III রক্ত পরীক্ষা,null,null
+43,Antithyroglobulin antibody test,অ্যান্টিথাইরোগ্লোবুলিন অ্যান্টিবডি পরীক্ষা,null,null
+44,Aortic angiography,অর্টিক এনজিওগ্রাফি,null,null
+45,Apgar score,আপগার স্কোর,null,null
+46,Apolipoprotein B100,Apolipoprotein B100,null,null
+47,Apolipoprotein CII,অ্যাপলিপোপ্রোটিন সিআইআই,null,null
+48,Arm CT scan,আর্ম সিটি স্ক্যান,null,178
+49,Arm MRI scan,আর্ম এমআরআই স্ক্যান,null,390
+50,Arterial stick,ধমনী লাঠি,null,null
+51,Arteriogram,আর্টেরিওগ্রাম,null,null
+52,Aspartate aminotransferase (AST) blood test,Aspartate aminotransferase (AST) রক্ত পরীক্ষা,null,null
+53,Aspergillosis precipitin,অ্যাসপারজিলোসিস প্রিসিপিটিন,null,null
+54,Audiometry,অডিওমেট্রি,null,null
+55,Autoimmune liver disease panel,অটোইমিউন লিভার ডিজিজ প্যানেল,null,null
+56,B and T cell screen,বি এবং টি সেল স্ক্রীন,null,null
+57,BAER - brainstem auditory evoked response,BAER - ব্রেনস্টেম অডিটরি ইভোকড সাড়া,null,null
+58,Barium enema,বেরিয়াম এনিমা,null,null
+59,Basic metabolic panel,মৌলিক বিপাকীয় প্যানেল,null,null
+60,B-cell leukemia/lymphoma panel,বি-সেল লিউকেমিয়া/লিম্ফোমা প্যানেল,null,null
+61,Bernstein test,বার্নস্টাইন পরীক্ষা,null,null
+62,Beta-carotene blood test,বিটা ক্যারোটিন রক্ত পরীক্ষা,null,null
+63,Bile culture,পিত্ত সংস্কৃতি,null,null
+64,Bilirubin - urine,বিলিরুবিন - প্রস্রাব,null,600
+65,Bilirubin blood test,বিলিরুবিন রক্ত পরীক্ষা,null,null
+66,Biopsy,বায়োপসি,null,null
+67,Biopsy - biliary tract,বায়োপসি - পিত্তনালী,null,null
+68,Bladder biopsy,মূত্রাশয় বায়োপসি,null,null
+69,Bleeding time,রক্তপাতের সময়,null,null
+70,Blood culture,রক্তের সংস্কৃতি,null,null
+71,Blood differential test,রক্তের পার্থক্য পরীক্ষা,null,null
+72,Blood gases,রক্তের গ্যাস,null,null
+73,Blood pressure measurement,রক্তচাপ পরিমাপ,null,null
+74,Blood smear,রক্তের দাগ,null,null
+75,Blood sugar test,রক্তে শর্করার পরীক্ষা,null,null
+76,Blood typing,রক্তের টাইপিং,null,null
+77,Bone lesion biopsy,হাড়ের ক্ষত বায়োপসি,null,null
+78,Bone marrow aspiration,অস্থি মজ্জার উচ্চাকাঙ্ক্ষা,null,null
+79,Bone marrow biopsy,অস্থি মজ্জা বায়োপসি,null,null
+80,Bone marrow culture,অস্থি মজ্জা সংস্কৃতি,null,null
+81,Bone mineral density test,হাড়ের খনিজ ঘনত্ব পরীক্ষা,null,null
+82,Bone scan,হাড় স্ক্যান,null,null
+83,Bone x-ray,হাড়ের এক্স-রে,null,631
+84,Bowel transit time,আন্ত্রিক ট্রানজিট সময়,null,null
+85,Brain natriuretic peptide test,মস্তিষ্কের প্রাকৃতিক পেপটাইড পরীক্ষা,null,null
+86,Brain PET scan,ব্রেন পিইটি স্ক্যান,null,null
+87,Breast biopsy - stereotactic,স্তন বায়োপসি - স্টেরিওট্যাকটিক,null,null
+88,Breast biopsy - ultrasound,স্তন বায়োপসি - আল্ট্রাসাউন্ড,null,null
+89,Breast MRI scan,ব্রেস্ট এমআরআই স্ক্যান,null,390
+90,Breast ultrasound,স্তনের আল্ট্রাসাউন্ড,null,591
+91,Breath alcohol test,শ্বাস অ্যালকোহল পরীক্ষা,null,null
+92,Bronchoscopic culture,ব্রঙ্কোস্কোপিক সংস্কৃতি,null,null
+93,Bronchoscopy,ব্রঙ্কোস্কোপি,null,null
+94,Buccal smear,বুকাল স্মিয়ার,null,null
+95,BUN - blood test,BUN - রক্ত পরীক্ষা,null,null
+96,C1 esterase inhibitor,C1 এস্টারেজ ইনহিবিটার,null,null
+97,CA-125 blood test,CA-125 রক্ত পরীক্ষা,null,null
+98,Calcitonin blood test,ক্যালসিটোনিন রক্ত পরীক্ষা,null,null
+99,Calcium - ionized,ক্যালসিয়াম - আয়নিত,null,null
+100,Calcium - urine,ক্যালসিয়াম - প্রস্রাব,null,null
+101,Calcium blood test,ক্যালসিয়াম রক্ত পরীক্ষা,null,null
+102,Caloric stimulation,ক্যালোরি উদ্দীপনা,null,null
+103,Campylobacter serology test,ক্যাম্পাইলোব্যাক্টর সেরোলজি পরীক্ষা,null,null
+104,Candida auris infection,ক্যান্ডিডা অরিস সংক্রমণ,null,null
+105,Capillary nail refill test,কৈশিক পেরেক রিফিল পরীক্ষা,null,null
+106,Capillary sample,কৈশিক নমুনা,null,null
+107,Capsule endoscopy,ক্যাপসুল এন্ডোস্কোপি,null,null
+108,Cardiac catheterization,কার্ডিয়াক ক্যাথেটারাইজেশন,null,null
+109,Cardiac event monitors,কার্ডিয়াক ইভেন্ট মনিটর,null,null
+110,Carotid duplex,ক্যারোটিড ডুপ্লেক্স,null,null
+111,Carpal tunnel biopsy,কার্পাল টানেল বায়োপসি,null,null
+112,Catecholamine blood test,ক্যাটেকোলামাইন রক্ত পরীক্ষা,null,null
+113,Catecholamines - urine,Catecholamines - প্রস্রাব,null,null
+114,CBC blood test,সিবিসি,null,null
+115,CEA blood test,সিইএ রক্ত পরীক্ষা,null,null
+116,Cerebral angiography,সেরিব্রাল এনজিওগ্রাফি,null,null
+117,Cerebral spinal fluid (CSF) collection,সেরিব্রাল স্পাইনাল ফ্লুইড (CSF) সংগ্রহ,null,null
+118,Cerebrospinal fluid (CSF) culture,সেরিব্রোস্পাইনাল ফ্লুইড (CSF) কালচার,null,null
+119,Ceruloplasmin blood test,সেরুলোপ্লাজমিন রক্ত পরীক্ষা,null,null
+120,Cervical MRI scan,সার্ভিকাল এমআরআই স্ক্যান,null,390
+121,Cervical spine CT scan,সার্ভিকাল মেরুদণ্ড সিটি স্ক্যান,null,178
+122,Charcot foot,চারকোট পা,null,null
+123,Chest CT,বুক সিটি,null,null
+124,Chest MRI,বুকের এমআরআই,null,390
+125,Chest x-ray,বুকের এক্স - রে,null,631
+126,Chloride - urine test,ক্লোরাইড - প্রস্রাব পরীক্ষা,null,null
+127,Chloride test - blood,ক্লোরাইড পরীক্ষা - রক্ত,null,null
+128,Cholinesterase - blood,কোলিনস্টেরেজ - রক্ত,null,null
+129,Chorionic villus sampling,কোরিওনিক ভিলাস স্যাম্পলিং,null,null
+130,Chromium - blood test,ক্রোমিয়াম - রক্ত পরীক্ষা,null,null
+131,Citric acid urine test,সাইট্রিক অ্যাসিড প্রস্রাব পরীক্ষা,null,null
+132,Clean catch urine sample,ক্লিন ক্যাচ ইউরিনের নমুনা,null,null
+133,CMV blood test,CMV রক্ত পরীক্ষা,null,null
+134,CO2 blood test,CO2 রক্ত পরীক্ষা,null,null
+135,Coccidioides complement fixation,Coccidioides স্থির পরিপূরক,null,null
+136,Coccidioides precipitin test,Coccidioides precipitin পরীক্ষা,null,null
+137,Cologuard,কলোগার্ড,null,null
+138,Colonoscopy,কোলনোস্কোপি,null,null
+139,Color vision test,রঙ দৃষ্টি পরীক্ষা,null,null
+140,Colposcopy - directed biopsy,কলপোস্কোপি - নির্দেশিত বায়োপসি,null,null
+141,Complement,পরিপূরক,null,null
+142,Complement component 3 (C3),পরিপূরক উপাদান 3 (C3),null,null
+143,Complement component 4,পরিপূরক উপাদান 4,null,null
+144,Complement fixation test to C burnetii,সি বার্নেটির পরিপূরক ফিক্সেশন পরীক্ষা,null,null
+145,Comprehensive metabolic panel,ব্যাপক বিপাকীয় প্যানেল,null,null
+146,Cone biopsy,শঙ্কু বায়োপসি,null,null
+147,Coombs test,coombs পরীক্ষা,null,null
+148,Cord blood testing,কর্ড রক্ত পরীক্ষা,null,null
+149,Coronary angiography,হৃৎপিণ্ডে এনজিওগ্রাফি,null,null
+150,Coronavirus,করোনা ভাইরাস,null,null
+151,Coronavirus disease 2019 (COVID-19),করোনাভাইরাস রোগ 2019 (COVID-19),null,null
+152,Cortical Auditory Evoked Potential Analyzer,কর্টিকাল অডিটরি ইভোকড পটেনশিয়াল অ্যানালাইজার,null,null
+153,Cortisol blood test,করটিসল রক্ত পরীক্ষা,null,null
+154,Cortisol urine test,কর্টিসল প্রস্রাব পরীক্ষা,null,null
+155,COVID-19 antibody test,COVID-19 অ্যান্টিবডি পরীক্ষা,null,null
+156,COVID-19 symptoms,কোভিড-19 লক্ষণগুলো,null,null
+157,COVID-19 virus test,COVID-19 ভাইরাস পরীক্ষা,null,null
+158,CPK isoenzymes test,CPK আইসোএনজাইম পরীক্ষা,null,null
+159,C-reactive protein,সি প্রতিক্রিয়াশীল প্রোটিন,null,null
+160,Creatine phosphokinase test,ক্রিয়েটাইন ফসফোকিনেস পরীক্ষা,null,null
+161,Creatinine blood test,ক্রিয়েটিনিন রক্ত পরীক্ষা,null,null
+162,Creatinine clearance test,ক্রিয়েটিনিন ক্লিয়ারেন্স পরীক্ষা,null,null
+163,Creatinine urine test,ক্রিয়েটিনিন প্রস্রাব পরীক্ষা,null,null
+164,Cryoglobulins,ক্রায়োগ্লোবুলিনস,null,null
+165,CSF analysis,CSF বিশ্লেষণ,null,null
+166,CSF cell count,CSF সেল গণনা,null,null
+167,CSF coccidioides complement fixation test,CSF coccidioides পরিপূরক ফিক্সেশন পরীক্ষা,null,null
+168,CSF glucose test,CSF গ্লুকোজ পরীক্ষা,null,null
+169,CSF myelin basic protein,CSF মাইলিন মৌলিক প্রোটিন,null,null
+170,CSF oligoclonal banding,CSF অলিগোক্লোনাল ব্যান্ডিং,null,null
+171,CSF smear,CSF স্মিয়ার,null,null
+172,CSF total protein,CSF মোট প্রোটিন,null,null
+173,CSF-VDRL test,CSF-VDRL পরীক্ষা,null,null
+174,CT angiography - abdomen and pelvis,সিটি এনজিওগ্রাফি - পেট এবং পেলভিস,null,null
+175,CT angiography - arms and legs,সিটি এনজিওগ্রাফি - বাহু এবং পা,null,null
+176,CT angiography - chest,সিটি এনজিওগ্রাফি - বুক,null,null
+177,CT angiography - head and neck,সিটি এনজিওগ্রাফি - মাথা এবং ঘাড়,null,null
+178,CT scan,সিটি স্ক্যান,null,null
+179,Culdocentesis,কুল্ডোসেন্টেসিস,null,null
+180,Culture - colonic tissue,সংস্কৃতি - কোলনিক টিস্যু,null,null
+181,Culture - duodenal tissue,সংস্কৃতি - ডুওডেনাল টিস্যু,null,null
+182,Cystometric study,সিস্টোমেট্রিক অধ্যয়ন,null,null
+183,Cystoscopy,সিস্টোস্কোপি,null,null
+184,Cytology exam of pleural fluid,প্লুরাল ফ্লুইডের সাইটোলজি পরীক্ষা,null,null
+185,Cytology exam of urine,প্রস্রাবের সাইটোলজি পরীক্ষা,null,null
+186,D-dimer test,ডি-ডাইমার পরীক্ষা,null,null
+187,Delta-ALA urine test,ডেল্টা-আলা প্রস্রাব পরীক্ষা,null,null
+188,Dental plaque identification at home,বাড়িতে ডেন্টাল প্লাক শনাক্তকরণ,null,null
+189,Dental x-rays,দাঁতের এক্স-রে,null,631
+190,Dexamethasone suppression test,ডেক্সামেথাসোন দমন পরীক্ষা,null,null
+191,DHEA-sulfate test,DHEA-সালফেট পরীক্ষা,null,null
+192,Diagnostic laparoscopy,ডায়াগনস্টিক ল্যাপারোস্কোপি,null,null
+193,Digital rectal exam,ডিজিটাল রেকটাল পরীক্ষা,null,null
+194,Digoxin test,ডিগক্সিন পরীক্ষা,null,null
+195,Disk replacement - lumbar spine,ডিস্ক প্রতিস্থাপন - কটিদেশীয় মেরুদণ্ড,null,null
+196,Donath-Landsteiner test,ডোনাথ-ল্যান্ডস্টেইনার পরীক্ষা,null,null
+197,Doppler ultrasound exam of an arm or leg,একটি বাহু বা পায়ের ডপলার আল্ট্রাসাউন্ড পরীক্ষা,null,null
+198,Dry mouth,শুষ্ক মুখ,null,null
+199,Duplex ultrasound,ডুপ্লেক্স আল্ট্রাসাউন্ড,null,null
+200,D-xylose absorption,ডি-জাইলোজ শোষণ,null,null
+201,Ear drainage culture,কান নিষ্কাশন সংস্কৃতি,null,null
+202,Ear examination,কান পরীক্ষা,null,null
+203,Echocardiogram,ইকোকার্ডিওগ্রাম,null,null
+204,Echocardiogram - children,ইকোকার্ডিওগ্রাম - শিশু,null,null
+205,EEG,ইইজি,null,null
+206,EGD - esophagogastroduodenoscopy,EGD - esophagogastroduodenoscopy,null,null
+207,Electrocardiogram,ইসিজি,"{""ECG"", ""EKG""}",null
+208,Electrolytes - urine,ইলেক্ট্রোলাইটস - প্রস্রাব,null,null
+209,Electromyography,ইলেক্ট্রোমায়োগ্রাফি,null,null
+210,Electronystagmography,ইলেক্ট্রোনিস্টাগমোগ্রাফি,null,null
+211,Electroretinography,ইলেক্ট্রোরেটিনোগ্রাফি,null,null
+212,ELISA blood test,ELISA রক্ত পরীক্ষা,null,null
+213,Endocervical culture,এন্ডোসারভিকাল সংস্কৃতি,null,null
+214,Endocervical Gram stain,এন্ডোসারভিকাল গ্রাম দাগ,null,null
+215,Endometrial biopsy,এন্ডোমেট্রিয়াল বায়োপসি,null,null
+216,Endoscopic ultrasound,এন্ডোস্কোপিক আল্ট্রাসাউন্ড,null,null
+217,Endoscopy,এন্ডোস্কোপি,null,null
+218,Endotracheal intubation,এন্ডোট্র্যাকিয়াল ইনটিউবেশন,null,null
+219,Enteroclysis,Enteroclysis,null,null
+220,Enteroscopy,এন্টারোস্কোপি,null,null
+221,Eosinophil count - absolute,ইওসিনোফিল গণনা - পরম,null,null
+222,Eosinophilic esophagitis,ইওসিনোফিলিক এসোফ্যাগাইটিস,null,null
+223,Epstein-Barr virus antibody test,এপস্টাইন-বার ভাইরাস অ্যান্টিবডি পরীক্ষা,null,null
+224,Eruptive xanthomatosis,eruptive xanthomatosis,null,null
+225,Erythropoietin test,এরিথ্রোপয়েটিন পরীক্ষা,null,null
+226,Esophageal culture,খাদ্যনালী সংস্কৃতি,null,null
+227,Esophageal manometry,খাদ্যনালী ম্যানোমেট্রি,null,null
+228,Esophageal pH monitoring,খাদ্যনালী পিএইচ পর্যবেক্ষণ,null,null
+229,ESR,ইএসআর,null,null
+230,Estradiol blood test,এস্ট্রাডিওল রক্ত পরীক্ষা,null,null
+231,Ethylene glycol blood test,ইথিলিন গ্লাইকোল রক্ত পরীক্ষা,null,null
+232,Exercise stress test,ব্যায়াম স্ট্রেস পরীক্ষা,null,null
+233,Extraocular muscle function testing,এক্সট্রাওকুলার পেশী ফাংশন পরীক্ষা,null,null
+234,Extremity angiography,এক্সট্রিমিটি এনজিওগ্রাফি,null,null
+235,Extremity x-ray,এক্সরেমিটি এক্সরে,null,631
+236,Eye and orbit ultrasound,চোখ এবং কক্ষপথ আল্ট্রাসাউন্ড,null,591
+237,Factor II (prothrombin) assay,ফ্যাক্টর II (প্রথ্রোমবিন) অ্যাস,null,null
+238,Factor IX assay,ফ্যাক্টর IX অ্যাস,null,null
+239,Factor V assay,ফ্যাক্টর V অ্যাস,null,null
+240,Factor VII assay,ফ্যাক্টর VII অ্যাস,null,null
+241,Factor VIII assay,ফ্যাক্টর VIII অ্যাস,null,null
+242,Factor X assay,ফ্যাক্টর এক্স অ্যাস,null,null
+243,Factor XII assay,ফ্যাক্টর XII পরীক্ষা,null,null
+244,Febrile/cold agglutinins,জ্বর/ঠাণ্ডা অ্যাগ্লুটিনিন,null,null
+245,Fecal culture,ফেকাল সংস্কৃতি,null,null
+246,Fecal fat,মল চর্বি,null,null
+247,Fecal smear,ফেকাল স্মিয়ার,null,null
+248,Ferritin blood test,ফেরিটিন রক্ত পরীক্ষা,null,null
+249,Fetal echocardiography,ভ্রূণের ইকোকার্ডিওগ্রাফি,null,null
+250,Fetal MRI,ভ্রূণের এমআরআই,null,390
+251,Fetal scalp pH testing,ভ্রূণের মাথার ত্বকের পিএইচ পরীক্ষা,null,null
+252,Fetal-maternal erythrocyte distribution blood test,ভ্রূণ-মাতৃ এরিথ্রোসাইট বিতরণ রক্ত পরীক্ষা,null,null
+253,Fibrin degradation products blood test,ফাইব্রিন অবক্ষয় পণ্য রক্ত পরীক্ষা,null,null
+254,Fibrinogen blood test,ফাইব্রিনোজেন রক্ত পরীক্ষা,null,null
+255,Fibrinopeptide A blood test,ফাইব্রিনোপেপটাইড একটি রক্ত ​​পরীক্ষা,null,null
+256,Fine needle aspiration of the thyroid,থাইরয়েডের ফাইন সুই অ্যাসপিরেশন,null,null
+257,Fluorescein angiography,ফ্লুরেসসিন এনজিওগ্রাফি,null,null
+258,Fluorescein eye stain,ফ্লুরোসসিন চোখের দাগ,null,null
+259,Flushable reagent stool blood test,ফ্লাশযোগ্য বিকারক মল রক্ত পরীক্ষা,null,null
+260,Folic acid - test,ফলিক অ্যাসিড - পরীক্ষা,null,null
+261,Follicle-stimulating hormone (FSH) blood test,ফলিকল-স্টিমুলেটিং হরমোন (FSH) রক্ত পরীক্ষা,null,null
+262,Foot drop,পদ চিহ্ন,null,null
+263,Foreign object - inhaled,বিদেশী বস্তু - ইনহেলড,null,null
+264,Fractional excretion of sodium,সোডিয়ামের ভগ্নাংশ নিঃসরণ,null,null
+265,Free T4 test,বিনামূল্যে T4 পরীক্ষা,null,null
+266,FTA-ABS blood test,FTA-ABS রক্ত পরীক্ষা,null,null
+267,Galactose-1-phosphate uridyltransferase blood test,Galactose-1-ফসফেট uridyltransferase রক্ত পরীক্ষা,null,null
+268,Gallbladder radionuclide scan,গলব্লাডার রেডিওনিউক্লাইড স্ক্যান,null,null
+269,Gallium scan,গ্যালিয়াম স্ক্যান,null,null
+270,Gamma-glutamyl transferase (GGT) blood test,গামা-গ্লুটামিল ট্রান্সফারেজ (GGT) রক্ত পরীক্ষা,null,null
+271,Gastric culture,গ্যাস্ট্রিক সংস্কৃতি,null,null
+272,Gastric suction,গ্যাস্ট্রিক সাকশন,null,null
+273,Gastric tissue biopsy and culture,গ্যাস্ট্রিক টিস্যু বায়োপসি এবং সংস্কৃতি,null,null
+274,Gastrin blood test,গ্যাস্ট্রিন রক্ত পরীক্ষা,null,null
+275,Glomerular filtration rate,গ্লোমেরুলার পরিস্রাবণ হার,null,null
+276,Glucagon blood test,গ্লুকাগন রক্ত পরীক্ষা,null,null
+277,Glucose tolerance test - non-pregnant,গ্লুকোজ সহনশীলতা পরীক্ষা - অ গর্ভবতী,null,null
+278,Glucose urine test,গ্লুকোজ প্রস্রাব পরীক্ষা,null,600
+279,Glucose-6-phosphate dehydrogenase test,গ্লুকোজ-6-ফসফেট ডিহাইড্রোজেনেস পরীক্ষা,null,null
+280,Gram stain,গ্রাম দাগ,null,null
+281,Gram stain of skin lesion,চামড়ার ক্ষতের গ্রাম দাগ,null,null
+282,Gram stain of tissue biopsy,টিস্যু বায়োপসির গ্রাম দাগ,null,null
+283,Gram stain of urethral discharge,মূত্রনালী স্রাবের গ্রাম দাগ,null,null
+284,Granulocyte,গ্রানুলোসাইট,null,null
+285,Growth hormone stimulation test,গ্রোথ হরমোন স্টিমুলেশন টেস্ট,null,null
+286,Growth hormone suppression test,গ্রোথ হরমোন দমন পরীক্ষা,null,null
+287,Growth hormone test,গ্রোথ হরমোন পরীক্ষা,null,null
+288,Gum biopsy,মাড়ির বায়োপসি,null,null
+289,Ham test,হ্যাম পরীক্ষা,null,null
+290,Hand x-ray,হাতের এক্স-রে,null,631
+291,Haptoglobin blood test,হ্যাপটোগ্লোবিন রক্ত পরীক্ষা,null,null
+292,HCG blood test - qualitative,এইচসিজি রক্ত পরীক্ষা - গুণগত,null,null
+293,HCG blood test - quantitative,এইচসিজি রক্ত পরীক্ষা - পরিমাণগত,null,null
+294,HCG in urine,প্রস্রাবে HCG,null,null
+295,Head CT scan,মাথার সিটি স্ক্যান,null,178
+296,Head MRI,হেড এমআরআই,null,390
+297,Heart CT scan,হার্ট সিটি স্ক্যান,null,178
+298,Heart MRI,হার্ট এমআরআই,null,390
+299,Heart PET scan,হার্ট পিইটি স্ক্যান,null,null
+300,Helicobacter pylori infection,হেলিকোব্যাক্টর পাইলোরি সংক্রমণ,null,null
+301,Hematocrit,হেমাটোক্রিট,null,null
+302,Hemoglobin,হিমোগ্লোবিন,null,null
+303,Hemoglobin derivatives,হিমোগ্লোবিন ডেরিভেটিভস,null,null
+304,Hemoglobin electrophoresis,হিমোগ্লোবিন ইলেক্ট্রোফোরেসিস,null,null
+305,Hemoglobinuria test,হিমোগ্লোবিনুরিয়া পরীক্ষা,null,null
+306,Hepatitis virus panel,হেপাটাইটিস ভাইরাস প্যানেল,null,null
+307,Herpes viral culture of lesion,ক্ষতের হারপিস ভাইরাল সংস্কৃতি,null,null
+308,His bundle electrography,তার বান্ডিল ইলেক্ট্রোগ্রাফি,null,null
+309,Histocompatibility antigen test,হিস্টোকম্প্যাটিবিলিটি অ্যান্টিজেন পরীক্ষা,null,null
+310,Histoplasma complement fixation,হিস্টোপ্লাজমা কমপ্লিমেন্ট ফিক্সেশন,null,null
+311,Histoplasma skin test,হিস্টোপ্লাজমা ত্বক পরীক্ষা,null,null
+312,HLA-B27 antigen,HLA-B27 অ্যান্টিজেন,null,null
+313,Holter monitor (24h),হোল্টার মনিটর (24 ঘন্টা),null,null
+314,Home vision tests,হোম ভিশন পরীক্ষা,null,null
+315,Hormone levels,হরমোনের মাত্রা,null,null
+316,HPV DNA test,এইচপিভি ডিএনএ পরীক্ষা,null,null
+317,Hyperplasia,হাইপারপ্লাসিয়া,null,null
+318,Hypochromia,হাইপোক্রোমিয়া,null,null
+319,Hysterosalpingography,হিস্টেরোসাল্পিংগ্রাফি,null,null
+320,Immunoelectrophoresis - blood,ইমিউনোইলেক্ট্রফোরেসিস - রক্ত,null,null
+321,Immunoelectrophoresis - urine,ইমিউনোইলেক্ট্রোফোরেসিস - প্রস্রাব,null,null
+322,Immunofixation - urine,ইমিউনোফিক্সেশন - প্রস্রাব,null,null
+323,Immunofixation blood test,ইমিউনোফিক্সেশন রক্ত পরীক্ষা,null,null
+324,Indium-labelled WBC scan,ইন্ডিয়াম-লেবেলযুক্ত WBC স্ক্যান,null,null
+325,Insulin C-peptide test,ইনসুলিন সি-পেপটাইড পরীক্ষা,null,null
+326,Intracardiac electrophysiology study (EPS),ইন্ট্রাকার্ডিয়াক ইলেক্ট্রোফিজিওলজি স্টাডি (ইপিএস),null,null
+327,Intracranial pressure monitoring,ইন্ট্রাক্রানিয়াল চাপ পর্যবেক্ষণ,null,null
+328,Intravenous pyelogram,ইন্ট্রাভেনাস পাইলোগ্রাম,null,null
+329,Joint fluid culture,যৌথ তরল সংস্কৃতি,null,null
+330,Joint fluid Gram stain,যৌথ তরল গ্রাম দাগ,null,null
+331,Joint x-ray,জয়েন্ট এক্স-রে,null,631
+332,Karyotyping,ক্যারিওটাইপিং,null,null
+333,Ketones blood test,কিটোনস রক্ত পরীক্ষা,null,null
+334,Ketones urine test,কিটোন প্রস্রাব পরীক্ষা,null,600
+335,Kidney biopsy,কিডনি বায়োপসি,null,null
+336,Kidney function tests,কিডনি ফাংশন পরীক্ষা,null,null
+337,Knee CT scan,হাঁটু সিটি স্ক্যান,null,178
+338,Knee MRI scan,হাঁটুর এমআরআই স্ক্যান,null,390
+339,Lactate dehydrogenase test,ল্যাকটেট ডিহাইড্রোজেনেস পরীক্ষা,null,null
+340,Lactic acid test,ল্যাকটিক অ্যাসিড পরীক্ষা,null,null
+341,Lactose tolerance tests,ল্যাকটোজ সহনশীলতা পরীক্ষা,null,null
+342,Laryngoscopy,ল্যারিঙ্গোস্কোপি,null,null
+343,Laryngoscopy and nasolarynoscopy,ল্যারিঙ্গোস্কোপি এবং নাসোলারিনোস্কোপি,null,null
+344,Latex agglutination test,ল্যাটেক্স অ্যাগ্লুটিনেশন পরীক্ষা,null,null
+345,LDH isoenzyme blood test,এলডিএইচ আইসোএনজাইম রক্ত পরীক্ষা,null,null
+346,Lead levels - blood,সীসার মাত্রা - রক্ত,null,null
+347,Left heart catheterization,বাম হার্ট ক্যাথেটারাইজেশন,null,null
+348,Left heart ventricular angiography,বাম হার্ট ভেন্ট্রিকুলার এনজিওগ্রাফি,null,null
+349,Leg CT scan,পায়ের সিটি স্ক্যান,null,178
+350,Leg MRI scan,পায়ের এমআরআই স্ক্যান,null,390
+351,Lepromin skin test,লেপ্রোমিন ত্বক পরীক্ষা,null,null
+352,Leucine aminopeptidase - urine,লিউসিন অ্যামিনোপেপ্টিডেস - প্রস্রাব,null,null
+353,Leucine aminopeptidase blood test,লিউসিন অ্যামিনোপেপ্টিডেস রক্ত পরীক্ষা,null,null
+354,Leukocyte esterase urine test,লিউকোসাইট এস্টেরেজ প্রস্রাব পরীক্ষা,null,null
+355,LH response to GnRH blood test,GnRH রক্ত পরীক্ষায় LH প্রতিক্রিয়া,null,null
+356,Limb plethysmography,লিম্ব প্লেথিসমোগ্রাফি,null,null
+357,Lipase test,লিপেজ পরীক্ষা,null,null
+358,Lipoprotein-a,লিপোপ্রোটিন- ক,null,null
+359,Liver biopsy,লিভার বায়োপসি,null,null
+360,Liver function tests,লিভার ফাংশন পরীক্ষা,null,null
+361,Liver scan,লিভার স্ক্যান,null,null
+362,Lumbar MRI scan,লাম্বার এমআরআই স্ক্যান,null,390
+363,Lumbar spine CT scan,কটিদেশীয় মেরুদণ্ডের সিটি স্ক্যান,null,178
+364,Lumbosacral spine CT,লাম্বোস্যাক্রাল মেরুদণ্ড সিটি,null,null
+365,Lumbosacral spine x-ray,লাম্বোস্যাক্রাল মেরুদণ্ডের এক্স-রে,null,631
+366,Lung diffusion testing,ফুসফুসের বিস্তার পরীক্ষা,null,null
+367,Lung gallium scan,ফুসফুসের গ্যালিয়াম স্ক্যান,null,null
+368,Lung needle biopsy,ফুসফুসের সুই বায়োপসি,null,null
+369,Lung PET scan,ফুসফুসের পিইটি স্ক্যান,null,null
+370,Lung plethysmography,ফুসফুসের প্লেথিসমোগ্রাফি,null,null
+371,Luteinizing hormone (LH) blood test,লুটিনাইজিং হরমোন (এলএইচ) রক্ত পরীক্ষা,null,null
+372,Lyme disease blood test,লাইম রোগের রক্ত পরীক্ষা,null,null
+373,Lymph node biopsy,লিম্ফ নোড বায়োপসি,null,null
+374,Lymph node culture,লিম্ফ নোড সংস্কৃতি,null,null
+375,Lymphangiogram,লিম্ফাঙ্গিওগ্রাম,null,null
+376,Magnesium blood test,ম্যাগনেসিয়াম রক্ত ​​পরীক্ষা,null,null
+377,Magnetic resonance angiography,চৌম্বকীয় অনুরণন এনজিওগ্রাফি,null,null
+378,Mammogram,ম্যামোগ্রাম,null,null
+379,Mediastinoscopy with biopsy,বায়োপসি সহ মিডিয়াস্টিনোস্কোপি,null,null
+380,Mental status testing,মানসিক অবস্থা পরীক্ষা,null,null
+381,Mesenteric angiography,মেসেন্টেরিক এনজিওগ্রাফি,null,null
+382,Methanol test,মিথানল পরীক্ষা,null,null
+383,Methylene blue test,মিথিলিন নীল পরীক্ষা,null,null
+384,Methylmalonic acid blood test,মিথাইলম্যালোনিক অ্যাসিড রক্ত পরীক্ষা,null,null
+385,Methylmercury poisoning,মিথাইলমারকিউরি বিষক্রিয়া,null,null
+386,MIBG scintiscan,এমআইবিজি সাইন্টিস্ক্যান,null,null
+387,Microalbuminuria test,মাইক্রোঅ্যালবুমিনুরিয়া পরীক্ষা,null,null
+388,Midline venous catheters - infants,মিডলাইন শিরাস্থ ক্যাথেটার - শিশু,null,null
+389,Mononucleosis spot test,মনোনিউক্লিওসিস স্পট পরীক্ষা,null,null
+390,MRI,এম আর আই,null,null
+391,Muscle biopsy,পেশী বায়োপসি,null,null
+392,Mycobacterial culture,মাইকোব্যাকটেরিয়াল সংস্কৃতি,null,null
+393,Myelodysplastic syndrome,Myelodysplastic সিন্ড্রোম,null,null
+394,Myocardial biopsy,মায়োকার্ডিয়াল বায়োপসি,null,null
+395,Myoglobin blood test,মায়োগ্লোবিন রক্ত পরীক্ষা,null,null
+396,Myoglobin urine test,মায়োগ্লোবিন প্রস্রাব পরীক্ষা,null,null
+397,Nasal endoscopy,নাকের এন্ডোস্কোপি,null,null
+398,Nasal mucosal biopsy,নাকের মিউকোসাল বায়োপসি,null,null
+399,Nasopharyngeal culture,নাসোফ্যারিঞ্জিয়াল সংস্কৃতি,null,null
+400,Neck x-ray,ঘাড়ের এক্স-রে,null,631
+401,Necrobiosis lipoidica diabeticorum,নেক্রোবায়োসিস লিপোয়েডিকা ডায়াবেটিকোরাম,null,null
+402,Neonatal cystic fibrosis screening test,নবজাতক সিস্টিক ফাইব্রোসিস স্ক্রীনিং পরীক্ষা,null,null
+403,Nerve biopsy,নার্ভ বায়োপসি,null,null
+404,Nerve conduction velocity,স্নায়ু সঞ্চালনের বেগ,null,null
+405,Newborn screening tests,নবজাতকের স্ক্রীনিং পরীক্ষা,null,null
+406,Nitroblue tetrazolium blood test,নাইট্রোব্লু টেট্রাজোলিয়াম রক্ত পরীক্ষা,null,null
+407,Nuchal translucency test,নুচাল ট্রান্সলুসেন্সি টেস্ট,null,null
+408,Nuclear stress test,পারমাণবিক চাপ পরীক্ষা,null,null
+409,Nuclear ventriculography,নিউক্লিয়ার ভেন্ট্রিকুলোগ্রাফি,null,null
+410,Open lung biopsy,খোলা ফুসফুসের বায়োপসি,null,null
+411,Open pleural biopsy,প্লুরাল বায়োপসি খুলুন,null,null
+412,Ophthalmoscopy,অপথালমোস্কোপি,null,null
+413,Oral human papillomavirus infection,ওরাল হিউম্যান প্যাপিলোমা ভাইরাস সংক্রমণ,null,null
+414,Orbit CT scan,অরবিট সিটি স্ক্যান,null,178
+415,Oropharynx lesion biopsy,Oropharynx ক্ষত বায়োপসি,null,null
+416,Osmolality blood test,অসমোলালিটি রক্ত পরীক্ষা,null,null
+417,Osmolality urine test,অসমোলালিটি প্রস্রাব পরীক্ষা,null,null
+418,Osmotic fragility test,অসমোটিক ভঙ্গুরতা পরীক্ষা,null,null
+419,Ovulation home test,ডিম্বস্ফোটন হোম পরীক্ষা,null,null
+420,Panniculectomy,প্যানিকিউলেক্টমি,null,null
+421,Pap test,প্যাপ পরীক্ষা,null,null
+422,Parathyroid hormone (PTH) blood test,প্যারাথাইরয়েড হরমোন (PTH) রক্ত পরীক্ষা,null,null
+423,Parathyroid hormone-related protein blood test,প্যারাথাইরয়েড হরমোন-সম্পর্কিত প্রোটিন রক্ত পরীক্ষা,null,null
+424,Partial thromboplastin time (PTT),আংশিক থ্রম্বোপ্লাস্টিন সময় (PTT),null,null
+425,PBG urine test,পিবিজি প্রস্রাব পরীক্ষা,null,null
+426,Pelvic CT scan,পেলভিক সিটি স্ক্যান,null,178
+427,Pelvic ultrasound - abdominal,পেলভিক আল্ট্রাসাউন্ড - পেটে,null,null
+428,Pelvis MRI scan,পেলভিস এমআরআই স্ক্যান,null,390
+429,Pelvis x-ray,পেলভিস এক্স-রে,null,631
+430,Percutaneous transhepatic cholangiogram,পারকিউটেনিয়াস ট্রান্সহেপ্যাটিক কোলাঞ্জিওগ্রাম,null,null
+431,Pericardial fluid culture,পেরিকার্ডিয়াল তরল সংস্কৃতি,null,null
+432,Pericardial fluid Gram stain,পেরিকার্ডিয়াল তরল গ্রাম দাগ,null,null
+433,Pericardiocentesis,পেরিকার্ডিওসেন্টেসিস,null,null
+434,Peritoneal fluid analysis,পেরিটোনিয়াল তরল বিশ্লেষণ,null,null
+435,Peritoneal fluid culture,পেরিটোনিয়াল তরল সংস্কৃতি,null,null
+436,PET scan,পিইটি স্ক্যান,null,null
+437,PET scan for breast cancer,স্তন ক্যান্সারের জন্য PET স্ক্যান,null,null
+438,Phosphorus blood test,ফসফরাস রক্ত পরীক্ষা,null,null
+439,Pinworm test,পিনওয়ার্ম পরীক্ষা,null,null
+440,Plasma amino acids,প্লাজমা অ্যামিনো অ্যাসিড,null,null
+441,Platelet aggregation test,প্লেটলেট একত্রিতকরণ পরীক্ষা,null,null
+442,Platelet antibodies blood test,প্লেটলেট অ্যান্টিবডি রক্ত পরীক্ষা,null,null
+443,Platelet count,প্লেটলেট গণনা,null,null
+444,Plethysmography,Plethysmography,null,null
+445,Pleural fluid analysis,প্লুরাল ফ্লুইড বিশ্লেষণ,null,null
+446,Pleural fluid culture,প্লুরাল ফ্লুইড কালচার,null,null
+447,Pleural fluid Gram stain,প্লুরাল ফ্লুইড গ্রাম দাগ,null,null
+448,Pleural fluid smear,প্লুরাল ফ্লুইড স্মিয়ার,null,null
+449,Pleural needle biopsy,প্লুরাল সুই বায়োপসি,null,null
+450,Polyp biopsy,পলিপ বায়োপসি,null,null
+451,Polysomnography,পলিসমনোগ্রাফি,null,null
+452,Porphyrins blood test,Porphyrins রক্ত পরীক্ষা,null,null
+453,Porphyrins urine test,পোরফাইরিন প্রস্রাব পরীক্ষা,null,null
+454,Potassium test,পটাসিয়াম পরীক্ষা,null,null
+455,Potassium urine test,পটাসিয়াম প্রস্রাব পরীক্ষা,null,null
+456,PPD skin test,পিপিডি ত্বক পরীক্ষা,null,null
+457,Pregnancy test,গর্ভধারণ পরীক্ষা,null,null
+458,Prolactin blood test,প্রোল্যাক্টিন রক্ত পরীক্ষা,null,null
+459,Prostate biopsy,প্রোস্টেট বায়োপসি,null,null
+460,Prostate-specific antigen (PSA) blood test,প্রোস্টেট-নির্দিষ্ট অ্যান্টিজেন (পিএসএ) রক্ত পরীক্ষা,null,null
+461,Protein C blood test,প্রোটিন সি রক্ত পরীক্ষা,null,null
+462,Protein electrophoresis - serum,প্রোটিন ইলেক্ট্রোফোরেসিস - সিরাম,null,null
+463,Protein S blood test,প্রোটিন এস রক্ত পরীক্ষা,null,null
+464,Prothrombin time (PT),প্রোথ্রোমবিন সময় (PT),null,null
+465,Pulmonary angiography,পালমোনারি এনজিওগ্রাফি,null,null
+466,Pulmonary function tests,পালমোনারি ফাংশন পরীক্ষা,null,null
+467,Pulmonary ventilation/perfusion scan,পালমোনারি ভেন্টিলেশন/পারফিউশন স্ক্যান,null,null
+468,Pulse,স্পন্দন,null,null
+469,Pyruvate kinase blood test,পাইরুভেট কিনেস রক্ত পরীক্ষা,null,null
+470,Quadruple screen test,চারগুণ স্ক্রিন পরীক্ষা,null,null
+471,Quantitative Bence-Jones protein test,পরিমাণগত বেন্স-জোনস প্রোটিন পরীক্ষা,null,null
+472,Quantitative nephelometry test,পরিমাণগত নেফেলোমেট্রি পরীক্ষা,null,null
+473,Radioactive iodine uptake,তেজস্ক্রিয় আয়োডিন গ্রহণ,null,null
+474,Radionuclide cisternogram,রেডিওনিউক্লাইড সিস্টারনোগ্রাম,null,null
+475,Radionuclide cystogram,রেডিওনিউক্লাইড সিস্টোগ্রাম,null,null
+476,RBC count,আরবিসি গণনা,null,null
+477,RBC indices,আরবিসি সূচক,null,null
+478,RBC nuclear scan,আরবিসি পারমাণবিক স্ক্যান,null,null
+479,RBC urine test,আরবিসি প্রস্রাব পরীক্ষা,null,null
+480,"Recombinant zoster (shingles) vaccine, RZV - what you need to know","রিকম্বিন্যান্ট জোস্টার (শিংলস) ভ্যাকসিন, আরজেডভি - আপনার যা জানা দরকার",null,null
+481,Rectal biopsy,রেকটাল বায়োপসি,null,null
+482,Rectal bleeding,মলদ্বারে রক্তক্ষরণ,null,null
+483,Rectal culture,রেকটাল সংস্কৃতি,null,null
+484,Refraction,প্রতিসরণ,null,null
+485,Renal arteriography,রেনাল আর্টিওগ্রাফি,null,null
+486,Renal perfusion scintiscan,রেনাল পারফিউশন সিন্টিস্ক্যান,null,null
+487,Renal scan,রেনাল স্ক্যান,null,null
+488,Renal venogram,রেনাল ভেনোগ্রাম,null,null
+489,Renin blood test,রেনিন রক্ত পরীক্ষা,null,null
+490,Reticulocyte count,রেটিকুলোসাইট গণনা,null,null
+491,Retrograde cystography,রেট্রোগ্রেড সিস্টোগ্রাফি,null,null
+492,Rheumatoid factor (RF),রিউমাটয়েড ফ্যাক্টর (RF),null,null
+493,Right heart ventricular angiography,ডান হার্ট ভেন্ট্রিকুলার এনজিওগ্রাফি,null,null
+494,Rotavirus antigen test,রোটাভাইরাস অ্যান্টিজেন পরীক্ষা,null,null
+495,Routine sputum culture,রুটিন থুতু সংস্কৃতি,null,null
+496,RPR test,আরপিআর পরীক্ষা,null,null
+497,RSV antibody test,আরএসভি অ্যান্টিবডি পরীক্ষা,null,null
+498,Salivary gland biopsy,লালা গ্রন্থির বায়োপসি,null,null
+499,Schilling test,শিলিং পরীক্ষা,null,null
+500,Schirmer test,শিমার পরীক্ষা,null,null
+501,Scleredema diabeticorum,স্ক্লেরেডিমা ডায়াবেটিকোরাম,null,null
+502,Screening and diagnosis for HIV,এইচআইভির জন্য স্ক্রীনিং এবং নির্ণয়,null,null
+503,Scrotal ultrasound,স্ক্রোটাল আল্ট্রাসাউন্ড,null,null
+504,Secretin stimulation test,সিক্রেটিন উদ্দীপনা পরীক্ষা,null,null
+505,Semen analysis,বীর্য বিশ্লেষণ,null,null
+506,Sensitivity analysis,সংবেদনশীলতা বিশ্লেষণ,null,null
+507,Serology for brucellosis,ব্রুসেলোসিসের জন্য সেরোলজি,null,null
+508,Serotonin blood test,সেরোটোনিন রক্ত পরীক্ষা,null,null
+509,Serum free hemoglobin test,সিরাম ফ্রি হিমোগ্লোবিন পরীক্ষা,null,null
+510,Serum globulin electrophoresis,সিরাম গ্লোবুলিন ইলেক্ট্রোফোরেসিস,null,null
+511,Serum herpes simplex antibodies,সিরাম হারপিস সিমপ্লেক্স অ্যান্টিবডি,null,null
+512,Serum iron test,সিরাম আয়রন পরীক্ষা,null,null
+513,Serum phenylalanine screening,সিরাম ফেনিল্যালানাইন স্ক্রীনিং,null,null
+514,Serum progesterone,সিরাম প্রজেস্টেরন,null,null
+515,Shoulder CT scan,কাঁধের সিটি স্ক্যান,null,178
+516,Shoulder MRI scan,কাঁধের এমআরআই স্ক্যান,null,390
+517,Sialogram,সিয়ালোগ্রাম,null,null
+518,Sickle cell test,সিকেল সেল পরীক্ষা,null,null
+519,Sigmoidoscopy,সিগমায়েডোস্কোপি,null,null
+520,Sinus CT scan,সাইনাস সিটি স্ক্যান,null,178
+521,Sinus MRI scan,সাইনাস এমআরআই স্ক্যান,null,390
+522,Sinus x-ray,সাইনাসের এক্স-রে,null,631
+523,Skin lesion aspiration,ত্বকের ক্ষত আকাঙ্খা,null,null
+524,Skin lesion biopsy,ত্বকের ক্ষত বায়োপসি,null,null
+525,Skin lesion KOH exam,ত্বকের ক্ষত KOH পরীক্ষা,null,null
+526,Skin or nail culture,ত্বক বা নখের সংস্কৃতি,null,null
+527,Skull x-ray,মাথার খুলির এক্স-রে,null,631
+528,Slipping rib syndrome,স্লিপিং রিব সিন্ড্রোম,null,null
+529,Slit-lamp exam,স্লিট-ল্যাম্প পরীক্ষা,null,null
+530,Small bowel tissue smear,ছোট অন্ত্রের টিস্যু স্মিয়ার,null,null
+531,Small intestine aspirate and culture,ছোট অন্ত্র অ্যাসপিরেট এবং সংস্কৃতি,null,null
+532,Smear of duodenal fluid aspirate,ডুওডেনাল ফ্লুইড অ্যাসপিরেটের স্মিয়ার,null,null
+533,Sodium blood test,সোডিয়াম রক্ত পরীক্ষা,null,null
+534,Sodium urine test,সোডিয়াম প্রস্রাব পরীক্ষা,null,null
+535,Sputum direct fluorescent antibody (DFA) test,স্পুটাম ডাইরেক্ট ফ্লুরোসেন্ট অ্যান্টিবডি (DFA) পরীক্ষা,null,null
+536,Sputum fungal smear,স্পুটাম ছত্রাকের দাগ,null,null
+537,Sputum Gram stain,স্পুটাম গ্রাম দাগ,null,null
+538,Sputum stain for mycobacteria,মাইকোব্যাকটেরিয়ার জন্য স্পুটাম দাগ,null,null
+539,Standard eye exam,স্ট্যান্ডার্ড চোখের পরীক্ষা,null,null
+540,Stomach acid test,পেটের অ্যাসিড পরীক্ষা,null,null
+541,Stool C difficile toxin,মল সি ডিফিসিল টক্সিন,null,null
+542,Stool Gram stain,মল গ্রাম দাগ,null,null
+543,Stool guaiac test,মল গুয়াইক পরীক্ষা,null,null
+544,Stool ova and parasites exam,মল ডিভা এবং পরজীবী পরীক্ষা,null,null
+545,Streptococcal screen,স্ট্রেপ্টোকোকাল পর্দা,null,null
+546,Stress echocardiography,স্ট্রেস ইকোকার্ডিওগ্রাফি,null,null
+547,String test,স্ট্রিং পরীক্ষা,null,null
+548,Sugar-water hemolysis test,চিনি-জল হিমোলাইসিস পরীক্ষা,null,null
+549,Swan-Ganz - right heart catheterization,সোয়ান-গানজ - ডান হার্ট ক্যাথেটারাইজেশন,null,null
+550,Sweat electrolytes test,ঘাম ইলেক্ট্রোলাইট পরীক্ষা,null,null
+551,Synovial biopsy,সাইনোভিয়াল বায়োপসি,null,null
+552,Synovial fluid analysis,সাইনোভিয়াল তরল বিশ্লেষণ,null,null
+553,T3 test,T3 পরীক্ষা,null,null
+554,T3RU test,T3RU পরীক্ষা,null,null
+555,TBG blood test,টিবিজি রক্ত পরীক্ষা,null,null
+556,T-cell count,টি-সেলের সংখ্যা,null,null
+557,Temperature measurement,তাপমাত্রা পরিমাপ,null,null
+558,Tensilon test,টেনসিলন পরীক্ষা,null,null
+559,Testicular biopsy,টেস্টিকুলার বায়োপসি,null,null
+560,Testicular self-exam,টেস্টিকুলার স্ব-পরীক্ষা,null,null
+561,Testosterone,টেস্টোস্টেরন,null,null
+562,Tests for H pylori,এইচ পাইলোরি পরীক্ষা,null,null
+563,Therapeutic drug levels,থেরাপিউটিক ওষুধের মাত্রা,null,null
+564,Thoracentesis,থোরাসেন্টেসিস,null,null
+565,Thoracic spine CT scan,থোরাসিক মেরুদণ্ডের সিটি স্ক্যান,null,178
+566,Thoracic spine x-ray,থোরাসিক মেরুদণ্ডের এক্স-রে,null,631
+567,Throat swab culture,গলা সোয়াব সংস্কৃতি,null,null
+568,Thyroid function tests,থাইরয়েড ফাংশন পরীক্ষা,null,null
+569,Thyroid peroxidase antibody,থাইরয়েড পারক্সিডেস অ্যান্টিবডি,null,null
+570,Thyroid scan,থাইরয়েড স্ক্যান,null,null
+571,Thyroid ultrasound,থাইরয়েড আল্ট্রাসাউন্ড,null,591
+572,Tongue biopsy,জিহ্বা বায়োপসি,null,null
+573,Tonometry,টোনোমেট্রি,null,null
+574,TORCH screen,টর্চ স্ক্রীন,null,null
+575,Total iron binding capacity,মোট লোহা বাঁধাই ক্ষমতা,null,null
+576,Total protein,মোট প্রোটিন,null,null
+577,Toxicology screen,টক্সিকোলজি পর্দা,null,null
+578,Toxoplasma blood test,টক্সোপ্লাজমা রক্ত পরীক্ষা,null,null
+579,Transcranial Doppler ultrasound,ট্রান্সক্র্যানিয়াল ডপলার আল্ট্রাসাউন্ড,null,null
+580,Transillumination,ট্রান্সিল্যুমিনেশন,null,null
+581,Transvaginal ultrasound,ট্রান্সভ্যাজিনাল আল্ট্রাসাউন্ড,null,null
+582,Transverse myelitis,ট্রান্সভার্স মাইলাইটিস,null,null
+583,Triglyceride level,ট্রাইগ্লিসারাইড স্তর,null,null
+584,Troponin test,ট্রপোনিন পরীক্ষা,null,null
+585,Trypsin and chymotrypsin in stool,মলের মধ্যে ট্রিপসিন এবং কাইমোট্রিপসিন,null,null
+586,Trypsinogen test,ট্রিপসিনোজেন পরীক্ষা,null,null
+587,TSH test,টিএসএইচ পরীক্ষা,null,null
+588,TSI test,টিএসআই পরীক্ষা,null,null
+589,Tularemia blood test,Tularemia রক্ত পরীক্ষা,null,null
+590,Tympanometry,Tympanometry,null,null
+591,Ultrasound,আল্ট্রাসাউন্ড,"{""Sonogram""}",null
+592,Ultrasound pregnancy,আল্ট্রাসাউন্ড গর্ভাবস্থা,null,591
+593,Upper airway biopsy,উপরের এয়ারওয়ে বায়োপসি,null,null
+594,Upper GI and small bowel series,উপরের জিআই এবং ছোট অন্ত্রের সিরিজ,null,null
+595,Urea nitrogen urine test,ইউরিয়া নাইট্রোজেন প্রস্রাব পরীক্ষা,null,null
+596,Ureteral retrograde brush biopsy,ইউরেটারাল রেট্রোগ্রেড ব্রাশ বায়োপসি,null,null
+597,Urethral discharge culture,ইউরেথ্রাল স্রাব সংস্কৃতি,null,null
+598,Uric acid - blood,ইউরিক এসিড - রক্ত,null,null
+599,Uric acid urine test,ইউরিক অ্যাসিড প্রস্রাব পরীক্ষা,null,null
+600,Urinalysis,ইউরিনালাইসিস,null,null
+601,Urinary casts,মূত্রথলি,null,null
+602,Urine 24-hour volume,প্রস্রাব 24 ঘন্টা ভলিউম,null,null
+603,Urine chemistry,প্রস্রাবের রসায়ন,null,null
+604,Urine collection - infants,প্রস্রাব সংগ্রহ - শিশু,null,null
+605,Urine concentration test,প্রস্রাবের ঘনত্ব পরীক্ষা,null,null
+606,Urine culture,প্রস্রাব সংস্কৃতি,null,null
+607,Urine culture - catheterized specimen,প্রস্রাব সংস্কৃতি - ক্যাথেটারাইজড নমুনা,null,null
+608,Urine drug screen,প্রস্রাবের ওষুধের পর্দা,null,null
+609,Urine melanin test,প্রস্রাব মেলানিন পরীক্ষা,null,null
+610,Urine pH test,প্রস্রাবের পিএইচ পরীক্ষা,null,600
+611,Urine protein dipstick test,প্রস্রাবের প্রোটিন ডিপস্টিক পরীক্ষা,null,null
+612,Urine protein electrophoresis test,প্রস্রাবের প্রোটিন ইলেক্ট্রোফোরসিস পরীক্ষা,null,null
+613,Urine specific gravity test,প্রস্রাব নির্দিষ্ট মাধ্যাকর্ষণ পরীক্ষা,null,600
+614,Urodynamic Testing,ইউরোডাইনামিক টেস্টিং,null,null
+615,Uroflowmetry,ইউরোফ্লোমেট্রি,null,null
+616,Vaginitis test - wet mount,Vaginitis পরীক্ষা - ভিজা মাউন্ট,null,null
+617,Vasoactive intestinal peptide test,ভাসোঅ্যাকটিভ অন্ত্রের পেপটাইড পরীক্ষা,null,null
+618,VDRL test,ভিডিআরএল পরীক্ষা,null,null
+619,Venipuncture,ভেনিপাংচার,null,null
+620,Venogram,ভেনোগ্রাম,null,null
+621,Venogram - leg,ভেনোগ্রাম - পা,null,null
+622,Virtual colonoscopy,ভার্চুয়াল কোলনোস্কোপি,null,null
+623,Visual acuity test,চাক্ষুষ তীক্ষ্ণতা পরীক্ষা,null,null
+624,Visual field,ভিজ্যুয়াল ক্ষেত্র,null,null
+625,Vitamin A blood test,ভিটামিন এ রক্ত পরীক্ষা,null,null
+626,Vitamin B12 level,ভিটামিন বি 12 স্তর,null,null
+627,VLDL test,ভিএলডিএল পরীক্ষা,null,null
+628,Voiding cystourethrogram,ভয়েডিং সিস্টোরথ্রোগ্রাম,null,null
+629,WBC count,শ্বেত রক্ত কণিকার সংখ্যা ,null,null
+630,Wood lamp examination,কাঠের বাতি পরীক্ষা,null,null
+631,X-ray,এক্স-রে,null,null
+632,X-ray - skeleton,এক্স-রে - কঙ্কাল,null,631

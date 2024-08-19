@@ -1,0 +1,32 @@
+databaseChangeLog:
+  - changeSet:
+      id: 29481bcf-c428-41e0-8be3-dad5a441ce1c
+      author: sadman
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: social_organization_id_pk
+                  name: id
+                  type: serial
+              - column:
+                  constraints:
+                    nullable: false
+                  name: name
+                  type: varchar(100)
+              - column:
+                  name: bn_name
+                  type: varchar(100)
+              - column:
+                  name: description
+                  type: varchar(1000)
+              - column:
+                  name: address
+                  type: varchar(500)
+              - column:
+                  name: url
+                  type: varchar(500)
+            tableName: social_organization

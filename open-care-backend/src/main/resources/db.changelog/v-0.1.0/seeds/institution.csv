@@ -1,0 +1,151 @@
+id,acronym,name,bn_name,established_year,enroll,district_id,hospital_type,organization_type,lat,lon,url
+1,DMC,Dhaka Medical College,ঢাকা মেডিকেল কলেজ,1946,230,47,COLLEGE,GOVERNMENT,23.725983288480617, 90.39573371854017,http://dmc.edu.bd
+2,SSMC,Sir Salimullah Medical College,স্যার সালিমুল্লাহ মেডিকেল কলেজ,1875,230,47,COLLEGE,GOVERNMENT,null,null,https://ssmcmh.gov.bd/
+3,ShSMC,Shaheed Suhrawardy Medical College,শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ,2006,200,47,COLLEGE,GOVERNMENT,23.7686077083286, 90.37158636269464,https://www.shsmc.gov.bd/
+4,MMC,Mymensingh Medical College,ময়মনসিংহ মেডিকেল কলেজ,1924,230,62,COLLEGE,GOVERNMENT,24.742042844940862, 90.40945835319933,http://www.mmc.gov.bd/
+5,CMC,Chattogram Medical College,চট্টগ্রাম মেডিকেল কলেজ,1927,230,8,COLLEGE,GOVERNMENT,22.364171381826644, 91.83011369055644,https://cmc.gov.bd/
+6,RMC,Rajshahi Medical College,রাজশাহী মেডিকেল কলেজ,1954,230,15,COLLEGE,GOVERNMENT,null,null,null
+7,SOMC,Sylhet MAG Osmani Medical College,সিলেট মগ ওসমানী মেডিকেল কলেজ,1936,230,37,COLLEGE,GOVERNMENT,null,null,null
+8,SBMC,Sher-e-Bangla Medical College,শেরে-বাংলা মেডিকেল কলেজ,1964,230,34,COLLEGE,GOVERNMENT,null,null,null
+9,RpMC,Rangpur Medical College,রংপুর মেডিকেল কলেজ,1970,230,59,COLLEGE,GOVERNMENT,null,null,null
+10,CuMC,Cumilla Medical College,কুমিল্লা মেডিকেল কলেজ,1979,180,1,COLLEGE,GOVERNMENT,null,null,null
+11,KMC,Khulna Medical College,খুলনা মেডিকেল কলেজ,1992,180,27,COLLEGE,GOVERNMENT,null,null,null
+12,SZMC,Shaheed Ziaur Rahman Medical College,শহীদ জিয়াউর রহমান মেডিকেল কলেজ,1992,180,14,COLLEGE,GOVERNMENT,null,null,null
+13,BSMMC,Bangabandhu Sheikh Mujib Medical College,বঙ্গবন্ধু শেখ মুজিব মেডিকেল কলেজ,1992,180,52,COLLEGE,GOVERNMENT,null,null,null
+14,MARMC,M Abdur Rahim Medical College,এম আব্দুর রহিম মেডিকেল কলেজ,1992,180,54,COLLEGE,GOVERNMENT,null,null,null
+15,PMC,Pabna Medical College,পাবনা মেডিকেল কলেজ,2008,70,13,COLLEGE,GOVERNMENT,null,null,null
+16,AMUMC,Abdul Malek Ukil Medical College,আব্দুল মালেক উকিল মেডিকেল কলেজ,2008,70,5,COLLEGE,GOVERNMENT,null,null,null
+17,CoxMC,Cox's Bazar Medical College,কক্সবাজার মেডিকেল কলেজ,2008,70,9,COLLEGE,GOVERNMENT,null,null,null
+18,JMC,Jashore Medical College,যশোর মেডিকেল কলেজ,2010,70,20,COLLEGE,GOVERNMENT,null,null,null
+19,SMC,Satkhira Medical College,সাতখীরা মেডিকেল কলেজ,2011,65,21,COLLEGE,GOVERNMENT,null,null,null
+20,SSNIMC,Shahid Syed Nazrul Islam Medical College,শহীদ সৈয়দ নজরুল ইসলাম মেডিকেল কলেজ,2011,65,45,COLLEGE,GOVERNMENT,null,null,null
+21,KuMC,Kushtia Medical College,কুষ্টিয়া মেডিকেল কলেজ,2011,65,25,COLLEGE,GOVERNMENT,null,null,null
+22,SSKMC,Sheikh Sayera Khatun Medical College,শেখ সায়েরা খাতুন মেডিকেল কলেজ,2011,65,51,COLLEGE,GOVERNMENT,null,null,null
+23,STAMC,Shaheed Tajuddin Ahmad Medical College,শহীদ তাজউদ্দিন আহমদ মেডিকেল কলেজ,2013,72,41,COLLEGE,GOVERNMENT,null,null,null
+24,SHMCT,Sheikh Hasina Medical College,শেখ হাসিনা মেডিকেল কলেজ,2014,65,44,COLLEGE,GOVERNMENT,null,null,null
+25,SHMCJ,Sheikh Hasina Medical College,শেখ হাসিনা মেডিকেল কলেজ,2014,65,63,COLLEGE,GOVERNMENT,null,null,null
+26,CMMC,Colonel Malek Medical College,কর্নেল মালেক মেডিকেল কলেজ,2014,75,46,COLLEGE,GOVERNMENT,null,null,null
+27,SMMAMC,Shaheed M. Monsur Ali Medical College,শহীদ এম মনসুর আলী মেডিকেল কলেজ,2014,65,12,COLLEGE,GOVERNMENT,null,null,null
+28,PkMC,Patuakhali Medical College,পটুয়াখালী মেডিকেল কলেজ,2014,51,31,COLLEGE,GOVERNMENT,null,null,null
+29,RmMC,Rangamati Medical College,রাঙ্গামাটি মেডিকেল কলেজ,2014,51,32,COLLEGE,GOVERNMENT,null,null,null
+30,MuMC,Mugda Medical College,মুগদা মেডিকেল কলেজ,2015,75,47,COLLEGE,GOVERNMENT,null,null,null
+31,SHMCH,"Sheikh Hasina Medical College, Habiganj","শেখ হাসিনা মেডিকেল কলেজ, হবিগঞ্জ",2018,51,38,COLLEGE,GOVERNMENT,null,null,null
+32,NMC,"Netrokona Medical College, Netrokona","নেত্রকোণা মেডিকেল কলেজ, নেত্রকোণা",2018,50,64,COLLEGE,GOVERNMENT,null,null,null
+33,NpMC,Nilphamari Medical College,নীলফামারী মেডিকেল কলেজ,2018,50,56,COLLEGE,GOVERNMENT,null,null,null
+34,MaMC,Magura Medical College,মাগুরা মেডিকেল কলেজ,2018,50,26,COLLEGE,GOVERNMENT,null,null,null
+35,NaMC,Naogaon Medical College,নওগাঁ মেডিকেল কলেজ,2018,50,19,COLLEGE,GOVERNMENT,null,null,null
+36,ChMC,Chandpur Medical College,চাঁদপুর মেডিকেল কলেজ,2018,50,6,COLLEGE,GOVERNMENT,null,null,null
+37,BBMC,Bangabandhu Medical College,বঙ্গবন্ধু মেডিকেল কলেজ,2020,50,39,COLLEGE,GOVERNMENT,null,null,null
+38,AFMC,Armed Forces Medical College,সশস্ত্র বাহিনী মেডিকেল কলেজ,1999,125,47,COLLEGE,MILITARY,null,null,null
+39,AMCB,Army Medical College Bogra,"আর্মি মেডিকেল কলেজ, বগুড়া",2014,50,48,COLLEGE,MILITARY,null,null,null
+40,AMCC,"Army Medical College, Chittagong","আর্মি মেডিকেল কলেজ, চট্টগ্রাম",2014,50,43,COLLEGE,MILITARY,null,null,null
+41,AMCCu,Army Medical College Cumilla,"আর্মি মেডিকেল কলেজ, কুমিল্লা",2014,50,10,COLLEGE,MILITARY,null,null,null
+42,AMCJ,"Army Medical College, Jessore","আর্মি মেডিকেল কলেজ, যশোর",2014,50,52,COLLEGE,MILITARY,null,null,null
+43,RAMC,Rangpur Army Medical College,রংপুর আর্মি মেডিকেল কলেজ,2014,50,61,COLLEGE,MILITARY,null,null,null
+44,DNMC,Dhaka National Medical College,ঢাকা ন্যাশনাল মেডিকেল কলেজ,1925,130,47,COLLEGE,PRIVATE,null,null,null
+45,IMC,Ibrahim Medical College,ইব্রাহিম মেডিকেল কলেজ,2002,110,47,COLLEGE,PRIVATE,null,null,null
+46,BMCH,Bangladesh Medical College,বাংলাদেশ মেডিকেল কলেজ,1986,120,47,COLLEGE,PRIVATE,null,null,null
+47,HFRCMC,Holy Family Red Crescent Medical College,হোলি ফ্যামিলি রেড ক্রিসেন্ট মেডিকেল কলেজ,2000,130,47,COLLEGE,PRIVATE,null,null,null
+48,JIMC,Jahurul Islam Medical College,জাহুরুল ইসলাম মেডিকেল কলেজ,1992,100,45,COLLEGE,PRIVATE,null,null,null
+49,UAMC,Uttara Adhunik Medical College,উত্তরা আধুনিক মেডিকেল কলেজ,2007,90,47,COLLEGE,PRIVATE,null,null,null
+50,SMAMC,Shaheed Monsur Ali Medical College,শহীদ মনসুর আলী মেডিকেল কলেজ,1994,140,47,COLLEGE,PRIVATE,null,null,null
+51,EMCH,Enam Medical College and Hospital,এনাম মেডিকেল কলেজ এবং হাসপাতাল,2003,140,47,COLLEGE,PRIVATE,null,null,null
+52,CBMCB,Community Based Medical College,কমিউনিটি বেসড মেডিকেল কলেজ,1995,125,62,COLLEGE,PRIVATE,null,null,null
+53,ISMC,Ibn Sina Medical College,ইবনে সিনা মেডিকেল কলেজ,1995,65,47,COLLEGE,PRIVATE,null,null,null
+54,SMC,Shahabuddin Medical College,শাহাবুদ্দিন মেডিকেল কলেজ,2003,90,47,COLLEGE,PRIVATE,null,null,null
+55,MCW,Medical College for Women & Hospital,মেডিকেল কলেজ ফর ওয়েমেন এন্ড হাসপাতাল,1992,90,47,COLLEGE,PRIVATE,null,null,null
+56,ZHSWMC,Z. H. Sikder Women's Medical College,জেড এইচ সিকদার ওয়ামেনস মেডিকেল কলেজ,1992,100,47,COLLEGE,PRIVATE,null,null,null
+57,KWMC,Kumudini Women's Medical College,কুমুদিনী ওয়ামেনস মেডিকেল কলেজ,2001,120,44,COLLEGE,PRIVATE,null,null,null
+58,TMMC,Tairunnessa Memorial Medical College,তাইরুন্নেসা মেমোরিয়াল মেডিকেল কলেজ,1992,100,41,COLLEGE,PRIVATE,null,null,null
+59,AWMC,Ad-din Women's Medical College,আদ-দিন ওয়ামেনস মেডিকেল কলেজ,2008,95,47,COLLEGE,PRIVATE,null,null,null
+60,IMC,International Medical College,ইন্টারন্যাশনাল মেডিকেল কলেজ,2000,120,41,COLLEGE,PRIVATE,null,null,null
+61,CEMEC,Central Medical College,সেন্ট্রাল মেডিকেল কলেজ,2005,75,2,COLLEGE,PRIVATE,null,null,null
+62,BGCTMC,B.G.C Trust Medical College,বি.জি.সি ট্রাস্ট মেডিকেল কলেজ,2002,100,8,COLLEGE,PRIVATE,null,null,null
+63,EMC,Eastern Medical College,ইস্টার্ণ মেডিকেল কলেজ,2005,105,2,COLLEGE,PRIVATE,null,null,null
+64,IBMC,Islami Bank Medical College,ইসলামী ব্যাংক মেডিকেল কলেজ,2003,75,15,COLLEGE,PRIVATE,null,null,null
+65,KYAMC,Khwaja Yunus Ali Medical College,খাজা ইউনুস আলী মেডিকেল কলেজ,2005,95,48,COLLEGE,PRIVATE,null,null,null
+66,JRRMC,Jalalabad Ragib-Rabeya Medical College,জালালাবাদ রাগিব-রাবেয়া মেডিকেল কলেজ,1995,175,37,COLLEGE,PRIVATE,null,null,null
+67,EWMCH,East West Medical College,ইস্ট ওয়েস্ট মেডিকেল কলেজ,2000,120,47,COLLEGE,PRIVATE,null,null,null
+68,NEMC,North East Medical College,নর্থ ইস্ট মেডিকেল কলেজ,1997,120,37,COLLEGE,PRIVATE,null,null,null
+69,IAHS,Institute of Applied Health Sciences,ইনস্টিটিউট অব অ্যাপ্লাইড হেলথ সাইন্সস,1989,75,8,COLLEGE,PRIVATE,null,null,null
+70,GSVMC,Gonoshasthaya Samaj Vittik Medical College,গণস্বাস্থ্য সমাজ বিট্টিক মেডিকেল কলেজ,1998,50,47,COLLEGE,PRIVATE,null,null,null
+71,CMOSHMC,Chattagram Maa-O-Shishu Hospital Medical College,চট্টগ্রাম মা-ও-শিশু হাসপাতাল মেডিকেল কলেজ,2005,110,8,COLLEGE,PRIVATE,null,null,null
+72,TMC,T.M.S.S. Medical College,টি.এম.এস.এস. মেডিকেল কলেজ,2008,150,14,COLLEGE,PRIVATE,null,null,null
+73,PMC,Prime Medical College,প্রাইম মেডিকেল কলেজ,2008,125,59,COLLEGE,PRIVATE,null,null,null
+74,NBMC,North Bengal Medical College,নর্থ বেঙ্গল মেডিকেল কলেজ,2000,85,12,COLLEGE,PRIVATE,null,null,null
+75,RCMC,Rangpur Community Medical College,রংপুর কমিউনিটি মেডিকেল কলেজ,2001,125,59,COLLEGE,PRIVATE,null,null,null
+76,DLMC,Delta Medical College,ডেলটা মেডিকেল কলেজ,2006,90,47,COLLEGE,PRIVATE,null,null,null
+77,SMCH,Southern Medical College,সাউথার্ন মেডিকেল কলেজ,2006,95,8,COLLEGE,PRIVATE,null,null,null
+78,AKMMC,Anwer Khan Modern Medical College,আনোয়ার খান মডার্ন মেডিকেল কলেজ,2008,120,47,COLLEGE,PRIVATE,null,null,null
+79,ASMC,Ad-din Sakina Medical College,আদ-দিন সাকিনা মেডিকেল কলেজ,2012,65,20,COLLEGE,PRIVATE,null,null,null
+80,PMC,Popular Medical College,পপুলার মেডিকেল কলেজ,2010,90,47,COLLEGE,PRIVATE,null,null,null
+81,GMCH,Green Life Medical College,গ্রিন লাইফ মেডিকেল কলেজ,2010,100,47,COLLEGE,PRIVATE,null,null,null
+82,DCMC,Dhaka Community Medical College,ঢাকা কমিউনিটি মেডিকেল কলেজ,2008,100,47,COLLEGE,PRIVATE,null,null,null
+83,NPMC,Northern Private Medical College,নর্থান প্রাইভেট মেডিকেল কলেজ,2001,70,59,COLLEGE,PRIVATE,null,null,null
+84,SWMC,Sylhet Women's Medical College,সিলেট ওয়ামেনস মেডিকেল কলেজ,2005,100,37,COLLEGE,PRIVATE,null,null,null
+85,MoMC,Monno Medical College,মন্নো মেডিকেল কলেজ,2002,80,47,COLLEGE,PRIVATE,null,null,null
+86,MHSMC,MH Samorita Medical College,এম.এইচ শমরিতা মেডিকেল কলেজ,2010,110,47,COLLEGE,PRIVATE,null,null,null
+87,CiMC,City Medical College,সিটি মেডিকেল কলেজ,2011,80,41,COLLEGE,PRIVATE,null,null,null
+88,MarksMC,Marks Medical College,মার্কস মেডিকেল কলেজ,2011,70,47,COLLEGE,PRIVATE,null,null,null
+89,DAMC,Diabetic Association Medical College,ডায়াবেটিক এসোসিয়েশন মেডিকেল কলেজ,2010,80,52,COLLEGE,PRIVATE,null,null,null
+90,BMC,Barind Medical College,বরিন্দ মেডিকেল কলেজ,2011,100,15,COLLEGE,PRIVATE,null,null,null
+91,GMC,Gazi Medical College,গাজী মেডিকেল কলেজ,2011,90,27,COLLEGE,PRIVATE,null,null,null
+92,NIMC,Northern International Medical College,নর্দার্ণ ইন্টারন্যাশনাল মেডিকেল কলেজ,2005,75,47,COLLEGE,PRIVATE,null,null,null
+93,DCIMC,Dhaka Central International Medical College,ঢাকা সেন্ট্রাল ইন্টারন্যাশনাল মেডিকেল কলেজ,2011,90,47,COLLEGE,PRIVATE,null,null,null
+94,SIMC,Dr. Sirajul Islam Medical College,ডাঃ সিরাজুল ইসলাম মেডিকেল কলেজ,2011,100,47,COLLEGE,PRIVATE,null,null,null
+95,MMCH,Mainamoti Medical College,ময়নামতি মেডিকেল কলেজ,2011,100,2,COLLEGE,PRIVATE,null,null,null
+96,CAReMC,CARe Medical College,কেয়ার মেডিকেল কলেজ,2014,50,47,COLLEGE,PRIVATE,null,null,null
+97,BBMC,Bikrampur Bhuiyans Medical College,বিক্রমপুর ভূঁইয়ানস মেডিকেল কলেজ,2014,50,48,COLLEGE,PRIVATE,null,null,null
+98,UMC,Universal Medical College,ইউনিভার্সাল মেডিকেল কলেজ,2014,50,47,COLLEGE,PRIVATE,null,null,null
+99,AMC,Ashiyan Medical College,আশিয়ান মেডিকেল কলেজ,2012,50,47,COLLEGE,PRIVATE,null,null,null
+100,USBMC,US-Bangla Medical College,ইউএস-বাংলা মেডিকেল কলেজ,2013,60,47,COLLEGE,PRIVATE,null,null,null
+101,PAHMC,President Abdul Hamid Medical College,প্রেসিডেন্ট আব্দুল হামিদ মেডিকেল কলেজ,2013,70,45,COLLEGE,PRIVATE,null,null,null
+102,BBMC,Brahmanbaria Medical College,ব্রাহ্মণবাড়িয়া মেডিকেল কলেজ,2010,50,3,COLLEGE,PRIVATE,null,null,null
+103,PMC,Parkview Medical College,পার্কভিউ মেডিকেল কলেজ,2013,50,37,COLLEGE,PRIVATE,null,null,null
+104,AAMC,Ad-Din Akij Medical College,আদ-দিন আকিজ মেডিকেল কলেজ,2013,50,27,COLLEGE,PRIVATE,null,null,null
+105,SMMC,Shah Mokhdum Medical College(Black list by MOHFW),শাহ মখদুম মেডিকেল কলেজ (মন্ত্রণালয়ের কালার তালিকায় রয়েছে),2012,50,15,COLLEGE,PRIVATE,null,null,null
+106,MSMC,Monowara Sikder Medical College,মনোয়ারা সিকদার মেডিকেল কলেজ,2015,50,42,COLLEGE,PRIVATE,null,null,null
+107,BAMC,Bashundhara Ad-din Medical College,বসুন্ধরা আদ-দিন মেডিকেল কলেজ,2014,50,47,COLLEGE,PRIVATE,null,null,null
+108,AIMC,Aichi Medical College,আইচি মেডিকেল কলেজ,2013,50,47,COLLEGE,PRIVATE,null,null,null
+109,MCMC,Marine City Medical College,মারিন সিটি মেডিকেল কলেজ,2014,50,8,COLLEGE,PRIVATE,null,null,null
+110,KCMC,Khulna City Medical College,খুলনা সিটি মেডিকেল কলেজ,2013,50,27,COLLEGE,PRIVATE,null,null,null
+111,CIMCH,Chattagram International Medical College,চট্টগ্রাম ইন্টারন্যাশনাল মেডিকেল কলেজ,2013,50,8,COLLEGE,PRIVATE,null,null,null
+112,NMC,Nightingale Medical College (Black list by MOHFW),নাইটিংগেল মেডিকেল কলেজ (মন্ত্রণালয়ের কালার তালিকায় রয়েছে),2006,85,47,COLLEGE,PRIVATE,null,null,null
+113,UnMC,United Medical College,ইউনাইটেড মেডিকেল কলেজ,2020,50,47,COLLEGE,PRIVATE,null,null,null
+114,SAMC,South Apollo Medical College,সাউথ অ্যাপোলো মেডিকেল কলেজ,2018,50,34,COLLEGE,PRIVATE,null,null,null
+115,AMMC,Ahsania Mission Medical College,আহসানিয়া মিশন মেডিকেল কলেজ,2021,50,47,COLLEGE,PRIVATE,null,null,null
+116,DDC,Dhaka Dental College,ঢাকা ডেন্টাল কলেজ,1961,97,47,COLLEGE,PRIVATE,null,null,null
+117,CMC,Chittagong Medical College Dental Unit,চট্টগ্রাম মেডিকেল কলেজ ডেন্টাল ইউনিট,1990,60,8,COLLEGE,PRIVATE,null,null,null
+118,RMC,Rajshahi Medical College Dental Unit,রাজশাহী মেডিকেল কলেজ ডেন্টাল ইউনিট,1989,59,15,COLLEGE,PRIVATE,null,null,null
+119,SShMC,Shaheed Suhrawardy Medical College Dental Unit,শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ ডেন্টাল ইউনিট,2011,56,47,COLLEGE,PRIVATE,null,null,null
+120,SSMC,Sir Salimullah Medical College Dental Unit,সির সালিমুল্লাহ মেডিকেল কলেজ ডেন্টাল ইউনিট,2011,52,47,COLLEGE,PRIVATE,null,null,null
+121,MMC,Mymensingh Medical College Dental Unit,ময়মনসিংহ মেডিকেল কলেজ ডেন্টাল ইউনিট,2011,52,62,COLLEGE,PRIVATE,null,null,null
+122,SOMC,MAG Osmani Medical College Dental Unit,এম.এ.জি ওসমানী মেডিকেল কলেজ ডেন্টাল ইউনিট,2011,52,37,COLLEGE,PRIVATE,null,null,null
+123,SBMC,Sher-e-Bangla Medical College Dental Unit,শেরে বাংলা মেডিকেল কলেজ ডেন্টাল ইউনিট,2011,52,34,COLLEGE,PRIVATE,null,null,null
+124,RpMC,Rangpur Medical College Dental Unit,রংপুর মেডিকেল কলেজ ডেন্টাল ইউনিট,2011,52,59,COLLEGE,PRIVATE,null,null,null
+125,UDC,University Dental College,ইউনিভার্সিটি ডেন্টাল কলেজ,1995,0,47,COLLEGE,PRIVATE,null,null,null
+126,CDC,City Dental College,সিটি ডেন্টাল কলেজ,1996,0,47,COLLEGE,PRIVATE,null,null,null
+127,PDC,Pioneer Dental College,পাইওনিয়ার ডেন্টাল কলেজ,1995,0,47,COLLEGE,PRIVATE,null,null,null
+128,SDC,Sapporo Dental College,সাপোরো ডেন্টাল কলেজ,1993,0,47,COLLEGE,PRIVATE,null,null,null
+129,BDC,Bangladesh Dental College,বাংলাদেশ ডেন্টাল কলেজ,1986,0,47,COLLEGE,PRIVATE,null,null,null
+130,CIDC,Chattagram International Dental College,চট্টগ্রাম ইন্টারন্যাশনাল ডেন্টাল কলেজ,2003,0,8,COLLEGE,PRIVATE,null,null,null
+131,RDC,Rangpur Dental College,রংপুর ডেন্টাল কলেজ,2001,0,59,COLLEGE,PRIVATE,null,null,null
+132,UpDC,Update Dental College,আপডেট ডেন্টাল কলেজ,2008,0,47,COLLEGE,PRIVATE,null,null,null
+133,MDC,Marks Dental College,মার্কস ডেন্টাল কলেজ,2008,0,47,COLLEGE,PRIVATE,null,null,null
+134,SWDC,Saphena Women's Dental College,সাফিনা উইমেনস ডেন্টাল কলেজ,2010,0,47,COLLEGE,PRIVATE,null,null,null
+135,MDC,Mandy Dental College,ম্যান্ডি ডেন্টাল কলেজ,2008,0,47,COLLEGE,PRIVATE,null,null,null
+136,UdDC,Udayan Dental College,উদয়ান ডেন্টাল কলেজ,2008,0,15,COLLEGE,PRIVATE,null,null,null
+137,TMCDU,TMSS Medical College Dental Unit,টিএমএসএস মেডিকেল কলেজ ডেন্টাল ইউনিট,2008,0,14,COLLEGE,PRIVATE,null,null,null
+138,MHSMCDU,MH Samorita Medical College & Dental Unit,এম.এইচ সামরিতা মেডিকেল কলেজ এবং ডেন্টাল ইউনিট,2010,0,47,COLLEGE,PRIVATE,null,null,null
+139,KWMCDU,"Kumudini Women's Medical College, Dental Unit","কুমুদিনী উইমেনস মেডিকেল কলেজ, ডেন্টাল ইউনিট",2011,0,44,COLLEGE,PRIVATE,null,null,null
+140,HFRCMCDU,Holy Family Red Cresect Medical College Dental Unit,"হোলি ফ্যামিলি রেড ক্রিসেন্ট মেডিকেল কলেজ, ডেন্টাল ইউনিট",2013,0,47,COLLEGE,PRIVATE,null,null,null
+141,GSVMCDU,Gonoshasthaya Samajvittik Samaj Vittik Dental College,গণসমাজবিত্তিক সমাজবিত্তিক ডেন্টাল কলেজ,1998,0,47,COLLEGE,PRIVATE,null,null,null
+142,IMCDU,"Ibrahim Medical College, Dental Unit","ইব্রাহিম মেডিকেল কলেজ, ডেন্টাল ইউনিট",2015,0,47,COLLEGE,PRIVATE,null,null,null
+143,DCMCDU,Dhaka Community Medical College Hospital And Dental Unit,ঢাকা কমিউনিটি মেডিকেল কলেজ হাসপাতাল এবং ডেন্টাল ইউনিট,2015,0,47,COLLEGE,PRIVATE,null,null,null
+144,DLMCDU,Delta Medical College & Hospital Dental Unit,ডেল্টা মেডিকেল কলেজ এবং হাসপাতাল ডেন্টাল ইউনিট,2015,25,47,COLLEGE,PRIVATE,null,null,null
+145,CBMCDU,"Community Based Medical College, Bangladesh Dental Unit","কমিউনিটি বেসড মেডিকেল কলেজ, বাংলাদেশ ডেন্টাল ইউনিট",2015,0,47,COLLEGE,PRIVATE,null,null,null
+146,DNMCDU,Dhaka National Medical College Dental Unit,ঢাকা ন্যাশনাল মেডিকেল কলেজ ডেন্টাল ইউনিট,2015,0,47,COLLEGE,PRIVATE,null,null,null
+147,IBMCDU,Islami Bank Medical College Dental Unit,ইসলামী ব্যাংক মেডিকেল কলেজ ডেন্টাল ইউনিট,2015,85,47,COLLEGE,PRIVATE,null,null,null
+148,SCDC,Sylhet Central Dental College & General Hospital,সিলেট সেন্ট্রাল ডেন্টাল কলেজ এবং জেনারেল হাসপাতাল,2015,0,37,COLLEGE,PRIVATE,null,null,null
+149,KEAMCDU,Khawja Eunus Ali Medical College Dental Unit,খাজা ইউনুস আলী মেডিকেল কলেজ ডেন্টাল ইউনিট,2015,50,47,COLLEGE,PRIVATE,null,null,null
+150,NEMCDU,North East Medical College Dental Unit,নর্থ ইস্ট মেডিকেল কলেজ ডেন্টাল ইউনিট,2015,0,47,COLLEGE,PRIVATE,null,null,null

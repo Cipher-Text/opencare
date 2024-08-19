@@ -1,0 +1,51 @@
+databaseChangeLog:
+  - changeSet:
+      id: ab249d73-8d24-41dc-b9f9-abc55521c8d1
+      author: sadman
+      changes:
+        - createTable:
+            columns:
+              - column:
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+                    primaryKeyName: user_id_pk
+                  name: id
+                  type: bigserial
+              - column:
+                  constraints:
+                    nullable: false
+                  name: username
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: password
+                  type: varchar(100)
+              - column:
+                  name: phone
+                  type: varchar(20)
+              - column:
+                  name: email
+                  type: varchar(100)
+              - column:
+                  constraints:
+                    nullable: false
+                  name: is_active
+                  type: boolean
+                  defaultValueBoolean: false
+              - column:
+                  name: created_by
+                  type: int8
+              - column:
+                  constraints:
+                    nullable: false
+                  name: created_at
+                  type: timestamp
+              - column:
+                  name: updated_by
+                  type: int8
+              - column:
+                  name: updated_at
+                  type: timestamp
+            tableName: user

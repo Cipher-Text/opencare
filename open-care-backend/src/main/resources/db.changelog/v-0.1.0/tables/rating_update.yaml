@@ -1,0 +1,18 @@
+databaseChangeLog:
+  - changeSet:
+      id: 7b137e38-b3fd-4efd-961b-c618f8d1534k
+      author: mazhar
+      changes:
+        - modifyDataType:
+              columnName: rating_options
+              newDataType: text
+              tableName: rating
+
+
+
+
+
+
+
+
+
