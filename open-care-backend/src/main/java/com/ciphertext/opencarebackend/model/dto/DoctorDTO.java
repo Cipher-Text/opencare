@@ -32,6 +32,7 @@ public class DoctorDTO {
     private Long userId;
 
     public int getYearOfExperience() {
+        if(startDate == null) return 0;
         return (LocalDate.now().getYear() - startDate.getYear()) < 1 ?
                 0 : (LocalDate.now().getYear() - startDate.getYear());
     }

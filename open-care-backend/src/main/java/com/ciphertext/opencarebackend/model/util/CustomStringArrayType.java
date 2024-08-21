@@ -1,5 +1,6 @@
 package com.ciphertext.opencarebackend.model.util;
 
+import lombok.Setter;
 import org.hibernate.engine.spi.SharedSessionContractImplementor;
 import org.hibernate.usertype.UserType;
 
@@ -7,6 +8,7 @@ import java.io.Serializable;
 import java.sql.*;
 import java.util.Arrays;
 
+@Setter
 public class CustomStringArrayType implements UserType<String[]> {
     @Override
     public int getSqlType() {

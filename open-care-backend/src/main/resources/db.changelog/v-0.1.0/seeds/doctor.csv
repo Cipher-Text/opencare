@@ -1,115 +1,1241 @@
-name,is_active
-Prof. Wahiuddin Mahmood,true
-Dr. Shah Muhammad Ali,true
-Dr. Tahmina Banu,true
-Dr. Bhabesh Chandra Mondal,true
-Dr. Ranadhir Kumar Kundu,true
-Dr. Md. Quamrul Islam,true
-Prof. Dr. Md. Zulfiqar Hasan,true
-Dr. Istaque Ahmed Milton,true
-Prof. Brig. Gen. Faruk Ahmed (Retd.),true
-Dr. Mosaddeque Ahmed,true
-Prof. Dr. M. A. Rashid,true
-Dr. Subbian Esakkimuthu Asary,true
-Mrs. Sharmin Haque,true
-Dr. Rehnuma Jahan,true
-Dr. Shagufta Afreen Azhar,true
-Dr. Shoheli Sultana,true
-Prof. Dr. Shah Alam,true
-Lt. Col. Dr. Md. Sajedur Rahman,true
-Dr. Md. Mamunur Rashid,true
-Dr. Syeda Ishrat Jahan,true
-Prof. Dr. Md. Kabirul Islam,true
-Dr. M. H. Shaheel Mahmood,true
-Dr. Md. Nasimul Jamal,true
-Dr. Sanjoy Banerjee,true
-Dr. Mesbah Uddin Ahmed,true
-Dr. Fazlul Hoque,true
-Dr. A M Rejaus Satter,true
-Prof. Syed Md. Akram Hussain,true
-Dr. Md. Salim Reza,true
-Dr. Md. Masudur Rahman,true
-Dr. Major (Retd) Zeena Salwa,true
-Prof. Dr. ABM Abdus Salam,true
-Dr. Aftab Yusuf Raj,true
-Prof. Sk. Md. Bahar Hussain,true
-Prof. Dr. Md. Sanawar Hossain,true
-Prof. Dr. Sudhakar Chandran Bose,true
-Dr. Mohammad Yasin Chowdhury,true
-Prof. (Dr.) Ninan Chacko,true
-Dr. N. I. Bhuiyan,true
-Prof. Dr. Md. Abu Bakar,true
-Dr. Jahangir Alam,true
-Dr. Md. Towhiduzzaman,true
-Dr. Sheikh Nafis - ur Rahman,true
-Professor Dr. Sufia Nasrin Rita,true
-Associate Professor Dr. S. M. Anwar Sadat,true
-Prof. Dr. S. R. Begum,true
-Dr. Nargis Fatema,true
-Dr. Khaleda Yeasmin Mirza,true
-Dr. Kashefa Nazneen,true
-Dr. Nasima Shaheen,true
-Dr. Kazi Shamsun Nahar,true
-Prof. Dr. Md. Anowar Hossain,true
-Prof. Dr. Zahidul Hasan,true
-Dr. Bidoura Naznin,true
-Dr. Nurunnahar Mawla,true
-Dr. Ahmed Sayeed,true
-Prof. Dr. Abdul Kader Shaikh,true
-Associate Prof. Dr. Sk. Mahbub Alam,true
-Dr. Rama Biswas,true
-Dr. Lutfun Nahar Begum,true
-Prof. Dr. Jalal Uddin,true
-Dr. Pratik Dewan,true
-Dr. Mahbub Mansur,true
-Dr. AKM Abu Mottaleb,true
-Dr. Musrat Rahman Deeba,true
-Dr. Raihan Rabbani,true
-Dr. Pratik Dewan,true
-Dr. Rehnuma Jahan,true
-Brig. Gen. Dr. Md. Delwar Hossain,true
-Dr. Sarabon Tahura,true
-Dr. Kamal Pasha,true
-Dr. Tanny Tarafder,true
-Dr. Deepankar Kumar Basak,true
-Dr. Mohammad Israt Faisal,true
-Dr. Md. Mazharul Islam,true
-Dr. Arunangshu Das,true
-Dr. Md. Akhtanur Rahman Joarder,true
-Dr. Md. Sultan Sarwar Parvez,true
-Prof. Brig Gen (Retd.) Jahangir Alam,true
-Dr. Subrata Kumar Barai,true
-Dr. Md. Abdul Qader,true
-Dr. Fowaz Hussain Shuvo,true
-DR. NASIMA AKTER,true
-Prof. Md. Waziul Alam Chowdhury,true
-Dr. Mahbub Hasan,true
-Dr. Md. O.F.G Kibria,true
-Dr. Md. Sirazul Haque Ershad,true
-Dr. Mohammad Abdullah Al Mamun,true
-Dr. Sadiqa Tuqan,true
-Prof. Dr. Rehana Parveen,true
-Prof. Dr. Brig. Gen. Md. Liakat Ali Hyder,true
-Dr. Arif Salam Khan,true
-Prof. Dr. Brig. Gen. Md. Azizul Islam,true
-Prof. Dr. Md. Hasan Masud,true
-Dr. Major (Retd) Zeena Salwa,true
-Dr. Mohammad Abdullah Al Mamun,true
-Dr. Mohammed Rashedul Islam,true
-Dr. Asif Manwar,true
-Dr. S.M Shahedul Amin (Robin),true
-DR. NASIMA AKTER,true
-Dr. Manjuma Rahman,true
-Dr. Mahmuda Zaman,true
-Prof. Dr. Md. Siraj Uddin,true
-Dr.Sultan Reza,true
-Dr M. M. Jayed Hossain Chowdhury,true
-Dr. Prasanta K Chanda,true
-Dr. Farzana Shumy,true
-Dr. Farzana Shumy,true
-Dr. Mahmuda Zaman,true
-Dr. Farzana Rashid,true
-Dr. Farzana Rashid,true
-Brig. Gen. Prof. Dr. Md. Azizur Rahman,true
-Brig. Gen. Prof. Dr. Ismail Chowdhury,true
-Prof. Dr. Renu Elizabeth George,true
+name,bn_name,gender,bmdc_no,is_verified,is_active
+Dr. Md Sidur Rahman,Dr. Md Sidur Rahman,FEMALE,A-52508,false,false
+Dr. Susmita Sarker,Dr. Susmita Sarker,FEMALE,103156,false,false
+Dr. Md.Mahidul Islam,Dr. Md.Mahidul Islam,MALE,100694,false,false
+Dr. MASUD PARVEZ,Dr. MASUD PARVEZ,MALE,A81736,false,false
+Dr. MD. TAIFUR AZIZ KHAN,Dr. MD. TAIFUR AZIZ KHAN,MALE,80030,false,false
+Dr. Atanu Dey,Dr. Atanu Dey,MALE,A 86515,false,false
+Dr. Nazrul Haque,Dr. Nazrul Haque,MALE,7465,false,false
+Dr. Kawser Ahmed Khan,Dr. Kawser Ahmed Khan,MALE,A81420,false,false
+Dr. Tapan Sarkar,Dr. Tapan Sarkar,MALE,A65126,false,false
+Dr. ASAD ULLAH,Dr. ASAD ULLAH,MALE,103805,false,false
+Dr. Md. Sabbir Ahamed,Dr. Md. Sabbir Ahamed,MALE,88867,false,false
+Dr. Pritom Muztahid,Dr. Pritom Muztahid,MALE,90010,false,false
+Dr. Sultanan Nasira Suravi,Dr. Sultanan Nasira Suravi,FEMALE,90356,false,false
+Dr. Mohammad Torikul,Dr. Mohammad Torikul,MALE,75798,false,false
+Dr. Mohammed Waliur Rahman,Dr. Mohammed Waliur Rahman,MALE,A44259,false,false
+Dr. Shubro Das Partho,Dr. Shubro Das Partho,MALE,A-99733,false,false
+Dr. Sheikh Omar,Dr. Sheikh Omar,MALE,A98380,false,false
+Dr. Md. Shamsul Alam,Dr. Md. Shamsul Alam,MALE,A78220,false,false
+Dr. Anupam Dutta Roy,Dr. Anupam Dutta Roy,MALE,A-51373,false,false
+Dr. Farjana Yeasmeen,Dr. Farjana Yeasmeen,FEMALE,34408,false,false
+Dr. Masuma Mokhles,Dr. Masuma Mokhles,FEMALE,94234,false,false
+Dr. Saiful Maleque,Dr. Saiful Maleque,MALE,105044,false,false
+Dr. Shanaz Parvin Sathi,Dr. Shanaz Parvin Sathi,FEMALE,95648,false,false
+Asst. Prof. Dr. Kamruzzaman Mredha,Asst. Prof. Dr. Kamruzzaman Mredha,MALE,45409,false,false
+Dr. Abu Naser Foysal Reza,Dr. Abu Naser Foysal Reza,MALE,48225,false,false
+Dr. Abbas Uddin,Dr. Abbas Uddin,MALE,85631,false,false
+Asst. Prof. Dr. Monika Parvin,Asst. Prof. Dr. Monika Parvin,FEMALE,A50077,false,false
+Dr. Shafkat Hasan,Dr. Shafkat Hasan,MALE,37788,false,false
+Dr. Md. Rakib-Ul Aowal Mazumder,Dr. Md. Rakib-Ul Aowal Mazumder,MALE,A100966,false,false
+Dr. Nazmul Hossen Nipu,Dr. Nazmul Hossen Nipu,MALE,85108,false,false
+Dr. Shamiha Seraj,Dr. Shamiha Seraj,FEMALE,A47566,false,false
+Dr. Md. Sohanur Rahman,Dr. Md. Sohanur Rahman,MALE,95874,false,false
+Dr. R S,Dr. R S,MALE,12345678,false,false
+Dr. Yousup Nabi,Dr. Yousup Nabi,MALE,87902,false,false
+Dr. Ripon Kumar Ghosh,Dr. Ripon Kumar Ghosh,MALE,59784,false,false
+Dr. Plabani Saha,Dr. Plabani Saha,FEMALE,A-70475,false,false
+Dr. Md.Mujibur Rahman,Dr. Md.Mujibur Rahman,MALE,28608,false,false
+Dr. Md. Raju Ahmed,Dr. Md. Raju Ahmed,MALE,117183,false,false
+Dr. Akhter Uz Zaman Sajib,Dr. Akhter Uz Zaman Sajib,MALE,A81634,false,false
+Dr. Palash Kumar Roy,Dr. Palash Kumar Roy,MALE,91419,false,false
+Dr. MD ASADUZZAMAN SADI,Dr. MD ASADUZZAMAN SADI,MALE,53344,false,false
+Dr. Mohammad Zakaria,Dr. Mohammad Zakaria,MALE,A83752,false,false
+Dr. Mortuza Rahim,Dr. Mortuza Rahim,MALE,A12345,false,false
+Dr. Rakib Hasan Sabbir Test,Dr. Rakib Hasan Sabbir Test,MALE,123456,false,false
+Dr. Md. Mohibbullah,Dr. Md. Mohibbullah,MALE,3629,false,false
+Dr. Md. Hasan Sharif,Dr. Md. Hasan Sharif,MALE,A 67114,false,false
+Dr. Nusrat Jahan,Dr. Nusrat Jahan,FEMALE,6970,false,false
+Dr. Faiyaz Mahamud,Dr. Faiyaz Mahamud,MALE,45678,false,false
+Dr. G M Kaisar,Dr. G M Kaisar,MALE,A-65747,false,false
+Dr. Md.Mohsin Hossain,Dr. Md.Mohsin Hossain,MALE,87291,false,false
+Dr. D for Doctor,Dr. D for Doctor,MALE,19611231,false,false
+Dr. G Doctor,Dr. G Doctor,MALE,19711216,false,false
+Dr. Md.Abu Ayub Khan,Dr. Md.Abu Ayub Khan,MALE,A78953,false,false
+Dr. Hasan Shahriar,Dr. Hasan Shahriar,MALE,59425,false,false
+Dr. Khaled bin Shahabuddin,Dr. Khaled bin Shahabuddin,MALE,96189,false,false
+Dr. Rabeya Khatun,Dr. Rabeya Khatun,FEMALE,65408,false,false
+Dr. Automation One,Dr. Automation One,MALE,12345,false,false
+Dr. Fariha Anam,Dr. Fariha Anam,FEMALE,99881,false,false
+Dr. Tasmia Ferdous,Dr. Tasmia Ferdous,FEMALE,63362,false,false
+Dr. Shankhamay Ghosh,Dr. Shankhamay Ghosh,MALE,A-86054,false,false
+Dr. Puja Majumder,Dr. Puja Majumder,FEMALE,99457,false,false
+Dr. Atika Anjuman,Dr. Atika Anjuman,FEMALE,cghhhhjn,false,false
+Dr. Md.Abu Bakar Siddique,Dr. Md.Abu Bakar Siddique,MALE,A62050,false,false
+Dr. S M Abu Sayeed,Dr. S M Abu Sayeed,MALE,37359,false,false
+Dr. Turanjoy Mukherjee,Dr. Turanjoy Mukherjee,MALE,86589,false,false
+Dr. Mohammad Rafiq-un-Nabi Siam,Dr. Mohammad Rafiq-un-Nabi Siam,MALE,A60347,false,false
+Dr. MD Nur-E-Ashfaq Alam,Dr. MD Nur-E-Ashfaq Alam,MALE,A62444,false,false
+Dr. Taufique-E-Elahi Sabuz,Dr. Taufique-E-Elahi Sabuz,MALE,A57653,false,false
+Dr. Kawser Hamid,Dr. Kawser Hamid,MALE,59666,false,false
+Dr. Md. Sadiqur Rahman,Dr. Md. Sadiqur Rahman,MALE,70219,false,false
+Dr. Orin Jamie,Dr. Orin Jamie,FEMALE,A66159,false,false
+Dr. Nahid Azhar,Dr. Nahid Azhar,MALE,A70355,false,false
+Dr. Anjuman Ara TAMANNA,Dr. Anjuman Ara TAMANNA,FEMALE,A62433,false,false
+Dr. Al Saad,Dr. Al Saad,MALE,99506,false,false
+Asst. Prof. Dr. Nahidul Islam,Asst. Prof. Dr. Nahidul Islam,MALE,25862,false,false
+Dr. Humayun Rashid Sagor,Dr. Humayun Rashid Sagor,MALE,59817,false,false
+Dr. Rabiul Islam,Dr. Rabiul Islam,MALE,A63081,false,false
+Prof. Dr. Ishita Moin,Prof. Dr. Ishita Moin,NONE,"",false,false
+Dr. MD. ATIQUR RAHAMAN,Dr. MD. ATIQUR RAHAMAN,MALE,9381,false,false
+Dr. Nitul Roy,Dr. Nitul Roy,MALE,77940,false,false
+Dr. Sakhawat hossain,Dr. Sakhawat hossain,MALE,A62455,false,false
+Prof. Dr. Mukti Rani Ghosh,Prof. Dr. Mukti Rani Ghosh,NONE,1234,false,false
+Prof. Dr. Tamanna Elahi,Prof. Dr. Tamanna Elahi,NONE,"",false,false
+Dr. M R Karim Reza,Dr. M R Karim Reza,MALE,25049,false,false
+Dr. Farjana Khanom,Dr. Farjana Khanom,FEMALE,93373,false,false
+Dr. Md.Mashfiqul Haque,Dr. Md.Mashfiqul Haque,MALE,74696,false,false
+Dr. .Test Team,Dr. .Test Team,MALE,19880705,false,false
+Dr. Marzatul Hasna,Dr. Marzatul Hasna,FEMALE,74695,false,false
+Dr. Md Mohiuddin MajedChowdhury,Dr. Md Mohiuddin MajedChowdhury,MALE,59364,false,false
+Dr. Mohammad Nasir Uddin,Dr. Mohammad Nasir Uddin,MALE,31735,false,false
+Assoc. Prof. Dr. Sheikh Zahid Boksh,Assoc. Prof. Dr. Sheikh Zahid Boksh,MALE,A26484,false,false
+Dr. Mithun Nath,Dr. Mithun Nath,MALE,58626,false,false
+Dr. Test Doc,Dr. Test Doc,NONE,"",false,false
+Asst. Prof. Dr. Testing Purpose,Asst. Prof. Dr. Testing Purpose,MALE,99572,false,false
+Dr. Mehedi Hasan,Dr. Mehedi Hasan,MALE,61353,false,false
+Dr. Supriya Sarker,Dr. Supriya Sarker,FEMALE,61792,false,false
+Dr. Md. Arif Hasan Bhuiyan,Dr. Md. Arif Hasan Bhuiyan,MALE,A66488,false,false
+Dr. L. Bow,Dr. L. Bow,MALE,131083,false,false
+Dr. Test Doctor,Dr. Test Doctor,MALE,13570,false,false
+Dr. Md Jamal Mia Shovon,Dr. Md Jamal Mia Shovon,MALE,37226,false,false
+Dr. kawsarul islam,Dr. kawsarul islam,MALE,A83642,false,false
+Dr. KHALED MAHMUD,Dr. KHALED MAHMUD,MALE,a69887,false,false
+Dr. HASANUL QUADER,Dr. HASANUL QUADER,MALE,42789,false,false
+Asst. Prof. Dr. Nooruddin Talukder,Asst. Prof. Dr. Nooruddin Talukder,MALE,A26250,false,false
+Dr. Shaheen Mahmud,Dr. Shaheen Mahmud,MALE,55384,false,false
+Dr. A. F. M. Noman,Dr. A. F. M. Noman,MALE,102388,false,false
+Assoc. Prof. Dr. Sultana Afroj,Assoc. Prof. Dr. Sultana Afroj,FEMALE,A22076,false,false
+Dr. Kazi AbdulMomin,Dr. Kazi AbdulMomin,MALE,48444,false,false
+Dr. Kamrun Naher,Dr. Kamrun Naher,FEMALE,64728,false,false
+Dr. Umme Habiba,Dr. Umme Habiba,FEMALE,75628,false,false
+Dr. Maria Meherjabin,Dr. Maria Meherjabin,FEMALE,45673,false,false
+Assoc. Prof. Dr. Test Purpose,Assoc. Prof. Dr. Test Purpose,FEMALE,2344870,false,false
+Assoc. Prof. Dr. Test Tube,Assoc. Prof. Dr. Test Tube,MALE,312979,false,false
+Dr. Golam Robbani Maruf,Dr. Golam Robbani Maruf,MALE,A104038,false,false
+Asst. Prof. Dr. AKM Ziaul Huque,Asst. Prof. Dr. AKM Ziaul Huque,MALE,40733,false,false
+Dr. Samia Mazumder Koli,Dr. Samia Mazumder Koli,FEMALE,62586,false,false
+Dr. Yasmin Akter Anne,Dr. Yasmin Akter Anne,FEMALE,9313,false,false
+Dr. Tasnia Shoily,Dr. Tasnia Shoily,MALE,24091984,false,false
+Dr. Shabinaz Rahim,Dr. Shabinaz Rahim,FEMALE,A45768,false,false
+Dr. Tech Doc,Dr. Tech Doc,MALE,26091986,false,false
+Dr. Gupal Karmaker,Dr. Gupal Karmaker,MALE,1485,false,false
+Dr. Tech Doctor,Dr. Tech Doctor,MALE,5387486,false,false
+Dr. JAKARIA ISLAM,Dr. JAKARIA ISLAM,MALE,A80116,false,false
+Assoc. Prof. Dr. Muhammed Ashraful Alam Bhuiyan,Assoc. Prof. Dr. Muhammed Ashraful Alam Bhuiyan,MALE,A31476,false,false
+Dr. Avishek Mondal,Dr. Avishek Mondal,MALE,4959,false,false
+Dr. Afifa Dana,Dr. Afifa Dana,FEMALE,88475,false,false
+Dr. Rezuan Rifat,Dr. Rezuan Rifat,MALE,78151,false,false
+Dr. Fazle Rabbi,Dr. Fazle Rabbi,MALE,85441,false,false
+Dr. Md.Shamim Arafath,Dr. Md.Shamim Arafath,MALE,6147,false,false
+Dr. Kamrul Hasan,Dr. Kamrul Hasan,MALE,2710,false,false
+Dr. Md. Jamshed Ali,Dr. Md. Jamshed Ali,MALE,A15456,false,false
+Dr. Shamsuddin Mahmud,Dr. Shamsuddin Mahmud,MALE,7202,false,false
+Dr. Raquib Hussain,Dr. Raquib Hussain,MALE,A51726,false,false
+Dr. Farzana Akhtar,Dr. Farzana Akhtar,FEMALE,5004,false,false
+Dr. Be Low,Dr. Be Low,MALE,210982,false,false
+Dr. MD. GOLAM-UR-RAHAMAN SOHAIL,Dr. MD. GOLAM-UR-RAHAMAN SOHAIL,MALE,A50909,false,false
+Dr. Shahnaz Mustafa,Dr. Shahnaz Mustafa,FEMALE,6084,false,false
+Dr. M Hadiuzzaman Hadi,Dr. M Hadiuzzaman Hadi,MALE,3389,false,false
+Dr. SAMRAT SADAT AL Safi,Dr. SAMRAT SADAT AL Safi,MALE,A70243,false,false
+Dr. Sanjiba Chowdhury,Dr. Sanjiba Chowdhury,FEMALE,A100427,false,false
+Dr. Tamim Al Mishu,Dr. Tamim Al Mishu,MALE,71920,false,false
+Dr. Md. Anisul Hoque,Dr. Md. Anisul Hoque,MALE,A69409,false,false
+Dr. Md. Imtiaz Safa,Dr. Md. Imtiaz Safa,MALE,A100305,false,false
+Dr. SWATI DAS,Dr. SWATI DAS,FEMALE,A92044,false,false
+Dr. Sheikh Abir Mahmood,Dr. Sheikh Abir Mahmood,MALE,A105524,false,false
+Asst. Prof. Dr. Moyeen Uddin Ahmed,Asst. Prof. Dr. Moyeen Uddin Ahmed,MALE,A14610,false,false
+Dr. Maisum Sobhan,Dr. Maisum Sobhan,MALE,71578,false,false
+Dr. S M Mahbubur Rahman,Dr. S M Mahbubur Rahman,FEMALE,A49829,false,false
+Dr. Mashrufa Tasnim,Dr. Mashrufa Tasnim,FEMALE,A75974,false,false
+Dr. MD.NAHID YUSUF,Dr. MD.NAHID YUSUF,MALE,A82615,false,false
+Shahina Akther,Shahina Akther,FEMALE,Not Applicable,false,false
+Shamima Akter Mimi,Shamima Akter Mimi,FEMALE,Not Applicable,false,false
+Dr. Thouhidul Anwar,Dr. Thouhidul Anwar,MALE,33076,false,false
+Dr. Ram Chowdhury,Dr. Ram Chowdhury,MALE,80848,false,false
+Dr. Maj. Lutfor Rahman,Dr. Maj. Lutfor Rahman,MALE,A15398,false,false
+Dr. Saikat Joydhar,Dr. Saikat Joydhar,MALE,A80323,false,false
+Dr. Rif At Walia Nabila,Dr. Rif At Walia Nabila,FEMALE,88067,false,false
+Dr. Marouf Hossain Evan,Dr. Marouf Hossain Evan,MALE,81863,false,false
+Dr. Sanjida Ahmed,Dr. Sanjida Ahmed,FEMALE,A26364,false,false
+Dr. Awad Nur Al Sabri,Dr. Awad Nur Al Sabri,MALE,104881,false,false
+Dr. Aga Salehin Farhan,Dr. Aga Salehin Farhan,MALE,A-82227,false,false
+Dr. anowar shamim,Dr. anowar shamim,MALE,A78611,false,false
+Dr. Sharmin Nahar,Dr. Sharmin Nahar,FEMALE,A74357,false,false
+Dr. Md. Radwanur Rahman Anik,Dr. Md. Radwanur Rahman Anik,MALE,A79821,false,false
+Dr. Dhiman Chowdhury,Dr. Dhiman Chowdhury,MALE,60018,false,false
+Dr. Fuad Ahmed,Dr. Fuad Ahmed,MALE,A95908,false,false
+Dr. Rasna sharmin,Dr. Rasna sharmin,FEMALE,93710,false,false
+Dr. Md.Rasheduzzaman Sarker,Dr. Md.Rasheduzzaman Sarker,MALE,80169,false,false
+Dr. Subarna Biswas,Dr. Subarna Biswas,FEMALE,7510,false,false
+Dr. Fatema Akhter Sampa,Dr. Fatema Akhter Sampa,FEMALE,A85061,false,false
+Dr. Mohiuddin Mohammad Alamgir,Dr. Mohiuddin Mohammad Alamgir,MALE,66941,false,false
+Dr. S. M. Hasnain Iqbal,Dr. S. M. Hasnain Iqbal,MALE,9504,false,false
+Dr. MOSTAFA MAHTAB TOAHA,Dr. MOSTAFA MAHTAB TOAHA,MALE,71240,false,false
+Dr. Abu Naser Muhammad Kibriya,Dr. Abu Naser Muhammad Kibriya,MALE,A45210,false,false
+Dr. Anjelika Diba Purification,Dr. Anjelika Diba Purification,FEMALE,83418,false,false
+Dr. Nishat Jahan,Dr. Nishat Jahan,FEMALE,94845,false,false
+Dr. Afsana Rabeya Disha,Dr. Afsana Rabeya Disha,FEMALE,A77716,false,false
+Dr. Mehedi Jafrin,Dr. Mehedi Jafrin,FEMALE,98072,false,false
+Dr. Nazmun Naher,Dr. Nazmun Naher,FEMALE,A75278,false,false
+Dr. Anamul  Hoque Sojan,Dr. Anamul  Hoque Sojan,MALE,101175,false,false
+Dr. Fatema Tahira Tajrian,Dr. Fatema Tahira Tajrian,FEMALE,93490,false,false
+Dr. Shahana Parveen,Dr. Shahana Parveen,FEMALE,A28713,false,false
+Dr. Saroj Gharami,Dr. Saroj Gharami,MALE,A22162,false,false
+Dr. Esrat Zahan Risha,Dr. Esrat Zahan Risha,FEMALE,82213,false,false
+Dr. Zahra Hossiny Anin,Dr. Zahra Hossiny Anin,FEMALE,76473,false,false
+Dr. Mashura Musharraf,Dr. Mashura Musharraf,FEMALE,A42724,false,false
+Dr. Md. Masudur Rahman,Dr. Md. Masudur Rahman,MALE,A89395,false,false
+Dr. Shobnam Mustary Ive,Dr. Shobnam Mustary Ive,FEMALE,98738,false,false
+Dr. Md Nasir Uddin,Dr. Md Nasir Uddin,MALE,A48446,false,false
+Dr. Tiasha Kuri,Dr. Tiasha Kuri,FEMALE,A77575,false,false
+Dr. Sohag Mia,Dr. Sohag Mia,MALE,77941,false,false
+Dr. Mohammed Imran Khan,Dr. Mohammed Imran Khan,MALE,89944,false,false
+Dr. Md Wahiduzzaman,Dr. Md Wahiduzzaman,FEMALE,104751,false,false
+Dr. Sadia Sharmin,Dr. Sadia Sharmin,FEMALE,104905,false,false
+Dr. Nusrat Hashem,Dr. Nusrat Hashem,FEMALE,A76191,false,false
+Dr. Biswajit Paul,Dr. Biswajit Paul,MALE,77163,false,false
+Assoc. Prof. Dr. Sadika Kadir,Assoc. Prof. Dr. Sadika Kadir,FEMALE,A-46558,false,false
+Dr. Nazia Islam Nisha,Dr. Nazia Islam Nisha,FEMALE,8120,false,false
+Dr. Borhan Nahid,Dr. Borhan Nahid,MALE,89467,false,false
+Dr. Md Shahjahan Siraj,Dr. Md Shahjahan Siraj,MALE,A47558,false,false
+Dr. Avijit Mallick,Dr. Avijit Mallick,MALE,A85675,false,false
+Dr. K. Ehsan,Dr. K. Ehsan,MALE,103282,false,false
+Dr. Md. Nahid Hasan Jannat,Dr. Md. Nahid Hasan Jannat,MALE,100981,false,false
+Dr. Athful Hai Shibli,Dr. Athful Hai Shibli,MALE,A22191,false,false
+Dr. Md. Rafiqul Islam,Dr. Md. Rafiqul Islam,MALE,38995,false,false
+Sharmin Akter Shetu,Sharmin Akter Shetu,FEMALE,"",false,false
+Dr. Arafat Jamil,Dr. Arafat Jamil,MALE,A55633,false,false
+Dr. Mohammad Sajibul Islam,Dr. Mohammad Sajibul Islam,MALE,85043,false,false
+Dr. Sharmin Akter,Dr. Sharmin Akter,FEMALE,A-106170,false,false
+Dr. Samrat Kishore Podder,Dr. Samrat Kishore Podder,MALE,103261,false,false
+Dr. Mostafa Anwarul Auwal,Dr. Mostafa Anwarul Auwal,MALE,A110468,false,false
+Dr. MD.NAZMUL HASAN,Dr. MD.NAZMUL HASAN,MALE,A-104758,false,false
+S.M. Mahamudul Hassan,S.M. Mahamudul Hassan,MALE,"",false,false
+Dr. Mahbuba Akhter Jahan,Dr. Mahbuba Akhter Jahan,FEMALE,A44140,false,false
+Dr. Muhammad Sohel Rana,Dr. Muhammad Sohel Rana,MALE,105536,false,false
+Dr. Mohammad Shafiqul Islam,Dr. Mohammad Shafiqul Islam,MALE,33247,false,false
+Dr. Md. Raihanul Hasan Chowdhury,Dr. Md. Raihanul Hasan Chowdhury,MALE,8265,false,false
+Dr. Md. Abdullah-Al- Kaiser,Dr. Md. Abdullah-Al- Kaiser,MALE,5859,false,false
+Dr. Mainul Islam,Dr. Mainul Islam,MALE,A103211,false,false
+Dr. Md. Riaz Uddin Mitul,Dr. Md. Riaz Uddin Mitul,MALE,A87330,false,false
+Dr. Khalidur Rahman,Dr. Khalidur Rahman,MALE,89999,false,false
+Dr. Zinat Jahan Ruma,Dr. Zinat Jahan Ruma,FEMALE,A62442,false,false
+Dr. Kamrul Hasan Jewel,Dr. Kamrul Hasan Jewel,MALE,72089,false,false
+Dr. Masud Rana,Dr. Masud Rana,MALE,8526,false,false
+Dr. Jenifa Sultana,Dr. Jenifa Sultana,FEMALE,7375,false,false
+Dr. Amatta Indro,Dr. Amatta Indro,MALE,93808,false,false
+Dr. SHAIMA NOWSHIN TARAFDER SNIGDHA,Dr. SHAIMA NOWSHIN TARAFDER SNIGDHA,FEMALE,95857,false,false
+Dr. Sakina Arefin,Dr. Sakina Arefin,FEMALE,A105245,false,false
+Dr. Md. Humayun Kabir,Dr. Md. Humayun Kabir,MALE,A74621,false,false
+Dr. Istiaque Ahmed Khan,Dr. Istiaque Ahmed Khan,MALE,100117,false,false
+Dr. Md Khalid Saifullah,Dr. Md Khalid Saifullah,MALE,101588,false,false
+Dr. Preva Mollick,Dr. Preva Mollick,FEMALE,9534,false,false
+Dr. Md Fahad,Dr. Md Fahad,MALE,84172,false,false
+Tasnim Asiq,Tasnim Asiq,FEMALE,Not Applicable,false,false
+Dr. Md. Jubair Hosen,Dr. Md. Jubair Hosen,MALE,A-107491,false,false
+Dr. H M MASHIUR RAHMAN,Dr. H M MASHIUR RAHMAN,MALE,86298,false,false
+Dr. Mithun Sarker,Dr. Mithun Sarker,MALE,A68341,false,false
+Asst. Prof. Dr. Afsara Tasnim,Asst. Prof. Dr. Afsara Tasnim,FEMALE,78853,false,false
+Dr. Rezowana Shams,Dr. Rezowana Shams,FEMALE,A90687,false,false
+Dr. Tauhid Hasan,Dr. Tauhid Hasan,MALE,A74465,false,false
+Dr. Kamrun Nahar Nipa,Dr. Kamrun Nahar Nipa,FEMALE,77067,false,false
+Dr. S M Firoz Rashid,Dr. S M Firoz Rashid,MALE,A103322,false,false
+Dr. MD.RAJIB MIA,Dr. MD.RAJIB MIA,MALE,A99282,false,false
+Dr. Repon Saha,Dr. Repon Saha,MALE,A63496,false,false
+Dr. Jannatul Bake,Dr. Jannatul Bake,FEMALE,89347,false,false
+Miss Test Nutritionist Consultant,Miss Test Nutritionist Consultant,FEMALE,024680,false,false
+Dr. Mufti Al-Mahid,Dr. Mufti Al-Mahid,MALE,102205,false,false
+Dr. Ekramul Haque,Dr. Ekramul Haque,MALE,87794,false,false
+Dr. Jibonananda Deb Roy,Dr. Jibonananda Deb Roy,MALE,A87411,false,false
+Dr. Nafis Ishraq,Dr. Nafis Ishraq,MALE,83408,false,false
+Prof. Dr. Test Best,Prof. Dr. Test Best,FEMALE,020210,false,false
+Dr. Fahad Munim Tushar,Dr. Fahad Munim Tushar,MALE,A102261,false,false
+Dr. Lutfa Ahmed,Dr. Lutfa Ahmed,FEMALE,99590,false,false
+Dr. Sunny Al Amin,Dr. Sunny Al Amin,MALE,A99304,false,false
+Dr. Tausif Hossain,Dr. Tausif Hossain,MALE,A80060,false,false
+Dr. Md.Nurul Islam,Dr. Md.Nurul Islam,MALE,81366,false,false
+Dr. Anindya Das Sourav,Dr. Anindya Das Sourav,MALE,A87353,false,false
+Ashraful Alam Khan,Ashraful Alam Khan,MALE,"",false,false
+Dr. Bappy Kumar Das,Dr. Bappy Kumar Das,MALE,A95955,false,false
+Dr. Imrul Basher Rahman,Dr. Imrul Basher Rahman,MALE,63341,false,false
+Dr. Kawsary Alam Yasmin,Dr. Kawsary Alam Yasmin,FEMALE,92265,false,false
+Dr. BIJOY PAL,Dr. BIJOY PAL,MALE,A67770,false,false
+Dr. Iffat Jahan Khan,Dr. Iffat Jahan Khan,FEMALE,A90392,false,false
+Dr. Pabitra Ranjan saha,Dr. Pabitra Ranjan saha,MALE,A67643,false,false
+Dr. Fahim Faruque,Dr. Fahim Faruque,MALE,45423,false,false
+Dr. Abu Musa,Dr. Abu Musa,MALE,93788,false,false
+Dr. Jarin Tasnim Rahman,Dr. Jarin Tasnim Rahman,FEMALE,8291,false,false
+Dr. MD RAIHAN UDDIN KHAN,Dr. MD RAIHAN UDDIN KHAN,MALE,A48554,false,false
+Dr. Hasibul Islam Nahid,Dr. Hasibul Islam Nahid,MALE,A84126,false,false
+Dr. Dilruba Sharmin,Dr. Dilruba Sharmin,FEMALE,A65888,false,false
+Dr. Md.Harun-Ur-Rashid Khan,Dr. Md.Harun-Ur-Rashid Khan,MALE,34260,false,false
+Dr. Rizvan Forhad,Dr. Rizvan Forhad,MALE,A78077,false,false
+Dr. Tanjila Aziz,Dr. Tanjila Aziz,FEMALE,67176,false,false
+Dr. Foysal Ahmed,Dr. Foysal Ahmed,MALE,106213,false,false
+Dr. Diponkor Sarker,Dr. Diponkor Sarker,MALE,96475,false,false
+Dr. Faisal Rahman,Dr. Faisal Rahman,MALE,77140,false,false
+Dr. Md. Abdur Rob Sobuz,Dr. Md. Abdur Rob Sobuz,MALE,A74238,false,false
+Dr. Rahul Yeasar Rifat,Dr. Rahul Yeasar Rifat,MALE,102019,false,false
+Dr. Golam Moudud Ahmed,Dr. Golam Moudud Ahmed,MALE,A72037,false,false
+Dr. Biswajit Deb,Dr. Biswajit Deb,MALE,88752,false,false
+Dr. FARIDUL ALAM,Dr. FARIDUL ALAM,MALE,A67477,false,false
+Dr. Rabeya  Akter Mithila,Dr. Rabeya  Akter Mithila,FEMALE,87017,false,false
+Dr. Shamim Rana Shakil,Dr. Shamim Rana Shakil,MALE,102270,false,false
+Dr. Mahmud Ur Rahman,Dr. Mahmud Ur Rahman,MALE,52837,false,false
+Dr. Asma Akter Sonia,Dr. Asma Akter Sonia,FEMALE,A-96947,false,false
+Dr. G.M. Ishtiaq Mahmud,Dr. G.M. Ishtiaq Mahmud,MALE,A67016,false,false
+Asst. Prof. Dr. MONIR UDDIN -AL-HAFIZ,Asst. Prof. Dr. MONIR UDDIN -AL-HAFIZ,FEMALE,63628,false,false
+Asst. Prof. Dr. H.M.Khaleduzzaman Khaled,Asst. Prof. Dr. H.M.Khaleduzzaman Khaled,MALE,57112,false,false
+Dr. Tahsin Mahmud Sadman,Dr. Tahsin Mahmud Sadman,MALE,95805,false,false
+Dr. Kulsuma Parveen,Dr. Kulsuma Parveen,FEMALE,A101196,false,false
+Dr. Muhammad Rezaul Kadir,Dr. Muhammad Rezaul Kadir,MALE,A77167,false,false
+Dr. RAJIB SAHA,Dr. RAJIB SAHA,MALE,A83045,false,false
+Nurjahan Akhter Sheuly,Nurjahan Akhter Sheuly,FEMALE,"",false,false
+Dr. Rifat Moin Joya,Dr. Rifat Moin Joya,FEMALE,A 47373,false,false
+Dr. Khandaker Fadwana Islam,Dr. Khandaker Fadwana Islam,FEMALE,A74694,false,false
+Dr. Nourin Nahar,Dr. Nourin Nahar,FEMALE,A77020,false,false
+Dr. Khayrun Nisa Shifa,Dr. Khayrun Nisa Shifa,FEMALE,A92743,false,false
+Dr. Tasnin Akter,Dr. Tasnin Akter,FEMALE,10325,false,false
+Dr. Test Doc,Dr. Test Doc,MALE,1992712,false,false
+Dr. Jayanta paul Chowdhury,Dr. Jayanta paul Chowdhury,MALE,65608,false,false
+Dr. Mahjabin Rashid Tinni,Dr. Mahjabin Rashid Tinni,FEMALE,66863,false,false
+Dr. Pashla Chakma,Dr. Pashla Chakma,FEMALE,A105169,false,false
+Dr. Md Sabbir Ahmmed,Dr. Md Sabbir Ahmmed,MALE,A104327,false,false
+Asst. Prof. Dr. Zahid Hossain,Asst. Prof. Dr. Zahid Hossain,MALE,77413,false,false
+Dr. Kazi Nowal,Dr. Kazi Nowal,MALE,A93508,false,false
+Dr. Deepanwita Mitra,Dr. Deepanwita Mitra,FEMALE,90262,false,false
+Dr. Md Sadiq Uddin Khan,Dr. Md Sadiq Uddin Khan,MALE,A92480,false,false
+Dr. Md. Akther Hosen Tansen,Dr. Md. Akther Hosen Tansen,MALE,4512,false,false
+Dr. Shubhangkar Saha,Dr. Shubhangkar Saha,MALE,a89250,false,false
+Dr. Mohajer Mohiuddin,Dr. Mohajer Mohiuddin,MALE,8179,false,false
+Dr. ujjwal roy,Dr. ujjwal roy,MALE,86469,false,false
+Dr. MD. Ashiqur Rahman,Dr. MD. Ashiqur Rahman,MALE,A62144,false,false
+Dr. Sourav Nath,Dr. Sourav Nath,MALE,67674,false,false
+Dr. Syeda Afsana Mouri Praptee,Dr. Syeda Afsana Mouri Praptee,FEMALE,89647,false,false
+Dr. Md. Abedul Hoque,Dr. Md. Abedul Hoque,MALE,A62229,false,false
+Dr. Iqbal Humyun Razib,Dr. Iqbal Humyun Razib,MALE,A92156,false,false
+Dr. Adbullah Al Mamun Jony,Dr. Adbullah Al Mamun Jony,MALE,A66272,false,false
+Dr. Zaka Kaif,Dr. Zaka Kaif,MALE,A95765,false,false
+Dr. Sourav Danda,Dr. Sourav Danda,MALE,A101277,false,false
+Dr. Md. Aktarujjaman,Dr. Md. Aktarujjaman,MALE,A90266,false,false
+Dr. A K Shikder,Dr. A K Shikder,MALE,99578,false,false
+Dr. Md Rajeb Mia,Dr. Md Rajeb Mia,MALE,9610,false,false
+Dr. Md Mobussirul Ferdous,Dr. Md Mobussirul Ferdous,MALE,72928,false,false
+Dr. Ms. Zahidul Islam Akhand,Dr. Ms. Zahidul Islam Akhand,MALE,103244,false,false
+Dr. MD.GULAM MAIN UDDIN,Dr. MD.GULAM MAIN UDDIN,MALE,85447,false,false
+Dr. Adeeb Ahnaf,Dr. Adeeb Ahnaf,MALE,102705,false,false
+Dr. Pradikta Das Shreya,Dr. Pradikta Das Shreya,FEMALE,72551,false,false
+Dr. MAHMODUL HASAN Al- FARABY,Dr. MAHMODUL HASAN Al- FARABY,MALE,A76197,false,false
+Dr. Aktaruzzaman Azad,Dr. Aktaruzzaman Azad,MALE,102357,false,false
+Dr. Tauhid Al Araf,Dr. Tauhid Al Araf,MALE,104170,false,false
+Dr. Mamunul Abedin Shimul,Dr. Mamunul Abedin Shimul,MALE,A59279,false,false
+Dr. Niamul Maula Akash,Dr. Niamul Maula Akash,MALE,107239,false,false
+Dr. Md Sakib Hasan,Dr. Md Sakib Hasan,MALE,A91469,false,false
+Dr. Samir Mohammad Tasrif,Dr. Samir Mohammad Tasrif,MALE,A 68586,false,false
+Dr. Zakia Sultana,Dr. Zakia Sultana,FEMALE,96349,false,false
+Dr. Ruhul Amin,Dr. Ruhul Amin,MALE,104416,false,false
+Dr. Tabassum Elahi,Dr. Tabassum Elahi,FEMALE,A97682,false,false
+Dr. Partho Bosu,Dr. Partho Bosu,MALE,102303,false,false
+Dr. Md.Delower Hossain,Dr. Md.Delower Hossain,MALE,A103677,false,false
+Dr. Fatema Tuz Zohora,Dr. Fatema Tuz Zohora,FEMALE,100460,false,false
+Dr. Muhammad Shihab,Dr. Muhammad Shihab,MALE,84754,false,false
+Dr. Abdul Aual,Dr. Abdul Aual,MALE,A83384,false,false
+Dr. a. s. m. sayem,Dr. a. s. m. sayem,MALE,77339,false,false
+Dr. Fahmida Akter,Dr. Fahmida Akter,FEMALE,93466,false,false
+Dr. Rifat Ara Nidha,Dr. Rifat Ara Nidha,FEMALE,106573,false,false
+Dr. MD. ASADUZZAMAN RAJIB,Dr. MD. ASADUZZAMAN RAJIB,MALE,A56101,false,false
+Dr. Rafiul Azam Ghoree,Dr. Rafiul Azam Ghoree,MALE,68489,false,false
+Dr. S.M. Minhajul Arefin,Dr. S.M. Minhajul Arefin,MALE,81638,false,false
+Dr. Urmila Nahar,Dr. Urmila Nahar,FEMALE,100855,false,false
+Dr. Farhana Sarkar,Dr. Farhana Sarkar,FEMALE,A101454,false,false
+Dr. Genia Ferdous,Dr. Genia Ferdous,FEMALE,99112,false,false
+Dr. Abdullah Al Mamun,Dr. Abdullah Al Mamun,MALE,83613,false,false
+Dr. MST. UMME HABIBA,Dr. MST. UMME HABIBA,FEMALE,85346,false,false
+Dr. Md.Omur Khan,Dr. Md.Omur Khan,MALE,93020,false,false
+Dr. Saifullah Al Noman,Dr. Saifullah Al Noman,MALE,59761,false,false
+Dr. Umme Sabiha Akhter,Dr. Umme Sabiha Akhter,FEMALE,106801,false,false
+Adithi Sutradhar,Adithi Sutradhar,FEMALE,Not Applicable,false,false
+Dr. Tahmina Hoque Pinki,Dr. Tahmina Hoque Pinki,FEMALE,51550,false,false
+Dr. Tausif Subid,Dr. Tausif Subid,MALE,A106760,false,false
+Dr. Md. Khalid Hasan,Dr. Md. Khalid Hasan,MALE,95072,false,false
+Dr. Fatema Yesmin,Dr. Fatema Yesmin,FEMALE,94540,false,false
+Dr. Shariful Halim,Dr. Shariful Halim,MALE,75493,false,false
+Dr. FATAMA TUS SAUDA,Dr. FATAMA TUS SAUDA,FEMALE,77745,false,false
+Dr. Abdullah Sajid Imam,Dr. Abdullah Sajid Imam,MALE,74395,false,false
+Dr. mohammad saifullah,Dr. mohammad saifullah,MALE,89062,false,false
+Dr. Md Al Azmain,Dr. Md Al Azmain,MALE,92624,false,false
+Dr. Md. Abu Fattah Jaheen,Dr. Md. Abu Fattah Jaheen,MALE,99204,false,false
+Dr. Md Yousuf  Ahmed Emon,Dr. Md Yousuf  Ahmed Emon,MALE,105681,false,false
+Dr. Mohammed Zakir Hossain,Dr. Mohammed Zakir Hossain,MALE,45186,false,false
+Dr. Rifat Ara Nova,Dr. Rifat Ara Nova,FEMALE,A89520,false,false
+Dr. Syed Mehrab Kabir,Dr. Syed Mehrab Kabir,MALE,96052,false,false
+Dr. Ent Doc,Dr. Ent Doc,MALE,05251995,false,false
+Dr. Afroza Sultana,Dr. Afroza Sultana,FEMALE,64124,false,false
+Dr. Jannatun Naeem,Dr. Jannatun Naeem,FEMALE,78164,false,false
+Dr. Md. Nashidur Rahman,Dr. Md. Nashidur Rahman,MALE,5727,false,false
+Dr. Minhaz Ahmed,Dr. Minhaz Ahmed,MALE,106570,false,false
+Dr. Badrunnahar Sharna,Dr. Badrunnahar Sharna,FEMALE,70407,false,false
+Dr. H. S. M. AL-SALIH SABBIR,Dr. H. S. M. AL-SALIH SABBIR,MALE,98201,false,false
+Dr. Tasnova Tanin,Dr. Tasnova Tanin,FEMALE,51032,false,false
+Dr. Rakibul Islam,Dr. Rakibul Islam,MALE,101444,false,false
+Dr. SYED SHAIR AHMED,Dr. SYED SHAIR AHMED,MALE,A-80708,false,false
+Md. Wahid Anowar,Md. Wahid Anowar,MALE,"",false,false
+Dr. Md Shakhawat Hossain,Dr. Md Shakhawat Hossain,MALE,62251,false,false
+Dr. Md. Ariful Islam,Dr. Md. Ariful Islam,MALE,99149,false,false
+Dr. Fadlul Azim Abrar,Dr. Fadlul Azim Abrar,MALE,83129,false,false
+Dr. Kawsar Siddika,Dr. Kawsar Siddika,FEMALE,112473,false,false
+Dr. Imran Bin Manjur Murshed,Dr. Imran Bin Manjur Murshed,MALE,85529,false,false
+Dr. Md. Rahmotullah,Dr. Md. Rahmotullah,MALE,91961,false,false
+Dr. Hello D,Dr. Hello D,MALE,123456,false,false
+Dr. Sifat Mahmud,Dr. Sifat Mahmud,MALE,A-76387,false,false
+Dr. Fathema Sharmin,Dr. Fathema Sharmin,FEMALE,A94486,false,false
+Dr. Fahmida akhter shipa,Dr. Fahmida akhter shipa,FEMALE,A91358,false,false
+Dr. Masudur Rahman,Dr. Masudur Rahman,MALE,A71810,false,false
+Dr. Md.Saydul Karim Sakib,Dr. Md.Saydul Karim Sakib,MALE,A103213,false,false
+Dr. Arshia Anan,Dr. Arshia Anan,FEMALE,A 74055,false,false
+Dr. Ruma Chanda,Dr. Ruma Chanda,FEMALE,99834,false,false
+Dr. Mahbub Al Amin,Dr. Mahbub Al Amin,MALE,68915,false,false
+Dr. Md. Mahbubul Islam,Dr. Md. Mahbubul Islam,MALE,A62931,false,false
+Dr. Sarowar Jahan,Dr. Sarowar Jahan,MALE,93987,false,false
+Dr. Faisal Ahmed,Dr. Faisal Ahmed,MALE,102626,false,false
+Assoc. Prof. Dr. bushra tanzem,Assoc. Prof. Dr. bushra tanzem,FEMALE,A51205,false,false
+Dr. Mir Nur Azam Sikder,Dr. Mir Nur Azam Sikder,MALE,10533,false,false
+Dr. Tanzia Tabassum,Dr. Tanzia Tabassum,FEMALE,87910,false,false
+Dr. Mrittunjoy Kumar Sarder,Dr. Mrittunjoy Kumar Sarder,MALE,67547,false,false
+Dr. A K M NAHID FERDOUS,Dr. A K M NAHID FERDOUS,MALE,94923,false,false
+Dr. Md.Maksudur Rahman,Dr. Md.Maksudur Rahman,MALE,72197,false,false
+Dr. Dip Roy,Dr. Dip Roy,MALE,91395,false,false
+Dr. Shahriars islam,Dr. Shahriars islam,MALE,808,false,false
+Dr. Md Ashikuzzaman,Dr. Md Ashikuzzaman,MALE,108730,false,false
+Dr. Jewel Rana,Dr. Jewel Rana,MALE,101063,false,false
+Asst. Prof. Dr. Naseeb Irshadullah,Asst. Prof. Dr. Naseeb Irshadullah,MALE,A32835,false,false
+Dr. Jalal Ahmed,Dr. Jalal Ahmed,MALE,61994,false,false
+Dr. Shafwanur Rahman,Dr. Shafwanur Rahman,MALE,84220,false,false
+Dr. Tasnova Alam,Dr. Tasnova Alam,FEMALE,7337,false,false
+Dr. Nasima Khatun,Dr. Nasima Khatun,FEMALE,105454,false,false
+Asst. Prof. Dr. Md Sharif Bhuiyan,Asst. Prof. Dr. Md Sharif Bhuiyan,MALE,65008,false,false
+Dr. Test Nutritionist_live Two,Dr. Test Nutritionist_live Two,MALE,7790890987,false,false
+Dr. Abdullah Al Noman,Dr. Abdullah Al Noman,MALE,10036,false,false
+Prof. Dr. Test D Eight,Prof. Dr. Test D Eight,MALE,0198020,false,false
+Dr. MD. TANVIR ELAHI,Dr. MD. TANVIR ELAHI,MALE,101283,false,false
+Dr. Lubaba Alam,Dr. Lubaba Alam,FEMALE,114572,false,false
+Dr. Tasmia Farzana Ahmed,Dr. Tasmia Farzana Ahmed,FEMALE,94789,false,false
+Dr. Amit Sikder,Dr. Amit Sikder,MALE,92784,false,false
+Dr. Lisanul Hasan,Dr. Lisanul Hasan,MALE,A- 101324,false,false
+Dr. Sanzida Rahman,Dr. Sanzida Rahman,FEMALE,54727,false,false
+Dr. Omar Mahdi Abir,Dr. Omar Mahdi Abir,MALE,A94960,false,false
+Dr. Md Hasibul Alam,Dr. Md Hasibul Alam,MALE,105845,false,false
+Dr. Sujon Paul,Dr. Sujon Paul,MALE,69685,false,false
+Dr. Humayun Rashid,Dr. Humayun Rashid,MALE,A83317,false,false
+Dr. Zhilam Zia Rassel,Dr. Zhilam Zia Rassel,MALE,A31684,false,false
+Dr. Sudipta Das,Dr. Sudipta Das,MALE,103305,false,false
+Dr. Fahim Uddin Ahmad,Dr. Fahim Uddin Ahmad,MALE,A97347,false,false
+Dr. Ishrat Tarannom Trisha,Dr. Ishrat Tarannom Trisha,FEMALE,7972,false,false
+Dr. Naba Kumar Basak,Dr. Naba Kumar Basak,MALE,99853,false,false
+Dr. Muhammad Rasheduzzaman Rony,Dr. Muhammad Rasheduzzaman Rony,FEMALE,2924,false,false
+Dr. Nahid Hasan,Dr. Nahid Hasan,MALE,A88286,false,false
+Dr. Mahmood Chowdhury,Dr. Mahmood Chowdhury,MALE,A 55270,false,false
+Dr. Maiesha Anjum Chowdhury,Dr. Maiesha Anjum Chowdhury,FEMALE,99141,false,false
+Dr. samiul Islam,Dr. samiul Islam,MALE,76122,false,false
+Dr. Parijat Datta,Dr. Parijat Datta,MALE,A67210,false,false
+Dr. Syed Md. Sayeem Tanvir,Dr. Syed Md. Sayeem Tanvir,MALE,9912,false,false
+Dr. Ummay Najia Morshed Neela,Dr. Ummay Najia Morshed Neela,FEMALE,10354,false,false
+Dr. A. Kahar,Dr. A. Kahar,MALE,A107737,false,false
+Dr. Suruj Barua,Dr. Suruj Barua,MALE,9908BDS,false,false
+Dr. Rupa Saha,Dr. Rupa Saha,FEMALE,A74425,false,false
+Dr. Jafrin Jabin Rahman,Dr. Jafrin Jabin Rahman,FEMALE,86219,false,false
+Dr. Md.Abdullahel Bari,Dr. Md.Abdullahel Bari,MALE,85218,false,false
+Dr. Fatematuz jahara,Dr. Fatematuz jahara,FEMALE,A100672,false,false
+Dr. Sabbosachi biswas,Dr. Sabbosachi biswas,MALE,A91159,false,false
+Dr. Md Raihanul Islam Chowdhury,Dr. Md Raihanul Islam Chowdhury,MALE,A88710,false,false
+Dr. Annesha Majumder,Dr. Annesha Majumder,FEMALE,99025,false,false
+Dr. Kawsar Ahmed,Dr. Kawsar Ahmed,MALE,76277,false,false
+Dr. Adham Shahansha  Bhuiyan,Dr. Adham Shahansha  Bhuiyan,MALE,A84807,false,false
+Dr. MD SABBIR RAHMAN,Dr. MD SABBIR RAHMAN,MALE,A82211,false,false
+Dr. Md. Rajat Chowdhury,Dr. Md. Rajat Chowdhury,FEMALE,97967,false,false
+Dr. Tahmina Islam Moni,Dr. Tahmina Islam Moni,FEMALE,99809,false,false
+Dr. Jubayer Al Mahmud,Dr. Jubayer Al Mahmud,MALE,A98978,false,false
+Dr. Sagor Paul,Dr. Sagor Paul,MALE,95077,false,false
+Dr. Arshi Ridhwan,Dr. Arshi Ridhwan,FEMALE,79713,false,false
+Dr. Zahin Abedin Galib,Dr. Zahin Abedin Galib,MALE,A90614,false,false
+Dr. Showrab Biswas,Dr. Showrab Biswas,MALE,A53907,false,false
+Dr. Md.Meshkath Nazir Fahim,Dr. Md.Meshkath Nazir Fahim,MALE,A82812,false,false
+Dr. Alamgir Hossain Shemul,Dr. Alamgir Hossain Shemul,MALE,70454,false,false
+Dr. Ayesha Siddika,Dr. Ayesha Siddika,FEMALE,43331,false,false
+Dr. MD. FAYEZ UDDIN,Dr. MD. FAYEZ UDDIN,MALE,8151,false,false
+Prof. Dr. Test Doctor Live,Prof. Dr. Test Doctor Live,MALE,8904567890,false,false
+Dr. Toufiq Hasan,Dr. Toufiq Hasan,MALE,A77105,false,false
+Dr. Farzana Akter,Dr. Farzana Akter,FEMALE,98082,false,false
+Dr. Abdullah al mamun,Dr. Abdullah al mamun,MALE,87407,false,false
+Dr. Khadiga Akter Mita,Dr. Khadiga Akter Mita,FEMALE,A105833,false,false
+Dr. S. M. Mufizur Rahman Sazal,Dr. S. M. Mufizur Rahman Sazal,MALE,99394,false,false
+Dr. Salman Faruque Bhuiyan,Dr. Salman Faruque Bhuiyan,MALE,A103875,false,false
+Dr. Shuvra Deb,Dr. Shuvra Deb,MALE,A92242,false,false
+Dr. Afroza Akter,Dr. Afroza Akter,FEMALE,75786,false,false
+Dr. Tania Shobnom,Dr. Tania Shobnom,FEMALE,70161,false,false
+Dr. F M Shafiqur Rahman,Dr. F M Shafiqur Rahman,MALE,86263,false,false
+Dr. Sabreena Barkat,Dr. Sabreena Barkat,FEMALE,A50868,false,false
+Dr. Fatema Yeasmin,Dr. Fatema Yeasmin,FEMALE,A-74462,false,false
+Dr. Munira Ferdous,Dr. Munira Ferdous,FEMALE,76212,false,false
+Dr. S M Amanat Ullah,Dr. S M Amanat Ullah,MALE,51118,false,false
+Dr. Mohammad Istiakur Rahman,Dr. Mohammad Istiakur Rahman,MALE,106727,false,false
+Dr. A K Mohiuddin Bablu,Dr. A K Mohiuddin Bablu,MALE,35504,false,false
+Prof. Dr. Afroza Ghani,Prof. Dr. Afroza Ghani,FEMALE,A-20221,false,false
+Dr. Md. Sharafat Ali,Dr. Md. Sharafat Ali,MALE,77170,false,false
+Dr. Proshanta Paul Chowdhury,Dr. Proshanta Paul Chowdhury,MALE,A74854,false,false
+Dr. Md Tajuddin,Dr. Md Tajuddin,MALE,A72087,false,false
+Dr. Rakibul Hasan,Dr. Rakibul Hasan,MALE,101638,false,false
+Dr. Mohammad Mehedi Hasan,Dr. Mohammad Mehedi Hasan,MALE,A93994,false,false
+Dr. Tamanna Sabrin,Dr. Tamanna Sabrin,FEMALE,85461,false,false
+Dr. A R Chowdhury,Dr. A R Chowdhury,MALE,A71143,false,false
+Dr. Md. Mesh-ke Alam Jony,Dr. Md. Mesh-ke Alam Jony,MALE,A51030,false,false
+Dr. Md. Moklesur Rahman,Dr. Md. Moklesur Rahman,MALE,A39686,false,false
+Dr. Md. Shams-el- Arefin,Dr. Md. Shams-el- Arefin,MALE,A72135,false,false
+Dr. Mohammad Saiful Amin,Dr. Mohammad Saiful Amin,MALE,106352,false,false
+Dr. Hanu Kamal,Dr. Hanu Kamal,FEMALE,A70034,false,false
+Asst. Prof. Dr. Md. Mahtabul Hasan,Asst. Prof. Dr. Md. Mahtabul Hasan,MALE,A66425,false,false
+Dr. Sanim Mahbub,Dr. Sanim Mahbub,MALE,A104529,false,false
+Dr. SADIA BINTA NUR,Dr. SADIA BINTA NUR,FEMALE,3580,false,false
+Dr. Murshida Tuba,Dr. Murshida Tuba,FEMALE,90387,false,false
+Dr. junayed ul karim khan,Dr. junayed ul karim khan,MALE,104307,false,false
+Dr. Farhana Nur Somiya,Dr. Farhana Nur Somiya,FEMALE,94106,false,false
+Dr. Shubhendu Paul,Dr. Shubhendu Paul,MALE,A78150,false,false
+Dr. Mohammad Mahfuzur Rahman Bhuiyan,Dr. Mohammad Mahfuzur Rahman Bhuiyan,MALE,40723,false,false
+Dr. shamoli aktar,Dr. shamoli aktar,FEMALE,A96855,false,false
+Dr. Tasnuva Mansur,Dr. Tasnuva Mansur,FEMALE,A65936,false,false
+Dr. Sk Mushavvir Alam,Dr. Sk Mushavvir Alam,MALE,6221,false,false
+Dr. Mouri Roy Chowdhury,Dr. Mouri Roy Chowdhury,FEMALE,A92814,false,false
+Dr. Md. Reaz Uddin,Dr. Md. Reaz Uddin,MALE,62161,false,false
+Dr. SYED SHAWKAT ALI,Dr. SYED SHAWKAT ALI,MALE,63816,false,false
+Dr. Afrin Huq,Dr. Afrin Huq,FEMALE,A-87327,false,false
+Asst. Prof. Dr. Faisal Ahmed,Asst. Prof. Dr. Faisal Ahmed,MALE,3998,false,false
+Dr. Saiful Islam Faisal,Dr. Saiful Islam Faisal,MALE,A104993,false,false
+Dr. Imtiaj Nayeem,Dr. Imtiaj Nayeem,MALE,A100764,false,false
+Dr. Md Redwanul Huq,Dr. Md Redwanul Huq,MALE,A48433,false,false
+Dr. Md. Azam Iqbal Khan,Dr. Md. Azam Iqbal Khan,MALE,88251,false,false
+Dr. Jarin Musarrat Jahan,Dr. Jarin Musarrat Jahan,FEMALE,98687,false,false
+Dr. Md. Mahmudul Hasan,Dr. Md. Mahmudul Hasan,MALE,A-80111,false,false
+Dr. Sabina sultana,Dr. Sabina sultana,FEMALE,91760,false,false
+Dr. Abu Sayeed Md Saleh,Dr. Abu Sayeed Md Saleh,MALE,75038,false,false
+Dr. Muhammad Sultan Mahmud Majumdar,Dr. Muhammad Sultan Mahmud Majumdar,MALE,67884,false,false
+Dr. Fahmida Sultana,Dr. Fahmida Sultana,FEMALE,110955,false,false
+Dr. Md. Zahidul Islam,Dr. Md. Zahidul Islam,MALE,A-45813,false,false
+Dr. tahani zannat,Dr. tahani zannat,FEMALE,A58365,false,false
+Asst. Prof. Dr. Kazi Saifuddin Bennoor,Asst. Prof. Dr. Kazi Saifuddin Bennoor,MALE,23101,false,false
+Dr. Humayun Ahmed Nur,Dr. Humayun Ahmed Nur,MALE,76927,false,false
+Dr. Mohammad Sazzadul Huque,Dr. Mohammad Sazzadul Huque,MALE,A93664,false,false
+Dr. S.M. Nazmul Huda Bappi,Dr. S.M. Nazmul Huda Bappi,MALE,A-77153,false,false
+Dr. Ihabul Alam,Dr. Ihabul Alam,MALE,A104245,false,false
+Dr. Tahmina Nowrin,Dr. Tahmina Nowrin,FEMALE,71442,false,false
+Dr. Saiful Islam,Dr. Saiful Islam,MALE,103145,false,false
+Dr. MD FERDOUSUR RAHMAN,Dr. MD FERDOUSUR RAHMAN,MALE,53989,false,false
+Dr. Rezowana Afrin,Dr. Rezowana Afrin,FEMALE,A57210,false,false
+Dr. Md. Redwan Ahsanullah,Dr. Md. Redwan Ahsanullah,MALE,67316,false,false
+Dr. Tanjin Amin,Dr. Tanjin Amin,FEMALE,A57414,false,false
+Dr. Swagota Sen,Dr. Swagota Sen,FEMALE,A81151,false,false
+Tahmina Akter,Tahmina Akter,FEMALE,Not Applicable,false,false
+Dr. Syeda Fatema Alam,Dr. Syeda Fatema Alam,FEMALE,101403,false,false
+Dr. Shatabdee Biswas,Dr. Shatabdee Biswas,FEMALE,A85586,false,false
+Dr. Nurun Nahar,Dr. Nurun Nahar,FEMALE,a-36790,false,false
+Dr. Miskat Aziz,Dr. Miskat Aziz,MALE,A68537,false,false
+Dr. Nishat Ara,Dr. Nishat Ara,FEMALE,100000,false,false
+Dr. Anwar Hossain Mahadi,Dr. Anwar Hossain Mahadi,MALE,A97974,false,false
+Dr. Md Imran Bahadur,Dr. Md Imran Bahadur,MALE,A94077,false,false
+Asst. Prof. Dr. Towhidul Islam,Asst. Prof. Dr. Towhidul Islam,MALE,43566,false,false
+Dr. April Fool,Dr. April Fool,FEMALE,rn123,false,false
+Assoc. Prof. Dr. Amrita Lal Halder,Assoc. Prof. Dr. Amrita Lal Halder,FEMALE,A43328,false,false
+Dr. Md Tanvir Latif,Dr. Md Tanvir Latif,MALE,A96880,false,false
+Dr. Md. Shahin Reza,Dr. Md. Shahin Reza,MALE,A75846,false,false
+Dr. Tumpa Dhar,Dr. Tumpa Dhar,FEMALE,A76453,false,false
+Dr. Subrina Ahmed,Dr. Subrina Ahmed,FEMALE,A72449,false,false
+Dr. Md.Siddiqur Rahman,Dr. Md.Siddiqur Rahman,MALE,A40704,false,false
+Dr. MD. Shalek Bin Khalid,Dr. MD. Shalek Bin Khalid,MALE,A94675,false,false
+Dr. Owashak Faysal,Dr. Owashak Faysal,MALE,56895,false,false
+Dr. Arpita Das,Dr. Arpita Das,FEMALE,99784,false,false
+Dr. Md. Al-Mahamudul Alam,Dr. Md. Al-Mahamudul Alam,MALE,A68297,false,false
+Dr. Farjana Afrose Remu,Dr. Farjana Afrose Remu,FEMALE,A-40615,false,false
+Dr. Sultana sharifa Akter,Dr. Sultana sharifa Akter,FEMALE,77012,false,false
+Dr. Shabnaj Yeasmin,Dr. Shabnaj Yeasmin,FEMALE,A87713,false,false
+Dr. Ismail Hossain,Dr. Ismail Hossain,MALE,B10066,false,false
+Dr. Rumi Myedull Hossain,Dr. Rumi Myedull Hossain,MALE,43498,false,false
+Dr. Hasnat Parvez,Dr. Hasnat Parvez,FEMALE,56713,false,false
+Dr. Mamun Ahmed Bhuiyan,Dr. Mamun Ahmed Bhuiyan,MALE,A74633,false,false
+Dr. Shah Md Kabir Uddin,Dr. Shah Md Kabir Uddin,MALE,21381,false,false
+Dr. Ashik Mustafa,Dr. Ashik Mustafa,MALE,6896,false,false
+Dr. C. M. Shamim Kabir,Dr. C. M. Shamim Kabir,MALE,36195,false,false
+Dr. MD. Zahid Bin Shahadat,Dr. MD. Zahid Bin Shahadat,MALE,7773,false,false
+Anika Jahin,Anika Jahin,FEMALE,Not Applicable,false,false
+Dr. Faria Tabassum Naznin,Dr. Faria Tabassum Naznin,FEMALE,81170,false,false
+Dr. Tanzina Tazin,Dr. Tanzina Tazin,FEMALE,A64670,false,false
+Dr. Dr. Jahid Mahmud Akhand,Dr. Dr. Jahid Mahmud Akhand,MALE,75156,false,false
+Dr. Susmita saha,Dr. Susmita saha,FEMALE,103076,false,false
+Dr. Sumiya Younus,Dr. Sumiya Younus,FEMALE,92991,false,false
+Dr. MD. Bilal Chowdhury Taseen,Dr. MD. Bilal Chowdhury Taseen,MALE,78046,false,false
+Dr. A.T.M Mahadee Hasan,Dr. A.T.M Mahadee Hasan,MALE,A81486,false,false
+Dr. Litan Debnath,Dr. Litan Debnath,MALE,A63132,false,false
+Dr. Sadequl Islam,Dr. Sadequl Islam,MALE,A-88842,false,false
+Dr. S. M. Safayet Hossen,Dr. S. M. Safayet Hossen,MALE,57793,false,false
+Dr. Md Masud Rana,Dr. Md Masud Rana,MALE,9250,false,false
+Dr. Syeda Farhana Naznin,Dr. Syeda Farhana Naznin,FEMALE,A- 49869,false,false
+Prof. Dr. five two,Prof. Dr. five two,MALE,05021952,false,false
+Dr. Fatema Tuze Jahan Dola,Dr. Fatema Tuze Jahan Dola,FEMALE,115549,false,false
+Dr. Shahtina Shams,Dr. Shahtina Shams,FEMALE,75233,false,false
+Dr. Md. Didar Hossain Bhuiyan,Dr. Md. Didar Hossain Bhuiyan,MALE,97489,false,false
+Dr. Himadri Shekhar Samadder,Dr. Himadri Shekhar Samadder,MALE,A74351,false,false
+Dr. Wali Ullah Numan,Dr. Wali Ullah Numan,MALE,99018,false,false
+Dr. Shampa Rani,Dr. Shampa Rani,FEMALE,A 65597,false,false
+Dr. Md. Hasanul Islam,Dr. Md. Hasanul Islam,MALE,76723,false,false
+Dr. Tasnuva Noushin,Dr. Tasnuva Noushin,FEMALE,106290,false,false
+Dr. Sharmin Hoque,Dr. Sharmin Hoque,FEMALE,79103,false,false
+Dr. Zahirul Haque,Dr. Zahirul Haque,MALE,8558,false,false
+Dr. Kowshik Bhowmick,Dr. Kowshik Bhowmick,MALE,59702,false,false
+Dr. KANIZ ALMA LUBABA,Dr. KANIZ ALMA LUBABA,FEMALE,A101581,false,false
+Dr. Md. Abdullah Al Jubayer,Dr. Md. Abdullah Al Jubayer,MALE,103492,false,false
+Dr. MD.ABU KAHAR SIDDIQUE,Dr. MD.ABU KAHAR SIDDIQUE,MALE,109181,false,false
+Dr. Masud Rana,Dr. Masud Rana,MALE,99772,false,false
+Assoc. Prof. Dr. Lima Ghosh,Assoc. Prof. Dr. Lima Ghosh,FEMALE,098765,false,false
+Dr. Saikatul Jannat,Dr. Saikatul Jannat,FEMALE,94870,false,false
+Dr. Mohammad Enamul Hoque,Dr. Mohammad Enamul Hoque,MALE,A42926,false,false
+Dr. Ahmad Hussain Khan,Dr. Ahmad Hussain Khan,MALE,5350,false,false
+Dr. Avi Paul,Dr. Avi Paul,MALE,99517,false,false
+Dr. Jannatul Ferdous,Dr. Jannatul Ferdous,FEMALE,89667,false,false
+Dr. Junaeid Hasan Zamman,Dr. Junaeid Hasan Zamman,MALE,A-107776,false,false
+Dr. Nusrat Jahan,Dr. Nusrat Jahan,FEMALE,A40940,false,false
+Dr. Nafiur Rahman,Dr. Nafiur Rahman,MALE,10791,false,false
+Dr. Tarek Hasan,Dr. Tarek Hasan,MALE,108944,false,false
+Dr. Ahamad Shafi,Dr. Ahamad Shafi,MALE,A98227,false,false
+Dr. Mst.Nahida Aktar,Dr. Mst.Nahida Aktar,FEMALE,101949,false,false
+Dr. Tanzila Amrin,Dr. Tanzila Amrin,FEMALE,A64676,false,false
+Dr. Lopa Roy,Dr. Lopa Roy,FEMALE,A99148,false,false
+Dr. Sumaiya Tasnia khan,Dr. Sumaiya Tasnia khan,FEMALE,89292,false,false
+Dr. Goutam Das,Dr. Goutam Das,MALE,A-60466,false,false
+Dr. Akhiruzzaman Rakib,Dr. Akhiruzzaman Rakib,MALE,A66926,false,false
+Assoc. Prof. Dr. Apt Doc,Assoc. Prof. Dr. Apt Doc,MALE,19890101,false,false
+Dr. Rafeea Nuhas,Dr. Rafeea Nuhas,FEMALE,72861,false,false
+Dr. Taslima Akhi,Dr. Taslima Akhi,FEMALE,A87192,false,false
+Dr. Shafiul Quadry,Dr. Shafiul Quadry,MALE,A64300,false,false
+Dr. Faria Afroz,Dr. Faria Afroz,FEMALE,A95353,false,false
+Dr. MD MIZANUR RAHMAN,Dr. MD MIZANUR RAHMAN,MALE,5223,false,false
+Dr. Mahfuz Hasan Khan,Dr. Mahfuz Hasan Khan,MALE,98172,false,false
+Assoc. Prof. Dr. Khandker Parvez Ahmad,Assoc. Prof. Dr. Khandker Parvez Ahmad,MALE,M37103,false,false
+Dr. Raihana Musawwir,Dr. Raihana Musawwir,FEMALE,A33417,false,false
+Asst. Prof. Dr. Sukanta Chandra Das,Asst. Prof. Dr. Sukanta Chandra Das,MALE,A41322,false,false
+Dr. Mehedi Hasan,Dr. Mehedi Hasan,MALE,99629,false,false
+Dr. Jane Alam Faisal,Dr. Jane Alam Faisal,MALE,93983,false,false
+Dr. A K M Shahriar,Dr. A K M Shahriar,MALE,88339,false,false
+Dr. Farid Hossain Chowdhury,Dr. Farid Hossain Chowdhury,MALE,A99891,false,false
+Dr. Ikra Itu,Dr. Ikra Itu,FEMALE,A104315,false,false
+Dr. Md. Abdul Ahad,Dr. Md. Abdul Ahad,MALE,A-66009,false,false
+Dr. Nafiul Iqbal Probash,Dr. Nafiul Iqbal Probash,MALE,87795,false,false
+Dr. Ashika Siddiquea Urshi,Dr. Ashika Siddiquea Urshi,FEMALE,A105331,false,false
+Dr. Abu Ahmed Tanvir,Dr. Abu Ahmed Tanvir,MALE,105374,false,false
+Dr. Mohammad Hasan,Dr. Mohammad Hasan,MALE,24485,false,false
+Asst. Prof. Dr. Md Sirajul Islam,Asst. Prof. Dr. Md Sirajul Islam,MALE,43502,false,false
+Dr. Habibur Rahaman,Dr. Habibur Rahaman,MALE,A93914,false,false
+Dr. Md. Mahmudul Hasan,Dr. Md. Mahmudul Hasan,MALE,A99827,false,false
+Assoc. Prof. Dr. Abu Yousuf Md Shahidul Alam,Assoc. Prof. Dr. Abu Yousuf Md Shahidul Alam,MALE,A31076,false,false
+Dr. Nayan Kanti Nath,Dr. Nayan Kanti Nath,MALE,104726,false,false
+Dr. Tridib Kumar Das,Dr. Tridib Kumar Das,MALE,82155,false,false
+Dr. Md. Fahim Moon,Dr. Md. Fahim Moon,MALE,9564,false,false
+Dr. Afsana Poppy,Dr. Afsana Poppy,FEMALE,100799,false,false
+Dr. monika afrin,Dr. monika afrin,FEMALE,104314,false,false
+Dr. Tanzina Ahmed,Dr. Tanzina Ahmed,FEMALE,94543,false,false
+Dr. Muhammad Chanchal Azad,Dr. Muhammad Chanchal Azad,MALE,A29327,false,false
+Dr. Joydip Bhattacharjee,Dr. Joydip Bhattacharjee,MALE,84548,false,false
+Dr. Emon Kanti Moharer,Dr. Emon Kanti Moharer,MALE,62045,false,false
+Dr. Muhammad Waliullah,Dr. Muhammad Waliullah,MALE,97482,false,false
+Dr. B M Saiduzzaman Sujon,Dr. B M Saiduzzaman Sujon,MALE,A56663,false,false
+Dr. Mehjuba Mushrat,Dr. Mehjuba Mushrat,FEMALE,10145,false,false
+Dr. Alif Dina Asrafe,Dr. Alif Dina Asrafe,FEMALE,103171,false,false
+Dr. Hasan Al Banna,Dr. Hasan Al Banna,MALE,A95571,false,false
+Dr. Happy Heya,Dr. Happy Heya,FEMALE,95209,false,false
+Dr. Farjan Mahmud,Dr. Farjan Mahmud,MALE,A86744,false,false
+Dr. Faysal Rana,Dr. Faysal Rana,MALE,103280,false,false
+Dr. Mohammed Nasir Uddin,Dr. Mohammed Nasir Uddin,MALE,71189,false,false
+Dr. MD.SHAHZALAL UDDIN,Dr. MD.SHAHZALAL UDDIN,MALE,76635,false,false
+Dr. Abdullah Al Noman,Dr. Abdullah Al Noman,MALE,94199,false,false
+Dr. Md Nazib kaikobad,Dr. Md Nazib kaikobad,MALE,85445,false,false
+Dr. A B M Safiqur Rahman,Dr. A B M Safiqur Rahman,MALE,12243,false,false
+Dr. Rubaiat Sharmin,Dr. Rubaiat Sharmin,FEMALE,A94317,false,false
+Dr. Jannatul Mastura,Dr. Jannatul Mastura,FEMALE,A83559,false,false
+Dr. MD.ASHIQUE UL ISLAM SOURAV,Dr. MD.ASHIQUE UL ISLAM SOURAV,MALE,99404,false,false
+Dr. Samsad Begum,Dr. Samsad Begum,FEMALE,85921,false,false
+Dr. Chowdhury Md. Niazuzzaman,Dr. Chowdhury Md. Niazuzzaman,MALE,A47870,false,false
+Dr. Rashedul Alam,Dr. Rashedul Alam,MALE,77204,false,false
+Dr. Miskat uddin Ahmed,Dr. Miskat uddin Ahmed,MALE,A101535,false,false
+Dr. Md Moniruzzaman,Dr. Md Moniruzzaman,MALE,A57117,false,false
+Dr. ABDULLAH AL MAMUN,Dr. ABDULLAH AL MAMUN,MALE,A69752,false,false
+Dr. Swapan Kumar Roy,Dr. Swapan Kumar Roy,MALE,A101386,false,false
+Dr. S M NAZMUL ALAM,Dr. S M NAZMUL ALAM,MALE,56559,false,false
+Dr. Salman Samad,Dr. Salman Samad,MALE,8858,false,false
+Dr. Shamim Ferdous Khan,Dr. Shamim Ferdous Khan,FEMALE,A25356,false,false
+Dr. Mubin Ahmed,Dr. Mubin Ahmed,MALE,A96436,false,false
+Dr. Tanzina Chowdhury,Dr. Tanzina Chowdhury,FEMALE,86518,false,false
+Dr. A. Q. M. Munzurul Hassan,Dr. A. Q. M. Munzurul Hassan,MALE,A102789,false,false
+Dr. Mazharul Islam,Dr. Mazharul Islam,MALE,A97742,false,false
+Dr. Sayeef Hossain Khan,Dr. Sayeef Hossain Khan,MALE,A59412,false,false
+Dr. Mohd Sharif Uddin,Dr. Mohd Sharif Uddin,MALE,58340,false,false
+Assoc. Prof. Dr. Rezaul Malik,Assoc. Prof. Dr. Rezaul Malik,MALE,11219,false,false
+Dr. Sunsila Jabrin,Dr. Sunsila Jabrin,FEMALE,81633,false,false
+Dr. Md Saddam Hossain,Dr. Md Saddam Hossain,MALE,99562,false,false
+Assoc. Prof. Dr. Tofayel Uddin Ahmed,Assoc. Prof. Dr. Tofayel Uddin Ahmed,MALE,34737,false,false
+Dr. Sabnoor Jahan Nishy,Dr. Sabnoor Jahan Nishy,FEMALE,A96190,false,false
+Dr. Mahmudur Rahman,Dr. Mahmudur Rahman,MALE,A39663,false,false
+Dr. ABDUL MANNAN,Dr. ABDUL MANNAN,MALE,A20682,false,false
+Asst. Prof. Dr. Faruk Ahmad,Asst. Prof. Dr. Faruk Ahmad,MALE,27249,false,false
+Dr. Rishat Afrin,Dr. Rishat Afrin,FEMALE,105611,false,false
+Dr. Rifat Mahmud,Dr. Rifat Mahmud,MALE,98112,false,false
+Dr. Fatima Zahir Puspa,Dr. Fatima Zahir Puspa,FEMALE,A91193,false,false
+Dr. Tanvir Shanewaz,Dr. Tanvir Shanewaz,MALE,A64957,false,false
+Dr. Merina Tanzil,Dr. Merina Tanzil,FEMALE,107120,false,false
+Dr. Swasti Chakraborty,Dr. Swasti Chakraborty,FEMALE,A102845,false,false
+Dr. Mohammad Shah Reer Reza,Dr. Mohammad Shah Reer Reza,MALE,A62074,false,false
+Assoc. Prof. Dr. Md. Mozharul Islam,Assoc. Prof. Dr. Md. Mozharul Islam,MALE,A15149,false,false
+Dr. Dipanjan Dhar,Dr. Dipanjan Dhar,MALE,64432,false,false
+Dr. Haimanti Shukla Barman,Dr. Haimanti Shukla Barman,FEMALE,5501,false,false
+Dr. Adnin Nahar,Dr. Adnin Nahar,FEMALE,A76746,false,false
+Dr. Raihan Shykh,Dr. Raihan Shykh,MALE,97860,false,false
+Dr. Nayem Md. Ashir Faisal,Dr. Nayem Md. Ashir Faisal,MALE,100611,false,false
+Dr. Md Sholaiman Shakil,Dr. Md Sholaiman Shakil,MALE,A86528,false,false
+Dr. Bishojit Mondal,Dr. Bishojit Mondal,MALE,A51060,false,false
+Dr. Fatema Akter Sima,Dr. Fatema Akter Sima,FEMALE,95681,false,false
+Dr. Saifuddin Ahmed,Dr. Saifuddin Ahmed,MALE,A80164,false,false
+Dr. Md. Asifur Rahman Prince,Dr. Md. Asifur Rahman Prince,MALE,A94943,false,false
+Dr. Aminul Islam Bonny,Dr. Aminul Islam Bonny,MALE,106494,false,false
+Dr. Enamul Haque Imon,Dr. Enamul Haque Imon,MALE,106168,false,false
+Dr. Nafisa Nur,Dr. Nafisa Nur,FEMALE,90061,false,false
+Dr. Nazmul Ahsun,Dr. Nazmul Ahsun,MALE,2932,false,false
+Dr. Sheikh Asaduzzaman,Dr. Sheikh Asaduzzaman,MALE,102290,false,false
+Dr. Md. Ashraf-Ul Alam Chowdhury,Dr. Md. Ashraf-Ul Alam Chowdhury,MALE,A103702,false,false
+Dr. Aiyisha Nusrat Jahan Modhumonty,Dr. Aiyisha Nusrat Jahan Modhumonty,FEMALE,A102147,false,false
+Dr. Tanvir Islam,Dr. Tanvir Islam,MALE,79689,false,false
+Dr. Mohammad Wahidul Alam,Dr. Mohammad Wahidul Alam,MALE,A93499,false,false
+Dr. Umma Hafiza Nira,Dr. Umma Hafiza Nira,FEMALE,73481,false,false
+Dr. Asif Abdullah,Dr. Asif Abdullah,MALE,86314,false,false
+Dr. Nazmul Hasan,Dr. Nazmul Hasan,MALE,A87776,false,false
+Dr. Md. Kamruzzaman Chowdhury,Dr. Md. Kamruzzaman Chowdhury,MALE,A101307,false,false
+Dr. Rifat Arefin Shawon,Dr. Rifat Arefin Shawon,MALE,A65876,false,false
+Dr. SULTAN SHOEB AHMED,Dr. SULTAN SHOEB AHMED,MALE,A83143,false,false
+Dr. Ali Newaj Chowdhury Jishan,Dr. Ali Newaj Chowdhury Jishan,MALE,76024,false,false
+Asst. Prof. Dr. Nusrat Tasnim,Asst. Prof. Dr. Nusrat Tasnim,FEMALE,A42591,false,false
+Dr. Biswajit Roy Chowdhury,Dr. Biswajit Roy Chowdhury,MALE,43770,false,false
+Dr. Khadiza Tasnim,Dr. Khadiza Tasnim,FEMALE,87584,false,false
+Dr. Md. Mainul Al Hasan,Dr. Md. Mainul Al Hasan,MALE,A76615,false,false
+Dr. Atashi Irtiza,Dr. Atashi Irtiza,FEMALE,A100811,false,false
+Dr. Khondoker Mamun Ur Rashid,Dr. Khondoker Mamun Ur Rashid,MALE,A104705,false,false
+Dr. Mashrur Ahmed,Dr. Mashrur Ahmed,MALE,103343,false,false
+Dr. Md. Faisal Khandaker,Dr. Md. Faisal Khandaker,MALE,A95703,false,false
+Dr. Mohammad  Arafat Rahman,Dr. Mohammad  Arafat Rahman,MALE,A88353,false,false
+Dr. MD.SHADMAN BIN SHAHID,Dr. MD.SHADMAN BIN SHAHID,MALE,94969,false,false
+Dr. Hafsa Anika,Dr. Hafsa Anika,FEMALE,A101541,false,false
+Dr. Humayara Tabassum,Dr. Humayara Tabassum,FEMALE,A54553,false,false
+Dr. Pritom Karmakar,Dr. Pritom Karmakar,MALE,6809,false,false
+Dr. MOHAMMED MINHAZ NASIR,Dr. MOHAMMED MINHAZ NASIR,MALE,95451,false,false
+Dr. Abhijit Sannamat,Dr. Abhijit Sannamat,MALE,A67315,false,false
+Dr. Ifaz Hossain Chowdhury,Dr. Ifaz Hossain Chowdhury,MALE,92246,false,false
+Dr. Md. Tipu Sultan,Dr. Md. Tipu Sultan,MALE,84564,false,false
+Dr. Faruq Ahmed Rezwan,Dr. Faruq Ahmed Rezwan,MALE,A72570,false,false
+Dr. Simanta Roy,Dr. Simanta Roy,MALE,A91316,false,false
+Dr. Rashedul Karim,Dr. Rashedul Karim,MALE,77925,false,false
+Dr. Faraz Al Zafar,Dr. Faraz Al Zafar,MALE,A99253,false,false
+Dr. Anika Tabassum Ummika,Dr. Anika Tabassum Ummika,FEMALE,107366,false,false
+Dr. B M Asaduzzaman Noor,Dr. B M Asaduzzaman Noor,MALE,A93799,false,false
+Dr. Avick Halder,Dr. Avick Halder,MALE,A57873,false,false
+Dr. Mohammed Golam Hossain,Dr. Mohammed Golam Hossain,MALE,A12919,false,false
+Dr. Vaskar Debnath,Dr. Vaskar Debnath,MALE,A46018,false,false
+Dr. Samin Yaser Akash,Dr. Samin Yaser Akash,MALE,102151,false,false
+Dr. Mohammad Tanvir Rahman,Dr. Mohammad Tanvir Rahman,MALE,6502,false,false
+Dr. Arnab Das,Dr. Arnab Das,MALE,99473,false,false
+Dr. Masuma Jahan,Dr. Masuma Jahan,FEMALE,A54950,false,false
+Dr. MIZANUR RAHMAN,Dr. MIZANUR RAHMAN,MALE,A85366,false,false
+Dr. Upal Chowdhury,Dr. Upal Chowdhury,MALE,77033,false,false
+Dr. Khandakar Rashed Ahmed,Dr. Khandakar Rashed Ahmed,MALE,A60039,false,false
+Dr. Md Noor Alam Sagar,Dr. Md Noor Alam Sagar,MALE,A93230,false,false
+Dr. Milon Roy,Dr. Milon Roy,MALE,78616,false,false
+Dr. Ruhul Amin Khan,Dr. Ruhul Amin Khan,MALE,44978,false,false
+Ismat Zerin,Ismat Zerin,FEMALE,Not Applicable,false,false
+Dr. Md Mustaqimul Abrar Choudhury,Dr. Md Mustaqimul Abrar Choudhury,MALE,86880,false,false
+Dr. Md. Naim Uddin,Dr. Md. Naim Uddin,MALE,66623,false,false
+Dr. Hasib Ahmed,Dr. Hasib Ahmed,MALE,A65733,false,false
+Dr. Mehedi Hassan,Dr. Mehedi Hassan,MALE,A97862,false,false
+Dr. Taraque Aziz Sagar,Dr. Taraque Aziz Sagar,MALE,105083,false,false
+Dr. Ismaia Sultana,Dr. Ismaia Sultana,FEMALE,A96608,false,false
+Dr. Sanuar Hossain,Dr. Sanuar Hossain,MALE,62830,false,false
+Dr. Saidur Rahman,Dr. Saidur Rahman,MALE,A77371,false,false
+Dr. Fouzia YEASMIN Trishna,Dr. Fouzia YEASMIN Trishna,FEMALE,81065,false,false
+Dr. Muhammad Nayyem Sarker,Dr. Muhammad Nayyem Sarker,MALE,103332,false,false
+Dr. Jitaditya Roy,Dr. Jitaditya Roy,MALE,9741,false,false
+Dr. Shakil Ahmed,Dr. Shakil Ahmed,MALE,A80337,false,false
+Assoc. Prof. Dr. Md. Mahfuzul Haque Sarkar,Assoc. Prof. Dr. Md. Mahfuzul Haque Sarkar,MALE,A55367,false,false
+Dr. Md. Ehsanul Kabir,Dr. Md. Ehsanul Kabir,MALE,18083,false,false
+Dr. Sumaiya Ahmed,Dr. Sumaiya Ahmed,FEMALE,105442,false,false
+Dr. Sanjida Rezwana,Dr. Sanjida Rezwana,FEMALE,A91112,false,false
+Assoc. Prof. Dr. Sajida Sultana,Assoc. Prof. Dr. Sajida Sultana,FEMALE,38140,false,false
+Dr. Abdus Sabur Talukder,Dr. Abdus Sabur Talukder,MALE,A-86554,false,false
+Dr. Md. Asif Jamil Pritom,Dr. Md. Asif Jamil Pritom,MALE,87462,false,false
+Dr. Saad Karim,Dr. Saad Karim,MALE,A72573,false,false
+Dr. Rajib Dutta,Dr. Rajib Dutta,MALE,45794,false,false
+Dr. Md. Fourkan Uddin,Dr. Md. Fourkan Uddin,MALE,90462,false,false
+Dr. Rezwana Laboni,Dr. Rezwana Laboni,FEMALE,53669,false,false
+Dr. Abdullah Al Mahmud,Dr. Abdullah Al Mahmud,MALE,98968,false,false
+Dr. R Roy,Dr. R Roy,MALE,A62561,false,false
+Dr. Mohammad Sazzadul Alam,Dr. Mohammad Sazzadul Alam,MALE,52871,false,false
+Dr. Ali Zaman,Dr. Ali Zaman,MALE,31536,false,false
+Dr. Sifatullah Naeem Noori,Dr. Sifatullah Naeem Noori,MALE,94227,false,false
+Dr. Aziz Al Maksud,Dr. Aziz Al Maksud,MALE,49275,false,false
+Dr. Junaid Ahmed,Dr. Junaid Ahmed,MALE,A100444,false,false
+Asst. Prof. Dr. Kazi Md. Hannanur Rahman Jewel,Asst. Prof. Dr. Kazi Md. Hannanur Rahman Jewel,MALE,A39616,false,false
+Dr. Md.Shoyeb Khan,Dr. Md.Shoyeb Khan,MALE,76666,false,false
+Dr. Asma Akhter,Dr. Asma Akhter,FEMALE,A51523,false,false
+Dr. Selina Akter,Dr. Selina Akter,FEMALE,A 80342,false,false
+Dr. Shadab Saud Sunny,Dr. Shadab Saud Sunny,MALE,59524,false,false
+Dr. Farhana Haque Happy,Dr. Farhana Haque Happy,FEMALE,61045,false,false
+Dr. Asif Mohammed,Dr. Asif Mohammed,MALE,61784,false,false
+Dr. Istiak Bin Hafiz,Dr. Istiak Bin Hafiz,MALE,79921,false,false
+Dr. Iqbal Hasan,Dr. Iqbal Hasan,MALE,103189,false,false
+Assoc. Prof. Dr. MD MIZANUR RAHMAN,Assoc. Prof. Dr. MD MIZANUR RAHMAN,MALE,70777,false,false
+Dr. Imran Hafiz,Dr. Imran Hafiz,MALE,A77166,false,false
+Dr. Test Blast,Dr. Test Blast,MALE,19720,false,false
+Dr. Shaharior Mohammed,Dr. Shaharior Mohammed,MALE,A101050,false,false
+Dr. Forkan Ahmad Zubair,Dr. Forkan Ahmad Zubair,MALE,108072,false,false
+Dr. Saadiq Ahmed,Dr. Saadiq Ahmed,MALE,102280,false,false
+Dr. Tamal Kumer Das,Dr. Tamal Kumer Das,MALE,73847,false,false
+Dr. Shahinoor Rahman Dulal,Dr. Shahinoor Rahman Dulal,MALE,"",false,false
+Dr. Md. Rabbikul Islam,Dr. Md. Rabbikul Islam,MALE,59040,false,false
+Dr. Mominul Haider,Dr. Mominul Haider,MALE,A-57045,false,false
+Dr. Sahidur Rahman,Dr. Sahidur Rahman,MALE,A67056,false,false
+Dr. Fahmida Naznine,Dr. Fahmida Naznine,FEMALE,75042,false,false
+Dr. Reza Hasan Tokey,Dr. Reza Hasan Tokey,MALE,85629,false,false
+Dr. Fatima Jahan,Dr. Fatima Jahan,FEMALE,A103420,false,false
+Dr. Golam Mahade Hasan,Dr. Golam Mahade Hasan,MALE,105194,false,false
+Dr. Nabila Aysha Mahzabin,Dr. Nabila Aysha Mahzabin,FEMALE,A91038,false,false
+Dr. Habibullah-al- manik,Dr. Habibullah-al- manik,MALE,96379,false,false
+Dr. Songhomitra Ghosh,Dr. Songhomitra Ghosh,FEMALE,88016,false,false
+Dr. Shaifa Lubna Mili,Dr. Shaifa Lubna Mili,FEMALE,A54618,false,false
+Dr. Miah Mohammad Faridul Hasan,Dr. Miah Mohammad Faridul Hasan,MALE,6624,false,false
+Dr. J M Amzad Hossain Chowdhury,Dr. J M Amzad Hossain Chowdhury,MALE,A-79946,false,false
+Dr. Sabbir Ahmed,Dr. Sabbir Ahmed,MALE,93902,false,false
+Dr. Shahriar Kabir,Dr. Shahriar Kabir,MALE,10824,false,false
+Dr. Md. Asmaul Hossain Khan,Dr. Md. Asmaul Hossain Khan,MALE,A76501,false,false
+Dr. SM RAKIBUL Azad,Dr. SM RAKIBUL Azad,MALE,94361,false,false
+Dr. Md.Shahidul Islam,Dr. Md.Shahidul Islam,MALE,70969,false,false
+Dr. Md Zawadul Islam Johny,Dr. Md Zawadul Islam Johny,MALE,99350,false,false
+Dr. Test Mate,Dr. Test Mate,MALE,18122020,false,false
+Dr. Md Hasan Ali,Dr. Md Hasan Ali,MALE,7718,false,false
+Dr. Nagib Ul Galib,Dr. Nagib Ul Galib,MALE,93610,false,false
+Linda Sultana,Linda Sultana,FEMALE,"",false,false
+Mahmuda Akter Sathi,Mahmuda Akter Sathi,FEMALE,Not Applicable,false,false
+Moobashshira Zaman Cynthia,Moobashshira Zaman Cynthia,FEMALE,Not Applicable,false,false
+Asma Ara,Asma Ara,FEMALE,Not Applicable,false,false
+Dr. Shirajum Munira,Dr. Shirajum Munira,FEMALE,91881,false,false
+Dr. Md. Ashraful Alam,Dr. Md. Ashraful Alam,MALE,63364,false,false
+Dr. Joysree Karmaker,Dr. Joysree Karmaker,FEMALE,69686,false,false
+Dr. Satil Ashman,Dr. Satil Ashman,MALE,A105088,false,false
+Dr. Banaful Roy,Dr. Banaful Roy,MALE,103581,false,false
+Dr. Marzia Rahman,Dr. Marzia Rahman,FEMALE,3102,false,false
+Dr. Sumaiya Rahman Soily,Dr. Sumaiya Rahman Soily,FEMALE,A108115,false,false
+Dr. Md.Moslah Uddin,Dr. Md.Moslah Uddin,MALE,A-55049,false,false
+Dr. Rawnak Jahan,Dr. Rawnak Jahan,FEMALE,92801,false,false
+Dr. Asfak Hossain Sweet,Dr. Asfak Hossain Sweet,MALE,60705,false,false
+Dr. Mohammad Saddam Hossain,Dr. Mohammad Saddam Hossain,MALE,A99705,false,false
+Dr. Maharun Nahar Mehie,Dr. Maharun Nahar Mehie,FEMALE,112493,false,false
+Dr. Farzin Chowdhury,Dr. Farzin Chowdhury,FEMALE,A-98021,false,false
+Dr. Faria Razzaque Shejuty,Dr. Faria Razzaque Shejuty,FEMALE,77972,false,false
+Dr. A. H. M. Sufian,Dr. A. H. M. Sufian,MALE,A67858,false,false
+Dr. Mahia Islam,Dr. Mahia Islam,FEMALE,100003,false,false
+Dr. Faridul Islam,Dr. Faridul Islam,MALE,36060,false,false
+Dr. Test General doctor Live,Dr. Test General doctor Live,FEMALE,24091984,false,false
+Dr. Mohammad Abu Hussain,Dr. Mohammad Abu Hussain,FEMALE,5775,false,false
+Dr. Saifuzzaman Saikat,Dr. Saifuzzaman Saikat,MALE,A62235,false,false
+Dr. Israt Jahan Tonny,Dr. Israt Jahan Tonny,FEMALE,A95679,false,false
+Dr. Prabal Barua,Dr. Prabal Barua,MALE,83615,false,false
+Dr. NASER MD KAMRUL HASAN,Dr. NASER MD KAMRUL HASAN,MALE,3704,false,false
+Dr. Nawrin Ahmed Dristy,Dr. Nawrin Ahmed Dristy,FEMALE,107923,false,false
+Dr. Nausheen Jahan Khan,Dr. Nausheen Jahan Khan,FEMALE,77724,false,false
+Dr. Tasmia Tarannum,Dr. Tasmia Tarannum,FEMALE,A71531,false,false
+Dr. SARWAR HUSSAIN RUMEL,Dr. SARWAR HUSSAIN RUMEL,MALE,7892,false,false
+Dr. Mostak Ahmed,Dr. Mostak Ahmed,MALE,63847,false,false
+Dr. Suman Chandra Das,Dr. Suman Chandra Das,MALE,92716,false,false
+Dr. Farah Tahsin,Dr. Farah Tahsin,FEMALE,63014,false,false
+Dr. Farjana Sultana,Dr. Farjana Sultana,FEMALE,93093,false,false
+Assoc. Prof. Dr. Rezwanur Rahman,Assoc. Prof. Dr. Rezwanur Rahman,FEMALE,48944,false,false
+Dr. Mashkura Akter Ponni,Dr. Mashkura Akter Ponni,FEMALE,81978,false,false
+Dr. MD. Osman Hossain Zabir,Dr. MD. Osman Hossain Zabir,MALE,A103522,false,false
+Dr. MD. Shamsul Kabir,Dr. MD. Shamsul Kabir,MALE,7444,false,false
+Dr. Syed Sunny Uz Zaman,Dr. Syed Sunny Uz Zaman,MALE,75379,false,false
+Dr. Basmah Murtahin Jasir,Dr. Basmah Murtahin Jasir,FEMALE,32836,false,false
+Dr. Farhana Akter,Dr. Farhana Akter,FEMALE,A73335,false,false
+Dr. Md Raju Hossain,Dr. Md Raju Hossain,MALE,A109317,false,false
+Dr. Fatema Akbar,Dr. Fatema Akbar,FEMALE,A81772,false,false
+Sazzad Chowdhury,Sazzad Chowdhury,MALE,Not Applicable,false,false
+Rahnuma -E- Jannat,Rahnuma -E- Jannat,FEMALE,Not Applicable,false,false
+Masuda Afrin,Masuda Afrin,FEMALE,Not Applicable,false,false
+Dr. Rubaiya Khan,Dr. Rubaiya Khan,FEMALE,A-72259,false,false
+Dr. Moinul Hasan,Dr. Moinul Hasan,MALE,55129,false,false
+Dr. Chowdhury Samir Shawkat,Dr. Chowdhury Samir Shawkat,MALE,A58367,false,false
+Dr. Tafsir Alam,Dr. Tafsir Alam,FEMALE,85164,false,false
+Dr. Afsana Zahan Bristy,Dr. Afsana Zahan Bristy,FEMALE,90238,false,false
+Dr. Rizwan Ahmed Chowdhury,Dr. Rizwan Ahmed Chowdhury,MALE,97823,false,false
+Dr. Nahid Nazneen,Dr. Nahid Nazneen,FEMALE,A64797,false,false
+Asst. Prof. Dr. Md.Jayedul Islam,Asst. Prof. Dr. Md.Jayedul Islam,MALE,A39507,false,false
+Dr. Mahedy Abu Talha,Dr. Mahedy Abu Talha,MALE,85045,false,false
+Dr. Rijwan Limon,Dr. Rijwan Limon,MALE,A96112,false,false
+Dr. Md Nasim Haider,Dr. Md Nasim Haider,MALE,101719,false,false
+Dr. JAHANGIR HUSHEN MASUM,Dr. JAHANGIR HUSHEN MASUM,MALE,A73947,false,false
+Dr. Md.Saddam Hossain,Dr. Md.Saddam Hossain,MALE,93164,false,false
+Dr. Avijit Mridha,Dr. Avijit Mridha,MALE,71862,false,false
+Dr. Tamanna Sultana,Dr. Tamanna Sultana,FEMALE,106902,false,false
+Dr. Tareq Mahmud,Dr. Tareq Mahmud,MALE,68819,false,false
+Asst. Prof. Dr. Monwar Mahmud Bhuiya Pulok,Asst. Prof. Dr. Monwar Mahmud Bhuiya Pulok,FEMALE,73436,false,false
+Dr. A. K .M. Ashraful Haque,Dr. A. K .M. Ashraful Haque,MALE,76647,false,false
+Asst. Prof. Dr. Redwana Hossain,Asst. Prof. Dr. Redwana Hossain,FEMALE,58784,false,false
+Dr. Mustanshirah Lubna,Dr. Mustanshirah Lubna,FEMALE,34267,false,false
+Dr. Md. Shariful Islam,Dr. Md. Shariful Islam,MALE,91685,false,false
+Dr. Md Asaduzzaman Shimul,Dr. Md Asaduzzaman Shimul,MALE,A103564,false,false
+Dr. H. M Jannatul Rasel,Dr. H. M Jannatul Rasel,MALE,72826,false,false
+Dr. Abul Kashem,Dr. Abul Kashem,MALE,88096,false,false
+Dr. Noor-E-Nasrin Mitu,Dr. Noor-E-Nasrin Mitu,FEMALE,A93649,false,false
+Dr. Hazera Sikder Ritu,Dr. Hazera Sikder Ritu,FEMALE,A-99522,false,false
+Prof. Dr. Tests DTs,Prof. Dr. Tests DTs,MALE,987654321,false,false
+Dr. Abdullah Al Amin,Dr. Abdullah Al Amin,MALE,A-80376,false,false
+Dr. Telawat Sultana,Dr. Telawat Sultana,FEMALE,A83982,false,false
+Dr. Md. Rafiqul Islam,Dr. Md. Rafiqul Islam,MALE,73700,false,false
+Dr. Rokunuzzaman Pavel,Dr. Rokunuzzaman Pavel,MALE,75821,false,false
+Dr. Arman Arafin,Dr. Arman Arafin,MALE,9541,false,false
+Dr. Nicole Sumaya Mostakim Piu,Dr. Nicole Sumaya Mostakim Piu,FEMALE,95611,false,false
+Jayoti Mukherjee,Jayoti Mukherjee,FEMALE,Not Applicable,false,false
+Dr. Md.Mouabya Hasan,Dr. Md.Mouabya Hasan,MALE,88949,false,false
+Dr. Khadiga Khanam,Dr. Khadiga Khanam,FEMALE,75468,false,false
+Dr. Md.Zamiul Haque,Dr. Md.Zamiul Haque,MALE,32695,false,false
+Dr. Raihan Ali,Dr. Raihan Ali,MALE,1046,false,false
+Dr. Mosammot Saima Sadia,Dr. Mosammot Saima Sadia,FEMALE,8511,false,false
+Dr. Nusrat Razia,Dr. Nusrat Razia,FEMALE,59718,false,false
+Dr. Rakibul Hasan Mihaam,Dr. Rakibul Hasan Mihaam,MALE,103128,false,false
+Dr. Sharmin Akter,Dr. Sharmin Akter,FEMALE,89475,false,false
+Dr. Tanvir Tamanna Ananna,Dr. Tanvir Tamanna Ananna,FEMALE,9669,false,false
+Dr. Rafsan Reza,Dr. Rafsan Reza,MALE,75429,false,false
+Dr. Ruby Das,Dr. Ruby Das,FEMALE,65357,false,false
+Dr. Kafil Uddin,Dr. Kafil Uddin,MALE,99511,false,false
+Dr. Samina Ferdous,Dr. Samina Ferdous,FEMALE,9134,false,false
+Dr. Ashik Md Raihan Chowdhury,Dr. Ashik Md Raihan Chowdhury,MALE,A72033,false,false
+Dr. Ahsan Abdullah,Dr. Ahsan Abdullah,MALE,90758,false,false
+Dr. Md. Ashraful Hoque,Dr. Md. Ashraful Hoque,MALE,A-34003,false,false
+Dr. Gulshana Akter,Dr. Gulshana Akter,FEMALE,A75961,false,false
+Dr. Taz-Nur Farzana,Dr. Taz-Nur Farzana,FEMALE,90184,false,false
+Nazmun Nahar Munmun,Nazmun Nahar Munmun,FEMALE,"",false,false
+Mohammad Salim Chowdhury,Mohammad Salim Chowdhury,MALE,"",false,false
+Dr. Mashfik Hasan,Dr. Mashfik Hasan,MALE,A105047,false,false
+Dr. Salman Mahmud,Dr. Salman Mahmud,MALE,A97739,false,false
+Dr. Farhana Binte Islam Mou,Dr. Farhana Binte Islam Mou,FEMALE,A99478,false,false
+Dr. Sharmin Reza Lima,Dr. Sharmin Reza Lima,FEMALE,95431,false,false
+Dr. Mohammad Azmain Iktidar,Dr. Mohammad Azmain Iktidar,MALE,111703,false,false
+Dr. Mohammed Munshi,Dr. Mohammed Munshi,MALE,A93357,false,false
+Dr. Md. Akheruzzaman,Dr. Md. Akheruzzaman,MALE,98069,false,false
+Dr. Shahriar Shaky,Dr. Shahriar Shaky,MALE,90872,false,false
+Dr. Arif Ibna Anwar,Dr. Arif Ibna Anwar,MALE,92435,false,false
+Dr. Mohammad Shah Alam,Dr. Mohammad Shah Alam,MALE,74961,false,false
+Dr. Fatema Sultana Pappy,Dr. Fatema Sultana Pappy,FEMALE,92913,false,false
+Dr. Shahidul Islam Khan,Dr. Shahidul Islam Khan,MALE,106385,false,false
+Dr. Tahan Al Juhany,Dr. Tahan Al Juhany,MALE,88644,false,false
+Dr. Navid Anjum,Dr. Navid Anjum,MALE,A82012,false,false
+Dr. Kawsar Ahmed,Dr. Kawsar Ahmed,MALE,A99997,false,false
+Dr. Sumit Mistry,Dr. Sumit Mistry,MALE,A96516,false,false
+Dr. Muhammad Zubayer khan,Dr. Muhammad Zubayer khan,MALE,105706,false,false
+Dr. Jabir Hasan,Dr. Jabir Hasan,MALE,92977,false,false
+Dr. Shihabul Islam Khan,Dr. Shihabul Islam Khan,MALE,99598,false,false
+Dr. Golam moktadir,Dr. Golam moktadir,MALE,A90404,false,false
+Dr. Abu Taiyeb Md Muhibbullah,Dr. Abu Taiyeb Md Muhibbullah,MALE,101892,false,false
+Navin Rahman,Navin Rahman,FEMALE,123456,false,false
+Dr. Shohana Maqsud,Dr. Shohana Maqsud,FEMALE,A102042,false,false
+Dr. Mohammad Abdul Baset,Dr. Mohammad Abdul Baset,MALE,A77649,false,false
+Dr. Monzur Hussain Chowdhury,Dr. Monzur Hussain Chowdhury,MALE,87540,false,false
+Asst. Prof. Dr. Khaled Shahrear,Asst. Prof. Dr. Khaled Shahrear,MALE,36511,false,false
+Dr. MD RAFAT HASSAN,Dr. MD RAFAT HASSAN,MALE,72620,false,false
+Dr. Chayan Goswami Antu,Dr. Chayan Goswami Antu,MALE,A95846,false,false
+Asst. Prof. Dr. Q M MARUF MAHBUB ASIF,Asst. Prof. Dr. Q M MARUF MAHBUB ASIF,MALE,A61368,false,false
+Dr. Shubho Roy,Dr. Shubho Roy,MALE,96341,false,false
+Dr. Mohammed Zahadul Islam Chowdhury,Dr. Mohammed Zahadul Islam Chowdhury,MALE,52551,false,false
+Dr. Sharmin Akter Tapoti,Dr. Sharmin Akter Tapoti,FEMALE,A87995,false,false
+Dr. Khaza Amirul Islam,Dr. Khaza Amirul Islam,MALE,58161,false,false
+Dr. Md. Sarwar Zahan,Dr. Md. Sarwar Zahan,MALE,A101801,false,false
+Dr. Abdullah Al Kium,Dr. Abdullah Al Kium,MALE,A77680,false,false
+Dr. Ahmed Ur Rahman Shuvo,Dr. Ahmed Ur Rahman Shuvo,MALE,96813,false,false
+Dr. Md Obaidur Reza Choudhury,Dr. Md Obaidur Reza Choudhury,MALE,A46409,false,false
+Dr. Nazmul Hassan,Dr. Nazmul Hassan,MALE,68998,false,false
+Dr. Ashraful Amin,Dr. Ashraful Amin,MALE,A92039,false,false
+Dr. Khyrul Kabir,Dr. Khyrul Kabir,MALE,A93258,false,false
+Dr. Md. Pervej Shake,Dr. Md. Pervej Shake,MALE,A65970,false,false
+Dr. Lokman Hossain,Dr. Lokman Hossain,MALE,A97836,false,false
+Dr. Shaima Sultana,Dr. Shaima Sultana,FEMALE,105411,false,false
+Dr. Tajkiatul Islam Mohua,Dr. Tajkiatul Islam Mohua,FEMALE,A104284,false,false
+Dr. Mayeesha Hossain,Dr. Mayeesha Hossain,FEMALE,97065,false,false
+Asst. Prof. Dr. Shaikh Abdullah Al Mamun,Asst. Prof. Dr. Shaikh Abdullah Al Mamun,MALE,23458,false,false
+Dr. Marufur Rahman,Dr. Marufur Rahman,MALE,106947,false,false
+Dr. Raihan Ahmad,Dr. Raihan Ahmad,MALE,A62771,false,false
+Dr. Md Rayhan Hossain,Dr. Md Rayhan Hossain,MALE,62826,false,false
+Dr. Abdullah Al Rashed,Dr. Abdullah Al Rashed,MALE,A-95515,false,false
+Dr. Muhammad Abdullah Al Mamun,Dr. Muhammad Abdullah Al Mamun,MALE,A84159,false,false
+Dr. Farhana Yasmin,Dr. Farhana Yasmin,FEMALE,A75945,false,false
+Dr. Sumaiya Khaled,Dr. Sumaiya Khaled,FEMALE,89308,false,false
+Dr. Iffat Mostofa,Dr. Iffat Mostofa,FEMALE,86375,false,false
+Dr. Afzal Ahmed,Dr. Afzal Ahmed,MALE,A83636,false,false
+Dr. Salahuddin Farhan,Dr. Salahuddin Farhan,MALE,102372,false,false
+Dr. Toufiqur Reza,Dr. Toufiqur Reza,MALE,100248,false,false
+Dr. Md. Safawan Hussain Al- Mahmud,Dr. Md. Safawan Hussain Al- Mahmud,MALE,A60924,false,false
+Dr. Khalid Hasan,Dr. Khalid Hasan,MALE,105811,false,false
+Dr. Sm. Ashik Faysal,Dr. Sm. Ashik Faysal,MALE,A104368,false,false
+Dr. Samir Tasrif,Dr. Samir Tasrif,MALE,A68586,false,false
+Dr. Asma Akter Mitu,Dr. Asma Akter Mitu,FEMALE,80221,false,false
+Dr. Ahashan Habib,Dr. Ahashan Habib,MALE,87616,false,false
+Dr. Tanjjina Jahan,Dr. Tanjjina Jahan,FEMALE,105635,false,false
+Dr. Md Mahfuzul Hussain,Dr. Md Mahfuzul Hussain,MALE,18147,false,false
+Dr. Dibanur Rashid,Dr. Dibanur Rashid,FEMALE,A59447,false,false
+Dr. MD.ZIAUR Rahman,Dr. MD.ZIAUR Rahman,MALE,A55289,false,false
+Dr. KAZI MOHSIN UDDIN AHMED,Dr. KAZI MOHSIN UDDIN AHMED,MALE,A46746,false,false
+Dr. Nabil Rayhan,Dr. Nabil Rayhan,MALE,92485,false,false
+Prof. Dr. Red Bull,Prof. Dr. Red Bull,MALE,19810617,false,false
+Dr. Aziz Ahmed,Dr. Aziz Ahmed,MALE,71615,false,false
+Dr. Nazmul Ahashan Shuvo,Dr. Nazmul Ahashan Shuvo,MALE,99284,false,false
+Dr. Mohammad Masudur Rahman,Dr. Mohammad Masudur Rahman,MALE,A94800,false,false
+Dr. Mohafil Ara Munmun,Dr. Mohafil Ara Munmun,FEMALE,11110,false,false
+Dr. Mohammed Akter Hossan Masud,Dr. Mohammed Akter Hossan Masud,MALE,41038,false,false
+Md Meraz Hossain,Md Meraz Hossain,MALE,Not Applicable,false,false
+Dr. Seebat Masrur,Dr. Seebat Masrur,MALE,A80945,false,false
+Dr. S. M. Asif Arifin,Dr. S. M. Asif Arifin,MALE,A99123,false,false
+Dr. Puja Saha,Dr. Puja Saha,FEMALE,7227,false,false
+Dr. Sanjay Chatterjee,Dr. Sanjay Chatterjee,MALE,31640,false,false
+Dr. Saidul Islam,Dr. Saidul Islam,MALE,A-84758,false,false
+Dr. Fahima Ferdous,Dr. Fahima Ferdous,FEMALE,95278,false,false
+Dr. Moumita Paul,Dr. Moumita Paul,FEMALE,A76411,false,false
+Dr. Niloy Biswas,Dr. Niloy Biswas,MALE,A96764,false,false
+Dr. Tahmina Noni,Dr. Tahmina Noni,FEMALE,101222,false,false
+Dr. Shaionty Rahman,Dr. Shaionty Rahman,FEMALE,A89335,false,false
+Dr. Alim Al Razy,Dr. Alim Al Razy,MALE,78900,false,false
+Dr. Zahidul Islam,Dr. Zahidul Islam,MALE,91933,false,false
+Dr. Nayeema Roshni,Dr. Nayeema Roshni,FEMALE,A52480,false,false
+Dr. Hasan Mahmud Abdullah,Dr. Hasan Mahmud Abdullah,MALE,55639,false,false
+Dr. farzana ahmmed,Dr. farzana ahmmed,FEMALE,A85836,false,false
+Dr. Hosne Nazia,Dr. Hosne Nazia,FEMALE,97216,false,false
+Dr. Sawrav Deb Bappy,Dr. Sawrav Deb Bappy,MALE,A-58202,false,false
+Dr. MD. Mehedi Hasan,Dr. MD. Mehedi Hasan,MALE,A65612,false,false
+Dr. Rezaul Haque,Dr. Rezaul Haque,MALE,90336,false,false
+Dr. Abir Salman,Dr. Abir Salman,MALE,99768,false,false
+Dr. Ayub Hossain,Dr. Ayub Hossain,MALE,60225,false,false
+Dr. Md. Maroful Hassan,Dr. Md. Maroful Hassan,MALE,106372,false,false
+Dr. Rebeka Sultana,Dr. Rebeka Sultana,FEMALE,22572,false,false
+Dr. Shamim Ahmed Chowdhury,Dr. Shamim Ahmed Chowdhury,MALE,103093,false,false
+Asst. Prof. Dr. Mahmudul Hasan,Asst. Prof. Dr. Mahmudul Hasan,MALE,4734,false,false
+Dr. Syed Muhammad Asifur Rahman,Dr. Syed Muhammad Asifur Rahman,MALE,A75305,false,false
+Dr. MD Mushfqur Rahman,Dr. MD Mushfqur Rahman,MALE,106248,false,false
+Dr. T M RIDWAN AKOND,Dr. T M RIDWAN AKOND,MALE,A-87388,false,false
+Asst. Prof. Dr. Manira Khanam Nishi,Asst. Prof. Dr. Manira Khanam Nishi,FEMALE,A-63931,false,false
+Dr. Ratul Saha,Dr. Ratul Saha,MALE,102401,false,false
+Dr. Apu Karmaker,Dr. Apu Karmaker,MALE,A70210,false,false
+Dr. Ruhul Amin,Dr. Ruhul Amin,MALE,A-108578,false,false
+Dr. Shifat Akter Jahan,Dr. Shifat Akter Jahan,FEMALE,A92930,false,false
+Dr. Amit Saha,Dr. Amit Saha,MALE,72207,false,false
+Asst. Prof. Dr. Enamul Karim,Asst. Prof. Dr. Enamul Karim,MALE,A32780,false,false
+Dr. Fazle Robbi,Dr. Fazle Robbi,MALE,65405,false,false
+Dr. Md. Shahadat Hossain,Dr. Md. Shahadat Hossain,MALE,99714,false,false
+Dr. SYEDA FARAH FERDOUS,Dr. SYEDA FARAH FERDOUS,FEMALE,63170,false,false
+Dr. Afroza Sultana,Dr. Afroza Sultana,FEMALE,A104315,false,false
+Dr. Mst. Suraia Pervin,Dr. Mst. Suraia Pervin,FEMALE,A73603,false,false
+Dr. Md Mostafijur Rahman,Dr. Md Mostafijur Rahman,MALE,A67533,false,false
+Dr. Forhad Ahmed Choudhury,Dr. Forhad Ahmed Choudhury,MALE,63349,false,false
+Dr. Aniqua Yasmin,Dr. Aniqua Yasmin,FEMALE,A67624,false,false
+Dr. Nazah Azad,Dr. Nazah Azad,FEMALE,92337,false,false
+Dr. Md. Khalid Saifullah,Dr. Md. Khalid Saifullah,MALE,A99389,false,false
+Dr. Sanzida Sharmin Ananna,Dr. Sanzida Sharmin Ananna,FEMALE,11146,false,false
+Dr. Noor-E-Abedin Shifat,Dr. Noor-E-Abedin Shifat,MALE,A-89277,false,false
+Dr. Muhammad Ashiqur Rahman,Dr. Muhammad Ashiqur Rahman,MALE,A23179,false,false
+Dr. Nishat Tasnim,Dr. Nishat Tasnim,FEMALE,97231,false,false
+Dr. Md Shariful Islam,Dr. Md Shariful Islam,MALE,A62668,false,false
+Dr. Mirza Shamim,Dr. Mirza Shamim,MALE,101206,false,false
+Dr. Tanmoy Saha,Dr. Tanmoy Saha,MALE,102716,false,false
+Dr. sabrin sultana,Dr. sabrin sultana,FEMALE,103822,false,false
+Dr. Mst.Syma Sabrin,Dr. Mst.Syma Sabrin,FEMALE,90228,false,false
+Dr. Suvo Kumar Bhowmik,Dr. Suvo Kumar Bhowmik,MALE,98057,false,false
+Dr. Rudro Proshad Biswas,Dr. Rudro Proshad Biswas,MALE,89398,false,false
+Dr. Akhtarun Nahar,Dr. Akhtarun Nahar,FEMALE,A50892,false,false
+Dr. Md. Momenul Hassan Himel Talukder,Dr. Md. Momenul Hassan Himel Talukder,MALE,75128,false,false
+Assoc. Prof. Dr. C M Shaheen Kabir,Assoc. Prof. Dr. C M Shaheen Kabir,MALE,A38208,false,false
+Dr. Subrata Barman,Dr. Subrata Barman,MALE,A91241,false,false
+Dr. Md. Nakib Jahangir,Dr. Md. Nakib Jahangir,MALE,103109,false,false
+Dr. Md. Rakibul Hasan Rajib,Dr. Md. Rakibul Hasan Rajib,MALE,102934,false,false
+Dr. Tama Islam,Dr. Tama Islam,FEMALE,73636,false,false
+Dr. Md. Rezuan Ullah,Dr. Md. Rezuan Ullah,MALE,A68885,false,false
+Dr. Lt Col Rokeya Rahman Retd,Dr. Lt Col Rokeya Rahman Retd,FEMALE,A9072,false,false
+Dr. Mahbubur Rahman,Dr. Mahbubur Rahman,MALE,96050,false,false
+Dr. Soumitra Biswas,Dr. Soumitra Biswas,MALE,70216,false,false
+Dr. Md. Shakil Khan,Dr. Md. Shakil Khan,MALE,A102605,false,false
+Dr. Asma Yasmin,Dr. Asma Yasmin,FEMALE,96946,false,false
+Dr. M Ashadullah-Al- Galib,Dr. M Ashadullah-Al- Galib,FEMALE,A59741,false,false
+Dr. Prince Khan,Dr. Prince Khan,MALE,98362,false,false
+Dr. sadia islam,Dr. sadia islam,FEMALE,103721,false,false
+Dr. Naziur Rahman,Dr. Naziur Rahman,MALE,83754,false,false
+Dr. Rasheda Akhter,Dr. Rasheda Akhter,FEMALE,6055,false,false
+Dr. Md Monzurul Haque,Dr. Md Monzurul Haque,MALE,104820,false,false
+Dr. polton Sutra Dhar Shiplu,Dr. polton Sutra Dhar Shiplu,MALE,A86453,false,false
+Dr. MD KAWSAR AHAMMED,Dr. MD KAWSAR AHAMMED,MALE,76976,false,false
+Dr. Refat Rahman,Dr. Refat Rahman,MALE,101774,false,false
+Dr. Rajib Guha,Dr. Rajib Guha,MALE,43946,false,false
+Dr. Sadia Afrin,Dr. Sadia Afrin,FEMALE,10568,false,false
+Dr. MOHAMMAD ASHRAFUL AMIN,Dr. MOHAMMAD ASHRAFUL AMIN,MALE,A70389,false,false
+Dr. Shuvashis Saha Shuvo,Dr. Shuvashis Saha Shuvo,MALE,90332,false,false
+Rakibul Hasan,Rakibul Hasan,MALE,Not Applicable,false,false
+Dr. Rousa Nasim,Dr. Rousa Nasim,FEMALE,94484,false,false
+Dr. Inzamamul Hoque,Dr. Inzamamul Hoque,MALE,A86817,false,false
+Dr. Mehsan Chowdhury,Dr. Mehsan Chowdhury,MALE,A60231,false,false
+Dr. Md. Hasanul Karim,Dr. Md. Hasanul Karim,MALE,90595,false,false
+Dr. Fahim Haider Khan,Dr. Fahim Haider Khan,MALE,A61707,false,false
+Assoc. Prof. Dr. Md. Mahbubur Rahman,Assoc. Prof. Dr. Md. Mahbubur Rahman,MALE,38263,false,false
+Asst. Prof. Dr. Ahmed Gazi Jased,Asst. Prof. Dr. Ahmed Gazi Jased,MALE,1171,false,false
+Dr. Suraya Zebin Mousumi,Dr. Suraya Zebin Mousumi,FEMALE,A75965,false,false
+Dr. sadia sultana,Dr. sadia sultana,FEMALE,A77932,false,false
+Dr. Omar Faruq,Dr. Omar Faruq,MALE,98562,false,false
+Dr. Joy Sen,Dr. Joy Sen,MALE,A101540,false,false
+Dr. Nahid Rabbi,Dr. Nahid Rabbi,MALE,100067,false,false
+Dr. Refat Mannan,Dr. Refat Mannan,MALE,9654,false,false
+Dr. Sreekanta Debnath,Dr. Sreekanta Debnath,MALE,A63453,false,false
+Dr. Pulak Ranjan,Dr. Pulak Ranjan,MALE,A80694,false,false
+Dr. Ainul Hasan,Dr. Ainul Hasan,MALE,A94076,false,false
+Dr. A K M KAMRUL HASAN,Dr. A K M KAMRUL HASAN,MALE,A 54421,false,false
+Dr. Ahmed Muhiuddin,Dr. Ahmed Muhiuddin,MALE,57920,false,false
+Dr. Md. Ashikur Rahaman,Dr. Md. Ashikur Rahaman,MALE,102879,false,false
+Dr. Imran Hossen Minaz,Dr. Imran Hossen Minaz,MALE,10571,false,false
+Dr. Sharmin Lima,Dr. Sharmin Lima,FEMALE,102941,false,false
+Dr. jahangir alam,Dr. jahangir alam,MALE,72502,false,false
+Dr. Tashreefa Amreen Haque,Dr. Tashreefa Amreen Haque,FEMALE,A77579,false,false
+Dr. Khadija Aktar Sonia,Dr. Khadija Aktar Sonia,FEMALE,10707,false,false
+Dr. Monjurul Hasan,Dr. Monjurul Hasan,MALE,A81404,false,false
+Dr. Md. Mishkat Ali Khan,Dr. Md. Mishkat Ali Khan,MALE,103612,false,false
+Dr. Md. Khasnur Rabby,Dr. Md. Khasnur Rabby,MALE,89718,false,false
+Dr. MOHAMMED AQIB JAVED,Dr. MOHAMMED AQIB JAVED,MALE,A76848,false,false
+Asst. Prof. Dr. Md Sayeef Ullah Sujan,Asst. Prof. Dr. Md Sayeef Ullah Sujan,MALE,65257,false,false
+Tarun Mitra,Tarun Mitra,MALE,"",false,false
+Dr. Shuvo Majumder,Dr. Shuvo Majumder,MALE,A73791,false,false
+Dr. Adnan Imtiaj,Dr. Adnan Imtiaj,MALE,A87515,false,false
+Dr. Amir Hamza,Dr. Amir Hamza,MALE,A77688,false,false
+Dr. Md.Faisal Ahmed,Dr. Md.Faisal Ahmed,MALE,A55869,false,false
+Dr. Rana talukder,Dr. Rana talukder,MALE,46810,false,false
+Dr. Arif Masud Jewel,Dr. Arif Masud Jewel,MALE,73531,false,false
+Dr. Suvoshree Das,Dr. Suvoshree Das,FEMALE,99744,false,false
+Dr. Chironjib Sarker,Dr. Chironjib Sarker,MALE,A90100,false,false
+Asst. Prof. Dr. Test Daktar,Asst. Prof. Dr. Test Daktar,MALE,891905,false,false
+Dr. MD.AHSAN HASIB,Dr. MD.AHSAN HASIB,MALE,71466,false,false
+Dr. Rakib UZ Zaman,Dr. Rakib UZ Zaman,MALE,87953,false,false
+Dr. Md. Zahirul Islam,Dr. Md. Zahirul Islam,MALE,A93870,false,false
+Dr. Razia Begum,Dr. Razia Begum,FEMALE,A34997,false,false
+Dr. Habizar Rahman,Dr. Habizar Rahman,MALE,77539,false,false
+Dr. Chirangib  Singha Palash,Dr. Chirangib  Singha Palash,MALE,53776,false,false
+Dr. Elmay Taswafe Asha,Dr. Elmay Taswafe Asha,FEMALE,A88328,false,false
+Dr. Siffat Sharmin,Dr. Siffat Sharmin,FEMALE,77566,false,false
+Dr. Tanvir Ahmed,Dr. Tanvir Ahmed,MALE,A82950,false,false
+Dr. Naushad Khan,Dr. Naushad Khan,MALE,A68502,false,false
+Dr. Proma Alam,Dr. Proma Alam,FEMALE,A83697,false,false
+Dr. Syeda Meherina Hossain,Dr. Syeda Meherina Hossain,FEMALE,A57962,false,false
+Prof. Dr. Md Hafizur Rahman Ansary,Prof. Dr. Md Hafizur Rahman Ansary,MALE,A8973,false,false
+Dr. Rahat Rahman,Dr. Rahat Rahman,MALE,7610,false,false
+Dr. Abdullah Al Noman Noman,Dr. Abdullah Al Noman Noman,MALE,78956,false,false
+Asst. Prof. Dr. Nobin Testa,Asst. Prof. Dr. Nobin Testa,MALE,102465,false,false
+Dr. Keya Das,Dr. Keya Das,FEMALE,93246,false,false
+Dr. Udit Prayas Sikder,Dr. Udit Prayas Sikder,MALE,69826,false,false
+Dr. Monira Sultana,Dr. Monira Sultana,FEMALE,102086,false,false
+Dr. Rafat sultana Riya,Dr. Rafat sultana Riya,FEMALE,A97446,false,false
+Dr. HASAN MOHAMMAD NAVIN,Dr. HASAN MOHAMMAD NAVIN,MALE,A68576,false,false
+Dr. Moshiur majumder,Dr. Moshiur majumder,MALE,105332,false,false
+Dr. UMME RUMANA ZAMAN,Dr. UMME RUMANA ZAMAN,FEMALE,103242,false,false
+Dr. Preetam Kumar Saha,Dr. Preetam Kumar Saha,MALE,99205,false,false
+Dr. Fahim Hossain,Dr. Fahim Hossain,MALE,A60488,false,false
+Dr. Delowara Begam,Dr. Delowara Begam,FEMALE,A67321,false,false
+Dr. Tamim Islam,Dr. Tamim Islam,MALE,81299,false,false
+Dr. Esmat Ara,Dr. Esmat Ara,FEMALE,A38149,false,false
+Dr. Moushumy Aktar,Dr. Moushumy Aktar,MALE,90030,false,false
+Dr. Md. Atiq Afzal Hafizuddin,Dr. Md. Atiq Afzal Hafizuddin,MALE,92054,false,false
+Dr. Delowar Hossen,Dr. Delowar Hossen,MALE,98483,false,false
+Dr. Zobayer Hossain Sagor,Dr. Zobayer Hossain Sagor,MALE,A89472,false,false
+Dr. Zahid Hasan,Dr. Zahid Hasan,MALE,102311,false,false
+Dr. Md. Mahmudul Hasan Faisal,Dr. Md. Mahmudul Hasan Faisal,MALE,A86792,false,false
+Dr. Md. Aminul Islam,Dr. Md. Aminul Islam,MALE,71413,false,false
+Dr. Sakib Ibne Shahidullah,Dr. Sakib Ibne Shahidullah,MALE,78861,false,false
+Dr. Dardia Jaman,Dr. Dardia Jaman,FEMALE,71777,false,false
+Dr. Shakil Ahmed,Dr. Shakil Ahmed,MALE,93324,false,false
+Dr. Irin Chowdhury,Dr. Irin Chowdhury,FEMALE,96647,false,false
+Dr. Wahedul Islam Sobuj,Dr. Wahedul Islam Sobuj,MALE,104856,false,false
+Dr. Hojaifa Zohora Shirupa,Dr. Hojaifa Zohora Shirupa,FEMALE,A89117,false,false
+Dr. Fahmida Akther,Dr. Fahmida Akther,FEMALE,85141,false,false
+Dr. Mrinmoy Dey,Dr. Mrinmoy Dey,MALE,10497,false,false
+Dr. Israt Jahan Prity,Dr. Israt Jahan Prity,FEMALE,89474,false,false
+Dr. Sydul Islam Monna,Dr. Sydul Islam Monna,MALE,78019,false,false
+Dr. Md.Ibrahim Khalil,Dr. Md.Ibrahim Khalil,MALE,5948,false,false
+Dr. Ahsan Ullah,Dr. Ahsan Ullah,MALE,51399,false,false
+Dr. Nirupom Kumar Sikder,Dr. Nirupom Kumar Sikder,MALE,65062,false,false
+Dr. Upama saha,Dr. Upama saha,FEMALE,79968,false,false
+Dr. Aleya Khatun,Dr. Aleya Khatun,FEMALE,A55194,false,false
+Dr. Tabassum Ahmed,Dr. Tabassum Ahmed,FEMALE,A104953,false,false
+Dr. Mobassarul Islam,Dr. Mobassarul Islam,MALE,A45529,false,false
+Dr. MD. Imtiaz Faruk,Dr. MD. Imtiaz Faruk,MALE,79769,false,false
+Dr. Maria Seraj,Dr. Maria Seraj,FEMALE,A-73026,false,false
+Dr. Md. Mahfujul Hassan,Dr. Md. Mahfujul Hassan,MALE,97191,false,false
+Dr. Abdullah Al Muntasir,Dr. Abdullah Al Muntasir,MALE,10688,false,false
+Dr. Shafiqul Islam,Dr. Shafiqul Islam,MALE,A69038,false,false
+Dr. Md.Jamiul Bari,Dr. Md.Jamiul Bari,MALE,69754,false,false
+Dr. Smaranika Alam,Dr. Smaranika Alam,FEMALE,A80127,false,false
+Dr. Shuvashish Tripaty,Dr. Shuvashish Tripaty,MALE,A78976,false,false
+Asst. Prof. Dr. Rakhal Chandra Barman,Asst. Prof. Dr. Rakhal Chandra Barman,MALE,7843,false,false
+Dr. RAZIA MARJIA,Dr. RAZIA MARJIA,FEMALE,A 52196,false,false
+Dr. Fatema Tuzzannat Brishty,Dr. Fatema Tuzzannat Brishty,FEMALE,95327,false,false
+Dr. Sharmin Akter,Dr. Sharmin Akter,FEMALE,96672,false,false
+Dr. Sazia Afreen,Dr. Sazia Afreen,FEMALE,A60553,false,false
+Dr. Sagar Datta,Dr. Sagar Datta,MALE,104345,false,false
+Dr. Shubhra Prakash Paul,Dr. Shubhra Prakash Paul,FEMALE,41808,false,false
+Dr. Lipon Roy,Dr. Lipon Roy,MALE,A65730,false,false
+Dr. Rifahul Ahbab Intisar,Dr. Rifahul Ahbab Intisar,MALE,10111,false,false
+Dr. Rumana Khan,Dr. Rumana Khan,FEMALE,A81938,false,false
+Asst. Prof. Dr. Masrun Mostafa Chowdhury,Asst. Prof. Dr. Masrun Mostafa Chowdhury,FEMALE,72892,false,false
+Dr. Md. Alamin,Dr. Md. Alamin,MALE,94362,false,false
+Dr. Al Amin,Dr. Al Amin,MALE,A98896,false,false
+Dr. Sanjida Ahmed,Dr. Sanjida Ahmed,FEMALE,A37828,false,false
+Dr. S. M. Mohaiminul Islam,Dr. S. M. Mohaiminul Islam,MALE,94232,false,false
+Dr. Jahanara Perveen,Dr. Jahanara Perveen,FEMALE,37043,false,false
+Dr. Sarah Atharin,Dr. Sarah Atharin,FEMALE,A70485,false,false
+Dr. Shaikh Ibne Anwar,Dr. Shaikh Ibne Anwar,MALE,82323,false,false
+Dr. Mostafizur Rahman,Dr. Mostafizur Rahman,MALE,A72745,false,false
+Dr. Md shafiqul Islam,Dr. Md shafiqul Islam,MALE,A-74091,false,false
+Dr. Pritam Das,Dr. Pritam Das,FEMALE,A65866,false,false
+Dr. MAHBUB MURSHED,Dr. MAHBUB MURSHED,MALE,A68258,false,false
+Dr. Md.Tarikul Islam,Dr. Md.Tarikul Islam,MALE,106586,false,false
+Dr. Alamgir Hossain,Dr. Alamgir Hossain,MALE,A-50954,false,false
+Dr. Chaity Biswas,Dr. Chaity Biswas,FEMALE,88576,false,false
+Dr. Md.Abdullah Al Mahmud,Dr. Md.Abdullah Al Mahmud,FEMALE,66933,false,false
+Dr. Mehdi Faruk,Dr. Mehdi Faruk,MALE,49963,false,false
+Dr. Md. Tariqul Islam Limon,Dr. Md. Tariqul Islam Limon,MALE,A86568,false,false
+Dr. Shahjahan Chowdhury,Dr. Shahjahan Chowdhury,MALE,8146,false,false
+Dr. Md Shah Newaz,Dr. Md Shah Newaz,MALE,17695,false,false
+Dr. Muhaimen Salit,Dr. Muhaimen Salit,MALE,A73336,false,false
+Dr. MD. NURUL HUDY AJHARY,Dr. MD. NURUL HUDY AJHARY,MALE,A-55609,false,false
+Dr. Md. Waliur Rahman,Dr. Md. Waliur Rahman,MALE,54812,false,false
+Dr. Md. Arif Hossain,Dr. Md. Arif Hossain,MALE,81765,false,false
+Dr. Liton Sarker,Dr. Liton Sarker,MALE,96261,false,false
+Dr. Shyama Chakraborty,Dr. Shyama Chakraborty,FEMALE,A-88584,false,false
+Dr. Mohammad Mahabub Hassan,Dr. Mohammad Mahabub Hassan,MALE,A102433,false,false
+Dr. Fouzia Noor,Dr. Fouzia Noor,FEMALE,A-93579,false,false
+Dr. Mir Mushfiqur Rahman,Dr. Mir Mushfiqur Rahman,MALE,77065,false,false
+Assoc. Prof. Dr. Md Faruk Hossain,Assoc. Prof. Dr. Md Faruk Hossain,MALE,33803,false,false
+Dr. Taslim Ul Islam,Dr. Taslim Ul Islam,MALE,A73293,false,false
+Dr. Soheli Akter,Dr. Soheli Akter,FEMALE,A75626,false,false
+Dr. Raouful Islam,Dr. Raouful Islam,MALE,100329,false,false
+Dr. Adnan Al Berunie,Dr. Adnan Al Berunie,MALE,A66460,false,false
+Dr. Ahmed Ali,Dr. Ahmed Ali,MALE,109952,false,false
+Dr. Sumon Paul,Dr. Sumon Paul,MALE,A86287,false,false
+Dr. Habibur Rahman Bhuiyan,Dr. Habibur Rahman Bhuiyan,MALE,72994,false,false
+Dr. Susmoy Bhoumik Pranto,Dr. Susmoy Bhoumik Pranto,MALE,A109369,false,false
+Dr. MD. Abul Hasem Mojumder,Dr. MD. Abul Hasem Mojumder,MALE,95963,false,false
+Dr. Simim Afrose,Dr. Simim Afrose,FEMALE,A 100887,false,false
+Md. Mehedi Hasan,Md. Mehedi Hasan,MALE,Not Applicable,false,false
+Dr. K M Shahadat Ali,Dr. K M Shahadat Ali,MALE,74194,false,false
+Dr. NAZNEEN NAHAR,Dr. NAZNEEN NAHAR,FEMALE,A68460,false,false
+Dr. Kamrul Islam,Dr. Kamrul Islam,MALE,A86540,false,false
+Dr. Md. Jahidul Haque,Dr. Md. Jahidul Haque,MALE,83749,false,false
+Dr. Mahmudul Hasan Mozomder,Dr. Mahmudul Hasan Mozomder,MALE,9796,false,false

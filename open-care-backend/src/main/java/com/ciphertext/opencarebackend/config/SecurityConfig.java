@@ -38,10 +38,10 @@ public class SecurityConfig {
                 .cors(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(authorizer->
                         authorizer
-                        .requestMatchers(HttpMethod.POST, "/api/**").hasAnyAuthority("CREATE")
-                        .anyRequest().authenticated())
+                                .requestMatchers(HttpMethod.POST, "/api/**").hasAnyAuthority("CREATE")
+                                .anyRequest().authenticated())
                 .sessionManagement(e -> e.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-        .addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class);
+                .addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class);
         return http.build();
     }
 
@@ -72,6 +72,7 @@ public class SecurityConfig {
                 )
                 .requestMatchers(HttpMethod.GET,
                         "/api/specialities/**",
+                        "/api/medical-tests/**",
                         "/api/institutions/**",
                         "/api/hospitals/**",
                         "/api/doctors/**",
