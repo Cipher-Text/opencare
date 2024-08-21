@@ -1,2 +1,2 @@
-docker build -t opencare-backend .
-docker run -d --name open-care-backend --network host -e DB_HOSTNAME=localhost -e DB_PORT=5432 -e DB_DATABASE=open_care -e POSTGRES_USERNAME=postgres -e POSTGRES_PASSWORD=postgres -e INFO_MAIL=info.opencarebd@gmail.com opencare-backend
+docker build -t open-care-backend .
+docker run -d -p 6500:6500 open-care-backend
