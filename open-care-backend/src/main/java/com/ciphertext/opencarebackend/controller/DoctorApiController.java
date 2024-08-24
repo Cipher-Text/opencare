@@ -69,8 +69,9 @@ public class DoctorApiController {
     }
 
     @PostMapping("")
-    public Doctor createDoctor(@Valid @RequestBody Doctor doctor) {
-        return service.createDoctor(doctor);
+    public ResponseEntity<DoctorDTO> createDoctor(@Valid @RequestBody DoctorDTO doctorDTO) {
+        DoctorDTO dto = service.createDoctor(doctorDTO);
+        return new ResponseEntity<>(dto, HttpStatus.CREATED);
     }
 
     @PutMapping("/edit/{id}")

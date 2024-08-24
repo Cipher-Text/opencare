@@ -64,8 +64,9 @@ public class DoctorServiceImpl implements DoctorService {
     }
 
     @Override
-    public Doctor createDoctor(Doctor doctor) {
-        return doctorRepository.save(doctor);
+    public DoctorDTO createDoctor(DoctorDTO doctorDTO) {
+        Doctor doctor = doctorMapper.dtoToEntity(doctorDTO);
+        return doctorMapper.entityToDto(doctorRepository.save(doctor));
     }
 
     @Override

@@ -19,7 +19,7 @@ public interface DoctorService {
     List<DoctorDTO> getAllDoctors();
     Page<DoctorDTO> getPaginatedDataWithFilters(DoctorFilter doctorFilter, Pageable pagingSort);
     Doctor getDoctorById(Long id) throws ResourceNotFoundException;
-    Doctor createDoctor(Doctor doctor);
+    DoctorDTO createDoctor(DoctorDTO doctorDTO);
     Doctor updateDoctor(Doctor newDoctor, Long doctorId);
     ResponseEntity<Object> deleteDoctorById(Long doctorId);
 }

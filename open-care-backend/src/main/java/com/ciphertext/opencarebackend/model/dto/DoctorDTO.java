@@ -23,8 +23,6 @@ public class DoctorDTO {
     private String email;
     private String address;
     private int yearOfExperience;
-    private String specialities;
-    private String degrees;
     private String description;
     private byte[] image;
     private LocalDate startDate;
