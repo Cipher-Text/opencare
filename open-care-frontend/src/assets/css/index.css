@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poopins', sans-serif;
+}
+
+.sidebar {
+    color: #fff;
+}
+.logo {
+    height: 4rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background: rgba(28,17,41,.88);
+}
+
+.menu-bar {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1rem;
+    position: relative;
+    overflow-y: auto; /* Ensures the sidebar is scrollable if the content overflows */
+    flex-grow: 1; /* Allows the menu-bar to grow and fill the available space */
+}
+.toggle-theme-btn {
+    margin-top: auto; /* Pushes the button to the bottom */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.toggle {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    z-index: 10;
+}
+.box {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Curves the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow */
+    background-color: #fff;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease; /* Adds transition for border-color */
+}
+
+.box {
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    padding: 12px; /* Equal padding */
+    margin-bottom: 10px;
+    background-color: #ffffff; /* Default background color to white */
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.box:hover {
+    border-color: #1890ff; /* Changes border color on hover */
+    background-color: #ffffff; /* Ensures background stays white */
+    box-shadow: 0 0 10px rgba(24, 144, 255, 0.6); /* Blue shadow */
+}
+
+.box.active {
+    border-color: #1890ff; /* Blue border for active state */
+    box-shadow: 0 0 10px rgba(24, 144, 255, 0.6); /* Blue shadow for active state */
+}
+
+
+
+.profile-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.active-link {
+    text-decoration: #0d6efd;
+}
+
+
+.form-container {
+    width: 96%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.form-label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-field {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    margin-right: 10px;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .input-field {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .submit-button {
+        width: 100%;
+    }
+}
+.product-form-container {
+    max-width: 98%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upload-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #d9d9d9;
+    padding: 40px;
+    background: #fafafa;
+    border-radius: 8px;
+}
+
+
+.info-list {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Style each list item */
+.list-group-item {
+    background-color: white;
+    border: none;
+    border-top: 1px solid #dee2e6; /* Subtle border between rows */
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* No margin between list items */
+.list-group-item:first-child {
+    border-top: none; /* No border on the first item */
+}
+
+/* Hover effect to make the item stand out */
+.list-group-item:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Additional hover styling */
+.list-group-item:hover strong {
+    color: #007bff;
+}
+
+/* Space between text */
+.list-group-item .row div {
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+/* Text color on hover */
+.list-group-item:hover .col-6:last-child {
+    color: #333;
+}
+
+
