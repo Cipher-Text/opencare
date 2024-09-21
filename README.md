@@ -100,6 +100,9 @@ The field of medicine is constantly evolving, with new research, treatments, and
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Backend API Documentation
+```http://46.102.157.211:6500/swagger-ui/index.html```
+
 ### Database
 
 [![Database Diagram][db-screenshot]](https://dbdiagram.io/d/6488b6bf722eb77494e72192)
