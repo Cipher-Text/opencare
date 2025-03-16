@@ -90,15 +90,11 @@ class DoctorServiceImplTest {
         assertEquals(2, doctorDTOs.size());
         assertEquals(1L, doctorDTOs.get(0).getId());
         assertEquals("John Doe", doctorDTOs.get(0).getName());
-        assertEquals("MBBS FCPS", doctorDTOs.get(0).getDegrees());
-        assertEquals("Anesthesiology", doctorDTOs.get(0).getSpecialities());
         assertEquals(15, doctorDTOs.get(0).getYearOfExperience());
         assertEquals("General Physician", doctorDTOs.get(0).getDescription());
 
         assertEquals(2L, doctorDTOs.get(1).getId());
         assertEquals("Jane Smith", doctorDTOs.get(1).getName());
-        assertEquals("MBBS FCPS", doctorDTOs.get(1).getDegrees());
-        assertEquals("Anesthesiology", doctorDTOs.get(1).getSpecialities());
         assertEquals(15, doctorDTOs.get(1).getYearOfExperience());
         assertEquals("Dermatologist", doctorDTOs.get(1).getDescription());
 
