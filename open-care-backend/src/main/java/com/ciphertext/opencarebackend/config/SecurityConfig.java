@@ -114,6 +114,7 @@ public class SecurityConfig {
                         "/api/districts/**",
                         "/api/divisions/**",
                         "/api/upazilas/**",
+                        "/api/organization-types/**",
                         "/api/hospital-types/**");
     }
 }
