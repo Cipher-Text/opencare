@@ -256,9 +256,9 @@ Use this space to list resources you find helpful and would like to give credit 
 [forks-shield]: https://img.shields.io/github/forks/Cipher-Text/opencare?style=for-the-badge
 [forks-url]: https://github.com/Cipher-Text/opencare/network/members
 [stars-shield]: https://img.shields.io/github/stars/Cipher-Text/opencare?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: https://github.com/Cipher-Text/opencare/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Cipher-Text/opencare?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-url]: https://github.com/Cipher-Text/opencare/issues
 [license-shield]: https://img.shields.io/github/license/Cipher-Text/opencare?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
