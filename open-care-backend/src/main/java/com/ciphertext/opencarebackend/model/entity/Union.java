@@ -10,7 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name="union")
+@Table(name="\"union\"")
 public class Union {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
