@@ -121,7 +121,6 @@ Open-Care Project/
 |---------|-----|-------------|
 | **Live Application** | [http://46.102.157.211:5175/](http://46.102.157.211:5175/) | Full-featured web application |
 | **API Documentation** | [http://46.102.157.211:6700/swagger-ui/index.html](http://46.102.157.211:6700/swagger-ui/index.html) | Interactive API documentation |
-| **API Base URL** | `http://46.102.157.211:6700/api/v1` | Base endpoint for API calls |
 
 > **Note**: Demo servers are for testing purposes and may have limited uptime. For production use, please deploy your own instance.
 
