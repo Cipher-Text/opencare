@@ -1,2 +1,0 @@
-docker build -t open-care-backend .
-docker run -d -p 6500:6500 open-care-backend
