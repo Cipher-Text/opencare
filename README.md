@@ -101,20 +101,6 @@ This project is organized into separate repositories for better maintainability 
 | **[Frontend Repository](https://github.com/Cipher-Text/opencare-frontend)** | React-based web application with modern UI/UX | React, Next.js, TailwindCSS, TypeScript | ✅ Active |
 | **[Backend Repository](https://github.com/Cipher-Text/opencare-backend)** | RESTful API server with comprehensive medical data management | Java, Spring Boot, PostgreSQL, Swagger | ✅ Active |
 
-### Repository Structure
-```
-Open-Care Project/
-├── opencare-frontend/          # Client-side application
-│   ├── src/
-│   ├── public/
-│   └── package.json
-├── opencare-backend/           # Server-side application
-│   ├── src/main/java/
-│   ├── src/main/resources/
-│   └── pom.xml
-└── README.md                   # This file
-```
-
 ## 🌐 Live Demo & API
 
 | Service | URL | Description |
@@ -250,7 +236,7 @@ cp .env.example .env.local
 npm run dev
 ```
 
-The frontend application will be available at `http://localhost:3000`
+The frontend application will be available at `http://localhost:5173`
 
 ### Environment Variables
 
