@@ -96,10 +96,10 @@ To create an inclusive healthcare ecosystem where accurate medical information, 
 
 This project is organized into separate repositories for better maintainability and deployment:
 
-| Repository | Description | Technologies | Status |
-|------------|-------------|--------------|--------|
-| **[Frontend Repository](https://github.com/Cipher-Text/opencare-frontend)** | React-based web application with modern UI/UX | React, Next.js, TailwindCSS, TypeScript | ✅ Active |
-| **[Backend Repository](https://github.com/Cipher-Text/opencare-backend)** | RESTful API server with comprehensive medical data management | Java, Spring Boot, PostgreSQL, Swagger | ✅ Active |
+| Repository                                                                   | Description | Technologies | Status |
+|------------------------------------------------------------------------------|-------------|--------------|--------|
+| **[Frontend Repository](https://github.com/Cipher-Text/open-care-frontend)** | React-based web application with modern UI/UX | React, Next.js, TailwindCSS, TypeScript | ✅ Active |
+| **[Backend Repository](https://github.com/Cipher-Text/open-care-backend)**   | RESTful API server with comprehensive medical data management | Java, Spring Boot, PostgreSQL, Swagger | ✅ Active |
 
 ## 🌐 Live Demo & API
 
