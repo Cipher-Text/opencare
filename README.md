@@ -436,7 +436,7 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information
 **Project Links:**
 - Frontend Repository: [https://github.com/Cipher-Text/opencare-frontend](https://github.com/Cipher-Text/opencare-frontend)
 - Backend Repository: [https://github.com/Cipher-Text/opencare-backend](https://github.com/Cipher-Text/opencare-backend)
-- Live Demo: [http://46.102.157.211:5175/](http://46.102.157.211:5175/)
+- Live Demo: [https://opencarebd.com/](https://opencarebd.com/)
 
 ## 🙏 Acknowledgments
 
