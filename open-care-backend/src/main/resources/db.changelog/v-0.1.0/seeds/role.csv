@@ -1,8 +1,0 @@
-id,name,bn_name
-1,SUPER_ADMIN,সুপার এডমিন
-2,ADMIN,এডমিন
-3,MODERATOR,মডারেটর
-4,OPERATOR,অপারেটর
-5,USER,ইউজার
-6,DOCTOR,ডাক্তার
-7,HOSPITAL_ADMIN,হসপিটাল এডমিন

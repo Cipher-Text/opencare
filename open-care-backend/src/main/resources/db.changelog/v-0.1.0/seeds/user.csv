@@ -1,8 +1,0 @@
-id,username,password,phone,email,is_active,created_by,created_at,updated_by,updated_at
-1,superadmin,$2a$10$tV/WWIQfoJWELrw5UHNYbOMNa9u5lt1YAiHxSQ0kn1mfOXexkEaJq,01911123456,super@open.care,true,1,2023-09-29 12:45:39.000000,1,2023-09-29 12:45:44.000000
-2,admin,$2a$10$tV/WWIQfoJWELrw5UHNYbOMNa9u5lt1YAiHxSQ0kn1mfOXexkEaJq,01911123457,admin@open.care,true,1,2023-09-29 12:45:39.000000,1,2023-09-29 12:45:44.000000
-3,moderator,$2a$10$tV/WWIQfoJWELrw5UHNYbOMNa9u5lt1YAiHxSQ0kn1mfOXexkEaJq,01911123458,moderator@open.care,true,1,2023-09-29 12:45:39.000000,1,2023-09-29 12:45:44.000000
-4,operator,$2a$10$tV/WWIQfoJWELrw5UHNYbOMNa9u5lt1YAiHxSQ0kn1mfOXexkEaJq,01911123459,operator@open.care,true,1,2023-09-29 12:45:39.000000,1,2023-09-29 12:45:44.000000
-5,user,$2a$10$tV/WWIQfoJWELrw5UHNYbOMNa9u5lt1YAiHxSQ0kn1mfOXexkEaJq,01911123460,user@open.care,true,1,2023-09-29 12:45:39.000000,1,2023-09-29 12:45:44.000000
-6,doctor,$2a$10$tV/WWIQfoJWELrw5UHNYbOMNa9u5lt1YAiHxSQ0kn1mfOXexkEaJq,01911123461,doctor@open.care,true,1,2023-09-29 12:45:39.000000,1,2023-09-29 12:45:44.000000
-7,hospitaladmin,$2a$10$tV/WWIQfoJWELrw5UHNYbOMNa9u5lt1YAiHxSQ0kn1mfOXexkEaJq,01911123462,hospitaladmin@open.care,true,1,2023-09-29 12:45:39.000000,1,2023-09-29 12:45:44.000000
