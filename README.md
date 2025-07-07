@@ -17,9 +17,9 @@
     ·
     <a href="http://46.102.157.211:6700/swagger-ui/index.html">API Documentation</a>
     ·
-    <a href="https://github.com/Cipher-Text/opencare-issues/issues">Report Bug</a>
+    <a href="https://github.com/Cipher-Text/opencare/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Cipher-Text/opencare-issues/issues">Request Feature</a>
+    <a href="https://github.com/Cipher-Text/opencare/issues">Request Feature</a>
   </p>
 
 [![Contributors][contributors-shield]][contributors-url]
