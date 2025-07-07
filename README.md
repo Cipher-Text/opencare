@@ -13,7 +13,7 @@
     <a href="#getting-started"><strong>Get Started »</strong></a>
     <br />
     <br />
-    <a href="http://46.102.157.211:5175/">View Live Demo</a>
+    <a href="https://opencarebd.com/">View Live Demo</a>
     ·
     <a href="http://46.102.157.211:6700/swagger-ui/index.html">API Documentation</a>
     ·
@@ -54,7 +54,7 @@
 
 ## 🩺 About The Project
 
-[![Product Screenshot][product-screenshot]](http://46.102.157.211:5175/)
+[![Product Screenshot][product-screenshot]](https://opencarebd.com/)
 
 Open-Care is a comprehensive medical information platform designed to democratize access to healthcare resources. In a world where medical knowledge should be accessible to all, our platform serves as a bridge between healthcare professionals and the communities they serve.
 
@@ -86,38 +86,47 @@ To create an inclusive healthcare ecosystem where accurate medical information, 
 - **Regular Updates**: Content continuously updated with latest medical research
 - **Multi-language Support**: Accessible content in multiple languages (planned)
 
-### 📱 **User Experience**
-- **Responsive Design**: Seamless experience across desktop, tablet, and mobile devices
-- **Intuitive Interface**: User-friendly design suitable for both medical professionals and patients
-- **Accessibility Features**: Designed with accessibility standards for inclusive usage
+### 📱 **Cross-Platform Access**
+- **Web Application**: Responsive design for desktop and mobile browsers
+- **Mobile App**: Native mobile application for iOS and Android
 - **Offline Support**: Critical information available offline for emergency situations
+- **Accessibility Features**: Designed with accessibility standards for inclusive usage
 
 ## 📁 Repositories
 
 This project is organized into separate repositories for better maintainability and deployment:
 
-| Repository                                                                   | Description | Technologies | Status |
-|------------------------------------------------------------------------------|-------------|--------------|--------|
-| **[Frontend Repository](https://github.com/Cipher-Text/open-care-frontend)** | React-based web application with modern UI/UX | React, Next.js, TailwindCSS, TypeScript | ✅ Active |
-| **[Backend Repository](https://github.com/Cipher-Text/open-care-backend)**   | RESTful API server with comprehensive medical data management | Java, Spring Boot, PostgreSQL, Swagger | ✅ Active |
+| Repository | Description | Technologies | Status |
+|------------|-------------|--------------|--------|
+| **[Frontend Repository](https://github.com/Cipher-Text/open-care-frontend)** | Next.js web application with modern UI/UX | Next.js, React, TailwindCSS, TypeScript | ✅ Active |
+| **[Backend Repository](https://github.com/Cipher-Text/open-care-backend)** | RESTful API server with comprehensive medical data management | Java, Spring Boot, PostgreSQL, Swagger | ✅ Active |
+| **[Mobile Repository](https://github.com/Cipher-Text/open-care-mobile)** | Cross-platform mobile application | React Native, TypeScript, Expo | ✅ Active |
 
 ## 🌐 Live Demo & API
 
 | Service | URL | Description |
 |---------|-----|-------------|
-| **Live Application** | [http://46.102.157.211:5175/](http://46.102.157.211:5175/) | Full-featured web application |
+| **Live Application** | [https://opencarebd.com/](https://opencarebd.com/) | Full-featured web application |
 | **API Documentation** | [http://46.102.157.211:6700/swagger-ui/index.html](http://46.102.157.211:6700/swagger-ui/index.html) | Interactive API documentation |
 
 > **Note**: Demo servers are for testing purposes and may have limited uptime. For production use, please deploy your own instance.
 
 ## 🛠️ Tech Stack
 
-### Frontend
+### Frontend (Web)
 - **Framework**: [Next.js](https://nextjs.org/) - React framework for production
 - **Styling**: [TailwindCSS](https://tailwindcss.com/) - Utility-first CSS framework
 - **UI Components**: Custom components with accessibility focus
 - **State Management**: React Context API / Redux Toolkit
 - **HTTP Client**: Axios for API communication
+- **Type Safety**: TypeScript for enhanced development experience
+
+### Mobile
+- **Framework**: [React Native](https://reactnative.dev/) - Cross-platform mobile development
+- **Development Platform**: [Expo](https://expo.dev/) - Development and deployment platform
+- **Navigation**: React Navigation for seamless app navigation
+- **State Management**: Redux Toolkit / React Context API
+- **UI Components**: Native Base / React Native Elements
 - **Type Safety**: TypeScript for enhanced development experience
 
 ### Backend
@@ -127,6 +136,12 @@ This project is organized into separate repositories for better maintainability 
 - **API Documentation**: [Swagger/OpenAPI](https://swagger.io/) - Interactive API documentation
 - **Security**: Spring Security for authentication and authorization
 - **Testing**: JUnit 5, Mockito for comprehensive testing
+
+### Authentication & Storage
+- **Authentication**: [Keycloak](https://www.keycloak.org/) - Open-source identity and access management
+- **File Storage**: [MinIO](https://min.io/) - High-performance object storage
+- **Session Management**: JWT tokens with Keycloak integration
+- **Role-Based Access**: Fine-grained permissions and user roles
 
 ### Infrastructure
 - **Deployment**: Docker containers for consistent deployment
@@ -141,12 +156,12 @@ This project is organized into separate repositories for better maintainability 
 
 Our database is designed with scalability and data integrity in mind:
 
-- **Users & Authentication**: Secure user management with role-based access
+- **Users & Authentication**: Keycloak integration for secure user management
 - **Medical Professionals**: Comprehensive doctor profiles with specializations
 - **Healthcare Facilities**: Detailed hospital and clinic information
 - **Medical Content**: Curated medical information with proper categorization
 - **Reviews & Ratings**: Community feedback system with moderation
-- **Search Indexing**: Optimized indexes for fast information retrieval
+- **File Management**: MinIO integration for secure file storage and retrieval
 
 ### System Architecture
 ```
@@ -155,141 +170,80 @@ Our database is designed with scalability and data integrity in mind:
 │   (Next.js)     │◄──►│   (Spring Boot) │◄──►│   (PostgreSQL)  │
 │   Port: 3000    │    │   Port: 6700    │    │   Port: 5432    │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
+         │                       │                       │
+         │                       │                       │
+         ▼                       ▼                       ▼
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   Mobile App    │    │   Keycloak      │    │   MinIO         │
+│   (React Native)│    │   (Auth Server) │    │   (File Storage)│
+│   Port: 19000   │    │   Port: 8080    │    │   Port: 9000    │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-Ensure you have the following installed on your system:
+Before you begin, ensure you have the following installed on your system:
 
 - **Node.js** (v18.0.0 or higher)
-- **npm** or **yarn** package manager
 - **Java Development Kit** (JDK 17 or higher)
 - **PostgreSQL** (v14.0 or higher)
+- **Docker** and **Docker Compose**
 - **Git** for version control
 
-```bash
-# Check Node.js version
-node --version
+### Quick Start with Docker
 
-# Check Java version
-java --version
-
-# Check PostgreSQL
-psql --version
-```
-
-### Installation
-
-#### 1. Clone the Repositories
+The easiest way to get started is using Docker Compose:
 
 ```bash
-# Clone frontend repository
-git clone https://github.com/Cipher-Text/opencare-frontend.git
-cd opencare-frontend
+# Clone the main repository
+git clone https://github.com/Cipher-Text/opencare.git
+cd open-care
 
-# Clone backend repository
-git clone https://github.com/Cipher-Text/opencare-backend.git
-cd opencare-backend
+# Start all services
+docker-compose up -d
+
+# The application will be available at:
+# - Frontend: http://localhost:3000
+# - Backend API: http://localhost:6700
+# - Keycloak: http://localhost:8080
+# - MinIO Console: http://localhost:9001
 ```
 
-#### 2. Backend Setup
+### Repository Setup
 
-```bash
-cd opencare-backend
+Each repository has its own detailed setup instructions:
 
-# Create PostgreSQL database
-createdb opencare_db
-
-# Configure application properties
-cp src/main/resources/application.properties.example src/main/resources/application.properties
-
-# Edit database configuration
-# Update the following in application.properties:
-# spring.datasource.url=jdbc:postgresql://localhost:5432/opencare_db
-# spring.datasource.username=your_username
-# spring.datasource.password=your_password
-
-# Build and run the application
-./mvnw clean install
-./mvnw spring-boot:run
-```
-
-The backend API will be available at `http://localhost:6700`
-
-#### 3. Frontend Setup
-
-```bash
-cd opencare-frontend
-
-# Install dependencies
-npm install
-
-# Configure environment variables
-cp .env.example .env.local
-
-# Update API endpoint in .env.local:
-# NEXT_PUBLIC_API_URL=http://localhost:6700/api/v1
-
-# Start development server
-npm run dev
-```
-
-The frontend application will be available at `http://localhost:5173`
-
-### Environment Variables
-
-#### Backend (.env or application.properties)
-```properties
-# Database Configuration
-spring.datasource.url=jdbc:postgresql://localhost:5432/opencare_db
-spring.datasource.username=your_db_username
-spring.datasource.password=your_db_password
-
-# JWT Configuration
-app.jwt.secret=your_jwt_secret_key
-app.jwt.expiration=86400000
-
-# Email Configuration (optional)
-spring.mail.host=smtp.gmail.com
-spring.mail.port=587
-spring.mail.username=your_email@gmail.com
-spring.mail.password=your_app_password
-```
-
-#### Frontend (.env.local)
-```bash
-# API Configuration
-NEXT_PUBLIC_API_URL=http://localhost:6700/api/v1
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-
-# Optional: Analytics and monitoring
-NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=your_ga_id
-```
+1. **Frontend Setup**: Visit [open-care-frontend](https://github.com/Cipher-Text/open-care-frontend) for detailed Next.js setup
+2. **Backend Setup**: Visit [open-care-backend](https://github.com/Cipher-Text/open-care-backend) for detailed Spring Boot setup
+3. **Mobile Setup**: Visit [open-care-mobile](https://github.com/Cipher-Text/open-care-mobile) for detailed React Native setup
 
 ## 💻 Usage
 
 ### For Healthcare Professionals
 
-1. **Registration**: Create a professional account with credential verification
+1. **Registration**: Create a professional account with credential verification through Keycloak
 2. **Profile Management**: Maintain updated professional information and specializations
 3. **Content Contribution**: Contribute to the medical knowledge base
 4. **Patient Interaction**: Respond to queries and provide professional guidance
+5. **File Management**: Upload and manage medical documents through MinIO integration
 
 ### For Patients and General Users
 
 1. **Doctor Search**: Find qualified healthcare professionals in your area
 2. **Hospital Lookup**: Locate nearby medical facilities and services
 3. **Medical Information**: Access reliable, evidence-based medical content
-4. **Health Records**: Maintain personal health information (future feature)
+4. **Cross-Platform Access**: Use the web application or mobile app
+5. **Document Storage**: Securely store and access medical documents
 
 ### For Developers
 
 ```bash
 # API Usage Example
 curl -X GET "http://localhost:6700/api/v1/doctors?specialty=cardiology&location=dhaka" \
-  -H "Accept: application/json"
+  -H "Accept: application/json" \
+  -H "Authorization: Bearer <keycloak_token>"
 
 # Response
 {
@@ -315,10 +269,10 @@ http://localhost:6700/api/v1
 ```
 
 ### Authentication
-The API uses JWT tokens for authentication. Include the token in the Authorization header:
+The API uses Keycloak for authentication. Include the JWT token in the Authorization header:
 
 ```bash
-Authorization: Bearer <your_jwt_token>
+Authorization: Bearer <keycloak_jwt_token>
 ```
 
 ### Key Endpoints
@@ -331,8 +285,10 @@ Authorization: Bearer <your_jwt_token>
 | `GET` | `/hospitals` | Get list of hospitals | No |
 | `GET` | `/hospitals/{id}` | Get hospital details | No |
 | `GET` | `/search` | Search medical information | No |
-| `POST` | `/auth/login` | User authentication | No |
+| `POST` | `/auth/login` | User authentication (Keycloak) | No |
 | `POST` | `/auth/register` | User registration | No |
+| `GET` | `/files/{id}` | Download file from MinIO | Yes |
+| `POST` | `/files/upload` | Upload file to MinIO | Yes |
 
 For complete API documentation, visit: [API Documentation](http://46.102.157.211:6700/swagger-ui/index.html)
 
@@ -342,15 +298,17 @@ For complete API documentation, visit: [API Documentation](http://46.102.157.211
 - [x] Doctor directory with search functionality
 - [x] Hospital database with location-based search
 - [x] Basic medical information repository
-- [x] User authentication system
+- [x] Keycloak authentication system
+- [x] MinIO file storage integration
 - [x] Responsive web interface
+- [x] Mobile application (React Native)
 
 ### Phase 2: Enhanced Features 🚧
-- [ ] Mobile application (React Native)
 - [ ] Advanced search with AI-powered recommendations
 - [ ] Telemedicine integration
 - [ ] Appointment booking system
 - [ ] Patient health records management
+- [ ] Push notifications for mobile app
 
 ### Phase 3: Advanced Features 📋
 - [ ] Multi-language support (Bengali, Hindi, Spanish)
@@ -358,6 +316,7 @@ For complete API documentation, visit: [API Documentation](http://46.102.157.211
 - [ ] AI-powered symptom checker
 - [ ] Integration with wearable health devices
 - [ ] Emergency services locator
+- [ ] Offline mode for mobile app
 
 ### Phase 4: Expansion 🌍
 - [ ] International healthcare provider network
@@ -370,52 +329,21 @@ For complete API documentation, visit: [API Documentation](http://46.102.157.211
 
 We welcome contributions from the community! Whether you're a developer, healthcare professional, or simply passionate about improving healthcare accessibility, there are many ways to contribute.
 
-### How to Contribute
+Please read our [CONTRIBUTION.md](CONTRIBUTION.md) file for detailed guidelines on how to contribute to the project.
 
-1. **Fork the Repository**
-   ```bash
-   git fork https://github.com/Cipher-Text/opencare-frontend
-   # or
-   git fork https://github.com/Cipher-Text/opencare-backend
-   ```
+### Quick Start for Contributors
 
-2. **Create a Feature Branch**
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-
-3. **Make Your Changes**
-    - Follow our coding standards and conventions
-    - Add tests for new functionality
-    - Update documentation as needed
-
-4. **Commit Your Changes**
-   ```bash
-   git commit -m 'Add some amazing feature'
-   ```
-
-5. **Push to Your Branch**
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-
-6. **Open a Pull Request**
-    - Provide a clear description of your changes
-    - Reference any related issues
-    - Include screenshots for UI changes
-
-### Contribution Guidelines
-
-- **Code Style**: Follow established coding conventions for each technology
-- **Testing**: Ensure all tests pass and add new tests for new features
-- **Documentation**: Update relevant documentation for any changes
-- **Commit Messages**: Use clear, descriptive commit messages
-- **Pull Requests**: Keep PRs focused and include detailed descriptions
+1. **Choose a Repository**: Frontend, Backend, or Mobile
+2. **Read Guidelines**: Check the specific contribution guidelines for your chosen repository
+3. **Set Up Development Environment**: Follow the setup instructions in the respective repository
+4. **Pick an Issue**: Look for "good first issue" labels on our GitHub issues
+5. **Submit a Pull Request**: Follow our PR template and guidelines
 
 ### Areas for Contribution
 
-- **Frontend Development**: React/Next.js components and features
+- **Frontend Development**: Next.js components and features
 - **Backend Development**: Spring Boot APIs and services
+- **Mobile Development**: React Native features and improvements
 - **Database**: Schema improvements and optimization
 - **Documentation**: Technical and user documentation
 - **Testing**: Unit tests, integration tests, and end-to-end tests
@@ -434,8 +362,9 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information
 - GitHub: [@Cipher-Text](https://github.com/Cipher-Text)
 
 **Project Links:**
-- Frontend Repository: [https://github.com/Cipher-Text/opencare-frontend](https://github.com/Cipher-Text/opencare-frontend)
-- Backend Repository: [https://github.com/Cipher-Text/opencare-backend](https://github.com/Cipher-Text/opencare-backend)
+- Frontend Repository: [https://github.com/Cipher-Text/open-care-frontend](https://github.com/Cipher-Text/open-care-frontend)
+- Backend Repository: [https://github.com/Cipher-Text/open-care-backend](https://github.com/Cipher-Text/open-care-backend)
+- Mobile Repository: [https://github.com/Cipher-Text/open-care-mobile](https://github.com/Cipher-Text/open-care-mobile)
 - Live Demo: [https://opencarebd.com/](https://opencarebd.com/)
 
 ## 🙏 Acknowledgments
@@ -451,13 +380,17 @@ We extend our gratitude to the following resources and communities that made thi
 ### Technical Resources
 - [Spring Boot Documentation](https://spring.io/projects/spring-boot) - Comprehensive framework guide
 - [React Documentation](https://reactjs.org/) - Frontend library documentation
+- [Next.js Documentation](https://nextjs.org/docs) - React framework documentation
+- [React Native Documentation](https://reactnative.dev/docs/getting-started) - Mobile development guide
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/) - Database documentation
-- [TailwindCSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Keycloak Documentation](https://www.keycloak.org/documentation) - Authentication server guide
+- [MinIO Documentation](https://docs.min.io/) - Object storage documentation
 
 ### Development Tools
 - [GitHub](https://github.com) - Version control and collaboration
 - [Docker](https://www.docker.com/) - Containerization platform
 - [Swagger](https://swagger.io/) - API documentation tools
+- [Expo](https://expo.dev/) - Mobile development platform
 - [Postman](https://www.postman.com/) - API development and testing
 
 ### Community
@@ -472,7 +405,7 @@ We extend our gratitude to the following resources and communities that made thi
   <p>Made with ❤️ for better healthcare accessibility</p>
   <p>
     <a href="#readme-top">Back to Top</a> •
-    <a href="http://46.102.157.211:5175/">Live Demo</a> •
+    <a href="https://opencarebd.com/">Live Demo</a> •
     <a href="http://46.102.157.211:6700/swagger-ui/index.html">API Docs</a>
   </p>
 </div>
