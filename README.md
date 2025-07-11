@@ -46,6 +46,7 @@
     <li><a href="#api-reference">API Reference</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contributors">Contributors</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -349,6 +350,9 @@ Please read our [CONTRIBUTION.md](CONTRIBUTION.md) file for detailed guidelines 
 - **Testing**: Unit tests, integration tests, and end-to-end tests
 - **UI/UX**: Design improvements and accessibility features
 - **Medical Content**: Curated medical information and resources
+
+## 👥 Contributors
+We are grateful for the contributions of our community members. Check out the [CONTRIBUTORS.md](CONTRIBUTORS.md) file for a complete list of contributors and their contributions.
 
 ## 📝 License
 
