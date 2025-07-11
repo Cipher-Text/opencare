@@ -8,7 +8,6 @@ Thank you for your interest in contributing to Open-Care! We welcome contributio
 - [Getting Started](#getting-started)
 - [Development Setup](#development-setup)
 - [Contribution Guidelines](#contribution-guidelines)
-- [Repository Structure](#repository-structure)
 - [Frontend Contributions](#frontend-contributions)
 - [Backend Contributions](#backend-contributions)
 - [Mobile Contributions](#mobile-contributions)
@@ -130,47 +129,6 @@ feat(frontend): add doctor search functionality
 fix(backend): resolve authentication token expiration
 docs(readme): update installation instructions
 test(mobile): add unit tests for profile component
-```
-
-## 🗂️ Repository Structure
-
-The Open-Care project is organized into three main repositories:
-
-### Frontend Repository
-```
-open-care-frontend/
-├── components/          # Reusable UI components
-├── pages/              # Next.js pages
-├── styles/             # CSS and styling files
-├── utils/              # Utility functions
-├── hooks/              # Custom React hooks
-├── context/            # React context providers
-├── types/              # TypeScript type definitions
-└── tests/              # Test files
-```
-
-### Backend Repository
-```
-open-care-backend/
-├── src/main/java/      # Java source code
-├── src/main/resources/ # Configuration files
-├── src/test/          # Test files
-├── docker/            # Docker configurations
-└── docs/              # API documentation
-```
-
-### Mobile Repository
-```
-open-care-mobile/
-├── src/
-│   ├── components/    # Reusable components
-│   ├── screens/       # Screen components
-│   ├── navigation/    # Navigation configuration
-│   ├── services/      # API services
-│   ├── utils/         # Utility functions
-│   └── types/         # TypeScript types
-├── assets/            # Images and static files
-└── __tests__/         # Test files
 ```
 
 ## 🎨 Frontend Contributions

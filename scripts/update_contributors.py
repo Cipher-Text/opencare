@@ -113,7 +113,7 @@ class ContributorAggregator:
 
         table = f"\n### {emoji} {title}\n"
         table += "| Avatar | Name | GitHub | Total Contributions | Repositories |\n"
-        table += "|--------|------|--------|-------------------|--------------|\\n"
+        table += "|--------|------|--------|-------------------|--------------|\n"
 
         for login, data in contributors:
             name = data['name'] if data['name'] else login
@@ -153,7 +153,7 @@ class ContributorAggregator:
 
         table = "\n## Repository Statistics\n\n"
         table += "| Repository | Contributors | Total Commits | Top Contributor |\n"
-        table += "|------------|-------------|---------------|-----------------|\\n"
+        table += "|------------|-------------|---------------|-----------------|\n"
 
         for repo_name, stats in repo_stats.items():
             top_login = stats['top_contributor']['login']

@@ -7,7 +7,7 @@ Thank you to all the amazing people who have contributed to our open source proj
 ### 🥇 Core Contributors (100+ contributions)
 | Avatar | Name | GitHub | Total Contributions | Repositories |
 |--------|------|--------|-------------------|--------------|
-| <img src="https://avatars.githubusercontent.com/u/7828744?v=4" width="50" height="50"> | **Sadman Sobhan** | [@imran110219](https://github.com/imran110219) | 478 | opencare, open-care-frontend, open-care-backend |
+| <img src="https://avatars.githubusercontent.com/u/7828744?v=4" width="50" height="50"> | **Sadman Sobhan** | [@imran110219](https://github.com/imran110219) | 487 | opencare, open-care-frontend, open-care-backend |
 
 ### 🥉 Contributors (10-49 contributions)
 | Avatar | Name | GitHub | Total Contributions | Repositories |
@@ -22,15 +22,16 @@ Thank you to all the amazing people who have contributed to our open source proj
 | <img src="https://avatars.githubusercontent.com/u/66862231?v=4" width="50" height="50"> | **Tahsin Prome** | [@tahsinprome](https://github.com/tahsinprome) | 4 | opencare |
 | <img src="https://avatars.githubusercontent.com/u/114508712?v=4" width="50" height="50"> | **dtecshahjahan** | [@dtecshahjahan](https://github.com/dtecshahjahan) | 3 | opencare |
 | <img src="https://avatars.githubusercontent.com/u/25247631?v=4" width="50" height="50"> | **Mredul-Hasan** | [@Mredul-Hasan](https://github.com/Mredul-Hasan) | 2 | opencare |
+| <img src="https://avatars.githubusercontent.com/u/141121497?v=4" width="50" height="50"> | **Md Ismail Hossain** | [@ismail1801054](https://github.com/ismail1801054) | 2 | open-care-backend |
 | <img src="https://avatars.githubusercontent.com/u/122906565?v=4" width="50" height="50"> | **Md. Mazharul Islam** | [@Mazharul180203](https://github.com/Mazharul180203) | 1 | opencare |
 
 ## Repository Statistics
 
 | Repository | Contributors | Total Commits | Top Contributor |
 |------------|-------------|---------------|-----------------|
-| **opencare** | 7 | 313 | [@imran110219](https://github.com/imran110219) (266 commits) |
+| **opencare** | 7 | 315 | [@imran110219](https://github.com/imran110219) (268 commits) |
 | **open-care-frontend** | 2 | 76 | [@imran110219](https://github.com/imran110219) (67 commits) |
-| **open-care-backend** | 1 | 145 | [@imran110219](https://github.com/imran110219) (145 commits) |
+| **open-care-backend** | 2 | 154 | [@imran110219](https://github.com/imran110219) (152 commits) |
 
 ## How to Contribute
 
@@ -51,7 +52,7 @@ We welcome contributions from everyone! Here's how you can get involved:
 
 ---
 
-*This file is automatically updated daily. Last updated: 2025-07-10*
+*This file is automatically updated daily. Last updated: 2025-07-11*
 
-*Total contributors across all repositories: 8*
-*Total commits across all repositories: 534*
+*Total contributors across all repositories: 9*
+*Total commits across all repositories: 545*
