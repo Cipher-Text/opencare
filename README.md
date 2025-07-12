@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="200" height="80">
+    <img src="images/logo-new.svg" alt="Logo" width="200" height="80">
   </a>
 
   <p align="center">
