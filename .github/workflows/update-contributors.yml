@@ -46,55 +46,13 @@ jobs:
 
       - name: Commit changes
         if: steps.verify-changed-files.outputs.changed == 'true'
+        env:
+          CONTRIBUTOR_TOKEN: ${{ secrets.CONTRIBUTOR_TOKEN }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add CONTRIBUTORS.md
           git commit -m "🤖 Auto-update CONTRIBUTORS.md [skip ci]"
-          git push
 
-  notify-slack:
-    needs: update-contributors
-    runs-on: ubuntu-latest
-    if: always()
-
-    steps:
-      - name: Notify Slack on success
-        if: needs.update-contributors.result == 'success'
-        uses: 8398a7/action-slack@v3
-        with:
-          status: custom
-          custom_payload: |
-            {
-              text: "📊 CONTRIBUTORS.md has been updated successfully!",
-              attachments: [{
-                color: "good",
-                fields: [{
-                  title: "Status",
-                  value: "✅ Updated",
-                  short: true
-                }]
-              }]
-            }
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-
-      - name: Notify Slack on failure
-        if: needs.update-contributors.result == 'failure'
-        uses: 8398a7/action-slack@v3
-        with:
-          status: custom
-          custom_payload: |
-            {
-              text: "❌ CONTRIBUTORS.md update failed!",
-              attachments: [{
-                color: "danger",
-                fields: [{
-                  title: "Status",
-                  value: "❌ Failed",
-                  short: true
-                }]
-              }]
-            }
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          git remote set-url origin https://x-access-token:${CONTRIBUTOR_TOKEN}@github.com/${{ github.repository }}.git
+          git push origin HEAD
