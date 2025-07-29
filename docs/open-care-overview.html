@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenCare Healthcare Platform - Clinical Overview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 20%, #cbd5e1 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1500px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            border: 1px solid #e2e8f0;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #0ea5e9 100%);
+            color: white;
+            padding: 50px 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="medical" patternUnits="userSpaceOnUse" width="20" height="20"><path d="M10 2v16M2 10h16" stroke="rgba(255,255,255,0.1)" stroke-width="1" fill="none"/></pattern></defs><rect width="100" height="100" fill="url(%23medical)"/></svg>') repeat;
+            opacity: 0.3;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .header h1 {
+            font-size: 3.5em;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            letter-spacing: -0.02em;
+        }
+
+        .header .subtitle {
+            font-size: 1.4em;
+            opacity: 0.95;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .header .mission {
+            font-size: 1.1em;
+            opacity: 0.85;
+            font-weight: 400;
+            max-width: 600px;
+        }
+
+        .progress-section {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 12px;
+            padding: 25px;
+            margin-top: 30px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .progress-bar {
+            background: rgba(255, 255, 255, 0.2);
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 15px 0;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, #10b981, #34d399);
+            height: 100%;
+            width: 10%;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
+            animation: progressGlow 3s ease-in-out infinite;
+        }
+
+        @keyframes progressGlow {
+            0%, 100% { box-shadow: 0 0 10px rgba(16, 185, 129, 0.5); }
+            50% { box-shadow: 0 0 20px rgba(16, 185, 129, 0.8); }
+        }
+
+        .tech-stack-header {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .tech-badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 24px;
+            font-size: 0.85em;
+            font-weight: 500;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(5px);
+        }
+
+        .main-content {
+            padding: 40px;
+        }
+
+        .features-overview {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .feature-card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e2e8f0;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--accent-color);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+            border-color: var(--accent-color);
+        }
+
+        .feature-card.core-platform { --accent-color: #3b82f6; }
+        .feature-card.healthcare-network { --accent-color: #ef4444; }
+        .feature-card.patient-services { --accent-color: #10b981; }
+        .feature-card.emergency-blood { --accent-color: #f59e0b; }
+        .feature-card.social-impact { --accent-color: #8b5cf6; }
+        .feature-card.business-tech { --accent-color: #06b6d4; }
+
+        .feature-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .feature-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .feature-card h3 {
+            color: #1e293b;
+            font-size: 1.5em;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .feature-card .icon {
+            font-size: 2em;
+            filter: grayscale(0.2);
+        }
+
+        .status {
+            background: #10b981;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.75em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .status.planned { background: #f59e0b; }
+        .status.progress { background: #3b82f6; }
+        .status.mvp { background: #8b5cf6; }
+
+        .feature-list {
+            list-style: none;
+        }
+
+        .feature-list li {
+            color: #64748b;
+            margin-bottom: 12px;
+            padding-left: 24px;
+            position: relative;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+
+        .feature-list li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 6px;
+            height: 6px;
+            background: var(--accent-color);
+            border-radius: 50%;
+        }
+
+        .section-title {
+            color: #1e293b;
+            font-size: 2.5em;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+            letter-spacing: -0.02em;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, #3b82f6, #ef4444);
+            border-radius: 2px;
+        }
+
+        .social-impact-highlight {
+            background: linear-gradient(135deg, #dc2626 0%, #ef4444 50%, #f87171 100%);
+            color: white;
+            border-radius: 20px;
+            padding: 50px 40px;
+            margin: 50px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .social-impact-highlight::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="1.5" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="70" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="70" cy="80" r="2.5" fill="rgba(255,255,255,0.1)"/></svg>') repeat;
+        }
+
+        .social-impact-highlight h2 {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .social-impact-highlight p {
+            font-size: 1.3em;
+            opacity: 0.95;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .impact-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .impact-stat {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 25px 20px;
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-align: center;
+        }
+
+        .impact-stat h4 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .architecture-diagram {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            border: 1px solid #cbd5e1;
+        }
+
+        .data-flow {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 30px;
+        }
+
+        .layer {
+            background: #ffffff;
+            padding: 30px 24px;
+            border-radius: 16px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e2e8f0;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .layer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #3b82f6, #06b6d4);
+            border-radius: 16px 16px 0 0;
+        }
+
+        .layer:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+        }
+
+        .layer h4 {
+            color: #1e293b;
+            font-size: 1.3em;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .layer p {
+            color: #64748b;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+
+        .database-overview {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+        }
+
+        .database-overview h3 {
+            font-size: 2em;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .db-entities {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .db-entity {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+        }
+
+        .db-entity h4 {
+            font-size: 1.1em;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .implementation-roadmap {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            border-radius: 20px;
+            padding: 40px;
+            color: white;
+            margin: 40px 0;
+        }
+
+        .roadmap-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .roadmap-phase {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .roadmap-phase:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .phase-number {
+            background: linear-gradient(135deg, #3b82f6, #06b6d4);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+
+        .roadmap-phase h4 {
+            font-size: 1.3em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .key-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 16px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(59, 130, 246, 0.4);
+        }
+
+        .metric-card h4 {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .metric-card p {
+            font-size: 1.1em;
+            opacity: 0.95;
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 30px 25px;
+            }
+
+            .header h1 {
+                font-size: 2.5em;
+            }
+
+            .main-content {
+                padding: 25px;
+            }
+
+            .features-overview {
+                grid-template-columns: 1fr;
+            }
+
+            .data-flow {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="header-content">
+            <h1>🏥 OpenCare Healthcare Platform</h1>
+            <p class="subtitle">Advanced Digital Health Ecosystem</p>
+            <p class="mission">Democratizing healthcare access across Bangladesh through comprehensive medical information services, emergency coordination, and community-driven care solutions.</p>
+
+            <div class="progress-section">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                    <span style="font-weight: 600;">Development Progress</span>
+                    <span style="font-size: 0.9em; opacity: 0.9;">10% Complete</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <p style="font-size: 0.9em; opacity: 0.85; margin-top: 10px;">
+                    ✅ Current Milestone: Advertisement System MVP | 🎯 Next: Video Consultation POC
+                </p>
+
+                <div class="tech-stack-header">
+                    <div class="tech-badge">React + Next.js</div>
+                    <div class="tech-badge">Java Spring Boot</div>
+                    <div class="tech-badge">PostgreSQL</div>
+                    <div class="tech-badge">Redis Cache</div>
+                    <div class="tech-badge">Kubernetes</div>
+                    <div class="tech-badge">Keycloak Auth</div>
+                    <div class="tech-badge">MinIO Storage</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="features-overview">
+            <div class="feature-card core-platform">
+                <div class="feature-header">
+                    <div class="feature-title">
+                        <span class="icon">🏥</span>
+                        <h3>Healthcare Directory & Platform Core</h3>
+                    </div>
+                    <span class="status progress">Active</span>
+                </div>
+                <ul class="feature-list">
+                    <li>Comprehensive doctor directory with AI-powered search capabilities</li>
+                    <li>Hospital & clinic database with service catalogs and amenities</li>
+                    <li>Medical institution registry (colleges, diagnostic centers, pharmacies)</li>
+                    <li>Advanced geospatial filtering and intelligent recommendations</li>
+                    <li>Dynamic platform configuration and administrative control systems</li>
+                </ul>
+            </div>
+
+            <div class="feature-card healthcare-network">
+                <div class="feature-header">
+                    <div class="feature-title">
+                        <span class="icon">👨‍⚕️</span>
+                        <h3>Professional Healthcare Network</h3>
+                    </div>
+                    <span class="status progress">Development</span>
+                </div>
+                <ul class="feature-list">
+                    <li>Multi-tier role-based dashboards for all stakeholders</li>
+                    <li>Medical association management and professional collaboration</li>
+                    <li>Integrated appointment scheduling (online & in-hospital)</li>
+                    <li>Secure telehealth consultations with WebRTC technology</li>
+                    <li>Digital prescription management and medical record systems</li>
+                </ul>
+            </div>
+
+            <div class="feature-card patient-services">
+                <div class="feature-header">
+                    <div class="feature-title">
+                        <span class="icon">📱</span>
+                        <h3>Patient Care & Mobile Services</h3>
+                    </div>
+                    <span class="status planned">Planned</span>
+                </div>
+                <ul class="feature-list">
+                    <li>Cross-platform mobile applications with offline capabilities</li>
+                    <li>Secure health record repository with document management</li>
+                    <li>Real-time vital signs tracking and health analytics dashboard</li>
+                    <li>Home sample collection scheduling and laboratory integration</li>
+                    <li>Comprehensive medicine database with price comparison tools</li>
+                </ul>
+            </div>
+
+            <div class="feature-card emergency-blood">
+                <div class="feature-header">
+                    <div class="feature-title">
+                        <span class="icon">🚑</span>
+                        <h3>Emergency Response & Blood Services</h3>
+                    </div>
+                    <span class="status">Implemented</span>
+                </div>
+                <ul class="feature-list">
+                    <li>Blood donation network with donor-recipient matching algorithms</li>
+                    <li>Emergency blood requisition system with real-time notifications</li>
+                    <li>Ambulance service integration with GPS tracking and dispatch</li>
+                    <li>Volunteer coordination for emergency response and medical camps</li>
+                    <li>Location-based emergency contact and rapid response protocols</li>
+                </ul>
+            </div>
+
+            <div class="feature-card social-impact">
+                <div class="feature-header">
+                    <div class="feature-title">
+                        <span class="icon">💝</span>
+                        <h3>Social Impact & Community Health</h3>
+                    </div>
+                    <span class="status progress">Core Feature</span>
+                </div>
+                <ul class="feature-list">
+                    <li>Medical emergency fundraising platform with verified campaigns</li>
+                    <li>Multi-layer verification system with fraud prevention protocols</li>
+                    <li>NGO and social organization integration for community outreach</li>
+                    <li>Volunteer services coordination for disaster response and aid</li>
+                    <li>Community health camp organization and awareness programs</li>
+                </ul>
+            </div>
+
+            <div class="feature-card business-tech">
+                <div class="feature-header">
+                    <div class="feature-title">
+                        <span class="icon">💼</span>
+                        <h3>Business Intelligence & Technology</h3>
+                    </div>
+                    <span class="status mvp">MVP Complete</span>
+                </div>
+                <ul class="feature-list">
+                    <li>Geolocation-based dynamic advertisement management system</li>
+                    <li>Integrated payment processing (SSLCommerz, Stripe, local gateways)</li>
+                    <li>Comprehensive rating and review system for quality assurance</li>
+                    <li>Tiered premium membership programs with enhanced features</li>
+                    <li>RESTful API ecosystem for third-party integration and partnerships</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="social-impact-highlight">
+            <h2>🌟 Transforming Healthcare Accessibility</h2>
+            <p>OpenCare bridges the healthcare gap in Bangladesh by connecting patients with medical professionals, facilitating emergency services, and enabling community-driven healthcare solutions through technology.</p>
+
+            <div class="impact-stats">
+                <div class="impact-stat">
+                    <h4>🏥</h4>
+                    <p>Healthcare Provider Network</p>
+                </div>
+                <div class="impact-stat">
+                    <h4>💝</h4>
+                    <p>Medical Fundraising Platform</p>
+                </div>
+                <div class="impact-stat">
+                    <h4>🩸</h4>
+                    <p>Blood Donation Ecosystem</p>
+                </div>
+                <div class="impact-stat">
+                    <h4>🚑</h4>
+                    <p>Emergency Response Network</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">System Architecture & Infrastructure</h2>
+
+        <div class="architecture-diagram">
+            <div class="data-flow">
+                <div class="layer">
+                    <h4>🖥️ Frontend Ecosystem</h4>
+                    <p>React + Next.js Web Platform<br>Cross-platform Mobile Applications<br>Progressive Web App (PWA)</p>
+                </div>
+
+                <div class="layer">
+                    <h4>🔐 Security & Gateway</h4>
+                    <p>Nginx Load Balancer<br>Keycloak Identity Management<br>API Rate Limiting & Security</p>
+                </div>
+
+                <div class="layer">
+                    <h4>⚙️ Microservices Backend</h4>
+                    <p>Java Spring Boot Services<br>Domain-Driven Architecture<br>Business Logic Processing</p>
+                </div>
+
+                <div class="layer">
+                    <h4>💾 Data Management</h4>
+                    <p>PostgreSQL Primary Database<br>Redis Caching Layer<br>MinIO Object Storage</p>
+                </div>
+
+                <div class="layer">
+                    <h4>☁️ DevOps & Monitoring</h4>
+                    <p>Docker Containerization<br>Kubernetes Orchestration<br>Prometheus + Grafana Analytics</p>
+                </div>
+
+                <div class="layer">
+                    <h4>🔌 External Integrations</h4>
+                    <p>Payment Gateway APIs<br>SMS & Email Services<br>Video Consultation Platform</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="database-overview">
+            <h3>🗄️ Database Architecture & Clinical Data Management</h3>
+            <p>PostgreSQL-powered healthcare data infrastructure with HIPAA-compliant security protocols and advanced medical informatics capabilities.</p>
+
+            <div class="db-entities">
+                <div class="db-entity">
+                    <h4>🔐 Identity Management</h4>
+                    <p>User Profiles, Role-Based Access, Authentication Systems</p>
+                </div>
+                <div class="db-entity">
+                    <h4>🏥 Healthcare Network</h4>
+                    <p>Medical Professionals, Hospitals, Healthcare Institutions</p>
+                </div>
+                <div class="db-entity">
+                    <h4>🔬 Clinical Services</h4>
+                    <p>Diagnostic Tests, Pharmaceutical Database, Medical Specialties</p>
+                </div>
+                <div class="db-entity">
+                    <h4>📍 Geographic Intelligence</h4>
+                    <p>4-Tier Bangladesh Administrative Hierarchy</p>
+                </div>
+                <div class="db-entity">
+                    <h4>🚨 Emergency Systems</h4>
+                    <p>Blood Services, Ambulance Network, Volunteer Coordination</p>
+                </div>
+                <div class="db-entity">
+                    <h4>📊 Business Analytics</h4>
+                    <p>Payment Processing, Advertisement Management, Performance Metrics</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="implementation-roadmap">
+            <h3>🛣️ Strategic Implementation Roadmap</h3>
+            <p>Phased development approach prioritizing clinical impact and sustainable platform growth</p>
+
+            <div class="roadmap-grid">
+                <div class="roadmap-phase">
+                    <div class="phase-number">1</div>
+                    <h4>Foundation & Core (Q1-Q2)</h4>
+                    <p>Healthcare directory, search infrastructure, authentication systems, and essential dashboard functionalities</p>
+                </div>
+                <div class="roadmap-phase">
+                    <div class="phase-number">2</div>
+                    <h4>Clinical Services (Q2-Q3)</h4>
+                    <p>Appointment management, telehealth consultations, prescription systems, and medical record integration</p>
+                </div>
+                <div class="roadmap-phase">
+                    <div class="phase-number">3</div>
+                    <h4>Social Impact (Q3-Q4)</h4>
+                    <p>Medical fundraising platform, emergency services, blood donation network, and community health programs</p>
+                </div>
+                <div class="roadmap-phase">
+                    <div class="phase-number">4</div>
+                    <h4>Scale & Sustainability (Q4+)</h4>
+                    <p>Mobile applications, premium services, API ecosystem, and strategic partnership integrations</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="key-metrics">
+            <div class="metric-card">
+                <h4>25+</h4>
+                <p>Core Database Entities</p>
+            </div>
+
+            <div class="metric-card">
+                <h4>11</h4>
+                <p>Core Feature Modules</p>
+            </div>
+
+            <div class="metric-card">
+                <h4>7</h4>
+                <p>User Role Types</p>
+            </div>
+
+            <div class="metric-card">
+                <h4>∞</h4>
+                <p>Social Impact Potential</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
