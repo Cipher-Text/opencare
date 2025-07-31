@@ -1,0 +1,173 @@
+<svg width="1400" height="1200" viewBox="0 0 1400 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1400" height="1200" fill="#f9fafb"/>
+
+    <!-- Header -->
+    <rect x="50" y="30" width="1300" height="80" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+    <text x="80" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">My Profile</text>
+    <text x="80" y="85" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Manage your personal information and preferences</text>
+
+    <!-- Edit Profile Button -->
+    <rect x="1150" y="45" width="150" height="40" rx="8" fill="#14b8a6"/>
+    <text x="1225" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Edit Profile</text>
+
+    <!-- Main Content Area -->
+    <rect x="50" y="130" width="1300" height="1000" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Profile Header Section -->
+    <rect x="70" y="150" width="1260" height="200" rx="8" fill="#f8fafc" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Profile Picture -->
+    <circle cx="170" cy="250" r="60" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="3"/>
+    <text x="170" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#0f766e">AH</text>
+
+    <!-- Profile Info -->
+    <text x="260" y="215" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#111827">Ahmed Hassan</text>
+    <text x="260" y="240" font-family="Arial, sans-serif" font-size="16" fill="#0d9488">আহমেদ হাসান</text>
+
+    <text x="260" y="270" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📧 ahmed.hassan@email.com</text>
+    <text x="260" y="295" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📱 +880 1712-345678</text>
+    <text x="260" y="320" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📍 Dhaka, Bangladesh</text>
+
+    <!-- Status Badges -->
+    <rect x="600" y="190" width="100" height="25" rx="12" fill="#059669"/>
+    <text x="650" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Active User</text>
+
+    <rect x="720" y="190" width="120" height="25" rx="12" fill="#dc2626"/>
+    <text x="780" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Blood Donor</text>
+
+    <rect x="860" y="190" width="100" height="25" rx="12" fill="#7c3aed"/>
+    <text x="910" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Volunteer</text>
+
+    <!-- Blood Donation Badge -->
+    <rect x="600" y="230" width="180" height="80" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+    <circle cx="630" cy="260" r="15" fill="#dc2626"/>
+    <path d="M625 255c0-3 2-5 5-5s5 2 5 5c0 3-5 8-5 8s-5-5-5-8z" fill="white"/>
+    <text x="655" y="255" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#dc2626">Blood Donations</text>
+    <text x="655" y="275" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#dc2626">12 Times</text>
+    <text x="655" y="290" font-family="Arial, sans-serif" font-size="10" fill="#991b1b">Last: Jan 15, 2024</text>
+
+    <!-- Contribution Points Badge -->
+    <rect x="800" y="230" width="180" height="80" rx="8" fill="#f0f9ff" stroke="#93c5fd" stroke-width="1"/>
+    <circle cx="830" cy="260" r="15" fill="#2563eb"/>
+    <text x="830" y="267" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">★</text>
+    <text x="855" y="255" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#2563eb">Contribution Points</text>
+    <text x="855" y="275" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2563eb">2,450 Points</text>
+    <text x="855" y="290" font-family="Arial, sans-serif" font-size="10" fill="#1d4ed8">Level: Gold Member</text>
+
+    <!-- Social Links -->
+    <text x="1100" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Social Links</text>
+
+    <rect x="1100" y="235" width="30" height="30" rx="6" fill="#1877f2"/>
+    <text x="1115" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">f</text>
+
+    <rect x="1140" y="235" width="30" height="30" rx="6" fill="#0077b5"/>
+    <text x="1155" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">in</text>
+
+    <rect x="1180" y="235" width="30" height="30" rx="6" fill="#000000"/>
+    <text x="1195" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">X</text>
+
+    <rect x="1220" y="235" width="30" height="30" rx="6" fill="#00d4aa"/>
+    <text x="1235" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">RG</text>
+
+    <!-- Personal Information Section -->
+    <text x="90" y="400" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">Personal Information</text>
+
+    <rect x="70" y="420" width="620" height="300" rx="8" fill="#fafafa" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Personal Info Grid -->
+    <text x="90" y="450" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Full Name</text>
+    <text x="90" y="470" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Ahmed Hassan</text>
+
+    <text x="350" y="450" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Bengali Name</text>
+    <text x="350" y="470" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">আহমেদ হাসান</text>
+
+    <text x="90" y="510" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Gender</text>
+    <text x="90" y="530" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Male</text>
+
+    <text x="350" y="510" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Date of Birth</text>
+    <text x="350" y="530" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">January 15, 1990</text>
+
+    <text x="90" y="570" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Blood Group</text>
+    <rect x="90" y="580" width="60" height="25" rx="12" fill="#dc2626"/>
+    <text x="120" y="597" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">A+</text>
+
+    <text x="350" y="570" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Email</text>
+    <text x="350" y="590" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">ahmed.hassan@email.com</text>
+
+    <text x="90" y="630" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Phone Number</text>
+    <text x="90" y="650" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">+880 1712-345678</text>
+
+    <text x="350" y="630" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Username</text>
+    <text x="350" y="650" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">ahmed_hassan_90</text>
+
+    <text x="90" y="690" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Address</text>
+    <text x="90" y="710" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">House 123, Road 5, Dhanmondi, Dhaka-1205</text>
+
+    <!-- Location Information Section -->
+    <text x="720" y="400" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">Location Information</text>
+
+    <rect x="710" y="420" width="620" height="300" rx="8" fill="#fafafa" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Location Info Grid -->
+    <text x="730" y="450" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">District</text>
+    <text x="730" y="470" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Dhaka</text>
+
+    <text x="990" y="450" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Upazila</text>
+    <text x="990" y="470" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Dhanmondi</text>
+
+    <text x="730" y="510" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Union</text>
+    <text x="730" y="530" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Dhanmondi Union</text>
+
+    <!-- Map Placeholder -->
+    <rect x="730" y="560" width="580" height="140" rx="8" fill="#e5e7eb" stroke="#d1d5db" stroke-width="1"/>
+    <text x="1020" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">📍 Location Map</text>
+    <text x="1020" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Interactive map showing user location</text>
+
+    <!-- Activity & Statistics Section -->
+    <text x="90" y="780" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">Activity and Statistics</text>
+
+    <rect x="70" y="800" width="1260" height="200" rx="8" fill="#fafafa" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Stats Cards -->
+    <rect x="90" y="820" width="180" height="100" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="110" y="845" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Profile Views</text>
+    <text x="110" y="875" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#14b8a6">1,234</text>
+    <text x="110" y="895" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">This month</text>
+
+    <rect x="290" y="820" width="180" height="100" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="310" y="845" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Appointments</text>
+    <text x="310" y="875" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2563eb">89</text>
+    <text x="310" y="895" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Total booked</text>
+
+    <rect x="490" y="820" width="180" height="100" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="510" y="845" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Reviews Given</text>
+    <text x="510" y="875" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#f59e0b">56</text>
+    <text x="510" y="895" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Helpful reviews</text>
+
+    <rect x="690" y="820" width="180" height="100" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="710" y="845" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Volunteer Hours</text>
+    <text x="710" y="875" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#7c3aed">245</text>
+    <text x="710" y="895" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Community service</text>
+
+    <rect x="890" y="820" width="180" height="100" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="910" y="845" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Blood Donations</text>
+    <text x="910" y="875" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#dc2626">12</text>
+    <text x="910" y="895" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Lives saved</text>
+
+    <rect x="1090" y="820" width="180" height="100" rx="8" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="1110" y="845" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374151">Member Since</text>
+    <text x="1110" y="875" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#059669">Jan 2020</text>
+    <text x="1110" y="895" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">5 years active</text>
+
+    <!-- Recent Activity Section -->
+    <text x="90" y="1050" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">Recent Activity</text>
+
+    <rect x="70" y="1070" width="1260" height="40" rx="6" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <circle cx="100" cy="1090" r="6" fill="#14b8a6"/>
+    <text x="120" y="1085" font-family="Arial, sans-serif" font-size="14" fill="#111827">Booked appointment with Dr. Rahman</text>
+    <text x="120" y="1100" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">2 days ago</text>
+
+    <!-- Footer -->
+    <text x="700" y="1170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 OpenCare Healthcare Platform. All rights reserved.</text>
+</svg>
