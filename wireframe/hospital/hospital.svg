@@ -1,0 +1,275 @@
+<svg width="1200" height="1800" viewBox="0 0 1200 1800" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1200" height="1800" fill="#f9fafb"/>
+
+    <!-- Container -->
+    <rect x="100" y="50" width="1000" height="1700" fill="none"/>
+
+    <!-- Header Card -->
+    <rect x="120" y="80" width="960" height="280" rx="12" fill="white" stroke="#5eead4" stroke-width="2"/>
+
+    <!-- Hospital Image -->
+    <rect x="160" y="120" width="120" height="120" rx="8" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="2"/>
+    <!-- Hospital Icon -->
+    <rect x="200" y="150" width="40" height="60" rx="2" stroke="#0f766e" stroke-width="2" fill="none"/>
+    <path d="M220 140L200 150v60h40v-60l-20-10z" stroke="#0f766e" stroke-width="2" fill="none"/>
+    <path d="M210 170h20M220 160v20" stroke="#0f766e" stroke-width="2"/>
+
+    <!-- Hospital Name and Info -->
+    <text x="300" y="140" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#111827">Dhaka Medical College Hospital</text>
+    <text x="300" y="165" font-family="Arial, sans-serif" font-size="18" fill="#0d9488">ঢাকা মেডিকেল কলেজ হাসপাতাল</text>
+
+    <!-- Type and Organization Badges -->
+    <rect x="300" y="180" width="80" height="24" rx="12" fill="none" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="340" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0f766e">College</text>
+
+    <rect x="390" y="180" width="90" height="24" rx="12" fill="#14b8a6"/>
+    <text x="435" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Government</text>
+
+    <rect x="490" y="180" width="80" height="24" rx="12" fill="#059669"/>
+    <text x="530" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">1700 Beds</text>
+
+    <!-- Hospital Info Icons -->
+    <g transform="translate(300, 220)">
+        <!-- Location Icon -->
+        <circle cx="8" cy="8" r="3" stroke="#14b8a6" stroke-width="1.5" fill="none"/>
+        <path d="M8 5v6M5 8h6" stroke="#14b8a6" stroke-width="1"/>
+        <text x="25" y="12" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Dhaka, Bangladesh</text>
+    </g>
+
+    <g transform="translate(500, 220)">
+        <!-- Website Icon -->
+        <circle cx="8" cy="8" r="6" stroke="#14b8a6" stroke-width="1.5" fill="none"/>
+        <path d="M2 8h12M8 2a6 6 0 0 1 6 6 6 6 0 0 1-6 6 6 6 0 0 1-6-6 6 6 0 0 1 6-6z" stroke="#14b8a6" stroke-width="1"/>
+        <text x="25" y="12" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Visit Website</text>
+    </g>
+
+    <!-- Action Buttons -->
+    <rect x="300" y="250" width="140" height="36" rx="6" fill="#14b8a6"/>
+    <text x="370" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="white">Find Doctors</text>
+
+    <rect x="450" y="250" width="120" height="36" rx="6" fill="none" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="510" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#0f766e">Book Tests</text>
+
+    <rect x="580" y="250" width="100" height="36" rx="6" fill="none" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="630" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#0f766e">Directions</text>
+
+    <!-- Hospital Overview Card -->
+    <rect x="120" y="390" width="960" height="160" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+
+    <text x="140" y="420" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Hospital Overview</text>
+
+    <text x="140" y="450" font-family="Arial, sans-serif" font-size="14" fill="#111827">Established: 1946 | Specializing in comprehensive medical care with state-of-the-art facilities</text>
+    <text x="140" y="475" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">One of Bangladesh's premier government hospitals providing affordable healthcare services</text>
+    <text x="140" y="500" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">with advanced medical equipment and experienced healthcare professionals.</text>
+
+    <!-- Quick Stats -->
+    <rect x="140" y="520" width="100" height="20" rx="4" fill="#ccfbf1"/>
+    <text x="190" y="533" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0f766e">500+ Doctors</text>
+
+    <rect x="250" y="520" width="120" height="20" rx="4" fill="#ccfbf1"/>
+    <text x="310" y="533" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0f766e">50+ Departments</text>
+
+    <rect x="380" y="520" width="100" height="20" rx="4" fill="#ccfbf1"/>
+    <text x="430" y="533" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0f766e">24/7 Emergency</text>
+
+    <!-- Available Doctors Card -->
+    <rect x="120" y="580" width="300" height="320" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+
+    <!-- Doctors Header -->
+    <g transform="translate(140, 600)">
+        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="#0f766e" stroke-width="1.5" fill="none" transform="scale(0.8)"/>
+        <text x="25" y="12" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Available Doctors</text>
+    </g>
+
+    <!-- Doctor List Items -->
+    <rect x="140" y="640" width="4" height="240" fill="#2dd4bf"/>
+
+    <!-- Doctor 1 -->
+    <circle cx="165" cy="660" r="15" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="165" y="666" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0f766e">DS</text>
+    <text x="190" y="660" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Dr. Md Sidur Rahman</text>
+    <text x="190" y="675" font-family="Arial, sans-serif" font-size="12" fill="#0d9488">Allergy &amp; Immunology</text>
+    <rect x="190" y="685" width="50" height="16" rx="8" fill="#059669"/>
+    <text x="215" y="696" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Available</text>
+
+    <!-- Doctor 2 -->
+    <circle cx="165" cy="730" r="15" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="165" y="736" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0f766e">AK</text>
+    <text x="190" y="730" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Dr. Ahmed Khan</text>
+    <text x="190" y="745" font-family="Arial, sans-serif" font-size="12" fill="#0d9488">Cardiology</text>
+    <rect x="190" y="755" width="40" height="16" rx="8" fill="#ef4444"/>
+    <text x="210" y="766" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Busy</text>
+
+    <!-- Doctor 3 -->
+    <circle cx="165" cy="800" r="15" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="165" y="806" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0f766e">FR</text>
+    <text x="190" y="800" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Dr. Fatima Rahman</text>
+    <text x="190" y="815" font-family="Arial, sans-serif" font-size="12" fill="#0d9488">Pediatrics</text>
+    <rect x="190" y="825" width="50" height="16" rx="8" fill="#059669"/>
+    <text x="215" y="836" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Available</text>
+
+    <text x="190" y="870" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6" text-decoration="underline">View All Doctors (150+)</text>
+
+    <!-- Available Tests Card -->
+    <rect x="440" y="580" width="300" height="320" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+
+    <!-- Tests Header -->
+    <g transform="translate(460, 600)">
+        <rect x="0" y="2" width="16" height="12" rx="2" stroke="#0f766e" stroke-width="1.5" fill="none"/>
+        <circle cx="8" cy="8" r="2" fill="#0f766e"/>
+        <text x="25" y="12" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Available Tests</text>
+    </g>
+
+    <!-- Test Categories -->
+    <rect x="460" y="640" width="4" height="240" fill="#2dd4bf"/>
+
+    <!-- Test Category 1 -->
+    <text x="480" y="660" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Blood Tests</text>
+    <text x="480" y="675" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">CBC, Blood Sugar, Lipid Profile</text>
+    <rect x="480" y="685" width="60" height="16" rx="8" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="510" y="696" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#0f766e">₹500-2000</text>
+
+    <!-- Test Category 2 -->
+    <text x="480" y="720" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Imaging</text>
+    <text x="480" y="735" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">X-Ray, CT Scan, MRI, Ultrasound</text>
+    <rect x="480" y="745" width="70" height="16" rx="8" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="515" y="756" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#0f766e">₹1000-8000</text>
+
+    <!-- Test Category 3 -->
+    <text x="480" y="780" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Cardiac Tests</text>
+    <text x="480" y="795" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">ECG, Echo, Stress Test</text>
+    <rect x="480" y="805" width="70" height="16" rx="8" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="515" y="816" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#0f766e">₹800-5000</text>
+
+    <!-- Test Category 4 -->
+    <text x="480" y="840" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Pathology</text>
+    <text x="480" y="855" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Biopsy, Histopathology</text>
+    <rect x="480" y="865" width="80" height="16" rx="8" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="520" y="876" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#0f766e">₹2000-10000</text>
+
+    <text x="480" y="900" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6" text-decoration="underline">View All Tests &amp; Book Online</text>
+
+    <!-- Hospital Amenities Card -->
+    <rect x="780" y="580" width="300" height="320" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+
+    <!-- Amenities Header -->
+    <g transform="translate(800, 600)">
+        <rect x="0" y="2" width="16" height="12" rx="1" stroke="#0f766e" stroke-width="1.5" fill="none"/>
+        <rect x="2" y="0" width="12" height="4" fill="#0f766e"/>
+        <text x="25" y="12" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Facilities &amp; Amenities</text>
+    </g>
+
+    <!-- Amenities List -->
+    <rect x="800" y="640" width="4" height="240" fill="#2dd4bf"/>
+
+    <!-- Amenity 1 -->
+    <rect x="820" y="655" width="12" height="8" rx="2" fill="#059669"/>
+    <text x="840" y="663" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">ICU &amp; CCU</text>
+    <text x="840" y="678" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">50 ICU beds, 20 CCU beds with ventilators</text>
+
+    <!-- Amenity 2 -->
+    <rect x="820" y="695" width="12" height="8" rx="2" fill="#059669"/>
+    <text x="840" y="703" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Operation Theaters</text>
+    <text x="840" y="718" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">15 modern OTs with advanced equipment</text>
+
+    <!-- Amenity 3 -->
+    <rect x="820" y="735" width="12" height="8" rx="2" fill="#059669"/>
+    <text x="840" y="743" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Emergency Department</text>
+    <text x="840" y="758" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">24/7 emergency services with trauma center</text>
+
+    <!-- Amenity 4 -->
+    <rect x="820" y="775" width="12" height="8" rx="2" fill="#059669"/>
+    <text x="840" y="783" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Private Cabins</text>
+    <text x="840" y="798" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">200 AC cabins, 150 non-AC rooms</text>
+
+    <!-- Amenity 5 -->
+    <rect x="820" y="815" width="12" height="8" rx="2" fill="#059669"/>
+    <text x="840" y="823" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Pharmacy &amp; Canteen</text>
+    <text x="840" y="838" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">24/7 pharmacy, patient canteen, parking</text>
+
+    <!-- Amenity 6 -->
+    <rect x="820" y="855" width="12" height="8" rx="2" fill="#059669"/>
+    <text x="840" y="863" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Specialized Units</text>
+    <text x="840" y="878" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Dialysis, Blood bank, Physiotherapy</text>
+
+    <!-- Location & Contact Information Card -->
+    <rect x="120" y="940" width="960" height="200" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+
+    <!-- Location Header -->
+    <text x="140" y="970" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Location &amp; Contact Information</text>
+
+    <!-- Left Column - Location -->
+    <text x="140" y="1000" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6b7280">Address</text>
+    <text x="140" y="1020" font-family="Arial, sans-serif" font-size="14" fill="#111827">Dhaka Medical College Hospital</text>
+    <text x="140" y="1040" font-family="Arial, sans-serif" font-size="14" fill="#111827">Bakshibazar, Dhaka-1000</text>
+
+    <text x="140" y="1070" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6b7280">Coordinates</text>
+    <text x="140" y="1090" font-family="Arial, sans-serif" font-size="14" fill="#111827">23.7261° N, 90.3976° E</text>
+
+    <text x="140" y="1120" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6b7280">Established</text>
+    <text x="140" y="1140" font-family="Arial, sans-serif" font-size="14" fill="#111827">1946</text>
+
+    <!-- Right Column - Contact -->
+    <text x="620" y="1000" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6b7280">Emergency Hotline</text>
+    <text x="620" y="1020" font-family="Arial, sans-serif" font-size="14" fill="#111827">+880-2-8626812</text>
+
+    <text x="620" y="1050" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6b7280">Appointment</text>
+    <text x="620" y="1070" font-family="Arial, sans-serif" font-size="14" fill="#111827">+880-2-8616079</text>
+
+    <text x="620" y="1100" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6b7280">Website</text>
+    <text x="620" y="1120" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6" text-decoration="underline">https://dmch.gov.bd/</text>
+
+    <!-- Hospital Statistics Card -->
+    <rect x="120" y="1170" width="960" height="120" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+
+    <text x="140" y="1200" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Hospital Statistics</text>
+
+    <!-- Statistics Grid -->
+    <rect x="140" y="1220" width="150" height="50" rx="8" fill="#ccfbf1"/>
+    <text x="215" y="1240" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#0f766e">1700</text>
+    <text x="215" y="1258" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0f766e">Total Beds</text>
+
+    <rect x="310" y="1220" width="150" height="50" rx="8" fill="#ccfbf1"/>
+    <text x="385" y="1240" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#0f766e">500+</text>
+    <text x="385" y="1258" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0f766e">Doctors</text>
+
+    <rect x="480" y="1220" width="150" height="50" rx="8" fill="#ccfbf1"/>
+    <text x="555" y="1240" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#0f766e">50+</text>
+    <text x="555" y="1258" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0f766e">Departments</text>
+
+    <rect x="650" y="1220" width="150" height="50" rx="8" fill="#ccfbf1"/>
+    <text x="725" y="1240" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#0f766e">24/7</text>
+    <text x="725" y="1258" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0f766e">Emergency</text>
+
+    <rect x="820" y="1220" width="150" height="50" rx="8" fill="#ccfbf1"/>
+    <text x="895" y="1240" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#0f766e">4.2/5</text>
+    <text x="895" y="1258" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0f766e">Rating</text>
+
+    <!-- Quick Actions Section -->
+    <rect x="120" y="1320" width="960" height="100" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+
+    <text x="140" y="1350" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Quick Actions</text>
+
+    <!-- Action Buttons -->
+    <rect x="140" y="1365" width="150" height="35" rx="6" fill="#14b8a6"/>
+    <text x="215" y="1387" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white">Book Appointment</text>
+
+    <rect x="310" y="1365" width="120" height="35" rx="6" fill="none" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="370" y="1387" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0f766e">Find Doctors</text>
+
+    <rect x="450" y="1365" width="120" height="35" rx="6" fill="none" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="510" y="1387" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0f766e">Book Tests</text>
+
+    <rect x="590" y="1365" width="120" height="35" rx="6" fill="none" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="650" y="1387" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0f766e">Get Directions</text>
+
+    <rect x="730" y="1365" width="120" height="35" rx="6" fill="none" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="790" y="1387" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0f766e">Emergency</text>
+
+    <rect x="870" y="1365" width="120" height="35" rx="6" fill="none" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="930" y="1387" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0f766e">Reviews</text>
+
+    <!-- Footer -->
+    <text x="600" y="1750" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 OpenCare Healthcare Platform. All rights reserved.</text>
+</svg>
