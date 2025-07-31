@@ -1,0 +1,83 @@
+<svg width="1400" height="1200" viewBox="0 0 1400 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1400" height="1200" fill="#f9fafb"/>
+
+    <!-- Header -->
+    <rect x="50" y="30" width="1300" height="80" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+    <text x="80" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0f766e">Edit Profile</text>
+    <text x="80" y="85" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Update your personal information and preferences</text>
+
+    <!-- Main Content Area -->
+    <rect x="50" y="130" width="1300" height="1000" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Profile Picture Upload -->
+    <circle cx="170" cy="220" r="60" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="3"/>
+    <text x="170" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#0f766e">AH</text>
+    <rect x="120" y="290" width="100" height="30" rx="8" fill="#14b8a6"/>
+    <text x="170" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Upload Photo</text>
+
+    <!-- Personal Information Section -->
+    <text x="300" y="180" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">Personal Information</text>
+    <g>
+        <text x="300" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">Full Name</text>
+        <rect x="300" y="230" width="400" height="40" rx="8" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="310" y="255" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Ahmed Hassan</text>
+
+        <text x="300" y="280" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">Bengali Name</text>
+        <rect x="300" y="290" width="400" height="40" rx="8" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="310" y="315" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">আহমেদ হাসান</text>
+
+        <text x="300" y="340" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">Gender</text>
+        <rect x="300" y="350" width="400" height="40" rx="8" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="310" y="375" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Male</text>
+
+        <text x="300" y="400" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">Date of Birth</text>
+        <rect x="300" y="410" width="400" height="40" rx="8" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="310" y="435" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">January 15, 1990</text>
+
+        <text x="300" y="460" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">Blood Group</text>
+        <rect x="300" y="470" width="400" height="40" rx="8" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="310" y="495" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">A+</text>
+
+        <text x="300" y="520" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">Email</text>
+        <rect x="300" y="530" width="400" height="40" rx="8" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="310" y="555" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">ahmed.hassan@email.com</text>
+
+        <text x="300" y="580" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">Phone Number</text>
+        <rect x="300" y="590" width="400" height="40" rx="8" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="310" y="615" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">+880 1712-345678</text>
+
+        <text x="300" y="640" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">Username</text>
+        <rect x="300" y="650" width="400" height="40" rx="8" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="310" y="675" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">ahmed_hassan_90</text>
+
+        <text x="300" y="700" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">Address</text>
+        <rect x="300" y="710" width="400" height="40" rx="8" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="310" y="735" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">House 123, Road 5, Dhanmondi, Dhaka-1205</text>
+    </g>
+
+    <!-- Location Information Section -->
+    <text x="800" y="180" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">Location Information</text>
+    <g>
+        <text x="800" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">District</text>
+        <rect x="800" y="230" width="400" height="40" rx="8" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="810" y="255" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Dhaka</text>
+
+        <text x="800" y="280" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">Upazila</text>
+        <rect x="800" y="290" width="400" height="40" rx="8" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="810" y="315" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Dhanmondi</text>
+
+        <text x="800" y="340" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">Union</text>
+        <rect x="800" y="350" width="400" height="40" rx="8" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="810" y="375" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Dhanmondi Union</text>
+    </g>
+
+    <!-- Save and Cancel Buttons -->
+    <rect x="300" y="800" width="180" height="40" rx="8" fill="#14b8a6"/>
+    <text x="390" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Save Changes</text>
+    <rect x="520" y="800" width="180" height="40" rx="8" fill="#e5e7eb"/>
+    <text x="610" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#374151">Cancel</text>
+
+    <!-- Footer -->
+    <text x="700" y="1170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 OpenCare Healthcare Platform. All rights reserved.</text>
+</svg>
