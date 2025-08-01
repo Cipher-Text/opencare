@@ -1,0 +1,172 @@
+<svg width="1200" height="1800" viewBox="0 0 1200 1800" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1200" height="1800" fill="#f9fafb"/>
+
+    <!-- Header -->
+    <rect x="0" y="0" width="1200" height="80" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="50" y="25" width="30" height="30" rx="4" fill="#14b8a6"/>
+    <text x="100" y="45" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">BloodCare</text>
+    <rect x="1050" y="25" width="100" height="30" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="1100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Profile</text>
+
+    <!-- Hero Section -->
+    <rect x="0" y="80" width="1200" height="160" fill="#14b8a6"/>
+    <text x="600" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">Blood Requisitions</text>
+    <text x="600" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#a7f3d0">Help save lives by fulfilling blood requests</text>
+
+    <!-- Create Requisition Button -->
+    <rect x="520" y="190" width="160" height="40" rx="6" fill="#dc2626"/>
+    <text x="600" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">+ Create Requisition</text>
+
+    <!-- Filters -->
+    <rect x="100" y="260" width="1000" height="100" rx="12" fill="white" stroke="#d1d5db" stroke-width="1"/>
+
+    <!-- Blood Group Filter -->
+    <text x="130" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Blood Group</text>
+    <rect x="130" y="295" width="120" height="35" rx="6" fill="none" stroke="#6b7280" stroke-width="1"/>
+    <text x="190" y="317" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">All Groups ▼</text>
+
+    <!-- District Filter -->
+    <text x="270" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">District</text>
+    <rect x="270" y="295" width="150" height="35" rx="6" fill="none" stroke="#6b7280" stroke-width="1"/>
+    <text x="345" y="317" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">All Districts ▼</text>
+
+    <!-- Status Filter -->
+    <text x="440" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Status</text>
+    <rect x="440" y="295" width="130" height="35" rx="6" fill="none" stroke="#14b8a6" stroke-width="2"/>
+    <text x="505" y="317" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Active ▼</text>
+
+    <!-- Urgency Filter -->
+    <text x="590" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Urgency</text>
+    <rect x="590" y="295" width="120" height="35" rx="6" fill="none" stroke="#6b7280" stroke-width="1"/>
+    <text x="650" y="317" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">All ▼</text>
+
+    <!-- Search Button -->
+    <rect x="730" y="295" width="80" height="35" rx="6" fill="#14b8a6"/>
+    <text x="770" y="317" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Filter</text>
+
+    <!-- Clear Filters -->
+    <text x="830" y="317" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-decoration="underline">Clear All</text>
+
+    <!-- Results Header -->
+    <rect x="100" y="380" width="700" height="50" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="130" y="405" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Active Requisitions (18)</text>
+    <text x="130" y="420" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Showing active blood requests in your area</text>
+
+    <!-- Sort Options -->
+    <text x="620" y="405" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Sort by:</text>
+    <rect x="620" y="410" width="120" height="15" fill="none" stroke="#6b7280" stroke-width="1"/>
+    <text x="680" y="422" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Urgency ▼</text>
+
+    <!-- Requisition List -->
+    <rect x="100" y="430" width="700" height="1200" fill="white" stroke="#d1d5db" stroke-width="1"/>
+
+    <!-- Requisition Card 1 - Urgent -->
+    <rect x="120" y="450" width="660" height="140" rx="8" fill="#fef2f2" stroke="#fecaca" stroke-width="2"/>
+    <rect x="135" y="465" width="60" height="20" rx="10" fill="#dc2626"/>
+    <text x="165" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">URGENT</text>
+
+    <circle cx="160" cy="520" r="25" fill="#dc2626"/>
+    <text x="160" y="528" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">A+</text>
+
+    <text x="200" y="475" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Emergency Surgery - Children's Hospital</text>
+    <text x="200" y="495" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Patient: Rashida Begum, 45 years | Female</text>
+    <text x="200" y="515" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📍 Dhaka Medical College Hospital, Dhanmondi</text>
+    <text x="200" y="535" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📞 +8801712345678 | Contact: Dr. Rahman</text>
+    <text x="200" y="555" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">⏰ Needed by: Today 6:00 PM | 3 bags required</text>
+    <text x="200" y="575" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Posted 2 hours ago by Mohammad Ali</text>
+
+    <rect x="580" y="470" width="80" height="30" rx="6" fill="#dc2626"/>
+    <text x="620" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Respond</text>
+    <rect x="580" y="510" width="80" height="30" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="620" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">View Details</text>
+
+    <!-- Requisition Card 2 - High Priority -->
+    <rect x="120" y="600" width="660" height="140" rx="8" fill="#fef9f5" stroke="#fed7aa" stroke-width="1"/>
+    <rect x="135" y="615" width="80" height="20" rx="10" fill="#f59e0b"/>
+    <text x="175" y="628" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">HIGH PRIORITY</text>
+
+    <circle cx="160" cy="670" r="25" fill="#f59e0b"/>
+    <text x="160" y="678" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">O-</text>
+
+    <text x="200" y="625" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Cancer Treatment - Square Hospital</text>
+    <text x="200" y="645" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Patient: Ahmed Hassan, 38 years | Male</text>
+    <text x="200" y="665" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📍 Square Hospital, Panthapath, Dhaka</text>
+    <text x="200" y="685" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📞 +8801987654321 | Contact: Dr. Fatima</text>
+    <text x="200" y="705" font-family="Arial, sans-serif" font-size="14" fill="#f59e0b">⏰ Needed by: Tomorrow 10:00 AM | 2 bags required</text>
+    <text x="200" y="725" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Posted 5 hours ago by Fatima Khatun</text>
+
+    <rect x="580" y="620" width="80" height="30" rx="6" fill="#f59e0b"/>
+    <text x="620" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Respond</text>
+    <rect x="580" y="660" width="80" height="30" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="620" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">View Details</text>
+
+    <!-- Requisition Card 3 - Normal -->
+    <rect x="120" y="750" width="660" height="140" rx="8" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1"/>
+    <rect x="135" y="765" width="60" height="20" rx="10" fill="#14b8a6"/>
+    <text x="165" y="778" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">NORMAL</text>
+
+    <circle cx="160" cy="820" r="25" fill="#14b8a6"/>
+    <text x="160" y="828" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">B+</text>
+
+    <text x="200" y="775" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Scheduled Surgery - Apollo Hospital</text>
+    <text x="200" y="795" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Patient: Nasir Uddin, 29 years | Male</text>
+    <text x="200" y="815" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📍 Apollo Hospital, Bashundhara, Dhaka</text>
+    <text x="200" y="835" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📞 +8801555666777 | Contact: Nurse Rahima</text>
+    <text x="200" y="855" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">⏰ Needed by: Dec 28, 2024 | 1 bag required</text>
+    <text x="200" y="875" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Posted 1 day ago by Dr. Karim</text>
+
+    <rect x="580" y="770" width="80" height="30" rx="6" fill="#14b8a6"/>
+    <text x="620" y="790" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Respond</text>
+    <rect x="580" y="810" width="80" height="30" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="620" y="830" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">View Details</text>
+
+    <!-- Load More Button -->
+    <rect x="350" y="1580" width="120" height="35" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="410" y="1602" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Load More</text>
+
+    <!-- Sidebar -->
+    <rect x="820" y="380" width="280" height="1250" fill="white" stroke="#d1d5db" stroke-width="1"/>
+
+    <!-- Quick Stats -->
+    <text x="840" y="410" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Quick Statistics</text>
+    <rect x="840" y="420" width="240" height="120" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1"/>
+    <text x="855" y="445" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">🚨 5 urgent requests</text>
+    <text x="855" y="465" font-family="Arial, sans-serif" font-size="14" fill="#f59e0b">⚠️ 8 high priority</text>
+    <text x="855" y="485" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">📋 18 total active</text>
+    <text x="855" y="505" font-family="Arial, sans-serif" font-size="14" fill="#10b981">✅ 12 fulfilled today</text>
+    <text x="855" y="525" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">👥 45 responses pending</text>
+
+    <!-- Blood Group Demand -->
+    <text x="840" y="570" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Most Demanded</text>
+    <rect x="840" y="580" width="240" height="100" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="855" y="605" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">A+ : 6 requests</text>
+    <text x="855" y="625" font-family="Arial, sans-serif" font-size="14" fill="#f59e0b">O- : 4 requests</text>
+    <text x="855" y="645" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">B+ : 3 requests</text>
+    <text x="855" y="665" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">AB+ : 2 requests</text>
+
+    <!-- Quick Actions -->
+    <text x="840" y="710" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Quick Actions</text>
+    <rect x="840" y="725" width="240" height="35" rx="6" fill="#dc2626"/>
+    <text x="960" y="747" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Create Emergency Request</text>
+
+    <rect x="840" y="770" width="240" height="35" rx="6" fill="#14b8a6"/>
+    <text x="960" y="792" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Create Normal Request</text>
+
+    <rect x="840" y="815" width="240" height="35" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="960" y="837" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">My Requests</text>
+
+    <rect x="840" y="860" width="240" height="35" rx="6" fill="none" stroke="#6b7280" stroke-width="1"/>
+    <text x="960" y="882" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Donation History</text>
+
+    <!-- Contact Support -->
+    <text x="840" y="930" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Need Help?</text>
+    <rect x="840" y="940" width="240" height="80" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+    <text x="855" y="960" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">📞 Emergency Hotline</text>
+    <text x="855" y="980" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">16263 (24/7 Support)</text>
+    <text x="855" y="1000" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">💬 Live Chat Available</text>
+
+    <!-- Footer -->
+    <rect x="0" y="1720" width="1200" height="80" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="600" y="1765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 BloodCare. Connecting donors with those in need.</text>
+</svg>

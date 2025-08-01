@@ -1,0 +1,179 @@
+<svg width="1200" height="1800" viewBox="0 0 1200 1800" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1200" height="1800" fill="#f9fafb"/>
+
+    <!-- Header -->
+    <rect x="0" y="0" width="1200" height="80" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="50" y="25" width="30" height="30" rx="4" fill="#14b8a6"/>
+    <text x="100" y="45" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">BloodCare</text>
+    <rect x="1050" y="25" width="100" height="30" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="1100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Profile</text>
+
+    <!-- Hero Section -->
+    <rect x="0" y="80" width="1200" height="160" fill="#14b8a6"/>
+    <text x="600" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">Ambulance Services</text>
+    <text x="600" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#a7f3d0">Find available ambulances in your area for emergency transport</text>
+
+    <!-- Emergency Call Button -->
+    <rect x="520" y="190" width="160" height="40" rx="6" fill="#dc2626"/>
+    <text x="600" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">🚨 Emergency Call 999</text>
+
+    <!-- Filters -->
+    <rect x="100" y="260" width="1000" height="100" rx="12" fill="white" stroke="#d1d5db" stroke-width="1"/>
+
+    <!-- District Filter -->
+    <text x="130" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">District</text>
+    <rect x="130" y="295" width="150" height="35" rx="6" fill="none" stroke="#14b8a6" stroke-width="2"/>
+    <text x="205" y="317" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Dhaka ▼</text>
+
+    <!-- Upazila Filter -->
+    <text x="300" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Upazila</text>
+    <rect x="300" y="295" width="150" height="35" rx="6" fill="none" stroke="#6b7280" stroke-width="1"/>
+    <text x="375" y="317" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">All Upazila ▼</text>
+
+    <!-- Hospital Filter -->
+    <text x="470" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Hospital</text>
+    <rect x="470" y="295" width="150" height="35" rx="6" fill="none" stroke="#6b7280" stroke-width="1"/>
+    <text x="545" y="317" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">All Hospitals ▼</text>
+
+    <!-- Availability Filter -->
+    <text x="640" y="285" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Availability</text>
+    <rect x="640" y="295" width="130" height="35" rx="6" fill="none" stroke="#6b7280" stroke-width="1"/>
+    <text x="705" y="317" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Available Now ▼</text>
+
+    <!-- Search Button -->
+    <rect x="790" y="295" width="80" height="35" rx="6" fill="#14b8a6"/>
+    <text x="830" y="317" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Search</text>
+
+    <!-- Clear Filters -->
+    <text x="890" y="317" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-decoration="underline">Clear All</text>
+
+    <!-- Results Header -->
+    <rect x="100" y="380" width="700" height="50" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="130" y="405" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Available Ambulances (12)</text>
+    <text x="130" y="420" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Showing ambulances in Dhaka district</text>
+
+    <!-- Sort Options -->
+    <text x="600" y="405" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Sort by:</text>
+    <rect x="600" y="410" width="120" height="15" fill="none" stroke="#6b7280" stroke-width="1"/>
+    <text x="660" y="422" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Distance ▼</text>
+
+    <!-- Ambulance List -->
+    <rect x="100" y="430" width="700" height="1200" fill="white" stroke="#d1d5db" stroke-width="1"/>
+
+    <!-- Ambulance Card 1 - Available -->
+    <rect x="120" y="450" width="660" height="130" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+    <rect x="135" y="465" width="80" height="20" rx="10" fill="#16a34a"/>
+    <text x="175" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">AVAILABLE</text>
+
+    <rect x="145" y="500" width="50" height="35" rx="4" fill="#14b8a6"/>
+    <text x="170" y="523" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="white">🚑</text>
+
+    <text x="210" y="475" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Dhaka Medical College Hospital</text>
+    <text x="210" y="495" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Vehicle: DHK-A-123456 | Type: Advanced Life Support</text>
+    <text x="210" y="515" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📍 Bakshi Bazar, Dhaka | 2.5 km away</text>
+    <text x="210" y="535" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">👨‍⚕️ Driver: Karim Uddin | 📞 +8801712345678</text>
+    <text x="210" y="555" font-family="Arial, sans-serif" font-size="14" fill="#16a34a">✅ Available 24/7 | Last updated: 5 min ago</text>
+
+    <rect x="580" y="470" width="80" height="30" rx="6" fill="#16a34a"/>
+    <text x="620" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Call Now</text>
+    <rect x="580" y="510" width="80" height="30" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="620" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">View Details</text>
+
+    <!-- Ambulance Card 2 - Busy -->
+    <rect x="120" y="590" width="660" height="130" rx="8" fill="#fef9f5" stroke="#fed7aa" stroke-width="1"/>
+    <rect x="135" y="605" width="60" height="20" rx="10" fill="#f59e0b"/>
+    <text x="165" y="618" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">BUSY</text>
+
+    <rect x="145" y="640" width="50" height="35" rx="4" fill="#f59e0b"/>
+    <text x="170" y="663" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="white">🚑</text>
+
+    <text x="210" y="615" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Square Hospital Ambulance</text>
+    <text x="210" y="635" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Vehicle: DHK-A-789012 | Type: Basic Life Support</text>
+    <text x="210" y="655" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📍 Panthapath, Dhaka | 4.2 km away</text>
+    <text x="210" y="675" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">👨‍⚕️ Driver: Abdul Rahman | 📞 +8801987654321</text>
+    <text x="210" y="695" font-family="Arial, sans-serif" font-size="14" fill="#f59e0b">⏰ Currently on duty | Expected free: 3:30 PM</text>
+
+    <rect x="580" y="610" width="80" height="30" rx="6" fill="#6b7280"/>
+    <text x="620" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Wait List</text>
+    <rect x="580" y="650" width="80" height="30" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="620" y="670" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">View Details</text>
+
+    <!-- Ambulance Card 3 - Available -->
+    <rect x="120" y="730" width="660" height="130" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+    <rect x="135" y="745" width="80" height="20" rx="10" fill="#16a34a"/>
+    <text x="175" y="758" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">AVAILABLE</text>
+
+    <rect x="145" y="780" width="50" height="35" rx="4" fill="#14b8a6"/>
+    <text x="170" y="803" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="white">🚑</text>
+
+    <text x="210" y="755" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Apollo Hospital Emergency</text>
+    <text x="210" y="775" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Vehicle: DHK-A-345678 | Type: ICU Ambulance</text>
+    <text x="210" y="795" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📍 Bashundhara, Dhaka | 7.8 km away</text>
+    <text x="210" y="815" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">👨‍⚕️ Driver: Nasir Ahmed | 📞 +8801555666777</text>
+    <text x="210" y="835" font-family="Arial, sans-serif" font-size="14" fill="#16a34a">✅ Available now | Advanced medical equipment</text>
+
+    <rect x="580" y="750" width="80" height="30" rx="6" fill="#16a34a"/>
+    <text x="620" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Call Now</text>
+    <rect x="580" y="790" width="80" height="30" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="620" y="810" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">View Details</text>
+
+    <!-- Load More Button -->
+    <rect x="350" y="1580" width="120" height="35" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="410" y="1602" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Load More</text>
+
+    <!-- Sidebar -->
+    <rect x="820" y="380" width="280" height="1250" fill="white" stroke="#d1d5db" stroke-width="1"/>
+
+    <!-- Emergency Contacts -->
+    <text x="840" y="410" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Emergency Contacts</text>
+    <rect x="840" y="420" width="240" height="100" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+    <text x="855" y="445" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">🚨 National Emergency</text>
+    <text x="855" y="465" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">📞 999 (Police, Fire, Medical)</text>
+    <text x="855" y="485" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">📞 199 (Fire Service)</text>
+    <text x="855" y="505" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">📞 16263 (Health Helpline)</text>
+
+    <!-- Ambulance Stats -->
+    <text x="840" y="550" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Live Statistics</text>
+    <rect x="840" y="560" width="240" height="120" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1"/>
+    <text x="855" y="585" font-family="Arial, sans-serif" font-size="14" fill="#16a34a">🟢 8 ambulances available</text>
+    <text x="855" y="605" font-family="Arial, sans-serif" font-size="14" fill="#f59e0b">🟡 4 ambulances busy</text>
+    <text x="855" y="625" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">📍 Dhaka coverage: 98%</text>
+    <text x="855" y="645" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">⏱️ Avg response: 8 minutes</text>
+    <text x="855" y="665" font-family="Arial, sans-serif" font-size="14" fill="#8b5cf6">🚑 24 total ambulances</text>
+
+    <!-- Quick Actions -->
+    <text x="840" y="710" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Quick Actions</text>
+    <rect x="840" y="725" width="240" height="35" rx="6" fill="#dc2626"/>
+    <text x="960" y="747" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">🚨 Emergency Request</text>
+
+    <rect x="840" y="770" width="240" height="35" rx="6" fill="#14b8a6"/>
+    <text x="960" y="792" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Book Ambulance</text>
+
+    <rect x="840" y="815" width="240" height="35" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="960" y="837" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">My Bookings</text>
+
+    <rect x="840" y="860" width="240" height="35" rx="6" fill="none" stroke="#6b7280" stroke-width="1"/>
+    <text x="960" y="882" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Service History</text>
+
+    <!-- Ambulance Types -->
+    <text x="840" y="930" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Ambulance Types</text>
+    <rect x="840" y="940" width="240" height="120" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="855" y="965" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">🚑 Basic Life Support (BLS)</text>
+    <text x="855" y="985" font-family="Arial, sans-serif" font-size="14" fill="#f59e0b">🏥 Advanced Life Support (ALS)</text>
+    <text x="855" y="1005" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">⚕️ ICU Ambulance</text>
+    <text x="855" y="1025" font-family="Arial, sans-serif" font-size="14" fill="#8b5cf6">🚐 Patient Transport</text>
+    <text x="855" y="1045" font-family="Arial, sans-serif" font-size="14" fill="#10b981">🩺 Neonatal Ambulance</text>
+
+    <!-- Tips -->
+    <text x="840" y="1090" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Emergency Tips</text>
+    <rect x="840" y="1100" width="240" height="100" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+    <text x="855" y="1125" font-family="Arial, sans-serif" font-size="12" fill="#0369a1">• Stay calm and call 999 first</text>
+    <text x="855" y="1145" font-family="Arial, sans-serif" font-size="12" fill="#0369a1">• Provide exact location</text>
+    <text x="855" y="1165" font-family="Arial, sans-serif" font-size="12" fill="#0369a1">• Describe the emergency clearly</text>
+    <text x="855" y="1185" font-family="Arial, sans-serif" font-size="12" fill="#0369a1">• Keep patient comfortable</text>
+
+    <!-- Footer -->
+    <rect x="0" y="1720" width="1200" height="80" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="600" y="1765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 BloodCare. Emergency medical services when you need them most.</text>
+</svg>

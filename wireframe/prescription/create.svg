@@ -1,0 +1,166 @@
+<svg width="1200" height="2200" viewBox="0 0 1200 2200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1200" height="2200" fill="#f9fafb"/>
+
+    <!-- Header -->
+    <rect x="0" y="0" width="1200" height="80" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="50" y="25" width="30" height="30" rx="4" fill="#14b8a6"/>
+    <text x="100" y="45" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">BloodCare</text>
+    <rect x="1050" y="25" width="100" height="30" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="1100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Profile</text>
+
+    <!-- Page Header -->
+    <rect x="100" y="100" width="1000" height="80" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="130" y="130" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#111827">Create Prescription</text>
+    <text x="130" y="155" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Create a new prescription for your patient</text>
+
+    <!-- Back Button -->
+    <rect x="850" y="120" width="100" height="35" rx="6" fill="none" stroke="#6b7280" stroke-width="1"/>
+    <text x="900" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">← Back</text>
+
+    <!-- Save Draft Button -->
+    <rect x="960" y="120" width="100" height="35" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="1010" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Save Draft</text>
+
+    <!-- Form Container -->
+    <rect x="100" y="200" width="1000" height="1900" fill="white" stroke="#d1d5db" stroke-width="1"/>
+
+    <!-- Patient Information Section -->
+    <rect x="120" y="220" width="960" height="200" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="140" y="245" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Patient Information</text>
+
+    <!-- Patient Search -->
+    <text x="140" y="275" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Search Patient</text>
+    <rect x="140" y="285" width="300" height="35" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="155" y="307" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Search by name or ID...</text>
+    <rect x="450" y="285" width="80" height="35" rx="6" fill="#14b8a6"/>
+    <text x="490" y="307" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Search</text>
+
+    <!-- Patient Details -->
+    <text x="140" y="345" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Patient Name</text>
+    <rect x="140" y="355" width="200" height="35" rx="6" fill="white" stroke="#14b8a6" stroke-width="1"/>
+    <text x="155" y="377" font-family="Arial, sans-serif" font-size="14" fill="#111827">Mohammad Rahman</text>
+
+    <text x="360" y="345" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Age</text>
+    <rect x="360" y="355" width="80" height="35" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="375" y="377" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">35</text>
+
+    <text x="460" y="345" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Weight (kg)</text>
+    <rect x="460" y="355" width="80" height="35" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="475" y="377" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">70.5</text>
+
+    <text x="560" y="345" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Blood Pressure</text>
+    <rect x="560" y="355" width="120" height="35" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="575" y="377" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">120/80</text>
+
+    <text x="700" y="345" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Temperature (°F)</text>
+    <rect x="700" y="355" width="100" height="35" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="715" y="377" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">98.6</text>
+
+    <!-- Symptoms Section -->
+    <text x="140" y="460" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Symptoms</text>
+    <rect x="140" y="470" width="920" height="80" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="155" y="490" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Describe patient symptoms...</text>
+    <text x="155" y="510" font-family="Arial, sans-serif" font-size="14" fill="#111827">Fever, headache, body ache for 3 days. Patient complains of fatigue and loss of appetite.</text>
+
+    <!-- Diagnosis Section -->
+    <text x="140" y="580" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Diagnosis</text>
+    <rect x="140" y="590" width="920" height="80" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="155" y="610" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter diagnosis...</text>
+    <text x="155" y="630" font-family="Arial, sans-serif" font-size="14" fill="#111827">Viral fever with mild dehydration. Recommended rest and hydration.</text>
+
+    <!-- Medicines Section -->
+    <text x="140" y="700" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Prescribed Medicines</text>
+    <rect x="850" y="690" width="120" height="30" rx="6" fill="#14b8a6"/>
+    <text x="910" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">+ Add Medicine</text>
+
+    <!-- Medicine List Header -->
+    <rect x="140" y="730" width="920" height="40" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="160" y="753" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#475569">Medicine</text>
+    <text x="380" y="753" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#475569">Dosage</text>
+    <text x="520" y="753" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#475569">Frequency</text>
+    <text x="660" y="753" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#475569">Duration</text>
+    <text x="800" y="753" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#475569">Instructions</text>
+    <text x="980" y="753" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#475569">Action</text>
+
+    <!-- Medicine Row 1 -->
+    <rect x="140" y="770" width="920" height="50" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="160" y="780" width="200" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="170" y="800" font-family="Arial, sans-serif" font-size="12" fill="#111827">Paracetamol 500mg</text>
+    <rect x="380" y="780" width="120" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="390" y="800" font-family="Arial, sans-serif" font-size="12" fill="#111827">1 tablet</text>
+    <rect x="520" y="780" width="120" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="530" y="800" font-family="Arial, sans-serif" font-size="12" fill="#111827">3 times daily</text>
+    <rect x="660" y="780" width="120" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="670" y="800" font-family="Arial, sans-serif" font-size="12" fill="#111827">5 days</text>
+    <rect x="800" y="780" width="140" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="810" y="800" font-family="Arial, sans-serif" font-size="12" fill="#111827">After meals</text>
+    <rect x="960" y="780" width="60" height="30" rx="4" fill="#dc2626"/>
+    <text x="990" y="800" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Remove</text>
+
+    <!-- Medicine Row 2 -->
+    <rect x="140" y="820" width="920" height="50" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="160" y="830" width="200" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="170" y="850" font-family="Arial, sans-serif" font-size="12" fill="#111827">ORS Powder</text>
+    <rect x="380" y="830" width="120" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="390" y="850" font-family="Arial, sans-serif" font-size="12" fill="#111827">1 packet</text>
+    <rect x="520" y="830" width="120" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="530" y="850" font-family="Arial, sans-serif" font-size="12" fill="#111827">2 times daily</text>
+    <rect x="660" y="830" width="120" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="670" y="850" font-family="Arial, sans-serif" font-size="12" fill="#111827">3 days</text>
+    <rect x="800" y="830" width="140" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="810" y="850" font-family="Arial, sans-serif" font-size="12" fill="#111827">With water</text>
+    <rect x="960" y="830" width="60" height="30" rx="4" fill="#dc2626"/>
+    <text x="990" y="850" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Remove</text>
+
+    <!-- Add New Medicine Row -->
+    <rect x="140" y="870" width="920" height="50" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="5,5"/>
+    <rect x="160" y="880" width="200" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="170" y="900" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Select medicine...</text>
+    <rect x="380" y="880" width="120" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="390" y="900" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Dosage</text>
+    <rect x="520" y="880" width="120" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="530" y="900" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Frequency</text>
+    <rect x="660" y="880" width="120" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="670" y="900" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Duration</text>
+    <rect x="800" y="880" width="140" height="30" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="810" y="900" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Instructions</text>
+    <rect x="960" y="880" width="60" height="30" rx="4" fill="#14b8a6"/>
+    <text x="990" y="900" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Add</text>
+
+    <!-- Advice Section -->
+    <text x="140" y="960" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Doctor's Advice</text>
+    <rect x="140" y="970" width="920" height="100" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="155" y="990" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Enter general advice and recommendations...</text>
+    <text x="155" y="1010" font-family="Arial, sans-serif" font-size="14" fill="#111827">Take complete rest for 3 days. Drink plenty of fluids. Avoid cold drinks.</text>
+    <text x="155" y="1030" font-family="Arial, sans-serif" font-size="14" fill="#111827">Return if fever persists beyond 5 days or if symptoms worsen.</text>
+
+    <!-- Next Visit -->
+    <text x="140" y="1110" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Next Visit</text>
+    <text x="140" y="1140" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Next Visit Date</text>
+    <rect x="140" y="1150" width="200" height="35" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="155" y="1172" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Select date...</text>
+
+    <!-- Prescription Details -->
+    <text x="380" y="1140" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Prescription No.</text>
+    <rect x="380" y="1150" width="200" height="35" rx="6" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+    <text x="395" y="1172" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">PRX-2025-001234</text>
+
+    <text x="600" y="1140" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Prescription Date</text>
+    <rect x="600" y="1150" width="150" height="35" rx="6" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+    <text x="615" y="1172" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Jan 15, 2025</text>
+
+    <!-- Action Buttons -->
+    <rect x="400" y="1950" width="120" height="40" rx="6" fill="none" stroke="#6b7280" stroke-width="1"/>
+    <text x="460" y="1975" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Cancel</text>
+
+    <rect x="540" y="1950" width="120" height="40" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="600" y="1975" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Save Draft</text>
+
+    <rect x="680" y="1950" width="120" height="40" rx="6" fill="#14b8a6"/>
+    <text x="740" y="1975" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Create Prescription</text>
+
+    <!-- Footer -->
+    <rect x="0" y="2120" width="1200" height="80" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="600" y="2165" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 BloodCare. Digital prescription management system.</text>
+</svg>

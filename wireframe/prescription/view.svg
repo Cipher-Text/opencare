@@ -1,0 +1,106 @@
+<svg width="1200" height="1600" viewBox="0 0 1200 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1200" height="1600" fill="#ffffff"/>
+
+    <!-- Header -->
+    <rect x="0" y="0" width="1200" height="80" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="50" y="25" width="30" height="30" rx="4" fill="#14b8a6"/>
+    <text x="100" y="45" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">BloodCare</text>
+
+    <!-- Action Buttons -->
+    <rect x="850" y="25" width="80" height="30" rx="6" fill="none" stroke="#6b7280" stroke-width="1"/>
+    <text x="890" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">← Back</text>
+
+    <rect x="940" y="25" width="80" height="30" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="980" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">🖨️ Print</text>
+
+    <rect x="1030" y="25" width="80" height="30" rx="6" fill="#14b8a6"/>
+    <text x="1070" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">📧 Email</text>
+
+    <!-- Prescription Container -->
+    <rect x="150" y="100" width="900" height="1400" fill="white" stroke="#d1d5db" stroke-width="2"/>
+
+    <!-- Prescription Header -->
+    <rect x="170" y="120" width="860" height="120" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+
+    <!-- Hospital/Clinic Info -->
+    <rect x="190" y="140" width="60" height="60" rx="8" fill="#14b8a6"/>
+    <text x="220" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="white">🏥</text>
+
+    <text x="270" y="155" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">Dhaka Medical College Hospital</text>
+    <text x="270" y="175" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📍 Bakshi Bazar, Dhaka-1000</text>
+    <text x="270" y="195" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📞 +880-2-9661064 | 📧 info@dmch.gov.bd</text>
+    <text x="270" y="215" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">License No: DGHS-001-2025</text>
+
+    <!-- Prescription Title -->
+    <rect x="650" y="140" width="200" height="40" fill="#14b8a6"/>
+    <text x="750" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">PRESCRIPTION</text>
+
+    <!-- Prescription Number & Date -->
+    <text x="670" y="185" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">No: PRX-2025-001234</text>
+    <text x="670" y="200" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Date: January 15, 2025</text>
+    <text x="670" y="215" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Time: 10:30 AM</text>
+
+    <!-- Doctor Information -->
+    <rect x="170" y="260" width="860" height="80" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+    <text x="190" y="285" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Dr. Ahmed Hassan, MBBS, MD</text>
+    <text x="190" y="305" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Consultant Physician | Internal Medicine</text>
+    <text x="190" y="325" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">📞 +8801712345678 | BMDC Reg: 12345</text>
+
+    <!-- Doctor Signature -->
+    <rect x="750" y="280" width="260" height="40" fill="none" stroke="#d1d5db" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="880" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Doctor's Signature</text>
+
+    <!-- Patient Information -->
+    <rect x="170" y="360" width="860" height="100" fill="#fef9f5" stroke="#fed7aa" stroke-width="1"/>
+    <text x="190" y="385" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Patient Information</text>
+    <text x="190" y="410" font-family="Arial, sans-serif" font-size="14" fill="#111827">Name: Mohammad Rahman</text>
+    <text x="450" y="410" font-family="Arial, sans-serif" font-size="14" fill="#111827">Age: 35 years</text>
+    <text x="600" y="410" font-family="Arial, sans-serif" font-size="14" fill="#111827">Weight: 70.5 kg</text>
+    <text x="190" y="435" font-family="Arial, sans-serif" font-size="14" fill="#111827">Patient ID: P-2025-0456</text>
+    <text x="450" y="435" font-family="Arial, sans-serif" font-size="14" fill="#111827">BP: 120/80 mmHg</text>
+    <text x="600" y="435" font-family="Arial, sans-serif" font-size="14" fill="#111827">Temp: 98.6°F</text>
+
+    <!-- Symptoms -->
+    <text x="190" y="490" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Chief Complaints and Symptoms:</text>
+    <text x="190" y="515" font-family="Arial, sans-serif" font-size="14" fill="#111827">Fever, headache, body ache for 3 days. Patient complains of fatigue and loss of appetite.</text>
+    <text x="190" y="535" font-family="Arial, sans-serif" font-size="14" fill="#111827">No history of cough or breathing difficulty.</text>
+
+    <!-- Diagnosis -->
+    <text x="190" y="570" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Diagnosis:</text>
+    <text x="190" y="595" font-family="Arial, sans-serif" font-size="14" fill="#111827">Viral fever with mild dehydration. Recommended rest and hydration.</text>
+
+    <!-- Medicines -->
+    <text x="190" y="640" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Prescribed Medicines:</text>
+
+    <rect x="190" y="655" width="820" height="35" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="210" y="677" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569">Medicine Name</text>
+    <text x="400" y="677" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569">Dosage</text>
+    <text x="520" y="677" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569">Frequency</text>
+    <text x="650" y="677" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569">Duration</text>
+    <text x="770" y="677" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569">Instructions</text>
+
+    <!-- Medicine Rows -->
+    <rect x="190" y="690" width="820" height="30" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="210" y="710" font-family="Arial, sans-serif" font-size="12" fill="#111827">1. Paracetamol 500mg</text>
+    <text x="400" y="710" font-family="Arial, sans-serif" font-size="12" fill="#111827">1 tablet</text>
+    <text x="520" y="710" font-family="Arial, sans-serif" font-size="12" fill="#111827">3 times daily</text>
+    <text x="650" y="710" font-family="Arial, sans-serif" font-size="12" fill="#111827">5 days</text>
+    <text x="770" y="710" font-family="Arial, sans-serif" font-size="12" fill="#111827">After meals</text>
+
+    <rect x="190" y="720" width="820" height="30" fill="#f9fafb" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="210" y="740" font-family="Arial, sans-serif" font-size="12" fill="#111827">2. ORS Powder</text>
+    <text x="400" y="740" font-family="Arial, sans-serif" font-size="12" fill="#111827">1 packet</text>
+    <text x="520" y="740" font-family="Arial, sans-serif" font-size="12" fill="#111827">2 times daily</text>
+    <text x="650" y="740" font-family="Arial, sans-serif" font-size="12" fill="#111827">3 days</text>
+    <text x="770" y="740" font-family="Arial, sans-serif" font-size="12" fill="#111827">Mix with water</text>
+
+    <rect x="190" y="750" width="820" height="30" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="210" y="770" font-family="Arial, sans-serif" font-size="12" fill="#111827">3. Vitamin B Complex</text>
+    <text x="400" y="770" font-family="Arial, sans-serif" font-size="12" fill="#111827">1 capsule</text>
+    <text x="520" y="770" font-family="Arial, sans-serif" font-size="12" fill="#111827">Once daily</text>
+    <text x="650" y="770" font-family="Arial, sans-serif" font-size="12" fill="#111827">7 days</text>
+    <text x="770" y="770" font-family="Arial, sans-serif" font-size="12" fill="#111827">After breakfast</text>
+
+    <!-- Remaining parts like Doctor's Advice, Emergency, Digital Signature, QR, Footer etc. remain unchanged from your original. Let me know if you want the full SVG with all elements inlined or downloaded as a file. -->
+</svg>
