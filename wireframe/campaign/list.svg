@@ -1,0 +1,243 @@
+<svg width="1200" height="1800" viewBox="0 0 1200 1800" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1200" height="1800" fill="#f9fafb"/>
+
+    <!-- Header -->
+    <rect x="0" y="0" width="1200" height="80" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="50" y="25" width="30" height="30" rx="4" fill="#14b8a6"/>
+    <text x="100" y="45" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">BloodCare</text>
+
+    <!-- Navigation Menu -->
+    <text x="250" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Home</text>
+    <text x="300" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Services</text>
+    <text x="370" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Blog</text>
+    <text x="410" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#14b8a6">Campaigns</text>
+    <text x="490" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">About</text>
+    <text x="540" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Contact</text>
+
+    <rect x="1050" y="25" width="100" height="30" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="1100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Profile</text>
+
+    <!-- Hero Section -->
+    <rect x="0" y="80" width="1200" height="120" fill="linear-gradient(135deg, #14b8a6 0%, #0d9488 100%)"/>
+    <text x="600" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">Health and Awareness Campaigns</text>
+    <text x="600" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white">Join our community initiatives to promote health awareness and save lives</text>
+    <text x="600" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">🎯 Making a difference in Bangladesh, one campaign at a time</text>
+
+    <!-- Search and Filter Section -->
+    <rect x="0" y="200" width="1200" height="80" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Search Bar -->
+    <rect x="100" y="220" width="400" height="40" rx="8" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="120" y="245" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">🔍 Search campaigns...</text>
+
+    <!-- Filters -->
+    <rect x="520" y="220" width="120" height="40" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="580" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">All Types ▼</text>
+
+    <rect x="660" y="220" width="120" height="40" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="720" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">All Districts ▼</text>
+
+    <rect x="800" y="220" width="120" height="40" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="860" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Date Range ▼</text>
+
+    <!-- Create Campaign Button -->
+    <rect x="1000" y="220" width="150" height="40" rx="6" fill="#14b8a6"/>
+    <text x="1075" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">+ Create Campaign</text>
+
+    <!-- Active Campaigns Count -->
+    <text x="100" y="310" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Active Campaigns</text>
+    <text x="250" y="310" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">(24 campaigns found)</text>
+
+    <!-- View Toggle -->
+    <rect x="1050" y="295" width="40" height="30" rx="6" fill="#14b8a6"/>
+    <text x="1070" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">⚏</text>
+
+    <rect x="1100" y="295" width="40" height="30" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="1120" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">☰</text>
+
+    <!-- Featured Campaign Banner -->
+    <rect x="100" y="340" width="1000" height="200" rx="12" fill="#dc2626"/>
+    <text x="130" y="370" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">🌟 FEATURED CAMPAIGN</text>
+
+    <text x="130" y="410" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">National Blood Donation Drive 2025</text>
+    <text x="130" y="440" font-family="Arial, sans-serif" font-size="16" fill="white">Emergency blood shortage crisis - Join us in saving lives across all districts</text>
+    <text x="130" y="465" font-family="Arial, sans-serif" font-size="14" fill="white">📍 All Districts • 🗓️ Jan 15 - Jan 31, 2025 • 🎯 Health Campaign</text>
+
+    <rect x="130" y="485" width="120" height="35" rx="6" fill="white"/>
+    <text x="190" y="507" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">Join Campaign</text>
+
+    <rect x="270" y="485" width="100" height="35" rx="6" fill="none" stroke="white" stroke-width="1"/>
+    <text x="320" y="507" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Learn More</text>
+
+    <!-- Campaign Statistics -->
+    <rect x="750" y="370" width="80" height="60" fill="rgba(255,255,255,0.2)"/>
+    <text x="790" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">2,547</text>
+    <text x="790" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Participants</text>
+
+    <rect x="840" y="370" width="80" height="60" fill="rgba(255,255,255,0.2)"/>
+    <text x="880" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">64</text>
+    <text x="880" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Districts</text>
+
+    <rect x="930" y="370" width="80" height="60" fill="rgba(255,255,255,0.2)"/>
+    <text x="970" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">15</text>
+    <text x="970" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Days Left</text>
+
+    <!-- Campaign Grid -->
+    <!-- Campaign Card 1 -->
+    <rect x="100" y="580" width="320" height="280" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Campaign Image -->
+    <rect x="120" y="600" width="280" height="120" rx="8" fill="#f0fdf4"/>
+    <text x="260" y="670" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#16a34a">🫀</text>
+
+    <!-- Campaign Type Badge -->
+    <rect x="130" y="610" width="80" height="20" rx="10" fill="#16a34a"/>
+    <text x="170" y="623" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Health</text>
+
+    <!-- Campaign Content -->
+    <text x="120" y="750" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Heart Health Awareness Week</text>
+    <text x="120" y="770" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Educational seminars on cardiovascular health</text>
+    <text x="120" y="790" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">and prevention strategies.</text>
+
+    <!-- Campaign Meta -->
+    <text x="120" y="815" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">📍 Dhaka, Chittagong</text>
+    <text x="120" y="830" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">🗓️ Jan 20 - Jan 27, 2025</text>
+    <text x="120" y="845" font-family="Arial, sans-serif" font-size="12" fill="#16a34a">👥 432 participants</text>
+
+    <!-- Campaign Card 2 -->
+    <rect x="440" y="580" width="320" height="280" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+
+    <rect x="460" y="600" width="280" height="120" rx="8" fill="#fef2f2"/>
+    <text x="600" y="670" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#dc2626">🩸</text>
+
+    <rect x="470" y="610" width="80" height="20" rx="10" fill="#dc2626"/>
+    <text x="510" y="623" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Emergency</text>
+
+    <text x="460" y="750" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Emergency Blood Drive</text>
+    <text x="460" y="770" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Urgent need for O- and B+ blood types</text>
+    <text x="460" y="790" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">for accident victims.</text>
+
+    <text x="460" y="815" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">📍 Sylhet Medical College</text>
+    <text x="460" y="830" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">🗓️ Jan 12 - Jan 18, 2025</text>
+    <text x="460" y="845" font-family="Arial, sans-serif" font-size="12" fill="#dc2626">👥 156 participants</text>
+
+    <!-- Campaign Card 3 -->
+    <rect x="780" y="580" width="320" height="280" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+
+    <rect x="800" y="600" width="280" height="120" rx="8" fill="#fefce8"/>
+    <text x="940" y="670" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#f59e0b">📚</text>
+
+    <rect x="810" y="610" width="80" height="20" rx="10" fill="#f59e0b"/>
+    <text x="850" y="623" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Education</text>
+
+    <text x="800" y="750" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Diabetes Prevention Program</text>
+    <text x="800" y="770" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Community education on diabetes risk</text>
+    <text x="800" y="790" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">factors and lifestyle changes.</text>
+
+    <text x="800" y="815" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">📍 Rajshahi, Rangpur</text>
+    <text x="800" y="830" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">🗓️ Jan 25 - Feb 05, 2025</text>
+    <text x="800" y="845" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b">👥 298 participants</text>
+
+    <!-- Campaign Card 4 -->
+    <rect x="100" y="880" width="320" height="280" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+
+    <rect x="120" y="900" width="280" height="120" rx="8" fill="#f0f9ff"/>
+    <text x="260" y="970" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#0369a1">🧠</text>
+
+    <rect x="130" y="910" width="80" height="20" rx="10" fill="#0369a1"/>
+    <text x="170" y="923" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Awareness</text>
+
+    <text x="120" y="1050" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Mental Health Awareness</text>
+    <text x="120" y="1070" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Breaking stigma around mental health</text>
+    <text x="120" y="1090" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">issues and promoting wellness.</text>
+
+    <text x="120" y="1115" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">📍 Barisal, Khulna</text>
+    <text x="120" y="1130" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">🗓️ Feb 01 - Feb 14, 2025</text>
+    <text x="120" y="1145" font-family="Arial, sans-serif" font-size="12" fill="#0369a1">👥 187 participants</text>
+
+    <!-- Campaign Card 5 -->
+    <rect x="440" y="880" width="320" height="280" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+
+    <rect x="460" y="900" width="280" height="120" rx="8" fill="#faf5ff"/>
+    <text x="600" y="970" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#8b5cf6">👶</text>
+
+    <rect x="470" y="910" width="80" height="20" rx="10" fill="#8b5cf6"/>
+    <text x="510" y="923" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Health</text>
+
+    <text x="460" y="1050" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Child Vaccination Drive</text>
+    <text x="460" y="1070" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Free vaccination program for children</text>
+    <text x="460" y="1090" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">under 5 years of age.</text>
+
+    <text x="460" y="1115" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">📍 Cox's Bazar, Comilla</text>
+    <text x="460" y="1130" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">🗓️ Jan 28 - Feb 10, 2025</text>
+    <text x="460" y="1145" font-family="Arial, sans-serif" font-size="12" fill="#8b5cf6">👥 521 participants</text>
+
+    <!-- Campaign Card 6 -->
+    <rect x="780" y="880" width="320" height="280" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+
+    <rect x="800" y="900" width="280" height="120" rx="8" fill="#f0fdf4"/>
+    <text x="940" y="970" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#059669">🦷</text>
+
+    <rect x="810" y="910" width="80" height="20" rx="10" fill="#059669"/>
+    <text x="850" y="923" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Health</text>
+
+    <text x="800" y="1050" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Dental Health Campaign</text>
+    <text x="800" y="1070" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Free dental checkups and oral hygiene</text>
+    <text x="800" y="1090" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">education for rural communities.</text>
+
+    <text x="800" y="1115" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">📍 Mymensingh, Faridpur</text>
+    <text x="800" y="1130" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">🗓️ Feb 05 - Feb 20, 2025</text>
+    <text x="800" y="1145" font-family="Arial, sans-serif" font-size="12" fill="#059669">👥 342 participants</text>
+
+    <!-- Load More Section -->
+    <rect x="500" y="1200" width="200" height="50" rx="8" fill="none" stroke="#14b8a6" stroke-width="2"/>
+    <text x="600" y="1230" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#14b8a6">Load More Campaigns</text>
+
+    <!-- Campaign Statistics Section -->
+    <rect x="100" y="1280" width="1000" height="120" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="130" y="1310" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">Campaign Impact</text>
+
+    <!-- Stat Cards -->
+    <rect x="130" y="1320" width="200" height="60" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+    <text x="230" y="1340" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#166534">24</text>
+    <text x="230" y="1360" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#166534">Active Campaigns</text>
+
+    <rect x="350" y="1320" width="200" height="60" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+    <text x="450" y="1340" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#dc2626">4,235</text>
+    <text x="450" y="1360" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">Total Participants</text>
+
+    <rect x="570" y="1320" width="200" height="60" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+    <text x="670" y="1340" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0369a1">64</text>
+    <text x="670" y="1360" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0369a1">Districts Covered</text>
+
+    <rect x="790" y="1320" width="200" height="60" fill="#fefce8" stroke="#fde047" stroke-width="1"/>
+    <text x="890" y="1340" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#a16207">156</text>
+    <text x="890" y="1360" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#a16207">Lives Impacted</text>
+
+    <!-- Quick Actions -->
+    <rect x="100" y="1420" width="1000" height="80" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="130" y="1450" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Quick Actions</text>
+
+    <rect x="130" y="1460" width="150" height="30" rx="6" fill="#14b8a6"/>
+    <text x="205" y="1480" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Create Campaign</text>
+
+    <rect x="300" y="1460" width="120" height="30" rx="6" fill="none" stroke="#f59e0b" stroke-width="1"/>
+    <text x="360" y="1480" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b">My Campaigns</text>
+
+    <rect x="440" y="1460" width="120" height="30" rx="6" fill="none" stroke="#8b5cf6" stroke-width="1"/>
+    <text x="500" y="1480" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8b5cf6">Join Campaign</text>
+
+    <rect x="580" y="1460" width="120" height="30" rx="6" fill="none" stroke="#dc2626" stroke-width="1"/>
+    <text x="640" y="1480" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#dc2626">Emergency Help</text>
+
+    <!-- Newsletter -->
+    <rect x="720" y="1455" width="250" height="40" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+    <text x="740" y="1475" font-family="Arial, sans-serif" font-size="12" fill="#111827">📧 Get campaign updates:</text>
+    <rect x="880" y="1465" width="80" height="20" rx="4" fill="#14b8a6"/>
+    <text x="920" y="1478" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Subscribe</text>
+
+    <!-- Footer -->
+    <rect x="0" y="1720" width="1200" height="80" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="600" y="1765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 BloodCare. Empowering health through knowledge and community support.</text>
+</svg>

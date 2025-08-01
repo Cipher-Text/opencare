@@ -1,0 +1,279 @@
+<svg width="1200" height="2200" viewBox="0 0 1200 2200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1200" height="2200" fill="#f9fafb"/>
+
+    <!-- Header -->
+    <rect x="0" y="0" width="1200" height="80" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="50" y="25" width="30" height="30" rx="4" fill="#14b8a6"/>
+    <text x="100" y="45" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">BloodCare</text>
+
+    <!-- Navigation Menu -->
+    <text x="250" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Home</text>
+    <text x="300" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Services</text>
+    <text x="370" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Blog</text>
+    <text x="410" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#14b8a6">Campaigns</text>
+    <text x="490" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">About</text>
+    <text x="540" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Contact</text>
+
+    <rect x="1050" y="25" width="100" height="30" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="1100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Profile</text>
+
+    <!-- Breadcrumb -->
+    <rect x="0" y="80" width="1200" height="50" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="100" y="110" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">🏠 Home > 🎯 Campaigns > 🩸 National Blood Donation Drive 2025</text>
+
+    <!-- Back Button -->
+    <rect x="100" y="140" width="80" height="30" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="140" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">← Back</text>
+
+    <!-- Campaign Header -->
+    <rect x="100" y="180" width="1000" height="300" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Campaign Banner Image -->
+    <rect x="120" y="200" width="600" height="200" rx="8" fill="#dc2626"/>
+    <text x="420" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" fill="white">🩸</text>
+
+    <!-- Featured Badge -->
+    <rect x="140" y="220" width="80" height="25" rx="12" fill="#fbbf24"/>
+    <text x="180" y="237" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">FEATURED</text>
+
+    <!-- Campaign Info -->
+    <text x="740" y="235" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#111827">National Blood Donation Drive 2025</text>
+    <text x="740" y="260" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Emergency blood shortage crisis - Join us in saving lives across all districts of Bangladesh</text>
+
+    <!-- Campaign Meta -->
+    <rect x="740" y="280" width="80" height="20" rx="10" fill="#dc2626"/>
+    <text x="780" y="293" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">EMERGENCY</text>
+
+    <text x="740" y="320" font-family="Arial, sans-serif" font-size="14" fill="#374751">📍 All Districts, Bangladesh</text>
+    <text x="740" y="340" font-family="Arial, sans-serif" font-size="14" fill="#374751">🗓️ January 15 - January 31, 2025</text>
+    <text x="740" y="360" font-family="Arial, sans-serif" font-size="14" fill="#374751">👥 2,547 participants joined</text>
+    <text x="740" y="380" font-family="Arial, sans-serif" font-size="14" fill="#374751">🏥 Organized by: Bangladesh Red Crescent Society</text>
+
+    <!-- Social Share -->
+    <text x="740" y="410" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Share:</text>
+    <rect x="790" y="395" width="30" height="30" rx="6" fill="#1877f2"/>
+    <text x="805" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">f</text>
+
+    <rect x="830" y="395" width="30" height="30" rx="6" fill="#1da1f2"/>
+    <text x="845" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">t</text>
+
+    <rect x="870" y="395" width="30" height="30" rx="6" fill="#0a66c2"/>
+    <text x="885" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">in</text>
+
+    <rect x="910" y="395" width="30" height="30" rx="6" fill="#25d366"/>
+    <text x="925" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">w</text>
+
+    <!-- Action Buttons -->
+    <rect x="740" y="440" width="140" height="40" rx="8" fill="#dc2626"/>
+    <text x="810" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Join Campaign</text>
+
+    <rect x="890" y="440" width="100" height="40" rx="8" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="940" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">💾 Save</text>
+
+    <!-- Campaign Statistics -->
+    <rect x="100" y="500" width="1000" height="100" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="130" y="530" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Campaign Progress</text>
+
+    <!-- Progress Stats -->
+    <rect x="130" y="540" width="200" height="50" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+    <text x="230" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#dc2626">2,547</text>
+    <text x="230" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#dc2626">Participants</text>
+
+    <rect x="350" y="540" width="200" height="50" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+    <text x="450" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#166534">64</text>
+    <text x="450" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#166534">Districts</text>
+
+    <rect x="570" y="540" width="200" height="50" fill="#fefce8" stroke="#fde047" stroke-width="1"/>
+    <text x="670" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#a16207">15</text>
+    <text x="670" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#a16207">Days Left</text>
+
+    <rect x="790" y="540" width="200" height="50" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+    <text x="890" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#0369a1">1,245</text>
+    <text x="890" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0369a1">Blood Units</text>
+
+    <!-- Main Content Area -->
+    <rect x="100" y="620" width="700" height="1000" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Campaign Description -->
+    <text x="130" y="655" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">About This Campaign</text>
+
+    <text x="130" y="685" font-family="Arial, sans-serif" font-size="14" fill="#374751">Bangladesh is facing a critical blood shortage crisis. Hospitals across the country are reporting</text>
+    <text x="130" y="705" font-family="Arial, sans-serif" font-size="14" fill="#374751">dangerously low blood supplies, particularly O-negative and B-positive blood types. This</text>
+    <text x="130" y="725" font-family="Arial, sans-serif" font-size="14" fill="#374751">emergency campaign aims to collect life-saving blood donations from healthy volunteers</text>
+    <text x="130" y="745" font-family="Arial, sans-serif" font-size="14" fill="#374751">across all 64 districts of Bangladesh.</text>
+
+    <!-- Campaign Goals -->
+    <text x="130" y="785" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Campaign Goals</text>
+
+    <rect x="130" y="795" width="640" height="120" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+    <text x="150" y="820" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#166534">🎯 Our Targets:</text>
+    <text x="150" y="845" font-family="Arial, sans-serif" font-size="14" fill="#374751">• Collect 5,000 units of blood within 16 days</text>
+    <text x="150" y="865" font-family="Arial, sans-serif" font-size="14" fill="#374751">• Establish donation centers in all 64 districts</text>
+    <text x="150" y="885" font-family="Arial, sans-serif" font-size="14" fill="#374751">• Educate 50,000+ people about blood donation importance</text>
+    <text x="150" y="905" font-family="Arial, sans-serif" font-size="14" fill="#374751">• Create a sustainable donor network for future emergencies</text>
+
+    <!-- Eligibility Criteria -->
+    <text x="130" y="945" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Eligibility Criteria</text>
+
+    <text x="130" y="975" font-family="Arial, sans-serif" font-size="14" fill="#374751">✓ Age: 18-65 years</text>
+    <text x="130" y="995" font-family="Arial, sans-serif" font-size="14" fill="#374751">✓ Weight: Minimum 50 kg (110 lbs)</text>
+    <text x="130" y="1015" font-family="Arial, sans-serif" font-size="14" fill="#374751">✓ Hemoglobin: Minimum 12.5 g/dl</text>
+    <text x="130" y="1035" font-family="Arial, sans-serif" font-size="14" fill="#374751">✓ Good general health with no fever or illness</text>
+    <text x="130" y="1055" font-family="Arial, sans-serif" font-size="14" fill="#374751">✓ No alcohol consumption 24 hours before donation</text>
+    <text x="130" y="1075" font-family="Arial, sans-serif" font-size="14" fill="#374751">✓ Last donation was at least 3 months ago</text>
+
+    <!-- What to Expect -->
+    <text x="130" y="1115" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">What to Expect</text>
+
+    <rect x="130" y="1125" width="640" height="80" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+    <text x="150" y="1150" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0369a1">🏥 Donation Process:</text>
+    <text x="150" y="1170" font-family="Arial, sans-serif" font-size="14" fill="#374751">1. Registration and health screening (10 minutes)</text>
+    <text x="150" y="1190" font-family="Arial, sans-serif" font-size="14" fill="#374751">2. Blood donation (8-10 minutes) • 3. Rest and refreshments (15 minutes)</text>
+
+    <!-- Benefits -->
+    <text x="130" y="1235" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Benefits of Participation</text>
+
+    <text x="130" y="1265" font-family="Arial, sans-serif" font-size="14" fill="#374751">🎁 Free health screening and blood type identification</text>
+    <text x="130" y="1285" font-family="Arial, sans-serif" font-size="14" fill="#374751">📱 Digital donor certificate and achievement badge</text>
+    <text x="130" y="1305" font-family="Arial, sans-serif" font-size="14" fill="#374751">🥇 Recognition in our community honor roll</text>
+    <text x="130" y="1325" font-family="Arial, sans-serif" font-size="14" fill="#374751">💝 The satisfaction of potentially saving up to 3 lives</text>
+    <text x="130" y="1345" font-family="Arial, sans-serif" font-size="14" fill="#374751">🍎 Free refreshments and nutritional supplements</text>
+
+    <!-- Important Notes -->
+    <text x="130" y="1385" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Important Information</text>
+
+    <rect x="130" y="1395" width="640" height="100" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+    <text x="150" y="1420" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">⚠️ Please Note:</text>
+    <text x="150" y="1440" font-family="Arial, sans-serif" font-size="14" fill="#374751">• Bring valid photo ID (National ID/Passport/Driving License)</text>
+    <text x="150" y="1460" font-family="Arial, sans-serif" font-size="14" fill="#374751">• Eat a healthy meal 2-3 hours before donation</text>
+    <text x="150" y="1480" font-family="Arial, sans-serif" font-size="14" fill="#374751">• Stay hydrated - drink plenty of water before and after</text>
+
+    <!-- Contact Information -->
+    <text x="130" y="1520" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Contact and Support</text>
+
+    <text x="130" y="1550" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">📞 Emergency Helpline: 16263 (24/7)</text>
+    <text x="130" y="1570" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">📧 Email: emergency@bloodcare.gov.bd</text>
+    <text x="130" y="1590" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">🌐 Website: www.bloodcare.gov.bd</text>
+
+    <!-- Sidebar -->
+    <rect x="820" y="620" width="280" height="1000" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Donation Centers -->
+    <text x="840" y="655" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Donation Centers</text>
+    <rect x="840" y="665" width="240" height="200" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+
+    <text x="860" y="690" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Dhaka Medical College</text>
+    <text x="860" y="710" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">📍 Ramna, Dhaka • 🕒 9 AM - 5 PM</text>
+
+    <text x="860" y="735" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Chittagong Medical College</text>
+    <text x="860" y="755" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">📍 Panchlaish, Chittagong • 🕒 9 AM - 5 PM</text>
+
+    <text x="860" y="780" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Rajshahi Medical College</text>
+    <text x="860" y="800" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">📍 Rajpara, Rajshahi • 🕒 9 AM - 5 PM</text>
+
+    <text x="860" y="825" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Sylhet MAG Osmani Medical</text>
+    <text x="860" y="845" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">📍 Tilagor, Sylhet • 🕒 9 AM - 5 PM</text>
+
+    <text x="860" y="855" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">View All Centers →</text>
+
+    <!-- Campaign Updates -->
+    <text x="840" y="895" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Recent Updates</text>
+    <rect x="840" y="905" width="240" height="150" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+
+    <text x="860" y="930" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Day 3 Update</text>
+    <text x="860" y="945" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">456 donors participated today</text>
+    <text x="860" y="960" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">across 12 centers</text>
+
+    <text x="860" y="985" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">New Center Added</text>
+    <text x="860" y="1000" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Cox's Bazar Medical College</text>
+    <text x="860" y="1015" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">now accepting donations</text>
+
+    <text x="860" y="1040" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">View All Updates →</text>
+
+    <!-- Emergency Contact -->
+    <text x="840" y="1085" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Emergency Support</text>
+    <rect x="840" y="1095" width="240" height="100" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+
+    <text x="860" y="1120" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0369a1">24/7 Helpline</text>
+    <text x="860" y="1140" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#dc2626">16263</text>
+    <text x="860" y="1160" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">For urgent blood requirements</text>
+    <text x="860" y="1180" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">and donation queries</text>
+
+    <!-- Social Media -->
+    <text x="840" y="1225" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Follow Campaign</text>
+    <rect x="840" y="1235" width="240" height="80" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+
+    <rect x="860" y="1250" width="40" height="30" rx="6" fill="#1877f2"/>
+    <text x="880" y="1270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">f</text>
+
+    <rect x="910" y="1250" width="40" height="30" rx="6" fill="#1da1f2"/>
+    <text x="930" y="1270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">t</text>
+
+    <rect x="960" y="1250" width="40" height="30" rx="6" fill="#ff0000"/>
+    <text x="980" y="1270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">yt</text>
+
+    <text x="860" y="1300" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Get real-time updates and share</text>
+
+    <!-- Related Campaigns -->
+    <text x="840" y="1345" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Related Campaigns</text>
+    <rect x="840" y="1355" width="240" height="120" fill="#fefce8" stroke="#fde047" stroke-width="1"/>
+
+    <text x="860" y="1380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Heart Health Week</text>
+    <text x="860" y="1395" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Jan 20-27 • 432 participants</text>
+
+    <text x="860" y="1420" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Child Vaccination Drive</text>
+    <text x="860" y="1435" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Jan 28-Feb 10 • 521 participants</text>
+
+    <text x="860" y="1460" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">View More Campaigns →</text>
+
+    <!-- Newsletter Signup -->
+    <text x="840" y="1505" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Stay Updated</text>
+    <rect x="840" y="1515" width="240" height="80" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+
+    <text x="860" y="1540" font-family="Arial, sans-serif" font-size="14" fill="#111827">Get Campaign Alerts</text>
+    <rect x="860" y="1550" width="150" height="25" rx="4" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="870" y="1567" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">your@email.com</text>
+
+    <rect x="860" y="1580" width="80" height="25" rx="4" fill="#14b8a6"/>
+    <text x="900" y="1597" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Subscribe</text>
+
+    <!-- Comments Section -->
+    <rect x="100" y="1640" width="1000" height="400" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="130" y="1675" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">Community Comments (8)</text>
+
+    <!-- Comment 1 -->
+    <rect x="130" y="1690" width="940" height="80" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="150" y="1705" width="40" height="40" rx="20" fill="#14b8a6"/>
+    <text x="170" y="1730" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white">A</text>
+
+    <text x="210" y="1720" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Ahmad Rahman</text>
+    <text x="210" y="1740" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">"Just donated at Dhaka Medical. Great organization and staff!"</text>
+    <text x="210" y="1755" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af">2 hours ago • 👍 12 likes</text>
+
+    <!-- Comment 2 -->
+    <rect x="130" y="1780" width="940" height="80" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="150" y="1795" width="40" height="40" rx="20" fill="#f59e0b"/>
+    <text x="170" y="1820" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white">S</text>
+
+    <text x="210" y="1810" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Sarah Ahmed</text>
+    <text x="210" y="1830" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">"This is my 5th donation. Proud to be part of this life-saving initiative!"</text>
+    <text x="210" y="1845" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af">4 hours ago • 👍 18 likes</text>
+
+    <!-- Add Comment -->
+    <rect x="130" y="1880" width="940" height="80" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <rect x="150" y="1895" width="40" height="40" rx="20" fill="#6b7280"/>
+    <text x="170" y="1920" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white">U</text>
+
+    <rect x="210" y="1900" width="700" height="35" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="220" y="1922" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Share your experience or ask questions...</text>
+
+    <rect x="930" y="1905" width="80" height="25" rx="4" fill="#14b8a6"/>
+    <text x="970" y="1922" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Comment</text>
+
+    <text x="850" y="1955" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">View All Comments →</text>
+
+    <!-- Footer -->
+    <rect x="0" y="2120" width="1200" height="80" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="600" y="2165" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 BloodCare. Empowering health through knowledge and community support.</text>
+</svg>

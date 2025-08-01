@@ -1,0 +1,255 @@
+<svg width="1200" height="2000" viewBox="0 0 1200 2000" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1200" height="2000" fill="#f9fafb"/>
+
+    <!-- Header -->
+    <rect x="0" y="0" width="1200" height="80" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="50" y="25" width="30" height="30" rx="4" fill="#14b8a6"/>
+    <text x="100" y="45" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">BloodCare</text>
+
+    <!-- Navigation Menu -->
+    <text x="250" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Home</text>
+    <text x="300" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Services</text>
+    <text x="370" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#14b8a6">Blog</text>
+    <text x="410" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">About</text>
+    <text x="460" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Contact</text>
+
+    <rect x="1050" y="25" width="100" height="30" rx="6" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="1100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Profile</text>
+
+    <!-- Breadcrumb -->
+    <rect x="0" y="80" width="1200" height="50" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="100" y="110" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">🏠 Home > 📰 Blog > ✏️ Create New Article</text>
+
+    <!-- Page Header -->
+    <rect x="100" y="140" width="1000" height="80" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="130" y="170" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#111827">Create New Article</text>
+    <text x="130" y="195" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Share your medical knowledge and insights with the BloodCare community</text>
+
+    <!-- Main Content Area -->
+    <rect x="100" y="240" width="800" height="1620" fill="white" stroke="#d1d5db" stroke-width="1"/>
+
+    <!-- Article Form -->
+    <!-- Title Section -->
+    <text x="130" y="275" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Article Details</text>
+
+    <text x="130" y="305" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Article Title *</text>
+    <rect x="130" y="315" width="740" height="45" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="145" y="342" font-family="Arial, sans-serif" font-size="16" fill="#9ca3af">Enter a compelling title for your article...</text>
+
+    <!-- Subtitle -->
+    <text x="130" y="385" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Subtitle/Description</text>
+    <rect x="130" y="395" width="740" height="45" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="145" y="422" font-family="Arial, sans-serif" font-size="16" fill="#9ca3af">Brief description or subtitle...</text>
+
+    <!-- Category and Tags Row -->
+    <text x="130" y="465" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Category *</text>
+    <rect x="130" y="475" width="240" height="45" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="145" y="502" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Select Category ▼</text>
+
+    <text x="390" y="465" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Tags</text>
+    <rect x="390" y="475" width="480" height="45" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="405" y="502" font-family="Arial, sans-serif" font-size="16" fill="#9ca3af">Add tags separated by commas (e.g., health, cardiology, prevention)</text>
+
+    <!-- Featured Image Section -->
+    <text x="130" y="545" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Featured Image</text>
+    <rect x="130" y="555" width="740" height="120" rx="6" fill="#f9fafb" stroke="#d1d5db" stroke-width="2" stroke-dasharray="5,5"/>
+
+    <rect x="320" y="590" width="360" height="50" rx="6" fill="white" stroke="#14b8a6" stroke-width="1"/>
+    <text x="500" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">📤 Upload Image or Drag and Drop</text>
+    <text x="500" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">PNG, JPG, GIF up to 5MB. Recommended: 1200x600px</text>
+
+    <!-- Content Editor Section -->
+    <text x="130" y="705" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Article Content</text>
+
+    <!-- Editor Toolbar -->
+    <rect x="130" y="720" width="740" height="50" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+
+    <!-- Formatting Buttons -->
+    <rect x="150" y="735" width="30" height="20" rx="3" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="165" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374751">B</text>
+
+    <rect x="190" y="735" width="30" height="20" rx="3" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="205" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-style="italic" fill="#374751">I</text>
+
+    <rect x="230" y="735" width="30" height="20" rx="3" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="245" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" text-decoration="underline" fill="#374751">U</text>
+
+    <rect x="270" y="735" width="30" height="20" rx="3" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="285" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374751">H1</text>
+
+    <rect x="310" y="735" width="30" height="20" rx="3" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="325" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374751">H2</text>
+
+    <rect x="350" y="735" width="30" height="20" rx="3" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="365" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374751">📋</text>
+
+    <rect x="390" y="735" width="30" height="20" rx="3" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="405" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374751">🔗</text>
+
+    <rect x="430" y="735" width="30" height="20" rx="3" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="445" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374751">🖼️</text>
+
+    <!-- Preview/Edit Toggle -->
+    <rect x="750" y="735" width="60" height="20" rx="3" fill="#14b8a6"/>
+    <text x="780" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Preview</text>
+
+    <rect x="820" y="735" width="40" height="20" rx="3" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="840" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374751">Edit</text>
+
+    <!-- Content Editor Area -->
+    <rect x="130" y="770" width="740" height="400" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="145" y="795" font-family="Arial, sans-serif" font-size="16" fill="#374751">Start writing your article content here...</text>
+    <text x="145" y="820" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Use the toolbar above to format your text, add headers, lists, links, and images.</text>
+
+    <!-- Sample Content Lines -->
+    <line x1="145" y1="850" x2="600" y2="850" stroke="#e5e7eb" stroke-width="1"/>
+    <line x1="145" y1="870" x2="700" y2="870" stroke="#e5e7eb" stroke-width="1"/>
+    <line x1="145" y1="890" x2="550" y2="890" stroke="#e5e7eb" stroke-width="1"/>
+    <line x1="145" y1="910" x2="680" y2="910" stroke="#e5e7eb" stroke-width="1"/>
+    <line x1="145" y1="930" x2="620" y2="930" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Word Count -->
+    <text x="780" y="1160" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">0 words</text>
+
+    <!-- SEO Section -->
+    <text x="130" y="1210" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">SEO and Meta Information</text>
+
+    <text x="130" y="1240" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Meta Description</text>
+    <rect x="130" y="1250" width="740" height="80" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="145" y="1275" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Write a brief description for search engines (150-160 characters recommended)</text>
+    <text x="800" y="1320" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">0/160</text>
+
+    <!-- URL Slug -->
+    <text x="130" y="1355" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">URL Slug</text>
+    <rect x="130" y="1365" width="740" height="45" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="145" y="1392" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">complete-guide-to-blood-donation-benefits-and-safety</text>
+
+    <!-- Publishing Options -->
+    <text x="130" y="1435" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Publishing Options</text>
+
+    <!-- Status and Schedule -->
+    <text x="130" y="1465" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Publication Status</text>
+    <rect x="130" y="1475" width="240" height="45" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="145" y="1502" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Publish Immediately ▼</text>
+
+    <text x="390" y="1465" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Visibility</text>
+    <rect x="390" y="1475" width="240" height="45" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="405" y="1502" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Public ▼</text>
+
+    <text x="650" y="1465" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#374751">Author</text>
+    <rect x="650" y="1475" width="220" height="45" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="665" y="1502" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Dr. Sarah Ahmed ▼</text>
+
+    <!-- Featured Article Checkbox -->
+    <rect x="130" y="1540" width="20" height="20" rx="3" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="160" y="1555" font-family="Arial, sans-serif" font-size="14" fill="#374751">Mark as Featured Article</text>
+
+    <!-- Comments Checkbox -->
+    <rect x="130" y="1570" width="20" height="20" rx="3" fill="#14b8a6" stroke="#14b8a6" stroke-width="1"/>
+    <text x="145" y="1582" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">✓</text>
+    <text x="160" y="1585" font-family="Arial, sans-serif" font-size="14" fill="#374751">Allow Comments</text>
+
+    <!-- Newsletter Checkbox -->
+    <rect x="130" y="1600" width="20" height="20" rx="3" fill="white" stroke="#d1d5db" stroke-width="1"/>
+    <text x="160" y="1615" font-family="Arial, sans-serif" font-size="14" fill="#374751">Include in Newsletter</text>
+
+    <!-- Content Guidelines -->
+    <rect x="130" y="1640" width="740" height="100" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+    <text x="150" y="1665" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0369a1">📋 Content Guidelines</text>
+    <text x="150" y="1685" font-family="Arial, sans-serif" font-size="12" fill="#374751">• Ensure all medical information is accurate and evidence-based</text>
+    <text x="150" y="1705" font-family="Arial, sans-serif" font-size="12" fill="#374751">• Include proper citations for medical claims and statistics</text>
+    <text x="150" y="1725" font-family="Arial, sans-serif" font-size="12" fill="#374751">• Use clear, accessible language for general readers</text>
+
+    <!-- Action Buttons -->
+    <rect x="130" y="1770" width="120" height="40" rx="6" fill="none" stroke="#6b7280" stroke-width="1"/>
+    <text x="190" y="1795" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">💾 Save Draft</text>
+
+    <rect x="270" y="1770" width="120" height="40" rx="6" fill="none" stroke="#f59e0b" stroke-width="1"/>
+    <text x="330" y="1795" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#f59e0b">👁️ Preview</text>
+
+    <rect x="410" y="1770" width="120" height="40" rx="6" fill="#14b8a6"/>
+    <text x="470" y="1795" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">📤 Publish</text>
+
+    <rect x="550" y="1770" width="120" height="40" rx="6" fill="none" stroke="#dc2626" stroke-width="1"/>
+    <text x="610" y="1795" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">❌ Cancel</text>
+
+    <!-- Auto-save indicator -->
+    <text x="700" y="1795" font-family="Arial, sans-serif" font-size="12" fill="#16a34a">✓ Auto-saved 2 minutes ago</text>
+
+    <!-- Sidebar -->
+    <rect x="920" y="240" width="280" height="1620" fill="white" stroke="#d1d5db" stroke-width="1"/>
+
+    <!-- Quick Tips -->
+    <text x="940" y="270" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Writing Tips</text>
+    <rect x="940" y="280" width="240" height="150" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+
+    <text x="960" y="305" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#166534">✏️ Effective Medical Writing</text>
+    <text x="960" y="325" font-family="Arial, sans-serif" font-size="12" fill="#374751">• Start with a compelling introduction</text>
+    <text x="960" y="345" font-family="Arial, sans-serif" font-size="12" fill="#374751">• Use subheadings to organize content</text>
+    <text x="960" y="365" font-family="Arial, sans-serif" font-size="12" fill="#374751">• Include actionable takeaways</text>
+    <text x="960" y="385" font-family="Arial, sans-serif" font-size="12" fill="#374751">• Add relevant medical imagery</text>
+    <text x="960" y="405" font-family="Arial, sans-serif" font-size="12" fill="#374751">• End with clear conclusions</text>
+
+    <!-- Category Options -->
+    <text x="940" y="460" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Categories</text>
+    <rect x="940" y="470" width="240" height="180" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+
+    <text x="960" y="495" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">🫀 Cardiology</text>
+    <text x="960" y="515" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">💊 General Medicine</text>
+    <text x="960" y="535" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">🧠 Mental Health</text>
+    <text x="960" y="555" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">🍎 Nutrition and Diet</text>
+    <text x="960" y="575" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">🏃‍♀️ Fitness and Exercise</text>
+    <text x="960" y="595" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">👶 Pediatrics</text>
+    <text x="960" y="615" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">🦴 Orthopedics</text>
+    <text x="960" y="635" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">🩸 Hematology</text>
+
+    <!-- Recent Drafts -->
+    <text x="940" y="680" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Recent Drafts</text>
+    <rect x="940" y="690" width="240" height="120" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+
+    <text x="960" y="715" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Heart Disease Prevention</text>
+    <text x="960" y="730" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Draft • Jan 8, 2025</text>
+
+    <text x="960" y="755" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Diabetes Management Tips</text>
+    <text x="960" y="770" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Draft • Jan 6, 2025</text>
+
+    <text x="960" y="795" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">View All Drafts →</text>
+
+    <!-- Media Library -->
+    <text x="940" y="840" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Media Library</text>
+    <rect x="940" y="850" width="240" height="100" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+
+    <rect x="960" y="870" width="60" height="40" rx="4" fill="#14b8a6"/>
+    <text x="990" y="895" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">🩺</text>
+
+    <rect x="1030" y="870" width="60" height="40" rx="4" fill="#f59e0b"/>
+    <text x="1060" y="895" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">💊</text>
+
+    <rect x="1100" y="870" width="60" height="40" rx="4" fill="#8b5cf6"/>
+    <text x="1130" y="895" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">🫀</text>
+
+    <text x="960" y="930" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">Browse All Images →</text>
+
+    <!-- Style Guide -->
+    <text x="940" y="980" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Style Guide</text>
+    <rect x="940" y="990" width="240" height="120" fill="#fefce8" stroke="#fde047" stroke-width="1"/>
+
+    <text x="960" y="1015" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#a16207">📖 Writing Standards</text>
+    <text x="960" y="1035" font-family="Arial, sans-serif" font-size="12" fill="#374751">• Use active voice</text>
+    <text x="960" y="1055" font-family="Arial, sans-serif" font-size="12" fill="#374751">• Keep sentences concise</text>
+    <text x="960" y="1075" font-family="Arial, sans-serif" font-size="12" fill="#374751">• Avoid medical jargon</text>
+    <text x="960" y="1095" font-family="Arial, sans-serif" font-size="12" fill="#374751">• Include call-to-actions</text>
+
+    <!-- Help and Support -->
+    <text x="940" y="1140" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Need Help?</text>
+    <rect x="940" y="1150" width="240" height="80" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+
+    <text x="960" y="1175" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">📚 Writing Guidelines</text>
+    <text x="960" y="1195" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">❓ Content FAQ</text>
+    <text x="960" y="1215" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">💬 Contact Editor</text>
+
+    <!-- Footer -->
+    <rect x="0" y="1920" width="1200" height="80" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="600" y="1965" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 BloodCare. Empowering health through knowledge and community support.</text>
+</svg>
