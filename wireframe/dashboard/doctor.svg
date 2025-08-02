@@ -1,0 +1,328 @@
+<svg width="1400" height="1800" viewBox="0 0 1400 1800" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1400" height="1800" fill="#f9fafb"/>
+
+    <!-- Header -->
+    <rect x="0" y="0" width="1400" height="80" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="50" y="25" width="30" height="30" rx="4" fill="#14b8a6"/>
+    <text x="100" y="45" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">BloodCare</text>
+
+    <!-- Navigation Menu -->
+    <text x="250" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#14b8a6">Dashboard</text>
+    <text x="330" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Patients</text>
+    <text x="390" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Appointments</text>
+    <text x="480" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Blog Posts</text>
+    <text x="550" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Campaigns</text>
+    <text x="620" y="45" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Messages</text>
+
+    <!-- Profile Section - Fixed color contrast -->
+    <rect x="1150" y="20" width="40" height="40" rx="20" fill="#0f172a"/>
+    <text x="1170" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">DR</text>
+    <text x="1200" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0f172a">Dr. Rahman</text>
+    <text x="1200" y="55" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Cardiologist</text>
+
+    <!-- Welcome Section -->
+    <rect x="0" y="80" width="1400" height="100" fill="linear-gradient(135deg, #14b8a6 0%, #0d9488 100%)"/>
+    <text x="50" y="115" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Welcome back, Dr. Rahman! 👨‍⚕️</text>
+    <text x="50" y="140" font-family="Arial, sans-serif" font-size="16" fill="white">Here's what's happening with your practice today</text>
+    <text x="50" y="165" font-family="Arial, sans-serif" font-size="14" fill="white">📅 Today: Monday, January 15, 2025 • 🕒 Current Time: 2:30 PM</text>
+
+    <!-- Quick Stats Cards -->
+    <rect x="50" y="200" width="300" height="120" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="60" y="215" width="50" height="50" rx="25" fill="#dcfce7"/>
+    <text x="85" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#16a34a">👥</text>
+    <text x="130" y="235" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#111827">147</text>
+    <text x="130" y="255" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Total Patients</text>
+    <text x="130" y="275" font-family="Arial, sans-serif" font-size="12" fill="#16a34a">+12 this month</text>
+    <text x="130" y="295" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Active cases: 23</text>
+
+    <rect x="370" y="200" width="300" height="120" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="380" y="215" width="50" height="50" rx="25" fill="#dbeafe"/>
+    <text x="405" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#2563eb">💰</text>
+    <text x="450" y="235" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#111827">৳45,200</text>
+    <text x="450" y="255" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Monthly Income</text>
+    <text x="450" y="275" font-family="Arial, sans-serif" font-size="12" fill="#16a34a">+18% from last month</text>
+    <text x="450" y="295" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Pending: ৳2,500</text>
+
+    <rect x="690" y="200" width="300" height="120" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="700" y="215" width="50" height="50" rx="25" fill="#fef3c7"/>
+    <text x="725" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#d97706">📅</text>
+    <text x="770" y="235" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#111827">8</text>
+    <text x="770" y="255" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Today's Appointments</text>
+    <text x="770" y="275" font-family="Arial, sans-serif" font-size="12" fill="#d97706">Next: 3:00 PM</text>
+    <text x="770" y="295" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Completed: 5/8</text>
+
+    <rect x="1010" y="200" width="300" height="120" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="1020" y="215" width="50" height="50" rx="25" fill="#fce7f3"/>
+    <text x="1045" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#be185d">📖</text>
+    <text x="1090" y="235" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#111827">24</text>
+    <text x="1090" y="255" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Published Articles</text>
+    <text x="1090" y="275" font-family="Arial, sans-serif" font-size="12" fill="#be185d">1,847 total views</text>
+    <text x="1090" y="295" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Latest: 2 days ago</text>
+
+    <!-- Main Dashboard Grid -->
+    <!-- Patient Statistics Chart -->
+    <rect x="50" y="340" width="650" height="300" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="70" y="370" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Patient Statistics</text>
+    <text x="70" y="390" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Monthly patient visits and consultations</text>
+
+    <!-- Chart Area -->
+    <rect x="70" y="400" width="610" height="200" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Y-axis labels -->
+    <text x="55" y="420" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="end">50</text>
+    <text x="55" y="460" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="end">40</text>
+    <text x="55" y="500" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="end">30</text>
+    <text x="55" y="540" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="end">20</text>
+    <text x="55" y="580" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="end">10</text>
+
+    <!-- Chart bars -->
+    <rect x="100" y="480" width="40" height="100" fill="#14b8a6"/>
+    <rect x="160" y="460" width="40" height="120" fill="#14b8a6"/>
+    <rect x="220" y="500" width="40" height="80" fill="#14b8a6"/>
+    <rect x="280" y="440" width="40" height="140" fill="#14b8a6"/>
+    <rect x="340" y="420" width="40" height="160" fill="#14b8a6"/>
+    <rect x="400" y="450" width="40" height="130" fill="#14b8a6"/>
+    <rect x="460" y="430" width="40" height="150" fill="#0d9488"/>
+    <rect x="520" y="470" width="40" height="110" fill="#cbd5e1"/>
+    <rect x="580" y="490" width="40" height="90" fill="#cbd5e1"/>
+
+    <!-- X-axis labels -->
+    <text x="120" y="620" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Aug</text>
+    <text x="180" y="620" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Sep</text>
+    <text x="240" y="620" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Oct</text>
+    <text x="300" y="620" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Nov</text>
+    <text x="360" y="620" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Dec</text>
+    <text x="420" y="620" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Jan</text>
+    <text x="480" y="620" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Feb</text>
+    <text x="540" y="620" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Mar</text>
+    <text x="600" y="620" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Apr</text>
+
+    <!-- Revenue Analytics -->
+    <rect x="720" y="340" width="630" height="300" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="740" y="370" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Revenue Analytics</text>
+    <text x="740" y="390" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Income breakdown and financial insights</text>
+
+    <!-- Revenue Cards -->
+    <rect x="740" y="410" width="180" height="80" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+    <text x="760" y="430" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#065f46">Consultation Fees</text>
+    <text x="760" y="450" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">৳32,400</text>
+    <text x="760" y="470" font-family="Arial, sans-serif" font-size="10" fill="#059669">+15% this month</text>
+
+    <rect x="940" y="410" width="180" height="80" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+    <text x="960" y="430" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">Procedure Fees</text>
+    <text x="960" y="450" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">৳8,500</text>
+    <text x="960" y="470" font-family="Arial, sans-serif" font-size="10" fill="#2563eb">+8% this month</text>
+
+    <rect x="1140" y="410" width="180" height="80" fill="#fefce8" stroke="#fde047" stroke-width="1"/>
+    <text x="1160" y="430" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a16207">Telehealth</text>
+    <text x="1160" y="450" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">৳4,300</text>
+    <text x="1160" y="470" font-family="Arial, sans-serif" font-size="10" fill="#d97706">+25% this month</text>
+
+    <!-- Revenue Chart -->
+    <rect x="740" y="510" width="580" height="100" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Chart title moved to better position -->
+    <text x="740" y="500" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#6b7280">Monthly Revenue Trend (Last 8 Months)</text>
+
+    <!-- Revenue Line Chart -->
+    <polyline points="760,580 800,560 840,540 880,530 920,520 960,510 1000,500 1040,490 1080,480 1120,470 1160,460 1200,450 1240,440 1280,430"
+              fill="none" stroke="#14b8a6" stroke-width="3"/>
+
+    <!-- Data points -->
+    <circle cx="760" cy="580" r="4" fill="#14b8a6"/>
+    <circle cx="840" cy="540" r="4" fill="#14b8a6"/>
+    <circle cx="920" cy="520" r="4" fill="#14b8a6"/>
+    <circle cx="1000" cy="500" r="4" fill="#14b8a6"/>
+    <circle cx="1080" cy="480" r="4" fill="#14b8a6"/>
+    <circle cx="1160" cy="460" r="4" fill="#14b8a6"/>
+    <circle cx="1240" cy="440" r="4" fill="#14b8a6"/>
+    <circle cx="1280" cy="430" r="4" fill="#0d9488"/>
+
+    <!-- Today's Schedule -->
+    <rect x="50" y="660" width="400" height="400" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="70" y="690" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Today's Schedule</text>
+    <text x="70" y="710" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Upcoming appointments and tasks</text>
+
+    <!-- Appointment Items -->
+    <rect x="70" y="730" width="360" height="60" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+    <rect x="80" y="745" width="30" height="30" rx="15" fill="#16a34a"/>
+    <text x="95" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">✓</text>
+    <text x="125" y="750" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">3:00 PM - Sarah Ahmed</text>
+    <text x="125" y="770" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Follow-up consultation • Cardiology</text>
+    <text x="125" y="785" font-family="Arial, sans-serif" font-size="11" fill="#16a34a">Completed</text>
+
+    <rect x="70" y="800" width="360" height="60" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+    <rect x="80" y="815" width="30" height="30" rx="15" fill="#dc2626"/>
+    <text x="95" y="835" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">!</text>
+    <text x="125" y="820" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">3:30 PM - Mohammad Khan</text>
+    <text x="125" y="840" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Emergency consultation • Chest pain</text>
+    <text x="125" y="855" font-family="Arial, sans-serif" font-size="11" fill="#dc2626">Urgent - Next</text>
+
+    <rect x="70" y="870" width="360" height="60" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+    <rect x="80" y="885" width="30" height="30" rx="15" fill="#2563eb"/>
+    <text x="95" y="905" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">📱</text>
+    <text x="125" y="890" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">4:15 PM - Fatima Begum</text>
+    <text x="125" y="910" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Telehealth session • Diabetes check</text>
+    <text x="125" y="925" font-family="Arial, sans-serif" font-size="11" fill="#2563eb">Video call</text>
+
+    <rect x="70" y="940" width="360" height="60" fill="#fefce8" stroke="#fde047" stroke-width="1"/>
+    <rect x="80" y="955" width="30" height="30" rx="15" fill="#d97706"/>
+    <text x="95" y="975" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">⏰</text>
+    <text x="125" y="960" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">5:00 PM - Routine Check</text>
+    <text x="125" y="980" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Hospital rounds • Ward 3</text>
+    <text x="125" y="995" font-family="Arial, sans-serif" font-size="11" fill="#d97706">Scheduled</text>
+
+    <text x="70" y="1040" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">View All Appointments →</text>
+
+    <!-- Blog Performance -->
+    <rect x="470" y="660" width="420" height="400" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="490" y="690" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Blog Performance</text>
+    <text x="490" y="710" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Article views and engagement metrics</text>
+
+    <!-- Blog Stats -->
+    <rect x="490" y="730" width="180" height="60" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="510" y="750" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Total Views</text>
+    <text x="510" y="770" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">1,847</text>
+    <text x="510" y="785" font-family="Arial, sans-serif" font-size="10" fill="#16a34a">+23% this week</text>
+
+    <rect x="690" y="730" width="180" height="60" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="710" y="750" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Engagement Rate</text>
+    <text x="710" y="770" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">4.2%</text>
+    <text x="710" y="785" font-family="Arial, sans-serif" font-size="10" fill="#2563eb">+0.8% this week</text>
+
+    <!-- Recent Articles -->
+    <text x="490" y="820" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Recent Articles</text>
+
+    <rect x="490" y="835" width="380" height="50" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="510" y="855" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">"Managing Hypertension in Young Adults"</text>
+    <text x="510" y="875" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">245 views • 12 comments • Published 2 days ago</text>
+
+    <rect x="490" y="895" width="380" height="50" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="510" y="915" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">"Heart Healthy Diet Guidelines"</text>
+    <text x="510" y="935" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">198 views • 8 comments • Published 5 days ago</text>
+
+    <rect x="490" y="955" width="380" height="50" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="510" y="975" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">"Understanding Cardiac Arrhythmias"</text>
+    <text x="510" y="995" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">387 views • 15 comments • Published 1 week ago</text>
+
+    <rect x="490" y="1020" width="120" height="30" rx="6" fill="#14b8a6"/>
+    <text x="550" y="1040" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Write New Article</text>
+
+    <text x="630" y="1040" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">View All Articles →</text>
+
+    <!-- Patient Demographics -->
+    <rect x="910" y="660" width="440" height="400" rx="12" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="930" y="690" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Patient Demographics</text>
+    <text x="930" y="710" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Age groups and condition distribution</text>
+
+    <!-- Demographics Chart (Pie Chart representation) -->
+    <circle cx="1050" cy="820" r="80" fill="#14b8a6"/>
+    <path d="M1050,740 A80,80 0 0,1 1105,780 L1050,820 Z" fill="#0d9488"/>
+    <path d="M1105,780 A80,80 0 0,1 1120,850 L1050,820 Z" fill="#06b6d4"/>
+    <path d="M1120,850 A80,80 0 0,1 1080,885 L1050,820 Z" fill="#8b5cf6"/>
+    <path d="M1080,885 A80,80 0 0,1 1000,870 L1050,820 Z" fill="#f59e0b"/>
+
+    <!-- Legend -->
+    <rect x="1180" y="740" width="15" height="15" fill="#14b8a6"/>
+    <text x="1205" y="752" font-family="Arial, sans-serif" font-size="12" fill="#111827">18-30 years (35%)</text>
+
+    <rect x="1180" y="765" width="15" height="15" fill="#0d9488"/>
+    <text x="1205" y="777" font-family="Arial, sans-serif" font-size="12" fill="#111827">31-45 years (28%)</text>
+
+    <rect x="1180" y="790" width="15" height="15" fill="#06b6d4"/>
+    <text x="1205" y="802" font-family="Arial, sans-serif" font-size="12" fill="#111827">46-60 years (22%)</text>
+
+    <rect x="1180" y="815" width="15" height="15" fill="#8b5cf6"/>
+    <text x="1205" y="827" font-family="Arial, sans-serif" font-size="12" fill="#111827">60+ years (15%)</text>
+
+    <!-- Common Conditions -->
+    <text x="930" y="940" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Most Common Conditions</text>
+
+    <rect x="930" y="955" width="400" height="30" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+    <text x="950" y="975" font-family="Arial, sans-serif" font-size="12" fill="#111827">Hypertension</text>
+    <rect x="1050" y="960" width="200" height="20" fill="#86efac"/>
+    <text x="1270" y="975" font-family="Arial, sans-serif" font-size="12" fill="#111827">42 patients</text>
+
+    <rect x="930" y="990" width="400" height="30" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+    <text x="950" y="1010" font-family="Arial, sans-serif" font-size="12" fill="#111827">Diabetes</text>
+    <rect x="1050" y="995" width="150" height="20" fill="#bfdbfe"/>
+    <text x="1270" y="1010" font-family="Arial, sans-serif" font-size="12" fill="#111827">28 patients</text>
+
+    <rect x="930" y="1025" width="400" height="30" fill="#fefce8" stroke="#fde047" stroke-width="1"/>
+    <text x="950" y="1045" font-family="Arial, sans-serif" font-size="12" fill="#111827">Heart Disease</text>
+    <rect x="1050" y="1030" width="100" height="20" fill="#fde047"/>
+    <text x="1270" y="1045" font-family="Arial, sans-serif" font-size="12" fill="#111827">18 patients</text>
+
+    <!-- Quick Actions -->
+    <rect x="50" y="1080" width="1300" height="120" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="70" y="1110" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Quick Actions</text>
+
+    <rect x="70" y="1125" width="150" height="40" rx="8" fill="#14b8a6"/>
+    <text x="145" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">+ New Appointment</text>
+
+    <rect x="240" y="1125" width="150" height="40" rx="8" fill="none" stroke="#2563eb" stroke-width="1"/>
+    <text x="315" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2563eb">📝 Write Article</text>
+
+    <rect x="410" y="1125" width="150" height="40" rx="8" fill="none" stroke="#059669" stroke-width="1"/>
+    <text x="485" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#059669">👥 View Patients</text>
+
+    <rect x="580" y="1125" width="150" height="40" rx="8" fill="none" stroke="#dc2626" stroke-width="1"/>
+    <text x="655" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#dc2626">🚨 Emergency</text>
+
+    <rect x="750" y="1125" width="150" height="40" rx="8" fill="none" stroke="#7c3aed" stroke-width="1"/>
+    <text x="825" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7c3aed">💬 Messages</text>
+
+    <rect x="920" y="1125" width="150" height="40" rx="8" fill="none" stroke="#f59e0b" stroke-width="1"/>
+    <text x="995" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#f59e0b">📊 Reports</text>
+
+    <rect x="1090" y="1125" width="150" height="40" rx="8" fill="none" stroke="#8b5cf6" stroke-width="1"/>
+    <text x="1165" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#8b5cf6">⚙️ Settings</text>
+
+    <!-- Notifications -->
+    <rect x="50" y="1220" width="650" height="200" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="70" y="1250" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Recent Notifications</text>
+
+    <rect x="70" y="1265" width="610" height="40" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+    <text x="90" y="1285" font-family="Arial, sans-serif" font-size="14" fill="#111827">🚨 Emergency patient admission - Mohammad Khan</text>
+    <text x="580" y="1285" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">2 min ago</text>
+
+    <rect x="70" y="1310" width="610" height="40" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+    <text x="90" y="1330" font-family="Arial, sans-serif" font-size="14" fill="#111827">✅ Payment received from Sarah Ahmed - ৳2,500</text>
+    <text x="580" y="1330" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">1 hour ago</text>
+
+    <rect x="70" y="1355" width="610" height="40" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+    <text x="90" y="1375" font-family="Arial, sans-serif" font-size="14" fill="#111827">📖 Your article received 15 new comments</text>
+    <text x="580" y="1375" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">3 hours ago</text>
+
+    <text x="70" y="1410" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">View All Notifications →</text>
+
+    <!-- Performance Metrics -->
+    <rect x="720" y="1220" width="630" height="200" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="740" y="1250" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Performance Metrics</text>
+
+    <rect x="740" y="1265" width="180" height="60" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+    <text x="760" y="1285" font-family="Arial, sans-serif" font-size="12" fill="#065f46">Patient Satisfaction</text>
+    <text x="760" y="1305" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">4.8/5.0</text>
+    <text x="760" y="1320" font-family="Arial, sans-serif" font-size="10" fill="#059669">+0.2 this month</text>
+
+    <rect x="940" y="1265" width="180" height="60" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+    <text x="960" y="1285" font-family="Arial, sans-serif" font-size="12" fill="#1e40af">Response Time</text>
+    <text x="960" y="1305" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">12 min</text>
+    <text x="960" y="1320" font-family="Arial, sans-serif" font-size="10" fill="#2563eb">-3 min improved</text>
+
+    <rect x="1140" y="1265" width="180" height="60" fill="#fefce8" stroke="#fde047" stroke-width="1"/>
+    <text x="1160" y="1285" font-family="Arial, sans-serif" font-size="12" fill="#a16207">Success Rate</text>
+    <text x="1160" y="1305" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">96.2%</text>
+    <text x="1160" y="1320" font-family="Arial, sans-serif" font-size="10" fill="#d97706">+1.5% this month</text>
+
+    <rect x="740" y="1340" width="590" height="60" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="760" y="1360" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#111827">Monthly Goals Progress</text>
+    <text x="760" y="1380" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Patient visits: 42/50 • Revenue: ৳45,200/50,000 • Articles: 3/4</text>
+    <rect x="760" y="1385" width="400" height="8" fill="#e5e7eb"/>
+    <rect x="760" y="1385" width="320" height="8" fill="#14b8a6"/>
+
+    <!-- Footer -->
+    <rect x="0" y="1440" width="1400" height="80" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="700" y="1485" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 BloodCare. Empowering healthcare professionals with comprehensive practice management.</text>
+</svg>
