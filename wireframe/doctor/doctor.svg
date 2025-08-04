@@ -1,9 +1,9 @@
-<svg width="1200" height="1600" viewBox="0 0 1200 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="2200" viewBox="0 0 1200 2200" fill="none" xmlns="http://www.w3.org/2000/svg">
     <!-- Background -->
-    <rect width="1200" height="1600" fill="#f9fafb"/>
+    <rect width="1200" height="2200" fill="#f9fafb"/>
 
     <!-- Container -->
-    <rect x="100" y="50" width="1000" height="1500" fill="none"/>
+    <rect x="100" y="50" width="1000" height="2100" fill="none"/>
 
     <!-- Header Card -->
     <rect x="120" y="80" width="960" height="240" rx="12" fill="white" stroke="#5eead4" stroke-width="2"/>
@@ -28,14 +28,12 @@
 
     <!-- Specialization Info -->
     <g transform="translate(300, 220)">
-        <!-- Stethoscope Icon -->
         <path d="M11 2a2 2 0 0 0-2 2v6.5a6.5 6.5 0 0 0 13 0V4a2 2 0 0 0-2-2" stroke="#14b8a6" stroke-width="1.5" fill="none" transform="scale(0.8)"/>
         <circle cx="16" cy="8" r="1.6" stroke="#14b8a6" stroke-width="1.5" fill="none"/>
         <text x="25" y="12" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Allergy and immunology</text>
     </g>
 
     <g transform="translate(520, 220)">
-        <!-- Graduation Cap Icon -->
         <rect x="0" y="6" width="16" height="2" rx="1" fill="#14b8a6"/>
         <polygon points="8,2 2,6 14,6" fill="#14b8a6"/>
         <text x="25" y="12" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">MBBS</text>
@@ -43,126 +41,235 @@
 
     <!-- Action Buttons -->
     <rect x="300" y="250" width="140" height="36" rx="6" fill="#14b8a6"/>
-    <text x="370" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="medium" fill="white">Book Appointment</text>
+    <text x="370" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="white">Book Appointment</text>
 
     <rect x="450" y="250" width="100" height="36" rx="6" fill="none" stroke="#2dd4bf" stroke-width="1"/>
-    <text x="500" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="medium" fill="#0f766e">Contact</text>
+    <text x="500" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#0f766e">Contact</text>
+
+    <!-- Personal Information Card -->
+    <rect x="120" y="360" width="960" height="200" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+
+    <!-- Personal Info Header -->
+    <text x="140" y="390" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Personal Information</text>
+
+    <!-- Left Column -->
+    <text x="140" y="420" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6b7280">Gender</text>
+    <text x="140" y="440" font-family="Arial, sans-serif" font-size="14" fill="#111827">FEMALE</text>
+
+    <text x="140" y="470" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6b7280">User Type</text>
+    <text x="140" y="490" font-family="Arial, sans-serif" font-size="14" fill="#111827">DOCTOR</text>
+
+    <text x="140" y="520" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6b7280">Email</text>
+    <text x="140" y="540" font-family="Arial, sans-serif" font-size="14" fill="#111827">Not provided</text>
+
+    <!-- Right Column -->
+    <text x="620" y="420" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6b7280">Phone</text>
+    <text x="620" y="440" font-family="Arial, sans-serif" font-size="14" fill="#111827">Not provided</text>
+
+    <text x="620" y="470" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6b7280">Address</text>
+    <text x="620" y="490" font-family="Arial, sans-serif" font-size="14" fill="#111827">Not provided</text>
+
+    <text x="620" y="520" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6b7280">Blood Group</text>
+    <text x="620" y="540" font-family="Arial, sans-serif" font-size="14" fill="#111827">Not provided</text>
 
     <!-- Education Card -->
-    <rect x="120" y="360" width="460" height="300" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+    <rect x="120" y="600" width="460" height="300" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
 
     <!-- Education Header -->
-    <g transform="translate(140, 380)">
+    <g transform="translate(140, 620)">
         <rect x="0" y="6" width="16" height="2" rx="1" fill="#0f766e"/>
         <polygon points="8,2 2,6 14,6" fill="#0f766e"/>
         <text x="25" y="12" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Education</text>
     </g>
 
     <!-- Education Item -->
-    <rect x="140" y="420" width="4" height="200" fill="#2dd4bf"/>
+    <rect x="140" y="660" width="4" height="200" fill="#2dd4bf"/>
 
-    <text x="160" y="440" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Bachelor of Medicine and Bachelor of Surgery (MBBS)</text>
-    <text x="160" y="460" font-family="Arial, sans-serif" font-size="14" font-weight="medium" fill="#0d9488">Dhaka Medical College</text>
-    <text x="160" y="480" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">ঢাকা মেডিকেল কলেজ</text>
+    <text x="160" y="680" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Bachelor of Medicine and Bachelor of Surgery (MBBS)</text>
+    <text x="160" y="700" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#0d9488">Dhaka Medical College</text>
+    <text x="160" y="720" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">ঢাকা মেডিকেল কলেজ</text>
 
     <!-- Location Icon -->
-    <circle cx="165" cy="500" r="2" fill="#6b7280"/>
-    <path d="M165 495 L165 505 M160 500 L170 500" stroke="#6b7280" stroke-width="1"/>
-    <text x="175" y="505" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Dhaka</text>
+    <circle cx="165" cy="740" r="2" fill="#6b7280"/>
+    <path d="M165 735 L165 745 M160 740 L170 740" stroke="#6b7280" stroke-width="1"/>
+    <text x="175" y="745" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Dhaka</text>
 
-    <rect x="160" y="520" width="100" height="20" rx="10" fill="#e5e7eb"/>
-    <text x="210" y="533" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">UNDERGRADUATE</text>
+    <rect x="160" y="760" width="100" height="20" rx="10" fill="#e5e7eb"/>
+    <text x="210" y="773" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">UNDERGRADUATE</text>
 
     <!-- Workplace Card -->
-    <rect x="620" y="360" width="460" height="300" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+    <rect x="620" y="600" width="460" height="300" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
 
     <!-- Workplace Header -->
-    <g transform="translate(640, 380)">
+    <g transform="translate(640, 620)">
         <rect x="0" y="2" width="16" height="12" rx="1" stroke="#0f766e" stroke-width="1.5" fill="none"/>
         <rect x="2" y="0" width="12" height="4" fill="#0f766e"/>
         <text x="25" y="12" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Current Workplace</text>
     </g>
 
     <!-- Workplace Item -->
-    <rect x="640" y="420" width="4" height="200" fill="#2dd4bf"/>
+    <rect x="640" y="660" width="4" height="200" fill="#2dd4bf"/>
 
-    <text x="660" y="440" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Dhaka Medical College Hospital</text>
-    <text x="660" y="460" font-family="Arial, sans-serif" font-size="14" font-weight="medium" fill="#0d9488">ঢাকা মেডিকেল কলেজ হাসপাতাল</text>
+    <text x="660" y="680" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Dhaka Medical College Hospital</text>
+    <text x="660" y="700" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#0d9488">ঢাকা মেডিকেল কলেজ হাসপাতাল</text>
 
     <!-- Position Badge -->
-    <rect x="660" y="480" width="60" height="20" rx="10" fill="none" stroke="#2dd4bf" stroke-width="1"/>
-    <text x="690" y="493" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#0f766e">Surgeon</text>
+    <rect x="660" y="720" width="60" height="20" rx="10" fill="none" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="690" y="733" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#0f766e">Surgeon</text>
 
     <!-- Speciality Badge -->
-    <rect x="730" y="480" width="140" height="20" rx="10" fill="#e5e7eb"/>
-    <text x="800" y="493" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Allergy and immunology</text>
+    <rect x="730" y="720" width="140" height="20" rx="10" fill="#e5e7eb"/>
+    <text x="800" y="733" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Allergy and immunology</text>
 
     <!-- Location -->
-    <circle cx="665" cy="515" r="2" fill="#6b7280"/>
-    <path d="M665 510 L665 520 M660 515 L670 515" stroke="#6b7280" stroke-width="1"/>
-    <text x="675" y="520" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Dhaka</text>
+    <circle cx="665" cy="755" r="2" fill="#6b7280"/>
+    <path d="M665 750 L665 760 M660 755 L670 755" stroke="#6b7280" stroke-width="1"/>
+    <text x="675" y="760" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Dhaka</text>
 
     <!-- Hospital Info -->
-    <text x="660" y="540" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Government • 1700 beds</text>
+    <text x="660" y="780" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Government • 1700 beds</text>
 
     <!-- Website Link -->
-    <circle cx="665" cy="565" r="6" stroke="#14b8a6" stroke-width="1" fill="none"/>
-    <text x="680" y="570" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">Visit Website</text>
+    <circle cx="665" cy="805" r="6" stroke="#14b8a6" stroke-width="1" fill="none"/>
+    <text x="680" y="810" font-family="Arial, sans-serif" font-size="12" fill="#14b8a6">Visit Website</text>
 
-    <!-- Personal Information Card -->
-    <rect x="120" y="700" width="960" height="200" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+    <!-- Doctor Association Card -->
+    <rect x="120" y="940" width="960" height="200" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
 
-    <!-- Personal Info Header -->
-    <text x="140" y="730" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Personal Information</text>
+    <!-- Association Header -->
+    <g transform="translate(140, 960)">
+        <rect x="2" y="2" width="12" height="12" rx="2" stroke="#0f766e" stroke-width="1.5" fill="none"/>
+        <circle cx="8" cy="8" r="2" fill="#0f766e"/>
+        <text x="25" y="12" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Professional Associations</text>
+    </g>
 
-    <!-- Left Column -->
-    <text x="140" y="760" font-family="Arial, sans-serif" font-size="12" font-weight="medium" fill="#6b7280">Gender</text>
-    <text x="140" y="780" font-family="Arial, sans-serif" font-size="14" fill="#111827">FEMALE</text>
+    <!-- Association Items -->
+    <rect x="140" y="1000" width="4" height="100" fill="#2dd4bf"/>
 
-    <text x="140" y="810" font-family="Arial, sans-serif" font-size="12" font-weight="medium" fill="#6b7280">User Type</text>
-    <text x="140" y="830" font-family="Arial, sans-serif" font-size="14" fill="#111827">DOCTOR</text>
+    <text x="160" y="1020" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Bangladesh Medical Association (BMA)</text>
+    <text x="160" y="1040" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#0d9488">Member since 2018</text>
 
-    <text x="140" y="860" font-family="Arial, sans-serif" font-size="12" font-weight="medium" fill="#6b7280">Email</text>
-    <text x="140" y="880" font-family="Arial, sans-serif" font-size="14" fill="#111827">Not provided</text>
+    <rect x="160" y="1050" width="80" height="18" rx="9" fill="#dcfce7"/>
+    <text x="200" y="1062" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#166534">ACTIVE MEMBER</text>
 
-    <!-- Right Column -->
-    <text x="620" y="760" font-family="Arial, sans-serif" font-size="12" font-weight="medium" fill="#6b7280">Phone</text>
-    <text x="620" y="780" font-family="Arial, sans-serif" font-size="14" fill="#111827">Not provided</text>
+    <text x="160" y="1085" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Member ID: BMA-2018-5247</text>
 
-    <text x="620" y="810" font-family="Arial, sans-serif" font-size="12" font-weight="medium" fill="#6b7280">Address</text>
-    <text x="620" y="830" font-family="Arial, sans-serif" font-size="14" fill="#111827">Not provided</text>
+    <rect x="520" y="1000" width="4" height="100" fill="#2dd4bf"/>
 
-    <text x="620" y="860" font-family="Arial, sans-serif" font-size="12" font-weight="medium" fill="#6b7280">Blood Group</text>
-    <text x="620" y="880" font-family="Arial, sans-serif" font-size="14" fill="#111827">Not provided</text>
+    <text x="540" y="1020" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">International Association of Allergy</text>
+    <text x="540" y="1040" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#0d9488">Member since 2020</text>
 
-    <!-- Additional Features Section -->
-    <rect x="120" y="930" width="960" height="150" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+    <rect x="540" y="1050" width="80" height="18" rx="9" fill="#dcfce7"/>
+    <text x="580" y="1062" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#166534">CERTIFIED</text>
 
-    <text x="140" y="960" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Quick Actions</text>
+    <text x="540" y="1085" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Certificate: IAA-CERT-2020</text>
 
-    <!-- Quick Action Buttons -->
-    <rect x="140" y="980" width="180" height="40" rx="6" fill="#f0fdfa" stroke="#2dd4bf" stroke-width="1"/>
-    <text x="230" y="1005" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0f766e">View Schedule</text>
+    <!-- Weekly Schedule Card -->
+    <rect x="120" y="1180" width="960" height="400" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
 
-    <rect x="340" y="980" width="180" height="40" rx="6" fill="#f0fdfa" stroke="#2dd4bf" stroke-width="1"/>
-    <text x="430" y="1005" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0f766e">Patient Reviews</text>
+    <!-- Schedule Header -->
+    <g transform="translate(140, 1200)">
+        <rect x="0" y="0" width="16" height="16" rx="2" stroke="#0f766e" stroke-width="1.5" fill="none"/>
+        <path d="M4 8 L8 12 L12 4" stroke="#0f766e" stroke-width="1.5" fill="none"/>
+        <text x="25" y="12" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Weekly Schedule</text>
+    </g>
 
-    <rect x="540" y="980" width="180" height="40" rx="6" fill="#f0fdfa" stroke="#2dd4bf" stroke-width="1"/>
-    <text x="630" y="1005" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0f766e">Medical Articles</text>
+    <!-- Schedule Days Header -->
+    <rect x="140" y="1230" width="800" height="30" fill="#f0fdfa"/>
 
-    <rect x="740" y="980" width="180" height="40" rx="6" fill="#f0fdfa" stroke="#2dd4bf" stroke-width="1"/>
-    <text x="830" y="1005" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0f766e">Research Papers</text>
+    <!-- Day Headers -->
+    <text x="180" y="1250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0f766e">MON</text>
+    <text x="295" y="1250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0f766e">TUE</text>
+    <text x="410" y="1250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0f766e">WED</text>
+    <text x="525" y="1250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0f766e">THU</text>
+    <text x="640" y="1250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0f766e">FRI</text>
+    <text x="755" y="1250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0f766e">SAT</text>
+    <text x="870" y="1250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0f766e">SUN</text>
 
-    <!-- Statistics Section -->
-    <rect x="140" y="1040" width="200" height="30" rx="4" fill="#ccfbf1"/>
-    <text x="240" y="1060" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0f766e">Experience: Not specified</text>
+    <!-- Schedule Grid Lines -->
+    <g stroke="#e5e7eb" stroke-width="1">
+        <line x1="255" y1="1230" x2="255" y2="1550"/>
+        <line x1="370" y1="1230" x2="370" y2="1550"/>
+        <line x1="485" y1="1230" x2="485" y2="1550"/>
+        <line x1="600" y1="1230" x2="600" y2="1550"/>
+        <line x1="715" y1="1230" x2="715" y2="1550"/>
+        <line x1="830" y1="1230" x2="830" y2="1550"/>
+    </g>
 
-    <rect x="360" y="1040" width="200" height="30" rx="4" fill="#ccfbf1"/>
-    <text x="460" y="1060" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0f766e">Patients Treated: 500+</text>
+    <!-- Time Slots -->
+    <!-- Morning Slots (9-12) -->
+    <rect x="140" y="1270" width="115" height="60" fill="#e0f2fe" stroke="#0891b2" stroke-width="1"/>
+    <text x="197" y="1290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0c4a6e">9:00-12:00</text>
+    <text x="197" y="1305" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0c4a6e">Morning</text>
+    <text x="197" y="1318" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0c4a6e">Clinic</text>
 
-    <rect x="580" y="1040" width="200" height="30" rx="4" fill="#ccfbf1"/>
-    <text x="680" y="1060" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0f766e">Rating: 4.8/5.0</text>
+    <rect x="255" y="1270" width="115" height="60" fill="#e0f2fe" stroke="#0891b2" stroke-width="1"/>
+    <text x="312" y="1290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0c4a6e">9:00-12:00</text>
+    <text x="312" y="1305" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0c4a6e">Morning</text>
+    <text x="312" y="1318" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0c4a6e">Clinic</text>
+
+    <rect x="485" y="1270" width="115" height="60" fill="#e0f2fe" stroke="#0891b2" stroke-width="1"/>
+    <text x="542" y="1290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0c4a6e">9:00-12:00</text>
+    <text x="542" y="1305" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0c4a6e">Morning</text>
+    <text x="542" y="1318" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0c4a6e">Clinic</text>
+
+    <rect x="715" y="1270" width="115" height="60" fill="#e0f2fe" stroke="#0891b2" stroke-width="1"/>
+    <text x="772" y="1290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0c4a6e">9:00-12:00</text>
+    <text x="772" y="1305" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0c4a6e">Morning</text>
+    <text x="772" y="1318" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0c4a6e">Clinic</text>
+
+    <!-- Afternoon Slots (2-6) -->
+    <rect x="140" y="1340" width="115" height="60" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+    <text x="197" y="1360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#15803d">2:00-6:00</text>
+    <text x="197" y="1375" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#15803d">Afternoon</text>
+    <text x="197" y="1388" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#15803d">Surgery</text>
+
+    <rect x="370" y="1340" width="115" height="60" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+    <text x="427" y="1360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#15803d">2:00-6:00</text>
+    <text x="427" y="1375" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#15803d">Afternoon</text>
+    <text x="427" y="1388" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#15803d">Surgery</text>
+
+    <rect x="600" y="1340" width="115" height="60" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+    <text x="657" y="1360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#15803d">2:00-6:00</text>
+    <text x="657" y="1375" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#15803d">Afternoon</text>
+    <text x="657" y="1388" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#15803d">Surgery</text>
+
+    <!-- Emergency/On-call -->
+    <rect x="255" y="1410" width="115" height="40" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+    <text x="312" y="1430" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400e">Emergency</text>
+    <text x="312" y="1443" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#92400e">On-call</text>
+
+    <rect x="600" y="1410" width="115" height="40" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+    <text x="657" y="1430" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400e">Emergency</text>
+    <text x="657" y="1443" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#92400e">On-call</text>
+
+    <!-- Off Days -->
+    <rect x="370" y="1270" width="115" height="180" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1"/>
+    <text x="427" y="1360" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#6b7280">OFF</text>
+
+    <rect x="830" y="1270" width="115" height="180" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1"/>
+    <text x="887" y="1360" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#6b7280">OFF</text>
+
+    <!-- Schedule Legend -->
+    <text x="140" y="1480" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#111827">Legend:</text>
+
+    <rect x="140" y="1490" width="15" height="15" fill="#e0f2fe" stroke="#0891b2" stroke-width="1"/>
+    <text x="165" y="1502" font-family="Arial, sans-serif" font-size="11" fill="#111827">Clinic Hours</text>
+
+    <rect x="260" y="1490" width="15" height="15" fill="#dcfce7" stroke="#16a34a" stroke-width="1"/>
+    <text x="285" y="1502" font-family="Arial, sans-serif" font-size="11" fill="#111827">Surgery Hours</text>
+
+    <rect x="390" y="1490" width="15" height="15" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+    <text x="415" y="1502" font-family="Arial, sans-serif" font-size="11" fill="#111827">Emergency On-call</text>
+
+    <rect x="540" y="1490" width="15" height="15" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1"/>
+    <text x="565" y="1502" font-family="Arial, sans-serif" font-size="11" fill="#111827">Off Day</text>
+
+    <!-- Booking Info -->
+    <rect x="140" y="1520" width="800" height="40" fill="#f0fdfa" rx="6"/>
+    <text x="540" y="1540" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#0f766e">📞 Call +880-123-456789 for appointment booking</text>
+    <text x="540" y="1555" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Online booking available through hospital website</text>
 
     <!-- Footer -->
-    <text x="600" y="1520" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 Medical Directory. All rights reserved.</text>
+    <text x="600" y="2120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 Medical Directory. All rights reserved.</text>
 </svg>
