@@ -1,0 +1,341 @@
+<svg width="1400" height="3000" viewBox="0 0 1400 3000" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1400" height="3000" fill="#f8fafc"/>
+
+    <!-- Header -->
+    <rect x="0" y="0" width="1400" height="80" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+
+    <!-- Logo -->
+    <rect x="50" y="20" width="40" height="40" rx="8" fill="#14b8a6"/>
+    <text x="70" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">+</text>
+    <text x="100" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#111827">Open Care</text>
+    <text x="100" y="55" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Healthcare Made Simple</text>
+
+    <!-- Navigation -->
+    <text x="300" y="45" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Services</text>
+    <text x="380" y="45" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Doctors</text>
+    <text x="450" y="45" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Ambulance</text>
+    <text x="540" y="45" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Blood Bank</text>
+    <text x="630" y="45" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">About</text>
+    <text x="690" y="45" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Contact</text>
+
+    <!-- Header Actions -->
+    <rect x="1100" y="25" width="80" height="30" rx="15" fill="none" stroke="#14b8a6" stroke-width="1"/>
+    <text x="1140" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#14b8a6">Sign In</text>
+
+    <rect x="1190" y="25" width="100" height="30" rx="15" fill="#14b8a6"/>
+    <text x="1240" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Get Started</text>
+
+    <!-- Hero Section -->
+    <rect x="0" y="80" width="1400" height="600" fill="linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%)"/>
+
+    <!-- Hero Content Left -->
+    <text x="100" y="160" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#111827">Your Health,</text>
+    <text x="100" y="220" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#14b8a6">Our Priority</text>
+
+    <text x="100" y="270" font-family="Arial, sans-serif" font-size="20" fill="#6b7280">Connect with certified doctors, book ambulances,</text>
+    <text x="100" y="300" font-family="Arial, sans-serif" font-size="20" fill="#6b7280">access blood banks, and manage your healthcare</text>
+    <text x="100" y="330" font-family="Arial, sans-serif" font-size="20" fill="#6b7280">journey - all in one platform.</text>
+
+    <!-- Hero Stats -->
+    <rect x="100" y="360" width="150" height="60" fill="white" stroke="#14b8a6" stroke-width="1" rx="8"/>
+    <text x="175" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#14b8a6">1000+</text>
+    <text x="175" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Verified Doctors</text>
+
+    <rect x="270" y="360" width="150" height="60" fill="white" stroke="#14b8a6" stroke-width="1" rx="8"/>
+    <text x="345" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#14b8a6">50K+</text>
+    <text x="345" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Happy Patients</text>
+
+    <rect x="440" y="360" width="150" height="60" fill="white" stroke="#14b8a6" stroke-width="1" rx="8"/>
+    <text x="515" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#14b8a6">24/7</text>
+    <text x="515" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Emergency Service</text>
+
+    <!-- Hero CTA Buttons -->
+    <rect x="100" y="450" width="180" height="50" rx="25" fill="#14b8a6"/>
+    <text x="190" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">🩺 Find a Doctor</text>
+
+    <rect x="300" y="450" width="180" height="50" rx="25" fill="none" stroke="#14b8a6" stroke-width="2"/>
+    <text x="390" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#14b8a6">🚑 Emergency Help</text>
+
+    <!-- Trust Indicators -->
+    <text x="100" y="540" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">✓ Government Licensed  ✓ ISO Certified  ✓ 256-bit SSL Secure  ✓ HIPAA Compliant</text>
+
+    <!-- Hero Image/Illustration -->
+    <rect x="750" y="120" width="550" height="400" fill="white" stroke="#14b8a6" stroke-width="2" rx="20"/>
+    <text x="1025" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="120" fill="#14b8a6">🏥</text>
+
+    <!-- Medical Icons Around Hero -->
+    <circle cx="800" cy="150" r="25" fill="#f0fdfa" stroke="#14b8a6" stroke-width="1"/>
+    <text x="800" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#14b8a6">👨‍⚕️</text>
+
+    <circle cx="1200" cy="180" r="25" fill="#f0fdfa" stroke="#14b8a6" stroke-width="1"/>
+    <text x="1200" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#14b8a6">💊</text>
+
+    <circle cx="780" cy="450" r="25" fill="#f0fdfa" stroke="#14b8a6" stroke-width="1"/>
+    <text x="780" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#14b8a6">🩺</text>
+
+    <circle cx="1250" cy="420" r="25" fill="#f0fdfa" stroke="#14b8a6" stroke-width="1"/>
+    <text x="1250" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#14b8a6">🚑</text>
+
+    <!-- Quick Search Bar -->
+    <rect x="100" y="580" width="600" height="60" fill="white" stroke="#14b8a6" stroke-width="2" rx="30"/>
+    <text x="130" y="615" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">🔍 Search for doctors, specialists, hospitals...</text>
+    <rect x="620" y="590" width="60" height="40" rx="20" fill="#14b8a6"/>
+    <text x="650" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white">Search</text>
+
+    <!-- Services Section -->
+    <text x="700" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#111827">Our Healthcare Services</text>
+    <text x="700" y="790" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#6b7280">Comprehensive medical care at your fingertips</text>
+
+    <!-- Service Cards -->
+    <!-- Doctor Consultation -->
+    <rect x="80" y="820" width="280" height="320" fill="white" stroke="#e5e7eb" stroke-width="1" rx="16"/>
+    <rect x="100" y="840" width="240" height="120" fill="#f0fdfa" rx="12"/>
+    <text x="220" y="910" text-anchor="middle" font-family="Arial, sans-serif" font-size="60" fill="#14b8a6">👨‍⚕️</text>
+
+    <text x="220" y="990" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">Doctor Consultation</text>
+    <text x="220" y="1015" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Consult with verified doctors</text>
+    <text x="220" y="1035" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">online or book appointments</text>
+
+    <text x="110" y="1065" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">• 1000+ Specialists</text>
+    <text x="110" y="1080" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">• Video Consultation</text>
+    <text x="110" y="1095" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">• Prescription Delivery</text>
+
+    <rect x="110" y="1110" width="200" height="20" rx="10" fill="#14b8a6"/>
+    <text x="210" y="1125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Book Consultation →</text>
+
+    <!-- Emergency Ambulance -->
+    <rect x="390" y="820" width="280" height="320" fill="white" stroke="#e5e7eb" stroke-width="1" rx="16"/>
+    <rect x="410" y="840" width="240" height="120" fill="#fef2f2" rx="12"/>
+    <text x="530" y="910" text-anchor="middle" font-family="Arial, sans-serif" font-size="60" fill="#dc2626">🚑</text>
+
+    <text x="530" y="990" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">Emergency Ambulance</text>
+    <text x="530" y="1015" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">24/7 emergency medical</text>
+    <text x="530" y="1035" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">transportation service</text>
+
+    <text x="420" y="1065" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">• ICU Equipped</text>
+    <text x="420" y="1080" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">• GPS Tracking</text>
+    <text x="420" y="1095" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">• Trained Paramedics</text>
+
+    <rect x="420" y="1110" width="200" height="20" rx="10" fill="#dc2626"/>
+    <text x="520" y="1125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Call Ambulance →</text>
+
+    <!-- Blood Bank -->
+    <rect x="700" y="820" width="280" height="320" fill="white" stroke="#e5e7eb" stroke-width="1" rx="16"/>
+    <rect x="720" y="840" width="240" height="120" fill="#fef3c7" rx="12"/>
+    <text x="840" y="910" text-anchor="middle" font-family="Arial, sans-serif" font-size="60" fill="#dc2626">🩸</text>
+
+    <text x="840" y="990" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">Blood Bank Services</text>
+    <text x="840" y="1015" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Find blood donors and</text>
+    <text x="840" y="1035" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">blood bank locations</text>
+
+    <text x="730" y="1065" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">• All Blood Types</text>
+    <text x="730" y="1080" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">• Donor Network</text>
+    <text x="730" y="1095" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">• Emergency Supply</text>
+
+    <rect x="730" y="1110" width="200" height="20" rx="10" fill="#f59e0b"/>
+    <text x="830" y="1125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Find Blood →</text>
+
+    <!-- Health Records -->
+    <rect x="1010" y="820" width="280" height="320" fill="white" stroke="#e5e7eb" stroke-width="1" rx="16"/>
+    <rect x="1030" y="840" width="240" height="120" fill="#f0fdf4" rx="12"/>
+    <text x="1150" y="910" text-anchor="middle" font-family="Arial, sans-serif" font-size="60" fill="#16a34a">📋</text>
+
+    <text x="1150" y="990" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#111827">Health Records</text>
+    <text x="1150" y="1015" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Manage your medical</text>
+    <text x="1150" y="1035" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">records digitally</text>
+
+    <text x="1040" y="1065" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">• Digital Records</text>
+    <text x="1040" y="1080" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">• Lab Reports</text>
+    <text x="1040" y="1095" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">• Prescription History</text>
+
+    <rect x="1040" y="1110" width="200" height="20" rx="10" fill="#16a34a"/>
+    <text x="1140" y="1125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Manage Records →</text>
+
+    <!-- How It Works Section -->
+    <rect x="0" y="1180" width="1400" height="400" fill="white"/>
+
+    <text x="700" y="1230" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#111827">How Open Care Works</text>
+    <text x="700" y="1260" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#6b7280">Getting healthcare has never been this simple</text>
+
+    <!-- Step 1 -->
+    <circle cx="280" cy="1340" r="40" fill="#14b8a6"/>
+    <text x="280" y="1350" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">1</text>
+    <text x="280" y="1410" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Choose Service</text>
+    <text x="280" y="1435" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Select from doctors,</text>
+    <text x="280" y="1450" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">ambulance, or blood bank</text>
+
+    <!-- Arrow 1 -->
+    <text x="380" y="1350" font-family="Arial, sans-serif" font-size="30" fill="#14b8a6">→</text>
+
+    <!-- Step 2 -->
+    <circle cx="520" cy="1340" r="40" fill="#14b8a6"/>
+    <text x="520" y="1350" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">2</text>
+    <text x="520" y="1410" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Book and Pay</text>
+    <text x="520" y="1435" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Schedule appointment</text>
+    <text x="520" y="1450" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">and make secure payment</text>
+
+    <!-- Arrow 2 -->
+    <text x="620" y="1350" font-family="Arial, sans-serif" font-size="30" fill="#14b8a6">→</text>
+
+    <!-- Step 3 -->
+    <circle cx="760" cy="1340" r="40" fill="#14b8a6"/>
+    <text x="760" y="1350" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">3</text>
+    <text x="760" y="1410" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Get Care</text>
+    <text x="760" y="1435" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Receive quality</text>
+    <text x="760" y="1450" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">healthcare service</text>
+
+    <!-- Arrow 3 -->
+    <text x="860" y="1350" font-family="Arial, sans-serif" font-size="30" fill="#14b8a6">→</text>
+
+    <!-- Step 4 -->
+    <circle cx="1000" cy="1340" r="40" fill="#14b8a6"/>
+    <text x="1000" y="1350" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">4</text>
+    <text x="1000" y="1410" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#111827">Follow Up</text>
+    <text x="1000" y="1435" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Access records and</text>
+    <text x="1000" y="1450" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">continue your care</text>
+
+    <!-- Why Choose Us Section -->
+    <rect x="0" y="1580" width="1400" height="350" fill="#f8fafc"/>
+
+    <text x="700" y="1630" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#111827">Why Choose Open Care?</text>
+    <text x="700" y="1660" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#6b7280">Trusted by thousands of patients across Bangladesh</text>
+
+    <!-- Feature 1 -->
+    <rect x="100" y="1690" width="180" height="120" fill="white" stroke="#14b8a6" stroke-width="1" rx="12"/>
+    <text x="190" y="1720" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#14b8a6">✓</text>
+    <text x="190" y="1745" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Verified Professionals</text>
+    <text x="190" y="1765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">All doctors and medical</text>
+    <text x="190" y="1780" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">staff are verified and</text>
+    <text x="190" y="1795" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">licensed professionals</text>
+
+    <!-- Feature 2 -->
+    <rect x="300" y="1690" width="180" height="120" fill="white" stroke="#14b8a6" stroke-width="1" rx="12"/>
+    <text x="390" y="1720" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#14b8a6">🔒</text>
+    <text x="390" y="1745" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Secure and Private</text>
+    <text x="390" y="1765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Your medical data is</text>
+    <text x="390" y="1780" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">encrypted and protected</text>
+    <text x="390" y="1795" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">with bank-level security</text>
+
+    <!-- Feature 3 -->
+    <rect x="500" y="1690" width="180" height="120" fill="white" stroke="#14b8a6" stroke-width="1" rx="12"/>
+    <text x="590" y="1720" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#14b8a6">⚡</text>
+    <text x="590" y="1745" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Quick Response</text>
+    <text x="590" y="1765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Emergency services</text>
+    <text x="590" y="1780" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">with average response</text>
+    <text x="590" y="1795" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">time under 10 minutes</text>
+
+    <!-- Feature 4 -->
+    <rect x="700" y="1690" width="180" height="120" fill="white" stroke="#14b8a6" stroke-width="1" rx="12"/>
+    <text x="790" y="1720" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#14b8a6">💰</text>
+    <text x="790" y="1745" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Affordable Care</text>
+    <text x="790" y="1765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Transparent pricing</text>
+    <text x="790" y="1780" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">with no hidden costs</text>
+    <text x="790" y="1795" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">and insurance support</text>
+
+    <!-- Feature 5 -->
+    <rect x="900" y="1690" width="180" height="120" fill="white" stroke="#14b8a6" stroke-width="1" rx="12"/>
+    <text x="990" y="1720" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#14b8a6">📱</text>
+    <text x="990" y="1745" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Easy to Use</text>
+    <text x="990" y="1765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">User-friendly platform</text>
+    <text x="990" y="1780" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">available on web and</text>
+    <text x="990" y="1795" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">mobile applications</text>
+
+    <!-- Feature 6 -->
+    <rect x="1100" y="1690" width="180" height="120" fill="white" stroke="#14b8a6" stroke-width="1" rx="12"/>
+    <text x="1190" y="1720" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#14b8a6">🌟</text>
+    <text x="1190" y="1745" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Quality Assurance</text>
+    <text x="1190" y="1765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Continuous monitoring</text>
+    <text x="1190" y="1780" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">and quality checks for</text>
+    <text x="1190" y="1795" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">all healthcare services</text>
+
+    <!-- Testimonials Section -->
+    <rect x="0" y="1930" width="1400" height="300" fill="white"/>
+
+    <text x="700" y="1980" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#111827">What Our Patients Say</text>
+    <text x="700" y="2010" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#6b7280">Real experiences from real people</text>
+
+    <!-- Testimonial 1 -->
+    <rect x="80" y="2040" width="380" height="150" fill="#f0fdfa" stroke="#14b8a6" stroke-width="1" rx="12"/>
+    <text x="100" y="2065" font-family="Arial, sans-serif" font-size="16" fill="#f59e0b">⭐⭐⭐⭐⭐</text>
+    <text x="100" y="2090" font-family="Arial, sans-serif" font-size="14" fill="#111827">"Open Care saved my mother's life during a cardiac</text>
+    <text x="100" y="2110" font-family="Arial, sans-serif" font-size="14" fill="#111827">emergency. The ambulance arrived in 6 minutes and</text>
+    <text x="100" y="2130" font-family="Arial, sans-serif" font-size="14" fill="#111827">the medical team was excellent."</text>
+    <text x="100" y="2160" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#14b8a6">- Rashida Khan, Dhaka</text>
+    <text x="100" y="2175" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Emergency Service Patient</text>
+
+    <!-- Testimonial 2 -->
+    <rect x="480" y="2040" width="380" height="150" fill="#f0fdfa" stroke="#14b8a6" stroke-width="1" rx="12"/>
+    <text x="500" y="2065" font-family="Arial, sans-serif" font-size="16" fill="#f59e0b">⭐⭐⭐⭐⭐</text>
+    <text x="500" y="2090" font-family="Arial, sans-serif" font-size="14" fill="#111827">"I consulted with Dr. Ahmed through video call for</text>
+    <text x="500" y="2110" font-family="Arial, sans-serif" font-size="14" fill="#111827">my diabetes. Very convenient and professional</text>
+    <text x="500" y="2130" font-family="Arial, sans-serif" font-size="14" fill="#111827">service. Highly recommended!"</text>
+    <text x="500" y="2160" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#14b8a6">- Mohammed Ali, Chittagong</text>
+    <text x="500" y="2175" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Telemedicine Patient</text>
+
+    <!-- Testimonial 3 -->
+    <rect x="880" y="2040" width="380" height="150" fill="#f0fdfa" stroke="#14b8a6" stroke-width="1" rx="12"/>
+    <text x="900" y="2065" font-family="Arial, sans-serif" font-size="16" fill="#f59e0b">⭐⭐⭐⭐⭐</text>
+    <text x="900" y="2090" font-family="Arial, sans-serif" font-size="14" fill="#111827">"Found blood donors for my surgery through Open</text>
+    <text x="900" y="2110" font-family="Arial, sans-serif" font-size="14" fill="#111827">Care's blood bank network. The process was so</text>
+    <text x="900" y="2130" font-family="Arial, sans-serif" font-size="14" fill="#111827">smooth and efficient."</text>
+    <text x="900" y="2160" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#14b8a6">- Fatima Begum, Sylhet</text>
+    <text x="900" y="2175" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Blood Bank Service User</text>
+
+    <!-- CTA Section -->
+    <rect x="0" y="2230" width="1400" height="200" fill="linear-gradient(135deg, #14b8a6 0%, #0d9488 100%)"/>
+
+    <text x="700" y="2280" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white">Ready to Take Control of Your Health?</text>
+    <text x="700" y="2310" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="white">Join thousands of satisfied patients who trust Open Care</text>
+
+    <rect x="500" y="2330" width="180" height="50" rx="25" fill="white"/>
+    <text x="590" y="2360" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#14b8a6">🚀 Get Started Now</text>
+
+    <rect x="700" y="2330" width="150" height="50" rx="25" fill="none" stroke="white" stroke-width="2"/>
+    <text x="775" y="2360" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">📞 Contact Us</text>
+
+    <!-- Footer -->
+    <rect x="0" y="2430" width="1400" height="200" fill="#1f2937"/>
+
+    <!-- Footer Content -->
+    <text x="100" y="2470" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Open Care</text>
+    <text x="100" y="2490" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Healthcare Made Simple</text>
+
+    <!-- Footer Links -->
+    <text x="100" y="2520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Services</text>
+    <text x="100" y="2540" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Doctor Consultation</text>
+    <text x="100" y="2555" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Emergency Ambulance</text>
+    <text x="100" y="2570" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Blood Bank</text>
+    <text x="100" y="2585" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Health Records</text>
+
+    <text x="300" y="2520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Company</text>
+    <text x="300" y="2540" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">About Us</text>
+    <text x="300" y="2555" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Privacy Policy</text>
+    <text x="300" y="2570" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Terms of Service</text>
+    <text x="300" y="2585" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Contact</text>
+
+    <text x="500" y="2520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Support</text>
+    <text x="500" y="2540" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Help Center</text>
+    <text x="500" y="2555" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Emergency Hotline</text>
+    <text x="500" y="2570" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Live Chat</text>
+    <text x="500" y="2585" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">FAQs</text>
+
+    <!-- Contact Info -->
+    <text x="900" y="2470" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Emergency Hotline</text>
+    <text x="900" y="2490" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#14b8a6">+880-1777-999888</text>
+    <text x="900" y="2515" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">📧 support@opencare.com.bd</text>
+    <text x="900" y="2535" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">📍 Dhaka, Bangladesh</text>
+
+    <!-- Social Media -->
+    <text x="900" y="2565" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Follow Us</text>
+    <circle cx="920" cy="2585" r="15" fill="#14b8a6"/>
+    <text x="920" y="2592" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">f</text>
+    <circle cx="950" cy="2585" r="15" fill="#14b8a6"/>
+    <text x="950" y="2592" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">t</text>
+    <circle cx="980" cy="2585" r="15" fill="#14b8a6"/>
+    <text x="980" y="2592" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">in</text>
+
+    <!-- Copyright -->
+    <rect x="0" y="2600" width="1400" height="30" fill="#111827"/>
+    <text x="700" y="2620" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 Open Care. All rights reserved. | Licensed Healthcare Platform | ISO 9001:2015 Certified</text>
+</svg>
