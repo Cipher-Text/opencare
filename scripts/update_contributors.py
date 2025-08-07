@@ -87,22 +87,25 @@ class ContributorAggregator:
         )
 
         categories = {
-            'core': [],      # 100+ contributions
-            'active': [],    # 50-99 contributions
-            'regular': [],   # 10-49 contributions
-            'new': []        # 1-9 contributions
+            'hall_of_fame': [],  # 500+ contributions
+            'elite': [],         # 100-499 contributions
+            'rising_stars': [],  # 50-99 contributions
+            'dedicated': [],     # 10-49 contributions
+            'budding': []        # 1-9 contributions
         }
 
         for login, data in sorted_contributors:
             total = data['total_contributions']
-            if total >= 100:
-                categories['core'].append((login, data))
+            if total >= 500:
+                categories['hall_of_fame'].append((login, data))
+            elif total >= 100:
+                categories['elite'].append((login, data))
             elif total >= 50:
-                categories['active'].append((login, data))
+                categories['rising_stars'].append((login, data))
             elif total >= 10:
-                categories['regular'].append((login, data))
+                categories['dedicated'].append((login, data))
             else:
-                categories['new'].append((login, data))
+                categories['budding'].append((login, data))
 
         return categories
 
@@ -176,27 +179,33 @@ class ContributorAggregator:
 
         # Contributor tables
         markdown += self.generate_contributor_table(
-            categories['core'],
-            "Core Contributors (100+ contributions)",
+            categories['hall_of_fame'],
+            "Hall of Fame (500+ contributions)",
+            "🌟"
+        )
+
+        markdown += self.generate_contributor_table(
+            categories['elite'],
+            "Elite Contributors (100-499 contributions)",
             "🥇"
         )
 
         markdown += self.generate_contributor_table(
-            categories['active'],
-            "Active Contributors (50-99 contributions)",
+            categories['rising_stars'],
+            "Rising Stars (50-99 contributions)",
             "🥈"
         )
 
         markdown += self.generate_contributor_table(
-            categories['regular'],
-            "Contributors (10-49 contributions)",
+            categories['dedicated'],
+            "Dedicated Contributors (10-49 contributions)",
             "🥉"
         )
 
         markdown += self.generate_contributor_table(
-            categories['new'],
-            "New Contributors (1-9 contributions)",
-            "🌟"
+            categories['budding'],
+            "Budding Contributors (1-9 contributions)",
+            "🌱"
         )
 
         # Repository statistics
