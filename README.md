@@ -42,6 +42,7 @@
     <li><a href="#api-reference">API Reference</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#project-management">Project Management</a></li>
     <li><a href="#contributors">Contributors</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -328,6 +329,8 @@ We welcome contributions from the community! Whether you're a developer, healthc
 
 Please read our [CONTRIBUTION.md](CONTRIBUTION.md) file for detailed guidelines on how to contribute to the project.
 
+For comprehensive project management guidelines including GitHub workflow, issue management, and estimation practices, please refer to our [PROJECT_GUIDE.md](docs/PROJECT_GUIDE.md).
+
 ### Quick Start for Contributors
 
 1. **Choose a Repository**: Frontend, Backend, or Mobile
@@ -335,6 +338,8 @@ Please read our [CONTRIBUTION.md](CONTRIBUTION.md) file for detailed guidelines 
 3. **Set Up Development Environment**: Follow the setup instructions in the respective repository
 4. **Pick an Issue**: Look for "good first issue" labels on our GitHub issues
 5. **Submit a Pull Request**: Follow our PR template and guidelines
+
+> **💡 Pro Tip**: For detailed project management guidelines, GitHub workflow, and issue management best practices, check out our [PROJECT_GUIDE.md](docs/PROJECT_GUIDE.md).
 
 ### Areas for Contribution
 
@@ -346,6 +351,30 @@ Please read our [CONTRIBUTION.md](CONTRIBUTION.md) file for detailed guidelines 
 - **Testing**: Unit tests, integration tests, and end-to-end tests
 - **UI/UX**: Design improvements and accessibility features
 - **Medical Content**: Curated medical information and resources
+
+## 🏷️ Project Management
+
+Our project follows a structured approach to task management, issue tracking, and development workflow. We use GitHub Projects, comprehensive labeling systems, and standardized processes to ensure efficient collaboration.
+
+### 📋 What's Included in Our Project Guide
+
+- **GitHub Projects Setup**: Board configuration and workflow columns
+- **Issue Management**: Comprehensive labeling system and templates
+- **Time Estimation**: Story points and planning guidelines
+- **Workflow Process**: Step-by-step development lifecycle
+- **Milestone Management**: Release planning and tracking
+- **Best Practices**: Commit conventions and branch naming
+
+### 📖 Get Started with Project Management
+
+For complete project management guidelines, visit our comprehensive [PROJECT_GUIDE.md](docs/PROJECT_GUIDE.md) documentation.
+
+This guide covers everything you need to know about:
+- Creating and managing issues effectively
+- Using our labeling system for categorization
+- Estimating task complexity and time requirements
+- Following our development workflow
+- Contributing to project planning and releases
 
 ## 👥 Contributors
 We are grateful for the contributions of our community members. Check out the [CONTRIBUTORS.md](CONTRIBUTORS.md) file for a complete list of contributors and their contributions.
