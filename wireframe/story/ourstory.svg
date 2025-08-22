@@ -1,0 +1,265 @@
+<svg width="1400" height="3200" viewBox="0 0 1400 3200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1400" height="3000" fill="#f8fafc"/>
+    <!-- Header Gradient -->
+    <rect x="0" y="0" width="1400" height="220" rx="24" fill="url(#headerGradient)"/>
+    <text x="700" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="white">Our Story</text>
+    <text x="700" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#e0f7fa">Building the future of healthcare access in Bangladesh through technology and innovation</text>
+    <rect x="600" y="150" width="200" height="36" rx="18" fill="#2dd4bf"/>
+    <text x="700" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Our Mission</text>
+
+    <!-- Mission & Vision Cards -->
+    <rect x="80" y="260" width="600" height="180" rx="18" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="120" y="295" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2dd4bf">Our Mission</text>
+    <text x="120" y="325" font-family="Arial, sans-serif" font-size="14" fill="#374151">
+        To democratize healthcare access in Bangladesh by providing a comprehensive, user-friendly platform that connects patients with qualified healthcare providers.
+    </text>
+    <text x="120" y="355" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">
+        - Make healthcare information easily accessible to everyone
+    </text>
+    <text x="120" y="375" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">
+        - Empower patients with informed decision-making tools
+    </text>
+    <text x="120" y="395" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">
+        - Support healthcare providers with digital presence
+    </text>
+    <text x="120" y="415" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">
+        - Improve healthcare outcomes through better connectivity
+    </text>
+
+    <rect x="720" y="260" width="600" height="180" rx="18" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="760" y="295" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2dd4bf">Our Vision</text>
+    <text x="760" y="325" font-family="Arial, sans-serif" font-size="14" fill="#374151">
+        To become the leading healthcare information platform in Bangladesh, revolutionizing how people access and interact with healthcare services.
+    </text>
+    <text x="760" y="355" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">
+        - Comprehensive healthcare ecosystem
+    </text>
+    <text x="760" y="375" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">
+        - Easy and reliable healthcare information
+    </text>
+    <text x="760" y="395" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">
+        - Integrated telemedicine solutions
+    </text>
+    <text x="760" y="415" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">
+        - National healthcare data hub
+    </text>
+
+    <!-- Core Values -->
+    <text x="700" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#111827">Our Core Values</text>
+    <g>
+        <rect x="120" y="510" width="280" height="110" rx="14" fill="white" stroke="#2dd4bf" stroke-width="1"/>
+        <text x="260" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#2dd4bf">❤️</text>
+        <text x="260" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Patient-Centric</text>
+        <text x="260" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Every feature is designed with patients’ needs in mind</text>
+    </g>
+    <g>
+        <rect x="380" y="510" width="280" height="110" rx="14" fill="white" stroke="#2dd4bf" stroke-width="1"/>
+        <text x="520" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#2dd4bf">👁️</text>
+        <text x="520" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Transparency</text>
+        <text x="520" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Clear and honest information about healthcare providers</text>
+    </g>
+    <g>
+        <rect x="640" y="510" width="280" height="110" rx="14" fill="white" stroke="#2dd4bf" stroke-width="1"/>
+        <text x="780" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#2dd4bf">🏆</text>
+        <text x="780" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Quality</text>
+        <text x="780" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Maintaining high standards in healthcare information</text>
+    </g>
+    <g>
+        <rect x="900" y="510" width="280" height="110" rx="14" fill="white" stroke="#2dd4bf" stroke-width="1"/>
+        <text x="1040" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#2dd4bf">💡</text>
+        <text x="1040" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Innovation</text>
+        <text x="1040" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Continuously innovating healthcare technology</text>
+    </g>
+
+    <!-- Project Goals & Impact -->
+    <text x="700" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#111827">Project Goals and Impact</text>
+    <rect x="120" y="690" width="540" height="160" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="150" y="720" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">Primary Goals</text>
+    <text x="150" y="745" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">• Create a comprehensive healthcare provider directory</text>
+    <text x="150" y="765" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">• Improve healthcare accessibility in rural areas</text>
+    <text x="150" y="785" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">• Reduce healthcare inefficiencies in inventory</text>
+    <text x="150" y="805" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">• Support digital transformation in healthcare</text>
+    <text x="150" y="825" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">• Enable data-driven healthcare decisions</text>
+
+    <rect x="740" y="690" width="540" height="160" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="770" y="720" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">Expected Impact</text>
+    <text x="770" y="745" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">• Healthcare Access: 85% improvement in rural areas</text>
+    <text x="770" y="765" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">• Service Speed: 60% reduction in search time</text>
+    <text x="770" y="785" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">• Healthcare Providers: 5,000 listed</text>
+    <text x="770" y="805" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">• User Satisfaction: 92% based on user feedback</text>
+
+    <!-- Team Section Title -->
+    <text x="700" y="880" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#111827">Meet Our Development Team</text>
+    <!-- Team Cards (avatars as colored circles with initials) -->
+    <g>
+        <rect x="120" y="910" width="200" height="120" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <circle cx="170" cy="950" r="28" fill="#2dd4bf"/>
+        <text x="170" y="960" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">I</text>
+        <text x="210" y="940" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">imran110219</text>
+        <text x="210" y="960" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Lead Developer</text>
+        <text x="210" y="980" font-family="Arial, sans-serif" font-size="12" fill="#2dd4bf">Contributions: 50</text>
+    </g>
+    <g>
+        <rect x="340" y="910" width="200" height="120" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <circle cx="390" cy="950" r="28" fill="#2dd4bf"/>
+        <text x="390" y="960" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">S</text>
+        <text x="430" y="940" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">snehadevi</text>
+        <text x="430" y="960" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Contributor</text>
+        <text x="430" y="980" font-family="Arial, sans-serif" font-size="12" fill="#2dd4bf">Contributions: 28</text>
+    </g>
+    <g>
+        <rect x="560" y="910" width="200" height="120" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <circle cx="610" cy="950" r="28" fill="#2dd4bf"/>
+        <text x="610" y="960" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">H</text>
+        <text x="650" y="940" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">Habib2959</text>
+        <text x="650" y="960" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Contributor</text>
+        <text x="650" y="980" font-family="Arial, sans-serif" font-size="12" fill="#2dd4bf">Contributions: 11</text>
+    </g>
+    <g>
+        <rect x="780" y="910" width="200" height="120" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <circle cx="830" cy="950" r="28" fill="#2dd4bf"/>
+        <text x="830" y="960" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">M</text>
+        <text x="870" y="940" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#111827">mazharku</text>
+        <text x="870" y="960" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Contributor</text>
+        <text x="870" y="980" font-family="Arial, sans-serif" font-size="12" fill="#2dd4bf">Contributions: 9</text>
+    </g>
+    <!-- Add more team cards as needed, following the above pattern -->
+
+    <!-- Project Timeline -->
+    <text x="700" y="1080" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#111827">Project Timeline</text>
+    <rect x="320" y="1110" width="320" height="90" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="340" y="1140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">2024</text>
+    <text x="340" y="1160" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Project Launch</text>
+    <text x="340" y="1180" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Open Care platform officially launched with core features:</text>
+    <text x="340" y="1200" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">- Initial platform development</text>
+    <text x="340" y="1215" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">- Doctor directory</text>
+    <text x="340" y="1230" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">- Hospital listings</text>
+
+    <rect x="760" y="1110" width="320" height="90" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="780" y="1140" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">2023</text>
+    <text x="780" y="1160" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Development Phase</text>
+    <text x="780" y="1180" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Intensive development and testing phase</text>
+    <text x="780" y="1200" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">- Backend API development</text>
+    <text x="780" y="1215" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">- Frontend implementation</text>
+    <text x="780" y="1230" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">- Database design</text>
+
+    <rect x="540" y="1250" width="320" height="90" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="560" y="1280" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">2022</text>
+    <text x="560" y="1300" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Planning and Research</text>
+    <text x="560" y="1320" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Comprehensive market research and planning</text>
+    <text x="560" y="1340" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">- Market analysis</text>
+    <text x="560" y="1355" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">- User research</text>
+    <text x="560" y="1370" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">- Technology stack selection</text>
+
+    <!-- Technology Stack -->
+    <text x="700" y="1420" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#111827">Technology Stack</text>
+    <g>
+        <rect x="120" y="1450" width="280" height="110" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="260" y="1480" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">Frontend</text>
+        <text x="260" y="1500" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">React, TypeScript, Ant Design</text>
+    </g>
+    <g>
+        <rect x="420" y="1450" width="280" height="110" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="560" y="1480" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">Backend</text>
+        <text x="560" y="1500" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">NodeJS, Express, MongoDB</text>
+    </g>
+    <g>
+        <rect x="720" y="1450" width="280" height="110" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="860" y="1480" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">DevOps</text>
+        <text x="860" y="1500" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Docker, GitHub Actions</text>
+    </g>
+    <g>
+        <rect x="1020" y="1450" width="280" height="110" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="1160" y="1480" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">Tools</text>
+        <text x="1160" y="1500" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#6b7280">Git, Figma, Postman</text>
+    </g>
+
+    <!-- Key Features & Capabilities -->
+    <text x="700" y="1580" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#111827">Key Features and Capabilities</text>
+    <g>
+        <rect x="120" y="1610" width="280" height="90" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="260" y="1640" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">Doctor Directory</text>
+        <text x="260" y="1660" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Comprehensive database of qualified healthcare professionals</text>
+    </g>
+    <g>
+        <rect x="420" y="1610" width="280" height="90" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="560" y="1640" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">Hospital Listings</text>
+        <text x="560" y="1660" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Complete information about hospitals, clinics, and medical facilities</text>
+    </g>
+    <g>
+        <rect x="720" y="1610" width="280" height="90" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="860" y="1640" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">Medical Education</text>
+        <text x="860" y="1660" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Information about medical institutions and educational programs</text>
+    </g>
+    <g>
+        <rect x="1020" y="1610" width="280" height="90" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="1160" y="1640" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">Secure Platform</text>
+        <text x="1160" y="1660" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">HIPAA-compliant security measures to protect sensitive health information</text>
+    </g>
+    <g>
+        <rect x="120" y="1710" width="280" height="90" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="260" y="1740" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">Mobile Responsive</text>
+        <text x="260" y="1760" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Optimized for all devices with seamless mobile experience</text>
+    </g>
+    <g>
+        <rect x="420" y="1710" width="280" height="90" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="560" y="1740" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">Multi-language</text>
+        <text x="560" y="1760" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Support for Bangla and English languages for better accessibility</text>
+    </g>
+    <g>
+        <rect x="720" y="1710" width="280" height="90" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="860" y="1740" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">User-Friendly</text>
+        <text x="860" y="1760" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Intuitive interface designed for easy navigation and usability</text>
+    </g>
+    <g>
+        <rect x="1020" y="1710" width="280" height="90" rx="14" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+        <text x="1160" y="1740" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2dd4bf">Community Support</text>
+        <text x="1160" y="1760" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Engagement with healthcare professionals and users for continuous improvement</text>
+    </g>
+
+    <!-- Footer -->
+    <rect x="0" y="2430" width="1400" height="200" fill="#1f2937"/>
+
+    <!-- Footer Content -->
+    <text x="100" y="2470" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">Open Care</text>
+    <text x="100" y="2490" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">Healthcare Made Simple</text>
+
+    <!-- Footer Links -->
+    <text x="100" y="2520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Services</text>
+    <text x="100" y="2540" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Doctor Consultation</text>
+    <text x="100" y="2555" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Emergency Ambulance</text>
+    <text x="100" y="2570" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Blood Bank</text>
+    <text x="100" y="2585" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Health Records</text>
+
+    <text x="300" y="2520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Company</text>
+    <text x="300" y="2540" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">About Us</text>
+    <text x="300" y="2555" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Privacy Policy</text>
+    <text x="300" y="2570" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Terms of Service</text>
+    <text x="300" y="2585" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Contact</text>
+
+    <text x="500" y="2520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Support</text>
+    <text x="500" y="2540" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Help Center</text>
+    <text x="500" y="2555" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Emergency Hotline</text>
+    <text x="500" y="2570" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Live Chat</text>
+    <text x="500" y="2585" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">FAQs</text>
+
+    <!-- Contact Info -->
+    <text x="900" y="2470" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Emergency Hotline</text>
+    <text x="900" y="2490" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#14b8a6">+880-1777-999888</text>
+    <text x="900" y="2515" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">📧 support@opencare.com.bd</text>
+    <text x="900" y="2535" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">📍 Dhaka, Bangladesh</text>
+
+    <!-- Social Media -->
+    <text x="900" y="2565" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Follow Us</text>
+    <circle cx="920" cy="2585" r="15" fill="#14b8a6"/>
+    <text x="920" y="2592" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">f</text>
+    <circle cx="950" cy="2585" r="15" fill="#14b8a6"/>
+    <text x="950" y="2592" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">t</text>
+    <circle cx="980" cy="2585" r="15" fill="#14b8a6"/>
+    <text x="980" y="2592" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">in</text>
+
+    <!-- Copyright -->
+    <rect x="0" y="2600" width="1400" height="30" fill="#111827"/>
+    <text x="700" y="2620" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 Open Care. All rights reserved. | Licensed Healthcare Platform | ISO 9001:2015 Certified</text>
+</svg>
