@@ -1,0 +1,268 @@
+<svg width="1200" height="2800" viewBox="0 0 1200 2800" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1200" height="2800" fill="#f9fafb"/>
+
+    <!-- Container -->
+    <rect x="100" y="50" width="1000" height="2700" fill="none"/>
+
+    <!-- Header - Edit Profile -->
+    <rect x="120" y="80" width="960" height="120" rx="12" fill="white" stroke="#5eead4" stroke-width="2"/>
+    <text x="140" y="140" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#0f766e">Edit Doctor Profile</text>
+    <text x="140" y="170" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Update your information and add your qualifications</text>
+
+    <!-- Profile Image Section -->
+    <rect x="120" y="220" width="260" height="280" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+    <circle cx="250" cy="320" r="80" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="4"/>
+    <text x="250" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#0f766e">DS</text>
+
+    <!-- Upload Photo Button -->
+    <rect x="170" y="430" width="160" height="40" rx="6" fill="#14b8a6"/>
+    <text x="250" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="white">Upload Photo</text>
+
+    <!-- Personal Information Card -->
+    <rect x="400" y="220" width="680" height="280" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+    <text x="420" y="250" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Personal Information</text>
+
+    <!-- Form Fields -->
+    <!-- Name Field -->
+    <text x="420" y="280" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Full Name *</text>
+    <rect x="420" y="290" width="300" height="40" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="430" y="315" font-family="Arial, sans-serif" font-size="14" fill="#111827">Dr. Md Sidur Rahman</text>
+
+    <!-- Gender Field -->
+    <text x="740" y="280" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Gender *</text>
+    <rect x="740" y="290" width="300" height="40" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+
+    <!-- Gender Options -->
+    <circle cx="760" cy="310" r="8" fill="white" stroke="#2dd4bf" stroke-width="1.5"/>
+    <circle cx="760" cy="310" r="4" fill="#2dd4bf"/>
+    <text x="775" y="315" font-family="Arial, sans-serif" font-size="14" fill="#111827">Female</text>
+
+    <circle cx="850" cy="310" r="8" fill="white" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="865" y="315" font-family="Arial, sans-serif" font-size="14" fill="#111827">Male</text>
+
+    <circle cx="930" cy="310" r="8" fill="white" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="945" y="315" font-family="Arial, sans-serif" font-size="14" fill="#111827">Other</text>
+
+    <!-- BMDC Field -->
+    <text x="420" y="350" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">BMDC Registration Number *</text>
+    <rect x="420" y="360" width="300" height="40" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="430" y="385" font-family="Arial, sans-serif" font-size="14" fill="#111827">A-52508</text>
+
+    <!-- Phone Field -->
+    <text x="740" y="350" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Phone Number *</text>
+    <rect x="740" y="360" width="300" height="40" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="750" y="385" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8">Enter your phone number</text>
+
+    <!-- Email Field -->
+    <text x="420" y="420" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Email Address</text>
+    <rect x="420" y="430" width="300" height="40" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="750" y="455" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8">Enter your email address</text>
+
+    <!-- Blood Group Field -->
+    <text x="740" y="420" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Blood Group</text>
+    <rect x="740" y="430" width="300" height="40" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="750" y="455" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8">Select blood group</text>
+
+    <!-- Dropdown Arrow -->
+    <path d="M1020 450 L1010 440 L1030 440 Z" fill="#94a3b8"/>
+
+    <!-- Specialization Card -->
+    <rect x="120" y="520" width="960" height="220" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+    <text x="140" y="550" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Specialization</text>
+
+    <!-- Primary Specialization -->
+    <text x="140" y="580" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Primary Specialization *</text>
+    <rect x="140" y="590" width="450" height="40" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="150" y="615" font-family="Arial, sans-serif" font-size="14" fill="#111827">Allergy and immunology</text>
+    <!-- Dropdown Arrow -->
+    <path d="M580 610 L570 600 L590 600 Z" fill="#94a3b8"/>
+
+    <!-- Other Specializations -->
+    <text x="610" y="580" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Other Specializations</text>
+    <rect x="610" y="590" width="450" height="40" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="620" y="615" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8">Select specialization</text>
+    <!-- Dropdown Arrow -->
+    <path d="M1050 610 L1040 600 L1060 600 Z" fill="#94a3b8"/>
+
+    <!-- Add Specialization Button -->
+    <rect x="900" y="650" width="160" height="36" rx="6" fill="none" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="970" y="672" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#0f766e">+ Add More</text>
+
+    <!-- Qualification & Degrees -->
+    <text x="140" y="650" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Highest Qualification *</text>
+    <rect x="140" y="660" width="450" height="40" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="150" y="685" font-family="Arial, sans-serif" font-size="14" fill="#111827">MBBS</text>
+    <!-- Dropdown Arrow -->
+    <path d="M580 680 L570 670 L590 670 Z" fill="#94a3b8"/>
+
+    <!-- Education Section -->
+    <rect x="120" y="760" width="960" height="500" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+
+    <!-- Education Header -->
+    <g transform="translate(140, 780)">
+        <rect x="0" y="6" width="16" height="2" rx="1" fill="#0f766e"/>
+        <polygon points="8,2 2,6 14,6" fill="#0f766e"/>
+        <text x="25" y="12" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Education</text>
+    </g>
+
+    <!-- Education Item 1 -->
+    <rect x="140" y="820" width="920" height="180" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+
+    <!-- Degree Field -->
+    <text x="160" y="850" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Degree Title *</text>
+    <rect x="160" y="860" width="420" height="40" rx="6" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="170" y="885" font-family="Arial, sans-serif" font-size="14" fill="#111827">Bachelor of Medicine and Bachelor of Surgery (MBBS)</text>
+
+    <!-- Institution Field -->
+    <text x="600" y="850" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Institution *</text>
+    <rect x="600" y="860" width="420" height="40" rx="6" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="610" y="885" font-family="Arial, sans-serif" font-size="14" fill="#111827">Dhaka Medical College</text>
+
+    <!-- Location Field -->
+    <text x="160" y="920" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Location</text>
+    <rect x="160" y="930" width="250" height="40" rx="6" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="170" y="955" font-family="Arial, sans-serif" font-size="14" fill="#111827">Dhaka</text>
+
+    <!-- Year Field -->
+    <text x="430" y="920" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Year</text>
+    <rect x="430" y="930" width="150" height="40" rx="6" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="440" y="955" font-family="Arial, sans-serif" font-size="14" fill="#111827">2015</text>
+
+    <!-- Level Field -->
+    <text x="600" y="920" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Level</text>
+    <rect x="600" y="930" width="250" height="40" rx="6" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="610" y="955" font-family="Arial, sans-serif" font-size="14" fill="#111827">UNDERGRADUATE</text>
+    <!-- Dropdown Arrow -->
+    <path d="M840 950 L830 940 L850 940 Z" fill="#94a3b8"/>
+
+    <!-- Remove Button -->
+    <rect x="870" y="930" width="150" height="40" rx="6" fill="#fee2e2" stroke="#fecaca" stroke-width="1"/>
+    <text x="945" y="955" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#ef4444">Remove</text>
+
+    <!-- Education Item 2 (Empty) -->
+    <rect x="140" y="1020" width="920" height="180" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4"/>
+    <text x="600" y="1110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Add another education entry</text>
+
+    <!-- Add Education Button -->
+    <rect x="820" y="1210" width="240" height="40" rx="6" fill="none" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="940" y="1235" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#0f766e">+ Add Another Education</text>
+
+    <!-- Workplace Section -->
+    <rect x="120" y="1280" width="960" height="500" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+
+    <!-- Workplace Header -->
+    <g transform="translate(140, 1300)">
+        <rect x="0" y="2" width="16" height="12" rx="1" stroke="#0f766e" stroke-width="1.5" fill="none"/>
+        <rect x="2" y="0" width="12" height="4" fill="#0f766e"/>
+        <text x="25" y="12" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Workplace</text>
+    </g>
+
+    <!-- Workplace Item 1 -->
+    <rect x="140" y="1340" width="920" height="180" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+
+    <!-- Hospital Name Field -->
+    <text x="160" y="1370" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Hospital/Institution Name *</text>
+    <rect x="160" y="1380" width="420" height="40" rx="6" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="170" y="1405" font-family="Arial, sans-serif" font-size="14" fill="#111827">Dhaka Medical College Hospital</text>
+
+    <!-- Position Field -->
+    <text x="600" y="1370" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Position *</text>
+    <rect x="600" y="1380" width="420" height="40" rx="6" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="610" y="1405" font-family="Arial, sans-serif" font-size="14" fill="#111827">Surgeon</text>
+
+    <!-- Location Field -->
+    <text x="160" y="1440" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Location</text>
+    <rect x="160" y="1450" width="250" height="40" rx="6" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="170" y="1475" font-family="Arial, sans-serif" font-size="14" fill="#111827">Dhaka</text>
+
+    <!-- Website Field -->
+    <text x="430" y="1440" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Website</text>
+    <rect x="430" y="1450" width="420" height="40" rx="6" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="440" y="1475" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8">Enter website URL</text>
+
+    <!-- Remove Button -->
+    <rect x="870" y="1450" width="150" height="40" rx="6" fill="#fee2e2" stroke="#fecaca" stroke-width="1"/>
+    <text x="945" y="1475" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#ef4444">Remove</text>
+
+    <!-- Workplace Item 2 (Empty) -->
+    <rect x="140" y="1540" width="920" height="180" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4"/>
+    <text x="600" y="1630" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Add another workplace entry</text>
+
+    <!-- Add Workplace Button -->
+    <rect x="820" y="1730" width="240" height="40" rx="6" fill="none" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="940" y="1755" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#0f766e">+ Add Another Workplace</text>
+
+    <!-- Association Section -->
+    <rect x="120" y="1800" width="960" height="500" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+
+    <!-- Association Header -->
+    <g transform="translate(140, 1820)">
+        <rect x="2" y="2" width="12" height="12" rx="2" stroke="#0f766e" stroke-width="1.5" fill="none"/>
+        <circle cx="8" cy="8" r="2" fill="#0f766e"/>
+        <text x="25" y="12" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Professional Associations</text>
+    </g>
+
+    <!-- Association Item 1 -->
+    <rect x="140" y="1860" width="920" height="180" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+
+    <!-- Association Name Field -->
+    <text x="160" y="1890" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Association Name *</text>
+    <rect x="160" y="1900" width="420" height="40" rx="6" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="170" y="1925" font-family="Arial, sans-serif" font-size="14" fill="#111827">Bangladesh Medical Association (BMA)</text>
+
+    <!-- Member Since Field -->
+    <text x="600" y="1890" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Member Since *</text>
+    <rect x="600" y="1900" width="420" height="40" rx="6" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="610" y="1925" font-family="Arial, sans-serif" font-size="14" fill="#111827">2018</text>
+
+    <!-- Member ID Field -->
+    <text x="160" y="1960" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Member ID</text>
+    <rect x="160" y="1970" width="250" height="40" rx="6" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="170" y="1995" font-family="Arial, sans-serif" font-size="14" fill="#111827">BMA-2018-5247</text>
+
+    <!-- Status Field -->
+    <text x="430" y="1960" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Status</text>
+    <rect x="430" y="1970" width="250" height="40" rx="6" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="440" y="1995" font-family="Arial, sans-serif" font-size="14" fill="#111827">ACTIVE MEMBER</text>
+    <!-- Dropdown Arrow -->
+    <path d="M670 1990 L660 1980 L680 1980 Z" fill="#94a3b8"/>
+
+    <!-- Remove Button -->
+    <rect x="700" y="1970" width="150" height="40" rx="6" fill="#fee2e2" stroke="#fecaca" stroke-width="1"/>
+    <text x="775" y="1995" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#ef4444">Remove</text>
+
+    <!-- Association Item 2 -->
+    <rect x="140" y="2060" width="920" height="180" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4"/>
+    <text x="600" y="2150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Add another association entry</text>
+
+    <!-- Add Association Button -->
+    <rect x="820" y="2250" width="240" height="40" rx="6" fill="none" stroke="#2dd4bf" stroke-width="1"/>
+    <text x="940" y="2275" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#0f766e">+ Add Another Association</text>
+
+    <!-- Schedule Section -->
+    <rect x="120" y="2320" width="960" height="240" rx="12" fill="white" stroke="#5eead4" stroke-width="1"/>
+    <g transform="translate(140, 2340)">
+        <rect x="0" y="0" width="16" height="16" rx="2" stroke="#0f766e" stroke-width="1.5" fill="none"/>
+        <path d="M4 8 L8 12 L12 4" stroke="#0f766e" stroke-width="1.5" fill="none"/>
+        <text x="25" y="12" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0f766e">Schedule Management</text>
+    </g>
+
+    <text x="140" y="2380" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">To edit your weekly schedule, please use the Schedule Management page.</text>
+    <rect x="140" y="2410" width="240" height="40" rx="6" fill="#14b8a6"/>
+    <text x="260" y="2435" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="white">Manage Schedule</text>
+
+    <!-- Action Buttons -->
+    <rect x="120" y="2580" width="960" height="100" rx="12" fill="#f0fdfa"/>
+
+    <!-- Save Button -->
+    <rect x="740" y="2610" width="160" height="40" rx="6" fill="#14b8a6"/>
+    <text x="820" y="2635" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="white">Save Changes</text>
+
+    <!-- Cancel Button -->
+    <rect x="920" y="2610" width="140" height="40" rx="6" fill="white" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="990" y="2635" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#6b7280">Cancel</text>
+
+    <!-- Footer -->
+    <text x="600" y="2720" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">© 2025 Medical Directory. All rights reserved.</text>
+</svg>
