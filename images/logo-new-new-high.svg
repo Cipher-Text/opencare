@@ -1,0 +1,19 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+    <!-- Main circular background -->
+    <circle cx="60" cy="60" r="50" fill="#2dd4bf" stroke="#14b8a6" stroke-width="0"/>
+
+    <!-- Inner white circle for contrast -->
+    <circle cx="60" cy="60" r="38" fill="white"/>
+
+    <!-- Medical cross (simplified) -->
+    <rect x="55" y="40" width="10" height="40" fill="#2dd4bf" rx="2"/>
+    <rect x="40" y="55" width="40" height="10" fill="#2dd4bf" rx="2"/>
+
+    <!-- Heart accent (subtle) -->
+    <path d="M60,48 C57,42 51,42 51,48 C51,52 55,56 60,62 C65,56 69,52 69,48 C69,42 63,42 60,48Z"
+          fill="#2dd4bf" opacity="0.3"/>
+
+    <!-- Care hands (bottom) -->
+    <path d="M42,78 Q48,74 54,78" stroke="#2dd4bf" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M66,78 Q72,74 78,78" stroke="#2dd4bf" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>
