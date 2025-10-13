@@ -11,7 +11,7 @@
     <br />
     <a href="https://opencarebd.com/">View Live Demo</a>
     ·
-    <a href="http://46.102.157.211:6700/swagger-ui/index.html">API Documentation</a>
+    <a href="https://api.opencarebd.com/swagger-ui/index.html">API Documentation</a>
     ·
     <a href="https://github.com/Cipher-Text/opencare/issues">Report Bug</a>
     ·
