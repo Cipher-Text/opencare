@@ -43,6 +43,7 @@
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#project-management">Project Management</a></li>
+    <li><a href="docs/CODE_REVIEW.md">Code Review & Architecture Observations</a></li>
     <li><a href="#contributors">Contributors</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
