@@ -105,7 +105,7 @@ This project is organized into separate repositories for better maintainability 
 | Service | URL | Description |
 |---------|-----|-------------|
 | **Live Application** | [https://opencarebd.com/](https://opencarebd.com/) | Full-featured web application |
-| **API Documentation** | [http://46.102.157.211:6700/swagger-ui/index.html](http://46.102.157.211:6700/swagger-ui/index.html) | Interactive API documentation |
+| **API Documentation** | [https://api.opencarebd.com/swagger-ui/index.html](https://api.opencarebd.com/swagger-ui/index.html) | Interactive API documentation |
 
 > **Note**: Demo servers are for testing purposes and may have limited uptime. For production use, please deploy your own instance.
 
@@ -115,8 +115,9 @@ This project is organized into separate repositories for better maintainability 
 - **Framework**: [Next.js](https://nextjs.org/) - React framework for production
 - **Styling**: [TailwindCSS](https://tailwindcss.com/) - Utility-first CSS framework
 - **UI Components**: Custom components with accessibility focus
-- **State Management**: React Context API / Redux Toolkit
-- **HTTP Client**: Axios for API communication
+- **State Management**: TanStack React Query for server state
+- **Forms & Validation**: React Hook Form with Zod schema validation
+- **HTTP Client**: Fetch API via TanStack Query
 - **Type Safety**: TypeScript for enhanced development experience
 
 ### Mobile
@@ -128,7 +129,7 @@ This project is organized into separate repositories for better maintainability 
 - **Type Safety**: TypeScript for enhanced development experience
 
 ### Backend
-- **Runtime**: [Java 17+](https://www.java.com/) - Enterprise-grade runtime environment
+- **Runtime**: [Java 21](https://www.java.com/) - Enterprise-grade runtime environment
 - **Framework**: [Spring Boot](https://spring.io/projects/spring-boot) - Production-ready application framework
 - **Database**: [PostgreSQL](https://www.postgresql.org/) - Advanced open-source relational database
 - **API Documentation**: [Swagger/OpenAPI](https://swagger.io/) - Interactive API documentation
@@ -143,7 +144,7 @@ This project is organized into separate repositories for better maintainability 
 
 ### Infrastructure
 - **Deployment**: Docker containers for consistent deployment
-- **Database Migration**: Flyway for version-controlled database changes
+- **Database Migration**: Liquibase for version-controlled database changes
 - **Monitoring**: Application health checks and logging
 - **CI/CD**: GitHub Actions for automated testing and deployment
 
@@ -166,7 +167,7 @@ Our database is designed with scalability and data integrity in mind:
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Frontend      │    │   Backend API   │    │   Database      │
 │   (Next.js)     │◄──►│   (Spring Boot) │◄──►│   (PostgreSQL)  │
-│   Port: 3000    │    │   Port: 6700    │    │   Port: 5432    │
+│   Port: 5175    │    │   Port: 6700    │    │   Port: 5432    │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
          │                       │                       │
          │                       │                       │
@@ -185,7 +186,7 @@ Our database is designed with scalability and data integrity in mind:
 Before you begin, ensure you have the following installed on your system:
 
 - **Node.js** (v18.0.0 or higher)
-- **Java Development Kit** (JDK 17 or higher)
+- **Java Development Kit** (JDK 21 or higher)
 - **PostgreSQL** (v14.0 or higher)
 - **Docker** and **Docker Compose**
 - **Git** for version control
@@ -203,7 +204,7 @@ cd open-care
 docker-compose up -d
 
 # The application will be available at:
-# - Frontend: http://localhost:3000
+# - Frontend: http://localhost:5175
 # - Backend API: http://localhost:6700
 # - Keycloak: http://localhost:8080
 # - MinIO Console: http://localhost:9001
@@ -216,6 +217,7 @@ Each repository has its own detailed setup instructions:
 1. **Frontend Setup**: Visit [open-care-frontend](https://github.com/Cipher-Text/open-care-frontend) for detailed Next.js setup
 2. **Backend Setup**: Visit [open-care-backend](https://github.com/Cipher-Text/open-care-backend) for detailed Spring Boot setup
 3. **Mobile Setup**: Visit [open-care-mobile](https://github.com/Cipher-Text/open-care-mobile) for detailed React Native setup
+4. **Environment Variables**: See [docs/ENVIRONMENT_VARIABLES.md](docs/ENVIRONMENT_VARIABLES.md) for all configurable env vars across services
 
 ## 💻 Usage
 
@@ -239,7 +241,7 @@ Each repository has its own detailed setup instructions:
 
 ```bash
 # API Usage Example
-curl -X GET "http://localhost:6700/api/v1/doctors?specialty=cardiology&location=dhaka" \
+curl -X GET "http://localhost:6700/api/doctors?specialty=cardiology&location=dhaka" \
   -H "Accept: application/json" \
   -H "Authorization: Bearer <keycloak_token>"
 
@@ -263,7 +265,7 @@ curl -X GET "http://localhost:6700/api/v1/doctors?specialty=cardiology&location=
 
 ### Base URL
 ```
-http://localhost:6700/api/v1
+http://localhost:6700/api
 ```
 
 ### Authentication
@@ -277,18 +279,24 @@ Authorization: Bearer <keycloak_jwt_token>
 
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
-| `GET` | `/doctors` | Get list of doctors | No |
-| `GET` | `/doctors/{id}` | Get doctor details | No |
-| `POST` | `/doctors` | Create doctor profile | Yes |
-| `GET` | `/hospitals` | Get list of hospitals | No |
-| `GET` | `/hospitals/{id}` | Get hospital details | No |
-| `GET` | `/search` | Search medical information | No |
-| `POST` | `/auth/login` | User authentication (Keycloak) | No |
-| `POST` | `/auth/register` | User registration | No |
-| `GET` | `/files/{id}` | Download file from MinIO | Yes |
-| `POST` | `/files/upload` | Upload file to MinIO | Yes |
+| `GET` | `/api/doctors` | Get list of doctors | No |
+| `GET` | `/api/doctors/{id}` | Get doctor details | No |
+| `POST` | `/api/doctors` | Create doctor profile | Yes |
+| `GET` | `/api/hospitals` | Get list of hospitals | No |
+| `GET` | `/api/hospitals/{id}` | Get hospital details | No |
+| `GET` | `/api/institutions` | Get list of institutions | No |
+| `GET` | `/api/social-organizations` | Get list of social organizations | No |
+| `GET` | `/api/ambulances` | Get list of ambulances | No |
+| `GET` | `/api/blood-donations` | Blood donation records | Yes |
+| `GET` | `/api/blood-requisitions` | Blood requisition requests | Yes |
+| `GET` | `/api/health-vitals` | User health vitals | Yes |
+| `GET` | `/api/search` | Search across doctors, hospitals, institutions | No |
+| `GET` | `/api/locations` | Location hierarchy (divisions, districts, upazilas) | No |
+| `POST` | `/api/auth/login` | User authentication (Keycloak) | No |
+| `GET` | `/api/files/{id}` | Download file from MinIO | Yes |
+| `POST` | `/api/files/upload` | Upload file to MinIO | Yes |
 
-For complete API documentation, visit: [API Documentation](http://46.102.157.211:6700/swagger-ui/index.html)
+For complete API documentation, visit: [API Documentation](https://api.opencarebd.com/swagger-ui/index.html)
 
 ## 🗺️ Roadmap
 
@@ -435,7 +443,7 @@ We extend our gratitude to the following resources and communities that made thi
   <p>
     <a href="#readme-top">Back to Top</a> •
     <a href="https://opencarebd.com/">Live Demo</a> •
-    <a href="http://46.102.157.211:6700/swagger-ui/index.html">API Docs</a>
+    <a href="https://api.opencarebd.com/swagger-ui/index.html">API Docs</a>
   </p>
 </div>
 

@@ -8,32 +8,44 @@ flowchart TD
         Profile --> Doctor
         Profile --> HospitalProfile
         Profile --> InstitutionProfile
+        Profile --> BloodDonor
         Profile --> BloodDonations
         Profile --> BloodRequisition
+        Profile --> HealthVital
+        Profile --> UserActivity
     end
 
     subgraph "Medical Entities"
         Hospital --> HospitalMedicalTest
         Hospital --> Ambulance
+        Hospital --> HospitalAmenity
         Institution
+        Nurse
         Doctor --> DoctorDegree
         Doctor --> DoctorWorkplace
+        Doctor --> DoctorAssociation
         MedicalSpeciality
         MedicalTest
+        Medicine
     end
 
     subgraph "Community"
         Association
         SocialOrganization
         Campaign --> Event
+        Tag
     end
 
     subgraph "Supporting Data"
         Degree
-        Medicine
         Rating
         Advertisement
-        HealthVital
+        AdvertisementType
+    end
+
+    subgraph "System"
+        FileStorage
+        SearchIndex
     end
 
 %% Key Relationships
@@ -42,7 +54,16 @@ flowchart TD
     DoctorWorkplace --> MedicalSpeciality
     DoctorWorkplace --> Hospital
     DoctorWorkplace --> Institution
+    DoctorAssociation --> Association
     HospitalMedicalTest --> MedicalTest
+    BloodDonor --> BloodDonations
     LocationHierarchy --> Profile
     LocationHierarchy --> Hospital
+    LocationHierarchy --> Institution
+    Advertisement --> AdvertisementType
+    SearchIndex --> Doctor
+    SearchIndex --> Hospital
+    SearchIndex --> Institution
+    FileStorage --> Profile
+    FileStorage --> Hospital
 ```

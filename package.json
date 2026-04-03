@@ -4,12 +4,7 @@
   "description": "Automated contributor management for multiple repositories",
   "scripts": {
     "contributors:update": "python3 scripts/update_contributors.py",
-    "contributors:check": "python3 scripts/check_contributors.py",
-    "contributors:validate": "python3 scripts/validate_contributors.py",
-    "contributors:stats": "python3 scripts/contributor_stats.py",
-    "setup": "pip install -r requirements.txt",
-    "test": "python3 -m pytest tests/",
-    "lint": "flake8 scripts/"
+    "setup": "pip install -r requirements.txt"
   },
   "repository": {
     "type": "git",
