@@ -23,106 +23,6 @@
 
 ## Backend — Critical Issues
 
-### 1. N+1 Query Problem on Doctor/Hospital Detail Endpoints
-**File:** `controller/DoctorApiController.java:174–206`
-
-Each call to `getDoctorById` fires 1 base query + 1 additional query per optional relation (degrees, workplaces, associations). Under concurrent load this multiplies database connections.
-
-```java
-// Current: 4 separate queries
-Doctor doctor = doctorService.getDoctorById(id);         // Query 1
-doctorDegreeService.getDoctorDegreesByDoctorId(id);      // Query 2
-doctorWorkplaceService.getDoctorWorkplacesByDoctorId(id); // Query 3
-doctorAssociationService.getDoctorAssociationsByDoctorId(id); // Query 4
-
-// Fix: @EntityGraph in repository
-@EntityGraph(attributePaths = {"doctorDegrees", "doctorWorkplaces", "doctorAssociations"})
-Optional<Doctor> findById(Long id);
-```
-
----
-
-### 2. Memory Leak in UserActivityTrackingFilter
-**File:** `config/UserActivityTrackingFilter.java:38`
-
-`ConcurrentHashMap<Long, Instant>` stores profile IDs with timestamps but **never evicts entries**. After months in production this grows unboundedly, eventually causing `OutOfMemoryError`.
-
-```java
-// Current: never-evicting map
-private final ConcurrentHashMap<Long, Instant> lastActivityUpdateCache = new ConcurrentHashMap<>();
-
-// Fix: Caffeine cache with TTL and size cap
-private final Cache<Long, Instant> lastActivityCache = Caffeine.newBuilder()
-    .expireAfterWrite(10, TimeUnit.MINUTES)
-    .maximumSize(50_000)
-    .build();
-```
-
-Additionally, the filter makes a **synchronous DB call** inside the request pipeline (`profileRepository.findByKeycloakUserId`). Should be dispatched asynchronously.
-
----
-
-### 3. RateLimitFilter Thread Serialization
-**File:** `config/RateLimitFilter.java:70`
-
-`synchronized` keyword on `tryConsume()` means every HTTP request acquires a single lock. Throughput ceiling: ~1,000 RPS.
-
-```java
-// Fix: use AtomicInteger + CAS instead of synchronized
-public boolean tryConsume() {
-    refillIfNeeded();
-    int current;
-    do {
-        current = tokens.get();
-        if (current <= 0) return false;
-    } while (!tokens.compareAndSet(current, current - 1));
-    return true;
-}
-```
-
----
-
-### 4. Registration Saga — No Rollback on Failure
-**File:** `service/AuthServiceImpl.java:38`
-
-Keycloak user creation and DB profile creation happen in sequence with no compensation. If the DB insert fails after Keycloak succeeds, an **orphaned Keycloak user** exists with no matching profile. Login becomes permanently broken for that user.
-
-```java
-// Fix: compensating transaction
-String keycloakUserId = null;
-try {
-    keycloakUserId = keycloakService.registerUser(...).block();
-    profileService.createProfile(profile); // if this throws...
-    return new RegistrationResponse(...);
-} catch (Exception e) {
-    if (keycloakUserId != null) {
-        try { keycloakService.deleteUser(keycloakUserId).block(); }
-        catch (Exception ex) { log.error("Orphaned Keycloak user: {}", keycloakUserId, ex); }
-    }
-    throw new RegistrationException("Registration failed", e);
-}
-```
-
-Long-term fix: **Outbox pattern** — write Keycloak event to DB atomically, consume asynchronously.
-
----
-
-### 5. Exception Handler Exposes Internal Details
-**File:** `exception/GlobalExceptionHandler.java:170–179`
-
-```java
-// Current: leaks SQL schema names, file paths, stack details
-"An unexpected error occurred: " + ex.getMessage()
-
-// Fix: sanitize before sending to client
-String clientMessage = (ex instanceof SQLException)
-    ? "A database error occurred"
-    : "An unexpected error occurred";
-log.error("Unhandled exception on {}", request.getRequestURI(), ex); // full trace in logs only
-```
-
----
-
 ## Backend — High Priority
 
 ### 6. Stringly-Typed Paginated Responses
@@ -571,12 +471,12 @@ Low effort, high impact — can be done in a single day:
 | Area | Backend | Frontend | Notes |
 |------|---------|----------|-------|
 | Architecture | ⚠️ Good foundation | ⚠️ Inconsistent patterns | Both need targeted refactoring |
-| Authentication | ⚠️ Saga risk | 🔴 Token desync bug | Frontend is a live bug |
-| Data Fetching | ⚠️ N+1 queries | 🔴 Mixed Query vs useEffect | Dashboard needs full rewrite |
+| Authentication | ✅ Saga compensated (Keycloak rollback) | 🔴 Token desync bug | Frontend is a live bug |
+| Data Fetching | ✅ N+1 fixed (JOIN FETCH) | 🔴 Mixed Query vs useEffect | Dashboard needs full rewrite |
 | Type Safety | ✅ MapStruct + DTOs | ⚠️ Inline type redefs | Backend stronger than frontend |
 | Security | ⚠️ Missing rate limits | 🔴 Client-side auth checks | Both need hardening |
 | Performance | ⚠️ Unbounded queries | ⚠️ No code splitting | Neither is production-scale ready |
-| Error Handling | ⚠️ Leaks internals | 🔴 No error boundaries | Frontend is the worse of the two |
+| Error Handling | ✅ Sanitized (no internal leaks) | 🔴 No error boundaries | Frontend still needs error boundaries |
 | Observability | ❌ No tracing | ❌ No tracing | Neither has distributed tracing |
 | Testing | ❓ TestContainers present | ❓ No tests reviewed | Needs dedicated review pass |
 
