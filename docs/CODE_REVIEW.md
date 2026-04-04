@@ -8,8 +8,7 @@
 
 ## Table of Contents
 
-1. [Backend — Critical Issues](#backend--critical-issues)
-2. [Backend — High Priority](#backend--high-priority)
+1. [Backend — High Priority](#backend--high-priority)
 3. [Backend — Medium Priority](#backend--medium-priority)
 4. [Frontend — Critical Issues](#frontend--critical-issues)
 5. [Frontend — High Priority](#frontend--high-priority)
@@ -21,110 +20,9 @@
 
 ---
 
-## Backend — Critical Issues
-
 ## Backend — High Priority
 
-### 6. Stringly-Typed Paginated Responses
-**Files:** `controller/DoctorApiController.java:124–128`, `controller/HospitalApiController.java:120–124`
-
-`HashMap<String, Object>` used for all paginated responses. No compile-time safety, no IDE autocomplete, breaks silently on key rename.
-
-```java
-// Fix: generic PageResponse record
-public record PageResponse<T>(
-    List<T> content,
-    int currentPage,
-    long totalItems,
-    int totalPages
-) {}
-```
-
----
-
-### 7. Service Layer Bloat — DoctorServiceImpl
-**File:** `service/DoctorServiceImpl.java` — 771 lines, 20+ methods
-
-Mixes read queries, write commands, specification building, and validation. Hard to test, violates Single Responsibility Principle.
-
-**Split into:**
-- `DoctorQueryService` — all read operations
-- `DoctorCommandService` — create / update / delete
-- `SpecificationFactory` — reusable filter/specification builder (currently duplicated across Doctor, Hospital, BloodDonation services)
-
----
-
-### 8. ShedLock Disabled on All Schedulers
-**File:** `scheduler/ReindexScheduler.java:24`
-
-`@SchedulerLock` is **commented out**. In any multi-instance deployment (Docker Compose replicas, Kubernetes), every instance runs the nightly reindex simultaneously — causes duplicate writes to Elasticsearch and wasted compute.
-
-```java
-// Fix: uncomment and configure
-@SchedulerLock(name = "reindexHospitals", lockAtMostFor = "PT2H", lockAtLeastFor = "PT5M")
-@Scheduled(cron = "0 0 2 * * *", zone = "Asia/Dhaka")
-public void reindexHospitalsNightly() { ... }
-```
-
-Also missing: `try/catch` around `hospitalSearchService.indexAllHospitals()`. If Elasticsearch is unreachable, the failure is swallowed silently.
-
----
-
-### 9. Detached Entity Creation in Mappers
-**File:** `mapper/DoctorMapper.java:108–144`
-
-`Tag`, `District`, `Upazila`, `Union` entities are created with only their ID set and returned from mapper methods without a persistence context. Hibernate may attempt phantom inserts on flush.
-
-```java
-// Current: creates detached entity
-Tag tag = new Tag();
-tag.setId(id);
-return tag;
-
-// Fix: use JPA proxy reference — no query, no insert
-return tagRepository.getReferenceById(id);
-```
-
----
-
-### 10. Caffeine Cache Has No TTL or Size Bounds
-**File:** `src/main/resources/application.yml:46–77`
-
-15+ named caches are declared but no `spring.cache.caffeine.spec` is set. Caches grow indefinitely and never expire.
-
-```yaml
-spring:
-  cache:
-    caffeine:
-      spec: "maximumSize=10000,expireAfterWrite=15m"
-```
-
-Individual caches needing different TTLs (e.g., `githubContributors` = 1h, `realtime dashboard` = 30s) should be configured per cache name using `CaffeineCacheManager` bean.
-
----
-
-### 11. Unbounded `findAll()` Calls
-Found in 8+ service methods across `DoctorServiceImpl`, `HospitalServiceImpl`, etc.:
-
-```java
-return doctorRepository.findAll(); // loads entire table into memory
-```
-
-With 10k+ records this will OOM. Either remove or enforce pagination everywhere.
-
----
-
-### 12. No Rate Limiting on Auth Endpoints
-**File:** `config/SecurityConfig.java:51–54`
-
-`/api/auth/**` is `permitAll()` with no request throttling. This opens:
-- Login endpoint to brute-force attacks
-- Registration endpoint to account enumeration + spam
-- Password reset to user enumeration
-
-Add a `RateLimitFilter` specific to auth paths (5 req/min per IP).
-
----
+*All high priority backend issues have been resolved. ✅*
 
 ## Backend — Medium Priority
 
@@ -415,8 +313,8 @@ All endpoints are `/api/*` with no version prefix. Any breaking change to a resp
 | # | Item | Justification |
 |---|------|---------------|
 | F1 | Add `.env.example` to backend + frontend repos | Unblocks contributors, prevents dev-hitting-prod |
-| F2 | Enable Caffeine TTL on all caches | Prevents stale data and memory creep |
-| F3 | Add `PageResponse<T>` DTO | Type-safe pagination across all endpoints |
+| ~~F2~~ | ~~Enable Caffeine TTL on all caches~~ | ✅ Done — `spring.cache.caffeine.spec` set with TTL + size bounds |
+| ~~F3~~ | ~~Add `PageResponse<T>` DTO~~ | ✅ Done — `PageResponse<T>` record in use across all paginated endpoints |
 | F4 | HikariCP connection pool explicit config | Default pool (10 connections) may bottleneck under load |
 | F5 | Structured JSON logging | Required for any log aggregation pipeline |
 
@@ -454,15 +352,15 @@ Low effort, high impact — can be done in a single day:
 | Task | File | Effort |
 |------|------|--------|
 | Remove duplicate QueryClient in admin layout | `admin/layout.tsx:4` | 2 min |
-| Add Caffeine spec to application.yml | `application.yml` | 5 min |
+| ~~Add Caffeine spec to application.yml~~ | ~~`application.yml`~~ | ✅ Done |
 | Add `.env.example` to both repos | Both repos | 15 min |
 | Fix enum valueOf without try/catch in mappers | `HospitalMapper.java:65` | 10 min |
-| Fix exception handler leaking `ex.getMessage()` | `GlobalExceptionHandler.java:178` | 10 min |
+| ~~Fix exception handler leaking `ex.getMessage()`~~ | ~~`GlobalExceptionHandler.java:178`~~ | ✅ Done |
 | Add token expiry check to middleware | `middleware.ts` | 20 min |
 | Add error boundary to root layout | `src/app/layout.tsx` | 30 min |
-| Enable ShedLock on schedulers | `ReindexScheduler.java` | 10 min |
+| ~~Enable ShedLock on schedulers~~ | ~~`ReindexScheduler.java`~~ | ✅ Done |
 | Fail loudly on missing API URL config | `src/config/config.ts` | 5 min |
-| Add try/catch to ReindexScheduler methods | `ReindexScheduler.java` | 10 min |
+| ~~Add try/catch to ReindexScheduler methods~~ | ~~`ReindexScheduler.java`~~ | ✅ Done |
 
 ---
 
@@ -470,12 +368,12 @@ Low effort, high impact — can be done in a single day:
 
 | Area | Backend | Frontend | Notes |
 |------|---------|----------|-------|
-| Architecture | ⚠️ Good foundation | ⚠️ Inconsistent patterns | Both need targeted refactoring |
+| Architecture | ✅ Query/Command split (DoctorServiceImpl) | ⚠️ Inconsistent patterns | Frontend still needs targeted refactoring |
 | Authentication | ✅ Saga compensated (Keycloak rollback) | 🔴 Token desync bug | Frontend is a live bug |
 | Data Fetching | ✅ N+1 fixed (JOIN FETCH) | 🔴 Mixed Query vs useEffect | Dashboard needs full rewrite |
-| Type Safety | ✅ MapStruct + DTOs | ⚠️ Inline type redefs | Backend stronger than frontend |
-| Security | ⚠️ Missing rate limits | 🔴 Client-side auth checks | Both need hardening |
-| Performance | ⚠️ Unbounded queries | ⚠️ No code splitting | Neither is production-scale ready |
+| Type Safety | ✅ MapStruct + DTOs + PageResponse | ⚠️ Inline type redefs | Backend stronger than frontend |
+| Security | ✅ Auth rate limiting added | 🔴 Client-side auth checks | Frontend still needs hardening |
+| Performance | ✅ Queries capped at 1000 | ⚠️ No code splitting | Frontend still needs code splitting |
 | Error Handling | ✅ Sanitized (no internal leaks) | 🔴 No error boundaries | Frontend still needs error boundaries |
 | Observability | ❌ No tracing | ❌ No tracing | Neither has distributed tracing |
 | Testing | ❓ TestContainers present | ❓ No tests reviewed | Needs dedicated review pass |
