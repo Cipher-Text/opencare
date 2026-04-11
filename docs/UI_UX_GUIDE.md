@@ -716,7 +716,7 @@ admin/
 7. **patient/appointments/** - Appointment booking system
 8. **doctor/appointments/** - Doctor appointment management
 9. **patient/health-records/** - Document management
-10. **doctor/prescriptions/** - Prescription system (based on Medicine entity)
+10. **doctor/prescriptions/** - Prescription system *(temporary standalone service exists; will be built natively in main backend/frontend)*
 11. **directory/search** - Advanced search functionality
 12. **hospital-admin/dashboard** - Hospital admin basics (based on Hospital entity)
 
@@ -775,7 +775,10 @@ admin/
 
 ---
 
-## 📱 **Mobile-Specific Pages**
+## 📱 **Mobile-Specific Pages** *(Future — mobile app not yet started)*
+
+> The mobile application is planned for Phase 3. The pages below are design intent for when
+> mobile development begins. Do not build these as part of current web frontend work.
 
 ### **Quick Actions**
 - **Emergency call** - Direct emergency services

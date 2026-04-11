@@ -8,15 +8,15 @@
 
 ## Table of Contents
 
-1. [Backend — High Priority](#backend--high-priority)
-3. [Backend — Medium Priority](#backend--medium-priority)
-4. [Frontend — Critical Issues](#frontend--critical-issues)
-5. [Frontend — High Priority](#frontend--high-priority)
-6. [Frontend — Medium Priority](#frontend--medium-priority)
-7. [Cross-Cutting Concerns](#cross-cutting-concerns)
-8. [Future Architecture Roadmap](#future-architecture-roadmap)
-9. [Quick Wins](#quick-wins)
-10. [Health Summary](#health-summary)
+1. [Backend — High Priority (Security)](#backend--high-priority-security)
+2. [Backend — Medium Priority](#backend--medium-priority)
+3. [Frontend — Critical Issues](#frontend--critical-issues)
+4. [Frontend — High Priority](#frontend--high-priority)
+5. [Frontend — Medium Priority](#frontend--medium-priority)
+6. [Cross-Cutting Concerns](#cross-cutting-concerns)
+7. [Future Architecture Roadmap](#future-architecture-roadmap)
+8. [Quick Wins](#quick-wins)
+9. [Health Summary](#health-summary)
 
 ---
 

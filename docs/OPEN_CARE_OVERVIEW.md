@@ -57,9 +57,10 @@ flowchart TD
     DoctorAssociation --> Association
     HospitalMedicalTest --> MedicalTest
     BloodDonor --> BloodDonations
-    LocationHierarchy --> Profile
-    LocationHierarchy --> Hospital
-    LocationHierarchy --> Institution
+    District --> Profile
+    District --> Hospital
+    District --> Institution
+    Upazila --> Profile
     Advertisement --> AdvertisementType
     SearchIndex --> Doctor
     SearchIndex --> Hospital

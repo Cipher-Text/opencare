@@ -80,7 +80,7 @@ This table tracks which features in the matrix above are actually implemented vs
 | 3 | Video Consultation | ❌ | ❌ | No implementation started |
 | 4 | Medical Report Storage | ✅ MinIO | ❌ | File upload/download works; no patient-facing report management UI |
 | 5 | Prescription History View | 🚧 | ❌ | Temporary standalone service (`open-care-prescription-management`) handles early use; will be replaced by native feature built directly in main backend/frontend |
-| 6 | Health Vitals Dashboard | ✅ | ⚠️ | Backend full CRUD; frontend only fetches latest — 7 endpoints not wired |
+| 6 | Health Vitals Dashboard | ⚠️ | ⚠️ | Backend CRUD exists but has open IDOR vulnerability (any user can read any patient's data — see CODE_REVIEW.md security item 1); frontend only fetches latest, 7 endpoints not wired |
 | 7 | Doctor Blog Reading | ❌ | ❌ | No blog entity, API, or UI |
 | 8 | Blog Writing (Verified Doctor) | ❌ | ❌ | No blog entity, API, or UI |
 | 10 | Emergency Contact & Location Map | ✅ Ambulance API | ⚠️ | API exists; map UI not confirmed |

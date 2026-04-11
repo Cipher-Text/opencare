@@ -2,6 +2,10 @@
 
 This document covers all environment variables for the OpenCare platform services.
 
+**Required** = the service will fail to start without this value.
+**Optional** = has a working default; override only when needed.
+**Planned** = variable is documented for a feature not yet fully implemented.
+
 ---
 
 ## Backend (`open-care-backend`)
@@ -10,82 +14,84 @@ Create an `application-local.yml` or set these as system/Docker environment vari
 
 ### Server
 
-| Variable | Default | Description |
-|---|---|---|
-| `SERVER_PORT` | `6700` | HTTP port the backend listens on |
+| Variable | Default | Required | Description |
+|---|---|---|---|
+| `SERVER_PORT` | `6700` | Optional | HTTP port the backend listens on |
 
 ### Database (PostgreSQL)
 
-| Variable | Default | Description |
-|---|---|---|
-| `DB_HOSTNAME` | `localhost` | PostgreSQL host |
-| `DB_PORT` | `5432` | PostgreSQL port |
-| `POSTGRES_USERNAME` | `postgres` | Database username |
-| `POSTGRES_PASSWORD` | `12345678` | Database password |
+| Variable | Default | Required | Description |
+|---|---|---|---|
+| `DB_HOSTNAME` | `localhost` | **Required** | PostgreSQL host |
+| `DB_PORT` | `5432` | Optional | PostgreSQL port |
+| `POSTGRES_USERNAME` | `postgres` | **Required** | Database username |
+| `POSTGRES_PASSWORD` | `12345678` | **Required** | Database password — change in all non-local environments |
 
 > Database name is `open_care`, schema is `opencare`.
 
 ### Authentication (Keycloak)
 
-| Variable | Default | Description |
-|---|---|---|
-| `KEYCLOAK_SERVER_URL` | `http://localhost:8080` | Keycloak server base URL |
-| `KEYCLOAK_REALM` | `opencare` | Keycloak realm name |
+| Variable | Default | Required | Description |
+|---|---|---|---|
+| `KEYCLOAK_SERVER_URL` | `http://localhost:8080` | **Required** | Keycloak server base URL |
+| `KEYCLOAK_REALM` | `opencare` | **Required** | Keycloak realm name |
 
 > The backend validates JWTs issued by Keycloak. Ensure the realm exists and the client is configured before starting the backend.
 
 ### File Storage (MinIO)
 
-| Variable | Default | Description |
-|---|---|---|
-| `MINIO_ENDPOINT` | `http://127.0.0.1:9000` | MinIO server URL |
-| `MINIO_ACCESS_KEY` | `minioadmin` | MinIO access key |
-| `MINIO_SECRET_KEY` | `minioadmin123` | MinIO secret key |
-| `MINIO_BUCKET_NAME` | `opencare` | Bucket name for file uploads |
+| Variable | Default | Required | Description |
+|---|---|---|---|
+| `MINIO_ENDPOINT` | `http://127.0.0.1:9000` | **Required** | MinIO server URL |
+| `MINIO_ACCESS_KEY` | `minioadmin` | **Required** | MinIO access key |
+| `MINIO_SECRET_KEY` | `minioadmin123` | **Required** | MinIO secret key — change in all non-local environments |
+| `MINIO_BUCKET_NAME` | `opencare` | Optional | Bucket name for file uploads |
 
 ### Search (Elasticsearch)
 
-| Variable | Default | Description |
-|---|---|---|
-| `ELASTICSEARCH_HOST` | `localhost` | Elasticsearch host |
-| `ELASTICSEARCH_PORT` | `9200` | Elasticsearch port |
-| `SEARCH_DOCTORS_ENABLED` | `true` | Enable doctor search indexing |
-| `SEARCH_DOCTORS_MAX_RESULTS` | `100` | Max results for doctor search |
-| `SEARCH_HOSPITALS_ENABLED` | `true` | Enable hospital search indexing |
-| `SEARCH_HOSPITALS_MAX_RESULTS` | `100` | Max results for hospital search |
-| `SEARCH_INSTITUTIONS_ENABLED` | `true` | Enable institution search indexing |
-| `SEARCH_INSTITUTIONS_MAX_RESULTS` | `100` | Max results for institution search |
-| `SEARCH_CACHE_ENABLED` | `true` | Enable search result caching |
-| `SEARCH_CACHE_TTL` | `300` | Search cache TTL in seconds |
-| `SEARCH_CACHE_MAX_SIZE` | `1000` | Max search cache entries |
+| Variable | Default | Required | Description |
+|---|---|---|---|
+| `ELASTICSEARCH_HOST` | `localhost` | **Required** | Elasticsearch host |
+| `ELASTICSEARCH_PORT` | `9200` | Optional | Elasticsearch port |
+| `SEARCH_HOSPITALS_ENABLED` | `true` | Optional | Enable hospital search indexing via Elasticsearch |
+| `SEARCH_HOSPITALS_MAX_RESULTS` | `100` | Optional | Max results for hospital search |
+| `SEARCH_DOCTORS_ENABLED` | `true` | Planned | Enable doctor search indexing — *doctor Elasticsearch index not yet implemented; falls back to PostgreSQL* |
+| `SEARCH_DOCTORS_MAX_RESULTS` | `100` | Planned | Max results for doctor search |
+| `SEARCH_INSTITUTIONS_ENABLED` | `true` | Planned | Enable institution search indexing — *not yet implemented* |
+| `SEARCH_INSTITUTIONS_MAX_RESULTS` | `100` | Planned | Max results for institution search |
+| `SEARCH_CACHE_ENABLED` | `true` | Optional | Enable search result caching |
+| `SEARCH_CACHE_TTL` | `300` | Optional | Search cache TTL in seconds |
+| `SEARCH_CACHE_MAX_SIZE` | `1000` | Optional | Max search cache entries |
 
 ### Rate Limiting
 
-| Variable | Default | Description |
-|---|---|---|
-| `RATE_LIMITING_ENABLED` | `true` | Enable API rate limiting |
-| `RATE_LIMITING_LIMIT` | `100` | Max requests per window |
-| `RATE_LIMITING_REFRESH_PERIOD` | `60` | Rate limit window in seconds |
+| Variable | Default | Required | Description |
+|---|---|---|---|
+| `RATE_LIMITING_ENABLED` | `true` | Optional | Enable API rate limiting on auth endpoints |
+| `RATE_LIMITING_LIMIT` | `100` | Optional | Max requests per window |
+| `RATE_LIMITING_REFRESH_PERIOD` | `60` | Optional | Rate limit window in seconds |
+
+> Rate limiting currently applies to authentication endpoints only. Rate limiting for public directory endpoints (doctors, hospitals, blood donors) is a planned enhancement — see `CODE_REVIEW.md` item M8.
 
 ### Frontend Integration
 
-| Variable | Default | Description |
-|---|---|---|
-| `FRONTEND_REDIRECT_URI` | `http://localhost:5173/callback` | OAuth2 redirect URI after login |
+| Variable | Default | Required | Description |
+|---|---|---|---|
+| `FRONTEND_REDIRECT_URI` | `http://localhost:5175/callback` | **Required** | OAuth2 redirect URI after login — must match the Keycloak client config |
 
 ### GitHub Integration
 
-| Variable | Default | Description |
-|---|---|---|
-| `GITHUB_TOKEN` | _(required)_ | GitHub personal access token for contributor stats API |
+| Variable | Default | Required | Description |
+|---|---|---|---|
+| `GITHUB_TOKEN` | — | Optional | GitHub personal access token for contributor stats API. Service starts without it; GitHub endpoints return empty data. |
 
 ### Logging
 
-| Variable | Default | Description |
-|---|---|---|
-| `LOGGING_LEVEL_ROOT` | `error` | Root log level (`error`, `warn`, `info`, `debug`) |
-| `LOGGING_LEVEL_SQL` | `debug` | SQL query log level |
-| `LOGGING_LEVEL_WEB` | `debug` | Web request log level |
+| Variable | Default | Required | Description |
+|---|---|---|---|
+| `LOGGING_LEVEL_ROOT` | `error` | Optional | Root log level (`error`, `warn`, `info`, `debug`) |
+| `LOGGING_LEVEL_SQL` | `debug` | Optional | SQL query log level |
+| `LOGGING_LEVEL_WEB` | `debug` | Optional | Web request log level |
 
 ### Example `.env` for Docker Compose
 
@@ -119,14 +125,14 @@ LOGGING_LEVEL_ROOT=error
 
 ## Frontend (`open-care-frontend`)
 
-Create a `.env.local` file in the project root.
+Create a `.env.local` file in the project root. Frontend runs on port **5175** by default.
 
-| Variable | Default | Description |
-|---|---|---|
-| `NEXT_PUBLIC_API_BASE_URL` | `https://api.opencarebd.com/api` | Backend API base URL |
-| `NEXT_PUBLIC_API_URL` | _(fallback for above)_ | Alternative env var name for API base URL |
+| Variable | Default | Required | Description |
+|---|---|---|---|
+| `NEXT_PUBLIC_API_BASE_URL` | `https://api.opencarebd.com/api` | **Required** | Backend API base URL. Always set this in local development — see warning below. |
+| `NEXT_PUBLIC_API_URL` | _(fallback for above)_ | Optional | Alternative env var name accepted as a fallback |
 
-> If neither variable is set, the frontend falls back to `https://api.opencarebd.com/api`.
+> **Warning:** If neither variable is set, the frontend silently calls `https://api.opencarebd.com/api` (production). A developer without `.env.local` will unknowingly read and mutate production data. Always create `.env.local` before starting the frontend locally. See `CODE_REVIEW.md` item 28.
 
 ### Example `.env.local`
 

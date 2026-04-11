@@ -311,7 +311,7 @@ For complete API documentation, visit: [API Documentation](https://api.opencareb
 - [x] MinIO file storage integration
 - [x] Elasticsearch-powered hospital search
 - [x] Responsive web interface
-- [x] Health vitals tracking (basic CRUD)
+- [ ] Health vitals tracking *(backend CRUD built; open security issues block patient use — see CODE_REVIEW.md)*
 - [ ] Mobile application (React Native) — *planned*
 
 ### Phase 2: Enhanced Features 🚧
