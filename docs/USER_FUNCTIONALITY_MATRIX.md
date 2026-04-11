@@ -69,4 +69,27 @@ This document outlines the core and premium functionalities available to various
 
 ---
 
-Let me know if you'd like this split into separate files (per role), or integrated into your admin config table or CMS.
+## 🚦 Implementation Status (April 2026)
+
+This table tracks which features in the matrix above are actually implemented vs. still pending. Keep this updated as features ship.
+
+| # | Feature | Backend | Frontend | Notes |
+|---|---------|---------|----------|-------|
+| 1 | View Doctor Profiles | ✅ | ✅ | Public listing live |
+| 2 | Book Doctor Appointments | 🚧 | ❌ | DB schema complete (`appointment` table); entity/service/API layer not yet built |
+| 3 | Video Consultation | ❌ | ❌ | No implementation started |
+| 4 | Medical Report Storage | ✅ MinIO | ❌ | File upload/download works; no patient-facing report management UI |
+| 5 | Prescription History View | 🚧 | ❌ | Temporary standalone service (`open-care-prescription-management`) handles early use; will be replaced by native feature built directly in main backend/frontend |
+| 6 | Health Vitals Dashboard | ✅ | ⚠️ | Backend full CRUD; frontend only fetches latest — 7 endpoints not wired |
+| 7 | Doctor Blog Reading | ❌ | ❌ | No blog entity, API, or UI |
+| 8 | Blog Writing (Verified Doctor) | ❌ | ❌ | No blog entity, API, or UI |
+| 10 | Emergency Contact & Location Map | ✅ Ambulance API | ⚠️ | API exists; map UI not confirmed |
+| 11 | Hospital Amenity Search | ✅ | ✅ | Live |
+| 12 | Patient Contribution Points | ⚠️ | ❌ | `contribution_points` column exists on Profile; no write logic |
+| 13 | Notification System | ❌ | ❌ | No implementation started |
+| 18 | Online Bill / Donation Collection | ❌ | ❌ | Payment gateways planned but not implemented |
+| 20 | Doctor Verification System | ⚠️ | ❌ | Boolean flag only; no workflow, no document upload, no audit trail |
+| 1 (reviews) | Patient Reviews / Quality Ratings | ⚠️ | ❌ | DB schema (`rating` table) exists; no write API, no UI — **not live despite being advertised** |
+| 25 | Health Campaign Participation | ⚠️ | ❌ | `campaign` table exists; no entity or API |
+
+**Legend:** ✅ Live · ⚠️ Partially built · 🚧 Schema/service exists, needs integration · ❌ Not started

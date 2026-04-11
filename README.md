@@ -99,7 +99,8 @@ This project is organized into separate repositories for better maintainability 
 |------------|-------------|--------------|--------|
 | **[Frontend Repository](https://github.com/Cipher-Text/open-care-frontend)** | Next.js web application with modern UI/UX | Next.js, React, TailwindCSS, TypeScript | ✅ Active |
 | **[Backend Repository](https://github.com/Cipher-Text/open-care-backend)** | RESTful API server with comprehensive medical data management | Java, Spring Boot, PostgreSQL, Swagger | ✅ Active |
-| **[Mobile Repository](https://github.com/Cipher-Text/open-care-mobile)** | Cross-platform mobile application | React Native, TypeScript, Expo | ✅ Active |
+| **[Prescription Service](https://github.com/Cipher-Text/open-care-prescription-management)** | Temporary standalone e-prescription service — will be replaced by native prescription feature in the main backend/frontend | Java, Spring Boot, PostgreSQL | ⚠️ Temporary |
+| **[Mobile Repository](https://github.com/Cipher-Text/open-care-mobile)** | Cross-platform mobile application — not yet started; planned for a future phase | React Native, TypeScript, Expo | 🔮 Future |
 
 ## 🌐 Live Demo & API
 
@@ -121,13 +122,9 @@ This project is organized into separate repositories for better maintainability 
 - **HTTP Client**: Fetch API via TanStack Query
 - **Type Safety**: TypeScript for enhanced development experience
 
-### Mobile
-- **Framework**: [React Native](https://reactnative.dev/) - Cross-platform mobile development
-- **Development Platform**: [Expo](https://expo.dev/) - Development and deployment platform
-- **Navigation**: React Navigation for seamless app navigation
-- **State Management**: Redux Toolkit / React Context API
-- **UI Components**: Native Base / React Native Elements
-- **Type Safety**: TypeScript for enhanced development experience
+### Mobile *(Future — not yet started)*
+- **Framework**: [React Native](https://reactnative.dev/) - planned for cross-platform mobile development
+- **Development Platform**: [Expo](https://expo.dev/) - planned development and deployment platform
 
 ### Backend
 - **Runtime**: [Java 21](https://www.java.com/) - Enterprise-grade runtime environment
@@ -163,22 +160,26 @@ Our database is designed with scalability and data integrity in mind:
 - **Reviews & Ratings**: Community feedback system with moderation
 - **File Management**: MinIO integration for secure file storage and retrieval
 
-### System Architecture
+### Current System Architecture (Monolith)
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Frontend      │    │   Backend API   │    │   Database      │
 │   (Next.js)     │◄──►│   (Spring Boot) │◄──►│   (PostgreSQL)  │
 │   Port: 5175    │    │   Port: 6700    │    │   Port: 5432    │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                       │                       │
-         │                       │                       │
-         ▼                       ▼                       ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Mobile App    │    │   Keycloak      │    │   MinIO         │
-│   (React Native)│    │   (Auth Server) │    │   (File Storage)│
-│   Port: 19000   │    │   Port: 8080    │    │   Port: 9000    │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
+                                │                       │
+                                │                       │
+                                ▼                       ▼
+                       ┌─────────────────┐    ┌─────────────────┐
+                       │   Keycloak      │    │   MinIO         │
+                       │   (Auth Server) │    │   (File Storage)│
+                       │   Port: 8080    │    │   Port: 9000    │
+                       └─────────────────┘    └─────────────────┘
 ```
+
+> **Note on prescription management**: A temporary standalone service (`open-care-prescription-management`, port 6701) exists for early use. It will be retired once prescription features are built natively into the main backend and frontend.
+
+> **Note on architecture evolution**: The platform is intentionally a monolith at this stage. Migration to microservices is planned for a future phase when user growth and revenue justify the operational overhead.
 
 ## 🚀 Getting Started
 
@@ -217,8 +218,7 @@ Each repository has its own detailed setup instructions:
 
 1. **Frontend Setup**: Visit [open-care-frontend](https://github.com/Cipher-Text/open-care-frontend) for detailed Next.js setup
 2. **Backend Setup**: Visit [open-care-backend](https://github.com/Cipher-Text/open-care-backend) for detailed Spring Boot setup
-3. **Mobile Setup**: Visit [open-care-mobile](https://github.com/Cipher-Text/open-care-mobile) for detailed React Native setup
-4. **Environment Variables**: See [docs/ENVIRONMENT_VARIABLES.md](docs/ENVIRONMENT_VARIABLES.md) for all configurable env vars across services
+3. **Environment Variables**: See [docs/ENVIRONMENT_VARIABLES.md](docs/ENVIRONMENT_VARIABLES.md) for all configurable env vars across services
 
 ## 💻 Usage
 
@@ -235,7 +235,7 @@ Each repository has its own detailed setup instructions:
 1. **Doctor Search**: Find qualified healthcare professionals in your area
 2. **Hospital Lookup**: Locate nearby medical facilities and services
 3. **Medical Information**: Access reliable, evidence-based medical content
-4. **Cross-Platform Access**: Use the web application or mobile app
+4. **Cross-Platform Access**: Use the web application (mobile app planned for a future phase)
 5. **Document Storage**: Securely store and access medical documents
 
 ### For Developers
@@ -304,28 +304,35 @@ For complete API documentation, visit: [API Documentation](https://api.opencareb
 ### Phase 1: Core Features ✅
 - [x] Doctor directory with search functionality
 - [x] Hospital database with location-based search
-- [x] Basic medical information repository
-- [x] Keycloak authentication system
+- [x] Blood donation & requisition management
+- [x] Ambulance services directory
+- [x] Social organization management
+- [x] Keycloak authentication & role-based access control
 - [x] MinIO file storage integration
+- [x] Elasticsearch-powered hospital search
 - [x] Responsive web interface
-- [x] Mobile application (React Native)
+- [x] Health vitals tracking (basic CRUD)
+- [ ] Mobile application (React Native) — *planned*
 
 ### Phase 2: Enhanced Features 🚧
-- [ ] Advanced search with AI-powered recommendations
-- [ ] Telemedicine integration
-- [ ] Appointment booking system
-- [ ] Patient health records management
-- [ ] Push notifications for mobile app
+- [ ] Appointment booking system *(DB schema complete; entity/API layer pending)*
+- [ ] Doctor verification workflow *(boolean flag exists; full workflow pending)*
+- [ ] Ratings & reviews *(DB schema exists; write API pending)*
+- [ ] Prescription management *(temporary standalone service exists; will be rebuilt natively in main backend/frontend)*
+- [ ] Patient health records (encounter, condition, medication history)
+- [ ] Push notifications (SMS, email, in-app)
+- [ ] Telemedicine / video consultations
+- [ ] Payment integration (SSLCommerz, Stripe)
 
 ### Phase 3: Advanced Features 📋
-- [ ] Multi-language support (Bengali, Hindi, Spanish)
+- [ ] Multi-language support (Bengali + English, others later)
 - [ ] Real-time chat with healthcare professionals
 - [ ] AI-powered symptom checker
 - [ ] Integration with wearable health devices
-- [ ] Emergency services locator
-- [ ] Offline mode for mobile app
+- [ ] Mobile application (React Native + Expo) — *starts here*
 
-### Phase 4: Expansion 🌍
+### Phase 4: Scale & Expansion 🌍
+- [ ] Microservices migration *(when user growth and revenue justify the operational overhead)*
 - [ ] International healthcare provider network
 - [ ] Medical insurance integration
 - [ ] Pharmaceutical information database
@@ -342,7 +349,7 @@ For comprehensive project management guidelines including GitHub workflow, issue
 
 ### Quick Start for Contributors
 
-1. **Choose a Repository**: Frontend, Backend, or Mobile
+1. **Choose a Repository**: Frontend or Backend
 2. **Read Guidelines**: Check the specific contribution guidelines for your chosen repository
 3. **Set Up Development Environment**: Follow the setup instructions in the respective repository
 4. **Pick an Issue**: Look for "good first issue" labels on our GitHub issues
@@ -354,7 +361,6 @@ For comprehensive project management guidelines including GitHub workflow, issue
 
 - **Frontend Development**: Next.js components and features
 - **Backend Development**: Spring Boot APIs and services
-- **Mobile Development**: React Native features and improvements
 - **Database**: Schema improvements and optimization
 - **Documentation**: Technical and user documentation
 - **Testing**: Unit tests, integration tests, and end-to-end tests
